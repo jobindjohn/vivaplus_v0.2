@@ -6,7 +6,7 @@ site_author: VIVA Plus Team
 
 nav:
     - Home: index.md
-    - Users Guide:
+    - User Guide:
         - Getting Started: user-guide/getting-started.md
         - Model Data Structure: user-guide/model-data-structure.md
     - Model:
@@ -15,7 +15,7 @@ nav:
         - Upper Extremities: model-doc/upper-extremities.md
         - Thorax and Abdomen: model-doc/thorax-and-abdomen.md
         - Pelvis and Lower Extremities: model-doc/pelvis-and-lower-extremities.md
-    - Contributors Guide:
+    - Contributor Guide:
         - Getting Started with Git: contributor-guide/getting-started-with-git.md
         - Contribute to Documentation: contributor-guide/contribute-to-documentation.md
-theme: mkdocs
+theme: readthedocs
