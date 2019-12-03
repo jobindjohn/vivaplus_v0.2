@@ -6,9 +6,9 @@ site_author: VIVA Plus Team
 
 nav:
     - Home: index.md
-    - User Guide:
-        - Getting Started: user-guide/getting-started.md
-        - Model Data Structure: user-guide/model-data-structure.md
+    - 'User Guide':
+        - 'Getting Started': 'user-guide/getting-started.md'
+        - 'Model Data Structure': 'user-guide/model-data-structure.md'
     - Model:
         - Anthropometry: model-doc/anthro.md
         - Head-Neck: model-doc/head-neck.md
