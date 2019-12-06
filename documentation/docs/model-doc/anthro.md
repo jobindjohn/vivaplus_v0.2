@@ -1,6 +1,7 @@
 # Anthropometry
 
 ##AF50
+
 |         | AF50    |
 | ------- | --------|
 | Stature | 1.616 m  |
