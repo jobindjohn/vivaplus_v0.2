@@ -1,4 +1,4 @@
-site_name: VIVA Plus Human Body Models
+site_name: VIVA+ Human Body Models
 site_url: https://
 site_description: Project documentation
 site_author: VIVA Plus Team
@@ -9,7 +9,7 @@ nav:
     - 'User Guide':
         - 'Getting Started': 'user-guide/getting-started.md'
         - 'Model Data Structure': 'user-guide/model-data-structure.md'
-    - Model:
+    - Model Documentation:
         - Anthropometry: model-doc/anthro.md
         - Head-Neck: model-doc/head-neck.md
         - Upper Extremities: model-doc/upper-extremities.md
