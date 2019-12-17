@@ -14,8 +14,13 @@ nav:
         - Head-Neck: model-doc/head-neck.md
         - Upper Extremities: model-doc/upper-extremities.md
         - Thorax and Abdomen: model-doc/thorax-and-abdomen.md
-        - Pelvis and Lower Extremities: model-doc/pelvis-and-lower-extremities.md
+        - Pelvis and Lower Extremities: 'model-doc/pelvis-and-lower-extremities.md'
+        - Control Card Guidelines: 'model-doc/control-card-guidelines.md'
     - Contributor Guide:
         - Getting Started with Git: contributor-guide/getting-started-with-git.md
         - Contribute to Documentation: contributor-guide/contribute-to-documentation.md
-theme: readthedocs
+theme: mkdocs
+
+markdown_extensions:
+  - footnotes
+  - pymdownx.arithmatex
