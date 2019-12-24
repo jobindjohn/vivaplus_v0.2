@@ -7,6 +7,8 @@ The anthropometry of VIVA+ average male and female models is given below.
 | Average Male (M50)        |  1.753 |  25 |  50 |
 | Average Female (F50)     |  1.616 |  24 |  50 |
 
+Reference anthropometry
+
 
 These metrics correspond to the target specified for average dummies from the anthropometric study by Schneider et al. (1983)[^1], which forms the basis for most of dummies and computational models in use today. The target average recommended by Schneider et al. corresponded to the average data of the U.S. population from the National Health and Nutrition Examination Survey 1971-74. Populations around the world have seen a gradual change since then, primarily exhibiting an increasing trend in body mass [^2] [^3] [^4]. The VIVA+ baseline models, however, correspond to the anthropometry of widely used dummies and other computational models for purposes of comparison/similarity.
 
