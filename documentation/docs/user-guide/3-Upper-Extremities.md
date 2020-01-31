@@ -19,8 +19,9 @@
 
 **Component Identifier**|**Description**
 :-----:|:-----:
-30 510 0 | Upper Arm
-30 520 0 | Elbow
-30 530 0 | Lower Arm
-70 540 0 | Wrist
-70 570 0 | Hand
+30 510 0 | Shoulder
+30 520 0 | Upper Arm
+30 530 0 | Elbow
+30 540 0 | Lower Arm
+70 550 0 | Wrist
+70 560 0 | Hand
