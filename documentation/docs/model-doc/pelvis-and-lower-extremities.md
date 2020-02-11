@@ -8,6 +8,8 @@ Pelvic ligaments were modelled with tension only cable elements with material pr
 
 Material properties for the pelvic ligaments are descibed in Hammer et al. (2013)).
 
+Pelvis + Flesh should be validated with tests from Viano (1989)
+
 ## Hip Joint
 
 For the pedestrian a proper modelling of the tensile force transferred from the femur to the pelvis has to be modelled.
@@ -31,7 +33,6 @@ Modulus of Elasticity at 0% (MPa)
 ||Middle|1.9|3.3|3.9|
 ||Femoral|1.0|2.2|2.1|
 ||average|2.0|2.8|3.6|
-
 Modulus of Elasticity at 80% of failure strain (MPa)
 ||Acetabular|112.9|285.8|80.9|
 ||Middle|113.3|242.2|99.5|
@@ -73,3 +74,5 @@ Hewitt, J., Guilak, F., Glisson, R. and Vail, T.P. (2001), “Regional material 
 Fleps, I., Enns-Bray, W.S., Guy, P., Ferguson, S.J., Cripton, P.A. and Helgason, B. (2018), “On the internal reaction forces, energy absorption, and fracture in the hip during simulated sideways fall impact”, PLOS ONE, Vol. 13 No. 8, e0200952. doi: 10.1371/journal.pone.0200952.
 
 Hammer, N., Steinke, H., Lingslebe, U., Bechmann, I., Josten, C., Slowik, V. and Böhme, J. (2013), “Ligamentous influence in pelvic load distribution”, The Spine Journal, Vol. 13 No. 10, pp. 1321–1330. doi: 10.1016/j.spinee.2013.03.050.
+
+Viano, D.C. (1989), “Biomechanical Responses and Injuries in Blunt Lateral Impact”, 33rd Stapp Car Crash Conference Proceedings, 4.10.1989, SAE International.
