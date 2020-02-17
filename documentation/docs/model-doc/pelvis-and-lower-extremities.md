@@ -77,13 +77,13 @@ Ligaments were attached to the bones based on the anatomic landmarks descirbed i
 
 ####Lateral Collateral Ligament (LCL)
 
-According to Kamath et al.39, the femoral LCL insertion(black dot) is 58%±4.7% across the width of the lateral femoral condyle along the Blumensaat line and 2.3±2.3 mm distal to this point.
+LaPrade et al.(2003): "The average cross-sectional area of the fibular collateral ligament attachment site on the femur was 0.48 cm2 (range, 0.43 to 0.52).
 
-n the technique described by Meister et al.35, a line is drawn along the posterior border of the femoral shaft (blue solid line). Then, a line is drawnperpendicular to thefirst through the maximum anterior-to-posterior diameter of the lateral femoral condyle (red solid line). The length of thesecond line is multiplied by 0.27 to obtain equidistant points. With use of this number, 3 locations are measured and marked from the posterioraspect (red dotted lines) and distal aspect (blue dotted lines) of the lateral femoral condyle. The marked points are connected by 2 curved lines(green and purple lines), and the point of intersection of these 2 lines locates the center of the femoral insertion of the LCL.
+#####Femur Attachment
+According to Kamath et al. (2010), the femoral LCL insertion(black dot) is 58%±4.7% across the width of the lateral femoral condyle along the Blumensaat line and 2.3±2.3 mm distal to this point.
 
-LaPrade et al., 2003: "The average cross-sectional area of the fibular collateral ligament attachment site on the femur was 0.48 cm2 (range, 0.43 to 0.52).
 
-Fibula attachement:
+#####Fibula attachement:
 LaPrade, 2003: "As the fibular collateral ligament coursed distally and
 attached on the lateral aspect of the fibular head, its
 average attachment was 8.2 mm (range, 6.8 to 9.7) posterior
@@ -105,19 +105,31 @@ was 69.6 mm (range, 62.6 to 73.5)."
 
 ####Medial Collateral Ligament (MCL)
 
+based on Wijdicks et al. 2009 - values in table 5 will be used
+
+pictures taken from Prince et al. (2015)
+
 ![Anaomic landamrks for MCL](https://ars.els-cdn.com/content/image/1-s2.0-S2212628715001401-gr1.jpg)
+
+#####Femur attachement
 
 ![Femur attachement point](https://ars.els-cdn.com/content/image/1-s2.0-S2212628715001401-gr5.jpg)
 
 "line 1 is an extension of the posterior femoral cortex, and line 2 is drawn perpendicular to line 1, intersecting the most posterior aspect of the Blumensaat line"
 "The femoral attachment of the sMCL was found to be, on average, 8.6 mm anterior to the posterior femoral cortex line and 11.0 mm distal to the intersection of the posterior femoral cortex line (line 1) and the line intersecting the posterior aspect of the Blumensaat line (line 2)"
 
+##### Tibia attachement
 
-<https://s3.amazonaws.com/academia.edu.documents/52424305/Radiographic_Identification_of_the_Prima20170401-2338-1uffna8.pdf?response-content-disposition=inline%3B%20filename%3DRadiographic_Identification_of_the_Prima.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWOWYYGZ2Y53UL3A%2F20200217%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20200217T143657Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=1289c6679a0dfafbf688c3ecdacaf9d7ae774cf75e90ce405492fd2fc51c19ed>
+"On the lateral tibial radiographs, the proximal and distal
+tibial attachments of the superficial medial collateral ligament were 15.9 ± 5.2 and 66.1 ± 3.6 mm distal to the tibial
+inclination, respectivel"
+
+<!-- https://s3.amazonaws.com/academia.edu.documents/52424305/Radiographic_Identification_of_the_Prima20170401-2338-1uffna8.pdf?response-content-disposition=inline%3B%20filename%3DRadiographic_Identification_of_the_Prima.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWOWYYGZ2Y53UL3A%2F20200217%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20200217T143657Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=1289c6679a0dfafbf688c3ecdacaf9d7ae774cf75e90ce405492fd2fc51c19ed> -->
 
 ####Anterior cruciate Ligament (ACL)
 Harner et al. 1999 (from Bedi et al., 2018) "The ACL is formed by 2 main bundles, the anteromedial (AM)and posterolateral (PL) bundles, which are named for their tibialinsertions and provide the primary restraint against anterior tibialtranslation and secondary restraint against internal tibial rotation,respectively. It is 31±2 mm long with a mean diameter of 10±2mm6, although it fans out at the insertions to approximately 3.5times the midsubstance width7."
 
+#####Femur Insertion:
 ACL attachment point on femur is determined based on the radiographic quadrant mehtod:
 "distance t (representing the total sagittal diameter of the lateral condyle measured along Blumensaat's line), distance h (representing the maximum intercondylar notch height), distance a (representing the distance of point K from the most dorsal subchondral contour of the lateral femoral condyle), and distance b (representing the distance of point K from Blumensaat's line). Distance a is a partial distance of t and distance b is a partial distance of h, and distances a and b are expressed as length ratios of t and h. The center of the femoral insertion of the ACL was located at 24.8% of the distance t measured from the most posterior contour of the lateral femoral condyle and at 28.5% of the height h measured from Blumensaat's line. Based on these results, the ACL can be found just inferior to the most superoposterior quadrant, which means in anatomic terms it is localized from the dorsal border of the condyle at approximately a quarter of the whole sagittal diameter of the condyle and from the roof of the notch at approximately a quarter of the notch height. "
 
@@ -135,8 +147,11 @@ Method to derive both bundle attachements (Pietrini et al. 2011):
 ![Tibia ACL attachement points](https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00167-010-1372-1/MediaObjects/167_2010_1372_Fig5_HTML.gif?as=webp)
 
 
-Tibia insertion:
-Stӓubliand Rauschning: 43.3% of the anterior-to-posterior distance acrossthe tibia as measured at the level of the posterior tibial margin at the posterior intercondylar area.In their study,the anteriormost fibers inserted at 27.5% across the plateau
+#####Tibia insertion:
+Stӓubli and Rauschning: 43.3% of the anterior-to-posterior distance acrossthe tibia as measured at the level of the posterior tibial margin at the posterior intercondylar area.In their study,the anteriormost fibers inserted at 27.5% across the plateau
+
+Frank et al., 2010: "
+The average AP diameter of the tibia was measured to be 50 ± 4 mm (range 40–64 mm). Female knees averaged 47 ± 3 mm compared to 52 ± 4 mm in men. The anterior-most position of the ACL attachment on the tibia was, on average, 14 ± 3 mm (range 8–26 mm) from the anterior edge of the tibia, or 28 ± 5% the total depth of the tibia. In women, the anterior-most position of the insertion was, on average, 13 ± 2 mm (28 ± 5%) compared to 15 ± 3 mm (28 ± 5%) in men. The posterior-most position of the ACL attachment on the tibia was located, on average, 31 ± 4 mm (range 23–40) from the anterior edge of the tibia, or 63 ± 6% the depth of the tibia. In women, the posterior-most position was, on average, 29 ± 3 mm (62 ± 5%) contrasted to 33 ± 4 mm (64 ± 5%) in men. Finally, the central portion of the ACL attachment on the tibia was located, on average, 23 ± 3 mm (range 16–30 mm). This center position corresponds to a point 46 ± 4% of the total tibial AP diameter as described. In women, this position was located at 21 ± 2 mm (45 ± 4%) compared to 24 ± 3 mm (46 ± 4%) in men. It was determined that the ACL takes up an average 36 ± 6% of the sagittal depth of the tibia and that the tibial insertion of the ACL is located between 28 and 63% of the total depth of the tibia in the anterior–posterior (sagittal) plane."
 
 ####Posterior cruciate Ligament (PCL)
 
@@ -177,3 +192,11 @@ Iriuchishima, T., Ryu, K., Aizawa, S. and Fu, F.H. (2016), “Blumensaat’s lin
 Yahagi, Y., Iriuchishima, T., Horaguchi, T., Suruga, M., Tokuhashi, Y. and Aizawa, S. (2018), “The importance of Blumensaat’s line morphology for accurate femoral ACL footprint evaluation using the quadrant method”, Knee Surgery, Sports Traumatology, Arthroscopy, Vol. 26 No. 2, pp. 455–461. doi: 10.1007/s00167-017-4501-2.
 
 LaPrade, R.F., Ly, T.V., Wentorf, F.A. and Engebretsen, L. (2003), “The posterolateral attachments of the knee: a qualitative and quantitative morphologic analysis of the fibular collateral ligament, popliteus tendon, popliteofibular ligament, and lateral gastrocnemius tendon”, The American journal of sports medicine, Vol. 31 No. 6, pp. 854–860. doi: 10.1177/03635465030310062101.
+
+Kamath, G.V., Redfern, J.C. and Burks, R.T. (2010), “Femoral radiographic landmarks for lateral collateral ligament reconstruction and repair: a new method of reference”, The American journal of sports medicine, Vol. 38 No. 3, pp. 570–574. doi: 10.1177/0363546509350066.
+
+Stäubli, H.U. and Rauschning, W. (1994), “Tibial attachment area of the anterior cruciate ligament in the extended knee position. Anatomy and cryosections in vitro complemented by magnetic resonance arthrography in vivo”, Knee surgery, sports traumatology, arthroscopy official journal of the ESSKA, Vol. 2 No. 3, pp. 138–146. doi: 10.1007/bf01467915.
+
+Frank, R.M., Seroyer, S.T., Lewis, P.B., Bach, B.R. and Verma, N.N. (2010), “MRI analysis of tibial position of the anterior cruciate ligament”, Knee surgery, sports traumatology, arthroscopy official journal of the ESSKA, Vol. 18 No. 11, pp. 1607–1611. doi: 10.1007/s00167-010-1192-3.
+
+Prince, M.R., Blackman, A.J., King, A.H., Stuart, M.J. and Levy, B.A. (2015), “Open Anatomic Reconstruction of the Medial Collateral Ligament and Posteromedial Corner”, Arthroscopy Techniques, Vol. 4 No. 6, e885-e890. doi: 10.1016/j.eats.2015.08.013.
