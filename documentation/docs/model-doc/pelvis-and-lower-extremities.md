@@ -27,6 +27,17 @@ Measured values in VVA+ 50F| 372|306|300|252|193|
 
 ### Fibula
 
+####Connection between Fibula and Tibia
+Crural Interosseous membrane 
+
+Elamrani et al., 2014: 
+
+![Crural Interosseous membrane](https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00276-013-1199-9/MediaObjects/276_2013_1199_Fig3_HTML.jpg?as=webp)
+![Crural Interosseous membrane](https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00276-013-1199-9/MediaObjects/276_2013_1199_Fig4_HTML.jpg?as=webp)
+
+Elamrani et al., 2014: "Fibers of the anterior layer made an angle of 13° (SD 2.6) with the axis of fibula. Those of the posterior layer made an angle of 24.2° (SD 2.48) with the axis of fibula."
+
+
 ## Joints
 
 ### Hip Joint
@@ -63,8 +74,13 @@ linear elastic material and E=0.002 MPA. The fibers were modelles as cable eleme
 
 Beside pedestrian impacts of Song et al. useful validation setup for the hip joint capsula stiffness could be Ito et al. (2009) in which the femure was teared apart from the acetabulum parallel to the femur shaft with the hip being in a neutral position. Load-Displacement curves are provided up to 5 mm for a constant loading of 4 mm/s. 
 Around 300 N were needed to move the femur 5 mm apart from the pelvis. 
-However, donors were all male.
+Donors were all male.
 
+Circumferential of acetabulum is 167 mm - using the whole circumferential and using the sum of the crossectional acatbular area, we get a thickness of 1.87 mm for the ligament
+(150+100+63)=313 mm^2 / 167mm= 1.87 mm
+
+At the femuroal end the ligament will have a circumferential of 120 mm, resulting in a tickness of 2.22 mm
+(99+89+79)=267 mm^2 / 120mm = 2.225 mm
 
 ### Knee Joint
 attachment points on femur:
@@ -73,7 +89,7 @@ Iriuchishima et al. 2016
 
 Ligaments were attached to the bones based on the anatomic landmarks descirbed in the review of Bedi et al., 2018
 
-
+Material model:  *MAT_SOFT_TISSUE - use XLAM0 (parameter based on initial position)
 
 ####Lateral Collateral Ligament (LCL)
 
@@ -170,6 +186,8 @@ Mansfield et al. 2019
 ### References
 
 Bedi, A., LaPrade, R.F. and Burrus, M.T. (2018), “Radiographic and Anatomic Landmarks of the Major Knee Ligaments”, The Journal of bone and joint surgery. American volume, Vol. 100 No. 14, pp. 1241–1250. doi: 10.2106/JBJS.17.01135.
+
+Elamrani, D., Aumar, A., Wavreille, G. and Fontaine, C. (2014), “Comparative morphometry of the antebrachial and crural interosseous membranes: preliminary study for the use of the crural interosseous membrane in the surgical repair of the antebrachial interosseous membrane tears”, Surgical and Radiologic Anatomy, Vol. 36 No. 4, pp. 333–339. doi: 10.1007/s00276-013-1199-9.
 
 Harner, C.D., Baek, G.H., Vogrin, T.M., Carlin, G.J., Kashiwaguchi, S. and Woo, S.L.-Y. (1999), “Quantitative Analysis of Human Cruciate Ligament Insertions”, Arthroscopy: The Journal of Arthroscopic & Related Surgery, Vol. 15 No. 7, pp. 741–749. doi: 10.1016/S0749-8063(99)70006-X.
 
