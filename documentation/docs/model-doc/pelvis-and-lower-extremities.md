@@ -17,11 +17,25 @@ The following target values were used (applying the regression model described i
 An elliptic inner shape was aussumed, which is in line with medical images. However, if a proper inner geometry becomes available, this should be updated. The maximum difference to the reference is 3.3%.
 
 
-|Bone crossectional area [mm^2] |L1|L2|L3|L4|L5|
+|Bone crossectional area [mm$^{2}$] |L1|L2|L3|L4|L5|
 |---|---|---|---|---|---|
 Target from Klein et. al. for 50F| 361|310|303|255|199|
-Measured values in VVA+ 50F| 372|306|300|252|193|
+VIVA+ 50F| 372|306|300|252|193|
 
+#### Element Quality
+
+**Solid Elements**
+
+| |**Failutre Criteria** | **% Failed Elements**| **Failutre Criteria**|**%  Failed Elements**|
+:-----:|:-----:|:-----:|:-----:|:-----:
+Aspect Ratio|< 10|0|3|3.59
+Skewness|> 60$^{\circ}$ |0|>45$^{\circ}$|2.71
+Warping|< 15 |0|<10|0.26
+Jacobian|<0.3|0|>0.7|0.57
+Internal Angle|>160$^{\circ}$|0|>140$^{\circ}$|1.95
+| |<20$^{\circ}$|0|<30$^{\circ}$|0.07
+
+**Shell Elements**
 
 ### Tibia
 
