@@ -12,7 +12,7 @@ Material properties for the pelvic ligaments are descibed in Hammer et al. (2013
 Pelvis + Flesh should be validated with tests from Viano (1989)
 
 ### Femur
-The femur crossectional are was optimised to meet the target values of Klein et al. (2015)
+The femur crossectional are was optimised to meet the target values of Klein et al. (2015).[@Klein2015]
 The following target values were used (applying the regression model described in the paper and using age, stature and BMI of the 50F VIVA + models (50years, 161.6cm, 24 kg/m^2)
 An elliptic inner shape was aussumed, which is in line with medical images. However, if a proper inner geometry becomes available, this should be updated. The maximum difference to the reference is 3.3%.
 
@@ -58,11 +58,11 @@ Modulus of Elasticity at 80% of failure strain (MPa)
 ||Femoral|76.1|139.3|82.1|
 ||average|100.7|222.4|87.5|
 
-Fleps et al. (2018) have modelled the hip joint capsule ligaments with seperated matrix and fiber material. The matrix was modelled as shell with 
-linear elastic material and E=0.002 MPA. The fibers were modelles as cable elements (MAT_071) with materiual properties according to Hewitt et al. (E=200 MPa with a toe region of 8% strain) 
+Fleps et al. (2018) have modelled the hip joint capsule ligaments with seperated matrix and fiber material. The matrix was modelled as shell with
+linear elastic material and E=0.002 MPA. The fibers were modelles as cable elements (MAT_071) with materiual properties according to Hewitt et al. (E=200 MPa with a toe region of 8% strain)
 
-Beside pedestrian impacts of Song et al. useful validation setup for the hip joint capsula stiffness could be Ito et al. (2009) in which the femure was teared apart from the acetabulum parallel to the femur shaft with the hip being in a neutral position. Load-Displacement curves are provided up to 5 mm for a constant loading of 4 mm/s. 
-Around 300 N were needed to move the femur 5 mm apart from the pelvis. 
+Beside pedestrian impacts of Song et al. useful validation setup for the hip joint capsula stiffness could be Ito et al. (2009) in which the femure was teared apart from the acetabulum parallel to the femur shaft with the hip being in a neutral position. Load-Displacement curves are provided up to 5 mm for a constant loading of 4 mm/s.
+Around 300 N were needed to move the femur 5 mm apart from the pelvis.
 However, donors were all male.
 
 
@@ -137,7 +137,7 @@ Accoridng to Yahagi et al. 2018, who are proposing a method which is applicabel 
 ![Bulmenssat's line](https://media.springernature.com/lw785/springer-static/image/art%3A10.1007%2Fs00167-017-4501-2/MediaObjects/167_2017_4501_Fig2_HTML.gif)
 
 
-Yahagi et al. 2018: "In small hill type knees, the ACL center was placed as follows: Grid (1) 37.5 ± 6% in the shallow–deep, 50.2 ± 8.3% in the high–low directions. [..] 
+Yahagi et al. 2018: "In small hill type knees, the ACL center was placed as follows: Grid (1) 37.5 ± 6% in the shallow–deep, 50.2 ± 8.3% in the high–low directions. [..]
 In large hill type knees, the ACL center was placed as follows: Grid (1) 37.1 ± 5.6% in the shallow–deep, 50.4 ± 5.8% in the high–low directions"
 
 Method to derive both bundle attachements (Pietrini et al. 2011):
@@ -168,6 +168,8 @@ Simplified kinematic revloute joint between tiba+fibula and talus - rotational a
 Mansfield et al. 2019
 
 ### References
+
+\bibliography
 
 Bedi, A., LaPrade, R.F. and Burrus, M.T. (2018), “Radiographic and Anatomic Landmarks of the Major Knee Ligaments”, The Journal of bone and joint surgery. American volume, Vol. 100 No. 14, pp. 1241–1250. doi: 10.2106/JBJS.17.01135.
 

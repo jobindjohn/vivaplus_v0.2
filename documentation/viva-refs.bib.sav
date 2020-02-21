@@ -1,0 +1,28 @@
+% Encoding: UTF-8
+
+@Article{Bruneau2019,
+  author    = {David A. Bruneau and Duane S. Cronin},
+  title     = {Head and Neck Response of an Active Human Body Model and Finite Element Anthropometric Test Device During a Linear Impactor Helmet Test},
+  journal   = {Journal of Biomechanical Engineering},
+  year      = {2019},
+  volume    = {142},
+  number    = {2},
+  month     = {oct},
+  doi       = {10.1115/1.4043667},
+  publisher = {{ASME} International},
+}
+
+@Article{Klein2015,
+  author    = {Katelyn F. Klein and Jingwen Hu and Matthew P. Reed and Carrie N. Hoff and Jonathan D. Rupp},
+  title     = {Development and Validation of Statistical Models of Femur Geometry for Use with Parametric Finite Element Models},
+  journal   = {Annals of Biomedical Engineering},
+  year      = {2015},
+  volume    = {43},
+  number    = {10},
+  pages     = {2503--2514},
+  month     = {mar},
+  doi       = {10.1007/s10439-015-1307-6},
+  publisher = {Springer Science and Business Media {LLC}},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
