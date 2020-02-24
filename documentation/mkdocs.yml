@@ -24,11 +24,3 @@ theme: mkdocs
 markdown_extensions:
   - footnotes
   - pymdownx.arithmatex
-
-plugins:
-  - bibtex:
-      bib_file: "viva-refs.bib"
-      cite_style: "pandoc"
-
-extra_javascript:
-  - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
