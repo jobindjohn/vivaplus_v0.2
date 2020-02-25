@@ -1,8 +1,7 @@
 # Contribute to the Documentation
 
-The VIVA Plus documentation is written using Markdown, which is a simple text file-based method to write and easy to contribute.
+Contributing to the documentation is as easy as writing in text files. The VIVA Plus documentation is written using Markdown. The documentation is build with MkDocs.
 
-The documentation is build with MkDocs.
 First step to contributing to the documentation is inataling MkDocs.
 Follow instructions at [mkdocs.org](https://www.mkdocs.org/#getting-started).
 
@@ -29,3 +28,11 @@ The following extensions need to be installed in addition to specifying the exte
 PyMdown Extensions package can be installed with the following command:
 
 `pip install pymdown-extensions`
+
+2. mkdocs-bibtex
+
+ [mkdocs-bibtex](https://github.com/shyamd/mkdocs-bibtex/) extension is used to add citations from Bibtex file. It can be installed using `pip install mkdocs-bibtex`
+
+The Bibtex file can be found in the `/documentation` root directory: `viva-refs.bib`
+
+Please do not rewrite the whole Bibtex file as it is version controlled. You can either manually append Bibtex entries or use a Bibtex manager. Recommended Bibtex manager : [Jabref](https://www.jabref.org/) 
