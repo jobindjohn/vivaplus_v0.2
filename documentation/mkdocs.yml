@@ -7,15 +7,15 @@ site_author: VIVA Plus Team
 nav:
     - Home: index.md
     - 'User Guide':
-        - 'Getting Started': 'user-guide/getting-started.md'
-        - 'Model Data Structure': 'user-guide/model-data-structure.md'
+        - 'Getting Started': 'user-guide/01-getting-started.md'
+        - 'Model Data Structure': 'user-guide/02-model-data-structure.md'
     - Model Documentation:
-        - Anthropometry: model-doc/anthro.md
-        - Head-Neck: model-doc/head-neck.md
-        - Upper Extremities: model-doc/upper-extremities.md
-        - Thorax and Abdomen: model-doc/thorax-and-abdomen.md
-        - Pelvis and Lower Extremities: 'model-doc/pelvis-and-lower-extremities.md'
-        - Control Card Guidelines: 'model-doc/control-card-guidelines.md'
+        - Anthropometry: model-doc/01-anthro.md
+        - Head-Neck: model-doc/02-head-neck.md
+        - Upper Extremities: model-doc/03-upper-extremities.md
+        - Thorax and Abdomen: model-doc/04-thorax-and-abdomen.md
+        - Pelvis and Lower Extremities: 'model-doc/05-pelvis-and-lower-extremities.md'
+        - Control Card Guidelines: 'model-doc/06-control-card-guidelines.md'
     - Contributor Guide:
         - Contribute to Documentation: contributor-guide/contribute-to-documentation.md
         - Getting Started with Git: contributor-guide/getting-started-with-git.md
