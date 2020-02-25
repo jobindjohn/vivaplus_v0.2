@@ -2,7 +2,9 @@
 
 Contributing to the documentation is as easy as writing in text files. The VIVA Plus documentation is written using Markdown. The documentation is build with MkDocs.
 
-First step to contributing to the documentation is inataling MkDocs.
+### Install MkDocs
+
+First step to contributing to the documentation is inatalling MkDocs.
 Follow instructions at [mkdocs.org](https://www.mkdocs.org/#getting-started).
 
 MkDocs lets you preview your documentation as you work on it. To preview the documentation, go to the same directory as `mkdocs.yml` and start the built-in dev-server by running the command
@@ -10,7 +12,7 @@ MkDocs lets you preview your documentation as you work on it. To preview the doc
 
 Open `http://127.0.0.1:8000/` in the browser to see the live documentation home page
 
-## Commands
+**Basic mkdocs Commands**
 
 * `mkdocs new [dir-name]` - Create a new project.
 * `mkdocs serve` - Start the live-reloading docs server.
@@ -18,21 +20,22 @@ Open `http://127.0.0.1:8000/` in the browser to see the live documentation home 
 * `mkdocs help` - Print this help message.
 
 
+### MkDocs Extensions
 
 Extensions are used to enhance markdown features for MkDocs. These are listed in the `mkdocs.yml`. Some useful extensions can be found [here](https://squidfunk.github.io/mkdocs-material/extensions/admonition/).
 
-The following extensions need to be installed in addition to specifying the extension in `mkdocs.yml`
+The extensions currently used in the documentation are given below:
 
-1. PyMdown
+#### PyMdown
 
 PyMdown Extensions package can be installed with the following command:
 
 `pip install pymdown-extensions`
 
-2. mkdocs-bibtex
+#### mkdocs-bibtex
 
  [mkdocs-bibtex](https://github.com/shyamd/mkdocs-bibtex/) extension is used to add citations from Bibtex file. It can be installed using `pip install mkdocs-bibtex`
 
 The Bibtex file can be found in the `/documentation` root directory: `viva-refs.bib`
 
-Please do not rewrite the whole Bibtex file as it is version controlled. You can either manually append Bibtex entries or use a Bibtex manager. Recommended Bibtex manager : [Jabref](https://www.jabref.org/) 
+Please do not rewrite the whole Bibtex file as it is version controlled. You can either manually append Bibtex entries or use a Bibtex manager. Recommended Bibtex manager : [Jabref](https://www.jabref.org/)

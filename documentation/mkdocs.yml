@@ -17,9 +17,9 @@ nav:
         - Pelvis and Lower Extremities: 'model-doc/05-pelvis-and-lower-extremities.md'
         - Control Card Guidelines: 'model-doc/06-control-card-guidelines.md'
     - Contributor Guide:
-        - Contribute to Documentation: contributor-guide/contribute-to-documentation.md
-        - Getting Started with Git: contributor-guide/getting-started-with-git.md
-        - 'Advanced Git Functions': contributor-guide/advanced-git-functions.md
+        - Contribute to Documentation: contributor-guide/01-contribute-to-documentation.md
+        - Getting Started with Git: contributor-guide/02-getting-started-with-git.md
+        - 'Advanced Git Functions': contributor-guide/03-advanced-git-functions.md
 
 theme: mkdocs
 
