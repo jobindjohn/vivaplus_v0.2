@@ -1,5 +1,5 @@
-# VIVA Plus documentation
+# VIVA+ Human Body Models
 
-## VIVA Plus Models
+## VIVA+ Documentation
 
 ## License
