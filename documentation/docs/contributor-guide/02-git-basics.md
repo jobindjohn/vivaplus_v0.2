@@ -1,10 +1,18 @@
 # Git Basic and Collaborative Development
 
+FIXME
+
 ## Why Git?
 
 ## How does it work?
 
 ## Getting started
+
+The git actions/functions can be performed through command line or GUI depending on your preference.
+
+On Windows, git bash is available as terminal for command line interface when `Git for Windows`  is installed.
+
+GUI Clients to commit and interact with the repo through graphical interface : https://git-scm.com/downloads/guis
 
 #### configuring git
 
