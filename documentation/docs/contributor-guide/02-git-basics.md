@@ -10,6 +10,10 @@ FIXME
 
 The git actions/functions can be performed through command line or GUI depending on your preference.
 
+#### Installing Git
+
+Windows users : [Git for Windows](https://gitforwindows.org/)
+
 On Windows, git bash is available as terminal for command line interface when `Git for Windows`  is installed.
 
 GUI Clients to commit and interact with the repo through graphical interface : https://git-scm.com/downloads/guis
