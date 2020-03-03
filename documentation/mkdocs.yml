@@ -21,7 +21,7 @@ nav:
         - 'Git Basics and Collaborative Development': contributor-guide/02-git-basics.md
         - 'Advanced Git Functions': contributor-guide/03-advanced-git-functions.md
 
-theme: mkdocs
+theme: readthedocs
 
 markdown_extensions:
   - footnotes
