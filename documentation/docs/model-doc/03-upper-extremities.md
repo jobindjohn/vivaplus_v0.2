@@ -8,6 +8,8 @@ Paper: Cortical thickness analysis of the **proximal humerus** [@Majed2017]
 
 Paper: Regional variations of **cortical bone in the humeral head region**: A preliminary study [@Wang2018]
 
+Paper: (Cortical thickness on the shaft) Measurement of the bony anatomy of the humerus using magnetic resonance imaging [@Murdoch2002]
+
 Paper: Three-dimensional distribution of trabecular bone density and cortical thickness in the **distal humerus** [@Diederichs2009]
 
 ## Joints
@@ -23,6 +25,8 @@ Radius and Ulnar are connected with a spherical joint on the distal end (center 
 ## Gender Differences
 
 Paper: Gender differences in the ratio between humerus width and length are established prior to puberty [@Clark2006]
+
+Paper: Dimensions and estimated mechanical characteristics of the humerus after long-term tennis loading [@Haapasalo1993]
 
 ## Changes due to aging
 
