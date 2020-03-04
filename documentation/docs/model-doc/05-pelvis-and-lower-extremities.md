@@ -17,23 +17,23 @@ The following target values were used (applying the regression model described i
 An elliptic inner shape was aussumed, which is in line with medical images. However, if a proper inner geometry becomes available, this should be updated. The maximum difference to the reference is 3.3%.
 
 
-|Bone crossectional area [mm$^{2}$] |L1|L2|L3|L4|L5|
-|---|---|---|---|---|---|
-Target from Klein et. al. for 50F| 361|310|303|255|199|
-VIVA+ 50F| 372|306|300|252|193|
+| Bone crossectional area [mm^2]    | L1  | L2  | L3  | L4  | L5  |
+|-----------------------------------|-----|-----|-----|-----|-----|
+| Target from Klein et. al. for 50F | 361 | 310 | 303 | 255 | 199 |
+| Measured values in VVA+ 50F       | 372 | 306 | 300 | 252 | 193 |
 
 #### Element Quality
 
 **Solid Elements**
 
-| |**Failutre Criteria** | **% Failed Elements**| **Failutre Criteria**|**%  Failed Elements**|
-:-----:|:-----:|:-----:|:-----:|:-----:
-Aspect Ratio|< 10|0|3|3.59
-Skewness|> 60$^{\circ}$ |0|>45$^{\circ}$|2.71
-Warping|< 15 |0|<10|0.26
-Jacobian|<0.3|0|>0.7|0.57
-Internal Angle|>160$^{\circ}$|0|>140$^{\circ}$|1.95
-| |<20$^{\circ}$|0|<30$^{\circ}$|0.07
+| Criteria       | limit          | % of failed elements | limit          | % of failed elements |
+|----------------|----------------|----------------------|----------------|----------------------|
+| Aspect Ratio   | < 10           | 0                    | 3              | 3.59                 |
+| Skewness       | > 60$^{\circ}$ | 0                    | >45$^{\circ}$  | 2.71                 |
+| Warping        | < 15           | 0                    | <10            | 0.26                 |
+| Jacobian       | <0.3           | 0                    | >0.7           | 0.57                 |
+| Internal Angle | >160$^{\circ}$ | 0                    | >140$^{\circ}$ | 1.95                 |
+|                | <20$^{\circ}$  | 0                    | <30$^{\circ}$  | 0.07                 |
 
 **Shell Elements**
 
@@ -46,8 +46,9 @@ Crural Interosseous membrane
 
 Elamrani et al., 2014:
 
-![Crural Interosseous membrane](https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00276-013-1199-9/MediaObjects/276_2013_1199_Fig3_HTML.jpg?as=webp)
-![Crural Interosseous membrane](https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00276-013-1199-9/MediaObjects/276_2013_1199_Fig4_HTML.jpg?as=webp)
+https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00276-013-1199-9/MediaObjects/276_2013_1199_Fig3_HTML.jpg?as=webp
+
+https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00276-013-1199-9/MediaObjects/276_2013_1199_Fig4_HTML.jpg?as=webp
 
 Elamrani et al., 2014: "Fibers of the anterior layer made an angle of 13° (SD 2.6) with the axis of fibula. Those of the posterior layer made an angle of 24.2° (SD 2.48) with the axis of fibula."
 
@@ -60,30 +61,33 @@ For the pedestrian a proper modelling of the tensile force transferred from the 
 Material and crossection parameters for the human hip joint capsule ligaments attaching the femur to the pelvis are reported by Hewitt et al. (2001). Ligaments were obtained from 7 females and 3 males (50-99 yo)
 The stress-strain behaviour is described by an exponential function. The displacement rate in the tests was 0.04 mm/s
 
-|||Superior iliofemoral| Inferios iliofemoral|Ischiofemoral|
-|---|---|---|---|---|
-crossection area (mm^2)
-||Acetabular|150|100|63
-||Middle|120|92|81|
-||Femoral|99|89|79|
-Failure Strain
-||Acetabular|8.5%|11.6%|7.8%|
-||Middle|6.2%|10.4%|8.1%|
-||Femoral|13.3%|11.4%|25.3%|
-||average|9.33%|11.13%|13.73%|
-||average 80%|7.47%|8.91%|10.99%|
-Modulus of Elasticity at 0% (MPa)
-||Acetabular|3.2|3.0|4.8|
-||Middle|1.9|3.3|3.9|
-||Femoral|1.0|2.2|2.1|
-||average|2.0|2.8|3.6|
-Modulus of Elasticity at 80% of failure strain (MPa)
-||Acetabular|112.9|285.8|80.9|
-||Middle|113.3|242.2|99.5|
-||Femoral|76.1|139.3|82.1|
-||average|100.7|222.4|87.5|
 
-Fleps et al. (2018) have modelled the hip joint capsule ligaments with seperated matrix and fiber material. The matrix was modelled as shell with
+
+
+|- | - | Superior iliofemoral | Inferios iliofemoral | Ischiofemoral |
+|--|--|----|---|----------------------|----------------------|---------------|
+|                                                      | Acetabular  | 150   | 100    | 63     |
+|------------------------------------------------------|-------------|-------|--------|--------|
+|                                                      | Middle      | 120   | 92     | 81     |
+|                                                      | Femoral     | 99    | 89     | 79     |
+| Failure Strain                                       |             |       |        |        |
+|                                                      | Acetabular  | 8.5%  | 11.6%  | 7.8%   |
+|                                                      | Middle      | 6.2%  | 10.4%  | 8.1%   |
+|                                                      | Femoral     | 13.3% | 11.4%  | 25.3%  |
+|                                                      | average     | 9.33% | 11.13% | 13.73% |
+|                                                      | average 80% | 7.47% | 8.91%  | 10.99% |
+| Modulus of Elasticity at 0% (MPa)                    |             |       |        |        |
+|                                                      | Acetabular  | 3.2   | 3.0    | 4.8    |
+|                                                      | Middle      | 1.9   | 3.3    | 3.9    |
+|                                                      | Femoral     | 1.0   | 2.2    | 2.1    |
+|                                                      | average     | 2.0   | 2.8    | 3.6    |
+| Modulus of Elasticity at 80% of failure strain (MPa) |             |       |        |        |
+|                                                      | Acetabular  | 112.9 | 285.8  | 80.9   |
+|                                                      | Middle      | 113.3 | 242.2  | 99.5   |
+|                                                      | Femoral     | 76.1  | 139.3  | 82.1   |
+|                                                      | average     | 100.7 | 222.4  | 87.5   |
+
+@Fleps2018 have modelled the hip joint capsule ligaments with seperated matrix and fiber material. The matrix was modelled as shell with
 linear elastic material and E=0.002 MPA. The fibers were modelles as cable elements (MAT_071) with materiual properties according to Hewitt et al. (E=200 MPa with a toe region of 8% strain)
 
 Beside pedestrian impacts of Song et al. useful validation setup for the hip joint capsula stiffness could be Ito et al. (2009) in which the femure was teared apart from the acetabulum parallel to the femur shaft with the hip being in a neutral position. Load-Displacement curves are provided up to 5 mm for a constant loading of 4 mm/s.
@@ -104,6 +108,9 @@ Iriuchishima et al. 2016
 Ligaments were attached to the bones based on the anatomic landmarks descirbed in the review of Bedi et al., 2018
 
 Material model:  *MAT_SOFT_TISSUE - use XLAM0 (parameter based on initial position)
+
+Furthermore, the OpenKnee model was used as reference.
+
 
 ####Lateral Collateral Ligament (LCL)
 
@@ -139,11 +146,11 @@ based on Wijdicks et al. 2009 - values in table 5 will be used
 
 pictures taken from Prince et al. (2015)
 
-![Anaomic landamrks for MCL](https://ars.els-cdn.com/content/image/1-s2.0-S2212628715001401-gr1.jpg)
+https://ars.els-cdn.com/content/image/1-s2.0-S2212628715001401-gr1.jpg
 
 #####Femur attachement
 
-![Femur attachement point](https://ars.els-cdn.com/content/image/1-s2.0-S2212628715001401-gr5.jpg)
+https://ars.els-cdn.com/content/image/1-s2.0-S2212628715001401-gr5.jpg
 
 "line 1 is an extension of the posterior femoral cortex, and line 2 is drawn perpendicular to line 1, intersecting the most posterior aspect of the Blumensaat line"
 "The femoral attachment of the sMCL was found to be, on average, 8.6 mm anterior to the posterior femoral cortex line and 11.0 mm distal to the intersection of the posterior femoral cortex line (line 1) and the line intersecting the posterior aspect of the Blumensaat line (line 2)"
@@ -154,10 +161,10 @@ pictures taken from Prince et al. (2015)
 tibial attachments of the superficial medial collateral ligament were 15.9 ± 5.2 and 66.1 ± 3.6 mm distal to the tibial
 inclination, respectivel"
 
-<!-- https://s3.amazonaws.com/academia.edu.documents/52424305/Radiographic_Identification_of_the_Prima20170401-2338-1uffna8.pdf?response-content-disposition=inline%3B%20filename%3DRadiographic_Identification_of_the_Prima.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWOWYYGZ2Y53UL3A%2F20200217%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20200217T143657Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=1289c6679a0dfafbf688c3ecdacaf9d7ae774cf75e90ce405492fd2fc51c19ed> -->
-
 ####Anterior cruciate Ligament (ACL)
 Harner et al. 1999 (from Bedi et al., 2018) "The ACL is formed by 2 main bundles, the anteromedial (AM)and posterolateral (PL) bundles, which are named for their tibialinsertions and provide the primary restraint against anterior tibialtranslation and secondary restraint against internal tibial rotation,respectively. It is 31±2 mm long with a mean diameter of 10±2mm6, although it fans out at the insertions to approximately 3.5times the midsubstance width7."
+
+The distance between the attachment point in the baseline setated VIVA+ model is 31mm.
 
 #####Femur Insertion:
 ACL attachment point on femur is determined based on the radiographic quadrant mehtod:
@@ -172,9 +179,9 @@ In large hill type knees, the ACL center was placed as follows: Grid (1) 37.1 
 
 Method to derive both bundle attachements (Pietrini et al. 2011):
 
-![Fmemur ACL attachement points](https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00167-010-1372-1/MediaObjects/167_2010_1372_Fig4_HTML.gif?as=webp)
+https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00167-010-1372-1/MediaObjects/167_2010_1372_Fig4_HTML.gif?as=webp
 
-![Tibia ACL attachement points](https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00167-010-1372-1/MediaObjects/167_2010_1372_Fig5_HTML.gif?as=webp)
+https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00167-010-1372-1/MediaObjects/167_2010_1372_Fig5_HTML.gif?as=webp
 
 
 #####Tibia insertion:
@@ -185,10 +192,26 @@ The average AP diameter of the tibia was measured to be 50 ± 4 mm (range 40–6
 
 ####Posterior cruciate Ligament (PCL)
 
+
 Johannnsen et al., 2013
 
-Positionining of the bundles based on relative values provided in table 1,2 and 3 of the publication
+Positionining of the bundles based on relative values provided in table 1,2 and 3 of the publication.
 
+The distance between the attachment point in the baseline setated VIVA+ model is 36mm
+
+#### Meniscus
+The avergae thickness of the medial meniscus is 2.55 mm accoring to @Bloecker2011 (40 male and 62 female knees were measured in MRI) For males it should be 2.8 mm. 
+
+Data based on:
+https://bmcmusculoskeletdisord.biomedcentral.com/articles/10.1186/1471-2474-12-248/tables/1
+https://bmcmusculoskeletdisord.biomedcentral.com/articles/10.1186/1471-2474-12-248/tables/2
+
+|                 | Mean avg. thickness [mm] | Mean max. thickness [mm] | Mean avg. width [mm] | Mean max. width [mm] |
+|-----------------|--------------------------|--------------------------|----------------------|----------------------|
+| Females Medial  | 2.55                     | 7.15                     | 9.11                 | 16.9                 |
+| Females Lateral | 2.51                     | 6.75                     | 8.6                  | 18.8                 |
+| Males Medial    | 2.8                      | 7.71                     | 9.93                 | 12.5                 |
+| Males Lateral   | 2.67                     | 7.23                     | 10.1                 | 14.2                 |
 
 
 ### Ankle Joint
@@ -196,7 +219,7 @@ Positionining of the bundles based on relative values provided in table 1,2 and 
 
 
 Simplified kinematic revloute joint between tiba+fibula and talus - rotational axis from lateral to medial malleolus
-![Malleola](https://ars.els-cdn.com/content/image/3-s2.0-B9780323544986000114-f11-03-9780323544986.jpg) (https://ars.els-cdn.com/content/image/3-s2.0-B9780323544986000114-f11-03-9780323544986.jpg)
+https://ars.els-cdn.com/content/image/3-s2.0-B9780323544986000114-f11-03-9780323544986.jpg
 Mansfield et al. 2019
 
 ### References
