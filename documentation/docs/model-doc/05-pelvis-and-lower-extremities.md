@@ -40,8 +40,11 @@ An elliptic inner shape was aussumed, which is in line with medical images. Howe
 ### Tibia
 
 ### Fibula
+Bone crossection properties are reported in @Matsuura1999
 
-####Connection between Fibula and Tibia
+Thickness ranges from 2 to 4 mm.
+
+###Connection between Fibula and Tibia
 Crural Interosseous membrane
 
 Elamrani et al., 2014:
@@ -212,6 +215,26 @@ https://bmcmusculoskeletdisord.biomedcentral.com/articles/10.1186/1471-2474-12-2
 | Females Lateral | 2.51                     | 6.75                     | 8.6                  | 18.8                 |
 | Males Medial    | 2.8                      | 7.71                     | 9.93                 | 12.5                 |
 | Males Lateral   | 2.67                     | 7.23                     | 10.1                 | 14.2                 |
+#### Knee Cartilage
+Cartilage thickness -
+tob be defined (UL)
+
+#### Patella
+
+#####liagement
+
+The attachment point on the tibia is 36mm below the most distal edge of the patella.
+
+This is in line with @Yoo2007, where an average value of 38 mm was reported from the 30 female knees which were measrued in MRIs.
+
+They report a proximal width of 27.5 mm and a tickness of 3 mm while for the distal tendon a tickness of 4.6 mm and a width of 21.5 mm is reported.
+
+|                           | distal length [mm] | distal width [mm]                    | distal thickness [mm] | proximal width [mm]                   | proximal thickness [mm] |
+|---------------------------|--------------------|--------------------------------------|-----------------------|---------------------------------------|-------------------------|
+| Female (Yoo at el., 2007) | 38                 | 21.5                                 | 4.6                   | 27.5                                  | 3                       |
+| VIVA+50F                  | 36                 | 23.4 at patella and 25 at distal end | 4.6                   | 26 mm at patella; 21 at most proximal | 3                       |
+| Male (Yoo et al., 2007)   |                    |                                      |                       |                                       |                         |
+| VIVA+50M                  |                    |                                      |                       |                                       |                         |
 
 
 ### Ankle Joint

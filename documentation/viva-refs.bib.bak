@@ -142,4 +142,29 @@
   publisher = {Springer Science and Business Media {LLC}},
 }
 
+@Article{Bloecker2011,
+  author    = {Katja Bloecker and Martin Englund and Wolfgang Wirth and Martin Hudelmaier and Rainer Burgkart and Richard B Frobell and Felix Eckstein},
+  title     = {Revision 1 Size and position of the healthy meniscus, and its Correlation with sex, height, weight, and bone area- a cross-sectional study},
+  journal   = {{BMC} Musculoskeletal Disorders},
+  year      = {2011},
+  volume    = {12},
+  number    = {1},
+  month     = {oct},
+  doi       = {10.1186/1471-2474-12-248},
+  publisher = {Springer Science and Business Media {LLC}},
+}
+
+@Article{Yoo2007,
+  author    = {Jae Ho Yoo and Seung Rim Yi and Jin Hong Kim},
+  title     = {The geometry of patella and patellar tendon measured on Knee {MRI}},
+  journal   = {Surgical and Radiologic Anatomy},
+  year      = {2007},
+  volume    = {29},
+  number    = {8},
+  pages     = {623--628},
+  month     = {sep},
+  doi       = {10.1007/s00276-007-0261-x},
+  publisher = {Springer Science and Business Media {LLC}},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}

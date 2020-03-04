@@ -154,4 +154,41 @@
   publisher = {Springer Science and Business Media {LLC}},
 }
 
+@Article{Yoo2007,
+  author    = {Jae Ho Yoo and Seung Rim Yi and Jin Hong Kim},
+  title     = {The geometry of patella and patellar tendon measured on Knee {MRI}},
+  journal   = {Surgical and Radiologic Anatomy},
+  year      = {2007},
+  volume    = {29},
+  number    = {8},
+  pages     = {623--628},
+  month     = {sep},
+  doi       = {10.1007/s00276-007-0261-x},
+  publisher = {Springer Science and Business Media {LLC}},
+}
+
+@Article{Matsuura1999,
+  author          = {Matsuura, M and Ohno, K and Michi, K and Egawa, K and Takiguchi, R},
+  title           = {Clinicoanatomic examination of the fibula: anatomic basis for dental implant placement.},
+  journal         = {The International journal of oral \& maxillofacial implants},
+  year            = {1999},
+  volume          = {14},
+  pages           = {879--884},
+  issn            = {0882-2786},
+  abstract        = {The advantages of the free vascularized fibular flap include its ability to be shaped with relative ease and to be grafted at the same time tumors are resected, with consequent reduction in operation time. In addition, few complications occur at donor sites. However, a large, systematic, and detailed investigation of clinicoanatomic problems of the fibula has not been performed. Therefore, in the present study, the fibula was examined morphologically and morphometrically, with special attention to regions important in the placement of dental implants. Eighty fibulae obtained from cadavers of 41 Japanese individuals aged 46 to 92 years (mean, 72.7 years) were fixed with 70% alcohol after infusion of about 6 liters of 10% formalin via the femoral artery. Morphometric examination showed the nutrient foramen was located posteriorly in 85.0% of sections, the maximal width of fibular cross sections was 13.1 mm, and the maximal cortical thickness of fibular cross sections was 4.1 mm.},
+  chemicals       = {Dental Implants},
+  citation-subset = {D, IM},
+  completed       = {2000-03-07},
+  country         = {United States},
+  issn-linking    = {0882-2786},
+  issue           = {6},
+  keywords        = {Aged; Aged, 80 and over; Anthropometry; Bone Density; Dental Implantation, Endosseous; Dental Implants; Fibula, anatomy & histology, blood supply, surgery, transplantation; Haversian System, anatomy & histology; Humans; Mandible, surgery; Middle Aged; Surgical Flaps, blood supply},
+  nlm-id          = {8611905},
+  owner           = {NLM},
+  pmid            = {10612927},
+  pubmodel        = {Print},
+  pubstatus       = {ppublish},
+  revised         = {2004-11-17},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
