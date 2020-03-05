@@ -1,4 +1,13 @@
-# Contribute to the Documentation
+# How to contribute to VIVA+
+
+
+## Issues
+
+## Model Validation
+
+## Model Updates
+
+## Model Documentation
 
 Contributing to the documentation is as easy as writing in text files. The VIVA Plus documentation is written using Markdown. The documentation is build with MkDocs.
 

@@ -110,7 +110,7 @@ Iriuchishima et al. 2016
 
 Ligaments were attached to the bones based on the anatomic landmarks descirbed in the review of Bedi et al., 2018
 
-Material model:  *MAT_SOFT_TISSUE - use XLAM0 (parameter based on initial position)
+Material model:  `*MAT_SOFT_TISSUE` - use XLAM0 (parameter based on initial position)
 
 Furthermore, the OpenKnee model was used as reference.
 
@@ -187,13 +187,13 @@ https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs001
 https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00167-010-1372-1/MediaObjects/167_2010_1372_Fig5_HTML.gif?as=webp
 
 
-#####Tibia insertion:
+##### Tibia insertion:
 Stӓubli and Rauschning: 43.3% of the anterior-to-posterior distance acrossthe tibia as measured at the level of the posterior tibial margin at the posterior intercondylar area.In their study,the anteriormost fibers inserted at 27.5% across the plateau
 
 Frank et al., 2010: "
 The average AP diameter of the tibia was measured to be 50 ± 4 mm (range 40–64 mm). Female knees averaged 47 ± 3 mm compared to 52 ± 4 mm in men. The anterior-most position of the ACL attachment on the tibia was, on average, 14 ± 3 mm (range 8–26 mm) from the anterior edge of the tibia, or 28 ± 5% the total depth of the tibia. In women, the anterior-most position of the insertion was, on average, 13 ± 2 mm (28 ± 5%) compared to 15 ± 3 mm (28 ± 5%) in men. The posterior-most position of the ACL attachment on the tibia was located, on average, 31 ± 4 mm (range 23–40) from the anterior edge of the tibia, or 63 ± 6% the depth of the tibia. In women, the posterior-most position was, on average, 29 ± 3 mm (62 ± 5%) contrasted to 33 ± 4 mm (64 ± 5%) in men. Finally, the central portion of the ACL attachment on the tibia was located, on average, 23 ± 3 mm (range 16–30 mm). This center position corresponds to a point 46 ± 4% of the total tibial AP diameter as described. In women, this position was located at 21 ± 2 mm (45 ± 4%) compared to 24 ± 3 mm (46 ± 4%) in men. It was determined that the ACL takes up an average 36 ± 6% of the sagittal depth of the tibia and that the tibial insertion of the ACL is located between 28 and 63% of the total depth of the tibia in the anterior–posterior (sagittal) plane."
 
-####Posterior cruciate Ligament (PCL)
+#### Posterior cruciate Ligament (PCL)
 
 
 Johannnsen et al., 2013
@@ -203,7 +203,7 @@ Positionining of the bundles based on relative values provided in table 1,2 and 
 The distance between the attachment point in the baseline setated VIVA+ model is 36mm
 
 #### Meniscus
-The avergae thickness of the medial meniscus is 2.55 mm accoring to @Bloecker2011 (40 male and 62 female knees were measured in MRI) For males it should be 2.8 mm. 
+The avergae thickness of the medial meniscus is 2.55 mm accoring to @Bloecker2011 (40 male and 62 female knees were measured in MRI) For males it should be 2.8 mm.
 
 Data based on:
 https://bmcmusculoskeletdisord.biomedcentral.com/articles/10.1186/1471-2474-12-248/tables/1
@@ -221,7 +221,7 @@ tob be defined (UL)
 
 #### Patella
 
-#####liagement
+##### liagement
 
 The attachment point on the tibia is 36mm below the most distal edge of the patella.
 
@@ -242,8 +242,16 @@ They report a proximal width of 27.5 mm and a tickness of 3 mm while for the dis
 
 
 Simplified kinematic revloute joint between tiba+fibula and talus - rotational axis from lateral to medial malleolus
-https://ars.els-cdn.com/content/image/3-s2.0-B9780323544986000114-f11-03-9780323544986.jpg
-Mansfield et al. 2019
+[Mansfield et al. 2019](https://ars.els-cdn.com/content/image/3-s2.0-B9780323544986000114-f11-03-9780323544986.jpg)
+
+
+#### Future Model Improvements
+
+Average shapes of the bones based on statistical geometry
+
+Tuemer et al. 2018: Three-dimensional analysis of shape variations and symmetry of the fibula, tibia, calcaneus and talus [@Tuemer2018]
+
+Grant et al. 2020: Development and validation of statistical shape models of the primary functional bone segments of the foot [@Grant2020]
 
 ### References
 
