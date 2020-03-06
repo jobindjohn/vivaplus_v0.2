@@ -1,0 +1,13 @@
+﻿Body Region,Sagittal Aspect,Component,,,"Sub-Comp
+/Material",Part Name,Comment
+6,,,,,,PE,
+,0,,,,,L,
+,5,,,,,R,
+,,1,,,,Pelvic,
+,,,,1,,Pubis,
+,,,,2,,Ischium,
+,,,,3,,Acetabulum,
+,,,,4,,Ilium,
+,,,,5,,Sacrum,
+,,,,,1,Cortical,
+,,,,,2,Trabecular,
