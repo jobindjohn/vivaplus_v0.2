@@ -1,14 +1,47 @@
-# VIVA+ Human Body Models
 
-## Quick Start
+![viva-plus-logo](images/VIVA-plus-logo.png)
 
-Download link
+# **VIVA+ Human Body Models**
 
-Versions
+**Open source finite element models for human safety evaluations**
 
-Occupant and VRUs
+Next release (beta version): `0.1.0`
+
+## **Quick Start**
 
 
-## VIVA+ Documentation
+
+### Download
+
+Link to gitlab repo (assets?)
+
+
+
+### Occupant Models
+
+**F50**
+
+**M50**
+
+### Vulnerable Road Users (VRU)
+
+**Pedestrians**
+
+**Bicyclists**
+
+## **Model Versions**
+
+### Current stable version
+
+- *Master branch*
+
+### Development (research) versions
+
+- *Topic branches*
+
+### Specialized versions
+
+
+## **VIVA+ Documentation**
 
 ## License
