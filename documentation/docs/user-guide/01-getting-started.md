@@ -1,6 +1,6 @@
 # Introduction to VIVA+
 
-# Getting start
+# Getting started
 
 ## How to download the models
 
@@ -8,7 +8,12 @@
 
 Persistent doi minted through Zenodo
 
-## Get to know the model
+## Getting to know the models
+
+
+<i class="material-icons">
+airline_seat_recline_normal
+</i>
 
 # Running the model
 

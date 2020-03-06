@@ -48,3 +48,15 @@ PyMdown Extensions package can be installed with the following command:
 The Bibtex file can be found in the `/documentation` root directory: `viva-refs.bib`
 
 Please do not rewrite the whole Bibtex file as it is version controlled. You can either manually append Bibtex entries or use a Bibtex manager. Recommended Bibtex manager : [Jabref](https://www.jabref.org/)
+
+#### MkDocs **Material** Theme
+
+To install the material theme using pip:
+
+`pip install mkdocs-material`
+
+!!! Note
+    If you are required to upgrade mkdocs to use this theme, please upgrade to a
+    version `1.0` using `pip install 'mkdocs==1.0'`. This is because
+    the `mkdocs-bibtex` extension that we use for bibliography
+    seems to have compatibility issues with the latest release of `mkdocs`
