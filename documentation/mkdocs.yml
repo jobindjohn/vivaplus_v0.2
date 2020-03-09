@@ -11,8 +11,8 @@ nav:
 
     - Model Documentation:
         - 'Introduction to the Models': 'model-doc/00-model-intro.md'
+        - 'Anthropometry': model-doc/01-anthro.md
         - 'Model Data Structure': 'model-doc/10-model-data-structure.md'
-        - 'Anthropometry': model-doc/10-anthro.md
         - 'Head': model-doc/20-head.md
         - 'Neck': 'model-doc/25-neck.md'
         - 'Upper Extremities': model-doc/30-upper-extremities.md
@@ -44,6 +44,7 @@ markdown_extensions:
 plugins:
   - bibtex:
       bib_file: "viva-refs.bib"
+#          - "viva-refs-1.bib"
       cite_style: "pandoc"
 
 extra_javascript:

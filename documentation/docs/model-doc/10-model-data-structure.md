@@ -20,6 +20,9 @@ The primary identifier for any model data (part, section, material definition,
 
 ### Body regions
 
+The whole body is segmented into seven regions to define the body region identifiers.
+
+
 | **Identifier** | **Body Region**       |
 |-----------:|-------------------|
 | 1          | Head              |
@@ -29,6 +32,10 @@ The primary identifier for any model data (part, section, material definition,
 | 5          | Abdomen           |
 | 6          | Pelvis            |
 | 7          | Lower Extremities |
+
+The torso is divided into three regions: thoracic, abdominal, and pelvic segments.[^1] The spinal column follows the range of their corresponding body segment, for example, the lumbar spine is included as part of the abdominal segment.
+
+[^1]: https://en.wikipedia.org/w/index.php?title=Torso&oldid=939901603 (accessed on 09 March 2020)
 
 ### Sagittal Aspect (Left/Right side of the body)
 
