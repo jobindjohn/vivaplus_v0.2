@@ -110,10 +110,27 @@ Iriuchishima et al. 2016
 
 Ligaments were attached to the bones based on the anatomic landmarks descirbed in the review of Bedi et al., 2018
 
-Material model:  `*MAT_SOFT_TISSUE` - use XLAM0 (parameter based on initial position)
-
 Furthermore, the OpenKnee model was used as reference.
 
+Ligament dimensions:
+
+| Ligament                | Length [mm]      | Width [mm]                             | Thickness [mm]   | CrossectionArea [mm^2] | Sources |
+|-------------------------|------------------|----------------------------------------|------------------|------------------------|---------|
+| ACL                     | f:30.25, m:32.9  | f: 9.9, m: 12.2                        | 4.78-4.89        | f:37.1, m:50.3         |         |
+| ACL (tibia insertion)   | -                | f:18.7, m: 20                          | f: 13.5, m: 13.2 | f: 130.5, m:130.8      |         |
+| ACL (femur Insetion)    | -                | f: 12.4, m: 14.4                       | f: 6.3, m: 6.8   | f: 76, m:99            |         |
+| PCL                     | 32-38            | 8-19.5 (mean=13.75)                    | 6.63-?           | 64.1                   |         |
+| PCL (tibia insertion)   | -                | 20.69                                  | 5.35             | 147.67                 |         |
+| PCL (femoral insertion) | -                | 9.58                                   | 9.19             | 148.2                  |         |
+| MCL                     | 87.2             | 10.9 (prox), 17.7 (mid), 10.7 (distal) | ??               | ??                     |         |
+| MCL (femoral ins)       | -                | 9.2                                    | 11.5             | 75.5                   |         |
+| MCL (tibis ins sMCL)    | -                | 12.2                                   | 23.87            | 307.7                  |         |
+| MCL (tibia ins.- dist.) | -                | 18                                     | 5                | 63.6                   |         |
+| LCL                     | f: 61.3, m: 57.3 | ??                                     | ??               | ??                     |         |
+| LCL (femoral ins)       | -                | 9.7                                    | 11.9             | 52.1                   |         |
+| LCL (tibia ins)         | -                | 7.97                                   | 11.9             | 38.6                   |         |
+
+####Material model:  `*MAT_SOFT_TISSUE` - use XLAM0 (parameter based on initial position)
 
 ####Lateral Collateral Ligament (LCL)
 
