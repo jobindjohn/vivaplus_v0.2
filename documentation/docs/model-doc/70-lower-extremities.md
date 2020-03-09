@@ -1,6 +1,35 @@
-# Lower Extremities
-
+# Pelvis and Lower Extremities
 ## Bones
+
+### Pelvis
+
+From Fleps et al. (2018): "Acetabular cartilage was modelled based on the study of Burgin et al. [28] using a hyperelastic material model without viscoelastic effect (LS Dyna, MAT_077, v = 0.495, rho = 0.795 g/cm3, C10 = 0.352 MPa, C01 = 0.306 MPa, C11 = 0.052 MPa). Hyperelastic material parameters for fibrous cartilage at the pubic symphysis were based on the study from Li et al. [29] (LS Dyna, MAT_027, v = 0.495, rho = 0.795 g/cm3, C10 = 0.1 MPa, C01 = 0.45 MPa). The same parameters were also used for the cartilage in the sacroiliac joint for lack of better published information."
+Pelvic ligaments were modelled with tension only cable elements with material properties according to Hammer et al. [31] (LS Dyna, MAT_071, E = 395 MPa). Cross sections that were based on subject specific insertion site length and an average ligament thickness of 1mm.
+
+
+Material properties for the pelvic ligaments are descibed in Hammer et al. (2013)).
+
+####Cortical Bone
+
+####Modlling of sacroilliac joint
+
+The sacroilliac joint is calibrated using the experiments of @Guillemot.1998 as male and female pelvic bones were tested.
+For the quaistatic tests, a pelvic bone of  one female /S7) with an age of 63 years a height of 160 cm and a weight of 55 kg. 
+For the dynamic tests, 6 out of the 12 tested pelvic bones were from femaleswith an age between 65 and 81.
+
+
+For the male, @Salzar2009 can be also used:
+The quasi-static tests were done with a testing machine at a constant 4mm/s
+The dynamic tests were done with a drop tower, consisting of a 76.6 kg weight dropped along a linear bearing rail onto a transfer beam, Figure 2 3. Between the weight and the beam was a 19 mm viscoelastic material Sorbothane (Sorbothane, Inc., Kent, OH)
+
+
+
+
+
+
+####Validation
+
+Pelvis + Flesh should be validated with tests from Viano (1989)
 
 ### Femur
 The femur crossectional are was optimised to meet the target values of Klein et al. (2015) [@Klein2015].
@@ -49,6 +78,61 @@ Elamrani et al., 2014: "Fibers of the anterior layer made an angle of 13° (SD 2
 
 ## Joints
 
+### Hip Joint
+
+For the pedestrian a proper modelling of the tensile force transferred from the femur to the pelvis has to be modelled.
+Material and crossection parameters for the human hip joint capsule ligaments attaching the femur to the pelvis are reported by Hewitt et al. (2001). Ligaments were obtained from 7 females and 3 males (50-99 yo)
+The stress-strain behaviour is described by an exponential function. The displacement rate in the tests was 0.04 mm/s
+
+
+
+
+|- | - | Superior iliofemoral | Inferios iliofemoral | Ischiofemoral |
+### Hip Joint
+
+For the pedestrian a proper modelling of the tensile force transferred from the femur to the pelvis has to be modelled.
+Material and crossection parameters for the human hip joint capsule ligaments attaching the femur to the pelvis are reported by Hewitt et al. (2001). Ligaments were obtained from 7 females and 3 males (50-99 yo)
+The stress-strain behaviour is described by an exponential function. The displacement rate in the tests was 0.04 mm/s
+
+
+
+
+|- | - | Superior iliofemoral | Inferios iliofemoral | Ischiofemoral |
+|-|-|----------------------|----------------------|----------------------|
+|                                                      | Acetabular  | 150   | 100    | 63     |
+|------------------------------------------------------|-------------|-------|--------|--------|
+|                                                      | Middle      | 120   | 92     | 81     |
+|                                                      | Femoral     | 99    | 89     | 79     |
+| Failure Strain                                       |             |       |        |        |
+|                                                      | Acetabular  | 8.5%  | 11.6%  | 7.8%   |
+|                                                      | Middle      | 6.2%  | 10.4%  | 8.1%   |
+|                                                      | Femoral     | 13.3% | 11.4%  | 25.3%  |
+|                                                      | average     | 9.33% | 11.13% | 13.73% |
+|                                                      | average 80% | 7.47% | 8.91%  | 10.99% |
+| Modulus of Elasticity at 0% (MPa)                    |             |       |        |        |
+|                                                      | Acetabular  | 3.2   | 3.0    | 4.8    |
+|                                                      | Middle      | 1.9   | 3.3    | 3.9    |
+|                                                      | Femoral     | 1.0   | 2.2    | 2.1    |
+|                                                      | average     | 2.0   | 2.8    | 3.6    |
+| Modulus of Elasticity at 80% of failure strain (MPa) |             |       |        |        |
+|                                                      | Acetabular  | 112.9 | 285.8  | 80.9   |
+|                                                      | Middle      | 113.3 | 242.2  | 99.5   |
+|                                                      | Femoral     | 76.1  | 139.3  | 82.1   |
+|                                                      | average     | 100.7 | 222.4  | 87.5   |
+
+@Fleps2018 have modelled the hip joint capsule ligaments with seperated matrix and fiber material. The matrix was modelled as shell with
+linear elastic material and E=0.002 MPA. The fibers were modelles as cable elements (MAT_071) with materiual properties according to Hewitt et al. (E=200 MPa with a toe region of 8% strain)
+
+Beside pedestrian impacts of Song et al. useful validation setup for the hip joint capsula stiffness could be Ito et al. (2009) in which the femure was teared apart from the acetabulum parallel to the femur shaft with the hip being in a neutral position. Load-Displacement curves are provided up to 5 mm for a constant loading of 4 mm/s.
+Around 300 N were needed to move the femur 5 mm apart from the pelvis.
+Donors were all male.
+
+Circumferential of acetabulum is 167 mm - using the whole circumferential and using the sum of the crossectional acatbular area, we get a thickness of 1.87 mm for the ligament
+(150+100+63)=313 mm^2 / 167mm= 1.87 mm
+
+At the femuroal end the ligament will have a circumferential of 120 mm, resulting in a tickness of 2.22 mm
+(99+89+79)=267 mm^2 / 120mm = 2.225 mm
+
 ### Knee Joint
 attachment points on femur:
 Blumensaat’s line (roof of femoral intercondylar ):
@@ -58,23 +142,44 @@ Ligaments were attached to the bones based on the anatomic landmarks descirbed i
 
 Furthermore, the OpenKnee model was used as reference.
 
-Ligament dimensions:
+Ligament dimensionsanteroposterior
 
-| Ligament                | Length [mm]      | Width [mm]                             | Thickness [mm]   | CrossectionArea [mm^2] | Sources |
-|-------------------------|------------------|----------------------------------------|------------------|------------------------|---------|
-| ACL                     | f:30.25, m:32.9  | f: 9.9, m: 12.2                        | 4.78-4.89        | f:37.1, m:50.3         |         |
-| ACL (tibia insertion)   | -                | f:18.7, m: 20                          | f: 13.5, m: 13.2 | f: 130.5, m:130.8      |         |
-| ACL (femur Insetion)    | -                | f: 12.4, m: 14.4                       | f: 6.3, m: 6.8   | f: 76, m:99            |         |
-| PCL                     | 32-38            | 8-19.5 (mean=13.75)                    | 6.63-?           | 64.1                   |         |
-| PCL (tibia insertion)   | -                | 20.69                                  | 5.35             | 147.67                 |         |
-| PCL (femoral insertion) | -                | 9.58                                   | 9.19             | 148.2                  |         |
-| MCL                     | 87.2             | 10.9 (prox), 17.7 (mid), 10.7 (distal) | ??               | ??                     |         |
-| MCL (femoral ins)       | -                | 9.2                                    | 11.5             | 75.5                   |         |
-| MCL (tibis ins sMCL)    | -                | 12.2                                   | 23.87            | 307.7                  |         |
-| MCL (tibia ins.- dist.) | -                | 18                                     | 5                | 63.6                   |         |
-| LCL                     | f: 61.3, m: 57.3 | ??                                     | ??               | ??                     |         |
-| LCL (femoral ins)       | -                | 9.7                                    | 11.9             | 52.1                   |         |
-| LCL (tibia ins)         | -                | 7.97                                   | 11.9             | 38.6                   |         |
+| Ligament                | Length [mm]     | Width [mm]                             | Thickness [mm]                     | CrossectionArea [mm^2] | Sources     |
+|-------------------------|-----------------|----------------------------------------|------------------------------------|------------------------|-------------|
+| ACL                     | f:30.25, m:32.9 | f: 9.9, m: 12.2                        | 4.78-4.89                          | f:37.08, m:50.36       | [1-5]       |
+| ACL (tibia insertion)   | -               | f: 13.2, m: 13.5 (medio-lateral)       | f:18.7, m: 20  (anteroposterior)   | f: 118.85, m:142.5     | 3,4         |
+| ACL (femur Insetion)    | -               | f: 6.3, m: 6.8 (anteroposterior)       | f: 12.4, m: 14.4 (proximal-distal) | f: 81.45, m:98.9       | 3,4         |
+| PCL                     | 32-38           | 8-19.5 (mean=13.75)                    | 3.85-6.63                          | 64.05                  | 5,6         |
+| PCL (tibia insertion)   | -               | 9.58                                   | 9.12                               | 147.67                 | 5-7         |
+| PCL (femoral insertion) | -               | 5.35                                   | 20.69                              | 148.2                  | 5-7         |
+| MCL                     | 87.5            | 10.9 (prox), 17.7 (mid), 10.7 (distal) | 2.1                                | ??                     | 8-11        |
+| MCL (femoral ins)       | -               | 11.5 (anteroposterior)                 | 9.2 (proximal-dis)                 | 75.5                   | 8,9,12      |
+| MCL (tibis ins sMCL)    | -               | 12.2  (anteroposterior)                | 23.87 (proximal-dis)               | 307.7                  | 8,9,12      |
+| MCL (tibia ins.- dist.) | -               | 18                                     | 5                                  | 63.4                   | 8           |
+| LCL                     | f: 57.3, m:61.3 | 5.13                                   | 2.4                                | ??                     | 13-15       |
+| LCL (femoral ins)       | -               | 9.7 (anteroposterior)                  | 11.2                               | 52.1                   | 13,14,16,17 |
+| LCL (tibia ins)         | -               | 7.97  (anteroposterior)                | 11.9                               | 38.6                   | 13,14,16,17 |
+
+[1] A.F. Anderson, D.C. Dome, S. Gautam, M.H. Awh, G.W. Rennirt, Correlation of anthropometric measurements, strength, anterior cruciate ligament size, and intercondylar notch characteristics to sex differences in anterior cruciate ligament tear rates, Am J Sports Med 29(1) (2001) 58-66.
+[2] N. Chandrashekar, J. Slauterbeck, J. Hashemi, Sex-based differences in the anthropometric characteristics of the anterior cruciate ligament and its relation to intercondylar notch geometry: a cadaveric study, Am J Sports Med 33(10) (2005) 1492-1498.
+[3] S.G. Cone, D. Howe, M.B. Fisher, Size and Shape of the Human Anterior Cruciate Ligament and the Impact of Sex and Skeletal Growth: A Systematic Review, JBJS Rev 7(6) (2019) e8-e8.
+[4] L. Stijak, V. Radonjić, V. Nikolić, Z. Blagojević, M. Aksić, B. Filipović, Correlation between the morphometric parameters of the anterior cruciate ligament and the intercondylar width: gender and age differences, Knee Surg Sports Traumatol Arthrosc 17(7) (2009) 812-817.
+[5] E. Triantafyllidi, N.K. Paschos, A. Goussia, N.-M. Barkoula, D.A. Exarchos, T.E. Matikas, V. Malamou-Mitsi, A.D. Georgoulis, The shape and the thickness of the anterior cruciate ligament along its length in relation to the posterior cruciate ligament: a cadaveric study, Arthroscopy 29(12) (2013) 1963-1973.
+[6] S.L. Logterman, F.B. Wydra, R.M. Frank, Posterior Cruciate Ligament: Anatomy and Biomechanics, Curr Rev Musculoskelet Med 11(3) (2018) 510-514.
+[7] M. Takahashi, T. Matsubara, M. Doi, D. Suzuki, A. Nagano, Anatomical study of the femoral and tibial insertions of the anterolateral and posteromedial bundles of human posterior cruciate ligament, Knee Surg Sports Traumatol Arthrosc 14(11) (2006) 1055-1059.
+[8] F. Liu, B. Yue, H.R. Gadikota, M. Kozanek, W. Liu, T.J. Gill, H.E. Rubash, G. Li, Morphology of the medial collateral ligament of the knee, J Orthop Surg Res 5 (2010) 69-69.
+[9] N. Otake, H. Chen, X. Yao, S. Shoumura, Morphologic Study of the Lateral and Medial Collateral Ligaments of the Human Knee, Okajimas Folia Anatomica Japonica 83(4) (2007) 115-122.
+[10] S.E. Park, L.E. DeFrate, J.F. Suggs, T.J. Gill, H.E. Rubash, G. Li, Erratum to "The change in length of the medial and lateral collateral ligaments during in vivo knee flexion", Knee 13(1) (2006) 77-82.
+[11] W.T. Wilson, A.H. Deakin, A.P. Payne, F. Picard, S.C. Wearing, Comparative analysis of the structural properties of the collateral ligaments of the human knee, J Orthop Sports Phys Ther 42(4) (2012) 345-351.
+[12] M.I. Kennedy, S. Claes, F.A.F. Fuso, B.T. Williams, M.T. Goldsmith, T.L. Turnbull, C.A. Wijdicks, R.F. LaPrade, The Anterolateral Ligament: An Anatomic, Radiographic, and Biomechanical Analysis, Am J Sports Med 43(7) (2015) 1606-1615.
+[13] M. Espregueira, M.V. da Silva, Anatomy of the lateral collateral ligament: a cadaver and histological study, Knee Surg Sports Traumatol Arthrosc 14(3) (2006) 221-228.
+[14] B.R. Meister, S.P. Michael, R.A. Moyer, J.D. Kelly, C.D. Schneck, Anatomy and Kinematics of the Lateral Collateral Ligament of the Knee, Am J Sports Med 28(6) (2000) 869-878.
+[15] S. Tschauner, E. Sorantin, G. Singer, R. Eberl, A.-M. Weinberg, P. Schmidt, T. Kraus, The origin points of the knee collateral ligaments: an MRI study on paediatric patients during growth, Knee Surg Sports Traumatol Arthrosc 24(1) (2016) 18-25.
+[16] J.M. Brinkman, P.J.A. Schwering, L. Blankevoort, J.G. Kooloos, J. Luites, A.B. Wymenga, The insertion geometry of the posterolateral corner of the knee, J Bone Joint Surg Br 87(10) (2005) 1364-1368.
+[17] Y.-B. Song, K. Watanabe, E. Hogan, A.V. D'Antoni, A.C. Dilandro, N. Apaydin, M. Loukas, M.M. Shoja, R.S. Tubbs, The fibular collateral ligament of the knee: a detailed review, Clin Anat 27(5) (2014) 789-797.
+
+
+
 
 ####Material model:  `*MAT_SOFT_TISSUE` - use XLAM0 (parameter based on initial position)
 
