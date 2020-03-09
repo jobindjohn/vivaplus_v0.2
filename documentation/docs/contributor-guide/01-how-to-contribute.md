@@ -58,5 +58,19 @@ To install the material theme using pip:
 !!! Note
     If you are required to upgrade mkdocs to use this theme, please upgrade to a
     version `1.0` using `pip install 'mkdocs==1.0'`. This is because
-    the `mkdocs-bibtex` extension that we use for bibliography
+    the `mkdocs-bibtex` extension that is used for bibliography
     seems to have compatibility issues with the latest release of `mkdocs`
+
+
+## Scratch Pad/ Other resources
+
+FIXME
+
+- [Ten simple rules for documenting scientific software](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006561)
+- [Ten simple rules for helping newcomers become contributors to open projects](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007296)
+- [Ten Simple Rules for Reproducible Computational Research](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003285)
+- [Ten Simple Rules for Effective Computational Research](Ten Simple Rules for Effective Computational Research)
+- [Ten Simple Rules for the Open Development of Scientific Software](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1002802)
+- [Ten simple rules for making research software more robust](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005412)
+- [Ten Simple Rules for the Care and Feeding of Scientific Data](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003542)
+- [Ten Simple Rules for Reducing Overoptimistic Reporting in Methodological Computational Research](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004191)

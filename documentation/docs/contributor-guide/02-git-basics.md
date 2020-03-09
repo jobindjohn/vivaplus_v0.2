@@ -73,7 +73,9 @@ Reset head to a different commit
 
 
 
-#### More reading
+## More reading/resources
+
+- [Ten Simple Rules for Taking Advantage of Git and Github](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004947)
 
 
 - [Reset demystified](https://git-scm.com/book/en/v2/Git-Tools-Reset-Demystified)
