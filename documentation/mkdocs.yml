@@ -8,14 +8,19 @@ nav:
     - Home: index.md
     - 'User Guide':
         - 'Getting Started': 'user-guide/01-getting-started.md'
-        - 'Model Data Structure': 'user-guide/02-model-data-structure.md'
+
     - Model Documentation:
-        - Anthropometry: model-doc/01-anthro.md
-        - Head-Neck: model-doc/02-head-neck.md
-        - Upper Extremities: model-doc/03-upper-extremities.md
-        - Thorax and Abdomen: model-doc/04-thorax-and-abdomen.md
-        - Pelvis and Lower Extremities: 'model-doc/05-pelvis-and-lower-extremities.md'
-        - Control Card Guidelines: 'model-doc/06-control-card-guidelines.md'
+        - 'Introduction to the Models': 'model-doc/00-model-intro.md'
+        - 'Model Data Structure': 'model-doc/10-model-data-structure.md'
+        - 'Anthropometry': model-doc/10-anthro.md
+        - 'Head': model-doc/20-head.md
+        - 'Neck': 'model-doc/25-neck.md'
+        - 'Upper Extremities': model-doc/30-upper-extremities.md
+        - 'Thorax': model-doc/40-thorax.md
+        - 'Abdomen': 'model-doc/50-abdomen.md'
+        - 'Pelvis': 'model-doc/05-pelvis-and-lower-extremities.md'
+        - 'Lower Extremities': 'model-doc/70-lower-extremities.md'
+        - Control Card Guidelines: 'model-doc/80-control-card-guidelines.md'
     - Contributor Guide:
         - 'How to Contribute': contributor-guide/01-how-to-contribute.md
         - 'Git Basics and Collaborative Development': contributor-guide/02-git-basics.md

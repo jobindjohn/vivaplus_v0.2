@@ -8,16 +8,6 @@ unique (no mismatches or clashes) structuring of model data.
 A brief overview of identifier numbering scheme for the model parts and include
 file structuring of the model data is given below.
 
-The detailed body region-wise identifier list can be found at the following locations.
-
-1. [Head](1-Head.md)
-2. [Neck](2-Neck.md)
-3. [Upper Extremities](3-Upper-Extremities.md)
-4. [Thorax](4-Thorax.md)
-5. [Abdomen](5-Abdomen.md)
-6. [Pelvis](6-Pelvis.md)
-6. [Lower Extremities](7-Lower-Extremities.md)
-
 
 
 ## Identifiers

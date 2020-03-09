@@ -11,9 +11,6 @@ Persistent doi minted through Zenodo
 ## Getting to know the models
 
 
-<i class="material-icons">
-airline_seat_recline_normal
-</i>
 
 # Running the model
 
