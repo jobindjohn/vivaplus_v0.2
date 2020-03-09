@@ -59,4 +59,26 @@ Circumferential of acetabulum is 167 mm - using the whole circumferential and us
 At the femuroal end the ligament will have a circumferential of 120 mm, resulting in a tickness of 2.22 mm
 (99+89+79)=267 mm^2 / 120mm = 2.225 mm
 
+
+
+#### Modelling of sacroilliac joint
+
+The sacroilliac joint is calibrated using the experiments of [@Guillemot.1998] as male and female pelvic bones were tested.
+For the quaistatic tests, a pelvic bone of  one female /S7) with an age of 63 years a height of 160 cm and a weight of 55 kg. 
+For the dynamic tests, 6 out of the 12 tested pelvic bones were from femaleswith an age between 65 and 81.
+
+
+For the male, [@Salzar2009] can be also used:
+The quasi-static tests were done with a testing machine at a constant 4mm/s
+The dynamic tests were done with a drop tower, consisting of a 76.6 kg weight dropped along a linear bearing rail onto a transfer beam, Figure 2 3. Between the weight and the beam was a 19 mm viscoelastic material Sorbothane (Sorbothane, Inc., Kent, OH)
+
+
+
+
+
+
+####Validation
+
+Pelvis + Flesh should be validated with tests from Viano (1989)
+
 \bibliography
