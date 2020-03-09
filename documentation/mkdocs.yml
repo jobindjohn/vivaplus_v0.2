@@ -18,7 +18,7 @@ nav:
         - 'Upper Extremities': model-doc/30-upper-extremities.md
         - 'Thorax': model-doc/40-thorax.md
         - 'Abdomen': 'model-doc/50-abdomen.md'
-        - 'Pelvis': 'model-doc/05-pelvis-and-lower-extremities.md'
+        - 'Pelvis': 'model-doc/60-pelvis.md'
         - 'Lower Extremities': 'model-doc/70-lower-extremities.md'
         - Control Card Guidelines: 'model-doc/80-control-card-guidelines.md'
     - Contributor Guide:
