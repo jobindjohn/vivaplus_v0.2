@@ -63,9 +63,40 @@ At the femuroal end the ligament will have a circumferential of 120 mm, resultin
 
 #### Modelling of sacroilliac joint
 
+To model the stiffness of the sacroiliac join, a part consisting of one layer solid elements is cerated between the sacrum and the ilium.
+
+The material parameters are chosen based on [@Miller1987].
+Data is based on 7 males and one female aged between 59 and 74 years. 
+
+Stiffness (k) in direction: 
+* superior: 157.2 N/mm 
+* inferior: 267.0 N/mm
+* anterior: 107.3 N/mm
+* posterior: 187.9 N/mm
+* medial (lateral): 386.8 N/mm
+
+The area of the joint was measured as 1424 mm^2 (1104-1913m^2). In the VIVA+ 50 F model it is slightly lower than the smallest measured area, being 1050 mm^2 on anterior and 1062 mm^2 posterior side. 
+The average thickness of the outer face is 4.4 mm. 
+
+E=k * thickness/A
+
+leading to the young modulus
+
+* superior: 0.655 N/mm^2 
+* inferior: 1.113 N/mm^2
+* mean of superior and inferior = 0.884
+* anterior: 0.447 N/mm^2
+* posterior: 0.783 N/mm^2
+* mean of anerior posterior = 0.615
+* medial (lateral): 1.612 N/mm^2
+
+As the appropiate stiffness will be mainly important in lateral impacts and only validation loadcases for this impact direction are available, a linear elastic material is chosen for the baseline model using a young modulus of 1.612 N/mm^2
+The density is set to XX
+
+
 The sacroilliac joint is calibrated using the experiments of [@Guillemot.1998] as male and female pelvic bones were tested.
-For the quaistatic tests, a pelvic bone of  one female /S7) with an age of 63 years a height of 160 cm and a weight of 55 kg. 
-For the dynamic tests, 6 out of the 12 tested pelvic bones were from femaleswith an age between 65 and 81.
+For the quaistatic tests, a pelvic bone of  one female (S7) with an age of 63 years a height of 160 cm and a weight of 55 kg. 
+For the dynamic tests, 6 out of the 12 tested pelvic bones were from females with an age between 65 and 81.
 
 
 For the male, [@Salzar2009] can be also used:
@@ -73,11 +104,16 @@ The quasi-static tests were done with a testing machine at a constant 4mm/s
 The dynamic tests were done with a drop tower, consisting of a 76.6 kg weight dropped along a linear bearing rail onto a transfer beam, Figure 2 3. Between the weight and the beam was a 19 mm viscoelastic material Sorbothane (Sorbothane, Inc., Kent, OH)
 
 
+The scaroiliac joint is connected with the illium using a tied contact 
+
+According to https://www.dynamore.de/de/download/papers/2015-ls-dyna-europ/documents/sessions-g-5-8/mpp-contact-options-and-recommendations a constraint based tied contact should be used with the parameters ("However, constraintbased contacts cannot be used in explicit calculations when other conflicting constraints may beinvolved, such as prescribed motion or rigid bodies.")
+
+IGNORE=2 GROUPABLE=1 TIEDID=1
 
 
 
 
-####Validation
+#### Validation
 
 Pelvis + Flesh should be validated with tests from Viano (1989)
 
