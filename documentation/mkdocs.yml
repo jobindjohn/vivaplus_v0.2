@@ -21,11 +21,13 @@ nav:
         - 'Pelvis': 'model-doc/60-pelvis.md'
         - 'Lower Extremities': 'model-doc/70-lower-extremities.md'
         - Control Card Guidelines: 'model-doc/80-control-card-guidelines.md'
+        - 'Postprocessing simulations': 'model-doc/85-Postprocessing.md'
     - Contributor Guide:
         - 'How to Contribute': contributor-guide/01-how-to-contribute.md
         - 'Git Basics and Collaborative Development': contributor-guide/02-git-basics.md
-        - 'Postprocessing simulations': 'contributor-guide/10-Postprocessing.md'
         - 'Advanced Git Functions': contributor-guide/50-advanced-git-functions.md
+        - 'Merging your contributiona': 'contributor-guide/55-merge-guidelines.md'
+        - 'Making model releases': 'contributor-guide/60-model-release.md'
 
 theme:
     name: 'material'
