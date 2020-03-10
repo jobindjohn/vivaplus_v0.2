@@ -62,4 +62,3 @@ How can you contribute?
 - Translate the documentation into **other languages**
 
 You can find out more on how to be part of the VIVA+ community in
-[CONTRIBUTING.md](../../CONTRIBUTING.md)
