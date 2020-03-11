@@ -41,6 +41,10 @@ theme:
 markdown_extensions:
   - footnotes
   - pymdownx.arithmatex
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.tasklist:
+      custom_checkbox: true
   - admonition
 
 plugins:
@@ -48,6 +52,7 @@ plugins:
       bib_file: "viva-refs.bib"
 #          - "viva-refs-1.bib"
       cite_style: "pandoc"
+#  - mknotebooks # pip install mknotebooks
 
 extra_javascript:
   - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'

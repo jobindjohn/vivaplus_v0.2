@@ -1,1 +1,1 @@
-# Guidelines to merging your contributions
+# Merge Guidelines for Developers

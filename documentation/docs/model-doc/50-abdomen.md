@@ -4,6 +4,10 @@
 
 Rigid definitions
 
+??? info "Future Model Development"
+    A new lumbar Spine model with detailed vertebrae and intervertebral soft tissue
+    definitions is planned.
+
 ## Subcutaneous Fat Layer
 
 The extent of the subcutaneous fat was adapted from measurements

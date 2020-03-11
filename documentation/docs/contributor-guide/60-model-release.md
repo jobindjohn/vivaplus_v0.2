@@ -1,1 +1,1 @@
-# Release Guidelines for Developers
+# Release Guidelines for Maintainers
