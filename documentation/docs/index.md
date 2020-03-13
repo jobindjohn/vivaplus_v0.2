@@ -54,11 +54,12 @@ Documentation License (CC-BY-SA 4.0)
 
 How can you contribute?
 
-- Help us by **reporting issues** when you run the model
+-  **Report issues** you encounter when running the model
 - Join the **users' community**: learn, find help and give help! (Zulip?)
 - Run extended **model validation** cases
-- Introduce **new features** in the model
+- Would you like to try a different **material model** for a component?
+- Introduce **new features** in the model!
 - Translate the model to **other Finite Element (FE) solvers**
 - Translate the documentation into **other languages**
 
-You can find out more on how to be part of the VIVA+ community in
+You can find out more on how to be part of the VIVA+ community in CONTRIBUTING.md

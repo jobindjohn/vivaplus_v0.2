@@ -5,7 +5,7 @@ site_author: VIVA Plus Team
 
 
 nav:
-    - Home: index.md
+    - 'Home': index.md
     - 'User Guide':
         - 'Getting Started': 'user-guide/01-getting-started.md'
 
@@ -23,17 +23,20 @@ nav:
         - Control Card Guidelines: 'model-doc/80-control-card-guidelines.md'
         - 'Postprocessing simulations': 'model-doc/85-Postprocessing.md'
     - Contributor Guide:
-        - 'How to Contribute': contributor-guide/01-how-to-contribute.md
-        - 'Git Basics and Collaborative Development': contributor-guide/02-git-basics.md
-        - 'Advanced Git Functions': contributor-guide/50-advanced-git-functions.md
-        - 'Merging your contributiona': 'contributor-guide/55-merge-guidelines.md'
+        - 'How to Contribute': 'contributor-guide/01-how-to-contribute.md'
+        - 'VIVA+ Git Workflow Overview': 'contributor-guide/20-viva-git-workflow.md'
+        - 'Git Basics': 'contributor-guide/22-git-basics.md'
+        - 'More Git Functions': contributor-guide/25-more-git-functions.md
+        - 'Git Cheatsheet': contributor-guide/29-git-cheat-sheet.md
+        - 'Merging your contributiona': 'contributor-guide/50-merge-guidelines.md'
         - 'Making model releases': 'contributor-guide/60-model-release.md'
+        - 'Documentation Guidelines': 'contributor-guide/70-documentation-guideliness.md'
 
 theme:
     name: 'material'
     palette:
-        primary: 'blue grey'
-        accent: 'yellow'
+        primary: 'teal'
+        accent: 'indigo'
     logo: #'images/VIRTUAL.png'
         icon: 'directions_walk'
         # Find more at https://material.io/resources/icons/

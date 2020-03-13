@@ -10,9 +10,9 @@ The thoracic vertebrae are defined as rigid elements. The elements of the cortic
 
 | PID    | Component       |
 |--------|-----------------|
-| 401XX1 | Cortical Bone   |
-| 401XX2 | Trabecular Bone |
-|- - - XX - | Represents the Thoracic Spine Level, ranges from 01 to 12|
+| 401**XX**1 | TX-Spine-T**XX**-Cortical-*M*   |
+| 401**XX**2 | TX-Spine-T**XX**-Trabecular-*M* |
+|- - - **XX** - | Represents the Thoracic Spine Level, ranges from 01 to 12, <br/> *M* indicates mid-sagittal (common identifier for left and right halves)|
 
 
 
