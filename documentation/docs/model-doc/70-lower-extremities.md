@@ -1,4 +1,14 @@
 # Lower Extremities
+
+??? info "Lower Extremity Components Identifier Overview"
+    |       Component Group  | Identifier Range (Start) |
+    |-----------------------:|--------------------------|
+    |                  Bones | 701000                   |
+    |  Knee joint structures | 702000                   |
+    | Ankle joint structures | 703000                   |
+    |        Feet structures | 704000                   |
+    |       Leg soft tissues | 705000                   |
+
 ## Bones
 
 ### Femur

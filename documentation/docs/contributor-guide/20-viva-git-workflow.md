@@ -29,7 +29,7 @@ or
 ## Step 3: Saving your work as you go: **Commit**
 
 !!! Note "Guidelines for making commits"
-    - Stage related files together from the working directory and perform the commit, rather than staging all the change files for a bulk commit
+    - Stage related files together from the working directory and perform the commit, rather than staging all the changed files for a bulk commit
     - Follow the commit message guidelines for VIVA+ models (read below)
 
 

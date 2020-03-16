@@ -18,6 +18,14 @@ The primary identifier for any model data (part, section, material definition,
 
 ![Model Data Identifiers](images/data-identifier.png)
 
+**A generalized identifier reference is given in each section corresponding
+to the body regions/components.** An overview of the numbering scheme is given below.
+
+!!! Tip "Identifiers: Just look 'em up!"
+    > "Never memorize something that you can look up"
+
+    > [Albert Einstein](https://quoteinvestigator.com/2012/04/02/know-where-to-find/)
+
 ### Body regions
 
 The whole body is segmented into seven regions to define the body region identifiers.

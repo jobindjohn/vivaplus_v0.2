@@ -46,9 +46,27 @@ To install the material theme using pip:
 
 `pip install mkdocs-material`
 
-## Tips for Documentation
+
+## Tips for writing the documentation
+
+
+- **[Clause Order](https://developers.google.com/style/clause-order)**
+
+If possible, mention the circumstance before you provide the instruction; that way, the reader can skip the instruction if the circumstance doesn't apply.
+Examples
+
+:thumbsdown_tone3: Not recommended: See [link to other document] for more information.
+
+:thumbsup_tone3: Recommended: For more information, see [link to other document].
+
+[Google Developers Course on Technical Writing](https://developers.google.com/tech-writing/overview)
+
+
+## Documentation Hacks
 
 
 ### Tables
 
 - Add line break within table: `<br/>`
+
+- Find emoji tags [here](https://github.com/facelessuser/pymdown-extensions/blob/master/pymdownx/emoji1_db.py)
