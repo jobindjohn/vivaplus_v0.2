@@ -36,8 +36,8 @@ nav:
 theme:
     name: 'material'
     palette:
-        primary: 'teal'
-        accent: 'indigo'
+        primary: 'amber'
+        accent: 'teal'
     logo: #'images/VIRTUAL.png'
         icon: 'directions_walk'
         # Find more at https://material.io/resources/icons/
@@ -57,6 +57,7 @@ markdown_extensions:
       permalink: true
 
 plugins:
+  - search
   - bibtex:
       bib_file: "viva-refs.bib"
 #          - "viva-refs-1.bib"
