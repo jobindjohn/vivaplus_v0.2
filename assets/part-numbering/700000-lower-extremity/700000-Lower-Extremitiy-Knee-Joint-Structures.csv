@@ -1,0 +1,25 @@
+Body Region,Sagittal Aspect,Component,,,"Sub-Comp
+/Material",Part Name,Comment
+7,,,,,,LX,
+,0,,,,,L,
+,5,,,,,R,
+,,2,,,,Knee-joint-structures,
+,,,1,,,Ligaments
+,,,,1,,LCL,
+,,,,2,,MCL,
+,,,,3,,ACL,
+,,,,4,,PCL,
+,,,,5,,PT,
+,,,2,,,Cartilages
+,,,,1,,Femoral-cartilage,
+,,,,2,,Tibial-cartilage,
+,,,,3,,Patellar-cartilage,
+,,,3,,,Meniscus,
+,,,,1,,Lateral-meniscus,
+,,,,2,,Medial-meniscus,
+,,,4,,,Muscles,
+,,,,,0,mains-structure,
+,,,,,1,substructure1-(aACL,aPCL,muscle-head1)
+,,,,,2,substructure2-(pACL,pPCL,muscle-head2)
+,,,,,3,substructure3-(muscle-head3)
+,,,,,4,substructure4-(muscle-head4)
