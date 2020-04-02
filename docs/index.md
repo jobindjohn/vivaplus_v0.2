@@ -19,9 +19,9 @@ Link to gitlab repo (assets?)
 
 ### Occupant Models
 
-**F50**
+**50F**
 
-**M50**
+**50M**
 
 ### Vulnerable Road Users (VRU)
 

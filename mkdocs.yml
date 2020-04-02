@@ -50,8 +50,8 @@ markdown_extensions:
   - pymdownx.magiclink
   - pymdownx.tasklist:
       custom_checkbox: true
-  - pymdownx.emoji:
-      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+#  - pymdownx.emoji:
+#      emoji_generator: !!python/name:pymdownx.emoji.to_svg
   - admonition
   - toc:
       permalink: true

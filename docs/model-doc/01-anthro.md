@@ -4,8 +4,8 @@ The anthropometry of VIVA+ average male and female models is given below.
 
 | Gender/Size | Height (m)| BMI (kg/m<sup>2</sup>)| Age (year) |
 |-------------|:------:|:---:|:---:|
-| Average Male (M50)        |  1.753 |  25 |  50 |
-| Average Female (F50)     |  1.616 |  24 |  50 |
+| Average Male (50M)        |  1.753 |  25 |  50 |
+| Average Female (50F)     |  1.616 |  24 |  50 |
 
 Reference anthropometry
 
