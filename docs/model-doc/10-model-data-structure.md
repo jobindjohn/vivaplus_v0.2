@@ -8,6 +8,8 @@ unique (no mismatches or clashes) structuring of model data.
 A brief overview of identifier numbering scheme for the model parts and include
 file structuring of the model data is given below.
 
+**FIXME**
+Monolithic library versus modular library
 
 
 ## Identifiers
@@ -72,15 +74,15 @@ An example of the left upper extremity skeletal system is given below.
 
 
 **Component Identifier**|**Description**
-:-----:|:-----:
-60 010 0 | Clavicle
-60 020 0 | Scapula
-60 030 0|Humerus
-60 040 0|Ulna
-60 050 0|Radius
-60 060 0 – 60 130 0|Carpal Bones
-60 140 0 – 60 180 0|Metacarpal Bones
-60 190 0 – 65 320 0|Phalanges
+-----:|:-----
+30 1 10 0 | Clavicle
+30 1 20 0 | Scapula
+30 1 30 0|Humerus
+30 1 40 0|Ulna
+30 1 50 0|Radius
+30 1 60 0 – 60 2 30 0|Carpal Bones
+30 2 40 0 – 60 2 80 0|Metacarpal Bones
+30 2 90 0 – 65 3 20 0|Phalanges
 
 ## Include file structure
 
