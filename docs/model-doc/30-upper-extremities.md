@@ -6,6 +6,11 @@
 
 ### Humerus
 
+
+#### To be implemented
+
+FIXME
+
 Paper: Cortical thickness analysis of the **proximal humerus** [@Majed2017]
 
 Paper: Regional variations of **cortical bone in the humeral head region**: A preliminary study [@Wang2018]
