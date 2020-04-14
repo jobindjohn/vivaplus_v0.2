@@ -1,4 +1,5 @@
 # Control Card Guidelines
+The unit system of the model is **mm, kg, ms** and therefore **kN, GPa,...**
 
 ## Checklist before running simulations
 

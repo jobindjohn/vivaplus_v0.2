@@ -45,7 +45,7 @@ Thickness ranges from 2 to 4 mm.
 ###Connection between Fibula and Tibia
 Crural Interosseous membrane
 
-Elamrani et al., 2014:
+[@Elamrani2013]
 
 https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00276-013-1199-9/MediaObjects/276_2013_1199_Fig3_HTML.jpg?as=webp
 
@@ -104,17 +104,19 @@ Ligament dimensionsanteroposterior
 
 
 
-####Material model:  `*MAT_SOFT_TISSUE` - use XLAM0 (parameter based on initial position)
+#### Material model:  
 
-####Lateral Collateral Ligament (LCL)
+*MAT_SOFT_TISSUE` - use XLAM0 (parameter based on initial position)
+
+#### Lateral Collateral Ligament (LCL)
 
 LaPrade et al.(2003): "The average cross-sectional area of the fibular collateral ligament attachment site on the femur was 0.48 cm2 (range, 0.43 to 0.52).
 
-#####Femur Attachment
+##### Femur Attachment
 According to Kamath et al. (2010), the femoral LCL insertion(black dot) is 58%±4.7% across the width of the lateral femoral condyle along the Blumensaat line and 2.3±2.3 mm distal to this point.
 
 
-#####Fibula attachement:
+##### Fibula attachement:
 LaPrade, 2003: "As the fibular collateral ligament coursed distally and
 attached on the lateral aspect of the fibular head, its
 average attachment was 8.2 mm (range, 6.8 to 9.7) posterior
@@ -134,7 +136,7 @@ longus fascia.25,26 The average total length of the
 fibular collateral ligament between its attachment sites
 was 69.6 mm (range, 62.6 to 73.5)."
 
-####Medial Collateral Ligament (MCL)
+#### Medial Collateral Ligament (MCL)
 
 based on Wijdicks et al. 2009 - values in table 5 will be used
 
@@ -142,7 +144,7 @@ pictures taken from Prince et al. (2015)
 
 https://ars.els-cdn.com/content/image/1-s2.0-S2212628715001401-gr1.jpg
 
-#####Femur attachement
+##### Femur attachement
 
 https://ars.els-cdn.com/content/image/1-s2.0-S2212628715001401-gr5.jpg
 
@@ -155,12 +157,12 @@ https://ars.els-cdn.com/content/image/1-s2.0-S2212628715001401-gr5.jpg
 tibial attachments of the superficial medial collateral ligament were 15.9 ± 5.2 and 66.1 ± 3.6 mm distal to the tibial
 inclination, respectivel"
 
-####Anterior cruciate Ligament (ACL)
+#### Anterior cruciate Ligament (ACL)
 Harner et al. 1999 (from Bedi et al., 2018) "The ACL is formed by 2 main bundles, the anteromedial (AM)and posterolateral (PL) bundles, which are named for their tibialinsertions and provide the primary restraint against anterior tibialtranslation and secondary restraint against internal tibial rotation,respectively. It is 31±2 mm long with a mean diameter of 10±2mm6, although it fans out at the insertions to approximately 3.5times the midsubstance width7."
 
 The distance between the attachment point in the baseline setated VIVA+ model is 31mm.
 
-#####Femur Insertion:
+##### Femur Insertion:
 ACL attachment point on femur is determined based on the radiographic quadrant mehtod:
 "distance t (representing the total sagittal diameter of the lateral condyle measured along Blumensaat's line), distance h (representing the maximum intercondylar notch height), distance a (representing the distance of point K from the most dorsal subchondral contour of the lateral femoral condyle), and distance b (representing the distance of point K from Blumensaat's line). Distance a is a partial distance of t and distance b is a partial distance of h, and distances a and b are expressed as length ratios of t and h. The center of the femoral insertion of the ACL was located at 24.8% of the distance t measured from the most posterior contour of the lateral femoral condyle and at 28.5% of the height h measured from Blumensaat's line. Based on these results, the ACL can be found just inferior to the most superoposterior quadrant, which means in anatomic terms it is localized from the dorsal border of the condyle at approximately a quarter of the whole sagittal diameter of the condyle and from the roof of the notch at approximately a quarter of the notch height. "
 
