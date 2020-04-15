@@ -251,8 +251,17 @@ They report a proximal width of 27.5 mm and a tickness of 3 mm while for the dis
 Simplified kinematic revloute joint between tiba+fibula and talus - rotational axis from lateral to medial malleolus
 [Mansfield et al. 2019](https://ars.els-cdn.com/content/image/3-s2.0-B9780323544986000114-f11-03-9780323544986.jpg)
 
+## Contact Definitions
 
-#### Future Model Improvements
+??? note "Contact between bones and soft tissues"
+
+    | Contact     | Contact ID     | Contact Type |
+    | :------------- | :------------- | :------------- |
+    | Knee_Internal      | 705130       | Automatic Surface to Surface|
+    | Ankle_Internal      | 705180       | Automatic Single Surface|
+
+
+## Future Model Improvements
 
 Average shapes of the bones based on statistical geometry
 
@@ -260,7 +269,7 @@ Tuemer et al. 2018: Three-dimensional analysis of shape variations and symmetry 
 
 Grant et al. 2020: Development and validation of statistical shape models of the primary functional bone segments of the foot [@Grant2020]
 
-### References
+## References
 
 \bibliography
 
