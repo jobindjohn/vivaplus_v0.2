@@ -84,6 +84,20 @@ An example of the left upper extremity skeletal system is given below.
 30 2 40 0 – 60 2 80 0|Metacarpal Bones
 30 2 90 0 – 65 3 20 0|Phalanges
 
+### Material specification
+In the current version materials are only specified once per region to avoid redundancies during the development process. At a later stage it is planned to have one material card per part, so that PID=MID.
+
+| last digit | type       |
+|------------|------------|
+| 1          | cortical   |
+| 2          | trabecular |
+| 3          | rigid      |
+| 4          | null       |
+| 5          | skin       |
+| 6          | flesh      |
+
+Rigidified parts of bones that are used for joint definitions are seperated into an extra part (marked with 3 as last digit) to avoid that rigifies elements are included in postprocessing routines. 
+
 ## Include file structure
 
 ![Include File Structure](images/include-file-structure.png)

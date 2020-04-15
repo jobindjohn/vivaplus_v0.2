@@ -42,7 +42,7 @@ Bone crossection properties are reported in [@Matsuura1999]
 
 Thickness ranges from 2 to 4 mm.
 
-###Connection between Fibula and Tibia
+### Connection between Fibula and Tibia
 Crural Interosseous membrane
 
 [@Elamrani2013]
