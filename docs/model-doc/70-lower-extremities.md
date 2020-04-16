@@ -120,7 +120,7 @@ Ligament dimensionsanteroposterior
 
 #### Material model:  
 
-*MAT_SOFT_TISSUE` - use XLAM0 (parameter based on initial position)
+`*MAT_SOFT_TISSUE` - use XLAM0 (parameter based on initial position)
 
 #### Lateral Collateral Ligament (LCL)
 
