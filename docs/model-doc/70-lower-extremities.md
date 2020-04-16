@@ -34,8 +34,11 @@ An elliptic inner shape was aussumed, which is in line with medical images. Howe
     |                | <20$^{\circ}$  | 0                    | <30$^{\circ}$  | 0.07                 |
 
 
+Cortical bone properties are based on [@Mirzaali2016]. Subject with diagnosed osteopherosis were excluded. 
+Trabecular bone properties are based on Ding  [@Ding.1997] (TODO: double check with other parameters!)
 
 ### Tibia
+Trabecular bone properties are based on Ding  [@Ding.1997] (TODO: double check with other parameters!)
 
 ### Fibula
 Bone crossection properties are reported in [@Matsuura1999]
@@ -51,7 +54,18 @@ https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs002
 
 https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00276-013-1199-9/MediaObjects/276_2013_1199_Fig4_HTML.jpg?as=webp
 
-Elamrani et al., 2014: "Fibers of the anterior layer made an angle of 13° (SD 2.6) with the axis of fibula. Those of the posterior layer made an angle of 24.2° (SD 2.48) with the axis of fibula."
+140 beams were created oriented as described in Elamrani et al., 2013 [@Elamrani2013]: "Fibers of the anterior layer made an angle of 13° (SD 2.6) with the axis of fibula. Those of the posterior layer made an angle of 24.2° (SD 2.48) with the axis of fibula."
+The avarage thickness is 0.54 mm
+
+Stiffness of anterior tibiofibular ligament: 162 +/- 64 N/mm [@Hoefnagels2007]
+
+stiffness in fiber direction is assumed based on Minns and Hunter [@Minns1976] 
+For the 2mm x 20mm sample an ultimate stress of  920 ±/- 205 Kgf/cm^2  = 0.09022118 GPa is reported at 7.7%
+
+Assuming linear stiffness up to the ultimate stress, a young modulus of 1.17 GPa can be assumed. 
+ for a sample with a crossection of 2x0.54=~1mm^2
+
+For the ligmaents connecting the proximal end, a higher stiffness was assumed. It was set to 5 GPa as first triasl. (TODO: Check for reference)
 
 
 ## Joints

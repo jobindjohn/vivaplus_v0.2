@@ -78,7 +78,7 @@ Paper: Three-dimensional distribution of trabecular bone density and cortical th
 ## Skin
 Skin material properties for the whole upper extremities are based on [@Flynn2010] using an Ogden material model (without strain rate dependency).
 The material properties provided for the posterior side of the upper arm were selected. In future trials the other region-specific material parameters can be tried out. 
-Prony series coefficients provided in the paper are also applies (TODO: Check if variables are consistent within simplified example)
+Prony series coefficients provided in the paper are also applied (TODO: Check if variables are consistent within simplified example)
 
 ## Muscle
 For the flesh of the extremities the material properties of pure muscles were assumed. 
