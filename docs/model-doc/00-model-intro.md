@@ -3,7 +3,7 @@
 
 ## How it began
 
-A brief story of the VIVA 50F model at Chalmers
+[ViVA Open HBM](https://www.chalmers.se/en/projects/pages/openhbm.aspx) at Chalmers University
 
 
 ## Philosophy

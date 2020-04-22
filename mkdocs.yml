@@ -38,8 +38,10 @@ theme:
     palette:
         primary: 'amber'
         accent: 'teal'
-    logo: #'images/VIRTUAL.png'
-        icon: 'directions_walk'
+    icon: #'images/VIRTUAL.png'
+        #logo: fontawesome/brands/git-alt
+        logo: fontawesome/solid/walking
+        repo: fontawesome/brands/git-alt
         # Find more at https://material.io/resources/icons/
     favicon: 'images/favicon.ico'
 markdown_extensions:

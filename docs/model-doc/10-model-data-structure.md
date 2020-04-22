@@ -33,15 +33,15 @@ to the body regions/components.** An overview of the numbering scheme is given b
 The whole body is segmented into seven regions to define the body region identifiers.
 
 
-| **Identifier** | **Body Region**       |
-|-----------:|-------------------|
-| 1          | Head              |
-| 2          | Neck              |
-| 3          | Upper Extremities |
-| 4          | Thorax            |
-| 5          | Abdomen           |
-| 6          | Pelvis            |
-| 7          | Lower Extremities |
+| **Identifier** | **Body Region**   |
+| --------------:| ----------------- |
+|              1 | Head              |
+|              2 | Neck              |
+|              3 | Upper Extremities |
+|              4 | Thorax            |
+|              5 | Abdomen           |
+|              6 | Pelvis            |
+|              7 | Lower Extremities |
 
 The torso is divided into three regions: thoracic, abdominal, and pelvic segments.[^1] The spinal column follows the range of their corresponding body segment, for example, the lumbar spine is included as part of the abdominal segment.
 
@@ -88,7 +88,7 @@ An example of the left upper extremity skeletal system is given below.
 In the current version materials are only specified once per region to avoid redundancies during the development process. At a later stage it is planned to have one material card per part, so that PID=MID.
 
 | last digit | type       |
-|------------|------------|
+| ---------- | ---------- |
 | 1          | cortical   |
 | 2          | trabecular |
 | 3          | rigid      |
@@ -96,7 +96,7 @@ In the current version materials are only specified once per region to avoid red
 | 5          | skin       |
 | 6          | flesh      |
 
-Rigidified parts of bones that are used for joint definitions are seperated into an extra part (marked with 3 as last digit) to avoid that rigifies elements are included in postprocessing routines. 
+Rigidified parts of bones that are used for joint definitions are seperated into an extra part (marked with 3 as last digit) to avoid that rigid elements are included in postprocessing routines.
 
 ## Include file structure
 
