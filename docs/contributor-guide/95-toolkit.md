@@ -12,3 +12,7 @@ We hope you find this useful for productive work while contributing to VIVA+ (an
 
 1. Zettlr
 2. Atom, with markdown packages
+
+## Miscellaneous
+
+- [Web Plot Digitizer](https://apps.automeris.io/wpd/)
