@@ -1,7 +1,7 @@
 
 ![viva-plus-logo](images/VIVA-plus-logo.png)
 
-**Open source finite element models for human safety evaluations**
+# **Open Finite Element Human Body Models**
 
 ## **Models under development**
 

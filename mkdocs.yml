@@ -31,13 +31,15 @@ nav:
         - 'Merging your contributiona': 'contributor-guide/50-merge-guidelines.md'
         - 'Making model releases': 'contributor-guide/60-model-release.md'
         - 'Documentation Guidelines': 'contributor-guide/70-documentation-guideliness.md'
-        - 'Contributors Toolkit': 'contributor-guide/95-toolkit.md'
+        - 'Toolkit': 'contributor-guide/95-toolkit.md'
 
 theme:
     name: 'material'
     palette:
         primary: 'amber'
         accent: 'teal'
+    features:
+      - tabs
     icon: #'images/VIRTUAL.png'
         #logo: fontawesome/brands/git-alt
         logo: fontawesome/solid/walking

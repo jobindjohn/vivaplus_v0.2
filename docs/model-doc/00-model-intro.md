@@ -3,4 +3,4 @@
 
 ## How it began
 
-[ViVA Open HBM](https://www.chalmers.se/en/projects/pages/openhbm.aspx) at Chalmers University
+[ViVA Open Human Body Model](https://www.chalmers.se/en/projects/pages/openhbm.aspx) at Chalmers University
