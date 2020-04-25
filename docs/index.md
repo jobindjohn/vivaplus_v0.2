@@ -22,7 +22,7 @@
 
 Clone repository from *OpenVT*
 
-`git clone git@virtual.openvt.eu:wp-2/viva-plus.git`
+`git clone https://virtual.openvt.eu/wp-2/viva-plus.git`
 
 
 
@@ -36,11 +36,6 @@ Clone repository from *OpenVT*
 
 - *dev branches*
 
-## **License**
-
-Models: LGPLv3
-
-Documentation: <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a> <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
 
 ## **You are welcome to Contribute!**
 
@@ -55,3 +50,16 @@ How can you contribute?
 - Translate the documentation into **other languages**
 
 Find out more on how to be part of the VIVA+ community in CONTRIBUTING.md
+
+## **License**
+
+**Models**
+
+![LGPLv3)](images/lgplv3.png)
+
+The models are licensed under [GNU Lesser General Public License, v3](https://www.gnu.org/licenses/lgpl-3.0-standalone.html)
+
+
+**Documentation and Validation Catalogues**
+
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />The documentation and validation catalogues are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
