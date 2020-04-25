@@ -1,5 +1,13 @@
 # Advanced Git Functions
 
+## aliases
+
+- Show all commits [since last release](https://twitter.com/jmayer/status/1253704776912601096)
+
+```
+changelog = "!f() { r=${1:-`git describe --tags --abbrev=0`..HEAD}; echo Changelog for $r; git log --reverse --no-merges --format='* %s' $r; }; f"
+```
+
 ## I made a mistake!
 
 ### I want to Undo
