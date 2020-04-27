@@ -12,9 +12,11 @@ repo_url: https://virtual.openvt.eu/wp-2/viva-plus
 copyright: Copyright &copy; 2019-2020 viva+ team
 
 nav:
-    - 'Home': index.md
-    - 'User Guide':
-        - 'Getting Started': 'user-guide/01-getting-started.md'
+    - Home: index.md
+    - User Guide:
+        - Getting Started: user-guide/01-getting-started.md
+        - Setting up a simulation: user-guide/10-setting-up.md
+        - LS-Dyna Quick Reference: user-guide/50-lsdyna-ref.md
 
     - Model Documentation:
         - 'Introduction to the Models': 'model-doc/00-model-intro.md'
