@@ -100,4 +100,18 @@ Rigidified parts of bones that are used for joint definitions are seperated into
 
 ## Include file structure
 
+### General Structure
+
 ![Include File Structure](images/include-file-structure.png)
+
+
+### Include File Tree
+
+```
+vivaplus-50F/M
+├── vivaplus-controls.key
+├── vivaplus-global-contact.key
+├── vivaplus-joints.key
+├── vivaplus-Neck-Muscles.key
+└── vivaplus_50F_nodes.key
+```
