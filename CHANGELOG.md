@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased]
+## Unreleased
 
 ### 0.3.0 - 2020-09-01
 **Public beta release**
@@ -20,9 +20,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Mesh updates
 - and more...
 
-## [0.1.0] - 2020-04-30
+## 0.1.0 - 2020-04-30
 
 ### Added
+- Vulnerable Road User (Standing) Model
 - Hip joint capsule ligaments
 - Teres ligament: Ligaments connecting the acetabulum with the femur head (at fovea capitis)
 - Sacroiliac joint
@@ -36,6 +37,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Body region-wise node numbering
 
 ### Changed
+- Keyword file structure
+  - Include files
+  - `common` directory for includes common to all models
 - Pelvis Position
 - Soft tissue mesh improvement
   - Pelvic region
@@ -54,6 +58,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Ribcage
 
 
-## [0.0.1] - 2020-01-31
+## 0.0.1 - 2020-01-31
 
 ### Added
+- Preliminary seate 50F model
