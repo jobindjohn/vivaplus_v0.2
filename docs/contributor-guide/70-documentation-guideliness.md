@@ -1,6 +1,6 @@
 # Guidelines for Documentation
 
-Contributing to the documentation is as easy as writing in text files. The VIVA+ documentation is written in Markdown format. The documentation is build with MkDocs library.
+Contributing to the documentation is as easy as writing in text files. The VIVA+ documentation is written in Markdown (See this 60-second guide to [Markdown](https://commonmark.org/help/)). The documentation is build with MkDocs library.
 
 ### Install MkDocs
 
