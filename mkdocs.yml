@@ -20,12 +20,13 @@ nav:
         - LS-Dyna Quick Reference: user-guide/50-lsdyna-ref.md
 
     - Model Documentation:
-        - 'Introduction to the Models': 'model-doc/00-model-intro.md'
-        - 'Anthropometry': model-doc/01-anthro.md
-        - 'Model Data Structure': 'model-doc/10-model-data-structure.md'
-        - 'Head': model-doc/20-head.md
-        - 'Neck': 'model-doc/25-neck.md'
-        - 'Upper Extremities': model-doc/30-upper-extremities.md
+        - Introduction to the Models: 'model-doc/00-model-intro.md'
+        - Anthropometry: model-doc/01-anthro.md
+        - Model Data Structure: 'model-doc/10-model-data-structure.md'
+        - Head: model-doc/20-head.md
+        - Spinal Column: model-doc/25-spine.md
+        - 'Neck': 'model-doc/30-neck.md'
+        - 'Upper Extremities': model-doc/35-upper-extremities.md
         - 'Thorax': model-doc/40-thorax.md
         - 'Abdomen': 'model-doc/50-abdomen.md'
         - 'Pelvis': 'model-doc/60-pelvis.md'

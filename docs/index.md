@@ -1,7 +1,9 @@
 
 ![viva-plus-logo](images/VIVA-plus-logo.png)
 
-# **Open Finite Element Human Body Models**
+# **Open Human Body Models**
+
+Finite Element Models of Human Body for injury assessments, developed primararily for Automotive Safety evaluations.
 
 ## **Models under development**
 

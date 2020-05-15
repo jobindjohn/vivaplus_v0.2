@@ -12,6 +12,7 @@
 ## Bones
 
 ### Femur
+
 The femur crossectional are was optimised to meet the target values of Klein et al. (2015) [@Klein2015].
 The following target values were used (applying the regression model described in the paper and using age, stature and BMI of the 50F VIVA + models (50years, 161.6cm, 24 kg/m^2)
 An elliptic inner shape was aussumed, which is in line with medical images. However, if a proper inner geometry becomes available, this should be updated. The maximum difference to the reference is 3.3%.
@@ -20,7 +21,7 @@ An elliptic inner shape was aussumed, which is in line with medical images. Howe
 | Bone crossectional area [mm^2]    | L1  | L2  | L3  | L4  | L5  |
 |-----------------------------------|-----|-----|-----|-----|-----|
 | Target from Klein et. al. for 50F | 361 | 310 | 303 | 255 | 199 |
-| Measured values in VVA+ 50F       | 372 | 306 | 300 | 252 | 193 |
+| Measured values in VIVA+ 50F       | 372 | 306 | 300 | 252 | 193 |
 
 
 ??? note "Femur Mesh Quality"
@@ -33,8 +34,7 @@ An elliptic inner shape was aussumed, which is in line with medical images. Howe
     | Internal Angle | >160$^{\circ}$ | 0                    | >140$^{\circ}$ | 1.95                 |
     |                | <20$^{\circ}$  | 0                    | <30$^{\circ}$  | 0.07                 |
 
-
-Cortical bone properties are based on [@Mirzaali2016]. Subject with diagnosed osteopherosis were excluded. 
+Cortical bone properties are based on [@Mirzaali2016]. Subject with diagnosed osteopherosis were excluded.
 Trabecular bone properties are based on Ding  [@Ding.1997] (TODO: double check with other parameters!)
 
 ### Tibia
@@ -66,7 +66,6 @@ Assuming linear stiffness up to the ultimate stress, a young modulus of 1.17 GPa
  for a sample with a crossection of 2x0.54=~1mm^2
 
 For the ligmaents connecting the proximal end, a higher stiffness was assumed. It was set to 5 GPa as first triasl. (TODO: Check for reference)
-
 
 ## Joints
 
