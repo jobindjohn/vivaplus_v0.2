@@ -34,7 +34,7 @@ fix(50M/standing):
 
 ```
 
-#### Commits and versioning
+#### Commits and [versioning](https://www.conventionalcommits.org/en/v1.0.0/#how-does-this-relate-to-semver)
 
 > `fix` type commits should be translated to `PATCH` releases. `feat` type commits should be translated to `MINOR` releases. Commits with `BREAKING CHANGE` in the commits, regardless of type, should be translated to `MAJOR` releases.
 
@@ -59,13 +59,8 @@ Implement #3
 
 Those with merge permissions should "Squash and Merge" as a general rule of thumb. This makes reverts easier if they are needed.
 
-
-
 ## Contributors
 
 ### Current VIVA+ Development Team
-
-
-
 
 ### VIVA+ Contributors and Past Developers
