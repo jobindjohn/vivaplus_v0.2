@@ -11,7 +11,6 @@ file structuring of the model data is given below.
 **FIXME**
 Monolithic library versus modular library
 
-
 ## Identifiers
 
 The primary identifier for any model data (part, section, material definition,
@@ -31,7 +30,6 @@ to the body regions/components.** An overview of the numbering scheme is given b
 ### Body regions
 
 The whole body is segmented into seven regions to define the body region identifiers.
-
 
 | **Identifier** | **Body Region**   |
 | --------------:| ----------------- |
@@ -56,14 +54,17 @@ The position of the anatomical entity with respect to the mid-sagittal plane, i.
 X 0 XXX X |Left
 X 5 XXX X |Right
 
-
-
 The left and right extremities follow the same numbering scheme, rather than separate body region identifier. Hence, symmetric components will have identifiers that are offset by 50,000.
+
+??? Info "Anatomical Planes and Axis"
+
+    ![Anatomical Planes and Axis](images/Anatomical_Planes-en.svg)
+
+    Image Source: [Wikimedia](https://commons.wikimedia.org/w/index.php?curid=17280382)
 
 Components located on the mid-sagittal plane will have a default value of 0, unless further sub-division is required for the sake of post-processing. For instance, separate output for responses of right and left halves of the intervertebral disc or spinal ligaments may of be interest in side/oblique impact, in which case, the components can be defined as different parts using this numbering system.
 
 Node numbering will also follow the same number scheme as the body region and sagittal aspect.
-
 
 ### Component/Organ
 
@@ -71,7 +72,6 @@ The third and fourth digits of the identifier is used to describe components/org
 
 The component identifier for a body region is numbered in increasing order from superior to inferior direction. If multiple components are present at the same level, the components are numbered from the medial to lateral direction in the supine position and anterior to posterior.
 An example of the left upper extremity skeletal system is given below.
-
 
 **Component Identifier**|**Description**
 -----:|:-----
@@ -103,7 +103,6 @@ Rigidified parts of bones that are used for joint definitions are seperated into
 ### General Structure
 
 ![Include File Structure](images/include-file-structure.png)
-
 
 ### Include File Tree
 

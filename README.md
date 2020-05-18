@@ -14,6 +14,28 @@ git clone https://virtual.openvt.eu/wp-2/viva-plus.git
 git checkout v0.1.0-alpha
 ```
 
+Directory structure
+
+```
+viva-plus
+├───50F
+│   ├───Seated
+│   └───Standing
+├───assets
+│   ├───part-numbering
+│   ├───preprocessor
+│   └───scripts
+├───Common
+├───docs
+│   ├───bib
+│   ├───contributor-guide
+│   ├───images
+│   ├───model-doc
+│   ├───user-guide
+│   └───validation-catalogue
+└───validation
+```
+
 ## Model updates
 
 Find information on current and planned future updates in the [CHANGELOG](CHANGELOG.md) file.
