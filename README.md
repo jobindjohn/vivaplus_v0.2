@@ -10,14 +10,23 @@ Join the **users' community** [![project chat](https://img.shields.io/badge/zuli
 
 Current stable alpha version `0.1.0`
 
+Download the files
+
+or
+
 Clone the repository:
 
 ```
 git clone https://virtual.openvt.eu/wp-2/viva-plus.git
 ```
 
-Directory structure
+### Directory structure
 
+The model include files that are common to the seated/standing and female/male models (material/section/property definitions, contacts, constraints, etc.) are placed in the `Common` directory. The model specific files, such as the node definitions, can be found in the respective directory, for e.g., `50F/Seated/`. 
+
+The files used to write/generate documentation are placed in the same repository in the `docs` directory.
+
+Clone the repository:
 ```
 viva-plus
 ├───50F
@@ -44,6 +53,6 @@ Find information on current and planned future updates in the [CHANGELOG](CHANGE
 
 ## License
 
-![LGPLv3)](images/lgplv3.png)
+![LGPLv3)](docs/images/lgplv3.png)
 
-The models are licensed under [GNU Lesser General Public License, v3](https://www.gnu.org/licenses/lgpl-3.0-standalone.html
+The models are licensed under [GNU Lesser General Public License, v3](https://www.gnu.org/licenses/lgpl-3.0-standalone.html)

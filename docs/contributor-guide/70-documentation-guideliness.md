@@ -20,7 +20,7 @@ Also, install the mkdocs extensions used by VIVA+ documentation by using these:
 
 ```
 pip install mkdocs-material
-pip install mkdocs-mkdocs
+pip install mkdocs-bibtex
 ```
 
 ??? info "MkDocs Extensions used in the documentation"
