@@ -1,8 +1,8 @@
 # VIVA+ Open Human Body Models
 
-Average female(50F) and male(50M) human body models for injury assessment
+Human body finite element (FE) models for injury assessment
 
-The VIVA+ models are under active development, with frequent alpha releases of preliminary models. It is recommended that you use the latest stable alpha version.
+The VIVA+ models are under active development, with frequent alpha releases of preliminary models. It is recommended that you use the latest stable version.
 
 Join the **users' community** [![project chat](https://img.shields.io/badge/zulip-join_chat-brightgreen.svg)](https://vivaplus.zulipchat.com)
 
@@ -22,11 +22,10 @@ git clone https://virtual.openvt.eu/wp-2/viva-plus.git
 
 ### Directory structure
 
-The model include files that are common to the seated/standing and female/male models (material/section/property definitions, contacts, constraints, etc.) are placed in the `Common` directory. The model specific files, such as the node definitions, can be found in the respective directory, for e.g., `50F/Seated/`. 
+The model include files that are common to the seated/standing and female/male models (material/section/property definitions, contacts, constraints, etc.) are placed in the `Common` directory. The model specific files, such as the node definitions, can be found in the respective directory, for e.g., `50F/Seated/`.
 
 The files used to write/generate documentation are placed in the same repository in the `docs` directory.
 
-Clone the repository:
 ```
 viva-plus
 ├───50F
