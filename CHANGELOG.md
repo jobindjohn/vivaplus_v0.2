@@ -23,6 +23,14 @@ Internal beta release
 - Mesh updates
 - and more...
 
+## 0.1.1 - 2020-06-10
+
+### Changed
+- Transform model by dx = 8.96, dy = 0.00, dz = -11.45 (H-point is now 0, 0, 0)
+- Update Section and Hourglass control for cortical bone shell elements
+- Update density of lung cavity
+- Release nodes pasted in the cervical spine articular processes tie-contacts
+
 ## 0.1.0 - 2020-04-30
 
 ### Added
