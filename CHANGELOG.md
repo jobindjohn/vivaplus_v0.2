@@ -7,21 +7,35 @@ and this project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.ht
 
 ## Road Map
 
-**0.3.0 - 2020-09-01**
+**Public beta release**: 0.3.0
 
-Public beta release
+**Internal beta release**: 0.2.0 
 
-**0.2.0 - 2020-07-15**
+## **Internal alpha releases**
 
-Internal beta release
+## 0.1.2 - 2020-06-10
 
-- lumbar spine - sacrum transition updates
-- Constrained interpolation for all muscle and ligament beams (distribute load)
-- Element formulation 2->16 cortical bone (e.g. pelvis)
-- Check `*Constrained_lagrange_in_solid` in foot area (and also knee and shoulder)
-- Check and align models to ISO coordinate system and H-point
-- Mesh updates
-- and more...
+### Added
+
+- Added curve 601001 for compressive bahaviour for material 601001 (PE-Cortical_bone_Kemper_2008), and removed PT=0.6 defintion
+- Created beam set 2000013 including all neck nuscles for output into ELOUT
+- Cross sectional area of NE_L_Stylohyoid_Ligament was missing. Temporary set it to 4mm2 (based on volume and length)
+- added PIDs 705114, 755114, 603110 and 653110 to SET 3000001 (contact 400001 - TX_C_Thorax_pelvis_interior_main)
+
+### Changed
+- changed ELFORM to 1 for PID 203001 (NE_C_Neck_Soft_Tissues), and updated PR to 0.4999983 on material card
+- Change following `*DEFINE_TABLE` definitions by removing copied curves (first and last) 2004072, 2004073, 2004074, 2004075, 2004076, 2004077, 2004082, 2004083, 2004084, 2004085, 2004086, 2004087, 2004092, 2004093, 2004094, 2004095, 2004096, 2004097, 2004112, 2004113, 2004114, 2004115, 2004116, 2004117
+- Updated spine tied contact interfaces once more - some loose null mat elements and nodes shared between master and slave was still remaning
+- Updated PID 351421 (UX-Bone-Ulna-shaft-Cortical-L) to have PART_CONTACT definition t=1mm (was missing)
+- Changed abiscissa values for curve 601001 to be one order of magnitude lower
+- Changed material for PID 103002 (HE_C_Head-Skin) to MID 916001 (Skin_Flynn_et_al_2015)
+- Change element formulation to 1 for PID 103001 (HE_C_Face_and_Scalp), and added HG control 2000000
+
+### Removed
+- Deleted unused coordinate systems 600000-600005
+- removed `*CONSTRAINED_INTERPOLATION` definitions related to neck muscles as they didn't work as intended
+- Removed `*CONSTRAINED_INTERPOLATION` definition 9000000 and updated first node in `*DEFINE_COORDINATE_NODES_DIR_Z` 701460 - Tibialfibula
+- Removed `*CONSTRAINED_INTERPOLATION` definition 9000070 and updated first node in `*DEFINE_COORDINATE_NODES_DIR_Z` 9500018 - Tibialfibula
 
 ## 0.1.1 - 2020-06-10
 
