@@ -13,6 +13,24 @@ and this project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.ht
 
 ## **Internal alpha releases**
 
+## 0.1.3 - 2020-06-22
+
+### Added
+- Added defualt HG (type 2) to solid parts with ELFORM=1 and previously without HG control
+
+### Changed
+- Changed PID 603110 and 653110 (Hip-Ligament-Shell) NIP to 2
+- Changed solid rib previously modelled with ELFORM=-1 to ELFORM=1 and added default HG type 2
+- Updated PiD information to be more consistent; Rigid and Null shell parts -> ELFORM=2, NIP=2
+- contn. SKIN -> ELFORM=9, NIP=1, Cortical bone -> ELFORM=16, NIP=5, HGTYPE=8
+
+### Removed
+- Removed unused PID and MID cards
+- Removed unused DEFINE_COORDINATE_SYSTEMS
+- Removed unused DEFINE_CURVES
+- Removed unused nodes
+- Removed unused sets
+
 ## 0.1.2 - 2020-06-10
 
 ### Added
