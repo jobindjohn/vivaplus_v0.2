@@ -8,7 +8,7 @@ Join the **users' community** [![project chat](https://img.shields.io/badge/zuli
 
 ## Quick start
 
-Current stable alpha version `0.1.0`
+Current stable alpha version `0.1.3`
 
 Download the files
 
