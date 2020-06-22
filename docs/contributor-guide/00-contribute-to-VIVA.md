@@ -1,13 +1,16 @@
-# How to contribute to VIVA+
+# Contributing to VIVA+
 
 
-## Issues
+## Bug/crash reports
 
 ## Model Validation
 
-## Model Updates
+## Model Enhancements
 
 ## Model Documentation
+
+Do you think something can be explained better in the documentation?
+Feel free to edit the VIVA+ documentation!
 
 VIVA+ Documentation is written in text-based markdown format. The documentation is
 maintained in the `/documentation` directory of the VIVA+ repo.
