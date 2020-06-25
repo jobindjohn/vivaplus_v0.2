@@ -10,12 +10,6 @@
 200140,NE-ligament-OC-ArticularProcess-null-inferior-L
 200240,NE-ligament-C1-ArticularProcess-null-inferior-L
 200340,NE-ligament-C2-ArticularProcess-null-inferior-L
-200150,NE-ligament-OC-nan-L
-200250,NE-ligament-C1-nan-L
-200350,NE-ligament-C2-nan-L
-200160,NE-ligament-OC-nan-L
-200260,NE-ligament-C1-nan-L
-200360,NE-ligament-C2-nan-L
 250110,NE-ligament-OC-ArticularProcess-cartilage-superior-R
 250210,NE-ligament-C1-ArticularProcess-cartilage-superior-R
 250310,NE-ligament-C2-ArticularProcess-cartilage-superior-R
@@ -28,9 +22,3 @@
 250140,NE-ligament-OC-ArticularProcess-null-inferior-R
 250240,NE-ligament-C1-ArticularProcess-null-inferior-R
 250340,NE-ligament-C2-ArticularProcess-null-inferior-R
-250150,NE-ligament-OC-nan-R
-250250,NE-ligament-C1-nan-R
-250350,NE-ligament-C2-nan-R
-250160,NE-ligament-OC-nan-R
-250260,NE-ligament-C1-nan-R
-250360,NE-ligament-C2-nan-R

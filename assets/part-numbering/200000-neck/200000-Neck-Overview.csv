@@ -1,59 +1,57 @@
-﻿Body Region,Sagittal Aspect,Component,,,"Sub-Comp
-/Material",Part Name,Comment
-2,,,,,,NE,
-,0,,,,,R,
-,5,,,,,L,
-,,0,,,,UCL,# Upper-cervical-ligament
-,,,0,,,,# OC-C1
-,,,,1,0,AAOM,
-,,,,2,0,Apical,
-,,,,3,0,Cruciform,
-,,,,4,0,Tectoria,
-,,,,5,0,Alar,
-,,,,6,0,AOCJ-CL,
-,,,,7,0,PAOM,
-,,,,8,0,Transverse,
-,,,1,,,,# C1-C2
-,,,,1,,C1-C2-ALL,
-,,,,2,,C1-C2-CL,
-,,,,3,,C1-C2-PLL,
-,,1,,,,,
-,,,0,,,Vertebra,"# Hard Tissue, Last Digit Indicates Cervical Level"
-,,,,1,,Trabecular,
-,,,,2,,Cortical,
-,,,,3,,Superior-endplate,
-,,,,4,,inferior-endplate,
-,,,,,2,C2,
-,,,,,3,C3,
-,,,,,4,C4,
-,,,,,5,C5,
-,,,,,6,C6,
-,,,,,7,C7,
-,,,1,,,,"# Subaxial ligaments, last digit indicates the verterba just above/superior"
-,,,,1,,ALL,
-,,,,2,,PLL,
-,,,,3,,CL,
-,,,,4,,LF,
-,,,,5,,ISL,
-,,,,,2,,
-,,,,,3,,
-,,,,,4,,
-,,,,,5,,
-,,,,,6,,
-,,,,,7,,
-,,2,,,,,"# Intervertebral disc, last digit indicates the verterba just above the disc "
-,,,0,1,,Annulus Ground,
-,,,,2,,Nucleus,
-,,,1, 1-3,,Annulus Fibers,
-,,,,,"0,1",Orientation,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,4,,,,,# Soft Tissues
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,5,,,,,Muscles
-,,,,,,,Hyoid
+﻿Body Region,Sagittal Aspect,Component,,Part Name
+2,,,,NE
+,0,,,R
+,5,,,L
+,,,500,OC-C1 Ligaments
+,,,0,
+,,,,AAOM
+,,,,Apical
+,,,,Cruciform
+,,,,Tectoria
+,,,,Alar
+,,,,AOCJ-CL
+,,,,PAOM
+,,,,Transverse
+,,,1,
+,,,,C1-C2-ALL
+,,,,C1-C2-CL
+,,,,C1-C2-PLL
+,,1,,
+,,,0,Vertebra
+,,,,Trabecular
+,,,,Cortical
+,,,,Superior-endplate
+,,,,inferior-endplate
+,,,,C2
+,,,,C3
+,,,,C4
+,,,,C5
+,,,,C6
+,,,,C7
+,,,1,
+,,,,ALL
+,,,,PLL
+,,,,CL
+,,,,LF
+,,,,ISL
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,2,,
+,,,0,Annulus Ground
+,,,,Nucleus
+,,,1,Annulus Fibers
+,,,,Orientation
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,4,,
+,,,,
+,,,,
+,,,,
+,,5,,
