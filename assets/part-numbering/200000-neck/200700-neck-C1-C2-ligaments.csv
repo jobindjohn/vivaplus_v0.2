@@ -1,9 +1,12 @@
 ﻿Body Region,Sagittal Aspect,Component,,,Sub-Comp,Part Name
 2,,,,,,NE
-,0,,,,,C
+,0,,,,,L
 ,5,,,,,R
 ,,0,,,,ligament
 ,,,7,,,C1-C2
 ,,,,1,,ALL
-,,,,2,,PLL
+,,,,2,,AAAM
 ,,,,3,,CL
+,,,,4,,IL-Cruciform
+,,,,5,,Transverse-Center
+,,,,6,,PAAM

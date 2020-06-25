@@ -18,12 +18,8 @@ cwd = os.getcwd()
 
 # body_region = 'NE'
 
-
-# In[59]:
-
-def body_number(body_region, part_group):
-
-    print(body_region, part_group)
+def PID_name_from_scheme_main(body_region, part_group):
+    ''' Compute PID name based on the PID numbering scheme given in CSV format'''
 
     if body_region == 'HE':
         body_region_dir = '100000-HE'
@@ -43,29 +39,19 @@ def body_number(body_region, part_group):
         print('No Body region specified')
         
 
-
-    # In[49]:
-
-
-    # Path to the csv file
-    #body_region_dir="200000-neck"
-    #part_group="201000-neck-vertebra"
     csv_file = os.path.join(cwd, body_region_dir, part_group)
-    output_path = os.path.join(cwd, body_region_dir)
 
 
     # Read the csv file
     data = pd.read_csv(csv_file+".csv")
     #data = pd.read_csv("../part-numbering/600000-Pelvis/601000-Pelvis-Bones.csv") 
-    num_of_rows=data.shape[0]
+
+    PID_names = assign_name(data)
+    output_to_csv(PID_names, csv_file)
 
 
     pid = 0
     name = ''
-
-
-    # In[30]:
-
 
     # FIXME: Error while opening some csv files
     # the type of for loop iter variable for PID (e.g. fi1) should be int,
@@ -74,10 +60,13 @@ def body_number(body_region, part_group):
     # include type conversion?
 
 
-    # In[34]:
-
-
+def assign_name(data):
+    '''Assign PID name based on digits in the PID numbering scheme'''
     dic = {}
+    num_of_rows=data.shape[0]
+
+# Extract the digits present in the csv (now in dataframe) and assign to a list corresponding to its place
+
     for n in range(num_of_rows):
             if pd.notna(data.iloc[n,0]):
                 first = data.iloc[n,0]
@@ -133,6 +122,7 @@ def body_number(body_region, part_group):
             for fi1,fi2 in zip(fifth,fifth_name):
                 # Check if the fourth place in the csv is empty
                 if fourth == []:
+                    
                     # Check if the sixth place in the csv is empty
                     if sixth == []:
                         
@@ -157,6 +147,7 @@ def body_number(body_region, part_group):
                             pid = int(first*10**5 + s1*10**4 + t1*10**3 + fi1*10 + si1)    
                             name = body_region + '-' + str(t2) + '-' + str(fi2) + '-' + str(si2) + '-' + str(s2)
                             dic[pid]= name
+
                 # Actions if the fourth place is not empty            
                 else:    
                     for f1,f2 in zip(fourth,fourth_name):
@@ -177,22 +168,25 @@ def body_number(body_region, part_group):
                                     #dic[pid]= name
                         else:
                             for si1,si2 in zip(sixth,sixth_name):
-                                print(6)
-                                print(s1,t1,f1,fi1,si1,s2,t2,f2,fi2,si2)
+                                # Test print
+                                # print(s1,t1,f1,fi1,si1,s2,t2,f2,fi2,si2)
                                 pid = int(first*10**5 + s1*10**4 + t1*10**3 + fi1*10 +si1)    
                                 name = body_region + '-' + str(t2) + '-' + str(f2) + '-' + str(fi2) + '-' + str(si2) + '-' + str(s2)
                                 dic[pid]= name
-                        
+    return dic
+
                                         
     # print (dic)
 
 
     # In[32]:
 
+def output_to_csv(dic, csv_file):
+    '''Output PID - PIDName dictionary as csv'''
 
     # Output the dictionary values to a csv
     (pd.DataFrame.from_dict(data=dic, orient='index')
         .to_csv(csv_file+"-PID-PIDName" + ".csv", header=False))
 
 if __name__ == '__main__':
-    body_number()
+    PID_name_from_scheme_main()
