@@ -11,7 +11,8 @@ and this project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.ht
 
 **Internal beta release**: 0.2.0 
 
-## **Internal alpha releases**
+## Unreleased
+- moved neck component PIDs to `common/vivaplus-Neck`
 
 ## 0.1.3 - 2020-06-22
 

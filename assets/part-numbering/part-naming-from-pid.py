@@ -9,17 +9,22 @@ import click
 
 cwd = os.getcwd()
 
-
+# Command Line Interface using click
 
 @click.command()
 @click.option('--body_region', prompt='Which body region?', default=' ', help='Body Region: HE, NE, UX, TX, AB, PE, LX')
-@click.option('--part_group', prompt='Part group CSV',
+@click.option('--part_group', prompt='Part group CSV', default=' ',
               help='Name of the CSV containing the ID naming scheme')
 
-# body_region = 'NE'
 
 def PID_name_from_scheme_main(body_region, part_group):
-    ''' Compute PID name based on the PID numbering scheme given in CSV format'''
+    ''' Compute PID name based on the PID numbering scheme given in CSV format
+        
+        Input: CSV file with PID Numbering Scheme
+        
+        Output: CSV in the format PID-PID names, which serves as the input for ANSA PID-assign-script
+        
+        '''
 
     if body_region == 'HE':
         body_region_dir = '100000-HE'
@@ -36,9 +41,11 @@ def PID_name_from_scheme_main(body_region, part_group):
     elif body_region == 'LX' :
         body_region_dir = '700000-LX'
     else :
-        print('No Body region specified')
+        print('No Body region given')
         
 
+    if part_group == ' ':
+        print('No Part Group given')
     csv_file = os.path.join(cwd, body_region_dir, part_group)
 
 
@@ -61,7 +68,12 @@ def PID_name_from_scheme_main(body_region, part_group):
 
 
 def assign_name(data):
-    '''Assign PID name based on digits in the PID numbering scheme'''
+    '''Assign PID name based on digits in the PID numbering scheme
+
+    Arguments: dataframe from the PID naming scheme
+
+    Returns a PID-PIDName dictionary 
+    '''
     dic = {}
     num_of_rows=data.shape[0]
 
@@ -121,6 +133,7 @@ def assign_name(data):
         for t1,t2 in zip(third,third_name):
             for fi1,fi2 in zip(fifth,fifth_name):
                 # Check if the fourth place in the csv is empty
+                #print(fourth)
                 if fourth == []:
                     
                     # Check if the sixth place in the csv is empty
@@ -142,8 +155,8 @@ def assign_name(data):
                     # Actions if sixth place is not empty
                     else:
                         for si1,si2 in zip(sixth,sixth_name):
-                            print(3)
-                            print(s1,t1,fi1,si1,s2,t2,fi2,si2)
+                            # Test print
+                            # print(s1,t1,fi1,si1,s2,t2,fi2,si2)
                             pid = int(first*10**5 + s1*10**4 + t1*10**3 + fi1*10 + si1)    
                             name = body_region + '-' + str(t2) + '-' + str(fi2) + '-' + str(si2) + '-' + str(s2)
                             dic[pid]= name
@@ -170,7 +183,7 @@ def assign_name(data):
                             for si1,si2 in zip(sixth,sixth_name):
                                 # Test print
                                 # print(s1,t1,f1,fi1,si1,s2,t2,f2,fi2,si2)
-                                pid = int(first*10**5 + s1*10**4 + t1*10**3 + fi1*10 +si1)    
+                                pid = int(first*10**5 + s1*10**4 + t1*10**3 + f1*100 + fi1*10 +si1)    
                                 name = body_region + '-' + str(t2) + '-' + str(f2) + '-' + str(fi2) + '-' + str(si2) + '-' + str(s2)
                                 dic[pid]= name
     return dic
@@ -187,6 +200,7 @@ def output_to_csv(dic, csv_file):
     # Output the dictionary values to a csv
     (pd.DataFrame.from_dict(data=dic, orient='index')
         .to_csv(csv_file+"-PID-PIDName" + ".csv", header=False))
+    print("PID-PIDName file output complete")
 
 if __name__ == '__main__':
     PID_name_from_scheme_main()
