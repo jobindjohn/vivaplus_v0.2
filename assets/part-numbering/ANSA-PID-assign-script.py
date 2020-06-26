@@ -7,12 +7,12 @@ from ansa import *
 def main():
 	path0="C:/viva-plus/assets/part-numbering/"
 	
-	body_region = 'NE'
+	body_region = 'TX'
 	
 	if body_region == 'HE':
 		body_region_dir = '100000-HE'
 	elif body_region == 'NE':
-		body_region_dir = '200000-neck'
+		body_region_dir = '200000-NE'
 	elif body_region == 'UX':
 		body_region_dir = '300000-UX'
 	elif body_region == 'TX':
@@ -27,7 +27,8 @@ def main():
 		print('No Body region given')
         
 	#body_region_dir="200000-neck/"
-	file="202100-neck-ivd-annulus-fibers"
+	#file="202100-neck-ivd-annulus-fibers"
+	file="401200-TX-Spine-vertebra-articular-process"
 	with open(path0+body_region_dir+"/"+file+"-PID-PIDName.csv", mode='r') as csv_file:
 	#with open('C:/viva-plus/documentation/assets/part-numbering/600000-Pelvis/601000-Pelvis-Bones-PID.csv', mode='r') as csv_file: # read the csv file with the format pid_id,pid_name
 		csv_reader = csv.reader(csv_file, delimiter=',')

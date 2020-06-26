@@ -29,7 +29,7 @@ def PID_name_from_scheme_main(body_region, part_group):
     if body_region == 'HE':
         body_region_dir = '100000-HE'
     elif body_region == 'NE' :
-        body_region_dir = '200000-neck'
+        body_region_dir = '200000-NE'
     elif body_region == 'UX' :
         body_region_dir = '300000-UX'
     elif body_region == 'TX' :
@@ -46,6 +46,7 @@ def PID_name_from_scheme_main(body_region, part_group):
 
     if part_group == ' ':
         print('No Part Group given')
+
     csv_file = os.path.join(cwd, body_region_dir, part_group)
 
 
@@ -129,6 +130,9 @@ def assign_name(data):
     # Loop through the list to create PID and PID names
     # Takes the digits and corresponding names in the csv and writes them to a dictionary
 
+    if not first:
+        print("Error processing CSV. Seems to empty dataframe")
+
     for s1,s2 in zip(second,sagittal_aspect):
         for t1,t2 in zip(third,third_name):
             for fi1,fi2 in zip(fifth,fifth_name):
@@ -186,6 +190,7 @@ def assign_name(data):
                                 pid = int(first*10**5 + s1*10**4 + t1*10**3 + f1*100 + fi1*10 +si1)    
                                 name = body_region + '-' + str(t2) + '-' + str(f2) + '-' + str(fi2) + '-' + str(si2) + '-' + str(s2)
                                 dic[pid]= name
+    print("PID - PIDNames generated")
     return dic
 
                                         
@@ -200,7 +205,7 @@ def output_to_csv(dic, csv_file):
     # Output the dictionary values to a csv
     (pd.DataFrame.from_dict(data=dic, orient='index')
         .to_csv(csv_file+"-PID-PIDName" + ".csv", header=False))
-    print("PID-PIDName file output complete")
+    print("PID-PIDName file output: \n"+csv_file+"-PID-PIDName" + ".csv")
 
 if __name__ == '__main__':
     PID_name_from_scheme_main()
