@@ -1,0 +1,13 @@
+﻿Body Region,Sagittal Aspect,Component,,,Sub-Comp,Part Name
+5,,,,,,AB
+,0,,,,,M
+,5,,,,,R
+,,2,,,,Lumbar-IVD
+,,,,1,,L1-L2
+,,,,2,,L2-L3
+,,,,3,,L3-L4
+,,,,4,,L4-L5
+,,,,5,,L5-Sacrum
+,,,,,0,Joint
+,,,,,1,Annulus-ground
+,,,,,2,Nucleus
