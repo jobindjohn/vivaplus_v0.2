@@ -135,9 +135,7 @@ def assign_name(data):
 
     for s1,s2 in zip(second,sagittal_aspect):
         for t1,t2 in zip(third,third_name):
-            for fi1,fi2 in zip(fifth,fifth_name):
-                # Check if the fourth place in the csv is empty
-                #print(fourth)
+            if not fifth:
                 if fourth == []:
                     
                     # Check if the sixth place in the csv is empty
@@ -148,12 +146,12 @@ def assign_name(data):
                                         #si1=0
                     
                                     #if math.isnan(f1):
-                        pid = int(first*10**5 + s1*10**4 + t1*10**3 + fi1*10)    
-                        name = body_region + '-' + str(t2) + '-' + str(fi2) + '-'  + str(s2)
+                        pid = int(first*10**5 + s1*10**4 + t1*10**3)    
+                        name = body_region + '-' + str(t2) + '-'  + str(s2)
                         dic[pid]= name
                                     #else:
-                                    # pid = int(first*10**5 + s1*10**4 + t1*10**3 + f1*100 + fi1*10 +si1)    
-                                        #name = body_region + '-' + str(t2) + '-' + str(f2) + '-'+ str(fi2) + '-' + str(si2) + '-' + str(s2)
+                                    # pid = int(first*10**5 + s1*10**4 + t1*10**3 + f1*100 +si1)    
+                                        #name = body_region + '-' + str(t2) + '-' + str(f2)+ '-' + str(si2) + '-' + str(s2)
                                     #dic[pid]= name
                                         
                     # Actions if sixth place is not empty
@@ -161,8 +159,8 @@ def assign_name(data):
                         for si1,si2 in zip(sixth,sixth_name):
                             # Test print
                             # print(s1,t1,fi1,si1,s2,t2,fi2,si2)
-                            pid = int(first*10**5 + s1*10**4 + t1*10**3 + fi1*10 + si1)    
-                            name = body_region + '-' + str(t2) + '-' + str(fi2) + '-' + str(si2) + '-' + str(s2)
+                            pid = int(first*10**5 + s1*10**4 + t1*10**3 + si1)    
+                            name = body_region + '-' + str(t2) + '-' + str(si2) + '-' + str(s2)
                             dic[pid]= name
 
                 # Actions if the fourth place is not empty            
@@ -176,20 +174,77 @@ def assign_name(data):
                                         #si1=0
                     
                                     #if math.isnan(f1):
-                            pid = int(first*10**5 + s1*10**4 + t1*10**3 + f1*100 + fi1*10)    
-                            name = body_region + '-' + str(t2) + '-' + str(f2) + '-' + str(fi2) + '-'  + str(s2)
+                            pid = int(first*10**5 + s1*10**4 + t1*10**3 + f1*100)    
+                            name = body_region + '-' + str(t2) + '-' + str(f2) + '-'  + str(s2)
                             dic[pid]= name
                                     #else:
-                                    # pid = int(first*10**5 + s1*10**4 + t1*10**3 + f1*100 + fi1*10 +si1)    
-                                        #name = body_region + '-' + str(t2) + '-' + str(f2) + '-'+ str(fi2) + '-' + str(si2) + '-' + str(s2)
+                                    # pid = int(first*10**5 + s1*10**4 + t1*10**3 + f1*100 +si1)    
+                                        #name = body_region + '-' + str(t2) + '-' + str(f2)+ '-' + str(si2) + '-' + str(s2)
                                     #dic[pid]= name
                         else:
                             for si1,si2 in zip(sixth,sixth_name):
                                 # Test print
                                 # print(s1,t1,f1,fi1,si1,s2,t2,f2,fi2,si2)
-                                pid = int(first*10**5 + s1*10**4 + t1*10**3 + f1*100 + fi1*10 +si1)    
-                                name = body_region + '-' + str(t2) + '-' + str(f2) + '-' + str(fi2) + '-' + str(si2) + '-' + str(s2)
+                                pid = int(first*10**5 + s1*10**4 + t1*10**3 + f1*100 +si1)    
+                                name = body_region + '-' + str(t2) + '-' + str(f2) + '-' + str(si2) + '-' + str(s2)
                                 dic[pid]= name
+            else:
+                for fi1,fi2 in zip(fifth,fifth_name):
+                    # Check if the fourth place in the csv is empty
+                    #print(fourth)
+                    if fourth == []:
+                        
+                        # Check if the sixth place in the csv is empty
+                        if sixth == []:
+                            
+                            # print(s1,t1,fi1,s2,t2,fi2)
+                                        #if math.isnan(si1):
+                                            #si1=0
+                        
+                                        #if math.isnan(f1):
+                            pid = int(first*10**5 + s1*10**4 + t1*10**3 + fi1*10)    
+                            name = body_region + '-' + str(t2) + '-' + str(fi2) + '-'  + str(s2)
+                            dic[pid]= name
+                                        #else:
+                                        # pid = int(first*10**5 + s1*10**4 + t1*10**3 + f1*100 + fi1*10 +si1)    
+                                            #name = body_region + '-' + str(t2) + '-' + str(f2) + '-'+ str(fi2) + '-' + str(si2) + '-' + str(s2)
+                                        #dic[pid]= name
+                                            
+                        # Actions if sixth place is not empty
+                        else:
+                            for si1,si2 in zip(sixth,sixth_name):
+                                # Test print
+                                # print(s1,t1,fi1,si1,s2,t2,fi2,si2)
+                                pid = int(first*10**5 + s1*10**4 + t1*10**3 + fi1*10 + si1)    
+                                name = body_region + '-' + str(t2) + '-' + str(fi2) + '-' + str(si2) + '-' + str(s2)
+                                dic[pid]= name
+
+                    # Actions if the fourth place is not empty            
+                    else:    
+                        for f1,f2 in zip(fourth,fourth_name):
+                            # Check if the sixth place is empty
+                            if sixth == []:
+                            
+                                #print(s1,t1,f1,fi1,s2,t2,f2,fi2)
+                                        #if math.isnan(si1):
+                                            #si1=0
+                        
+                                        #if math.isnan(f1):
+                                pid = int(first*10**5 + s1*10**4 + t1*10**3 + f1*100 + fi1*10)    
+                                name = body_region + '-' + str(t2) + '-' + str(f2) + '-' + str(fi2) + '-'  + str(s2)
+                                dic[pid]= name
+                                        #else:
+                                        # pid = int(first*10**5 + s1*10**4 + t1*10**3 + f1*100 + fi1*10 +si1)    
+                                            #name = body_region + '-' + str(t2) + '-' + str(f2) + '-'+ str(fi2) + '-' + str(si2) + '-' + str(s2)
+                                        #dic[pid]= name
+                            else:
+                                for si1,si2 in zip(sixth,sixth_name):
+                                    # Test print
+                                    # print(s1,t1,f1,fi1,si1,s2,t2,f2,fi2,si2)
+                                    pid = int(first*10**5 + s1*10**4 + t1*10**3 + f1*100 + fi1*10 +si1)    
+                                    name = body_region + '-' + str(t2) + '-' + str(f2) + '-' + str(fi2) + '-' + str(si2) + '-' + str(s2)
+                                    dic[pid]= name
+    
     print("PID - PIDNames generated")
     return dic
 
