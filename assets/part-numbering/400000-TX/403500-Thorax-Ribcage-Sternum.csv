@@ -1,0 +1,10 @@
+﻿Body Region,Sagittal Aspect,Component,,,"Sub-Comp
+/Material",Part Name,Comment
+4,,,,,,TX,
+,0,,,,,M,
+,5,,,,,R,
+,,3,,,,Ribcage,
+,,,5,,,Sternum,
+,,,,,1,Cortical,
+,,,,,2,Trabecular,
+,,,,,3,Rigid,
