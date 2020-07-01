@@ -8,9 +8,9 @@ Join the **users' community** [![project chat](https://img.shields.io/badge/zuli
 
 ## Quick start
 
-Current stable alpha version `0.1.3`
+Current stable alpha version `0.1.5`
 
-Download the files
+Download the files (download link above)
 
 or
 
@@ -48,7 +48,7 @@ viva-plus
 
 ## Model updates
 
-Find information on current and planned future updates in the [CHANGELOG](CHANGELOG.md) file.
+Find information on ongoing updates in the [CHANGELOG](CHANGELOG.md) file.
 
 ## License
 

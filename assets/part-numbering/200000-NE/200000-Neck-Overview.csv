@@ -1,0 +1,57 @@
+﻿Body Region,Sagittal Aspect,Component,,Part Name
+2,,,,NE
+,0,,,R
+,5,,,L
+,,,500,OC-C1 Ligaments
+,,,0,
+,,,,AAOM
+,,,,Apical
+,,,,Cruciform
+,,,,Tectoria
+,,,,Alar
+,,,,AOCJ-CL
+,,,,PAOM
+,,,,Transverse
+,,,1,
+,,,,C1-C2-ALL
+,,,,C1-C2-CL
+,,,,C1-C2-PLL
+,,1,,
+,,,0,Vertebra
+,,,,Trabecular
+,,,,Cortical
+,,,,Superior-endplate
+,,,,inferior-endplate
+,,,,C2
+,,,,C3
+,,,,C4
+,,,,C5
+,,,,C6
+,,,,C7
+,,,1,
+,,,,ALL
+,,,,PLL
+,,,,CL
+,,,,LF
+,,,,ISL
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,2,,
+,,,0,Annulus Ground
+,,,,Nucleus
+,,,1,Annulus Fibers
+,,,,Orientation
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,4,,
+,,,,
+,,,,
+,,,,
+,,5,,

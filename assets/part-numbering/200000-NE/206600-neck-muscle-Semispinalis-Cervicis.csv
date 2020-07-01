@@ -1,0 +1,17 @@
+﻿Body Region,Sagittal Aspect,Component,,,"Sub-Comp
+/Material",Part Name
+2,,,,,,NE
+,0,,,,,L
+,5,,,,,R
+,,6,,,,Muscle
+,,,6,,,Semispinalis-Cervicis
+,,,,0,,C2-T2
+,,,,1,,C3-T2
+,,,,2,,C2-T3
+,,,,3,,C3-T3
+,,,,4,,C4-T3
+,,,,5,,C3-T4
+,,,,6,,C4-T4
+,,,,7,,C5-T4
+,,,,8,,C6-T5
+,,,,9,,C7-T5

@@ -11,7 +11,22 @@ and this project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.ht
 
 **Internal beta release**: 0.2.0 
 
-## **Internal alpha releases**
+## Unreleased
+
+## 0.1.5 - 2020-07-01
+
+### Added
+- Cortical solid layer in the femur head, neck, trochanter
+
+### Changed
+- Change to ISO Coordinate system (Rotated model about z-axis by 180 degrees)
+
+## 0.1.4 - 2020-07-01
+
+### Changed
+- Updated PIDs 
+  - Cervical, Thoracic, Lumbar spine
+- New includes for Head and Neck
 
 ## 0.1.3 - 2020-06-22
 
