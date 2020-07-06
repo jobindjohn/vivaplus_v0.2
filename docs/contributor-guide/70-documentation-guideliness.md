@@ -50,8 +50,7 @@ pip install mkdocs-mkdocs
     `pip install mkdocs-material`
 
 
-MkDocs lets you preview your documentation as you work on it. To preview the documentation, go to the same directory as `mkdocs.yml` and start the built-in dev-server by running the command
-`mkdocs serve`
+You can preview your documentation as you work on it by starting the built-in dev-server. To start the server, go to the same directory as `mkdocs.yml` and run `mkdocs serve`
 
 Open `http://127.0.0.1:8000/` in the browser to see the live documentation home page
 
