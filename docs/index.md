@@ -27,18 +27,6 @@ Clone repository from *OpenVT*
 `git clone https://virtual.openvt.eu/wp-2/viva-plus.git`
 
 
-
-## **Model Versions**
-
-### Current stable version
-
-- *Master branch*
-
-### Development (research/beta) versions
-
-- *dev branches*
-
-
 ## **You are welcome to Contribute!**
 
 How can you contribute?
