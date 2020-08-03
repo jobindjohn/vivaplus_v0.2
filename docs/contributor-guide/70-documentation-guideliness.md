@@ -92,3 +92,32 @@ Examples
 - Add line break within table: `<br/>`
 
 - Find emoji tags [here](https://github.com/facelessuser/pymdown-extensions/blob/master/pymdownx/emoji1_db.py)
+
+### Figures
+
+- Change image size
+`![repo](/img/repo_vivaplus.png){: style="height:500px;width:500px"}`
+Enable `attr_list` in markdown_extension setting of `mkdocs.yml` for this to work
+
+- Image alignment
+```
+![my image](/img/myImage.jpg#left)
+![my image](/img/myImage.jpg#right) 
+![my image](/img/myImage.jpg#center)
+```
+and add this to  extra.css
+```
+img[src*='#left'] { 
+    float: left;
+}
+img[src*='#right'] { 
+    float: right;
+}
+img[src*='#center'] { 
+    display: block; 
+    margin: auto; 
+}
+```
+Source: [msudol](https://msudol.com/how-to-align-images-in-markdown-without-html-or-extensions/)
+
+Something else to try from github [issues](https://github.com/squidfunk/mkdocs-material/issues/748#issuecomment-377693557)

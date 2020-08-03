@@ -16,25 +16,25 @@ nav:
     - Getting started: 
         - Getting started: index.md
         - VIVA+ Models overview: getting-started/10-model-overview.md
+        - FAQ: getting-started/FAQ
     - User Guide:
         - User guide: user-guide/01-getting-started.md
         - Setting up a simulation: user-guide/10-setting-up.md
         - LS-Dyna Quick Reference: user-guide/50-lsdyna-ref.md
-
     - Model Documentation:
         - Introduction to the Models: 'model-doc/00-model-info.md'
         - Anthropometry: model-doc/01-anthro.md
         - Model Data Structure: 'model-doc/10-model-data-structure.md'
         - Head: model-doc/20-head.md
         - Spinal Column: model-doc/25-spine.md
-        - 'Neck': 'model-doc/30-neck.md'
-        - 'Upper Extremities': model-doc/35-upper-extremities.md
-        - 'Thorax': model-doc/40-thorax.md
-        - 'Abdomen': 'model-doc/50-abdomen.md'
-        - 'Pelvis': 'model-doc/60-pelvis.md'
-        - 'Lower Extremities': 'model-doc/70-lower-extremities.md'
-        - 'Control Card Guidelines': 'model-doc/80-control-card-guidelines.md'
-        - 'Postprocessing simulations': 'model-doc/85-Postprocessing.md'
+        - Neck: 'model-doc/30-neck.md'
+        - Upper Extremities: model-doc/35-upper-extremities.md
+        - Thorax: model-doc/40-thorax.md
+        - Abdomen: 'model-doc/50-abdomen.md'
+        - Pelvis: 'model-doc/60-pelvis.md'
+        - Lower Extremities: 'model-doc/70-lower-extremities.md'
+        - Control Card Guidelines: 'model-doc/80-control-card-guidelines.md'
+        - Postprocessing simulations: 'model-doc/85-Postprocessing.md'
     - Contributor Guide:
         - 'How to Contribute': 'contributor-guide/00-contribute-to-VIVA.md'
         - 'VIVA+ Git Workflow Overview': 'contributor-guide/20-viva-git-workflow.md'
@@ -64,6 +64,7 @@ theme:
 # Extensions
 markdown_extensions:
   - footnotes
+  - attr_list
   - pymdownx.arithmatex
   - pymdownx.superfences
   - pymdownx.details
