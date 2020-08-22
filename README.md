@@ -8,7 +8,7 @@ Join the **users' community** [![project chat](https://img.shields.io/badge/zuli
 
 ## Quick start
 
-Current stable alpha version `0.1.5`
+Current stable alpha version is `0.1.6`
 
 Download the files (download link above)
 
@@ -22,9 +22,9 @@ git clone https://virtual.openvt.eu/wp-2/viva-plus.git
 
 ### Directory structure
 
-The model include files that are common to the seated/standing and female/male models (material/section/property definitions, contacts, constraints, etc.) are placed in the `Common` directory. The model specific files, such as the node definitions, can be found in the respective directory, for e.g., `50F/Seated/`.
+The include files that are common to  (material/section/property definitions, contacts, constraints, etc.) are placed in the `common` directory. The files the seated/standing (for example, node coordinates), can be found in the respective directory, for e.g., `50F/Seated/`.
 
-The files used to write/generate documentation are placed in the same repository in the `docs` directory.
+The documentation is placed in the same repository in the `docs` directory. (The documentation will be available at vivaplus.readthedocs.io when the beta version of the model is released)
 
 ```
 viva-plus
@@ -35,7 +35,7 @@ viva-plus
 │   ├───part-numbering
 │   ├───preprocessor
 │   └───scripts
-├───Common
+├───common
 ├───docs
 │   ├───bib
 │   ├───contributor-guide
