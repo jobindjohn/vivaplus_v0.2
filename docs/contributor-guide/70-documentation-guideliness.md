@@ -2,6 +2,49 @@
 
 Contributing to the documentation is as easy as writing in text files. The VIVA+ documentation is written in Markdown (See this 60-second guide to [Markdown](https://commonmark.org/help/)). The documentation is build with MkDocs library.
 
+!!! tip "Basic Markdown" 
+        
+        **Headings and paragraphs**
+        ```
+        # h1
+
+        ## h2
+
+        ### h3
+
+        #### h4
+        ```
+
+        paragraphs are separated by blank lines
+        
+
+        **Lists**
+        ```
+        * unordered list item 1
+        * unordered list item 2
+
+        1. ordered list item 1
+        2. ordered list item 2
+            1. nested list item 1
+        ```
+        **Text Formatting**
+        ```
+        *italicized*
+
+        **bolded**
+
+        ***bold and italic***
+        ```
+
+        **Linking**
+        ```
+        [link text](link url)
+
+        ![image text](image link)
+
+        <quick url or email link>
+        ```
+
 ### Install MkDocs
 
 First step to contributing to the documentation is inatalling MkDocs.
