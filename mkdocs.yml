@@ -1,12 +1,12 @@
 # Project information
-site_name: viva+ Human Body Models
-site_url: https://
-site_description: viva+  documentation
-site_author: viva+ Team
+site_name: VIVA+ Human Body Models
+site_url: https://vivaplus.readthedocs.io/en/latest/
+site_description: VIVA+  documentation
+site_author: VIVA+ Team
 
 # Repository
 repo_name: openvt/vivaplus
-repo_url: https://virtual.openvt.eu/wp-2/viva-plus
+repo_url: https://virtual.openvt.eu/fe_models/viva/plus
 
 # Copyright
 copyright: Copyright &copy; 2019-2020 viva+ team
