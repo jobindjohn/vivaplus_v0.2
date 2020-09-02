@@ -1,17 +1,43 @@
-# Changelog
+# **Changelog**
 
-All changes to this project will be documented in this file.
+All changes to this project are documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## Road Map
 
-**Public beta release**: 0.3.0
+**Public beta release**: 0.2.0
 
-**Internal beta release**: 0.2.0 
+# alpha (unreleased) versions
 
-## Unreleased
+## 0.1.6 -2020-08-21
+
+### Added
+
+- Added constrain_rigid_bodies between 751703-751701, 754113-754111, 704113-704111, 701703-701701, 351201-351202, 301201-301202
+  301101-301102, 351101-351102
+- Created extra node sets constraining the patella, scapula, clavucula, talus and Calcaneus to the soft tissue
+- Re-pasted Quadriceps to femur (L+R)
+- Added null shells covering the external Intercostal muscles (PID 404001 and 454001)
+- Added PART_CONTACT OPTT=1mm to PIDs 301201, 351201, 301101, 351101
+- Added contact between scapula+Clavicula and ribcage+skin (depenetrated to 1mm)
+- Added CONSTRAINED_INTERPOLATION to Quadriceps insertion of femur head to distribute force
+- Added a new PID (103005) for the eyelids (ELFORM=16, MAT Elastic E=0.002GPa)
+
+
+### Changed
+
+- Rotated head seatbelt accelerometer to lay in frankfurt plane
+- Changed MID 701701, 9000030, 610411, 610412, 351201, 301201 351201, 301102, 301101, 710402 to MAT_RIGID
+- Changed Humerus, Femur, Tibia, Fibula cortical soli elements to ELFORM=2 (and removed HG definition)
+- Modified humerus cortical thickness by offseting the nodes, now 3-4mm at shaft
+- Changed Pubic Symphysis solid elements to ELFORM=2 (and corrected spelling error in PID name)
+
+### Removed
+
+- Removed all constrained_lagrange_in_solid definitions
+- Removed muscle activation for LX-Knee-Muscle-Quadriceps-Femoris-L and LX-Knee-Muscle-Quadriceps-Femoris-R
 
 ## 0.1.5 - 2020-07-01
 
