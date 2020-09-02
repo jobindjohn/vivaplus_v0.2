@@ -9,7 +9,7 @@ For all cortical bones MAT_124 is applied as it allows to distinguish between te
 
 The humerus material charateristics are based on [@Vandenbulcke.2012] As no anisotropic material model is applied at the current stage, and transversal loading is of higher interest in the considered loading scenarios (no steering wheel), the parameters representative for transverse loading were selected.
 
-Bone density was corrected with the factor 1E-3 as there seems to be an error in the original paper - 1.9g/mm^2 is out of range compared to other publications and would lead to a to hevy bone. 
+Bone density was corrected with the factor 1E-3 as there seems to be an error in the original paper - 1.9g/mm^2 is out of range compared to other publications and would lead to a to heavy bone. 
 
 TODO: Implement strain rate dependency and plasticity (compression and tension).
 
@@ -44,12 +44,10 @@ Tension parameters described in the same publication:
 
 
 ### Radius and Ulnar
-Both bones were modelles as rigid structures applying the same material properties as for the rigid sections of the humerus for contact properties and densities. 
+Both bones were modelled elastic with the same material properties as the humerus for now. 
 
 
-#### To be implemented
-
-FIXME
+#### To be implemented later on 
 
 Paper: Cortical thickness analysis of the **proximal humerus** [@Majed2017]
 
@@ -60,9 +58,6 @@ Paper: (Cortical thickness on the shaft) Measurement of the bony anatomy of the 
 Paper: Three-dimensional distribution of trabecular bone density and cortical thickness in the **distal humerus** [@Diederichs2009]
 
 ## Identifiers
-
-
-
 
 ### Soft Tissues
 
@@ -80,21 +75,8 @@ Skin material properties for the whole upper extremities are based on [@Flynn201
 The material properties provided for the posterior side of the upper arm were selected. In future trials the other region-specific material parameters can be tried out. 
 Prony series coefficients provided in the paper are also applied (TODO: Check if variables are consistent within simplified example)
 
-## Muscle
-For the flesh of the extremities the material properties of pure muscles were assumed. 
-Material data published by [@Zhai2019] was applied. However, as the formula for the strain energy function is not consistent with the original Ogden and LS-DYNA defintion, it was not possible to apply the ogden material parameters established in the paper directly.
-Curves were exported and parameters were fitted with LS-Opt for the 3 strain rates. 
-
-| strain rate [1/s] | μ [MPa]? -todo! | alpha    |
-|-------------------|-----------------|----------|
-| 0.01              | 0.0006193       | 8.531810 |
-| 10                | 0.0062069       | 7.522782 |
-| 90                | 0.0108916       | 7.228716 |
-
-
-![ea0ca97c15b454985fe874a99d12f9a4.png](..\images\ea0ca97c15b454985fe874a99d12f9a4.png)
-
-<!-- TODO: Prony series to model strain-rate dependency. Alternative: Create second set of material constants used in low severity impacts. -->
+## Soft tissue
+For the soft tissue, the material form the original VIVA model remained, which are based on a fat tissue model from 
 
 ## Joints
 For the VIRTUAL version of the VIVA+ models, joints of the upper extremities will be assumed as kinematic joints.

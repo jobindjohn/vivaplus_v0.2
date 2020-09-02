@@ -28,11 +28,6 @@
 The thoracic vertebrae are defined as rigid elements. The elements of the cortical and trabecular bone are constrained together with `*CONSTRAINED_RIGID_BODY`
 
 
-
-
-
-
-
 #### Intervertebral Joints
 
 ??? info "Future Model Development"
@@ -40,6 +35,7 @@ The thoracic vertebrae are defined as rigid elements. The elements of the cortic
     definitions is planned.
 
 ## Ribs
+The ribcage is modelled based on Iraeus&Pipkorn, 2019: "Development and Validation of a Generic Finite Element Ribcage to be used for Strain-based Fracture Prediction"
 
 ### Model Components
 
@@ -60,3 +56,8 @@ Mat_Lung_Tissue was applied based on [@Vawter1980]. As alternative material para
 C/delta = 25cmH20(2.45 kPa), alpha = 0.183, (beta = -0.291, C1/delta = 0.1966 cmH20 (19.3 Pa), and C2 = 2.71.)
 
 Based on [@Polio2018] the young modulus for the Null material was set to 1kPA = 1E-9GPa
+
+The material was not stable in the current model, which is why the liver material is used in the current preliminary version of the model.
+
+TODO
+- [ ] change to compressible material and add sliding contact
