@@ -4,17 +4,18 @@ The anthropometry of VIVA+ average male and female models is given below.
 
 | Gender/Size          | Height (m) | BMI (kg/m<sup>2</sup>) | Age (year) |
 | -------------------- |:----------:|:----------------------:|:----------:|
-| Average Male (50M)   |   1.753    |           25           |     50     |
 | Average Female (50F) |   1.616    |           24           |     50     |
+| Average Male (50M)   |   1.753    |           25           |     50     |
 
 Reference anthropometry
 
-These metrics correspond to the target specified for average dummies from the anthropometric study by Schneider et al. (1983)[^1], which forms the basis for most of dummies and computational models in use today. The target average recommended by Schneider et al. corresponded to the average data of the U.S. population from the National Health and Nutrition Examination Survey 1971-74. Populations around the world have seen a gradual change since then, primarily exhibiting an increasing trend in body mass [^2] [^3] [^4]. The VIVA+ baseline models, however, correspond to the anthropometry of widely used dummies and other computational models for purposes of comparison/similarity.
+These metrics correspond to the target specified for average dummies from the anthropometric study by Schneider et al. (1983)[@Schneider1983], which forms the basis for most of dummies and computational models in use today. The target average recommended by Schneider et al. corresponded to the average data of the U.S. population from the National Health and Nutrition Examination Survey 1971-74. Populations around the world have seen a gradual change since then, primarily exhibiting an increasing trend in body mass [@Ogden2004] [@NCDRisC2016] [@NCDRisC2016a]. The VIVA+ baseline models, however, correspond to the anthropometry of widely used dummies and other computational models for purposes of comparison/similarity.
 
 ## Miscellaneous
 
 ### Global Trends in Anthropometry
 
+Given below are visualizations showing the change in anthropometry across the world during the last 50 years (Courtesy: https://ourworldindata.org)
 #### Body Mass Index (BMI)
 
 <iframe src="https://ourworldindata.org/grapher/mean-body-mass-index-bmi-in-adult-women" style="width: 100%; height: 600px; border: 0px none;"></iframe>
@@ -37,14 +38,4 @@ These metrics correspond to the target specified for average dummies from the an
 
 <iframe src="https://ourworldindata.org/grapher/median-age" style="width: 100%; height: 600px; border: 0px none;"></iframe>
 
-**References**
-
-All the embedded interactive charts are from https://ourworldindata.org
-
-[^1]: Schneider et al., 1983, Development of Anthropometrically-based Design Specifications for an Advanced Adult Anthropomorphic Dummy Family, Volume 1
-
-[^2]: Ogden et al., 2004, Mean body weight, height, and body mass index, United States 1960-2002: Advance data from vital and health statistics
-
-[^3]: NCD Risk Factor Collaboration (NCD-RisC), 2016, Lancet, Trends in adult body-mass index in 200 countries from 1975 to 2014: a pooled analysis of 1698 population-based measurement studies with 19·2 million participants.
-
-[^4]: NCD Risk Factor Collaboration (NCD-RisC), 2016, eLife, A century of trends in adult human height NCD Risk Factor Collaboration (NCD-RisC)
+\bibliography
