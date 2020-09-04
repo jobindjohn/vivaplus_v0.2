@@ -2,6 +2,49 @@
 
 Contributing to the documentation is as easy as writing in text files. The VIVA+ documentation is written in Markdown (See this 60-second guide to [Markdown](https://commonmark.org/help/)). The documentation is build with MkDocs library.
 
+!!! tip "Basic Markdown" 
+        
+        **Headings and paragraphs**
+        ```
+        # h1
+
+        ## h2
+
+        ### h3
+
+        #### h4
+        ```
+
+        paragraphs are separated by blank lines
+        
+
+        **Lists**
+        ```
+        * unordered list item 1
+        * unordered list item 2
+
+        1. ordered list item 1
+        2. ordered list item 2
+            1. nested list item 1
+        ```
+        **Text Formatting**
+        ```
+        *italicized*
+
+        **bolded**
+
+        ***bold and italic***
+        ```
+
+        **Linking**
+        ```
+        [link text](link url)
+
+        ![image text](image link)
+
+        <quick url or email link>
+        ```
+
 ### Install MkDocs
 
 First step to contributing to the documentation is inatalling MkDocs.
@@ -50,8 +93,7 @@ pip install mkdocs-bibtex
     `pip install mkdocs-material`
 
 
-MkDocs lets you preview your documentation as you work on it. To preview the documentation, go to the same directory as `mkdocs.yml` and start the built-in dev-server by running the command
-`mkdocs serve`
+You can preview your documentation as you work on it by starting the built-in dev-server. To start the server, go to the same directory as `mkdocs.yml` and run `mkdocs serve`
 
 Open `http://127.0.0.1:8000/` in the browser to see the live documentation home page
 
@@ -93,3 +135,32 @@ Examples
 - Add line break within table: `<br/>`
 
 - Find emoji tags [here](https://github.com/facelessuser/pymdown-extensions/blob/master/pymdownx/emoji1_db.py)
+
+### Figures
+
+- Change image size
+`![repo](/img/repo_vivaplus.png){: style="height:500px;width:500px"}`
+Enable `attr_list` in markdown_extension setting of `mkdocs.yml` for this to work
+
+- Image alignment
+```
+![my image](/img/myImage.jpg#left)
+![my image](/img/myImage.jpg#right) 
+![my image](/img/myImage.jpg#center)
+```
+and add this to  extra.css
+```
+img[src*='#left'] { 
+    float: left;
+}
+img[src*='#right'] { 
+    float: right;
+}
+img[src*='#center'] { 
+    display: block; 
+    margin: auto; 
+}
+```
+Source: [msudol](https://msudol.com/how-to-align-images-in-markdown-without-html-or-extensions/)
+
+Something else to try from github [issues](https://github.com/squidfunk/mkdocs-material/issues/748#issuecomment-377693557)
