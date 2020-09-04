@@ -2,7 +2,7 @@ $
 $ANSA_VERSION;20.1.0;
 $
 $
-$ file created by  A N S A  Fri Sep  4 12:04:59 2020
+$ file created by  A N S A  Fri Sep  4 12:42:36 2020
 $
 $ output from :
 $
@@ -10843,4 +10843,10 @@ $ANSA_NAME_COMMENT;705102;MAT77 MAT_OGDEN_RUBBER;LX-Muscle-Zhai-et-al-2019-strai
 $nrate1e-2;Tue Apr 14 21:56:40 2020\;M:/VSI-P/010_RD/17_EU_VIRTUAL/020_Workpacka
 $ge/WP2_HBM/T2_2_Seated OS-HBM 50F, OS-HBM 50M, Active-HBM and validation/2_2_1_
 $Upgrading the OS-HBM 50F/2020-04-14_Material_DB.key;NO;NO;NO;
+$ANSA_PART;GROUP;ID;1276;NAME;vivaplus-50F-seated-reference_points.key;BELONGS_H
+$ERE;FORCED;PID_OFFSET;0;COLOR;233;88;52;0;IS_COLOR_ACTIVE;1;ATTRIBUTES;2;DM/Fil
+$e Type;ANSA;DM/Status;WIP;
+$ANSA_PART;GROUP;ID;1277;NAME;vivaplus-constraineds-landmarks.k;BELONGS_HERE;FOR
+$CED;PID_OFFSET;0;COLOR;235;54;31;0;IS_COLOR_ACTIVE;1;ATTRIBUTES;2;DM/File Type;
+$ANSA;DM/Status;WIP;
 *END

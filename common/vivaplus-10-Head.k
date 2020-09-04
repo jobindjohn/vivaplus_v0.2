@@ -2,22 +2,22 @@ $
 $ANSA_VERSION;20.1.0;
 $
 $
-$ file created by  A N S A  Mon Aug  3 16:40:02 2020
+$ file created by  A N S A  Fri Sep  4 12:42:38 2020
 $
 $ output from :
 $
-$ C:/Meshing_WorkingFolder/VIVA-Plus/vivaplus-50F_v0-1-6.ansa
+$ C:/Meshing_WorkingFolder/vivaplus/vivaplus-50F_v0-1-7g.ansa
 $
-$ANSA_USER_ATTRIBUTES;vivaplus-10-Head.key;INCLUDE;DM/IO Index;TEXT;10;DM/Status
-$;TEXT;WIP;
-$
-$
+$ANSA_USER_ATTRIBUTES;vivaplus-10-Head.k;INCLUDE;DM/IO Index;TEXT;10;DM/Status;T
+$EXT;WIP;
 $
 $
 $
 $
-$ANSA_COLOR;vivaplus-10-Head.key;INCLUDE;.937254905700684;.086274512112141;.7372
-$54917621613;1.;
+$
+$
+$ANSA_COLOR;vivaplus-10-Head.k;INCLUDE;.937254905700684;.086274512112141;.737254
+$917621613;1.;
 *KEYWORD
 *PART
 HE_C_Skull
@@ -70,7 +70,7 @@ $    SECID|   ELFORM|
 *PART
 HE_C_Head-Skin
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    103002    103002    916001                             0         0          
+    103002    103002    906001                             0         0          
 *SECTION_SHELL_TITLE
 HE_C_Head-Skin
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|

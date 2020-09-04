@@ -2,22 +2,22 @@ $
 $ANSA_VERSION;20.1.0;
 $
 $
-$ file created by  A N S A  Mon Aug  3 16:40:02 2020
+$ file created by  A N S A  Fri Sep  4 12:42:39 2020
 $
 $ output from :
 $
-$ C:/Meshing_WorkingFolder/VIVA-Plus/vivaplus-50F_v0-1-6.ansa
+$ C:/Meshing_WorkingFolder/vivaplus/vivaplus-50F_v0-1-7g.ansa
 $
-$ANSA_USER_ATTRIBUTES;vivaplus-20-Neck.key;INCLUDE;DM/IO Index;TEXT;5;DM/Status;
-$TEXT;WIP;
-$
-$
+$ANSA_USER_ATTRIBUTES;vivaplus-20-Neck.k;INCLUDE;DM/IO Index;TEXT;5;DM/Status;TE
+$XT;WIP;
 $
 $
 $
 $
-$ANSA_COLOR;vivaplus-20-Neck.key;INCLUDE;.603921592235565;0.52549022436142;.1686
-$27455830574;1.;
+$
+$
+$ANSA_COLOR;vivaplus-20-Neck.k;INCLUDE;.603921592235565;0.52549022436142;.168627
+$455830574;1.;
 *KEYWORD
 *PART
 NE_Hyoid
@@ -1728,7 +1728,7 @@ $    SECID|   ELFORM|
 *PART
 NE_Skin
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    203002    203002    916001                             0         0          
+    203002    203002    906001                             0         0          
 *SECTION_SHELL_TITLE
 NE_Skin
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
