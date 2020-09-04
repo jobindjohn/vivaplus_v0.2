@@ -2,11 +2,11 @@ $
 $ANSA_VERSION;20.1.0;
 $
 $
-$ file created by  A N S A  Fri Sep  4 11:09:28 2020
+$ file created by  A N S A  Fri Sep  4 12:05:00 2020
 $
 $ output from :
 $
-$ C:/Meshing_WorkingFolder/vivaplus/vivaplus-50F_v0-1-7f.ansa
+$ C:/Meshing_WorkingFolder/vivaplus/vivaplus-50F_v0-1-7g.ansa
 $
 $ANSA_USER_ATTRIBUTES;vivaplus-constraineds-contacts.k;INCLUDE;DM/IO Index;TEXT;
 $8;DM/Status;TEXT;WIP;

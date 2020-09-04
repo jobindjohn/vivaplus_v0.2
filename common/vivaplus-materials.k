@@ -2,11 +2,11 @@ $
 $ANSA_VERSION;20.1.0;
 $
 $
-$ file created by  A N S A  Fri Sep  4 11:02:30 2020
+$ file created by  A N S A  Fri Sep  4 12:04:59 2020
 $
 $ output from :
 $
-$ C:/Meshing_WorkingFolder/vivaplus/vivaplus-50F_v0-1-7e.ansa
+$ C:/Meshing_WorkingFolder/vivaplus/vivaplus-50F_v0-1-7g.ansa
 $
 $ANSA_USER_ATTRIBUTES;vivaplus-materials.k;INCLUDE;DM/IO Index;TEXT;7;DM/Status;
 $TEXT;WIP;
@@ -10802,7 +10802,6 @@ $ANSA_NAME_COMMENT;301402;MAT1 MAT_ELASTIC;Ulna_Trabecular_Vandenbulcke-2012;onl
 $y_dummy_values;NO;NO;NO;
 $ANSA_NAME_COMMENT;301502;MAT1 MAT_ELASTIC;UX-Radius-Vandenbulcke_2012;only dumm
 $y values;NO;NO;NO;
-$O;NO;NO;
 $ANSA_NAME_COMMENT;601001;MAT124 MAT_PLASTICITY_COMPRESSION_TENSION;PE-Cortical_
 $bone_Kemper_2008;Tue Apr 14 21:56:40 2020\;M:/VSI-P/010_RD/17_EU_VIRTUAL/020_Wo
 $rkpackage/WP2_HBM/T2_2_Seated OS-HBM 50F, OS-HBM 50M, Active-HBM and validation
