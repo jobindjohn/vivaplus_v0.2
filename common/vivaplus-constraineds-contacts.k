@@ -2,7 +2,7 @@ $
 $ANSA_VERSION;20.1.0;
 $
 $
-$ file created by  A N S A  Fri Sep  4 10:29:53 2020
+$ file created by  A N S A  Fri Sep  4 10:39:57 2020
 $
 $ output from :
 $
@@ -1159,19 +1159,6 @@ $ANSA_ID;9000102;
     351101    351123         0
 $ANSA_ID;9000103;
     351101    351113         0
-*CONTACT_AUTOMATIC_SURFACE_TO_SURFACE_ID
-$       ID|                                                                 NAME|
-100000    LX-Knee-Bone-Contact                                                  
-$     SSID|     MSID|     STYP|   MSTYPE|   SBOXID|   MBOXID|      SPR|      MPR|
-       999       998         2         2                             0         0
-$       FS|       FD|       DC|       VC|      VDC|   PENCHK|       BT|       DT|
-       0.1       0.2                                       0                    
-$      SFS|      SFM|      SST|      MST|     SFST|     SFMT|      FSF|      VSF|
-                           0.7       0.7                                        
-$     SOFT|   SOFSCL|   LCIDAB|   MAXPAR|    SBOPT|    DEPTH|    BSORT|   FRCFRQ|
-         2       0.1               1.025        3.         5         0         0
-$   PENMAX|   THKOPT|   SHLTHK|    SNLOG|     ISYM|    I2D3D|   SLDTHK|   SLDSTF|
-        0.         0         0         0         0         0        0.        0.
 *CONTACT_AUTOMATIC_GENERAL_ID_MPP
 $       ID|                                                                 NAME|
 100001    HE_Head_neck_main                                                     
@@ -1654,6 +1641,19 @@ $     SOFT|   SOFSCL|   LCIDAB|   MAXPAR|    SBOPT|    DEPTH|    BSORT|   FRCFRQ
          2       0.1               1.025        3.         5         0         0
 *CONTACT_AUTOMATIC_SURFACE_TO_SURFACE_ID
 $       ID|                                                                 NAME|
+701300    LX-Knee-Bone-Contact                                                  
+$     SSID|     MSID|     STYP|   MSTYPE|   SBOXID|   MBOXID|      SPR|      MPR|
+    701200    701410         2         2                             0         0
+$       FS|       FD|       DC|       VC|      VDC|   PENCHK|       BT|       DT|
+       0.1       0.2                                       0                    
+$      SFS|      SFM|      SST|      MST|     SFST|     SFMT|      FSF|      VSF|
+                           0.7       0.7                                        
+$     SOFT|   SOFSCL|   LCIDAB|   MAXPAR|    SBOPT|    DEPTH|    BSORT|   FRCFRQ|
+         2       0.1               1.025        3.         5         0         0
+$   PENMAX|   THKOPT|   SHLTHK|    SNLOG|     ISYM|    I2D3D|   SLDTHK|   SLDSTF|
+        0.         0         0         0         0         0        0.        0.
+*CONTACT_AUTOMATIC_SURFACE_TO_SURFACE_ID
+$       ID|                                                                 NAME|
 705130    LX-L-Knee-Internal                                                    
 $     SSID|     MSID|     STYP|   MSTYPE|   SBOXID|   MBOXID|      SPR|      MPR|
     702000    716004         2         2         0         0         0         0
@@ -1690,6 +1690,22 @@ LX-Aceatbulum
 LX-Femur-Head-Nulls
     701110                                        
     701114    751114
+*SET_PART_LIST_TITLE
+femur-distal-null
+    701200                                        
+    701184    751184
+*SET_PART_LIST_TITLE
+tibia-proximal
+    701410                                        
+    701302    701414    751302    751414
+*SET_PART_LIST_TITLE
+LX_L_Knee_Internal
+    702000                                        
+    701184    701414    751184    751414
+*SET_PART_LIST_TITLE
+LX_L_Knee_Internal master
+    716004                                        
+    705134    755134
 $ANSA_NAME_COMMENT;9000075;CONSTRAINED_EXTRA_NODES_NODE;HE-Head_cog_CSYS_Skull;;
 $NO;NO;NO;
 $ANSA_NAME_COMMENT;9000080;CONSTRAINED_EXTRA_NODES_NODE;HE-Head-CoG-CSYS;;NO;NO;
