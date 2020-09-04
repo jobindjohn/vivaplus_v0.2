@@ -61,3 +61,5 @@ The material was not stable in the current model, which is why the liver materia
 
 TODO
 - [ ] change to compressible material and add sliding contact
+
+\bibliography

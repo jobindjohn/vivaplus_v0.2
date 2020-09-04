@@ -2,22 +2,22 @@ $
 $ANSA_VERSION;20.1.0;
 $
 $
-$ file created by  A N S A  Wed Sep  2 12:31:18 2020
+$ file created by  A N S A  Fri Sep  4 10:29:53 2020
 $
 $ output from :
 $
-$ C:/Meshing_WorkingFolder/vivaplus/vivaplus-50F_v0-1-7b.ansa
+$ C:/Meshing_WorkingFolder/vivaplus/vivaplus-50F_v0-1-7e.ansa
 $
-$ANSA_USER_ATTRIBUTES;vivaplus-constraineds-contacts.key;INCLUDE;DM/IO Index;TEX
-$T;8;DM/Status;TEXT;WIP;
-$
-$
+$ANSA_USER_ATTRIBUTES;vivaplus-constraineds-contacts.k;INCLUDE;DM/IO Index;TEXT;
+$8;DM/Status;TEXT;WIP;
 $
 $
 $
 $
-$ANSA_COLOR;vivaplus-constraineds-contacts.key;INCLUDE;.788235306739807;.6627451
-$18141174;.701960802078247;1.;
+$
+$
+$ANSA_COLOR;vivaplus-constraineds-contacts.k;INCLUDE;.788235306739807;.662745118
+$141174;.701960802078247;1.;
 *KEYWORD
 *CONSTRAINED_INTERPOLATION
     702410   7109209       123                   0          
@@ -1161,17 +1161,6 @@ $ANSA_ID;9000103;
     351101    351113         0
 *CONTACT_AUTOMATIC_SURFACE_TO_SURFACE_ID
 $       ID|                                                                 NAME|
-99999     LX-Aceatbulum-femur-head                                              
-$     SSID|     MSID|     STYP|   MSTYPE|   SBOXID|   MBOXID|      SPR|      MPR|
-       996       997         2         2                             0         0
-$       FS|       FD|       DC|       VC|      VDC|   PENCHK|       BT|       DT|
-                                                           0                    
-$      SFS|      SFM|      SST|      MST|     SFST|     SFMT|      FSF|      VSF|
-                                                                                
-$     SOFT|   SOFSCL|   LCIDAB|   MAXPAR|    SBOPT|    DEPTH|    BSORT|   FRCFRQ|
-         2       0.1               1.025        3.         5         0         0
-*CONTACT_AUTOMATIC_SURFACE_TO_SURFACE_ID
-$       ID|                                                                 NAME|
 100000    LX-Knee-Bone-Contact                                                  
 $     SSID|     MSID|     STYP|   MSTYPE|   SBOXID|   MBOXID|      SPR|      MPR|
        999       998         2         2                             0         0
@@ -1654,6 +1643,17 @@ $   SHAREC|   CPARM8|   IPBACK|    SRNDE|   FRISCF|     ICOR|    FTORQ|
          0         0         1         0                   0         0
 *CONTACT_AUTOMATIC_SURFACE_TO_SURFACE_ID
 $       ID|                                                                 NAME|
+601030    LX-Aceatbulum-femur-head                                              
+$     SSID|     MSID|     STYP|   MSTYPE|   SBOXID|   MBOXID|      SPR|      MPR|
+    601030    701110         2         2                             0         0
+$       FS|       FD|       DC|       VC|      VDC|   PENCHK|       BT|       DT|
+                                                           0                    
+$      SFS|      SFM|      SST|      MST|     SFST|     SFMT|      FSF|      VSF|
+                                                                                
+$     SOFT|   SOFSCL|   LCIDAB|   MAXPAR|    SBOPT|    DEPTH|    BSORT|   FRCFRQ|
+         2       0.1               1.025        3.         5         0         0
+*CONTACT_AUTOMATIC_SURFACE_TO_SURFACE_ID
+$       ID|                                                                 NAME|
 705130    LX-L-Knee-Internal                                                    
 $     SSID|     MSID|     STYP|   MSTYPE|   SBOXID|   MBOXID|      SPR|      MPR|
     702000    716004         2         2         0         0         0         0
@@ -1682,6 +1682,14 @@ $   PENMAX|   THKOPT|   SHLTHK|    SNLOG|     ISYM|    I2D3D|   SLDTHK|   SLDSTF
         0.         0         0         0         0         0        0.        0.
 $     IGAP|   IGNORE|   DPRFAC|   DTSTIF|         |         |   FLANGL|  CID_RCF|
          1         1        0.        0.                            0.         0
+*SET_PART_LIST_TITLE
+LX-Aceatbulum
+    601030                                        
+    601031    603110    651031    653110
+*SET_PART_LIST_TITLE
+LX-Femur-Head-Nulls
+    701110                                        
+    701114    751114
 $ANSA_NAME_COMMENT;9000075;CONSTRAINED_EXTRA_NODES_NODE;HE-Head_cog_CSYS_Skull;;
 $NO;NO;NO;
 $ANSA_NAME_COMMENT;9000080;CONSTRAINED_EXTRA_NODES_NODE;HE-Head-CoG-CSYS;;NO;NO;
@@ -1696,10 +1704,6 @@ $ess-OC-Superior-Cartilage-L;;NO;NO;NO;
 $ANSA_NAME_COMMENT;251101;CONSTRAINED_EXTRA_NODES_SET;NE-Vertebra-Articular-Proc
 $ess-OC-Superior-Cartilage-R;;NO;NO;NO;
 $ANSA_NAME_COMMENT;401015;CONSTRAINED_EXTRA_NODES_SET;T1;;NO;NO;NO;
-$ANSA_NAME_COMMENT;702410;CONSTRAINED_INTERPOLATION;LX-Muscle-Quadriceps-Femoris
-$-L;;NO;NO;NO;
-$ANSA_NAME_COMMENT;752410;CONSTRAINED_INTERPOLATION;LX-Muscle-Quadriceps-Femoris
-$-R;;NO;NO;NO;
 $ANSA_NAME_COMMENT;100002;CONSTRAINED_RIGID_BODIES;HE-Jaw;;NO;NO;NO;
 $ANSA_NAME_COMMENT;100003;CONSTRAINED_RIGID_BODIES;HE-Oral-Cavity;;NO;NO;NO;
 $ANSA_NAME_COMMENT;100004;CONSTRAINED_RIGID_BODIES;HE_Occipital_Condyles;;NO;NO;
