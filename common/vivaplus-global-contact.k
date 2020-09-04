@@ -2,22 +2,22 @@ $
 $ANSA_VERSION;20.1.0;
 $
 $
-$ file created by  A N S A  Mon Aug  3 16:39:59 2020
+$ file created by  A N S A  Fri Sep  4 11:02:28 2020
 $
 $ output from :
 $
-$ C:/Meshing_WorkingFolder/VIVA-Plus/vivaplus-50F_v0-1-6.ansa
+$ C:/Meshing_WorkingFolder/vivaplus/vivaplus-50F_v0-1-7e.ansa
 $
-$ANSA_USER_ATTRIBUTES;vivaplus-global-contact.key;INCLUDE;DM/IO Index;TEXT;3;DM/
-$Status;TEXT;WIP;
-$
-$
+$ANSA_USER_ATTRIBUTES;vivaplus-global-contact.k;INCLUDE;DM/IO Index;TEXT;3;DM/St
+$atus;TEXT;WIP;
 $
 $
 $
 $
-$ANSA_COLOR;vivaplus-global-contact.key;INCLUDE;.647058844566345;.40784314274787
-$9;.588235318660736;1.;
+$
+$
+$ANSA_COLOR;vivaplus-global-contact.k;INCLUDE;.647058844566345;.407843142747879;
+$.588235318660736;1.;
 *KEYWORD
 *CONTACT_AUTOMATIC_SINGLE_SURFACE_ID
 $       ID|                                                                 NAME|
@@ -34,14 +34,22 @@ $   PENMAX|   THKOPT|   SHLTHK|    SNLOG|     ISYM|    I2D3D|   SLDTHK|   SLDSTF
         0.         0         0         0         0         0        0.        0.
 $     IGAP|   IGNORE|   DPRFAC|   DTSTIF|         |         |   FLANGL|  CID_RCF|
          1         1        0.        0.                            0.         0
+*SET_SHELL_GENERAL_TITLE
+Whole_body_skin
+      1000                                        
+PART          103002    103005    203002    305111    305121    305131    305141
+PART          305161    355111    355121    355131    355141    355161    406001
+PART          456001    506001    556001    606001    656001    705111    705121
+PART          705131    705141    705191    755111    755121    755131    755141
+PART          755191
+*SET_PART_LIST_TITLE
+Thorax flesh
+    416003                                        
+    406002    456002
 *SET_PART_LIST_TITLE
 Scapula-and-Clavicula
     616002                                        
     301101    301102    301201    301202    351101    351102    351201    351202
-*SET_PART_LIST_TITLE
-Thorax flesh
-    616003                                        
-    406002    456002
 *SET_PART_LIST_TITLE
 Patella
     716002                                        

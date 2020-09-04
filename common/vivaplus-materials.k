@@ -2,22 +2,22 @@ $
 $ANSA_VERSION;20.1.0;
 $
 $
-$ file created by  A N S A  Fri Sep  4 09:18:44 2020
+$ file created by  A N S A  Fri Sep  4 11:02:30 2020
 $
 $ output from :
 $
-$ C:/Meshing_WorkingFolder/vivaplus/vivaplus-50F_v0-1-7c.ansa
+$ C:/Meshing_WorkingFolder/vivaplus/vivaplus-50F_v0-1-7e.ansa
 $
-$ANSA_USER_ATTRIBUTES;vivaplus-materials.key;INCLUDE;DM/IO Index;TEXT;7;DM/Statu
-$s;TEXT;WIP;
-$
-$
+$ANSA_USER_ATTRIBUTES;vivaplus-materials.k;INCLUDE;DM/IO Index;TEXT;7;DM/Status;
+$TEXT;WIP;
 $
 $
 $
 $
-$ANSA_COLOR;vivaplus-materials.key;INCLUDE;.800000011920929;0.91372549533844;.29
-$4117659330368;1.;
+$
+$
+$ANSA_COLOR;vivaplus-materials.k;INCLUDE;.800000011920929;0.91372549533844;.2941
+$17659330368;1.;
 *KEYWORD
 *MAT_RIGID_TITLE
 HE_C_Skull-rigid
