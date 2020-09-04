@@ -2,7 +2,7 @@ $
 $ANSA_VERSION;20.1.0;
 $
 $
-$ file created by  A N S A  Fri Sep  4 12:42:36 2020
+$ file created by  A N S A  Fri Sep  4 13:42:20 2020
 $
 $ output from :
 $
@@ -99,6 +99,16 @@ $      MID|       RO|        E|       PR|     SIGY|     ETAN|     BETA|
     200012     1.E-6     0.495       0.3     1.E20     0.051        0.
 $      SRC|      SRP|       FS|       VP|
         0.        0.     1.E20        0.
+*MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE
+NE_C_C2 Cortical
+$      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
+    200021     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
+$        C|        P|     LCSS|     LCSR|       VP|      LCF|
+        0.        0.         0         0        0.          
+$     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
+        0.        0.        0.        0.        0.        0.        0.        0.
+$      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
+        0.        0.        0.        0.        0.        0.        0.        0.
 *MAT_PLASTIC_KINEMATIC_TITLE
 NE_C_C2 Trabecular
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     BETA|
