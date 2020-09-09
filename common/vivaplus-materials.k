@@ -2,11 +2,13 @@ $
 $ANSA_VERSION;20.1.0;
 $
 $
-$ file created by  A N S A  Fri Sep  4 13:42:20 2020
+$ file created by  A N S A  Wed Sep  9 23:11:49 2020
 $
 $ output from :
 $
-$ C:/Meshing_WorkingFolder/vivaplus/vivaplus-50F_v0-1-7g.ansa
+$ M:/VSI-P/010_RD/17_EU_VIRTUAL/020_Workpackage/WP2_HBM/T2_2_Seated OS-HBM 50F, 
+$ OS-HBM 50M, Active-HBM and validation/2_2_1_Upgrading the OS-HBM 50F/vivaplus-
+$ 50F_v0-1-7h.ansa
 $
 $ANSA_USER_ATTRIBUTES;vivaplus-materials.k;INCLUDE;DM/IO Index;TEXT;7;DM/Status;
 $TEXT;WIP;
@@ -52,7 +54,7 @@ $      CMO|     CON1|     CON2|
 $       A1|       A2|       A3|       V1|       V2|       V3|
         0.        0.        0.        0.        0.        0.
 *MAT_OGDEN_RUBBER_TITLE
-Scalp_Hyperelsatic-Trotta-et-al-2019-2020
+Scalp_Hyperelsatic-Trotta-et-al-2019
 $      MID|       RO|       PR|        N|       NV|        G|     SIGF|      REF|
     103001  1.133E-6    0.4999         0                                      0.
 $      MU1|      MU2|      MU3|      MU4|      MU5|      MU6|      MU7|      MU8|
@@ -60,7 +62,7 @@ $      MU1|      MU2|      MU3|      MU4|      MU5|      MU6|      MU7|      MU8
 $   ALPHA1|   ALPHA2|   ALPHA3|   ALPHA4|   ALPHA5|   ALPHA6|   ALPHA7|   ALPHA8|
        8.1                                                                      
 *MAT_OGDEN_RUBBER_TITLE
-HE_C_Oral_Cavity
+HE_C_Oral_Cavity_Engelbrektsson-2011
 $      MID|       RO|       PR|        N|       NV|        G|     SIGF|      REF|
     103003     1.E-6    0.4999         0         6        0.        0.        0.
 $      MU1|      MU2|      MU3|      MU4|      MU5|      MU6|      MU7|      MU8|
@@ -70,7 +72,7 @@ $   ALPHA1|   ALPHA2|   ALPHA3|   ALPHA4|   ALPHA5|   ALPHA6|   ALPHA7|   ALPHA8
 $GI       |GI       |    VFLAG|
      3.E-6      0.31         0
 *MAT_FU_CHANG_FOAM_TITLE
-HE_C_AOJ_Art_Cart
+HE_C_AOJ_Art_Cart_Oesth-et-al-2020
 $      MID|       RO|        E|       ED|       TC|     FAIL|     DAMP|     TBID|
     103004     1.E-6      0.01        2.     1.E20       0.0      0.05    213000
 $   BVFLAG|    SFLAG|    RFLAG|    TFLAG|     PVID|     SRAF|      REF|       HU|
@@ -80,237 +82,237 @@ $       D0|       N0|       N1|       N2|       N3|       C0|       C1|       C2
 $       C3|       C4|       C5|      AIJ|      SIJ|     MINR|     MAXR|    SHAPE|
         0.        0.        0.        0.        0.        0.        0.        0.
 *MAT_ELASTIC_TITLE
-HE_C_Eye - initial slope of skin material (Ref)
+HE_C_Eye-initial_slope_of_Manschot_et_al_1986
 $      MID|       RO|        E|       PR|       DA|       DB|        K|
     103005     1.E-6     0.002       0.3        0.        0.        0.
 *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE
-NE_C_C1 Cortical
+NE_C_C1 Cortical_Reilly-et-al-1974
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     200011     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-$        C|        P|     LCSS|     LCSR|       VP|      LCF|
-        0.        0.         0         0        0.          
+$        C|        P|     LCSS|     LCSR|       VP|
+        0.        0.         0         0        0.
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.        0.        0.        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
         0.        0.        0.        0.        0.        0.        0.        0.
 *MAT_PLASTIC_KINEMATIC_TITLE
-NE_C_C1 Trabecular
+NE_C_C1_Trabecular-Kopperdahl_and_Keaveny_1998-Yoganandan_et_al_2006
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     BETA|
     200012     1.E-6     0.495       0.3     1.E20     0.051        0.
 $      SRC|      SRP|       FS|       VP|
         0.        0.     1.E20        0.
 *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE
-NE_C_C2 Cortical
+NE_C_C2 Cortical_Reilly-et-al-1974
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     200021     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-$        C|        P|     LCSS|     LCSR|       VP|      LCF|
-        0.        0.         0         0        0.          
+$        C|        P|     LCSS|     LCSR|       VP|
+        0.        0.         0         0        0.
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.        0.        0.        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
         0.        0.        0.        0.        0.        0.        0.        0.
 *MAT_PLASTIC_KINEMATIC_TITLE
-NE_C_C2 Trabecular
+NE_C_C2 Trabecular-Kopperdahl_and_Keaveny_1998-Yoganandan_et_al_2006
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     BETA|
     200022     1.E-6     0.495       0.3     1.E20     0.051        0.
 $      SRC|      SRP|       FS|       VP|
         0.        0.     1.E20        0.
 *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE
-NE_C_C3_Sup_Endplate
+NE_C_C3_Sup_Endplate_Reilly-et-al-1974
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     200023     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-$        C|        P|     LCSS|     LCSR|       VP|      LCF|
-        0.        0.         0         0        0.          
+$        C|        P|     LCSS|     LCSR|       VP|
+        0.        0.         0         0        0.
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.        0.        0.        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
         0.        0.        0.        0.        0.        0.        0.        0.
 *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE
-NE_C_C2_Inf_Endplate
+NE_C_C2_Inf_Endplate_Reilly-et-al-1974
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     200024     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-$        C|        P|     LCSS|     LCSR|       VP|      LCF|
-        0.        0.         0         0        0.          
+$        C|        P|     LCSS|     LCSR|       VP|
+        0.        0.         0         0        0.
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.        0.        0.        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
         0.        0.        0.        0.        0.        0.        0.        0.
 *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE
-NE_C_C3 Cortical
+NE_C_C3 Cortical_Reilly-et-al-1974
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     200031     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-$        C|        P|     LCSS|     LCSR|       VP|      LCF|
-        0.        0.         0         0        0.          
+$        C|        P|     LCSS|     LCSR|       VP|
+        0.        0.         0         0        0.
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.        0.        0.        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
         0.        0.        0.        0.        0.        0.        0.        0.
 *MAT_PLASTIC_KINEMATIC_TITLE
-NE_C_C3 Trabecular
+NE_C_C3 Trabecular-Kopperdahl_and_Keaveny_1998-Yoganandan_et_al_2006
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     BETA|
     200032     1.E-6     0.458       0.3     1.E20     0.051        0.
 $      SRC|      SRP|       FS|       VP|
         0.        0.     1.E20        0.
 *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE
-NE_C_C4_Sup_Endplate
+NE_C_C4_Sup_Endplate_Reilly-et-al-1974
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     200033     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-$        C|        P|     LCSS|     LCSR|       VP|      LCF|
-        0.        0.         0         0        0.          
+$        C|        P|     LCSS|     LCSR|       VP|
+        0.        0.         0         0        0.
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.        0.        0.        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
         0.        0.        0.        0.        0.        0.        0.        0.
 *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE
-NE_C_C3_Inf_Endplate
+NE_C_C3_Inf_Endplate_Reilly-et-al-1974
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     200034     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-$        C|        P|     LCSS|     LCSR|       VP|      LCF|
-        0.        0.         0         0        0.          
+$        C|        P|     LCSS|     LCSR|       VP|
+        0.        0.         0         0        0.
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.        0.        0.        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
         0.        0.        0.        0.        0.        0.        0.        0.
 *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE
-NE_C_C4 Cortical
+NE_C_C4 Cortical_Reilly-et-al-1974
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     200041     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-$        C|        P|     LCSS|     LCSR|       VP|      LCF|
-        0.        0.         0         0        0.          
+$        C|        P|     LCSS|     LCSR|       VP|
+        0.        0.         0         0        0.
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.        0.        0.        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
         0.        0.        0.        0.        0.        0.        0.        0.
 *MAT_PLASTIC_KINEMATIC_TITLE
-NE_C_C4 Trabecular
+NE_C_C4 Trabecular-Kopperdahl_and_Keaveny_1998-Yoganandan_et_al_2006
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     BETA|
     200042     1.E-6     0.487       0.3     1.E20     0.051        0.
 $      SRC|      SRP|       FS|       VP|
         0.        0.     1.E20        0.
 *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE
-NE_C_C5_Sup_Endplate
+NE_C_C5_Sup_Endplate_Reilly-et-al-1974
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     200043     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-$        C|        P|     LCSS|     LCSR|       VP|      LCF|
-        0.        0.         0         0        0.          
+$        C|        P|     LCSS|     LCSR|       VP|
+        0.        0.         0         0        0.
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.        0.        0.        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
         0.        0.        0.        0.        0.        0.        0.        0.
 *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE
-NE_C_C4_Inf_Endplate
+NE_C_C4_Inf_Endplate_Reilly-et-al-1974
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     200044     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-$        C|        P|     LCSS|     LCSR|       VP|      LCF|
-        0.        0.         0         0        0.          
+$        C|        P|     LCSS|     LCSR|       VP|
+        0.        0.         0         0        0.
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.        0.        0.        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
         0.        0.        0.        0.        0.        0.        0.        0.
 *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE
-NE_C_C5 Cortical
+NE_C_C5 Cortical_Reilly-et-al-1974
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     200051     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-$        C|        P|     LCSS|     LCSR|       VP|      LCF|
-        0.        0.         0         0        0.          
+$        C|        P|     LCSS|     LCSR|       VP|
+        0.        0.         0         0        0.
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.        0.        0.        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
         0.        0.        0.        0.        0.        0.        0.        0.
 *MAT_PLASTIC_KINEMATIC_TITLE
-NE_C_C5 Trabecular
+NE_C_C5 Trabecular-Kopperdahl_and_Keaveny_1998-Yoganandan_et_al_2006
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     BETA|
     200052     1.E-6     0.483       0.3     1.E20     0.051        0.
 $      SRC|      SRP|       FS|       VP|
         0.        0.     1.E20        0.
 *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE
-NE_C_C6_Sup_Endplate
+NE_C_C6_Sup_Endplate_Reilly-et-al-1974
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     200053     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-$        C|        P|     LCSS|     LCSR|       VP|      LCF|
-        0.        0.         0         0        0.          
+$        C|        P|     LCSS|     LCSR|       VP|
+        0.        0.         0         0        0.
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.        0.        0.        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
         0.        0.        0.        0.        0.        0.        0.        0.
 *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE
-NE_C_C5_Inf_Endplate
+NE_C_C5_Inf_Endplate_Reilly-et-al-1974
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     200054     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-$        C|        P|     LCSS|     LCSR|       VP|      LCF|
-        0.        0.         0         0        0.          
+$        C|        P|     LCSS|     LCSR|       VP|
+        0.        0.         0         0        0.
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.        0.        0.        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
         0.        0.        0.        0.        0.        0.        0.        0.
 *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE
-NE_C_C6 Cortical
+NE_C_C6 Cortical_Reilly-et-al-1974
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     200061     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-$        C|        P|     LCSS|     LCSR|       VP|      LCF|
-        0.        0.         0         0        0.          
+$        C|        P|     LCSS|     LCSR|       VP|
+        0.        0.         0         0        0.
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.        0.        0.        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
         0.        0.        0.        0.        0.        0.        0.        0.
 *MAT_PLASTIC_KINEMATIC_TITLE
-NE_C_C6 Trabecular
+NE_C_C6 Trabecular-Kopperdahl_and_Keaveny_1998-Yoganandan_et_al_2006
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     BETA|
     200062     1.E-6      0.43       0.3     1.E20     0.051        0.
 $      SRC|      SRP|       FS|       VP|
         0.        0.     1.E20        0.
 *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE
-NE_C_C7_Sup_Endplate
+NE_C_C7_Sup_Endplate_Reilly-et-al-1974
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     200063     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-$        C|        P|     LCSS|     LCSR|       VP|      LCF|
-        0.        0.         0         0        0.          
+$        C|        P|     LCSS|     LCSR|       VP|
+        0.        0.         0         0        0.
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.        0.        0.        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
         0.        0.        0.        0.        0.        0.        0.        0.
 *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE
-NE_C_C6_Inf_Endplate
+NE_C_C6_Inf_Endplate_Reilly-et-al-1974
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     200064     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-$        C|        P|     LCSS|     LCSR|       VP|      LCF|
-        0.        0.         0         0        0.          
+$        C|        P|     LCSS|     LCSR|       VP|
+        0.        0.         0         0        0.
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.        0.        0.        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
         0.        0.        0.        0.        0.        0.        0.        0.
 *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE
-NE_C_C7 Cortical
+NE_C_C7 Cortical_Reilly-et-al-1974
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     200071     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-$        C|        P|     LCSS|     LCSR|       VP|      LCF|
-        0.        0.         0         0        0.          
+$        C|        P|     LCSS|     LCSR|       VP|
+        0.        0.         0         0        0.
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.        0.        0.        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
         0.        0.        0.        0.        0.        0.        0.        0.
 *MAT_PLASTIC_KINEMATIC_TITLE
-NE_C_C7 Trabecular
+NE_C_C7 Trabecular-Kopperdahl_and_Keaveny_1998-Yoganandan_et_al_2006
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     BETA|
     200072     1.E-6     0.392       0.3     1.E20     0.051        0.
 $      SRC|      SRP|       FS|       VP|
         0.        0.     1.E20        0.
 *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE
-NE_C_T1_Sup_Endplate
+NE_C_T1_Sup_Endplate_Reilly-et-al-1974
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     200073     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-$        C|        P|     LCSS|     LCSR|       VP|      LCF|
-        0.        0.         0         0        0.          
+$        C|        P|     LCSS|     LCSR|       VP|
+        0.        0.         0         0        0.
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.        0.        0.        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
         0.        0.        0.        0.        0.        0.        0.        0.
 *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE
-NE_C_C7_Inf_Endplate
+NE_C_C7_Inf_Endplate_Reilly-et-al-1974
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     200074     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-$        C|        P|     LCSS|     LCSR|       VP|      LCF|
-        0.        0.         0         0        0.          
+$        C|        P|     LCSS|     LCSR|       VP|
+        0.        0.         0         0        0.
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.        0.        0.        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
@@ -334,7 +336,7 @@ $   ALPHA1|   ALPHA2|   ALPHA3|   ALPHA4|   ALPHA5|   ALPHA6|   ALPHA7|   ALPHA8
 $GI       |GI       |    VFLAG|
      3.E-6      0.31         0
 *MAT_NULL_TITLE
-NE_C_Soft_Tissue_Interior
+NE_C_Soft_Tissue_Interior_null
 $      MID|       RO|       PC|       MU|    TEROD|    CEROD|       YM|       PR|
     203003     1.E-6        0.        0.        0.        0.      1.71       0.3
 *MAT_NULL_TITLE
@@ -506,11 +508,11 @@ NE_C_C2-Inf_Endplate_Null
 $      MID|       RO|       PC|       MU|    TEROD|    CEROD|       YM|       PR|
     203020     1.E-6        0.        0.        0.        0.      17.1       0.4
 *MAT_VISCOELASTIC_TITLE
-NE_C_C2C3-Nucleus-Panzer-2009
+NE_C_C2C3-Nucleus-Itardis_et_al_1996-Yang-et-al_1988
 $      MID|       RO|     BULK|       G0|       GI|     BETA|
     203021     1.E-6      1.72   1.78E-5    7.1E-6     0.001
 *MAT_HILL_FOAM_TITLE
-NE_C_C2C3-Anulus_Ground
+NE_C_C2C3-Anulus_Ground_Panzer-Cronin-2009
 $      MID|       RO|        K|        N|       MU|     LCID|  FITTYPE|     LCSR|
     203022     1.E-6     0.001        2.        0.         0                   0
 $       C1|       C2|       C3|       C4|       C5|       C6|       C7|       C8|
@@ -612,11 +614,11 @@ NE_C_C3-Inf_Endplate_Null
 $      MID|       RO|       PC|       MU|    TEROD|    CEROD|       YM|       PR|
     203030     1.E-6        0.        0.        0.        0.      17.1       0.4
 *MAT_VISCOELASTIC_TITLE
-NE_C_C3C4-Nucleus-Panzer-2009
+NE_C_C3C4-Nucleus-Itardis_et_al_1996-Yang-et-al_1988
 $      MID|       RO|     BULK|       G0|       GI|     BETA|
     203031     1.E-6      1.72   1.78E-5    7.1E-6     0.001
 *MAT_HILL_FOAM_TITLE
-NE_C_C3C4-Anulus_Ground
+NE_C_C3C4-Anulus_Ground_Panzer-Cronin-2009
 $      MID|       RO|        K|        N|       MU|     LCID|  FITTYPE|     LCSR|
     203032     1.E-6     0.001        2.        0.         0                   0
 $       C1|       C2|       C3|       C4|       C5|       C6|       C7|       C8|
@@ -718,11 +720,11 @@ NE_C_C4-Inf_Endplate_Null
 $      MID|       RO|       PC|       MU|    TEROD|    CEROD|       YM|       PR|
     203040     1.E-6        0.        0.        0.        0.      17.1       0.4
 *MAT_VISCOELASTIC_TITLE
-NE_C_C4C5-Nucleus-Panzer-2009
+NE_C_C4C5-Nucleus-Itardis_et_al_1996-Yang-et-al_1988
 $      MID|       RO|     BULK|       G0|       GI|     BETA|
     203041     1.E-6      1.72   1.78E-5    7.1E-6     0.001
 *MAT_HILL_FOAM_TITLE
-NE_C_C4C5-Anulus_Ground
+NE_C_C4C5-Anulus_Ground_Panzer-Cronin-2009
 $      MID|       RO|        K|        N|       MU|     LCID|  FITTYPE|     LCSR|
     203042     1.E-6     0.001        2.        0.         0                   0
 $       C1|       C2|       C3|       C4|       C5|       C6|       C7|       C8|
@@ -824,11 +826,11 @@ NE_C_C5-Inf_Endplate_Null
 $      MID|       RO|       PC|       MU|    TEROD|    CEROD|       YM|       PR|
     203050     1.E-6        0.        0.        0.        0.      17.1       0.4
 *MAT_VISCOELASTIC_TITLE
-NE_C_C5C6-Nucleus-Panzer-2009
+NE_C_C5C6-Nucleus-Itardis_et_al_1996-Yang-et-al_1988
 $      MID|       RO|     BULK|       G0|       GI|     BETA|
     203051     1.E-6      1.72   1.78E-5    7.1E-6     0.001
 *MAT_HILL_FOAM_TITLE
-NE_C_C5C6-Anulus_Ground
+NE_C_C5C6-Anulus_Ground_Panzer-Cronin-2009
 $      MID|       RO|        K|        N|       MU|     LCID|  FITTYPE|     LCSR|
     203052     1.E-6     0.001        2.        0.         0                   0
 $       C1|       C2|       C3|       C4|       C5|       C6|       C7|       C8|
@@ -930,11 +932,11 @@ NE_C_C6-Inf_Endplate_Null
 $      MID|       RO|       PC|       MU|    TEROD|    CEROD|       YM|       PR|
     203060     1.E-6        0.        0.        0.        0.      17.1       0.4
 *MAT_VISCOELASTIC_TITLE
-NE_C_C6C7-Nucleus-Panzer-2009
+NE_C_C6C7-Nucleus-Itardis_et_al_1996-Yang-et-al_1988
 $      MID|       RO|     BULK|       G0|       GI|     BETA|
     203061     1.E-6      1.72   1.78E-5    7.1E-6     0.001
 *MAT_HILL_FOAM_TITLE
-NE_C_C6C7-Anulus_Ground
+NE_C_C6C7-Anulus_Ground_Panzer-Cronin-2009
 $      MID|       RO|        K|        N|       MU|     LCID|  FITTYPE|     LCSR|
     203062     1.E-6     0.001        2.        0.         0                   0
 $       C1|       C2|       C3|       C4|       C5|       C6|       C7|       C8|
@@ -1036,11 +1038,11 @@ NE_C_C7-Inf_Endplate_Null
 $      MID|       RO|       PC|       MU|    TEROD|    CEROD|       YM|       PR|
     203070     1.E-6        0.        0.        0.        0.      17.1       0.4
 *MAT_VISCOELASTIC_TITLE
-NE_C_C7T1-Nucleus-Panzer-2009
+NE_C_C7T1-Nucleus-Itardis_et_al_1996-Yang-et-al_1988
 $      MID|       RO|     BULK|       G0|       GI|     BETA|
     203071     1.E-6      1.72   1.78E-5    7.1E-6     0.001
 *MAT_HILL_FOAM_TITLE
-NE_C_C7T1-Anulus_Ground
+NE_C_C7T1-Anulus_Ground_Panzer-Cronin-2009
 $      MID|       RO|        K|        N|       MU|     LCID|  FITTYPE|     LCSR|
     203072     1.E-6     0.001        2.        0.         0                   0
 $       C1|       C2|       C3|       C4|       C5|       C6|       C7|       C8|
@@ -1138,7 +1140,7 @@ NE_C_T1-Sup_Endplate_Null
 $      MID|       RO|       PC|       MU|    TEROD|    CEROD|       YM|       PR|
     203079     1.E-6        0.        0.        0.        0.      17.1       0.4
 *MAT_FU_CHANG_FOAM_TITLE
-NE_C_C2_AAJ_Art_Cart
+NE_C_C2_AAJ_Art_Cart_Oesth-et-al-2020
 $      MID|       RO|        E|       ED|       TC|     FAIL|     DAMP|     TBID|
     213010     1.E-6      0.01        2.     1.E20       0.0      0.05    213000
 $   BVFLAG|    SFLAG|    RFLAG|    TFLAG|     PVID|     SRAF|      REF|       HU|
@@ -1156,7 +1158,7 @@ NE_C_C1_AOJ_Null
 $      MID|       RO|       PC|       MU|    TEROD|    CEROD|       YM|       PR|
     213012     1.E-6        0.        0.        0.        0.      0.01       0.4
 *MAT_FU_CHANG_FOAM_TITLE
-NE_C_C1_AOJ_Art_Cart
+NE_C_C1_AOJ_Art_Cart_Oesth-et-al-2020
 $      MID|       RO|        E|       ED|       TC|     FAIL|     DAMP|     TBID|
     213013     1.E-6      0.01        2.     1.E20       0.0      0.05    213000
 $   BVFLAG|    SFLAG|    RFLAG|    TFLAG|     PVID|     SRAF|      REF|       HU|
@@ -1194,7 +1196,7 @@ $                                                           |     BETA|   ISREFG
 $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
    2004111   2404111         0         0         0         0        0.
 *MAT_FU_CHANG_FOAM_TITLE
-NE_C_C1_AAJ_Art_Cart
+NE_C_C1_AAJ_Art_Cart_Oesth-et-al-2020
 $      MID|       RO|        E|       ED|       TC|     FAIL|     DAMP|     TBID|
     213016     1.E-6      0.01        2.     1.E20       0.0      0.05    213000
 $   BVFLAG|    SFLAG|    RFLAG|    TFLAG|     PVID|     SRAF|      REF|       HU|
@@ -1242,7 +1244,7 @@ $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
 $     LCAA|     LCBB|        H|       DT|         |    ECOAT|    SCOAT|    TCOAT|
          0         0        0.        3.                  0.        0.        0.
 *MAT_FU_CHANG_FOAM_TITLE
-NE_L_C2-Inf_Facet_Art_Cart
+NE_L_C2-Inf_Facet_Art_Cart_Oesth-et-al-2020
 $      MID|       RO|        E|       ED|       TC|     FAIL|     DAMP|     TBID|
     213022     1.E-6      0.01        2.     1.E20       0.0      0.05    213000
 $   BVFLAG|    SFLAG|    RFLAG|    TFLAG|     PVID|     SRAF|      REF|       HU|
@@ -1252,7 +1254,7 @@ $       D0|       N0|       N1|       N2|       N3|       C0|       C1|       C2
 $       C3|       C4|       C5|      AIJ|      SIJ|     MINR|     MAXR|    SHAPE|
         0.        0.        0.        0.        0.        0.        0.        0.
 *MAT_FU_CHANG_FOAM_TITLE
-NE_L_C3-Sup_Facet_Art_Cart
+NE_L_C3-Sup_Facet_Art_Cart_Oesth-et-al-2020
 $      MID|       RO|        E|       ED|       TC|     FAIL|     DAMP|     TBID|
     213023     1.E-6      0.01        2.     1.E20       0.0      0.05    213000
 $   BVFLAG|    SFLAG|    RFLAG|    TFLAG|     PVID|     SRAF|      REF|       HU|
@@ -1350,7 +1352,7 @@ $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
 $     LCAA|     LCBB|        H|       DT|         |    ECOAT|    SCOAT|    TCOAT|
          0         0        0.        3.                  0.        0.        0.
 *MAT_FU_CHANG_FOAM_TITLE
-NE_C_C3-Inf_Facet_Art_Cart
+NE_C_C3-Inf_Facet_Art_Cart_Oesth-et-al-2020
 $      MID|       RO|        E|       ED|       TC|     FAIL|     DAMP|     TBID|
     213032     1.E-6      0.01        2.     1.E20       0.0      0.05    213000
 $   BVFLAG|    SFLAG|    RFLAG|    TFLAG|     PVID|     SRAF|      REF|       HU|
@@ -1360,7 +1362,7 @@ $       D0|       N0|       N1|       N2|       N3|       C0|       C1|       C2
 $       C3|       C4|       C5|      AIJ|      SIJ|     MINR|     MAXR|    SHAPE|
         0.        0.        0.        0.        0.        0.        0.        0.
 *MAT_FU_CHANG_FOAM_TITLE
-NE_C_C4-Sup_Facet_Art_Cart
+NE_C_C4-Sup_Facet_Art_Cart_Oesth-et-al-2020
 $      MID|       RO|        E|       ED|       TC|     FAIL|     DAMP|     TBID|
     213033     1.E-6      0.01        2.     1.E20       0.0      0.05    213000
 $   BVFLAG|    SFLAG|    RFLAG|    TFLAG|     PVID|     SRAF|      REF|       HU|
@@ -1458,7 +1460,7 @@ $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
 $     LCAA|     LCBB|        H|       DT|         |    ECOAT|    SCOAT|    TCOAT|
          0         0        0.        3.                  0.        0.        0.
 *MAT_FU_CHANG_FOAM_TITLE
-NE_C_C4-Inf_Facet_Art_Cart
+NE_C_C4-Inf_Facet_Art_Cart_Oesth-et-al-2020
 $      MID|       RO|        E|       ED|       TC|     FAIL|     DAMP|     TBID|
     213042     1.E-6      0.01        2.     1.E20       0.0      0.05    213000
 $   BVFLAG|    SFLAG|    RFLAG|    TFLAG|     PVID|     SRAF|      REF|       HU|
@@ -1468,7 +1470,7 @@ $       D0|       N0|       N1|       N2|       N3|       C0|       C1|       C2
 $       C3|       C4|       C5|      AIJ|      SIJ|     MINR|     MAXR|    SHAPE|
         0.        0.        0.        0.        0.        0.        0.        0.
 *MAT_FU_CHANG_FOAM_TITLE
-NE_C_C5-Sup_Facet_Art_Cart
+NE_C_C5-Sup_Facet_Art_Cart_Oesth-et-al-2020
 $      MID|       RO|        E|       ED|       TC|     FAIL|     DAMP|     TBID|
     213043     1.E-6      0.01        2.     1.E20       0.0      0.05    213000
 $   BVFLAG|    SFLAG|    RFLAG|    TFLAG|     PVID|     SRAF|      REF|       HU|
@@ -1566,7 +1568,7 @@ $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
 $     LCAA|     LCBB|        H|       DT|         |    ECOAT|    SCOAT|    TCOAT|
          0         0        0.        3.                  0.        0.        0.
 *MAT_FU_CHANG_FOAM_TITLE
-NE_C_C5-Inf_Facet_Art_Cart
+NE_C_C5-Inf_Facet_Art_Cart_Oesth-et-al-2020
 $      MID|       RO|        E|       ED|       TC|     FAIL|     DAMP|     TBID|
     213052     1.E-6      0.01        2.     1.E20       0.0      0.05    213000
 $   BVFLAG|    SFLAG|    RFLAG|    TFLAG|     PVID|     SRAF|      REF|       HU|
@@ -1576,7 +1578,7 @@ $       D0|       N0|       N1|       N2|       N3|       C0|       C1|       C2
 $       C3|       C4|       C5|      AIJ|      SIJ|     MINR|     MAXR|    SHAPE|
         0.        0.        0.        0.        0.        0.        0.        0.
 *MAT_FU_CHANG_FOAM_TITLE
-NE_C_C6-Sup_Facet_Art_Cart
+NE_C_C6-Sup_Facet_Art_Cart_Oesth-et-al-2020
 $      MID|       RO|        E|       ED|       TC|     FAIL|     DAMP|     TBID|
     213053     1.E-6      0.01        2.     1.E20       0.0      0.05    213000
 $   BVFLAG|    SFLAG|    RFLAG|    TFLAG|     PVID|     SRAF|      REF|       HU|
@@ -1674,7 +1676,7 @@ $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
 $     LCAA|     LCBB|        H|       DT|         |    ECOAT|    SCOAT|    TCOAT|
          0         0        0.        3.                  0.        0.        0.
 *MAT_FU_CHANG_FOAM_TITLE
-NE_C_C6-Inf_Facet_Art_Cart
+NE_C_C6-Inf_Facet_Art_Cart_Oesth-et-al-2020
 $      MID|       RO|        E|       ED|       TC|     FAIL|     DAMP|     TBID|
     213062     1.E-6      0.01        2.     1.E20       0.0      0.05    213000
 $   BVFLAG|    SFLAG|    RFLAG|    TFLAG|     PVID|     SRAF|      REF|       HU|
@@ -1684,7 +1686,7 @@ $       D0|       N0|       N1|       N2|       N3|       C0|       C1|       C2
 $       C3|       C4|       C5|      AIJ|      SIJ|     MINR|     MAXR|    SHAPE|
         0.        0.        0.        0.        0.        0.        0.        0.
 *MAT_FU_CHANG_FOAM_TITLE
-NE_C_C7-Sup_Facet_Art_Cart
+NE_C_C7-Sup_Facet_Art_Cart_Oesth-et-al-2020
 $      MID|       RO|        E|       ED|       TC|     FAIL|     DAMP|     TBID|
     213063     1.E-6      0.01        2.     1.E20       0.0      0.05    213000
 $   BVFLAG|    SFLAG|    RFLAG|    TFLAG|     PVID|     SRAF|      REF|       HU|
@@ -1782,7 +1784,7 @@ $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
 $     LCAA|     LCBB|        H|       DT|         |    ECOAT|    SCOAT|    TCOAT|
          0         0        0.        3.                  0.        0.        0.
 *MAT_FU_CHANG_FOAM_TITLE
-NE_C_C7-Inf_Facet_Art_Cart
+NE_C_C7-Inf_Facet_Art_Cart_Oesth-et-al-2020
 $      MID|       RO|        E|       ED|       TC|     FAIL|     DAMP|     TBID|
     213072     1.E-6      0.01        2.     1.E20       0.0      0.05    213000
 $   BVFLAG|    SFLAG|    RFLAG|    TFLAG|     PVID|     SRAF|      REF|       HU|
@@ -1792,7 +1794,7 @@ $       D0|       N0|       N1|       N2|       N3|       C0|       C1|       C2
 $       C3|       C4|       C5|      AIJ|      SIJ|     MINR|     MAXR|    SHAPE|
         0.        0.        0.        0.        0.        0.        0.        0.
 *MAT_FU_CHANG_FOAM_TITLE
-NE_C_T1-Sup_Facet_Art_Cart
+NE_C_T1-Sup_Facet_Art_Cart_Oesth-et-al-2020
 $      MID|       RO|        E|       ED|       TC|     FAIL|     DAMP|     TBID|
     213073     1.E-6      0.01        2.     1.E20       0.0      0.05    213000
 $   BVFLAG|    SFLAG|    RFLAG|    TFLAG|     PVID|     SRAF|      REF|       HU|
@@ -1882,7 +1884,7 @@ NE_C_Tracheal_Cartilage-Roberts et al. (1998)
 $      MID|       RO|        E|       PR|       DA|       DB|        K|
     214002     1.E-6     0.091       0.4        0.        0.        0.
 *MAT_RIGID_TITLE
-TX_C_CB_T1
+TX_C_CB_T1-Rigid
 $      MID|       RO|        E|       PR|        N|   COUPLE|        M| ALIAS_RE|
     300011     2.E-6      17.1       0.3        0.        0.        0.          
 $      CMO|     CON1|     CON2|
@@ -1898,7 +1900,7 @@ $      CMO|     CON1|     CON2|
 $       A1|       A2|       A3|       V1|       V2|       V3|
         0.        0.        0.        0.        0.        0.
 *MAT_RIGID_TITLE
-TX_C_CB_T2
+TX_C_CB_T2-Rigid
 $      MID|       RO|        E|       PR|        N|   COUPLE|        M| ALIAS_RE|
     300021     2.E-6      17.1       0.3        0.        0.        0.          
 $      CMO|     CON1|     CON2|
@@ -1914,7 +1916,7 @@ $      CMO|     CON1|     CON2|
 $       A1|       A2|       A3|       V1|       V2|       V3|
         0.        0.        0.        0.        0.        0.
 *MAT_RIGID_TITLE
-TX_C_CB_T3
+TX_C_CB_T3-Rigid
 $      MID|       RO|        E|       PR|        N|   COUPLE|        M| ALIAS_RE|
     300031     2.E-6      17.1       0.3        0.        0.        0.          
 $      CMO|     CON1|     CON2|
@@ -1930,7 +1932,7 @@ $      CMO|     CON1|     CON2|
 $       A1|       A2|       A3|       V1|       V2|       V3|
         0.        0.        0.        0.        0.        0.
 *MAT_RIGID_TITLE
-TX_C_CB_T4
+TX_C_CB_T4-Rigid
 $      MID|       RO|        E|       PR|        N|   COUPLE|        M| ALIAS_RE|
     300041     2.E-6      17.1       0.3        0.        0.        0.          
 $      CMO|     CON1|     CON2|
@@ -1946,7 +1948,7 @@ $      CMO|     CON1|     CON2|
 $       A1|       A2|       A3|       V1|       V2|       V3|
         0.        0.        0.        0.        0.        0.
 *MAT_RIGID_TITLE
-TX_C_CB_T5
+TX_C_CB_T5-Rigid
 $      MID|       RO|        E|       PR|        N|   COUPLE|        M| ALIAS_RE|
     300051     2.E-6      17.1       0.3        0.        0.        0.          
 $      CMO|     CON1|     CON2|
@@ -1962,7 +1964,7 @@ $      CMO|     CON1|     CON2|
 $       A1|       A2|       A3|       V1|       V2|       V3|
         0.        0.        0.        0.        0.        0.
 *MAT_RIGID_TITLE
-TX_C_CB_T6
+TX_C_CB_T6-Rigid
 $      MID|       RO|        E|       PR|        N|   COUPLE|        M| ALIAS_RE|
     300061     2.E-6      17.1       0.3        0.        0.        0.          
 $      CMO|     CON1|     CON2|
@@ -1978,7 +1980,7 @@ $      CMO|     CON1|     CON2|
 $       A1|       A2|       A3|       V1|       V2|       V3|
         0.        0.        0.        0.        0.        0.
 *MAT_RIGID_TITLE
-TX_C_CB_T7
+TX_C_CB_T7-Rigid
 $      MID|       RO|        E|       PR|        N|   COUPLE|        M| ALIAS_RE|
     300071     2.E-6      17.1       0.3        0.        0.        0.          
 $      CMO|     CON1|     CON2|
@@ -1994,7 +1996,7 @@ $      CMO|     CON1|     CON2|
 $       A1|       A2|       A3|       V1|       V2|       V3|
         0.        0.        0.        0.        0.        0.
 *MAT_RIGID_TITLE
-TX_C_CB_T8
+TX_C_CB_T8-Rigid
 $      MID|       RO|        E|       PR|        N|   COUPLE|        M| ALIAS_RE|
     300081     2.E-6      17.1       0.3        0.        0.        0.          
 $      CMO|     CON1|     CON2|
@@ -2010,7 +2012,7 @@ $      CMO|     CON1|     CON2|
 $       A1|       A2|       A3|       V1|       V2|       V3|
         0.        0.        0.        0.        0.        0.
 *MAT_RIGID_TITLE
-TX_C_CB_T9
+TX_C_CB_T9-Rigid
 $      MID|       RO|        E|       PR|        N|   COUPLE|        M| ALIAS_RE|
     300091     2.E-6      17.1       0.3        0.        0.        0.          
 $      CMO|     CON1|     CON2|
@@ -2026,7 +2028,7 @@ $      CMO|     CON1|     CON2|
 $       A1|       A2|       A3|       V1|       V2|       V3|
         0.        0.        0.        0.        0.        0.
 *MAT_RIGID_TITLE
-TX_C_CB_T10
+TX_C_CB_T10-Rigid
 $      MID|       RO|        E|       PR|        N|   COUPLE|        M| ALIAS_RE|
     300101     2.E-6      17.1       0.3        0.        0.        0.          
 $      CMO|     CON1|     CON2|
@@ -2042,7 +2044,7 @@ $      CMO|     CON1|     CON2|
 $       A1|       A2|       A3|       V1|       V2|       V3|
         0.        0.        0.        0.        0.        0.
 *MAT_RIGID_TITLE
-TX_C_CB_T11
+TX_C_CB_T11-Rigid
 $      MID|       RO|        E|       PR|        N|   COUPLE|        M| ALIAS_RE|
     300111     2.E-6      17.1       0.3        0.        0.        0.          
 $      CMO|     CON1|     CON2|
@@ -2058,7 +2060,7 @@ $      CMO|     CON1|     CON2|
 $       A1|       A2|       A3|       V1|       V2|       V3|
         0.        0.        0.        0.        0.        0.
 *MAT_RIGID_TITLE
-TX_C_CB_T12
+TX_C_CB_T12-Rigid
 $      MID|       RO|        E|       PR|        N|   COUPLE|        M| ALIAS_RE|
     300121     2.E-6      17.1       0.3        0.        0.        0.          
 $      CMO|     CON1|     CON2|
@@ -2074,21 +2076,21 @@ $      CMO|     CON1|     CON2|
 $       A1|       A2|       A3|       V1|       V2|       V3|
         0.        0.        0.        0.        0.        0.
 *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE
-TX_C_CB_Sternum
+TX_Sternum_cortical-Iraeus-et-al-2020
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
-    301001     2.E-6      11.5       0.3     0.123        0.        0.        0.
-$        C|        P|     LCSS|     LCSR|       VP|      LCF|
-        0.        0.         0         0        0.          
+    301001     2.E-6      14.7       0.3                  0.        0.        0.
+$        C|        P|     LCSS|     LCSR|       VP|
+       2.5        7.         0         0        0.
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
-        0.       0.3        0.        0.        0.        0.        0.        0.
+        0.    0.0152       0.1        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
-     0.123     1.375        0.        0.        0.        0.        0.        0.
+    0.1014    0.1393     0.351        0.        0.        0.        0.        0.
 *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE
-TX_C_TB_Sternum
+TX_Sternum-trabecular-Rib-Mat-Iraeus-et-al-2020
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
-    301002     1.E-6      0.04      0.45    0.0018        0.        0.        0.
-$        C|        P|     LCSS|     LCSR|       VP|      LCF|
-        0.        0.         0         0        0.          
+    301002  8.615E-7      0.04      0.45    0.0018        0.        0.        0.
+$        C|        P|     LCSS|     LCSR|       VP|
+        0.        0.         0         0        0.
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.      0.05      0.06       0.1        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
@@ -2102,7 +2104,7 @@ $      CMO|     CON1|     CON2|
 $       A1|       A2|       A3|       V1|       V2|       V3|
         0.        0.        0.        0.        0.        0.
 *MAT_RIGID_TITLE
-UX-Bone-Clavicle-Cortical-L
+UX-Bone-Clavicle-Cortical-L-Rigid
 $      MID|       RO|        E|       PR|        N|   COUPLE|        M| ALIAS_RE|
     301101     2.E-6      17.1       0.3        0.        0.        0.
 $      CMO|     CON1|     CON2|
@@ -2149,8 +2151,8 @@ $      MID|       RO|       PC|       MU|    TEROD|    CEROD|       YM|       PR
 UX_Humerus_cortical_Vandenbulcke_et_al_transverse
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     301301  1.973E-6    12.516       0.2       0.1        1.     1.E20        0.
-$        C|        P|     LCSS|     LCSR|       VP|      LCF|
-        0.        0.                            0.          
+$        C|        P|     LCSS|     LCSR|       VP|
+        0.        0.                            0.
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.        0.        0.        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
@@ -2254,7 +2256,7 @@ $      MU1|      MU2|      MU3|      MU4|      MU5|      MU6|      MU7|      MU8
 $   ALPHA1|   ALPHA2|   ALPHA3|   ALPHA4|   ALPHA5|   ALPHA6|   ALPHA7|   ALPHA8|
         8.                                                                      
 *MAT_RIGID_TITLE
-UX_L_F_Hand-rigid
+UX_L_F_Hand-Rigid
 $      MID|       RO|        E|       PR|        N|   COUPLE|        M| ALIAS_RE|
     305162    8.9E-7        1.      0.49        0.        0.        0.          
 $      CMO|     CON1|     CON2|
@@ -2262,7 +2264,7 @@ $      CMO|     CON1|     CON2|
 $       A1|       A2|       A3|       V1|       V2|       V3|
         0.        0.        0.        0.        0.        0.
 *MAT_OGDEN_RUBBER_TITLE
-TX_C_F_Soft_Tissues-Fat_Engelbrektsson-2011
+TX_Soft_Tissues-Fat_Engelbrektsson-2011
 $      MID|       RO|       PR|        N|       NV|        G|     SIGF|      REF|
     306002     1.E-6 0.4999983         0         6        0.        0.        0.
 $      MU1|      MU2|      MU3|      MU4|      MU5|      MU6|      MU7|      MU8|
@@ -2500,17 +2502,17 @@ $      CMO|     CON1|     CON2|
 $       A1|       A2|       A3|       V1|       V2|       V3|
         0.        0.        0.        0.        0.        0.
 *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE
-TX_C_Rib_Cartilage-Iraeus and Pipkorn 2019
+TX_Rib_Cartilage-Iraeus-et-al-2020
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     353111     1.E-6     0.049       0.4   0.00485        0.        0.        0.
-$        C|        P|     LCSS|     LCSR|       VP|      LCF|
-        0.        0.         0         0        0.          
+$        C|        P|     LCSS|     LCSR|       VP|
+        0.        0.         0         0        0.
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.    0.1675    0.3296        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
    0.00485     0.009      0.01        0.        0.        0.        0.        0.
 *MAT_SIMPLIFIED_RUBBER/FOAM_TITLE
-TX_Intercostal muscle (Poulard and Subit 2015)
+TX_Intercostal_muscle_Poulard_and_Subit_2015
 $      MID|       RO|       KM|       MU|        G|     SIGF|      REF|    PRTEN|
     354111     1.E-6       0.1       0.1                            0.          
 $      SGL|       SW|       ST|     LCID|  TENSION|    RTYPE|   AVGOPT|   PRBETA|
@@ -2518,7 +2520,7 @@ $      SGL|       SW|       ST|     LCID|  TENSION|    RTYPE|   AVGOPT|   PRBETA
 $   LCUNLD|       HU|    SHAPE|
                   1.        0.
 *MAT_RIGID_TITLE
-TX_C_CB_L1
+TX_C_CB_L1-Rigid
 $      MID|       RO|        E|       PR|        N|   COUPLE|        M| ALIAS_RE|
     400011     2.E-6      17.1       0.3        0.        0.        0.          
 $      CMO|     CON1|     CON2|
@@ -2534,7 +2536,7 @@ $      CMO|     CON1|     CON2|
 $       A1|       A2|       A3|       V1|       V2|       V3|
         0.        0.        0.        0.        0.        0.
 *MAT_RIGID_TITLE
-TX_C_CB_L2
+TX_C_CB_L2-Rigid
 $      MID|       RO|        E|       PR|        N|   COUPLE|        M| ALIAS_RE|
     400021     2.E-6      17.1       0.3        0.        0.        0.          
 $      CMO|     CON1|     CON2|
@@ -2550,7 +2552,7 @@ $      CMO|     CON1|     CON2|
 $       A1|       A2|       A3|       V1|       V2|       V3|
         0.        0.        0.        0.        0.        0.
 *MAT_RIGID_TITLE
-TX_C_CB_L3
+TX_C_CB_L3-Rigid
 $      MID|       RO|        E|       PR|        N|   COUPLE|        M| ALIAS_RE|
     400031     2.E-6      17.1       0.3        0.        0.        0.          
 $      CMO|     CON1|     CON2|
@@ -2566,7 +2568,7 @@ $      CMO|     CON1|     CON2|
 $       A1|       A2|       A3|       V1|       V2|       V3|
         0.        0.        0.        0.        0.        0.
 *MAT_RIGID_TITLE
-TX_C_CB_L4
+TX_C_CB_L4-Rigid
 $      MID|       RO|        E|       PR|        N|   COUPLE|        M| ALIAS_RE|
     400041     2.E-6      17.1       0.3        0.        0.        0.          
 $      CMO|     CON1|     CON2|
@@ -2582,7 +2584,7 @@ $      CMO|     CON1|     CON2|
 $       A1|       A2|       A3|       V1|       V2|       V3|
         0.        0.        0.        0.        0.        0.
 *MAT_RIGID_TITLE
-TX_C_CB_L5
+TX_C_CB_L5-Rigid
 $      MID|       RO|        E|       PR|        N|   COUPLE|        M| ALIAS_RE|
     400051     2.E-6      17.1       0.3        0.        0.        0.          
 $      CMO|     CON1|     CON2|
@@ -2598,27 +2600,27 @@ $      CMO|     CON1|     CON2|
 $       A1|       A2|       A3|       V1|       V2|       V3|
         0.        0.        0.        0.        0.        0.
 *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE
-TX-Ribs-Trabecular - Iraeus and Pipkorn 2019
+TX-Ribs-Trabecular-Iraeus-et-al-2020
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     403003  8.615E-7      0.04      0.45    0.0018        0.        0.        0.
-$        C|        P|     LCSS|     LCSR|       VP|      LCF|
-        0.        0.         0         0        0.          
+$        C|        P|     LCSS|     LCSR|       VP|
+        0.        0.         0         0        0.
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.      0.05      0.06       0.1        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
     0.0018  0.003799    0.0041     0.005        0.        0.        0.        0.
 *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE
-TX-Ribs cortical - Average of Kemper 2005 and 2007, converted to true stress tr
+TX-Ribs cortical-Iraeus-et-al-2020
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     403004     2.E-6      14.7       0.3                  0.        0.        0.
-$        C|        P|     LCSS|     LCSR|       VP|      LCF|
-       2.5        7.         0         0        0.          
+$        C|        P|     LCSS|     LCSR|       VP|
+       2.5        7.         0         0        0.
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.    0.0152       0.1        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
     0.1014    0.1393     0.351        0.        0.        0.        0.        0.
 *MAT_RIGID_TITLE
-TX-Ribcage-R1-Cortical-Posterior-End-L
+TX-Ribcage-R1-Cortical-Posterior-End-L-Rigid
 $      MID|       RO|        E|       PR|        N|   COUPLE|        M| ALIAS_RE|
     403015     2.E-6      11.5       0.3        0.        0.        0.          
 $      CMO|     CON1|     CON2|
@@ -2626,7 +2628,7 @@ $      CMO|     CON1|     CON2|
 $       A1|       A2|       A3|       V1|       V2|       V3|
         0.        0.        0.        0.        0.        0.
 *MAT_RIGID_TITLE
-TX-Ribcage-R2-Cortical-Posterior-End-L
+TX-Ribcage-R2-Cortical-Posterior-End-L-Rigid
 $      MID|       RO|        E|       PR|        N|   COUPLE|        M| ALIAS_RE|
     403025     2.E-6      11.5       0.3        0.        0.        0.          
 $      CMO|     CON1|     CON2|
@@ -2634,7 +2636,7 @@ $      CMO|     CON1|     CON2|
 $       A1|       A2|       A3|       V1|       V2|       V3|
         0.        0.        0.        0.        0.        0.
 *MAT_RIGID_TITLE
-TX-Ribcage-R3-Cortical-Posterior-End-L
+TX-Ribcage-R3-Cortical-Posterior-End-L-Rigid
 $      MID|       RO|        E|       PR|        N|   COUPLE|        M| ALIAS_RE|
     403035     2.E-6      11.5       0.3        0.        0.        0.          
 $      CMO|     CON1|     CON2|
@@ -2642,7 +2644,7 @@ $      CMO|     CON1|     CON2|
 $       A1|       A2|       A3|       V1|       V2|       V3|
         0.        0.        0.        0.        0.        0.
 *MAT_RIGID_TITLE
-TX-Ribcage-R4-Cortical-Posterior-End-L
+TX-Ribcage-R4-Cortical-Posterior-End-L-Rigid
 $      MID|       RO|        E|       PR|        N|   COUPLE|        M| ALIAS_RE|
     403045     2.E-6      11.5       0.3        0.        0.        0.          
 $      CMO|     CON1|     CON2|
@@ -2650,7 +2652,7 @@ $      CMO|     CON1|     CON2|
 $       A1|       A2|       A3|       V1|       V2|       V3|
         0.        0.        0.        0.        0.        0.
 *MAT_RIGID_TITLE
-TX-Ribcage-R5-Cortical-Posterior-End-L
+TX-Ribcage-R5-Cortical-Posterior-End-L-Rigid
 $      MID|       RO|        E|       PR|        N|   COUPLE|        M| ALIAS_RE|
     403055     2.E-6      11.5       0.3        0.        0.        0.          
 $      CMO|     CON1|     CON2|
@@ -2658,7 +2660,7 @@ $      CMO|     CON1|     CON2|
 $       A1|       A2|       A3|       V1|       V2|       V3|
         0.        0.        0.        0.        0.        0.
 *MAT_RIGID_TITLE
-TX-Ribcage-R6-Cortical-Posterior-End-L
+TX-Ribcage-R6-Cortical-Posterior-End-L-Rigid
 $      MID|       RO|        E|       PR|        N|   COUPLE|        M| ALIAS_RE|
     403065     2.E-6      11.5       0.3        0.        0.        0.          
 $      CMO|     CON1|     CON2|
@@ -2666,7 +2668,7 @@ $      CMO|     CON1|     CON2|
 $       A1|       A2|       A3|       V1|       V2|       V3|
         0.        0.        0.        0.        0.        0.
 *MAT_RIGID_TITLE
-TX-Ribcage-R7-Cortical-Posterior-End-L
+TX-Ribcage-R7-Cortical-Posterior-End-L-Rigid
 $      MID|       RO|        E|       PR|        N|   COUPLE|        M| ALIAS_RE|
     403075     2.E-6      11.5       0.3        0.        0.        0.          
 $      CMO|     CON1|     CON2|
@@ -2674,7 +2676,7 @@ $      CMO|     CON1|     CON2|
 $       A1|       A2|       A3|       V1|       V2|       V3|
         0.        0.        0.        0.        0.        0.
 *MAT_RIGID_TITLE
-TX-Ribcage-R8-Cortical-Posterior-End-L
+TX-Ribcage-R8-Cortical-Posterior-End-L-Rigid
 $      MID|       RO|        E|       PR|        N|   COUPLE|        M| ALIAS_RE|
     403085     2.E-6      11.5       0.3        0.        0.        0.          
 $      CMO|     CON1|     CON2|
@@ -2682,7 +2684,7 @@ $      CMO|     CON1|     CON2|
 $       A1|       A2|       A3|       V1|       V2|       V3|
         0.        0.        0.        0.        0.        0.
 *MAT_RIGID_TITLE
-TX-Ribcage-R9-Cortical-Posterior-End-L
+TX-Ribcage-R9-Cortical-Posterior-End-L-Rigid
 $      MID|       RO|        E|       PR|        N|   COUPLE|        M| ALIAS_RE|
     403095     2.E-6      11.5       0.3        0.        0.        0.          
 $      CMO|     CON1|     CON2|
@@ -2690,7 +2692,7 @@ $      CMO|     CON1|     CON2|
 $       A1|       A2|       A3|       V1|       V2|       V3|
         0.        0.        0.        0.        0.        0.
 *MAT_RIGID_TITLE
-TX-Ribcage-R10-Cortical-Posterior-End-L
+TX-Ribcage-R10-Cortical-Posterior-End-L-Rigid
 $      MID|       RO|        E|       PR|        N|   COUPLE|        M| ALIAS_RE|
     403105     2.E-6      11.5       0.3        0.        0.        0.          
 $      CMO|     CON1|     CON2|
@@ -2698,7 +2700,7 @@ $      CMO|     CON1|     CON2|
 $       A1|       A2|       A3|       V1|       V2|       V3|
         0.        0.        0.        0.        0.        0.
 *MAT_RIGID_TITLE
-TX-Ribcage-R11-Cortical-Posterior-End-L
+TX-Ribcage-R11-Cortical-Posterior-End-L-Rigid
 $      MID|       RO|        E|       PR|        N|   COUPLE|        M| ALIAS_RE|
     403115     2.E-6      11.5       0.3        0.        0.        0.          
 $      CMO|     CON1|     CON2|
@@ -2706,7 +2708,7 @@ $      CMO|     CON1|     CON2|
 $       A1|       A2|       A3|       V1|       V2|       V3|
         0.        0.        0.        0.        0.        0.
 *MAT_RIGID_TITLE
-TX-Ribcage-R12-Cortical-Posterior-End-L
+TX-Ribcage-R12-Cortical-Posterior-End-L-Rigid
 $      MID|       RO|        E|       PR|        N|   COUPLE|        M| ALIAS_RE|
     403125     2.E-6      11.5       0.3        0.        0.        0.          
 $      CMO|     CON1|     CON2|
@@ -2814,7 +2816,7 @@ $  UCFAILR|  UCFAILS|  UCFAILT|  WCFAILR|  WCFAILS|  WCFAILT|
 $      IUR|      IUS|      IUT|      IWR|      IWS|      IWT|
         0.        0.        0.        0.        0.        0.
 *MAT_RIGID_TITLE
-TX-Ribcage-R1-Cortical-Posterior-End-R
+TX-Ribcage-R1-Cortical-Posterior-End-R-Rigid
 $      MID|       RO|        E|       PR|        N|   COUPLE|        M| ALIAS_RE|
     453015     2.E-6      11.5       0.3        0.        0.        0.          
 $      CMO|     CON1|     CON2|
@@ -2822,7 +2824,7 @@ $      CMO|     CON1|     CON2|
 $       A1|       A2|       A3|       V1|       V2|       V3|
         0.        0.        0.        0.        0.        0.
 *MAT_RIGID_TITLE
-TX-Ribcage-R2-Cortical-Posterior-End-R
+TX-Ribcage-R2-Cortical-Posterior-End-R-Rigid
 $      MID|       RO|        E|       PR|        N|   COUPLE|        M| ALIAS_RE|
     453025     2.E-6      11.5       0.3        0.        0.        0.          
 $      CMO|     CON1|     CON2|
@@ -2830,7 +2832,7 @@ $      CMO|     CON1|     CON2|
 $       A1|       A2|       A3|       V1|       V2|       V3|
         0.        0.        0.        0.        0.        0.
 *MAT_RIGID_TITLE
-TX-Ribcage-R3-Cortical-Posterior-End-R
+TX-Ribcage-R3-Cortical-Posterior-End-R-Rigid
 $      MID|       RO|        E|       PR|        N|   COUPLE|        M| ALIAS_RE|
     453035     2.E-6      11.5       0.3        0.        0.        0.          
 $      CMO|     CON1|     CON2|
@@ -2838,7 +2840,7 @@ $      CMO|     CON1|     CON2|
 $       A1|       A2|       A3|       V1|       V2|       V3|
         0.        0.        0.        0.        0.        0.
 *MAT_RIGID_TITLE
-TX-Ribcage-R4-Cortical-Posterior-End-R
+TX-Ribcage-R4-Cortical-Posterior-End-R-Rigid
 $      MID|       RO|        E|       PR|        N|   COUPLE|        M| ALIAS_RE|
     453045     2.E-6      11.5       0.3        0.        0.        0.          
 $      CMO|     CON1|     CON2|
@@ -2846,7 +2848,7 @@ $      CMO|     CON1|     CON2|
 $       A1|       A2|       A3|       V1|       V2|       V3|
         0.        0.        0.        0.        0.        0.
 *MAT_RIGID_TITLE
-TX-Ribcage-R5-Cortical-Posterior-End-R
+TX-Ribcage-R5-Cortical-Posterior-End-R-Rigid
 $      MID|       RO|        E|       PR|        N|   COUPLE|        M| ALIAS_RE|
     453055     2.E-6      11.5       0.3        0.        0.        0.          
 $      CMO|     CON1|     CON2|
@@ -2854,7 +2856,7 @@ $      CMO|     CON1|     CON2|
 $       A1|       A2|       A3|       V1|       V2|       V3|
         0.        0.        0.        0.        0.        0.
 *MAT_RIGID_TITLE
-TX-Ribcage-R6-Cortical-Posterior-End-R
+TX-Ribcage-R6-Cortical-Posterior-End-R-Rigid
 $      MID|       RO|        E|       PR|        N|   COUPLE|        M| ALIAS_RE|
     453065     2.E-6      11.5       0.3        0.        0.        0.          
 $      CMO|     CON1|     CON2|
@@ -2862,7 +2864,7 @@ $      CMO|     CON1|     CON2|
 $       A1|       A2|       A3|       V1|       V2|       V3|
         0.        0.        0.        0.        0.        0.
 *MAT_RIGID_TITLE
-TX-Ribcage-R7-Cortical-Posterior-End-R
+TX-Ribcage-R7-Cortical-Posterior-End-R-Rigid
 $      MID|       RO|        E|       PR|        N|   COUPLE|        M| ALIAS_RE|
     453075     2.E-6      11.5       0.3        0.        0.        0.          
 $      CMO|     CON1|     CON2|
@@ -2870,7 +2872,7 @@ $      CMO|     CON1|     CON2|
 $       A1|       A2|       A3|       V1|       V2|       V3|
         0.        0.        0.        0.        0.        0.
 *MAT_RIGID_TITLE
-TX-Ribcage-R8-Cortical-Posterior-End-R
+TX-Ribcage-R8-Cortical-Posterior-End-R-Rigid
 $      MID|       RO|        E|       PR|        N|   COUPLE|        M| ALIAS_RE|
     453085     2.E-6      11.5       0.3        0.        0.        0.          
 $      CMO|     CON1|     CON2|
@@ -2878,7 +2880,7 @@ $      CMO|     CON1|     CON2|
 $       A1|       A2|       A3|       V1|       V2|       V3|
         0.        0.        0.        0.        0.        0.
 *MAT_RIGID_TITLE
-TX-Ribcage-R9-Cortical-Posterior-End-R
+TX-Ribcage-R9-Cortical-Posterior-End-R-Rigid
 $      MID|       RO|        E|       PR|        N|   COUPLE|        M| ALIAS_RE|
     453095     2.E-6      11.5       0.3        0.        0.        0.          
 $      CMO|     CON1|     CON2|
@@ -2886,7 +2888,7 @@ $      CMO|     CON1|     CON2|
 $       A1|       A2|       A3|       V1|       V2|       V3|
         0.        0.        0.        0.        0.        0.
 *MAT_RIGID_TITLE
-TX-Ribcage-R10-Cortical-Posterior-End-R
+TX-Ribcage-R10-Cortical-Posterior-End-R-Rigid
 $      MID|       RO|        E|       PR|        N|   COUPLE|        M| ALIAS_RE|
     453105     2.E-6      11.5       0.3        0.        0.        0.          
 $      CMO|     CON1|     CON2|
@@ -2894,7 +2896,7 @@ $      CMO|     CON1|     CON2|
 $       A1|       A2|       A3|       V1|       V2|       V3|
         0.        0.        0.        0.        0.        0.
 *MAT_RIGID_TITLE
-TX-Ribcage-R11-Cortical-Posterior-End-R
+TX-Ribcage-R11-Cortical-Posterior-End-R-Rigid
 $      MID|       RO|        E|       PR|        N|   COUPLE|        M| ALIAS_RE|
     453115     2.E-6      11.5       0.3        0.        0.        0.          
 $      CMO|     CON1|     CON2|
@@ -2902,7 +2904,7 @@ $      CMO|     CON1|     CON2|
 $       A1|       A2|       A3|       V1|       V2|       V3|
         0.        0.        0.        0.        0.        0.
 *MAT_RIGID_TITLE
-TX-Ribcage-R12-Cortical-Posterior-End-R
+TX-Ribcage-R12-Cortical-Posterior-End-R-Rigid
 $      MID|       RO|        E|       PR|        N|   COUPLE|        M| ALIAS_RE|
     453125     2.E-6      11.5       0.3        0.        0.        0.          
 $      CMO|     CON1|     CON2|
@@ -2955,8 +2957,8 @@ $        K|
 PE-Pelvic-Trabecular-Bone-Dalstra-et-al-1993
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     601002   3.45E-7    0.0236       0.2        1.        0.     1.E20        0.
-$        C|        P|     LCSS|     LCSR|       VP|      LCF|
-        0.        0.                            0.          
+$        C|        P|     LCSS|     LCSR|       VP|
+        0.        0.                            0.
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.        0.        0.        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
@@ -3022,7 +3024,7 @@ PE_C_N_Soft_Tissues_Internal_nulls
 $      MID|       RO|       PC|       MU|    TEROD|    CEROD|       YM|       PR|
     606003     1.E-6        0.        0.        0.        0.     0.001       0.3
 *MAT_RIGID_TITLE
-UX_L_CB_Scapula
+UX_L_CB_Scapula-Rigid
 $      MID|       RO|        E|       PR|        N|   COUPLE|        M| ALIAS_RE|
     610411     2.E-6      17.1       0.3        0.        0.        0.
 $      CMO|     CON1|     CON2|
@@ -3260,17 +3262,17 @@ LX_R_CB_Femur_distal_nulls
 $      MID|       RO|       PC|       MU|    TEROD|    CEROD|       YM|       PR|
     710014     1.E-6        0.        0.        0.        0.     0.001       0.3
 *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE
-LX_L_CB_Patella
+LX_L_CB_Patella_Reilly-et-al-1974
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     710401     2.E-6      17.1       0.3     1.E10        0.     1.E20        0.
-$        C|        P|     LCSS|     LCSR|       VP|      LCF|
-        0.        0.                            0.          
+$        C|        P|     LCSS|     LCSR|       VP|
+        0.        0.                            0.
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.        0.        0.        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
         0.        0.        0.        0.        0.        0.        0.        0.
 *MAT_RIGID_TITLE
-LX_L_TB_Patella
+LX_L_TB_Patella-Rigid
 $      MID|       RO|        E|       PR|        N|   COUPLE|        M| ALIAS_RE|
     710402     1.E-6       0.5       0.3        0.        0.        0.
 $      CMO|     CON1|     CON2|
@@ -10838,9 +10840,9 @@ $ANSA_NAME_COMMENT;906001;MAT34 MAT_FABRIC;UX_Skin_Manschot_et_al_1986;Wed Jun 1
 $0 19:13:17 2020\;C:/Users/iraeus/Documents/VIRTUAL/ViVA+/Final_assembly/skinmat
 $.key;NO;NO;NO;
 $ANSA_NAME_COMMENT;103001;MAT77 MAT_OGDEN_RUBBER;Scalp_Hyperelsatic-Trotta-et-al
-$-2019-2020;Tue Apr 14 21:56:40 2020\;M:/VSI-P/010_RD/17_EU_VIRTUAL/020_Workpack
-$age/WP2_HBM/T2_2_Seated OS-HBM 50F, OS-HBM 50M, Active-HBM and validation/2_2_1
-$_Upgrading the OS-HBM 50F/2020-04-14_Material_DB.key;NO;NO;NO;
+$-2019;Tue Apr 14 21:56:40 2020\;M:/VSI-P/010_RD/17_EU_VIRTUAL/020_Workpackage/W
+$P2_HBM/T2_2_Seated OS-HBM 50F, OS-HBM 50M, Active-HBM and validation/2_2_1_Upgr
+$ading the OS-HBM 50F/2020-04-14_Material_DB.key;NO;NO;NO;
 $ANSA_NAME_COMMENT;305102;MAT77 MAT_OGDEN_RUBBER;UX-Muscle-Zhai-et-al-2019-strai
 $nrate1e-2;Tue Apr 14 21:56:40 2020\;M:/VSI-P/010_RD/17_EU_VIRTUAL/020_Workpacka
 $ge/WP2_HBM/T2_2_Seated OS-HBM 50F, OS-HBM 50M, Active-HBM and validation/2_2_1_
