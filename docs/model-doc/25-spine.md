@@ -1,5 +1,9 @@
 # Spinal column
 
+!!! warning "This section of the documentation is under development"
+    
+    This section is being updated
+    
 An overview of the spinal column is given in this section. Modeling details of spine are given in the sections corresponding body regions
 
 - [cervical spine](../30-neck/#cervical-spine) in Neck section

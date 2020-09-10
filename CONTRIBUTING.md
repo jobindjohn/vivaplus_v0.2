@@ -1,5 +1,6 @@
 # Contribute to VIVA+
 
+Some ways you can contribute to VIVA+ models
 - Model Features
 - Documentation
 - Validation
@@ -7,7 +8,26 @@
 
 ## Development guidelines
 
-## VIVA+ project structuring
+```
+Will be updated soon
+```
+
+## Contributors
+
+### VIVA+ Development Team
+
+- Johan Iraues
+- Jobin John
+- Corina Klug
+- Erik Svenning
+- Matej Kranjec
+
+### Past Developers
+
+- Jonas Östh
+- Karin Brolin
+- Manuel Mendoza-Vazquez
+
 
 ## Git style guide
 
@@ -42,9 +62,9 @@ fix(50M/standing):
 
 Issue templates
 
-Issues are used to discuss and implement features and fixes. 
+Issues are used to discuss and implement features and fixes.
 
-Please use VIVA+ users forum if you have a question/problem. If you think you are missing some information, ask in the #modelhelp or #learning channel of Zulip.
+You are welcome on VIVA+ users forum on Zulip if you have a question. Use the [VIVA+ beta users](https://vivaplus.zulipchat.com/#narrow/stream/240857-VIVA.2B-(beta).20Users) stream to post your questions  on Zulip.
 
 ### Merge requests
 
@@ -58,9 +78,3 @@ Implement #3
 ```
 
 Those with merge permissions should "Squash and Merge" as a general rule of thumb. This makes reverts easier if they are needed.
-
-## Contributors
-
-### Current VIVA+ Development Team
-
-### VIVA+ Contributors and Past Developers

@@ -164,3 +164,13 @@ img[src*='#center'] {
 Source: [msudol](https://msudol.com/how-to-align-images-in-markdown-without-html-or-extensions/)
 
 Something else to try from github [issues](https://github.com/squidfunk/mkdocs-material/issues/748#issuecomment-377693557)
+
+### Comment out temporary sections in Markdown
+
+```
+<!---
+your comment goes here
+and here
+-->
+```
+Source: [Stackoverflow](https://stackoverflow.com/questions/4823468/comments-in-markdown)

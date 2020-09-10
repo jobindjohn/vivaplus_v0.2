@@ -1,5 +1,10 @@
 # Lower Extremities
 
+!!! warning "This section of the documentation is under development"
+    
+    This section is being updated
+
+
 ??? info "Lower Extremity Components Identifier Overview"
     |       Component Group  | Identifier Range (Start) |
     |-----------------------:|--------------------------|
@@ -35,10 +40,14 @@ An elliptic inner shape was aussumed, which is in line with medical images. Howe
     |                | <20$^{\circ}$  | 0                    | <30$^{\circ}$  | 0.07                 |
 
 Cortical bone properties are based on [@Mirzaali2016]. Subject with diagnosed osteopherosis were excluded.
-Trabecular bone properties are based on Ding et al.  [@Ding.1997] (TODO: double check with other parameters!)
+Trabecular bone properties are based on Ding et al.  [@Ding.1997]
+
+<!-- (TODO: double check with other parameters!) -->
 
 ### Tibia
-Trabecular bone properties are based on Ding et al.  [@Ding.1997] (TODO: double check with other parameters!)
+Trabecular bone properties are based on Ding et al.  [@Ding.1997] 
+
+<!-- (TODO: double check with other parameters!) -->
 
 ### Fibula
 Bone crossection properties are reported in Matsuura et al.  [@Matsuura1999]
@@ -65,7 +74,9 @@ For the 2mm x 20mm sample an ultimate stress of  920 ±/- 205 Kgf/cm^2  = 0.0902
 Assuming linear stiffness up to the ultimate stress, a young modulus of 1.17 GPa can be assumed. 
  for a sample with a crossection of 2x0.54=~1mm^2
 
-For the ligaments connecting the proximal end, a higher stiffness was assumed. It was set to 5 GPa as first trial. (TODO: Check for reference)
+For the ligaments connecting the proximal end, a higher stiffness was assumed. It was set to 5 GPa as first trial. 
+
+<!-- (TODO: Check for reference) -->
 
 ## Joints
 ### Knee Joint Materials
@@ -74,7 +85,7 @@ For the ligaments connecting the proximal end, a higher stiffness was assumed. I
 
 The ligaments in the version 0.1 & 0.2 are based on van Dommelen et al., 2005, [@Dommelen2005] and ligments are modelled as discrete springs
 
-- [ ] TODO: Model ligaments as solids 
+<!-- - [ ] TODO: Model ligaments as solids  -->
 
 #### Knee Cartilage
 Cartilage thickness is based on (TODO for UL)
@@ -88,7 +99,7 @@ E. Peña, B. Calvo, M.A. Martínez, D. Palanca, M. Doblaré, Finite element anal
 
 An Ogden material model is applied using an alpha of 1 and therefore neo-hookean modelling with a modulus of 59 MPa
 
-- [ ] TODO: enhance material properties and calibrate to published curves 
+<!-- - [ ] TODO: enhance material properties and calibrate to published curves  -->
 
 #### Patella
 The patella is modelles rigid in version 0.1 and 0.2.
@@ -248,7 +259,7 @@ Grant et al. 2020: Development and validation of statistical shape models of the
 
 \bibliography
 
-Bedi, A., LaPrade, R.F. and Burrus, M.T. (2018), “Radiographic and Anatomic Landmarks of the Major Knee Ligaments”, The Journal of bone and joint surgery. American volume, Vol. 100 No. 14, pp. 1241–1250. doi: 10.2106/JBJS.17.01135.
+<!-- Bedi, A., LaPrade, R.F. and Burrus, M.T. (2018), “Radiographic and Anatomic Landmarks of the Major Knee Ligaments”, The Journal of bone and joint surgery. American volume, Vol. 100 No. 14, pp. 1241–1250. doi: 10.2106/JBJS.17.01135.
 
 Elamrani, D., Aumar, A., Wavreille, G. and Fontaine, C. (2014), “Comparative morphometry of the antebrachial and crural interosseous membranes: preliminary study for the use of the crural interosseous membrane in the surgical repair of the antebrachial interosseous membrane tears”, Surgical and Radiologic Anatomy, Vol. 36 No. 4, pp. 333–339. doi: 10.1007/s00276-013-1199-9.
 
@@ -280,9 +291,9 @@ Stäubli, H.U. and Rauschning, W. (1994), “Tibial attachment area of the anter
 
 Frank, R.M., Seroyer, S.T., Lewis, P.B., Bach, B.R. and Verma, N.N. (2010), “MRI analysis of tibial position of the anterior cruciate ligament”, Knee surgery, sports traumatology, arthroscopy official journal of the ESSKA, Vol. 18 No. 11, pp. 1607–1611. doi: 10.1007/s00167-010-1192-3.
 
-Prince, M.R., Blackman, A.J., King, A.H., Stuart, M.J. and Levy, B.A. (2015), “Open Anatomic Reconstruction of the Medial Collateral Ligament and Posteromedial Corner”, Arthroscopy Techniques, Vol. 4 No. 6, e885-e890. doi: 10.1016/j.eats.2015.08.013.
+Prince, M.R., Blackman, A.J., King, A.H., Stuart, M.J. and Levy, B.A. (2015), “Open Anatomic Reconstruction of the Medial Collateral Ligament and Posteromedial Corner”, Arthroscopy Techniques, Vol. 4 No. 6, e885-e890. doi: 10.1016/j.eats.2015.08.013. -->
 
-
+<!-- 
 [1] A.F. Anderson, D.C. Dome, S. Gautam, M.H. Awh, G.W. Rennirt, Correlation of anthropometric measurements, strength, anterior cruciate ligament size, and intercondylar notch characteristics to sex differences in anterior cruciate ligament tear rates, Am J Sports Med 29(1) (2001) 58-66.
 [2] N. Chandrashekar, J. Slauterbeck, J. Hashemi, Sex-based differences in the anthropometric characteristics of the anterior cruciate ligament and its relation to intercondylar notch geometry: a cadaveric study, Am J Sports Med 33(10) (2005) 1492-1498.
 [3] S.G. Cone, D. Howe, M.B. Fisher, Size and Shape of the Human Anterior Cruciate Ligament and the Impact of Sex and Skeletal Growth: A Systematic Review, JBJS Rev 7(6) (2019) e8-e8.
@@ -299,4 +310,4 @@ Prince, M.R., Blackman, A.J., King, A.H., Stuart, M.J. and Levy, B.A. (2015), �
 [14] B.R. Meister, S.P. Michael, R.A. Moyer, J.D. Kelly, C.D. Schneck, Anatomy and Kinematics of the Lateral Collateral Ligament of the Knee, Am J Sports Med 28(6) (2000) 869-878.
 [15] S. Tschauner, E. Sorantin, G. Singer, R. Eberl, A.-M. Weinberg, P. Schmidt, T. Kraus, The origin points of the knee collateral ligaments: an MRI study on paediatric patients during growth, Knee Surg Sports Traumatol Arthrosc 24(1) (2016) 18-25.
 [16] J.M. Brinkman, P.J.A. Schwering, L. Blankevoort, J.G. Kooloos, J. Luites, A.B. Wymenga, The insertion geometry of the posterolateral corner of the knee, J Bone Joint Surg Br 87(10) (2005) 1364-1368.
-[17] Y.-B. Song, K. Watanabe, E. Hogan, A.V. D'Antoni, A.C. Dilandro, N. Apaydin, M. Loukas, M.M. Shoja, R.S. Tubbs, The fibular collateral ligament of the knee: a detailed review, Clin Anat 27(5) (2014) 789-797.
+[17] Y.-B. Song, K. Watanabe, E. Hogan, A.V. D'Antoni, A.C. Dilandro, N. Apaydin, M. Loukas, M.M. Shoja, R.S. Tubbs, The fibular collateral ligament of the knee: a detailed review, Clin Anat 27(5) (2014) 789-797. -->

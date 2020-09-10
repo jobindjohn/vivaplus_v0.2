@@ -8,9 +8,6 @@ unique (no mismatches or clashes) structuring of model data.
 A brief overview of identifier numbering scheme for the model parts and include
 file structuring of the model data is given below.
 
-**FIXME**
-Monolithic library versus modular library
-
 ## Identifiers
 
 The primary identifier for any model data (part, section, material definition,
@@ -22,10 +19,10 @@ The primary identifier for any model data (part, section, material definition,
 **A generalized identifier reference is given in each section corresponding
 to the body regions/components.** An overview of the numbering scheme is given below.
 
-!!! Tip "Identifiers: Just look 'em up!"
+<!-- !!! Tip "Identifiers: Just look 'em up!"
     > "Never memorize something that you can look up"
 
-    > [Albert Einstein](https://quoteinvestigator.com/2012/04/02/know-where-to-find/)
+    > [Albert Einstein](https://quoteinvestigator.com/2012/04/02/know-where-to-find/) -->
 
 ### Body regions
 
@@ -104,7 +101,7 @@ Rigidified parts of bones that are used for joint definitions are seperated into
 
 ![Include File Structure](images/include-file-structure.png)
 
-### Include File Tree
+<!-- ### Include File Tree
 
 ```
 vivaplus-50F/M
@@ -113,4 +110,4 @@ vivaplus-50F/M
 ├── vivaplus-joints.key
 ├── vivaplus-Neck-Muscles.key
 └── vivaplus_50F_nodes.key
-```
+``` -->

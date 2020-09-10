@@ -1,12 +1,20 @@
 # VIVA+ Workflow on Git
 
-This section gives an overview of the workflow we follow for collaborative development of VIVA+ Models.
+!!! warning "This section of the documentation is under development"
+    
+    This section is being updated
+
+<!--- This section gives an overview of the workflow we follow for collaborative development of VIVA+ Models.
 If you are new to git Workflow, you can find a brief introduction in the [Git Basics](../22-git-basics).
 Other commonly used git functions are described in the [More Git Functions](../25-more-git-functions) section.
 
 A brief overview of the git Workflow is provided here, but detailed help can be found in the
-[Merging your contributions](../50-merge-guidelines) section.
+[Merging your contributions](../50-merge-guidelines) section. -->
 
+A brief introduction to Git and workflow using branches can found on the VIVA Workshop handouts: https://viva-workshop.readthedocs.io/en/latest/2-1-git-overview/
+
+<!-- 
+## Step 1: 
 
 ## Step 1: Clone the model
 
@@ -54,4 +62,4 @@ or
 
 
 
-## Step 6: Submit a Push Request to the Maintainers
+## Step 6: Submit a Merge Request to the Maintainers -->

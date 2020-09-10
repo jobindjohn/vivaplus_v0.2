@@ -1,5 +1,9 @@
 # Pelvis
 
+!!! warning "This section of the documentation is under development"
+    
+    This section is being updated
+
 ## Bones
 
 ### Pelvis
@@ -14,11 +18,11 @@ The trabecular bone is modellea as linear elastic material using the parameters 
 Pelvic ligaments were modelled with tension only cable elements with material properties according to Hammer et al. [31] (LS Dyna, MAT_071, E = 395 MPa). Cross sections that were based on subject specific insertion site length and an average ligament thickness of 1mm. -->
 Material properties for the pelvic ligaments are descibed in Hammer et al. (2013)).
 
-Todo:
+<!-- Todo:
 
 - [ ] The isolated pelvic bone + joints should be validdated with the quasisatic and dynamic (spheric) impactor tests of [@Guillemot.1998] and   [@Salzar2009]
 - [ ] Overall stiffness of Pelvis + Flesh should be validated with tests from Viano (1989)
-
+ -->
 
 ## Joints
 
@@ -105,7 +109,7 @@ leading to the young modulus
 As the appropiate stiffness will be mainly important in lateral impacts and only validation loadcases for this impact direction are available, a linear elastic material is chosen for the baseline model using a young modulus of 1.612 N/mm^2
 The density is set to the same one as for the PS disk 
 
-- [ ] TODO: find appropiate density
+<!-- - [ ] TODO: find appropiate density -->
 
 
 - [ ] The sacroilliac should be recalibrated using the experiments of [@Guillemot.1998] as male and female pelvic bones were tested. For the quaistatic tests, a pelvic bone of  one female (S7) with an age of 63 years a height of 160 cm and a weight of 55 kg.  For the dynamic tests, 6 out of the 12 tested pelvic bones were from females with an age between 65 and 81.
