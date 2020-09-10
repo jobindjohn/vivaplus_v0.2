@@ -4,6 +4,8 @@ Human body finite element (FE) models for injury assessment
 
 The VIVA+ models are under active development, with frequent beta releases of preliminary models.
 
+The documentation is available at vivaplus.readthedocs.io
+
 Join the **users' community** [![project chat](https://img.shields.io/badge/zulip-join_chat-brightgreen.svg)](https://vivaplus.zulipchat.com)
 
 ## Quick start
@@ -23,8 +25,6 @@ git clone https://virtual.openvt.eu/wp-2/viva-plus.git
 ### Directory structure
 
 The include files that are common to  (material/section/property definitions, contacts, constraints, etc.) are placed in the `common` directory. The files the seated/standing (for example, node coordinates), can be found in the respective directory, for e.g., `50F/Seated/`.
-
-The documentation is placed in the same repository in the `docs` directory. (The documentation will be available at vivaplus.readthedocs.io)
 
 ```
 viva-plus

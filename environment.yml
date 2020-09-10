@@ -1,0 +1,9 @@
+name: mkdocs
+channels:
+  - defaults
+dependencies:
+  - python = 3.8
+  - pip:
+    - mkdocs-material
+    - pymdown-extensions
+    - mkdocs-bibtex

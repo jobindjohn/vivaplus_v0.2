@@ -27,7 +27,7 @@ git clone git@virtual.openvt.eu:fem/viva/plus.git
 ```
 ## **Documentation**
 
-!!! warning "Work in Progress: The VIVA+ documentation is under conctruction"
+!!! warning "Work in Progress: The VIVA+ documentation is under construction"
     
     We are in the process of writing the documentation. If you would like to 
     see specific details of the model added to the documentation, please start an issue on the repo
