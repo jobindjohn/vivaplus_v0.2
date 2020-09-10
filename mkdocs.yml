@@ -15,14 +15,14 @@ copyright: Copyright &copy; 2019-2020 viva+ team
 nav:
     - Getting started: 
         - Getting started: index.md
-        - VIVA+ Models overview: getting-started/10-model-overview.md
-        - FAQ: getting-started/FAQ
-    - User Guide:
-        - User guide: user-guide/01-getting-started.md
-        - Setting up a simulation: user-guide/10-setting-up.md
-        - LS-Dyna Quick Reference: user-guide/50-lsdyna-ref.md
+        #- VIVA+ Models overview: getting-started/10-model-overview.md
+        #- FAQ: getting-started/FAQ
+    #- User Guide:
+    #    - User guide: user-guide/01-getting-started.md
+    #    - Setting up a simulation: user-guide/10-setting-up.md
+    #    - LS-Dyna Quick Reference: user-guide/50-lsdyna-ref.md
     - Model Documentation:
-        - Introduction to the Models: 'model-doc/00-model-info.md'
+        # Introduction to the Models: 'model-doc/00-model-info.md'
         - Anthropometry: model-doc/01-anthro.md
         - Model Data Structure: 'model-doc/10-model-data-structure.md'
         - Head: model-doc/20-head.md
@@ -33,18 +33,18 @@ nav:
         - Abdomen: 'model-doc/50-abdomen.md'
         - Pelvis: 'model-doc/60-pelvis.md'
         - Lower Extremities: 'model-doc/70-lower-extremities.md'
-        - Control Card Guidelines: 'model-doc/80-control-card-guidelines.md'
-        - Postprocessing simulations: 'model-doc/85-Postprocessing.md'
+        # - Control Card Guidelines: 'model-doc/80-control-card-guidelines.md'
+        # - Postprocessing simulations: 'model-doc/85-Postprocessing.md'
     - Contributor Guide:
         - 'How to Contribute': 'contributor-guide/00-contribute-to-VIVA.md'
         - 'VIVA+ Git Workflow Overview': 'contributor-guide/20-viva-git-workflow.md'
-        - 'Git Basics': 'contributor-guide/22-git-basics.md'
-        - 'More Git Functions': contributor-guide/25-more-git-functions.md
-        - 'Git Cheatsheet': contributor-guide/29-git-cheat-sheet.md
-        - 'Merging your contributiona': 'contributor-guide/50-merge-guidelines.md'
-        - 'Making model releases': 'contributor-guide/60-model-release.md'
+        # - 'Git Basics': 'contributor-guide/22-git-basics.md'
+        #- 'More Git Functions': contributor-guide/25-more-git-functions.md
+        - 'Git Resources': contributor-guide/29-git-resources.md
+        #- 'Merging your contributions': 'contributor-guide/50-merge-guidelines.md'
+        #- 'Making model releases': 'contributor-guide/60-model-release.md'
         - 'Documentation Guidelines': 'contributor-guide/70-documentation-guideliness.md'
-        - 'Toolkit': 'contributor-guide/95-toolkit.md'
+        #- 'Toolkit': 'contributor-guide/95-toolkit.md'
 
 # Configuration
 theme:

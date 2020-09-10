@@ -1,5 +1,9 @@
 # Shoulder and Upper Extremity
 
+!!! warning "This section of the documentation is under development"
+    
+    This section is being updated
+    
 ## Skeletal Structure
 
 ### Clavicle and Scapula

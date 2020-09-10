@@ -1,6 +1,8 @@
 # Git Basic and Collaborative Development
 
-FIXME
+!!! warning "This section of the documentation is under development"
+    
+    Contents in this section will be updated to provide more details
 
 ## Why Git?
 
@@ -10,7 +12,7 @@ FIXME
 
 The git actions/functions can be performed through command line or GUI depending on your preference.
 
-#### Installing Git
+<!-- #### Installing Git
 
 Windows users : [Git for Windows](https://gitforwindows.org/)
 
@@ -22,10 +24,10 @@ GUI Clients to commit and interact with the repo through graphical interface : h
 
 Configure user
 
-`git config`
+`git config` -->
 
 
-#### getting a copy of the repository
+## getting a copy of the repository
 
 `git clone`
 

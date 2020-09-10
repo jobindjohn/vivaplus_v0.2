@@ -1,5 +1,9 @@
 # Head
 
+!!! warning "This section of the documentation is under development"
+    
+    This section is being updated
+
 The skin was modelled as neon-hookean (using the odgen material and setting α=2 and μ=2*Elastic moduli 
 (mean based on the material properties desrcibed in [@Falland-Cheung2018])
 
@@ -23,7 +27,7 @@ In later versions it could be modelled with odgen material and prestrain based o
 Poisson ratio for the skin was set to 0.48 based on [@Delalleau2006].
 
 For the density a value of 1E-6 was assumed for the skin.
-TODO: Find proper source for skin density!
+<!-- TODO: Find proper source for skin density! -->
 
 The solid scalp was modelled based on [@Trotta2019] with a hyperelastic ogden material model:
 
@@ -36,9 +40,9 @@ The solid scalp was modelled based on [@Trotta2019] with a hyperelastic ogden ma
 
 The default poisson's ratio was used and density was taken from [@Trotta2020]
 
-TODO:
+<!-- TODO:
 Where do these values come from?
-HE_C_Oral_Cavity?
+HE_C_Oral_Cavity? -->
 
 #References
 \bibliography

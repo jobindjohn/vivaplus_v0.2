@@ -5,19 +5,31 @@ All changes to this project are documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## Road Map
+# beta  versions
 
-**Public beta release**: 0.2.0
+## 0.2.0 - 2020-09-10
+
+## Added
+
+- Reference landmark nodes for Dynasaur postprocessing
+
+## Changed
+
+- Refactor Include file structure
+  - sub-include extension changed from `.key` to `.k`
+  - PIDs transferred to body region include files
+  - MID names updated with references
+  - ID renumbered
 
 # alpha (unreleased) versions
 
-## 0.1.6 -2020-08-21
+## 0.1.6 - 2020-08-21
 
 ### Added
 
 - Added constrain_rigid_bodies between 751703-751701, 754113-754111, 704113-704111, 701703-701701, 351201-351202, 301201-301202
   301101-301102, 351101-351102
-- Created extra node sets constraining the patella, scapula, clavucula, talus and Calcaneus to the soft tissue
+- Created extra node sets constraining the patella, scapula, clavicula, talus and Calcaneus to the soft tissue
 - Re-pasted Quadriceps to femur (L+R)
 - Added null shells covering the external Intercostal muscles (PID 404001 and 454001)
 - Added PART_CONTACT OPTT=1mm to PIDs 301201, 351201, 301101, 351101

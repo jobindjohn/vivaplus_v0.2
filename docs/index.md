@@ -3,15 +3,13 @@
 
 # **Open Human Body Models**
 
-Finite Element Models of Human Body for injury assessments, developed primararily for Automotive Safety evaluations.
+Finite Element Models of Human Body for injury assessments, developed primarily for Automotive Safety evaluations.
 
 ## **Models under development**
 
 ### Vehicle Occupant Models
 
 - Average female (**50F**)
-
-- Average male (**50M**)
 
 ### Vulnerable Road Users (VRU)
 
@@ -24,8 +22,15 @@ Finite Element Models of Human Body for injury assessments, developed primararil
 
 Clone repository from *OpenVT*
 
-`git clone https://virtual.openvt.eu/wp-2/viva-plus.git`
+```
+git clone git@virtual.openvt.eu:fem/viva/plus.git
+```
+## **Documentation**
 
+!!! warning "Work in Progress: The VIVA+ documentation is under conctruction"
+    
+    We are in the process of writing the documentation. If you would like to 
+    see specific details of the model added to the documentation, please start an issue on the repo
 
 ## **You are welcome to Contribute!**
 

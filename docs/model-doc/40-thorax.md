@@ -1,5 +1,9 @@
 # Thorax
 
+!!! warning "This section of the documentation is under development"
+    
+    This section is being updated
+
 ??? info "Thoracic Components Identifier Overview"
     | Component  Group               | Identifier Range (Start) |
     |-------------------------------:|------------|
@@ -9,8 +13,6 @@
     | Thoracic Internal Organs               | 405000     |
 
 ## Thoracic Spine
-
-
 
 
 ### Model Components
@@ -51,7 +53,8 @@ strain rate dependent skin material porperties based on [@Ottenio2015]
 
 
 ## Cavity
-To mimic the stiffness of the human lung, which is the main volume in the thoracic cavity, material parameters published in [@Gayzik2010] established for lungs of rats were applied. No appropiate macroscopic material data for humans was found so far. (TODO?)
+To mimic the stiffness of the human lung, which is the main volume in the thoracic cavity, material parameters published in [@Gayzik2010] established for lungs of rats were applied. No appropiate macroscopic material data for humans was found so far. 
+<!-- (TODO?) -->
 Mat_Lung_Tissue was applied based on [@Vawter1980]. As alternative material parameter those published in the original paper [@Vawter1980] could be applied:
 C/delta = 25cmH20(2.45 kPa), alpha = 0.183, (beta = -0.291, C1/delta = 0.1966 cmH20 (19.3 Pa), and C2 = 2.71.)
 
@@ -59,7 +62,7 @@ Based on [@Polio2018] the young modulus for the Null material was set to 1kPA = 
 
 The material was not stable in the current model, which is why the liver material is used in the current preliminary version of the model.
 
-TODO
-- [ ] change to compressible material and add sliding contact
+<!-- TODO
+- [ ] change to compressible material and add sliding contact -->
 
 \bibliography
