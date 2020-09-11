@@ -20,7 +20,7 @@ Finite Element Models of Human Body for injury assessments, developed primarily 
 
 ## **Quick Start**
 
-Clone repository from *OpenVT*
+Clone repository from *[OpenVT](https://virtual.openvt.eu/fem/viva/plus)*
 
 ```
 git clone git@virtual.openvt.eu:fem/viva/plus.git

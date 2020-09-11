@@ -4,7 +4,7 @@ Human body finite element (FE) models for injury assessment
 
 The VIVA+ models are under active development, with frequent beta releases of preliminary models.
 
-The documentation is available at vivaplus.readthedocs.io
+The documentation is available at <vivaplus.readthedocs.io>
 
 Join the **users' community** [![project chat](https://img.shields.io/badge/zulip-join_chat-brightgreen.svg)](https://vivaplus.zulipchat.com)
 
@@ -19,7 +19,7 @@ or
 Clone the repository:
 
 ```
-git clone https://virtual.openvt.eu/wp-2/viva-plus.git
+git clone git@virtual.openvt.eu:fem/viva/plus.git
 ```
 
 ### Directory structure
