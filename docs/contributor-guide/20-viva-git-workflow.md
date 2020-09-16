@@ -1,40 +1,62 @@
-# VIVA+ Workflow on Git
+# **VIVA+ Git Workflow**
 
-!!! warning "This section of the documentation is under development"
-    
-    This section is being updated
+This section gives an overview of the workflow we follow for collaborative development of VIVA+ Models.
 
-<!--- This section gives an overview of the workflow we follow for collaborative development of VIVA+ Models.
+<!--- 
 If you are new to git Workflow, you can find a brief introduction in the [Git Basics](../22-git-basics).
 Other commonly used git functions are described in the [More Git Functions](../25-more-git-functions) section.
 
 A brief overview of the git Workflow is provided here, but detailed help can be found in the
 [Merging your contributions](../50-merge-guidelines) section. -->
 
-A brief introduction to Git and workflow using branches can found on the VIVA Workshop handouts: https://viva-workshop.readthedocs.io/en/latest/2-1-git-overview/
+
+
+!!! note "Introduction to Git: VIVA+ Workshop"
+    
+    A brief introduction to Git and workflow using branches can found on the [VIVA Workshop handouts](https://viva-workshop.readthedocs.io/en/latest/2-1-git-overview/)
+
+## Step 1: **Clone** the model
+
+_(Skip this step if you alrady have the VIVA+ repo on your computer)_
+
+`git clone git@virtual.openvt.eu:fem/viva/plus.git`
+
+## Step 2: Start an **Issue**
+
+Start an issue on the online repo to let other users know and discuss the changes you propose.
+
+## Step 3: Make a **Branch** to work on
+
+#### Making a branch from `master` branch!
+
+Create a branch `BranchName` for your development.
+
+```
+git checkout -b BranchName
+```
+
+??? tip "Git commands for branches" 
+        
+
+    `git checkout -b BranchName` is shorthand for:
+
+    ```
+    git branch BranchName
+    git checkout BranchName
+    ```
 
 <!-- 
-## Step 1: 
+#### Make a branch from online VIVA+ repo
+ -->
 
-## Step 1: Clone the model
+## Step 4: Saving your work as you go: **Commit**
 
-`git clone https://virtual.openvt.eu/wp-2/viva-plus.git`
+Use `git add` to stage the files you want save (to index/staging area) and then `git commit` to take a snapshot of the staging area
 
-or
-
-`git clone git@virtual.openvt.eu:wp-2/viva-plus.git`
-
-
-## Step 2: Make a branch to work on
-
-#### Make a branch from remote `master` of VIVA+
-
-
-#### Make a branch from your `master` branch!
-
-
-
-## Step 3: Saving your work as you go: **Commit**
+```
+git add FileNames
+git commit -m "Commit message heading"
+```
 
 !!! Note "Guidelines for making commits"
     - Stage related files together from the working directory and perform the commit, rather than staging all the changed files for a bulk commit
@@ -42,13 +64,21 @@ or
 
 
 !!! Info "How to write a commit message"
-    - The commit heading should give a brief overview of changes involved
-        - Repository section (Model:, Docs:, Assets: )
-    - Commit message:
+    - The commit heading gives a brief overview of changes involved
+        - Specify the context of the change, for example, repository section (Model:, Docs:)
+    - Commit message: If you would like to write more details of the commit, use the commit message body
 
-## Step 4: Merging updates from branches
+A brief introduction to making `git commit` can be found in the [VIVA+ workshop handouts](https://viva-workshop.readthedocs.io/en/latest/2-3-git-basic-workflow/)
 
-!!! Warning "Warning: Before you push"
+## Step 5: **Push** your branch to the online repo
+
+Make your commits available on the online repo so that it has a backup and also visible to other developers.
+
+```
+git push origin BranchName
+```
+
+??? Warning "Warning: Before you push"
     Some applications interfere with `git push` and cause merge conflicts.
     Please close these applications before you merge branches to avoid merge conflicts.
 
@@ -57,9 +87,21 @@ or
         - Microsoft Excel (if you have a CSV file open)
         - JabRef (if you use it to edit BibTeX files)
 
+## Step 6: Run **Model Tests**
 
-## Step 5: Perform the Relevant Tests
+!!! warning "Work in Progress"
+
+    These model tests will be run to verify the performance and responses of the model
+        
 
 
 
-## Step 6: Submit a Merge Request to the Maintainers -->
+## Step 7: **Merging** your updates to the master branch
+
+Once your changes are available on the online repo, you are ready to submit a **merge request** to the maintainer for review and merging to the master branch.
+
+![](img/New-merge-request.png)
+
+Select the branch you want to merge as the source branch and `master` as the target branch
+
+![](img/Select-source-branch.png)

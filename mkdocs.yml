@@ -37,7 +37,7 @@ nav:
         # - Postprocessing simulations: 'model-doc/85-Postprocessing.md'
     - Contributor Guide:
         - 'How to Contribute': 'contributor-guide/00-contribute-to-VIVA.md'
-        - 'VIVA+ Git Workflow Overview': 'contributor-guide/20-viva-git-workflow.md'
+        - 'VIVA+ Git Workflow': 'contributor-guide/20-viva-git-workflow.md'
         # - 'Git Basics': 'contributor-guide/22-git-basics.md'
         #- 'More Git Functions': contributor-guide/25-more-git-functions.md
         - 'Git Resources': contributor-guide/29-git-resources.md
