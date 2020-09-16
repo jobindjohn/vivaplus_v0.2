@@ -1,10 +1,10 @@
 # VIVA+ Open Human Body Models
 
-Human body finite element (FE) models for injury assessment
+Human body finite element (FE) models for Virtual Testing
 
 The VIVA+ models are under active development, with frequent beta releases of preliminary models.
 
-The documentation is available at <vivaplus.readthedocs.io>
+The documentation is available at <https://vivaplus.readthedocs.io/>
 
 Join the **users' community** [![project chat](https://img.shields.io/badge/zulip-join_chat-brightgreen.svg)](https://vivaplus.zulipchat.com)
 
