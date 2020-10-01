@@ -2,7 +2,7 @@ $
 $ANSA_VERSION;20.1.3;
 $
 $
-$ file created by  A N S A  Mon Sep 21 14:16:44 2020
+$ file created by  A N S A  Wed Sep 30 09:03:12 2020
 $
 $ output from :
 $
@@ -13696,7 +13696,7 @@ HE_C_Eye-initial_slope_of_Manschot_et_al_1986
 *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE
 NE_C_C1 Cortical_Reilly-et-al-1974
     200011     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-        0.        0.         0         0        0.          
+        0.        0.         0         0        0.
         0.        0.        0.        0.        0.        0.        0.        0.
         0.        0.        0.        0.        0.        0.        0.        0.
 *MAT_PLASTIC_KINEMATIC_TITLE
@@ -13706,7 +13706,7 @@ NE_C_C1_Trabecular-Kopperdahl_and_Keaveny_1998-Yoganandan_et_al_2006
 *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE
 NE_C_C2 Cortical_Reilly-et-al-1974
     200021     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-        0.        0.         0         0        0.          
+        0.        0.         0         0        0.
         0.        0.        0.        0.        0.        0.        0.        0.
         0.        0.        0.        0.        0.        0.        0.        0.
 *MAT_PLASTIC_KINEMATIC_TITLE
@@ -13716,19 +13716,19 @@ NE_C_C2 Trabecular-Kopperdahl_and_Keaveny_1998-Yoganandan_et_al_2006
 *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE
 NE_C_C3_Sup_Endplate_Reilly-et-al-1974
     200023     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-        0.        0.         0         0        0.          
+        0.        0.         0         0        0.
         0.        0.        0.        0.        0.        0.        0.        0.
         0.        0.        0.        0.        0.        0.        0.        0.
 *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE
 NE_C_C2_Inf_Endplate_Reilly-et-al-1974
     200024     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-        0.        0.         0         0        0.          
+        0.        0.         0         0        0.
         0.        0.        0.        0.        0.        0.        0.        0.
         0.        0.        0.        0.        0.        0.        0.        0.
 *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE
 NE_C_C3 Cortical_Reilly-et-al-1974
     200031     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-        0.        0.         0         0        0.          
+        0.        0.         0         0        0.
         0.        0.        0.        0.        0.        0.        0.        0.
         0.        0.        0.        0.        0.        0.        0.        0.
 *MAT_PLASTIC_KINEMATIC_TITLE
@@ -13738,19 +13738,19 @@ NE_C_C3 Trabecular-Kopperdahl_and_Keaveny_1998-Yoganandan_et_al_2006
 *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE
 NE_C_C4_Sup_Endplate_Reilly-et-al-1974
     200033     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-        0.        0.         0         0        0.          
+        0.        0.         0         0        0.
         0.        0.        0.        0.        0.        0.        0.        0.
         0.        0.        0.        0.        0.        0.        0.        0.
 *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE
 NE_C_C3_Inf_Endplate_Reilly-et-al-1974
     200034     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-        0.        0.         0         0        0.          
+        0.        0.         0         0        0.
         0.        0.        0.        0.        0.        0.        0.        0.
         0.        0.        0.        0.        0.        0.        0.        0.
 *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE
 NE_C_C4 Cortical_Reilly-et-al-1974
     200041     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-        0.        0.         0         0        0.          
+        0.        0.         0         0        0.
         0.        0.        0.        0.        0.        0.        0.        0.
         0.        0.        0.        0.        0.        0.        0.        0.
 *MAT_PLASTIC_KINEMATIC_TITLE
@@ -13760,19 +13760,19 @@ NE_C_C4 Trabecular-Kopperdahl_and_Keaveny_1998-Yoganandan_et_al_2006
 *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE
 NE_C_C5_Sup_Endplate_Reilly-et-al-1974
     200043     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-        0.        0.         0         0        0.          
+        0.        0.         0         0        0.
         0.        0.        0.        0.        0.        0.        0.        0.
         0.        0.        0.        0.        0.        0.        0.        0.
 *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE
 NE_C_C4_Inf_Endplate_Reilly-et-al-1974
     200044     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-        0.        0.         0         0        0.          
+        0.        0.         0         0        0.
         0.        0.        0.        0.        0.        0.        0.        0.
         0.        0.        0.        0.        0.        0.        0.        0.
 *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE
 NE_C_C5 Cortical_Reilly-et-al-1974
     200051     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-        0.        0.         0         0        0.          
+        0.        0.         0         0        0.
         0.        0.        0.        0.        0.        0.        0.        0.
         0.        0.        0.        0.        0.        0.        0.        0.
 *MAT_PLASTIC_KINEMATIC_TITLE
@@ -13782,19 +13782,19 @@ NE_C_C5 Trabecular-Kopperdahl_and_Keaveny_1998-Yoganandan_et_al_2006
 *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE
 NE_C_C6_Sup_Endplate_Reilly-et-al-1974
     200053     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-        0.        0.         0         0        0.          
+        0.        0.         0         0        0.
         0.        0.        0.        0.        0.        0.        0.        0.
         0.        0.        0.        0.        0.        0.        0.        0.
 *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE
 NE_C_C5_Inf_Endplate_Reilly-et-al-1974
     200054     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-        0.        0.         0         0        0.          
+        0.        0.         0         0        0.
         0.        0.        0.        0.        0.        0.        0.        0.
         0.        0.        0.        0.        0.        0.        0.        0.
 *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE
 NE_C_C6 Cortical_Reilly-et-al-1974
     200061     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-        0.        0.         0         0        0.          
+        0.        0.         0         0        0.
         0.        0.        0.        0.        0.        0.        0.        0.
         0.        0.        0.        0.        0.        0.        0.        0.
 *MAT_PLASTIC_KINEMATIC_TITLE
@@ -13804,19 +13804,19 @@ NE_C_C6 Trabecular-Kopperdahl_and_Keaveny_1998-Yoganandan_et_al_2006
 *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE
 NE_C_C7_Sup_Endplate_Reilly-et-al-1974
     200063     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-        0.        0.         0         0        0.          
+        0.        0.         0         0        0.
         0.        0.        0.        0.        0.        0.        0.        0.
         0.        0.        0.        0.        0.        0.        0.        0.
 *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE
 NE_C_C6_Inf_Endplate_Reilly-et-al-1974
     200064     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-        0.        0.         0         0        0.          
+        0.        0.         0         0        0.
         0.        0.        0.        0.        0.        0.        0.        0.
         0.        0.        0.        0.        0.        0.        0.        0.
 *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE
 NE_C_C7 Cortical_Reilly-et-al-1974
     200071     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-        0.        0.         0         0        0.          
+        0.        0.         0         0        0.
         0.        0.        0.        0.        0.        0.        0.        0.
         0.        0.        0.        0.        0.        0.        0.        0.
 *MAT_PLASTIC_KINEMATIC_TITLE
@@ -13826,13 +13826,13 @@ NE_C_C7 Trabecular-Kopperdahl_and_Keaveny_1998-Yoganandan_et_al_2006
 *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE
 NE_C_T1_Sup_Endplate_Reilly-et-al-1974
     200073     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-        0.        0.         0         0        0.          
+        0.        0.         0         0        0.
         0.        0.        0.        0.        0.        0.        0.        0.
         0.        0.        0.        0.        0.        0.        0.        0.
 *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE
 NE_C_C7_Inf_Endplate_Reilly-et-al-1974
     200074     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-        0.        0.         0         0        0.          
+        0.        0.         0         0        0.
         0.        0.        0.        0.        0.        0.        0.        0.
         0.        0.        0.        0.        0.        0.        0.        0.
 *MAT_RIGID_TITLE
@@ -14883,13 +14883,13 @@ TX_C_TB_T12--Rigid
 *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE
 TX_Sternum_cortical-Iraeus-et-al-2020
     301001     2.E-6      14.7       0.3                  0.        0.        0.
-       2.5        7.         0         0        0.          
+       2.5        7.         0         0        0.
         0.    0.0152       0.1        0.        0.        0.        0.        0.
     0.1014    0.1393     0.351        0.        0.        0.        0.        0.
 *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE
 TX_Sternum-trabecular-Rib-Mat-Iraeus-et-al-2020
     301002  8.615E-7      0.04      0.45    0.0018        0.        0.        0.
-        0.        0.         0         0        0.          
+        0.        0.         0         0        0.
         0.      0.05      0.06       0.1        0.        0.        0.        0.
     0.0018  0.003799    0.0041     0.005        0.        0.        0.        0.
 *MAT_RIGID_TITLE
@@ -14928,7 +14928,7 @@ UX_Humerus_Null
 *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE
 UX_Humerus_cortical_Vandenbulcke_et_al_transverse
     301301  1.973E-6    12.516       0.2       0.1        1.     1.E20        0.
-        0.        0.                            0.          
+        0.        0.                            0.
         0.        0.        0.        0.        0.        0.        0.        0.
         0.        0.        0.        0.        0.        0.        0.        0.
 *MAT_PLASTICITY_COMPRESSION_TENSION_TITLE
@@ -15136,7 +15136,7 @@ UX-Bone-Scapula-Cortical-R
 *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE
 TX_Rib_Cartilage-Iraeus-et-al-2020
     353111     1.E-6     0.049       0.4   0.00485        0.        0.        0.
-        0.        0.         0         0        0.          
+        0.        0.         0         0        0.
         0.    0.1675    0.3296        0.        0.        0.        0.        0.
    0.00485     0.009      0.01        0.        0.        0.        0.        0.
 *MAT_SIMPLIFIED_RUBBER/FOAM_TITLE
@@ -15197,13 +15197,13 @@ TX_C_TB_L5--Rigid
 *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE
 TX-Ribs-Trabecular-Iraeus-et-al-2020
     403003  8.615E-7      0.04      0.45    0.0018        0.        0.        0.
-        0.        0.         0         0        0.          
+        0.        0.         0         0        0.
         0.      0.05      0.06       0.1        0.        0.        0.        0.
     0.0018  0.003799    0.0041     0.005        0.        0.        0.        0.
 *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE
 TX-Ribs cortical-Iraeus-et-al-2020
     403004     2.E-6      14.7       0.3                  0.        0.        0.
-       2.5        7.         0         0        0.          
+       2.5        7.         0         0        0.
         0.    0.0152       0.1        0.        0.        0.        0.        0.
     0.1014    0.1393     0.351        0.        0.        0.        0.        0.
 *MAT_RIGID_TITLE
@@ -15412,7 +15412,7 @@ PE-Cortical_bone_Kemper_2008
 *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE
 PE-Pelvic-Trabecular-Bone-Dalstra-et-al-1993
     601002   3.45E-7    0.0236       0.2        1.        0.     1.E20        0.
-        0.        0.                            0.          
+        0.        0.                            0.
         0.        0.        0.        0.        0.        0.        0.        0.
         0.        0.        0.        0.        0.        0.        0.        0.
 *MAT_RIGID_TITLE
@@ -15610,7 +15610,7 @@ LX_R_CB_Femur_distal_nulls
 *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE
 LX_L_CB_Patella_Reilly-et-al-1974
     710401     2.E-6      17.1       0.3     1.E10        0.     1.E20        0.
-        0.        0.                            0.          
+        0.        0.                            0.
         0.        0.        0.        0.        0.        0.        0.        0.
         0.        0.        0.        0.        0.        0.        0.        0.
 *MAT_RIGID_TITLE
@@ -22472,7 +22472,7 @@ DEFINE_CURVE_3501503
     406003    456003
 *SET_PART_LIST
        999                                        
-     99997     99998     99999    100000    404001    454001
+     99995     99996     99997     99998     99999    100000    404001    454001
 $ANSA_COLOR;100001;MAT20 MAT_RIGID;.596078455448151;.129411771893501;.3960784375
 $66757;1.;
 $ANSA_COLOR;100002;MAT20 MAT_RIGID;.874509811401367;.650980412960052;.5843137502

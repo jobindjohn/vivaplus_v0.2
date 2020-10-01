@@ -2,7 +2,7 @@ $
 $ANSA_VERSION;20.1.3;
 $
 $
-$ file created by  A N S A  Mon Sep 21 14:16:49 2020
+$ file created by  A N S A  Wed Sep 30 09:03:16 2020
 $
 $ output from :
 $
@@ -21,6 +21,20 @@ $ANSA_COLOR;vivaplus-40-Thorax.k;INCLUDE;.996078431606293;0.;.400000005960464;1.
 $;
 *KEYWORD
 *PART
+TX-ribs-internal_nulls-R
+     99995     99995    306003                             0         0          
+*SECTION_SHELL_TITLE
+TX-ribs-internal_nulls-R
+     99995         2   0.83333        2.        1.         0         0
+        1.        1.        1.        1.        0.                  0.          
+*PART
+TX-ribs-internal_nulls-L
+     99996     99996    306003                             0         0          
+*SECTION_SHELL_TITLE
+TX-ribs-internal_nulls-L
+     99996         2   0.83333        2.        1.         0         0
+        1.        1.        1.        1.        0.                  0.          
+*PART
 TX-ribs-external_nulls-R
      99999     99999    306003                             0         0          
 *SECTION_SHELL_TITLE
@@ -28,10 +42,10 @@ TX-ribs-external_nulls-R
      99999         2   0.83333        2.        1.         0         0
         1.        1.        1.        1.        0.                  0.          
 *PART
-TX-ribs-external_nulls-R
+TX-ribs-external_nulls-L
     100000    100000    306003                             0         0          
 *SECTION_SHELL_TITLE
-TX-ribs-external_nulls-R
+TX-ribs-external_nulls-L
     100000         2   0.83333        2.        1.         0         0
         1.        1.        1.        1.        0.                  0.          
 *PART_CONTACT
@@ -931,6 +945,10 @@ TX-internal_nulls-R
 TX-internal_nulls-R
     456003         2   0.83333        2.        1.         0         0
         1.        1.        1.        1.        0.                  0.          
+$ANSA_COLOR;99995;SECTION_SHELL;.674509823322296;.619607865810394;.0235294122248
+$89;1.;
+$ANSA_COLOR;99996;SECTION_SHELL;.850980401039124;.890196084976196;.6588235497474
+$67;1.;
 $ANSA_COLOR;99999;SECTION_SHELL;.749019622802734;.427450984716415;.7137255072593
 $69;1.;
 $ANSA_COLOR;100000;SECTION_SHELL;.905882358551025;.772549033164978;.200000002980
