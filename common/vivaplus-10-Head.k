@@ -1,13 +1,12 @@
 $
-$ANSA_VERSION;20.1.3;
+$ANSA_VERSION;20.1.0;
 $
 $
-$ file created by  A N S A  Wed Sep 30 09:03:16 2020
+$ file created by  A N S A  Fri Sep  4 12:42:38 2020
 $
 $ output from :
 $
-$ /disk/project/eriks/P20017_Virtual/work/Vivaplus_v020/add_null_shells/vivaplus
-$ -50F_v0-2-1.ansa
+$ C:/Meshing_WorkingFolder/vivaplus/vivaplus-50F_v0-1-7g.ansa
 $
 $ANSA_USER_ATTRIBUTES;vivaplus-10-Head.k;INCLUDE;DM/IO Index;TEXT;10;DM/Status;T
 $EXT;WIP;
@@ -22,63 +21,87 @@ $917621613;1.;
 *KEYWORD
 *PART
 HE_C_Skull
+$      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
     100001    100001    100001                             0         0          
 *SECTION_SHELL_TITLE
 HE_C_Skull
+$    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
     100001         2   0.83333        2.        1.         0         0
+$       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
         1.        1.        1.        1.        0.                  0.          
 *PART
 HE_C_Mandiblel
+$      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
     100002    100002    100002                             0         0          
 *SECTION_SHELL_TITLE
 HE_C_Mandiblel
+$    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
     100002         2        1.        2.        1.         0         0
+$       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
         1.        1.        1.        1.        0.                  0.          
 *PART
 HE_C_Teeth
+$      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
     100003    100003    100003                             0         0          
 *SECTION_SHELL_TITLE
 HE_C_Teeth
+$    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
     100003         2        1.        2.        1.         0         0
+$       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
         1.        1.        1.        1.        0.                  0.          
 *PART
 HE_C_Occipital_Condyles
+$      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
     100004    100004    100004                             0         0          
 *SECTION_SHELL_TITLE
 HE_C_Occipital_Condyles
+$    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
     100004         2        1.        2.        1.         0         0
+$       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
         1.        1.        1.        1.        0.                  0.          
 *PART
 HE_C_Face_and_Scalp
+$      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
     103001    103001    103001             2000000         0         0          
 *SECTION_SOLID_TITLE
 HE_C_Face_and_Scalp
+$    SECID|   ELFORM|
     103001         1
 *PART
 HE_C_Head-Skin
+$      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
     103002    103002    906001                             0         0          
 *SECTION_SHELL_TITLE
 HE_C_Head-Skin
+$    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
     103002         9   0.83333        1.        1.         0         0
+$       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
         1.        1.        1.        1.        0.                  0.          
 *PART
 HE_C_Oral_Cavity
+$      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
     103003    103003    103003             2000000         0         0          
 *SECTION_SOLID_TITLE
 HE_C_Oral_Cavity
+$    SECID|   ELFORM|
     103003         1
 *PART
 HE_C_AOJ_Art_Cart
+$      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
     103004    103004    103004             2000000         0         0          
 *SECTION_SOLID_TITLE
 HE_C_AOJ_Art_Cart
+$    SECID|   ELFORM|
     103004         1
 *PART
 HE_C_Eye_lids
+$      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
     103005    103005    103005                             0         0          
 *SECTION_SHELL_TITLE
 HE_C_Eye_lids
+$    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
     103005        16   0.83333        2.        1.         0         0
+$       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
         1.        1.        1.        1.        0.                  0.          
 $ANSA_COLOR;100001;SECTION_SHELL;.980392158031464;.600000023841858;.933333337306
 $976;1.;

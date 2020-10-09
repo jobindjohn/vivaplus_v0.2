@@ -1,2292 +1,3299 @@
 $
-$ANSA_VERSION;20.1.3;
+$ANSA_VERSION;20.1.0;
 $
 $
-$ file created by  A N S A  Wed Sep 30 09:03:16 2020
+$ file created by  A N S A  Mon Aug  3 16:40:02 2020
 $
 $ output from :
 $
-$ /disk/project/eriks/P20017_Virtual/work/Vivaplus_v020/add_null_shells/vivaplus
-$ -50F_v0-2-1.ansa
+$ C:/Meshing_WorkingFolder/VIVA-Plus/vivaplus-50F_v0-1-6.ansa
 $
-$ANSA_USER_ATTRIBUTES;vivaplus-22-Neck-Muscles.k;INCLUDE;DM/IO Index;TEXT;6;DM/S
-$tatus;TEXT;WIP;
-$
+$ANSA_USER_ATTRIBUTES;vivaplus-22-Neck-Muscles.key;INCLUDE;DM/IO Index;TEXT;6;DM
+$/Status;TEXT;WIP;
 $
 $
 $
 $
 $
-$ANSA_COLOR;vivaplus-22-Neck-Muscles.k;INCLUDE;.552941203117371;0.5686274766922;
-$.650980412960052;1.;
+$
+$ANSA_COLOR;vivaplus-22-Neck-Muscles.key;INCLUDE;.552941203117371;0.568627476692
+$2;.650980412960052;1.;
 *KEYWORD
 *PART_AVERAGED
 NE-Muscle-Omohyoid-Head-Scap-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     205110    205110    218563                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Omohyoid-Head-Scap-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     205110         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       44.4        0.        0.
 *PART_AVERAGED
 NE-Muscle-Sternohyoid-Head-Sternum-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     205140    205140    218565                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Sternohyoid-Head-Sternum-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     205140         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       25.6        0.        0.
 *PART_AVERAGED
 NE-Muscle-Sternohyoid-Head-Clavicle-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     205150    205150    218566                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Sternohyoid-Head-Clavicle-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     205150         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
        8.5        0.        0.
 *PART_AVERAGED
 NE-Muscle-Sternothyroid-Head-Sternum-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     205170    205170    218568                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Sternothyroid-Head-Sternum-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     205170         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       31.7        0.        0.
 *PART_AVERAGED
 NE-Muscle-Sternothyroid-Head-R1-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     205180    205180    218567                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Sternothyroid-Head-R1-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     205180         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       19.7        0.        0.
 *PART
 NE-Muscle-Rectus-Capitis-Ant-S-C1-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     205210    205210    218570                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Rectus-Capitis-Ant-S-C1-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     205210         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
         8.        0.        0.
 *PART
 NE-Muscle-Rectus-Capitis-Lat-S-C1-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     205220    205220    218571                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Rectus-Capitis-Lat-S-C1-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     205220         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       78.3        0.        0.
 *PART
 NE-Muscle-Rectus-Capitis-Post-Maj-S-C2-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     205230    205230    218572                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Rectus-Capitis-Post-Maj-S-C2-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     205230         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       54.1        0.        0.
 *PART
 NE-Muscle-Rectus-Capitis-Post-Min-S-C1-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     205240    205240    218573                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Rectus-Capitis-Post-Min-S-C1-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     205240         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       90.3        0.        0.
 *PART
 NE-Muscle-Obliquus-Capitis-Superior-S-C1-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     205260    205260    218562                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Obliquus-Capitis-Superior-S-C1-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     205260         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       92.2        0.        0.
 *PART
 NE-Muscle-Obliquus-Capitis-Inferior-C1-C2-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     205270    205270    218561                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Obliquus-Capitis-Inferior-C1-C2-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     205270         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
      171.3        0.        0.
 *PART
 NE-Muscle-SCM-S-Clavicle-1-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     205310    205310    218623                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-SCM-S-Clavicle-1-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     205310         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       47.4        0.        0.
 *PART
 NE-Muscle-SCM-S-Clavicle-2-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     205320    205320    218622                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-SCM-S-Clavicle-2-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     205320         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       48.9        0.        0.
 *PART
 NE-Muscle-SCM-S-Sternum-1-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     205330    205330    218621                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-SCM-S-Sternum-1-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     205330         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       124.        0.        0.
 *PART
 NE-Muscle-SCM-S-Sternum-2-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     205340    205340    218620                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-SCM-S-Sternum-2-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     205340         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       69.8        0.        0.
 *PART
 NE-Muscle-Longus-Colli-C1-C4-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     205410    205410    218544                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Longus-Colli-C1-C4-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     205410         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       12.3        0.        0.
 *PART_AVERAGED
 NE-Muscle-Longus-Colli-C1-T1-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     205420    205420    218550                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Longus-Colli-C1-T1-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     205420         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       15.3        0.        0.
 *PART
 NE-Muscle-Longus-Colli-C2-C4-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     205430    205430    218545                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Longus-Colli-C2-C4-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     205430         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
        5.3        0.        0.
 *PART_AVERAGED
 NE-Muscle-Longus-Colli-C2-T1-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     205440    205440    218549                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Longus-Colli-C2-T1-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     205440         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       15.3        0.        0.
 *PART_AVERAGED
 NE-Muscle-Longus-Colli-C3-T1-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     205450    205450    218548                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Longus-Colli-C3-T1-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     205450         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       15.3        0.        0.
 *PART
 NE-Muscle-Longus-Colli-C4-C7-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     205460    205460    218547                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Longus-Colli-C4-C7-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     205460         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       15.3        0.        0.
 *PART
 NE-Muscle-Longus-Colli-C5-C7-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     205470    205470    218546                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Longus-Colli-C5-C7-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     205470         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       15.3        0.        0.
 *PART
 NE-Muscle-Intertransversarii-Ant-Cervicis-C1-C2-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     205510    205510    218524                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Intertransversarii-Ant-Cervicis-C1-C2-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     205510         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
        8.1        0.        0.
 *PART
 NE-Muscle-Intertransversarii-Ant-Cervicis-C2-C3-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     205520    205520    218525                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Intertransversarii-Ant-Cervicis-C2-C3-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     205520         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       22.2        0.        0.
 *PART
 NE-Muscle-Intertransversarii-Ant-Cervicis-C3-C4-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     205530    205530    218526                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Intertransversarii-Ant-Cervicis-C3-C4-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     205530         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
        22.        0.        0.
 *PART
 NE-Muscle-Intertransversarii-Ant-Cervicis-C4-C5-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     205540    205540    218527                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Intertransversarii-Ant-Cervicis-C4-C5-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     205540         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       21.5        0.        0.
 *PART
 NE-Muscle-Intertransversarii-Ant-Cervicis-C5-C6-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     205550    205550    218528                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Intertransversarii-Ant-Cervicis-C5-C6-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     205550         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       16.4        0.        0.
 *PART
 NE-Muscle-Intertransversarii-Ant-Cervicis-C6-C7-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     205560    205560    218529                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Intertransversarii-Ant-Cervicis-C6-C7-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     205560         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       15.1        0.        0.
 *PART
 NE-Muscle-Intertransversarii-Post-Cervicis-C1-C2-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     205610    205610    218530                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Intertransversarii-Post-Cervicis-C1-C2-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     205610         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       16.1        0.        0.
 *PART
 NE-Muscle-Intertransversarii-Post-Cervicis-C2-C3-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     205620    205620    218531                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Intertransversarii-Post-Cervicis-C2-C3-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     205620         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       17.1        0.        0.
 *PART
 NE-Muscle-Intertransversarii-Post-Cervicis-C3-C4-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     205630    205630    218532                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Intertransversarii-Post-Cervicis-C3-C4-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     205630         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       15.2        0.        0.
 *PART
 NE-Muscle-Intertransversarii-Post-Cervicis-C4-C5-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     205640    205640    218533                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Intertransversarii-Post-Cervicis-C4-C5-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     205640         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       15.5        0.        0.
 *PART
 NE-Muscle-Intertransversarii-Post-Cervicis-C5-C6-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     205650    205650    218534                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Intertransversarii-Post-Cervicis-C5-C6-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     205650         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
        19.        0.        0.
 *PART
 NE-Muscle-Intertransversarii-Post-Cervicis-C6-C7-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     205660    205660    218535                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Intertransversarii-Post-Cervicis-C6-C7-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     205660         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       23.5        0.        0.
 *PART
 NE-Muscle-Longissimus-Capitis-S-C4-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     205710    205710    218509                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Longissimus-Capitis-S-C4-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     205710         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       12.5        0.        0.
 *PART
 NE-Muscle-Longissimus-Capitis-S-C5-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     205720    205720    218508                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Longissimus-Capitis-S-C5-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     205720         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       12.5        0.        0.
 *PART
 NE-Muscle-Longissimus-Capitis-S-C6-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     205730    205730    218507                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Longissimus-Capitis-S-C6-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     205730         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       12.5        0.        0.
 *PART
 NE-Muscle-Longissimus-Capitis-S-C7-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     205740    205740    218506                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Longissimus-Capitis-S-C7-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     205740         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       12.5        0.        0.
 *PART
 NE-Muscle-Longissimus-Capitis-S-T1-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     205750    205750    218505                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Longissimus-Capitis-S-T1-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     205750         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       12.5        0.        0.
 *PART
 NE-Muscle-Longissimus-Capitis-S-T2-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     205760    205760    218504                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Longissimus-Capitis-S-T2-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     205760         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       12.5        0.        0.
 *PART
 NE-Muscle-Longus-Capitis-S-C3-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     205810    205810    218543                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Longus-Capitis-S-C3-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     205810         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       22.3        0.        0.
 *PART
 NE-Muscle-Longus-Capitis-S-C4-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     205820    205820    218542                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Longus-Capitis-S-C4-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     205820         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       22.3        0.        0.
 *PART
 NE-Muscle-Longus-Capitis-S-C5-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     205830    205830    218541                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Longus-Capitis-S-C5-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     205830         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       22.3        0.        0.
 *PART
 NE-Muscle-Longus-Capitis-S-C6-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     205840    205840    218540                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Longus-Capitis-S-C6-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     205840         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       22.3        0.        0.
 *PART
 NE-Muscle-Splenius-Capitis-S-C5-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     205910    205910    218611                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Splenius-Capitis-S-C5-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     205910         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       17.6        0.        0.
 *PART_AVERAGED
 NE-Muscle-Splenius-Capitis-S-C6-A-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     205920    205920    218612                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Splenius-Capitis-S-C6-A-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     205920         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       27.9        0.        0.
 *PART_AVERAGED
 NE-Muscle-Splenius-Capitis-S-C6-B-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     205930    205930    218613                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Splenius-Capitis-S-C6-B-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     205930         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       39.6        0.        0.
 *PART_AVERAGED
 NE-Muscle-Splenius-Capitis-S-C7-A-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     205940    205940    218614                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Splenius-Capitis-S-C7-A-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     205940         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       38.7        0.        0.
 *PART_AVERAGED
 NE-Muscle-Splenius-Capitis-S-C7-B-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     205950    205950    218615                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Splenius-Capitis-S-C7-B-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     205950         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       38.1        0.        0.
 *PART_AVERAGED
 NE-Muscle-Splenius-Capitis-S-T1-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     205960    205960    218616                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Splenius-Capitis-S-T1-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     205960         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       38.7        0.        0.
 *PART_AVERAGED
 NE-Muscle-Splenius-Capitis-S-T2-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     205970    205970    218617                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Splenius-Capitis-S-T2-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     205970         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       49.4        0.        0.
 *PART
 NE-Muscle-Semispinalis-Capitis-S-C3-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     206010    206010    218596                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Semispinalis-Capitis-S-C3-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     206010         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       35.3        0.        0.
 *PART
 NE-Muscle-Semispinalis-Capitis-S-C4-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     206020    206020    218595                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Semispinalis-Capitis-S-C4-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     206020         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       45.9        0.        0.
 *PART
 NE-Muscle-Semispinalis-Capitis-S-C5-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     206030    206030    218594                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Semispinalis-Capitis-S-C5-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     206030         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       45.7        0.        0.
 *PART
 NE-Muscle-Semispinalis-Capitis-S-C6-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     206040    206040    218593                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Semispinalis-Capitis-S-C6-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     206040         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       34.4        0.        0.
 *PART_AVERAGED
 NE-Muscle-Semispinalis-Capitis-S-C7-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     206050    206050    218592                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Semispinalis-Capitis-S-C7-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     206050         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       41.9        0.        0.
 *PART_AVERAGED
 NE-Muscle-Semispinalis-Capitis-S-T1-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     206060    206060    218591                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Semispinalis-Capitis-S-T1-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     206060         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       63.2        0.        0.
 *PART_AVERAGED
 NE-Muscle-Semispinalis-Capitis-S-T2-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     206070    206070    218590                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Semispinalis-Capitis-S-T2-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     206070         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       62.9        0.        0.
 *PART_AVERAGED
 NE-Muscle-Semispinalis-Capitis-S-T3-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     206080    206080    218589                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Semispinalis-Capitis-S-T3-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     206080         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       51.4        0.        0.
 *PART_AVERAGED
 NE-Muscle-Semispinalis-Capitis-S-T4-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     206090    206090    218588                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Semispinalis-Capitis-S-T4-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     206090         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
        46.        0.        0.
 *PART_AVERAGED
 NE-Muscle-Trapezius-Desc-S-Scap-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     206110    206110    218627                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Trapezius-Desc-S-Scap-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     206110         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       76.7        0.        0.
 *PART_AVERAGED
 NE-Muscle-Trapezius-Desc-C3-Scap-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     206120    206120    218626                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Trapezius-Desc-C3-Scap-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     206120         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       33.6        0.        0.
 *PART_AVERAGED
 NE-Muscle-Trapezius-Desc-C4-Scap-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     206130    206130    218625                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Trapezius-Desc-C4-Scap-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     206130         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
      142.3        0.        0.
 *PART_AVERAGED
 NE-Muscle-Trapezius-Desc-C5-Scap-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     206140    206140    218624                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Trapezius-Desc-C5-Scap-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     206140         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
      101.1        0.        0.
 *PART
 NE-Muscle-Trapezius-Trans-C6-Scap-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     206150    206150    218629                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Trapezius-Trans-C6-Scap-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     206150         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       238.        0.        0.
 *PART
 NE-Muscle-Trapezius-Trans-C7-Scap-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     206160    206160    218628                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Trapezius-Trans-C7-Scap-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     206160         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       257.        0.        0.
 *PART
 NE-Muscle-Scalenus-Med-C1-R1-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     206210    206210    218579                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Scalenus-Med-C1-R1-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     206210         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       26.3        0.        0.
 *PART
 NE-Muscle-Scalenus-Med-C2-R1-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     206220    206220    218580                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Scalenus-Med-C2-R1-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     206220         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       26.3        0.        0.
 *PART
 NE-Muscle-Scalenus-Med-C3-R1-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     206230    206230    218581                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Scalenus-Med-C3-R1-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     206230         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       26.3        0.        0.
 *PART
 NE-Muscle-Scalenus-Med-C4-R1-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     206240    206240    218582                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Scalenus-Med-C4-R1-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     206240         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       26.3        0.        0.
 *PART
 NE-Muscle-Scalenus-Med-C5-R1-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     206250    206250    218583                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Scalenus-Med-C5-R1-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     206250         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       26.3        0.        0.
 *PART
 NE-Muscle-Scalenus-Med-C6-R1-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     206260    206260    218584                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Scalenus-Med-C6-R1-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     206260         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       26.3        0.        0.
 *PART
 NE-Muscle-Scalenus-Med-C7-R1-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     206270    206270    218585                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Scalenus-Med-C7-R1-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     206270         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       26.3        0.        0.
 *PART
 NE-Muscle-Scalenus-Ant-C4-R1-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     206310    206310    218576                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Scalenus-Ant-C4-R1-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     206310         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       20.5        0.        0.
 *PART
 NE-Muscle-Scalenus-Ant-C5-R1-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     206320    206320    218577                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Scalenus-Ant-C5-R1-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     206320         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       20.5        0.        0.
 *PART
 NE-Muscle-Scalenus-Ant-C6-R1-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     206330    206330    218578                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Scalenus-Ant-C6-R1-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     206330         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       41.1        0.        0.
 *PART
 NE-Muscle-Scalenus-Post-C5-R1-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     206360    206360    218586                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Scalenus-Post-C5-R1-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     206360         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       44.6        0.        0.
 *PART
 NE-Muscle-Scalenus-Post-C6-R1-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     206370    206370    218587                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Scalenus-Post-C6-R1-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     206370         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       44.6        0.        0.
 *PART
 NE-Muscle-Longissimus-Cervicis-C1-T2-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     206410    206410    218510                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Longissimus-Cervicis-C1-T2-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     206410         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       15.5        0.        0.
 *PART
 NE-Muscle-Longissimus-Cervicis-C2-T2-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     206420    206420    218511                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Longissimus-Cervicis-C2-T2-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     206420         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       15.5        0.        0.
 *PART
 NE-Muscle-Longissimus-Cervicis-C3-T2-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     206430    206430    218512                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Longissimus-Cervicis-C3-T2-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     206430         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       15.5        0.        0.
 *PART
 NE-Muscle-Longissimus-Cervicis-C4-T2-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     206440    206440    218513                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Longissimus-Cervicis-C4-T2-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     206440         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       15.5        0.        0.
 *PART
 NE-Muscle-Longissimus-Cervicis-C5-T2-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     206450    206450    218514                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Longissimus-Cervicis-C5-T2-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     206450         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       15.5        0.        0.
 *PART
 NE-Muscle-Longissimus-Cervicis-C6-T2-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     206460    206460    218515                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Longissimus-Cervicis-C6-T2-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     206460         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       15.5        0.        0.
 *PART
 NE-Muscle-Longissimus-Cervicis-C2-R3-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     206470    206470    218516                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Longissimus-Cervicis-C2-R3-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     206470         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       32.8        0.        0.
 *PART
 NE-Muscle-Longissimus-Cervicis-C3-R3-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     206480    206480    218517                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Longissimus-Cervicis-C3-R3-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     206480         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       32.8        0.        0.
 *PART_AVERAGED
 NE-Muscle-Levator-Scapulae-C1-Scap-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     206510    206510    218536                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Levator-Scapulae-C1-Scap-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     206510         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
      101.8        0.        0.
 *PART_AVERAGED
 NE-Muscle-Levator-Scapulae-C2-Scap-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     206520    206520    218537                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Levator-Scapulae-C2-Scap-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     206520         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       59.8        0.        0.
 *PART_AVERAGED
 NE-Muscle-Levator-Scapulae-C3-Scap-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     206530    206530    218538                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Levator-Scapulae-C3-Scap-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     206530         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       43.1        0.        0.
 *PART
 NE-Muscle-Levator-Scapulae-C4-Scap-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     206540    206540    218539                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Levator-Scapulae-C4-Scap-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     206540         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       39.6        0.        0.
 *PART_AVERAGED
 NE-Muscle-Splenius-Cervicis-C1-T3-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     206560    206560    218618                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Splenius-Cervicis-C1-T3-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     206560         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       49.5        0.        0.
 *PART_AVERAGED
 NE-Muscle-Splenius-Cervicis-C2-T3-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     206570    206570    218619                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Splenius-Cervicis-C2-T3-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     206570         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       49.5        0.        0.
 *PART
 NE-Muscle-Semispinalis-Cervicis-C2-T2-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     206600    206600    218606                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Semispinalis-Cervicis-C2-T2-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     206600         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
        45.        0.        0.
 *PART
 NE-Muscle-Semispinalis-Cervicis-C3-T2-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     206610    206610    218605                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Semispinalis-Cervicis-C3-T2-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     206610         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
        45.        0.        0.
 *PART
 NE-Muscle-Semispinalis-Cervicis-C2-T3-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     206620    206620    218604                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Semispinalis-Cervicis-C2-T3-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     206620         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       35.3        0.        0.
 *PART
 NE-Muscle-Semispinalis-Cervicis-C3-T3-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     206630    206630    218603                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Semispinalis-Cervicis-C3-T3-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     206630         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       35.3        0.        0.
 *PART
 NE-Muscle-Semispinalis-Cervicis-C4-T3-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     206640    206640    218602                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Semispinalis-Cervicis-C4-T3-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     206640         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       35.3        0.        0.
 *PART
 NE-Muscle-Semispinalis-Cervicis-C3-T4-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     206650    206650    218601                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Semispinalis-Cervicis-C3-T4-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     206650         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       27.2        0.        0.
 *PART
 NE-Muscle-Semispinalis-Cervicis-C4-T4-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     206660    206660    218600                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Semispinalis-Cervicis-C4-T4-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     206660         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       27.2        0.        0.
 *PART
 NE-Muscle-Semispinalis-Cervicis-C5-T4-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     206670    206670    218599                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Semispinalis-Cervicis-C5-T4-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     206670         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       27.2        0.        0.
 *PART
 NE-Muscle-Semispinalis-Cervicis-C6-T5-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     206680    206680    218598                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Semispinalis-Cervicis-C6-T5-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     206680         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       45.4        0.        0.
 *PART
 NE-Muscle-Semispinalis-Cervicis-C7-T5-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     206690    206690    218597                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Semispinalis-Cervicis-C7-T5-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     206690         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       45.4        0.        0.
 *PART
 NE-Muscle-Interspinalis-Cervicis-C2-C3-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     206700    206700    218523                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Interspinalis-Cervicis-C2-C3-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     206700         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
        9.8        0.        0.
 *PART
 NE-Muscle-Interspinalis-Cervicis-C3-C4-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     206710    206710    218522                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Interspinalis-Cervicis-C3-C4-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     206710         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       17.1        0.        0.
 *PART
 NE-Muscle-Interspinalis-Cervicis-C4-C5-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     206720    206720    218521                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Interspinalis-Cervicis-C4-C5-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     206720         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       16.2        0.        0.
 *PART
 NE-Muscle-Interspinalis-Cervicis-C5-C6-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     206730    206730    218520                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Interspinalis-Cervicis-C5-C6-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     206730         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       25.6        0.        0.
 *PART
 NE-Muscle-Interspinalis-Cervicis-C6-C7-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     206740    206740    218519                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Interspinalis-Cervicis-C6-C7-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     206740         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       12.2        0.        0.
 *PART
 NE-Muscle-Serratus-Post-Sup-C6-R1-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     206760    206760    218610                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Serratus-Post-Sup-C6-R1-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     206760         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
        56.        0.        0.
 *PART
 NE-Muscle-Serratus-Post-Sup-C7-R3-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     206770    206770    218609                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Serratus-Post-Sup-C7-R3-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     206770         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       65.9        0.        0.
 *PART
 NE-Muscle-Serratus-Post-Sup-C7-R4-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     206780    206780    218608                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Serratus-Post-Sup-C7-R4-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     206780         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       50.2        0.        0.
 *PART
 NE-Muscle-Serratus-Post-Sup-T1-R4-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     206790    206790    218607                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Serratus-Post-Sup-T1-R4-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     206790         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       25.3        0.        0.
 *PART
 NE-Muscle-Multifidus-Cervicis-C2-C5-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     206800    206800    218560                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Multifidus-Cervicis-C2-C5-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     206800         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       36.1        0.        0.
 *PART
 NE-Muscle-Multifidus-Cervicis-C2-C6-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     206810    206810    218559                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Multifidus-Cervicis-C2-C6-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     206810         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       36.1        0.        0.
 *PART
 NE-Muscle-Multifidus-Cervicis-C3-C6-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     206820    206820    218558                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Multifidus-Cervicis-C3-C6-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     206820         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       36.1        0.        0.
 *PART
 NE-Muscle-Multifidus-Cervicis-C3-C7-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     206830    206830    218557                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Multifidus-Cervicis-C3-C7-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     206830         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
        56.        0.        0.
 *PART
 NE-Muscle-Multifidus-Cervicis-C4-T1-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     206840    206840    218556                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Multifidus-Cervicis-C4-T1-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     206840         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       58.3        0.        0.
 *PART
 NE-Muscle-Multifidus-Cervicis-C5-T1-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     206850    206850    218555                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Multifidus-Cervicis-C5-T1-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     206850         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       37.9        0.        0.
 *PART
 NE-Muscle-Multifidus-Cervicis-C6-T2-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     206860    206860    218554                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Multifidus-Cervicis-C6-T2-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     206860         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       69.4        0.        0.
 *PART
 NE-Muscle-Multifidus-Cervicis-C6-T3-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     206870    206870    218553                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Multifidus-Cervicis-C6-T3-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     206870         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       38.9        0.        0.
 *PART
 NE-Muscle-Multifidus-Cervicis-C7-T3-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     206880    206880    218552                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Multifidus-Cervicis-C7-T3-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     206880         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       38.9        0.        0.
 *PART
 NE-Muscle-Multifidus-Cervicis-C7-T4-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     206890    206890    218551                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Multifidus-Cervicis-C7-T4-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     206890         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       34.9        0.        0.
 *PART
 NE-Muscle-Iliocostalis-Cervicis-C4-R3-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     206910    206910    218501                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Iliocostalis-Cervicis-C4-R3-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     206910         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       14.2        0.        0.
 *PART
 NE-Muscle-Iliocostalis-Cervicis-C5-R3-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     206920    206920    218502                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Iliocostalis-Cervicis-C5-R3-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     206920         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       14.2        0.        0.
 *PART
 NE-Muscle-Iliocostalis-Cervicis-C6-R3-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     206930    206930    218503                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Iliocostalis-Cervicis-C6-R3-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     206930         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       14.2        0.        0.
 *PART
 NE-Muscle-Rhomboideus-Minor-C6-Scap-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     206960    206960    218574                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Rhomboideus-Minor-C6-Scap-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     206960         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       47.8        0.        0.
 *PART
 NE-Muscle-Rhomboideus-Minor-C7-Scap-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     206970    206970    218575                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Rhomboideus-Minor-C7-Scap-L
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     206970         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       47.8        0.        0.
 *PART_AVERAGED
 NE-Muscle-Omohyoid-Head-Scap-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     255110    255110    218563                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Omohyoid-Head-Scap-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     255110         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       44.4        0.        0.
 *PART_AVERAGED
 NE-Muscle-Sternohyoid-Head-Sternum-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     255140    255140    218565                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Sternohyoid-Head-Sternum-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     255140         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       25.6        0.        0.
 *PART_AVERAGED
 NE-Muscle-Sternohyoid-Head-Clavicle-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     255150    255150    218566                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Sternohyoid-Head-Clavicle-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     255150         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
        8.5        0.        0.
 *PART_AVERAGED
 NE-Muscle-Sternothyroid-Head-Sternum-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     255170    255170    218568                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Sternothyroid-Head-Sternum-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     255170         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       31.7        0.        0.
 *PART_AVERAGED
 NE-Muscle-Sternothyroid-Head-R1-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     255180    255180    218567                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Sternothyroid-Head-R1-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     255180         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       19.7        0.        0.
 *PART
 NE-Muscle-Rectus-Capitis-Ant-S-C1-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     255210    255210    218570                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Rectus-Capitis-Ant-S-C1-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     255210         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
         8.        0.        0.
 *PART
 NE-Muscle-Rectus-Capitis-Lat-S-C1-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     255220    255220    218571                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Rectus-Capitis-Lat-S-C1-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     255220         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       78.3        0.        0.
 *PART
 NE-Muscle-Rectus-Capitis-Post-Maj-S-C2-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     255230    255230    218572                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Rectus-Capitis-Post-Maj-S-C2-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     255230         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       54.1        0.        0.
 *PART
 NE-Muscle-Rectus-Capitis-Post-Min-S-C1-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     255240    255240    218573                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Rectus-Capitis-Post-Min-S-C1-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     255240         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       90.3        0.        0.
 *PART
 NE-Muscle-Obliquus-Capitis-Superior-S-C1-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     255260    255260    218562                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Obliquus-Capitis-Superior-S-C1-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     255260         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       92.2        0.        0.
 *PART
 NE-Muscle-Obliquus-Capitis-Inferior-C1-C2-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     255270    255270    218561                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Obliquus-Capitis-Inferior-C1-C2-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     255270         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
      171.3        0.        0.
 *PART
 NE-Muscle-SCM-S-Clavicle-1-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     255310    255310    218623                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-SCM-S-Clavicle-1-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     255310         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       47.4        0.        0.
 *PART
 NE-Muscle-SCM-S-Clavicle-2-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     255320    255320    218622                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-SCM-S-Clavicle-2-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     255320         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       48.9        0.        0.
 *PART
 NE-Muscle-SCM-S-Sternum-1-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     255330    255330    218621                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-SCM-S-Sternum-1-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     255330         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       124.        0.        0.
 *PART
 NE-Muscle-SCM-S-Sternum-2-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     255340    255340    218620                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-SCM-S-Sternum-2-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     255340         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       69.8        0.        0.
 *PART
 NE-Muscle-Longus-Colli-C1-C4-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     255410    255410    218544                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Longus-Colli-C1-C4-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     255410         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       12.3        0.        0.
 *PART_AVERAGED
 NE-Muscle-Longus-Colli-C1-T1-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     255420    255420    218550                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Longus-Colli-C1-T1-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     255420         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       15.3        0.        0.
 *PART
 NE-Muscle-Longus-Colli-C2-C4-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     255430    255430    218545                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Longus-Colli-C2-C4-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     255430         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
        5.3        0.        0.
 *PART_AVERAGED
 NE-Muscle-Longus-Colli-C2-T1-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     255440    255440    218549                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Longus-Colli-C2-T1-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     255440         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       15.3        0.        0.
 *PART_AVERAGED
 NE-Muscle-Longus-Colli-C3-T1-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     255450    255450    218548                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Longus-Colli-C3-T1-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     255450         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       15.3        0.        0.
 *PART
 NE-Muscle-Longus-Colli-C4-C7-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     255460    255460    218547                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Longus-Colli-C4-C7-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     255460         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       15.3        0.        0.
 *PART
 NE-Muscle-Longus-Colli-C5-C7-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     255470    255470    218546                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Longus-Colli-C5-C7-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     255470         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       15.3        0.        0.
 *PART
 NE-Muscle-Intertransversarii-Ant-Cervicis-C1-C2-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     255510    255510    218524                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Intertransversarii-Ant-Cervicis-C1-C2-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     255510         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
        8.1        0.        0.
 *PART
 NE-Muscle-Intertransversarii-Ant-Cervicis-C2-C3-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     255520    255520    218525                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Intertransversarii-Ant-Cervicis-C2-C3-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     255520         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       22.2        0.        0.
 *PART
 NE-Muscle-Intertransversarii-Ant-Cervicis-C3-C4-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     255530    255530    218526                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Intertransversarii-Ant-Cervicis-C3-C4-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     255530         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
        22.        0.        0.
 *PART
 NE-Muscle-Intertransversarii-Ant-Cervicis-C4-C5-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     255540    255540    218527                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Intertransversarii-Ant-Cervicis-C4-C5-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     255540         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       21.5        0.        0.
 *PART
 NE-Muscle-Intertransversarii-Ant-Cervicis-C5-C6-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     255550    255550    218528                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Intertransversarii-Ant-Cervicis-C5-C6-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     255550         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       16.4        0.        0.
 *PART
 NE-Muscle-Intertransversarii-Ant-Cervicis-C6-C7-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     255560    255560    218529                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Intertransversarii-Ant-Cervicis-C6-C7-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     255560         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       15.1        0.        0.
 *PART
 NE-Muscle-Intertransversarii-Post-Cervicis-C1-C2-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     255610    255610    218530                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Intertransversarii-Post-Cervicis-C1-C2-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     255610         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       16.1        0.        0.
 *PART
 NE-Muscle-Intertransversarii-Post-Cervicis-C2-C3-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     255620    255620    218531                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Intertransversarii-Post-Cervicis-C2-C3-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     255620         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       17.1        0.        0.
 *PART
 NE-Muscle-Intertransversarii-Post-Cervicis-C3-C4-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     255630    255630    218532                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Intertransversarii-Post-Cervicis-C3-C4-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     255630         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       15.2        0.        0.
 *PART
 NE-Muscle-Intertransversarii-Post-Cervicis-C4-C5-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     255640    255640    218533                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Intertransversarii-Post-Cervicis-C4-C5-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     255640         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       15.5        0.        0.
 *PART
 NE-Muscle-Intertransversarii-Post-Cervicis-C5-C6-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     255650    255650    218534                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Intertransversarii-Post-Cervicis-C5-C6-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     255650         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
        19.        0.        0.
 *PART
 NE-Muscle-Intertransversarii-Post-Cervicis-C6-C7-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     255660    255660    218535                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Intertransversarii-Post-Cervicis-C6-C7-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     255660         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       23.5        0.        0.
 *PART
 NE-Muscle-Longissimus-Capitis-S-C4-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     255710    255710    218509                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Longissimus-Capitis-S-C4-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     255710         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       12.5        0.        0.
 *PART
 NE-Muscle-Longissimus-Capitis-S-C5-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     255720    255720    218508                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Longissimus-Capitis-S-C5-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     255720         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       12.5        0.        0.
 *PART
 NE-Muscle-Longissimus-Capitis-S-C6-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     255730    255730    218507                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Longissimus-Capitis-S-C6-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     255730         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       12.5        0.        0.
 *PART
 NE-Muscle-Longissimus-Capitis-S-C7-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     255740    255740    218506                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Longissimus-Capitis-S-C7-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     255740         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       12.5        0.        0.
 *PART
 NE-Muscle-Longissimus-Capitis-S-T1-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     255750    255750    218505                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Longissimus-Capitis-S-T1-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     255750         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       12.5        0.        0.
 *PART
 NE-Muscle-Longissimus-Capitis-S-T2-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     255760    255760    218504                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Longissimus-Capitis-S-T2-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     255760         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       12.5        0.        0.
 *PART
 NE-Muscle-Longus-Capitis-S-C3-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     255810    255810    218543                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Longus-Capitis-S-C3-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     255810         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       22.3        0.        0.
 *PART
 NE-Muscle-Longus-Capitis-S-C4-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     255820    255820    218542                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Longus-Capitis-S-C4-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     255820         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       22.3        0.        0.
 *PART
 NE-Muscle-Longus-Capitis-S-C5-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     255830    255830    218541                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Longus-Capitis-S-C5-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     255830         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       22.3        0.        0.
 *PART
 NE-Muscle-Longus-Capitis-S-C6-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     255840    255840    218540                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Longus-Capitis-S-C6-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     255840         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       22.3        0.        0.
 *PART
 NE-Muscle-Splenius-Capitis-S-C5-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     255910    255910    218611                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Splenius-Capitis-S-C5-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     255910         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       17.6        0.        0.
 *PART_AVERAGED
 NE-Muscle-Splenius-Capitis-S-C6-A-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     255920    255920    218612                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Splenius-Capitis-S-C6-A-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     255920         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       27.9        0.        0.
 *PART_AVERAGED
 NE-Muscle-Splenius-Capitis-S-C6-B-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     255930    255930    218613                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Splenius-Capitis-S-C6-B-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     255930         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       39.6        0.        0.
 *PART_AVERAGED
 NE-Muscle-Splenius-Capitis-S-C7-A-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     255940    255940    218614                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Splenius-Capitis-S-C7-A-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     255940         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       38.7        0.        0.
 *PART_AVERAGED
 NE-Muscle-Splenius-Capitis-S-C7-B-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     255950    255950    218615                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Splenius-Capitis-S-C7-B-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     255950         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       38.1        0.        0.
 *PART_AVERAGED
 NE-Muscle-Splenius-Capitis-S-T1-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     255960    255960    218616                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Splenius-Capitis-S-T1-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     255960         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       38.7        0.        0.
 *PART_AVERAGED
 NE-Muscle-Splenius-Capitis-S-T2-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     255970    255970    218617                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Splenius-Capitis-S-T2-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     255970         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       49.4        0.        0.
 *PART
 NE-Muscle-Semispinalis-Capitis-S-C3-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     256010    256010    218596                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Semispinalis-Capitis-S-C3-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     256010         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       35.3        0.        0.
 *PART
 NE-Muscle-Semispinalis-Capitis-S-C4-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     256020    256020    218595                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Semispinalis-Capitis-S-C4-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     256020         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       45.9        0.        0.
 *PART
 NE-Muscle-Semispinalis-Capitis-S-C5-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     256030    256030    218594                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Semispinalis-Capitis-S-C5-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     256030         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       45.7        0.        0.
 *PART
 NE-Muscle-Semispinalis-Capitis-S-C6-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     256040    256040    218593                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Semispinalis-Capitis-S-C6-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     256040         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       34.4        0.        0.
 *PART_AVERAGED
 NE-Muscle-Semispinalis-Capitis-S-C7-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     256050    256050    218592                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Semispinalis-Capitis-S-C7-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     256050         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       41.9        0.        0.
 *PART_AVERAGED
 NE-Muscle-Semispinalis-Capitis-S-T1-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     256060    256060    218591                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Semispinalis-Capitis-S-T1-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     256060         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       63.2        0.        0.
 *PART_AVERAGED
 NE-Muscle-Semispinalis-Capitis-S-T2-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     256070    256070    218590                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Semispinalis-Capitis-S-T2-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     256070         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       62.9        0.        0.
 *PART_AVERAGED
 NE-Muscle-Semispinalis-Capitis-S-T3-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     256080    256080    218589                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Semispinalis-Capitis-S-T3-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     256080         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       51.4        0.        0.
 *PART_AVERAGED
 NE-Muscle-Semispinalis-Capitis-S-T4-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     256090    256090    218588                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Semispinalis-Capitis-S-T4-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     256090         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
        46.        0.        0.
 *PART_AVERAGED
 NE-Muscle-Trapezius-Desc-S-Scap-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     256110    256110    218627                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Trapezius-Desc-S-Scap-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     256110         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       76.7        0.        0.
 *PART_AVERAGED
 NE-Muscle-Trapezius-Desc-C3-Scap-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     256120    256120    218626                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Trapezius-Desc-C3-Scap-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     256120         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       33.6        0.        0.
 *PART_AVERAGED
 NE-Muscle-Trapezius-Desc-C4-Scap-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     256130    256130    218625                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Trapezius-Desc-C4-Scap-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     256130         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
      142.3        0.        0.
 *PART_AVERAGED
 NE-Muscle-Trapezius-Desc-C5-Scap-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     256140    256140    218624                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Trapezius-Desc-C5-Scap-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     256140         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
      101.1        0.        0.
 *PART
 NE-Muscle-Trapezius-Trans-C6-Scap-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     256150    256150    218629                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Trapezius-Trans-C6-Scap-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     256150         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       238.        0.        0.
 *PART
 NE-Muscle-Trapezius-Trans-C7-Scap-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     256160    256160    218628                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Trapezius-Trans-C7-Scap-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     256160         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       257.        0.        0.
 *PART
 NE-Muscle-Scalenus-Med-C1-R1-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     256210    256210    218579                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Scalenus-Med-C1-R1-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     256210         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       26.3        0.        0.
 *PART
 NE-Muscle-Scalenus-Med-C2-R1-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     256220    256220    218580                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Scalenus-Med-C2-R1-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     256220         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       26.3        0.        0.
 *PART
 NE-Muscle-Scalenus-Med-C3-R1-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     256230    256230    218581                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Scalenus-Med-C3-R1-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     256230         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       26.3        0.        0.
 *PART
 NE-Muscle-Scalenus-Med-C4-R1-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     256240    256240    218582                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Scalenus-Med-C4-R1-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     256240         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       26.3        0.        0.
 *PART
 NE-Muscle-Scalenus-Med-C5-R1-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     256250    256250    218583                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Scalenus-Med-C5-R1-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     256250         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       26.3        0.        0.
 *PART
 NE-Muscle-Scalenus-Med-C6-R1-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     256260    256260    218584                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Scalenus-Med-C6-R1-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     256260         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       26.3        0.        0.
 *PART
 NE-Muscle-Scalenus-Med-C7-R1-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     256270    256270    218585                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Scalenus-Med-C7-R1-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     256270         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       26.3        0.        0.
 *PART
 NE-Muscle-Scalenus-Ant-C4-R1-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     256310    256310    218576                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Scalenus-Ant-C4-R1-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     256310         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       20.5        0.        0.
 *PART
 NE-Muscle-Scalenus-Ant-C5-R1-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     256320    256320    218577                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Scalenus-Ant-C5-R1-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     256320         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       20.5        0.        0.
 *PART
 NE-Muscle-Scalenus-Ant-C6-R1-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     256330    256330    218578                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Scalenus-Ant-C6-R1-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     256330         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       41.1        0.        0.
 *PART
 NE-Muscle-Scalenus-Post-C5-R1-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     256360    256360    218586                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Scalenus-Post-C5-R1-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     256360         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       44.6        0.        0.
 *PART
 NE-Muscle-Scalenus-Post-C6-R1-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     256370    256370    218587                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Scalenus-Post-C6-R1-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     256370         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       44.6        0.        0.
 *PART
 NE-Muscle-Longissimus-Cervicis-C1-T2-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     256410    256410    218510                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Longissimus-Cervicis-C1-T2-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     256410         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       15.5        0.        0.
 *PART
 NE-Muscle-Longissimus-Cervicis-C2-T2-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     256420    256420    218511                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Longissimus-Cervicis-C2-T2-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     256420         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       15.5        0.        0.
 *PART
 NE-Muscle-Longissimus-Cervicis-C3-T2-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     256430    256430    218512                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Longissimus-Cervicis-C3-T2-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     256430         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       15.5        0.        0.
 *PART
 NE-Muscle-Longissimus-Cervicis-C4-T2-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     256440    256440    218513                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Longissimus-Cervicis-C4-T2-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     256440         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       15.5        0.        0.
 *PART
 NE-Muscle-Longissimus-Cervicis-C5-T2-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     256450    256450    218514                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Longissimus-Cervicis-C5-T2-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     256450         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       15.5        0.        0.
 *PART
 NE-Muscle-Longissimus-Cervicis-C6-T2-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     256460    256460    218515                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Longissimus-Cervicis-C6-T2-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     256460         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       15.5        0.        0.
 *PART
 NE-Muscle-Longissimus-Cervicis-C2-R3-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     256470    256470    218516                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Longissimus-Cervicis-C2-R3-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     256470         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       32.8        0.        0.
 *PART
 NE-Muscle-Longissimus-Cervicis-C3-R3-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     256480    256480    218517                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Longissimus-Cervicis-C3-R3-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     256480         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       32.8        0.        0.
 *PART_AVERAGED
 NE-Muscle-Levator-Scapulae-C1-Scap-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     256510    256510    218536                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Levator-Scapulae-C1-Scap-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     256510         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
      101.8        0.        0.
 *PART_AVERAGED
 NE-Muscle-Levator-Scapulae-C2-Scap-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     256520    256520    218537                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Levator-Scapulae-C2-Scap-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     256520         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       59.8        0.        0.
 *PART_AVERAGED
 NE-Muscle-Levator-Scapulae-C3-Scap-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     256530    256530    218538                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Levator-Scapulae-C3-Scap-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     256530         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       43.1        0.        0.
 *PART
 NE-Muscle-Levator-Scapulae-C4-Scap-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     256540    256540    218539                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Levator-Scapulae-C4-Scap-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     256540         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       39.6        0.        0.
 *PART_AVERAGED
 NE-Muscle-Splenius-Cervicis-C1-T3-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     256560    256560    218618                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Splenius-Cervicis-C1-T3-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     256560         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       49.5        0.        0.
 *PART_AVERAGED
 NE-Muscle-Splenius-Cervicis-C2-T3-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     256570    256570    218619                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Splenius-Cervicis-C2-T3-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     256570         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       49.5        0.        0.
 *PART
 NE-Muscle-Semispinalis-Cervicis-C2-T2-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     256600    256600    218606                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Semispinalis-Cervicis-C2-T2-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     256600         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
        45.        0.        0.
 *PART
 NE-Muscle-Semispinalis-Cervicis-C3-T2-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     256610    256610    218605                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Semispinalis-Cervicis-C3-T2-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     256610         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
        45.        0.        0.
 *PART
 NE-Muscle-Semispinalis-Cervicis-C2-T3-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     256620    256620    218604                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Semispinalis-Cervicis-C2-T3-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     256620         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       35.3        0.        0.
 *PART
 NE-Muscle-Semispinalis-Cervicis-C3-T3-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     256630    256630    218603                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Semispinalis-Cervicis-C3-T3-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     256630         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       35.3        0.        0.
 *PART
 NE-Muscle-Semispinalis-Cervicis-C4-T3-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     256640    256640    218602                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Semispinalis-Cervicis-C4-T3-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     256640         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       35.3        0.        0.
 *PART
 NE-Muscle-Semispinalis-Cervicis-C3-T4-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     256650    256650    218601                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Semispinalis-Cervicis-C3-T4-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     256650         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       27.2        0.        0.
 *PART
 NE-Muscle-Semispinalis-Cervicis-C4-T4-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     256660    256660    218600                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Semispinalis-Cervicis-C4-T4-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     256660         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       27.2        0.        0.
 *PART
 NE-Muscle-Semispinalis-Cervicis-C5-T4-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     256670    256670    218599                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Semispinalis-Cervicis-C5-T4-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     256670         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       27.2        0.        0.
 *PART
 NE-Muscle-Semispinalis-Cervicis-C6-T5-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     256680    256680    218598                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Semispinalis-Cervicis-C6-T5-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     256680         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       45.4        0.        0.
 *PART
 NE-Muscle-Semispinalis-Cervicis-C7-T5-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     256690    256690    218597                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Semispinalis-Cervicis-C7-T5-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     256690         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       45.4        0.        0.
 *PART
 NE-Muscle-Interspinalis-Cervicis-C2-C3-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     256700    256700    218523                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Interspinalis-Cervicis-C2-C3-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     256700         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
        9.8        0.        0.
 *PART
 NE-Muscle-Interspinalis-Cervicis-C3-C4-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     256710    256710    218522                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Interspinalis-Cervicis-C3-C4-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     256710         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       17.1        0.        0.
 *PART
 NE-Muscle-Interspinalis-Cervicis-C4-C5-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     256720    256720    218521                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Interspinalis-Cervicis-C4-C5-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     256720         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       16.2        0.        0.
 *PART
 NE-Muscle-Interspinalis-Cervicis-C5-C6-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     256730    256730    218520                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Interspinalis-Cervicis-C5-C6-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     256730         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       25.6        0.        0.
 *PART
 NE-Muscle-Interspinalis-Cervicis-C6-C7-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     256740    256740    218519                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Interspinalis-Cervicis-C6-C7-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     256740         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       12.2        0.        0.
 *PART
 NE-Muscle-Serratus-Post-Sup-C6-R1-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     256760    256760    218610                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Serratus-Post-Sup-C6-R1-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     256760         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
        56.        0.        0.
 *PART
 NE-Muscle-Serratus-Post-Sup-C7-R3-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     256770    256770    218609                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Serratus-Post-Sup-C7-R3-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     256770         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       65.9        0.        0.
 *PART
 NE-Muscle-Serratus-Post-Sup-C7-R4-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     256780    256780    218608                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Serratus-Post-Sup-C7-R4-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     256780         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       50.2        0.        0.
 *PART
 NE-Muscle-Serratus-Post-Sup-T1-R4-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     256790    256790    218607                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Serratus-Post-Sup-T1-R4-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     256790         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       25.3        0.        0.
 *PART
 NE-Muscle-Multifidus-Cervicis-C2-C5-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     256800    256800    218560                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Multifidus-Cervicis-C2-C5-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     256800         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       36.1        0.        0.
 *PART
 NE-Muscle-Multifidus-Cervicis-C2-C6-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     256810    256810    218559                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Multifidus-Cervicis-C2-C6-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     256810         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       36.1        0.        0.
 *PART
 NE-Muscle-Multifidus-Cervicis-C3-C6-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     256820    256820    218558                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Multifidus-Cervicis-C3-C6-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     256820         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       36.1        0.        0.
 *PART
 NE-Muscle-Multifidus-Cervicis-C3-C7-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     256830    256830    218557                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Multifidus-Cervicis-C3-C7-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     256830         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
        56.        0.        0.
 *PART
 NE-Muscle-Multifidus-Cervicis-C4-T1-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     256840    256840    218556                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Multifidus-Cervicis-C4-T1-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     256840         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       58.3        0.        0.
 *PART
 NE-Muscle-Multifidus-Cervicis-C5-T1-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     256850    256850    218555                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Multifidus-Cervicis-C5-T1-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     256850         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       37.9        0.        0.
 *PART
 NE-Muscle-Multifidus-Cervicis-C6-T2-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     256860    256860    218554                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Multifidus-Cervicis-C6-T2-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     256860         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       69.4        0.        0.
 *PART
 NE-Muscle-Multifidus-Cervicis-C6-T3-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     256870    256870    218553                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Multifidus-Cervicis-C6-T3-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     256870         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       38.9        0.        0.
 *PART
 NE-Muscle-Multifidus-Cervicis-C7-T3-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     256880    256880    218552                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Multifidus-Cervicis-C7-T3-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     256880         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       38.9        0.        0.
 *PART
 NE-Muscle-Multifidus-Cervicis-C7-T4-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     256890    256890    218551                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Multifidus-Cervicis-C7-T4-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     256890         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       34.9        0.        0.
 *PART
 NE-Muscle-Iliocostalis-Cervicis-C4-R3-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     256910    256910    218501                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Iliocostalis-Cervicis-C4-R3-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     256910         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       14.2        0.        0.
 *PART
 NE-Muscle-Iliocostalis-Cervicis-C5-R3-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     256920    256920    218502                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Iliocostalis-Cervicis-C5-R3-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     256920         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       14.2        0.        0.
 *PART
 NE-Muscle-Iliocostalis-Cervicis-C6-R3-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     256930    256930    218503                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Iliocostalis-Cervicis-C6-R3-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     256930         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       14.2        0.        0.
 *PART
 NE-Muscle-Rhomboideus-Minor-C6-Scap-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     256960    256960    218574                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Rhomboideus-Minor-C6-Scap-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     256960         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       47.8        0.        0.
 *PART
 NE-Muscle-Rhomboideus-Minor-C7-Scap-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     256970    256970    218575                             0                    
 *SECTION_BEAM_TITLE
 NE-Muscle-Rhomboideus-Minor-C7-Scap-R
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     256970         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
       47.8        0.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218501     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218502     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218503     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218504     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218505     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218506     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218507     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218508     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218509     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218510     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218511     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218512     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218513     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218514     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218515     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218516     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218517     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218519     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218520     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218521     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218522     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218523     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218524     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008010.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218525     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008010.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218526     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008010.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218527     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008010.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218528     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008010.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218529     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008010.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218530     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008010.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218531     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008010.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218532     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008010.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218533     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008010.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218534     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008010.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218535     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008010.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218536     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218537     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218538     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218539     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218540     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218541     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218542     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218543     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218544     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008010.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218545     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008010.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218546     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008010.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218547     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008010.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218548     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008010.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218549     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008010.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218550     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008010.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218551     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218552     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218553     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218554     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218555     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218556     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218557     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218558     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218559     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218560     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218561     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218562     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218563     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008010.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218565     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008010.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218566     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008010.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218567     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008010.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218568     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008010.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218570     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008010.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218571     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008010.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218572     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218573     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218574     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218575     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218576     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008010.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218577     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008010.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218578     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008010.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218579     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008010.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218580     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008010.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218581     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008010.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218582     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008010.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218583     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008010.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218584     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008010.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218585     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008010.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218586     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008010.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218587     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008010.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218588     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218589     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218590     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218591     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218592     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218593     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218594     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218595     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218596     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218597     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218598     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218599     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218600     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218601     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218602     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218603     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218604     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218605     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218606     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218607     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218608     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218609     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218610     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218611     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218612     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218613     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218614     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218615     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218616     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218617     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218618     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218619     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218620     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008010.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218621     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008010.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218622     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008010.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218623     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008010.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218624     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218625     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218626     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218627     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218628     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-NE_Neck-muscles_Oesth-et-al_2017
+Default MAT156 MAT_MUSCLE
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218629     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *DEFINE_CURVE_TITLE
 DEFINE_CURVE_2008001
@@ -2399,8 +3406,9 @@ DEFINE_CURVE_2008020
    2008020         0        1.        1.        0.        0.         0          
                   0.                  0.
               10000.                  0.
-*SET_BEAM
-    205000                                        
+*SET_BEAM_TITLE
+Neck muscles
+   2000013                                        
    2116298   2116299   2116300   2116301   2116302   2116303   2116304   2116305
    2116306   2116307   2116308   2116309   2116310   2116311   2116312   2116313
    2116314   2116315   2116316   2116317   2116318   2116319   2116320   2116321
