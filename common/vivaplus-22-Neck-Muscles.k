@@ -1,23 +1,24 @@
 $
-$ANSA_VERSION;20.1.0;
+$ANSA_VERSION;20.1.3;
 $
 $
-$ file created by  A N S A  Mon Aug  3 16:40:02 2020
+$ file created by  A N S A  Mon Oct 19 07:30:09 2020
 $
 $ output from :
 $
-$ C:/Meshing_WorkingFolder/VIVA-Plus/vivaplus-50F_v0-1-6.ansa
+$ /disk/project/eriks/P20017_Virtual/work/Vivaplus_v021a/contact_mod/vivaplus-50
+$ F_v0-2-1-a.ansa
 $
-$ANSA_USER_ATTRIBUTES;vivaplus-22-Neck-Muscles.key;INCLUDE;DM/IO Index;TEXT;6;DM
-$/Status;TEXT;WIP;
-$
-$
-$
+$ANSA_USER_ATTRIBUTES;vivaplus-22-Neck-Muscles.k;INCLUDE;DM/IO Index;TEXT;6;DM/S
+$tatus;TEXT;WIP;
 $
 $
 $
-$ANSA_COLOR;vivaplus-22-Neck-Muscles.key;INCLUDE;.552941203117371;0.568627476692
-$2;.650980412960052;1.;
+$
+$
+$
+$ANSA_COLOR;vivaplus-22-Neck-Muscles.k;INCLUDE;.552941203117371;0.5686274766922;
+$.650980412960052;1.;
 *KEYWORD
 *PART_AVERAGED
 NE-Muscle-Omohyoid-Head-Scap-L
@@ -2540,757 +2541,757 @@ $    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
 $        A|    RAMPT|   STRESS|
       47.8        0.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218501     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218502     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218503     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218504     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218505     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218506     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218507     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218508     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218509     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218510     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218511     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218512     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218513     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218514     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218515     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218516     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218517     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218519     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218520     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218521     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218522     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218523     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218524     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008010.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218525     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008010.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218526     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008010.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218527     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008010.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218528     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008010.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218529     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008010.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218530     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008010.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218531     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008010.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218532     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008010.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218533     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008010.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218534     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008010.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218535     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008010.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218536     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218537     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218538     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218539     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218540     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218541     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218542     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218543     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218544     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008010.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218545     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008010.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218546     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008010.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218547     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008010.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218548     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008010.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218549     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008010.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218550     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008010.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218551     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218552     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218553     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218554     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218555     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218556     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218557     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218558     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218559     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218560     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218561     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218562     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218563     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008010.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218565     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008010.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218566     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008010.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218567     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008010.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218568     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008010.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218570     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008010.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218571     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008010.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218572     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218573     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218574     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218575     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218576     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008010.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218577     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008010.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218578     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008010.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218579     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008010.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218580     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008010.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218581     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008010.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218582     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008010.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218583     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008010.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218584     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008010.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218585     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008010.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218586     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008010.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218587     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008010.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218588     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218589     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218590     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218591     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218592     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218593     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218594     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218595     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218596     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218597     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218598     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218599     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218600     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218601     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218602     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218603     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218604     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218605     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218606     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218607     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218608     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218609     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218610     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218611     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218612     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218613     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218614     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218615     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218616     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218617     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218618     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218619     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218620     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008010.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218621     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008010.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218622     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008010.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218623     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008010.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218624     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218625     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218626     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218627     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218628     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
-Default MAT156 MAT_MUSCLE
+NE_Neck-muscles_Oesth-et-al_2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
     218629     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
@@ -3406,9 +3407,8 @@ DEFINE_CURVE_2008020
    2008020         0        1.        1.        0.        0.         0          
                   0.                  0.
               10000.                  0.
-*SET_BEAM_TITLE
-Neck muscles
-   2000013                                        
+*SET_BEAM
+    205000                                        
    2116298   2116299   2116300   2116301   2116302   2116303   2116304   2116305
    2116306   2116307   2116308   2116309   2116310   2116311   2116312   2116313
    2116314   2116315   2116316   2116317   2116318   2116319   2116320   2116321

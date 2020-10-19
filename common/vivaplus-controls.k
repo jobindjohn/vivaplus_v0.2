@@ -1,30 +1,31 @@
 $
-$ANSA_VERSION;20.1.0;
+$ANSA_VERSION;20.1.3;
 $
 $
-$ file created by  A N S A  Mon Aug  3 16:39:58 2020
+$ file created by  A N S A  Mon Oct 19 07:30:05 2020
 $
 $ output from :
 $
-$ C:/Meshing_WorkingFolder/VIVA-Plus/vivaplus-50F_v0-1-6.ansa
+$ /disk/project/eriks/P20017_Virtual/work/Vivaplus_v021a/contact_mod/vivaplus-50
+$ F_v0-2-1-a.ansa
 $
-$ANSA_USER_ATTRIBUTES;vivaplus-controls.key;INCLUDE;DM/IO Index;TEXT;2;DM/Status
-$;TEXT;WIP;
-$
-$
-$
+$ANSA_USER_ATTRIBUTES;vivaplus-controls.k;INCLUDE;DM/IO Index;TEXT;2;DM/Status;T
+$EXT;WIP;
 $
 $
 $
-$ANSA_COLOR;vivaplus-controls.key;INCLUDE;.733333349227905;.200000002980232;.549
-$019634723663;1.;
+$
+$
+$
+$ANSA_COLOR;vivaplus-controls.k;INCLUDE;.733333349227905;.200000002980232;.54901
+$9634723663;1.;
 *KEYWORD
 *DATABASE_ELOUT
 $       DT|   BINARY|     LCUR|    IOOPT|  OPTION1|  OPTION2|  OPTION3|  OPTION4
         1.                                                                      
 $ANSA_ID;9000000;
 *DATABASE_HISTORY_BEAM_SET
-   2000013
+    205000
 $ANSA_NAME_COMMENT;9000000;DATABASE_HISTORY_BEAM_SET;DATABASE_HISTORY_BEAM_SET;;
 $NO;NO;NO;
 $ANSA_PART;GROUP;ID;1000;NAME;Joints.key;PID_OFFSET;0;COLOR;129;14;142;0;IS_COLO
