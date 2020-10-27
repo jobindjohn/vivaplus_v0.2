@@ -1,14 +1,13 @@
 $
-$ANSA_VERSION;20.1.0;
+$ANSA_VERSION;20.1.3;
 $
 $
-$ file created by  A N S A  Wed Sep  9 23:11:49 2020
+$ file created by  A N S A  Mon Oct 19 07:38:42 2020
 $
 $ output from :
 $
-$ M:/VSI-P/010_RD/17_EU_VIRTUAL/020_Workpackage/WP2_HBM/T2_2_Seated OS-HBM 50F, 
-$ OS-HBM 50M, Active-HBM and validation/2_2_1_Upgrading the OS-HBM 50F/vivaplus-
-$ 50F_v0-1-7h.ansa
+$ /disk/project/eriks/P20017_Virtual/work/Vivaplus_v021a/contact_mod/vivaplus-50
+$ F_v0-2-1-a.ansa
 $
 $ANSA_USER_ATTRIBUTES;vivaplus-materials.k;INCLUDE;DM/IO Index;TEXT;7;DM/Status;
 $TEXT;WIP;
@@ -2273,10 +2272,6 @@ $   ALPHA1|   ALPHA2|   ALPHA3|   ALPHA4|   ALPHA5|   ALPHA6|   ALPHA7|   ALPHA8
        20.        0.        0.        0.        0.        0.        0.        0.
 $GI       |GI       |    VFLAG|
      3.E-6      0.31          
-*MAT_NULL_TITLE
-TX_C_N_Skin_internal_nulls
-$      MID|       RO|       PC|       MU|    TEROD|    CEROD|       YM|       PR|
-    306003     1.E-6        0.        0.        0.        0.     0.001       0.3
 *MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM_TITLE
 TX_C_J_T1_T2
 $      MID|       RO|       KT|       KR|  UNLDOPT|   OFFSET|    DAMPF|    IFLAG|
@@ -2725,6 +2720,10 @@ $      MID|       RO|        K|        C|    DELTA|    ALPHA|     BETA|
     405101   1.18E-7  8.485E-5   2.39E-7    0.0702     0.629    -1.143
 $       C1|       C2|     LCID|    TRAMP|       NT|
     2.2E-8      1.42                              
+*MAT_NULL_TITLE
+TX_C_N_Skin_internal_nulls
+$      MID|       RO|       PC|       MU|    TEROD|    CEROD|       YM|       PR|
+    406003     1.E-6        0.        0.        0.        0.     0.001       0.3
 *MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM_TITLE
 TX_C_J_L1_L2
 $      MID|       RO|       KT|       KR|  UNLDOPT|   OFFSET|    DAMPF|    IFLAG|
@@ -3297,6 +3296,20 @@ $                                                           |     BETA|   ISREFG
                                                                     0.         0
 $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
     305101    305101         0         0         0         0        0.
+*MAT_OGDEN_RUBBER_TITLE
+Hosein Ogden model - Upper range of compressive stiffness from experiments
+$      MID|       RO|       PR|        N|       NV|        G|     SIGF|      REF|
+  41983100     9.E-7   0.49998         0         6                            0.
+$      MU1|      MU2|      MU3|      MU4|      MU5|      MU6|      MU7|      MU8|
+    3.5E-8                                                                      
+$   ALPHA1|   ALPHA2|   ALPHA3|   ALPHA4|   ALPHA5|   ALPHA6|   ALPHA7|   ALPHA8|
+       20.                                                                      
+$GI       |GI       |    VFLAG|
+    1.3E-6    0.0003          
+$GI       |GI       |
+    1.8E-6      0.05
+$GI       |GI       |
+    2.2E-6       0.6
 *DEFINE_TABLE_TITLE
 Facet_Art_Cart-MAT83_MAT_FU_CHANG_FOAM
     213000        1.        0.
@@ -10586,8 +10599,6 @@ $ANSA_COLOR;305162;MAT20 MAT_RIGID;.835294127464294;0.95686274766922;.9333333373
 $06976;1.;
 $ANSA_COLOR;306002;MAT77 MAT_OGDEN_RUBBER;.709803938865662;.015686275437474;.266
 $666680574417;1.;
-$ANSA_COLOR;306003;MAT9 MAT_NULL;.921568632125854;.807843148708344;.019607843831
-$182;1.;
 $ANSA_COLOR;309011;MAT119 MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM;.847058832645
 $416;.850980401039124;.235294118523598;1.;
 $ANSA_COLOR;309021;MAT119 MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM;.854901969432
@@ -10670,6 +10681,8 @@ $ANSA_COLOR;404001;MAT9 MAT_NULL;.721568644046783;.878431379795074;.560784339904
 $785;1.;
 $ANSA_COLOR;405101;MAT129 MAT_LUNG_TISSUE;.745098054409027;0.18823529779911;.396
 $078437566757;1.;
+$ANSA_COLOR;406003;MAT9 MAT_NULL;.921568632125854;.807843148708344;.019607843831
+$182;1.;
 $ANSA_COLOR;409011;MAT119 MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM;.952941179275
 $513;.254901975393295;0.26274511218071;1.;
 $ANSA_COLOR;409021;MAT119 MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM;.960784316062
@@ -10808,6 +10821,8 @@ $ANSA_COLOR;716003;MAT9 MAT_NULL;.509803950786591;.494117647409439;.886274516582
 $489;1.;
 $ANSA_COLOR;906001;MAT34 MAT_FABRIC;.992156863212585;.745098054409027;.235294118
 $523598;1.;
+$ANSA_COLOR;41983100;MAT77 MAT_OGDEN_RUBBER;.901960790157318;.933333337306976;.4
+$23529416322708;1.;
 $ANSA_NAME_COMMENT;213000;DEFINE_TABLE;Facet_Art_Cart-MAT83_MAT_FU_CHANG_FOAM;;N
 $O;NO;NO;
 $ANSA_NAME_COMMENT;301402;MAT1 MAT_ELASTIC;Ulna_Trabecular_Vandenbulcke-2012;onl

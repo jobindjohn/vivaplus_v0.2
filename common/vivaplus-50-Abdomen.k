@@ -1,12 +1,13 @@
 $
-$ANSA_VERSION;20.1.0;
+$ANSA_VERSION;20.1.3;
 $
 $
-$ file created by  A N S A  Fri Sep  4 09:45:43 2020
+$ file created by  A N S A  Mon Oct 19 07:30:10 2020
 $
 $ output from :
 $
-$ C:/Meshing_WorkingFolder/vivaplus/vivaplus-50F_v0-1-7d.ansa
+$ /disk/project/eriks/P20017_Virtual/work/Vivaplus_v021a/contact_mod/vivaplus-50
+$ F_v0-2-1-a.ansa
 $
 $ANSA_USER_ATTRIBUTES;vivaplus-50-Abdomen.k;INCLUDE;DM/IO Index;TEXT;13;DM/Statu
 $s;TEXT;WIP;
@@ -19,6 +20,26 @@ $
 $ANSA_COLOR;vivaplus-50-Abdomen.k;INCLUDE;.917647063732147;.458823531866074;.031
 $372550874949;1.;
 *KEYWORD
+*PART
+AB-Abdominal_Cavity_sliding-nulls-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
+     99997     99997    505004                             0         0          
+*SECTION_SHELL_TITLE
+AB-Abdominal_Cavity_sliding-nulls-R
+$    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
+     99997         2     0.833        1.        1.         0         0
+$       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
+       0.5       0.5       0.5       0.5        0.                  0.          
+*PART
+AB-Abdominal_Cavity_sliding-nulls-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
+     99998     99998    505004                             0         0          
+*SECTION_SHELL_TITLE
+AB-Abdominal_Cavity_sliding-nulls-L
+$    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
+     99998         2     0.833        1.        1.         0         0
+$       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
+       0.5       0.5       0.5       0.5        0.                  0.          
 *PART
 AB-Spine-L1-Cortical-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
@@ -215,6 +236,10 @@ $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
     556001         9   0.83333        1.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
         1.        1.        1.        1.        0.                  0.          
+$ANSA_COLOR;99997;SECTION_SHELL;.909803926944733;.243137255311012;.1372549086809
+$16;1.;
+$ANSA_COLOR;99998;SECTION_SHELL;.682352960109711;.929411768913269;0.741176486015
+$32;1.;
 $ANSA_COLOR;501011;SECTION_SHELL;.643137276172638;.772549033164978;.650980412960
 $052;1.;
 $ANSA_COLOR;501012;SECTION_SOLID;.921568632125854;.776470601558685;.639215707778
