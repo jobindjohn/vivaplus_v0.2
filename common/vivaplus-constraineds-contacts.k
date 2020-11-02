@@ -1590,7 +1590,7 @@ $       FS|       FD|       DC|       VC|      VDC|   PENCHK|       BT|       DT
 $      SFS|      SFM|      SST|      MST|     SFST|     SFMT|      FSF|      VSF|
         1.        1.                            1.        1.        1.        1.
 $     SOFT|   SOFSCL|   LCIDAB|   MAXPAR|    SBOPT|    DEPTH|    BSORT|   FRCFRQ|
-         2       0.1               1.025        3.         2         0         1
+         2       0.1               1.025        3.         5         0         1
 $   PENMAX|   THKOPT|   SHLTHK|    SNLOG|     ISYM|    I2D3D|   SLDTHK|   SLDSTF|
         0.         0         0         0         0         0        0.        0.
 $     IGAP|   IGNORE|   DPRFAC|   DTSTIF|         |         |   FLANGL|  CID_RCF|
@@ -1626,19 +1626,6 @@ $ TRACKPEN|   BUCKET| LCBUCKET|NSEG2TRAC| INITITER|   PARMAX|         |   CPARM8
          1                                            1.0005                   0
 $     SSID|     MSID|     STYP|   MSTYPE|   SBOXID|   MBOXID|      SPR|      MPR|
     403712    403711         0         2                             1         1
-$       FS|       FD|       DC|       VC|      VDC|   PENCHK|       BT|       DT|
-       0.1       0.1                                       0                    
-$      SFS|      SFM|      SST|      MST|     SFST|     SFMT|      FSF|      VSF|
-                            6.        6.                                        
-$   OPTION|     NFLS|     SFLS|    PARAM|   ERATEN|   ERATES|    CT2CN|       CN|
-         4     1000.                                                            
-*CONTACT_AUTOMATIC_SURFACE_TO_SURFACE_TIEBREAK_ID_MPP
-$       ID|                                                                 NAME|
-403720    TX_ribcage_int_sliding                                                
-$ TRACKPEN|   BUCKET| LCBUCKET|NSEG2TRAC| INITITER|   PARMAX|         |   CPARM8|
-         1                                            1.0005                   0
-$     SSID|     MSID|     STYP|   MSTYPE|   SBOXID|   MBOXID|      SPR|      MPR|
-    403722    403721         0         0                             1         1
 $       FS|       FD|       DC|       VC|      VDC|   PENCHK|       BT|       DT|
        0.1       0.1                                       0                    
 $      SFS|      SFM|      SST|      MST|     SFST|     SFMT|      FSF|      VSF|
