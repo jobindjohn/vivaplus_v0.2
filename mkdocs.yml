@@ -17,9 +17,10 @@ nav:
         - Getting started: index.md
         #- VIVA+ Models overview: getting-started/10-model-overview.md
         #- FAQ: getting-started/FAQ
-    #- User Guide:
+    - User Guide:
     #    - User guide: user-guide/01-getting-started.md
     #    - Setting up a simulation: user-guide/10-setting-up.md
+        - Postprocessing with Dynasaur: user-guide/30-postprocess-dynasaur.md
     #    - LS-Dyna Quick Reference: user-guide/50-lsdyna-ref.md
     - Model Documentation:
         # Introduction to the Models: 'model-doc/00-model-info.md'
@@ -35,7 +36,7 @@ nav:
         - Lower Extremities: 'model-doc/70-lower-extremities.md'
         # - Control Card Guidelines: 'model-doc/80-control-card-guidelines.md'
         # - Postprocessing simulations: 'model-doc/85-Postprocessing.md'
-    - Contributor Guide:
+    - Contributor Handbook:
         - 'How to Contribute': 'contributor-guide/00-contribute-to-VIVA.md'
         - 'VIVA+ Git Workflow': 'contributor-guide/20-viva-git-workflow.md'
         # - 'Git Basics': 'contributor-guide/22-git-basics.md'
