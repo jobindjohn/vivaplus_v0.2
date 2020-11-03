@@ -1,24 +1,23 @@
 $
-$ANSA_VERSION;20.1.3;
+$ANSA_VERSION;20.1.0;
 $
 $
-$ file created by  A N S A  Mon Oct 19 07:30:05 2020
+$ file created by  A N S A  Mon Aug  3 16:39:59 2020
 $
 $ output from :
 $
-$ /disk/project/eriks/P20017_Virtual/work/Vivaplus_v021a/contact_mod/vivaplus-50
-$ F_v0-2-1-a.ansa
+$ C:/Meshing_WorkingFolder/VIVA-Plus/vivaplus-50F_v0-1-6.ansa
 $
-$ANSA_USER_ATTRIBUTES;vivaplus-joints.k;INCLUDE;DM/IO Index;TEXT;4;DM/Status;TEX
-$T;WIP;
-$
+$ANSA_USER_ATTRIBUTES;vivaplus-joints.key;INCLUDE;DM/IO Index;TEXT;4;DM/Status;T
+$EXT;WIP;
 $
 $
 $
 $
 $
-$ANSA_COLOR;vivaplus-joints.k;INCLUDE;.713725507259369;.592156887054443;.2666666
-$80574417;1.;
+$
+$ANSA_COLOR;vivaplus-joints.key;INCLUDE;.713725507259369;.592156887054443;.26666
+$6680574417;1.;
 *KEYWORD
 *CONSTRAINED_JOINT_SPHERICAL_ID
    1010473sternoclavicular joint                                                

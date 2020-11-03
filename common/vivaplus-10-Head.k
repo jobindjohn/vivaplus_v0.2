@@ -1,13 +1,12 @@
 $
-$ANSA_VERSION;20.1.3;
+$ANSA_VERSION;20.1.0;
 $
 $
-$ file created by  A N S A  Mon Oct 19 07:30:09 2020
+$ file created by  A N S A  Fri Sep  4 12:42:38 2020
 $
 $ output from :
 $
-$ /disk/project/eriks/P20017_Virtual/work/Vivaplus_v021a/contact_mod/vivaplus-50
-$ F_v0-2-1-a.ansa
+$ C:/Meshing_WorkingFolder/vivaplus/vivaplus-50F_v0-1-7g.ansa
 $
 $ANSA_USER_ATTRIBUTES;vivaplus-10-Head.k;INCLUDE;DM/IO Index;TEXT;10;DM/Status;T
 $EXT;WIP;

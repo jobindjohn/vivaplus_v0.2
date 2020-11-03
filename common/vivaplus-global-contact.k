@@ -1,13 +1,12 @@
 $
-$ANSA_VERSION;20.1.3;
+$ANSA_VERSION;20.1.0;
 $
 $
-$ file created by  A N S A  Mon Oct 19 07:30:05 2020
+$ file created by  A N S A  Fri Sep  4 11:02:28 2020
 $
 $ output from :
 $
-$ /disk/project/eriks/P20017_Virtual/work/Vivaplus_v021a/contact_mod/vivaplus-50
-$ F_v0-2-1-a.ansa
+$ C:/Meshing_WorkingFolder/vivaplus/vivaplus-50F_v0-1-7e.ansa
 $
 $ANSA_USER_ATTRIBUTES;vivaplus-global-contact.k;INCLUDE;DM/IO Index;TEXT;3;DM/St
 $atus;TEXT;WIP;
@@ -43,29 +42,35 @@ PART          305161    355111    355121    355131    355141    355161    406001
 PART          456001    506001    556001    606001    656001    705111    705121
 PART          705131    705141    705191    755111    755121    755131    755141
 PART          755191
-*SET_PART_LIST
+*SET_PART_LIST_TITLE
+Thorax flesh
     416003                                        
     406002    456002
-*SET_PART_LIST
+*SET_PART_LIST_TITLE
+Scapula-and-Clavicula
     616002                                        
     301101    301102    301201    301202    351101    351102    351201    351202
-*SET_PART_LIST
+*SET_PART_LIST_TITLE
+Patella
     716002                                        
     701301    701302    751302
-*SET_PART_LIST
+*SET_PART_LIST_TITLE
+Upper_leg_flesh
     716003                                        
     705112    755112
 *SET_SHELL_ADD_TITLE
 Whole-Body-Contact-sans-neck-interface-shells
     903001                                        
     903002    903003
-*SET_SHELL_GENERAL
+*SET_SHELL_GENERAL_TITLE
+ME_C_Whole_body_skin
     903002                                        
 PART          103002    103005    305111    305121    305131    305141    305161
 PART          355111    355121    355131    355141    355161    406001    456001
 PART          506001    556001    606001    656001    705111    705121    705131
 PART          705141    705191    755111    755121    755131    755141    755191
-*SET_SHELL_LIST
+*SET_SHELL_LIST_TITLE
+Neck-Surface
     903003                                        
    2184457   2184458   2184459   2184460   2184461   2184462   2184463   2184464
    2184465   2184466   2184467   2184468   2184469   2184470   2184471   2184472
