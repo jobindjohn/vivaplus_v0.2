@@ -1,0 +1,1052 @@
+[
+    {
+        "TITLE": "VIVAplus50F"
+    },
+    {
+        "UNIT": {
+            "time": "ms",
+            "length": "mm",
+            "weight": "kg"
+        }
+    },
+    {
+        "CRITERIA": [
+        {
+				"name": "Hourglass_Energy_Max",
+				"type_of_criteria": "energy",
+				"part_of": "MODEL",
+				"function": {
+					"name": "max",
+					"param": {
+						"data_vector": {
+							"type": "ENERGY_GLOBAL",
+							"ID": "Model",
+							"array": ["(0, hourglass_energy)"]
+						},
+						"time": {
+							"type": "ENERGY_GLOBAL",
+							"ID": "Model",
+							"array": ["(0, time)"]
+						}
+					}
+				}
+			},
+            {
+				"name": "Internal_Energy_Max",
+				"type_of_criteria": "energy",
+				"part_of": "MODEL",
+				"function": {
+					"name": "max",
+					"param": {
+						"data_vector": {
+							"type": "ENERGY_GLOBAL",
+							"ID": "Model",
+							"array": ["(0, internal_energy)"]
+						},
+						"time": {
+							"type": "ENERGY_GLOBAL",
+							"ID": "Model",
+							"array": ["(0, time)"]
+						}
+					}
+				}
+			},
+			{
+				"name": "Added_Mass_Max",
+				"type_of_criteria": "energy",
+				"part_of": "MODEL",
+				"function": {
+					"name": "max",
+					"param": {
+						"data_vector": {
+							"type": "ENERGY_GLOBAL",
+							"ID": "Model",
+							"array": ["(0, added_mass)"]
+						},
+						"time": {
+							"type": "ENERGY_GLOBAL",
+							"ID": "Model",
+							"array": ["(0, time)"]
+						}
+					}
+				}
+			},
+			{
+				"name": "Percent_Increase_Max",
+				"type_of_criteria": "energy",
+				"part_of": "MODEL",
+				"function": {
+					"name": "max",
+					"param": {
+						"data_vector": {
+							"type": "ENERGY_GLOBAL",
+							"ID": "Model",
+							"array": ["(0, percent_increase)"]
+						},
+						"time": {
+							"type": "ENERGY_GLOBAL",
+							"ID": "Model",
+							"array": ["(0, time)"]
+						}
+					}
+				}
+			},
+            {
+				"name": "Hourglass/Internal-Energy_Max",
+				"type_of_criteria": "energy",
+				"part_of": "MODEL",
+				"function": {
+					"name": "max",
+					"param": {
+						"data_vector": {
+							"function": {
+								"name": "divide",
+								"param": {
+									"data_vector_1": {
+										"type": "ENERGY_GLOBAL",
+										"ID": "Model",
+										"array": ["(0, hourglass_energy)"]
+									},
+									"data_vector_2": {
+										"type": "ENERGY_GLOBAL",
+										"ID": "Model",
+										"array": ["(0, internal_energy)"]
+									}
+								}
+							}
+						},
+						"time": {
+							"type": "ENERGY_GLOBAL",
+							"ID": "Model",
+							"array": ["(0, time)"]
+						}
+					}
+				}
+			},
+
+        {
+        "name": "HIC15",
+        "type_of_criteria": "injury",
+        "part_of": "Head", 
+        "function": 
+            {"name": "max",
+                    "param": {
+                        "data_vector": {
+                            "function": {
+                                "name": "HIC_15",
+                                "param": {
+                                    "time": {
+                                        "type": "NODE",
+                                        "ID": "Head_COG",
+                                        "array": ["(0, time)"]
+                                    },
+                                    "a_res": {
+                                        "function": {
+                                            "name": "cfc",
+                                            "param": {
+                                                "cfc": 1000,
+                                                "time": {
+                                                    "type": "NODE",
+                                                    "ID": "Head_COG",
+                                                    "array": ["(0, time)"]
+                                                },
+                                                "sampled_array": {
+                                                    "function": {
+                                                        "name": "res",
+                                                        "param": {
+                                                            "data_vector": {
+                                                                "type": "NODE",
+                                                                "ID": "Head_COG",
+                                                                "array": ["(0, x_acceleration)", "(0, y_acceleration)", "(0, z_acceleration)"]}}}}}}}}}}}}},
+
+
+            {
+            "name": "NIC_max",
+            "type_of_criteria": "injury",
+            "part_of": "Neck",
+            "function": {
+                "name": "max",
+                "param": {
+                    "data_vector": {
+                        "function": {
+                            "name": "NIC",
+                            "param": {
+                                "a_head": {
+                                    "function": {
+                                        "name": "cfc",
+                                        "param": {
+                                            "cfc": 180,
+                                            "sampled_array": {
+                                                "type": "NODE",
+                                                "ID": "Head_COG",
+                                                "array": ["(0, x_acceleration)"]
+                                            },
+                                            "time": {
+                                                "type": "NODE",
+                                                "ID": "Head_COG",
+                                                "array": ["(0, time)"]
+                                            }
+                                        }
+                                    }
+                                },
+                                "a_T1": {
+                                    "function": {
+                                        "name": "cfc",
+                                        "param": {
+                                            "cfc": 60,
+                                            "sampled_array": {
+                                                "type": "NODE",
+                                                "ID": "T1_COG",
+                                                "array": ["(0, x_acceleration)"]
+                                            },
+                                            "time": {
+                                                "type": "NODE",
+                                                "ID": "T1_COG",
+                                                "array": ["(0, time)"]
+                                            }
+                                        }
+                                    }
+                                },
+                                "time": {
+                                    "type": "NODE",
+                                    "ID": "T1_COG",
+                                    "array": ["(0, time)"]}}}}}}},
+            {
+                "name": "NIC_risk",
+                "type_of_criteria": "risk",
+                "part_of": "Neck",
+                "function": {
+                "name": "sigmoid",
+                "param":{
+                "k":0.21,
+                "x0":15.952380952380953,
+                "x":{
+                "function":{
+                "name": "max",
+                "param": {
+                "data_vector": {
+                "function": {
+                "name": "NIC",
+                "param": {
+                "a_head": {
+                "function": {
+                "name": "cfc",
+                "param": {
+                "cfc": 180,
+                "sampled_array": {
+                "type": "NODE",
+                "ID": "Head_COG",
+                "array": ["(0, x_acceleration)"]
+                },
+                "time": {
+                "type": "NODE",
+                "ID": "Head_COG",
+                "array": ["(0, time)"]
+                }
+                }
+                }
+                },
+                "a_T1": {
+                "function": {
+                "name": "cfc",
+                "param": {
+                "cfc": 60,
+                "sampled_array": {
+                "type": "NODE",
+                "ID": "T1_COG",
+                "array": ["(0, x_acceleration)"]
+                },
+                "time": {
+                "type": "NODE",
+                "ID": "T1_COG",
+                "array": ["(0, time)"]
+                }
+                }
+                }
+                },
+                "time": {
+                "type": "NODE",
+                "ID": "Head_COG",
+                "array": ["(0, time)"]
+                }
+                }
+                }
+                },
+                "time": {
+                "type": "NODE",
+                "ID": "Head_COG",
+                "array": ["(0, time)"]
+                }
+                }
+                }
+                }
+                }
+                }
+                }      
+        ]
+    },
+    {
+        "DATA VISUALIZATION": [
+            {"name": "L_Patella_COG_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_Patella_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_Patella_COG", "array": ["(0, x_coordinate)"]}},
+            {"name": "R_Patella_COG_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_Patella_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_Patella_COG", "array": ["(0, x_coordinate)"]}},
+            {"name": "L_Calcaneus_COG_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_Calcaneus_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_Calcaneus_COG", "array": ["(0, x_coordinate)"]}},
+            {"name": "L_Calcaneus_posterior_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_Calcaneus_posterior", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_Calcaneus_posterior", "array": ["(0, x_coordinate)"]}},
+            {"name": "L_Malleolus_LM_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_Malleolus_LM", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_Malleolus_LM", "array": ["(0, x_coordinate)"]}},
+            {"name": "L_Malleolus_MM_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_Malleolus_MM", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_Malleolus_MM", "array": ["(0, x_coordinate)"]}},
+            {"name": "L_Malleolus_IM_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_Malleolus_IM", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_Malleolus_IM", "array": ["(0, x_coordinate)"]}},
+            {"name": "L_Tibia_MC_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_Tibia_MC", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_Tibia_MC", "array": ["(0, x_coordinate)"]}},
+            {"name": "L_Tibia_LC_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_Tibia_LC", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_Tibia_LC", "array": ["(0, x_coordinate)"]}},
+            {"name": "L_Tibia_IC_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_Tibia_IC", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_Tibia_IC", "array": ["(0, x_coordinate)"]}},
+            {"name": "L_Femur_FEL_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_Femur_FEL", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_Femur_FEL", "array": ["(0, x_coordinate)"]}},
+            {"name": "L_Femur_FEM_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_Femur_FEM", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_Femur_FEM", "array": ["(0, x_coordinate)"]}},
+            {"name": "L_Femur_O_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_Femur_O", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_Femur_O", "array": ["(0, x_coordinate)"]}},
+            {"name": "L_Clavicle_lateral_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_Clavicle_lateral", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_Clavicle_lateral", "array": ["(0, x_coordinate)"]}},
+            {"name": "L_Clavicle_medial_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_Clavicle_medial", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_Clavicle_medial", "array": ["(0, x_coordinate)"]}},
+            {"name": "L_Scapula_AI_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_Scapula_AI", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_Scapula_AI", "array": ["(0, x_coordinate)"]}},
+            {"name": "L_Scapula_TS_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_Scapula_TS", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_Scapula_TS", "array": ["(0, x_coordinate)"]}},
+            {"name": "L_Scapula_AA_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_Scapula_AA", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_Scapula_AA", "array": ["(0, x_coordinate)"]}},
+            {"name": "L_Scapula_PC_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_Scapula_PC", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_Scapula_PC", "array": ["(0, x_coordinate)"]}},
+            {"name": "L_Humerus_EL_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_Humerus_EL", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_Humerus_EL", "array": ["(0, x_coordinate)"]}},
+            {"name": "L_Humerus_EM_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_Humerus_EM", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_Humerus_EM", "array": ["(0, x_coordinate)"]}},
+            {"name": "L_Radius_RS_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_Radius_RS", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_Radius_RS", "array": ["(0, x_coordinate)"]}},
+            {"name": "L_Ulna_US_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_Ulna_US", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_Ulna_US", "array": ["(0, x_coordinate)"]}},
+            {"name": "L_Femur_MP_FEM_FEL_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_Femur_MP_FEM_FEL", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_Femur_MP_FEM_FEL", "array": ["(0, x_coordinate)"]}},
+            {"name": "L_Scalpula_MP_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_Scalpula_MP", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_Scalpula_MP", "array": ["(0, x_coordinate)"]}},
+            {"name": "L_Humerus_MP_EL_EM_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_Humerus_MP_EL_EM", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_Humerus_MP_EL_EM", "array": ["(0, x_coordinate)"]}},
+            {"name": "L_wrist_MP_RS_US_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_wrist_MP_RS_US", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_wrist_MP_RS_US", "array": ["(0, x_coordinate)"]}},
+            {"name": "R_Calcaneus_COG_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_Calcaneus_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_Calcaneus_COG", "array": ["(0, x_coordinate)"]}},
+            {"name": "R_Calcaneus_posterior_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_Calcaneus_posterior", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_Calcaneus_posterior", "array": ["(0, x_coordinate)"]}},
+            {"name": "R_Malleolus_LM_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_Malleolus_LM", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_Malleolus_LM", "array": ["(0, x_coordinate)"]}},
+            {"name": "R_Malleolus_MM_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_Malleolus_MM", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_Malleolus_MM", "array": ["(0, x_coordinate)"]}},
+            {"name": "R_Malleolus_IM_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_Malleolus_IM", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_Malleolus_IM", "array": ["(0, x_coordinate)"]}},
+            {"name": "R_Tibia_MC_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_Tibia_MC", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_Tibia_MC", "array": ["(0, x_coordinate)"]}},
+            {"name": "R_Tibia_LC_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_Tibia_LC", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_Tibia_LC", "array": ["(0, x_coordinate)"]}},
+            {"name": "R_Tibia_IC_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_Tibia_IC", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_Tibia_IC", "array": ["(0, x_coordinate)"]}},
+            {"name": "R_Femur_FEL_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_Femur_FEL", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_Femur_FEL", "array": ["(0, x_coordinate)"]}},
+            {"name": "R_Femur_FEM_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_Femur_FEM", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_Femur_FEM", "array": ["(0, x_coordinate)"]}},
+            {"name": "R_Femur_O_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_Femur_O", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_Femur_O", "array": ["(0, x_coordinate)"]}},
+            {"name": "R_Clavicle_lateral_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_Clavicle_lateral", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_Clavicle_lateral", "array": ["(0, x_coordinate)"]}},
+            {"name": "R_Clavicle_medial_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_Clavicle_medial", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_Clavicle_medial", "array": ["(0, x_coordinate)"]}},
+            {"name": "R_Scapula_AI_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_Scapula_AI", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_Scapula_AI", "array": ["(0, x_coordinate)"]}},
+            {"name": "R_Scapula_TS_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_Scapula_TS", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_Scapula_TS", "array": ["(0, x_coordinate)"]}},
+            {"name": "R_Scapula_AA_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_Scapula_AA", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_Scapula_AA", "array": ["(0, x_coordinate)"]}},
+            {"name": "R_Scapula_PC_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_Scapula_PC", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_Scapula_PC", "array": ["(0, x_coordinate)"]}},
+            {"name": "R_Humerus_EL_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_Humerus_EL", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_Humerus_EL", "array": ["(0, x_coordinate)"]}},
+            {"name": "R_Humerus_EM_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_Humerus_EM", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_Humerus_EM", "array": ["(0, x_coordinate)"]}},
+            {"name": "R_Radius_RS_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_Radius_RS", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_Radius_RS", "array": ["(0, x_coordinate)"]}},
+            {"name": "R_Ulna_US_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_Ulna_US", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_Ulna_US", "array": ["(0, x_coordinate)"]}},
+            {"name": "R_Femur_MP_FEM_FEL_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_Femur_MP_FEM_FEL", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_Femur_MP_FEM_FEL", "array": ["(0, x_coordinate)"]}},
+            {"name": "R_Scalpula_MP_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_Scalpula_MP", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_Scalpula_MP", "array": ["(0, x_coordinate)"]}},
+            {"name": "R_Humerus_MP_EL_EM_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_Humerus_MP_EL_EM", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_Humerus_MP_EL_EM", "array": ["(0, x_coordinate)"]}},
+            {"name": "R_wrist_MP_RS_US_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_wrist_MP_RS_US", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_wrist_MP_RS_US", "array": ["(0, x_coordinate)"]}},
+            {"name": "L_Ischium_inferior_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_Ischium_inferior", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_Ischium_inferior", "array": ["(0, x_coordinate)"]}},
+            {"name": "L_ASIS_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_ASIS", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_ASIS", "array": ["(0, x_coordinate)"]}},
+            {"name": "L_PSIS_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_PSIS", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_PSIS", "array": ["(0, x_coordinate)"]}},
+            {"name": "Cocyx_inferior_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "Cocyx_inferior", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "Cocyx_inferior", "array": ["(0, x_coordinate)"]}},
+            {"name": "Sacrum_anterior_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "Sacrum_anterior", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "Sacrum_anterior", "array": ["(0, x_coordinate)"]}},
+            {"name": "Sacrum_posterior_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "Sacrum_posterior", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "Sacrum_posterior", "array": ["(0, x_coordinate)"]}},
+            {"name": "R_Ischium_inferior_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_Ischium_inferior", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_Ischium_inferior", "array": ["(0, x_coordinate)"]}},
+            {"name": "R_ASIS_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_ASIS", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_ASIS", "array": ["(0, x_coordinate)"]}},
+            {"name": "R_PSIS_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_PSIS", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_PSIS", "array": ["(0, x_coordinate)"]}},
+            {"name": "R_orbit_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_orbit", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_orbit", "array": ["(0, x_coordinate)"]}},
+            {"name": "L_orbit_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_orbit", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_orbit", "array": ["(0, x_coordinate)"]}},
+            {"name": "R_auditory_meatus_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_auditory_meatus", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_auditory_meatus", "array": ["(0, x_coordinate)"]}},
+            {"name": "L_auditory_meatus_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_auditory_meatus", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_auditory_meatus", "array": ["(0, x_coordinate)"]}},
+            {"name": "M_auditory_meatus_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "M_auditory_meatus", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "M_auditory_meatus", "array": ["(0, x_coordinate)"]}},
+            {"name": "M_orbit_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "M_orbit", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "M_orbit", "array": ["(0, x_coordinate)"]}},
+            {"name": "Sternum_PX_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "Sternum_PX", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "Sternum_PX", "array": ["(0, x_coordinate)"]}},
+            {"name": "Sternum_IJ_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "Sternum_IJ", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "Sternum_IJ", "array": ["(0, x_coordinate)"]}},
+            {"name": "C1_post_sup_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "C1_post_sup", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C1_post_sup", "array": ["(0, x_coordinate)"]}},
+            {"name": "C7_post_sup_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "C7_post_sup", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C7_post_sup", "array": ["(0, x_coordinate)"]}},
+            {"name": "T8_post_sup_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "T8_post_sup", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T8_post_sup", "array": ["(0, x_coordinate)"]}},
+            {"name": "T12_post_sup_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "T12_post_sup", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T12_post_sup", "array": ["(0, x_coordinate)"]}},
+            {"name": "C1_bottom_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "C1_bottom", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C1_bottom", "array": ["(0, x_coordinate)"]}},
+            {"name": "C2_center_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "C2_center", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C2_center", "array": ["(0, x_coordinate)"]}},
+            {"name": "C2_top_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "C2_top", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C2_top", "array": ["(0, x_coordinate)"]}},
+            {"name": "C2_bottom_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "C2_bottom", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C2_bottom", "array": ["(0, x_coordinate)"]}},
+            {"name": "C3_center_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "C3_center", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C3_center", "array": ["(0, x_coordinate)"]}},
+            {"name": "C3_top_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "C3_top", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C3_top", "array": ["(0, x_coordinate)"]}},
+            {"name": "C3_bottom_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "C3_bottom", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C3_bottom", "array": ["(0, x_coordinate)"]}},
+            {"name": "C4_center_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "C4_center", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C4_center", "array": ["(0, x_coordinate)"]}},
+            {"name": "C4_top_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "C4_top", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C4_top", "array": ["(0, x_coordinate)"]}},
+            {"name": "C4_bottom_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "C4_bottom", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C4_bottom", "array": ["(0, x_coordinate)"]}},
+            {"name": "C5_center_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "C5_center", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C5_center", "array": ["(0, x_coordinate)"]}},
+            {"name": "C5_top_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "C5_top", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C5_top", "array": ["(0, x_coordinate)"]}},
+            {"name": "C5_bottom_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "C5_bottom", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C5_bottom", "array": ["(0, x_coordinate)"]}},
+            {"name": "C6_center_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "C6_center", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C6_center", "array": ["(0, x_coordinate)"]}},
+            {"name": "C6_top_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "C6_top", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C6_top", "array": ["(0, x_coordinate)"]}},
+            {"name": "C6_bottom_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "C6_bottom", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C6_bottom", "array": ["(0, x_coordinate)"]}},
+            {"name": "C7_center_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "C7_center", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C7_center", "array": ["(0, x_coordinate)"]}},
+            {"name": "C7_top_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "C7_top", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C7_top", "array": ["(0, x_coordinate)"]}},
+            {"name": "C7_bottom_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "C7_bottom", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C7_bottom", "array": ["(0, x_coordinate)"]}},
+            {"name": "T1_center_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "T1_center", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T1_center", "array": ["(0, x_coordinate)"]}},
+            {"name": "T1_top_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "T1_top", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T1_top", "array": ["(0, x_coordinate)"]}},
+            {"name": "T1_bottom_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "T1_bottom", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T1_bottom", "array": ["(0, x_coordinate)"]}},
+            {"name": "T2_center_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "T2_center", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T2_center", "array": ["(0, x_coordinate)"]}},
+            {"name": "T2_top_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "T2_top", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T2_top", "array": ["(0, x_coordinate)"]}},
+            {"name": "T2_bottom_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "T2_bottom", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T2_bottom", "array": ["(0, x_coordinate)"]}},
+            {"name": "T3_center_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "T3_center", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T3_center", "array": ["(0, x_coordinate)"]}},
+            {"name": "T3_top_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "T3_top", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T3_top", "array": ["(0, x_coordinate)"]}},
+            {"name": "T3_bottom_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "T3_bottom", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T3_bottom", "array": ["(0, x_coordinate)"]}},
+            {"name": "T4_center_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "T4_center", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T4_center", "array": ["(0, x_coordinate)"]}},
+            {"name": "T4_top_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "T4_top", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T4_top", "array": ["(0, x_coordinate)"]}},
+            {"name": "T4_bottom_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "T4_bottom", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T4_bottom", "array": ["(0, x_coordinate)"]}},
+            {"name": "T5_center_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "T5_center", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T5_center", "array": ["(0, x_coordinate)"]}},
+            {"name": "T5_top_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "T5_top", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T5_top", "array": ["(0, x_coordinate)"]}},
+            {"name": "T5_bottom_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "T5_bottom", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T5_bottom", "array": ["(0, x_coordinate)"]}},
+            {"name": "T6_center_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "T6_center", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T6_center", "array": ["(0, x_coordinate)"]}},
+            {"name": "T6_top_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "T6_top", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T6_top", "array": ["(0, x_coordinate)"]}},
+            {"name": "T6_bottom_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "T6_bottom", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T6_bottom", "array": ["(0, x_coordinate)"]}},
+            {"name": "T7_center_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "T7_center", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T7_center", "array": ["(0, x_coordinate)"]}},
+            {"name": "T7_top_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "T7_top", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T7_top", "array": ["(0, x_coordinate)"]}},
+            {"name": "T7_bottom_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "T7_bottom", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T7_bottom", "array": ["(0, x_coordinate)"]}},
+            {"name": "T8_center_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "T8_center", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T8_center", "array": ["(0, x_coordinate)"]}},
+            {"name": "T8_top_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "T8_top", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T8_top", "array": ["(0, x_coordinate)"]}},
+            {"name": "T8_bottom_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "T8_bottom", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T8_bottom", "array": ["(0, x_coordinate)"]}},
+            {"name": "T9_center_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "T9_center", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T9_center", "array": ["(0, x_coordinate)"]}},
+            {"name": "T9_top_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "T9_top", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T9_top", "array": ["(0, x_coordinate)"]}},
+            {"name": "T9_bottom_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "T9_bottom", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T9_bottom", "array": ["(0, x_coordinate)"]}},
+            {"name": "T10_center_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "T10_center", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T10_center", "array": ["(0, x_coordinate)"]}},
+            {"name": "T10_top_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "T10_top", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T10_top", "array": ["(0, x_coordinate)"]}},
+            {"name": "T10_bottom_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "T10_bottom", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T10_bottom", "array": ["(0, x_coordinate)"]}},
+            {"name": "T11_center_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "T11_center", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T11_center", "array": ["(0, x_coordinate)"]}},
+            {"name": "T11_top_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "T11_top", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T11_top", "array": ["(0, x_coordinate)"]}},
+            {"name": "T11_bottom_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "T11_bottom", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T11_bottom", "array": ["(0, x_coordinate)"]}},
+            {"name": "T12_center_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "T12_center", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T12_center", "array": ["(0, x_coordinate)"]}},
+            {"name": "T12_top_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "T12_top", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T12_top", "array": ["(0, x_coordinate)"]}},
+            {"name": "T12_bottom_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "T12_bottom", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T12_bottom", "array": ["(0, x_coordinate)"]}},
+            {"name": "L1_center_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "L1_center", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L1_center", "array": ["(0, x_coordinate)"]}},
+            {"name": "L1_top_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "L1_top", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L1_top", "array": ["(0, x_coordinate)"]}},
+            {"name": "L1_bottom_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "L1_bottom", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L1_bottom", "array": ["(0, x_coordinate)"]}},
+            {"name": "L2_center_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "L2_center", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L2_center", "array": ["(0, x_coordinate)"]}},
+            {"name": "L2_top_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "L2_top", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L2_top", "array": ["(0, x_coordinate)"]}},
+            {"name": "L2_bottom_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "L2_bottom", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L2_bottom", "array": ["(0, x_coordinate)"]}},
+            {"name": "L3_center_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "L3_center", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L3_center", "array": ["(0, x_coordinate)"]}},
+            {"name": "L3_top_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "L3_top", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L3_top", "array": ["(0, x_coordinate)"]}},
+            {"name": "L3_bottom_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "L3_bottom", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L3_bottom", "array": ["(0, x_coordinate)"]}},
+            {"name": "L4_center_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "L4_center", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L4_center", "array": ["(0, x_coordinate)"]}},
+            {"name": "L4_top_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "L4_top", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L4_top", "array": ["(0, x_coordinate)"]}},
+            {"name": "L4_bottom_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "L4_bottom", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L4_bottom", "array": ["(0, x_coordinate)"]}},
+            {"name": "L5_center_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "L5_center", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L5_center", "array": ["(0, x_coordinate)"]}},
+            {"name": "L5_top_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "L5_top", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L5_top", "array": ["(0, x_coordinate)"]}},
+            {"name": "L5_bottom_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "L5_bottom", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L5_bottom", "array": ["(0, x_coordinate)"]}},
+            {"name": "C1_C2_MP_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "C1_C2_MP", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C1_C2_MP", "array": ["(0, x_coordinate)"]}},
+            {"name": "C2_C3_MP_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "C2_C3_MP", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C2_C3_MP", "array": ["(0, x_coordinate)"]}},
+            {"name": "C3_C4_MP_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "C3_C4_MP", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C3_C4_MP", "array": ["(0, x_coordinate)"]}},
+            {"name": "C4_C5_MP_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "C4_C5_MP", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C4_C5_MP", "array": ["(0, x_coordinate)"]}},
+            {"name": "C5_C6_MP_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "C5_C6_MP", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C5_C6_MP", "array": ["(0, x_coordinate)"]}},
+            {"name": "C6_C7_MP_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "C6_C7_MP", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C6_C7_MP", "array": ["(0, x_coordinate)"]}},
+            {"name": "C7_T1_MP_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "C7_T1_MP", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C7_T1_MP", "array": ["(0, x_coordinate)"]}},
+            {"name": "T1_T2_MP_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "T1_T2_MP", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T1_T2_MP", "array": ["(0, x_coordinate)"]}},
+            {"name": "T2_T3_MP_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "T2_T3_MP", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T2_T3_MP", "array": ["(0, x_coordinate)"]}},
+            {"name": "T3_T4_MP_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "T3_T4_MP", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T3_T4_MP", "array": ["(0, x_coordinate)"]}},
+            {"name": "T4_T5_MP_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "T4_T5_MP", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T4_T5_MP", "array": ["(0, x_coordinate)"]}},
+            {"name": "T5_T6_MP_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "T5_T6_MP", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T5_T6_MP", "array": ["(0, x_coordinate)"]}},
+            {"name": "T6_T7_MP_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "T6_T7_MP", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T6_T7_MP", "array": ["(0, x_coordinate)"]}},
+            {"name": "T7_T8_MP_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "T7_T8_MP", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T7_T8_MP", "array": ["(0, x_coordinate)"]}},
+            {"name": "T8_T9_MP_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "T8_T9_MP", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T8_T9_MP", "array": ["(0, x_coordinate)"]}},
+            {"name": "T9_T10_MP_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "T9_T10_MP", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T9_T10_MP", "array": ["(0, x_coordinate)"]}},
+            {"name": "T10_T11_MP_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "T10_T11_MP", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T10_T11_MP", "array": ["(0, x_coordinate)"]}},
+            {"name": "T11_T12_MP_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "T11_T12_MP", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T11_T12_MP", "array": ["(0, x_coordinate)"]}},
+            {"name": "T12_L1_MP_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "T12_L1_MP", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T12_L1_MP", "array": ["(0, x_coordinate)"]}},
+            {"name": "L1_L2_MP_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "L1_L2_MP", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L1_L2_MP", "array": ["(0, x_coordinate)"]}},
+            {"name": "L2_L3_MP_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "L2_L3_MP", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L2_L3_MP", "array": ["(0, x_coordinate)"]}},
+            {"name": "L3_L4_MP_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "L3_L4_MP", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L3_L4_MP", "array": ["(0, x_coordinate)"]}},
+            {"name": "L4_L5_MP_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "L4_L5_MP", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L4_L5_MP", "array": ["(0, x_coordinate)"]}},
+            {"name": "C1_COG_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "C1_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C1_COG", "array": ["(0, x_coordinate)"]}},
+            {"name": "C2_COG_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "C2_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C2_COG", "array": ["(0, x_coordinate)"]}},
+            {"name": "C3_COG_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "C3_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C3_COG", "array": ["(0, x_coordinate)"]}},
+            {"name": "C4_COG_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "C4_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C4_COG", "array": ["(0, x_coordinate)"]}},
+            {"name": "C5_COG_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "C5_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C5_COG", "array": ["(0, x_coordinate)"]}},
+            {"name": "C6_COG_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "C6_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C6_COG", "array": ["(0, x_coordinate)"]}},
+            {"name": "C7_COG_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "C7_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C7_COG", "array": ["(0, x_coordinate)"]}},
+            {"name": "T1_COG_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "T1_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T1_COG", "array": ["(0, x_coordinate)"]}},
+            {"name": "T2_COG_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "T2_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T2_COG", "array": ["(0, x_coordinate)"]}},
+            {"name": "T3_COG_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "T3_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T3_COG", "array": ["(0, x_coordinate)"]}},
+            {"name": "T4_COG_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "T4_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T4_COG", "array": ["(0, x_coordinate)"]}},
+            {"name": "T5_COG_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "T5_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T5_COG", "array": ["(0, x_coordinate)"]}},
+            {"name": "T6_COG_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "T6_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T6_COG", "array": ["(0, x_coordinate)"]}},
+            {"name": "T7_COG_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "T7_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T7_COG", "array": ["(0, x_coordinate)"]}},
+            {"name": "T8_COG_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "T8_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T8_COG", "array": ["(0, x_coordinate)"]}},
+            {"name": "T9_COG_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "T9_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T9_COG", "array": ["(0, x_coordinate)"]}},
+            {"name": "T10_COG_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "T10_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T10_COG", "array": ["(0, x_coordinate)"]}},
+            {"name": "T11_COG_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "T11_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T11_COG", "array": ["(0, x_coordinate)"]}},
+            {"name": "T12_COG_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "T12_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T12_COG", "array": ["(0, x_coordinate)"]}},
+            {"name": "C1_C2_MP_y_off_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "C1_C2_MP_y_off", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C1_C2_MP_y_off", "array": ["(0, x_coordinate)"]}},
+            {"name": "C2_C3_MP_y_off_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "C2_C3_MP_y_off", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C2_C3_MP_y_off", "array": ["(0, x_coordinate)"]}},
+            {"name": "C3_C4_MP_y_off_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "C3_C4_MP_y_off", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C3_C4_MP_y_off", "array": ["(0, x_coordinate)"]}},
+            {"name": "C4_C5_MP_y_off_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "C4_C5_MP_y_off", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C4_C5_MP_y_off", "array": ["(0, x_coordinate)"]}},
+            {"name": "C5_C6_MP_y_off_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "C5_C6_MP_y_off", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C5_C6_MP_y_off", "array": ["(0, x_coordinate)"]}},
+            {"name": "C6_C7_MP_y_off_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "C6_C7_MP_y_off", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C6_C7_MP_y_off", "array": ["(0, x_coordinate)"]}},
+            {"name": "C7_T1_MP_y_off_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "C7_T1_MP_y_off", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C7_T1_MP_y_off", "array": ["(0, x_coordinate)"]}},
+            {"name": "T1_T2_MP_y_off_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "T1_T2_MP_y_off", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T1_T2_MP_y_off", "array": ["(0, x_coordinate)"]}},
+            {"name": "T2_T3_MP_y_off_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "T2_T3_MP_y_off", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T2_T3_MP_y_off", "array": ["(0, x_coordinate)"]}},
+            {"name": "T3_T4_MP_y_off_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "T3_T4_MP_y_off", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T3_T4_MP_y_off", "array": ["(0, x_coordinate)"]}},
+            {"name": "T4_T5_MP_y_off_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "T4_T5_MP_y_off", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T4_T5_MP_y_off", "array": ["(0, x_coordinate)"]}},
+            {"name": "T5_T6_MP_y_off_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "T5_T6_MP_y_off", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T5_T6_MP_y_off", "array": ["(0, x_coordinate)"]}},
+            {"name": "T6_T7_MP_y_off_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "T6_T7_MP_y_off", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T6_T7_MP_y_off", "array": ["(0, x_coordinate)"]}},
+            {"name": "T7_T8_MP_y_off_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "T7_T8_MP_y_off", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T7_T8_MP_y_off", "array": ["(0, x_coordinate)"]}},
+            {"name": "T8_T9_MP_y_off_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "T8_T9_MP_y_off", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T8_T9_MP_y_off", "array": ["(0, x_coordinate)"]}},
+            {"name": "T9_T10_MP_y_off_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "T9_T10_MP_y_off", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T9_T10_MP_y_off", "array": ["(0, x_coordinate)"]}},
+            {"name": "T10_T11_MP_y_off_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "T10_T11_MP_y_off", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T10_T11_MP_y_off", "array": ["(0, x_coordinate)"]}},
+            {"name": "T11_T12_MP_y_off_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "T11_T12_MP_y_off", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T11_T12_MP_y_off", "array": ["(0, x_coordinate)"]}},
+            {"name": "T12_L1_MP_y_off_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "T12_L1_MP_y_off", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T12_L1_MP_y_off", "array": ["(0, x_coordinate)"]}},
+            {"name": "L1_L2_MP_y_off_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "L1_L2_MP_y_off", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L1_L2_MP_y_off", "array": ["(0, x_coordinate)"]}},
+            {"name": "L2_L3_MP_y_off_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "L2_L3_MP_y_off", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L2_L3_MP_y_off", "array": ["(0, x_coordinate)"]}},
+            {"name": "L3_L4_MP_y_off_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "L3_L4_MP_y_off", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L3_L4_MP_y_off", "array": ["(0, x_coordinate)"]}},
+            {"name": "L4_L5_MP_y_off_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "L4_L5_MP_y_off", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L4_L5_MP_y_off", "array": ["(0, x_coordinate)"]}},
+            {"name": "Head_COG_x_off_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "Head_COG_x_off", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "Head_COG_x_off", "array": ["(0, x_coordinate)"]}},
+            {"name": "Head_COG_y_off_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "Head_COG_y_off", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "Head_COG_y_off", "array": ["(0, x_coordinate)"]}},
+            {"name": "REF_MP_acetabulum_centers_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "REF_MP_acetabulum_centers", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "REF_MP_acetabulum_centers", "array": ["(0, x_coordinate)"]}},
+            {"name": "R_Acetabulum_O_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_Acetabulum_O", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_Acetabulum_O", "array": ["(0, x_coordinate)"]}},
+            {"name": "L_Acetabulum_O_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_Acetabulum_O", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_Acetabulum_O", "array": ["(0, x_coordinate)"]}},
+            {"name": "Head_COG_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "Head_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "Head_COG", "array": ["(0, x_coordinate)"]}},
+            {"name": "Head_COG_Loc_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "Head_COG_Loc", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "Head_COG_Loc", "array": ["(0, x_coordinate)"]}},
+            
+            
+            {"name": "L_Patella_COG_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_Patella_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_Patella_COG", "array": ["(0, y_coordinate)"]}},
+            {"name": "R_Patella_COG_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_Patella_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_Patella_COG", "array": ["(0, y_coordinate)"]}},
+            {"name": "L_Calcaneus_COG_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_Calcaneus_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_Calcaneus_COG", "array": ["(0, y_coordinate)"]}},
+            {"name": "L_Calcaneus_posterior_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_Calcaneus_posterior", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_Calcaneus_posterior", "array": ["(0, y_coordinate)"]}},
+            {"name": "L_Malleolus_LM_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_Malleolus_LM", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_Malleolus_LM", "array": ["(0, y_coordinate)"]}},
+            {"name": "L_Malleolus_MM_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_Malleolus_MM", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_Malleolus_MM", "array": ["(0, y_coordinate)"]}},
+            {"name": "L_Malleolus_IM_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_Malleolus_IM", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_Malleolus_IM", "array": ["(0, y_coordinate)"]}},
+            {"name": "L_Tibia_MC_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_Tibia_MC", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_Tibia_MC", "array": ["(0, y_coordinate)"]}},
+            {"name": "L_Tibia_LC_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_Tibia_LC", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_Tibia_LC", "array": ["(0, y_coordinate)"]}},
+            {"name": "L_Tibia_IC_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_Tibia_IC", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_Tibia_IC", "array": ["(0, y_coordinate)"]}},
+            {"name": "L_Femur_FEL_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_Femur_FEL", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_Femur_FEL", "array": ["(0, y_coordinate)"]}},
+            {"name": "L_Femur_FEM_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_Femur_FEM", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_Femur_FEM", "array": ["(0, y_coordinate)"]}},
+            {"name": "L_Femur_O_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_Femur_O", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_Femur_O", "array": ["(0, y_coordinate)"]}},
+            {"name": "L_Clavicle_lateral_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_Clavicle_lateral", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_Clavicle_lateral", "array": ["(0, y_coordinate)"]}},
+            {"name": "L_Clavicle_medial_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_Clavicle_medial", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_Clavicle_medial", "array": ["(0, y_coordinate)"]}},
+            {"name": "L_Scapula_AI_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_Scapula_AI", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_Scapula_AI", "array": ["(0, y_coordinate)"]}},
+            {"name": "L_Scapula_TS_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_Scapula_TS", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_Scapula_TS", "array": ["(0, y_coordinate)"]}},
+            {"name": "L_Scapula_AA_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_Scapula_AA", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_Scapula_AA", "array": ["(0, y_coordinate)"]}},
+            {"name": "L_Scapula_PC_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_Scapula_PC", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_Scapula_PC", "array": ["(0, y_coordinate)"]}},
+            {"name": "L_Humerus_EL_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_Humerus_EL", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_Humerus_EL", "array": ["(0, y_coordinate)"]}},
+            {"name": "L_Humerus_EM_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_Humerus_EM", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_Humerus_EM", "array": ["(0, y_coordinate)"]}},
+            {"name": "L_Radius_RS_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_Radius_RS", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_Radius_RS", "array": ["(0, y_coordinate)"]}},
+            {"name": "L_Ulna_US_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_Ulna_US", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_Ulna_US", "array": ["(0, y_coordinate)"]}},
+            {"name": "L_Femur_MP_FEM_FEL_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_Femur_MP_FEM_FEL", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_Femur_MP_FEM_FEL", "array": ["(0, y_coordinate)"]}},
+            {"name": "L_Scalpula_MP_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_Scalpula_MP", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_Scalpula_MP", "array": ["(0, y_coordinate)"]}},
+            {"name": "L_Humerus_MP_EL_EM_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_Humerus_MP_EL_EM", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_Humerus_MP_EL_EM", "array": ["(0, y_coordinate)"]}},
+            {"name": "L_wrist_MP_RS_US_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_wrist_MP_RS_US", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_wrist_MP_RS_US", "array": ["(0, y_coordinate)"]}},
+            {"name": "R_Calcaneus_COG_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_Calcaneus_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_Calcaneus_COG", "array": ["(0, y_coordinate)"]}},
+            {"name": "R_Calcaneus_posterior_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_Calcaneus_posterior", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_Calcaneus_posterior", "array": ["(0, y_coordinate)"]}},
+            {"name": "R_Malleolus_LM_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_Malleolus_LM", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_Malleolus_LM", "array": ["(0, y_coordinate)"]}},
+            {"name": "R_Malleolus_MM_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_Malleolus_MM", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_Malleolus_MM", "array": ["(0, y_coordinate)"]}},
+            {"name": "R_Malleolus_IM_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_Malleolus_IM", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_Malleolus_IM", "array": ["(0, y_coordinate)"]}},
+            {"name": "R_Tibia_MC_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_Tibia_MC", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_Tibia_MC", "array": ["(0, y_coordinate)"]}},
+            {"name": "R_Tibia_LC_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_Tibia_LC", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_Tibia_LC", "array": ["(0, y_coordinate)"]}},
+            {"name": "R_Tibia_IC_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_Tibia_IC", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_Tibia_IC", "array": ["(0, y_coordinate)"]}},
+            {"name": "R_Femur_FEL_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_Femur_FEL", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_Femur_FEL", "array": ["(0, y_coordinate)"]}},
+            {"name": "R_Femur_FEM_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_Femur_FEM", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_Femur_FEM", "array": ["(0, y_coordinate)"]}},
+            {"name": "R_Femur_O_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_Femur_O", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_Femur_O", "array": ["(0, y_coordinate)"]}},
+            {"name": "R_Clavicle_lateral_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_Clavicle_lateral", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_Clavicle_lateral", "array": ["(0, y_coordinate)"]}},
+            {"name": "R_Clavicle_medial_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_Clavicle_medial", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_Clavicle_medial", "array": ["(0, y_coordinate)"]}},
+            {"name": "R_Scapula_AI_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_Scapula_AI", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_Scapula_AI", "array": ["(0, y_coordinate)"]}},
+            {"name": "R_Scapula_TS_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_Scapula_TS", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_Scapula_TS", "array": ["(0, y_coordinate)"]}},
+            {"name": "R_Scapula_AA_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_Scapula_AA", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_Scapula_AA", "array": ["(0, y_coordinate)"]}},
+            {"name": "R_Scapula_PC_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_Scapula_PC", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_Scapula_PC", "array": ["(0, y_coordinate)"]}},
+            {"name": "R_Humerus_EL_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_Humerus_EL", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_Humerus_EL", "array": ["(0, y_coordinate)"]}},
+            {"name": "R_Humerus_EM_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_Humerus_EM", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_Humerus_EM", "array": ["(0, y_coordinate)"]}},
+            {"name": "R_Radius_RS_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_Radius_RS", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_Radius_RS", "array": ["(0, y_coordinate)"]}},
+            {"name": "R_Ulna_US_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_Ulna_US", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_Ulna_US", "array": ["(0, y_coordinate)"]}},
+            {"name": "R_Femur_MP_FEM_FEL_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_Femur_MP_FEM_FEL", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_Femur_MP_FEM_FEL", "array": ["(0, y_coordinate)"]}},
+            {"name": "R_Scalpula_MP_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_Scalpula_MP", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_Scalpula_MP", "array": ["(0, y_coordinate)"]}},
+            {"name": "R_Humerus_MP_EL_EM_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_Humerus_MP_EL_EM", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_Humerus_MP_EL_EM", "array": ["(0, y_coordinate)"]}},
+            {"name": "R_wrist_MP_RS_US_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_wrist_MP_RS_US", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_wrist_MP_RS_US", "array": ["(0, y_coordinate)"]}},
+            {"name": "L_Ischium_inferior_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_Ischium_inferior", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_Ischium_inferior", "array": ["(0, y_coordinate)"]}},
+            {"name": "L_ASIS_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_ASIS", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_ASIS", "array": ["(0, y_coordinate)"]}},
+            {"name": "L_PSIS_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_PSIS", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_PSIS", "array": ["(0, y_coordinate)"]}},
+            {"name": "Cocyx_inferior_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "Cocyx_inferior", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "Cocyx_inferior", "array": ["(0, y_coordinate)"]}},
+            {"name": "Sacrum_anterior_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "Sacrum_anterior", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "Sacrum_anterior", "array": ["(0, y_coordinate)"]}},
+            {"name": "Sacrum_posterior_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "Sacrum_posterior", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "Sacrum_posterior", "array": ["(0, y_coordinate)"]}},
+            {"name": "R_Ischium_inferior_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_Ischium_inferior", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_Ischium_inferior", "array": ["(0, y_coordinate)"]}},
+            {"name": "R_ASIS_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_ASIS", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_ASIS", "array": ["(0, y_coordinate)"]}},
+            {"name": "R_PSIS_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_PSIS", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_PSIS", "array": ["(0, y_coordinate)"]}},
+            {"name": "R_orbit_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_orbit", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_orbit", "array": ["(0, y_coordinate)"]}},
+            {"name": "L_orbit_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_orbit", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_orbit", "array": ["(0, y_coordinate)"]}},
+            {"name": "R_auditory_meatus_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_auditory_meatus", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_auditory_meatus", "array": ["(0, y_coordinate)"]}},
+            {"name": "L_auditory_meatus_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_auditory_meatus", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_auditory_meatus", "array": ["(0, y_coordinate)"]}},
+            {"name": "M_auditory_meatus_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "M_auditory_meatus", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "M_auditory_meatus", "array": ["(0, y_coordinate)"]}},
+            {"name": "M_orbit_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "M_orbit", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "M_orbit", "array": ["(0, y_coordinate)"]}},
+            {"name": "Sternum_PX_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "Sternum_PX", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "Sternum_PX", "array": ["(0, y_coordinate)"]}},
+            {"name": "Sternum_IJ_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "Sternum_IJ", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "Sternum_IJ", "array": ["(0, y_coordinate)"]}},
+            {"name": "C1_post_sup_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "C1_post_sup", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C1_post_sup", "array": ["(0, y_coordinate)"]}},
+            {"name": "C7_post_sup_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "C7_post_sup", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C7_post_sup", "array": ["(0, y_coordinate)"]}},
+            {"name": "T8_post_sup_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "T8_post_sup", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T8_post_sup", "array": ["(0, y_coordinate)"]}},
+            {"name": "T12_post_sup_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "T12_post_sup", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T12_post_sup", "array": ["(0, y_coordinate)"]}},
+            {"name": "C1_bottom_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "C1_bottom", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C1_bottom", "array": ["(0, y_coordinate)"]}},
+            {"name": "C2_center_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "C2_center", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C2_center", "array": ["(0, y_coordinate)"]}},
+            {"name": "C2_top_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "C2_top", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C2_top", "array": ["(0, y_coordinate)"]}},
+            {"name": "C2_bottom_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "C2_bottom", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C2_bottom", "array": ["(0, y_coordinate)"]}},
+            {"name": "C3_center_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "C3_center", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C3_center", "array": ["(0, y_coordinate)"]}},
+            {"name": "C3_top_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "C3_top", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C3_top", "array": ["(0, y_coordinate)"]}},
+            {"name": "C3_bottom_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "C3_bottom", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C3_bottom", "array": ["(0, y_coordinate)"]}},
+            {"name": "C4_center_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "C4_center", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C4_center", "array": ["(0, y_coordinate)"]}},
+            {"name": "C4_top_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "C4_top", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C4_top", "array": ["(0, y_coordinate)"]}},
+            {"name": "C4_bottom_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "C4_bottom", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C4_bottom", "array": ["(0, y_coordinate)"]}},
+            {"name": "C5_center_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "C5_center", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C5_center", "array": ["(0, y_coordinate)"]}},
+            {"name": "C5_top_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "C5_top", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C5_top", "array": ["(0, y_coordinate)"]}},
+            {"name": "C5_bottom_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "C5_bottom", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C5_bottom", "array": ["(0, y_coordinate)"]}},
+            {"name": "C6_center_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "C6_center", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C6_center", "array": ["(0, y_coordinate)"]}},
+            {"name": "C6_top_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "C6_top", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C6_top", "array": ["(0, y_coordinate)"]}},
+            {"name": "C6_bottom_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "C6_bottom", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C6_bottom", "array": ["(0, y_coordinate)"]}},
+            {"name": "C7_center_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "C7_center", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C7_center", "array": ["(0, y_coordinate)"]}},
+            {"name": "C7_top_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "C7_top", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C7_top", "array": ["(0, y_coordinate)"]}},
+            {"name": "C7_bottom_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "C7_bottom", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C7_bottom", "array": ["(0, y_coordinate)"]}},
+            {"name": "T1_center_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "T1_center", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T1_center", "array": ["(0, y_coordinate)"]}},
+            {"name": "T1_top_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "T1_top", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T1_top", "array": ["(0, y_coordinate)"]}},
+            {"name": "T1_bottom_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "T1_bottom", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T1_bottom", "array": ["(0, y_coordinate)"]}},
+            {"name": "T2_center_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "T2_center", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T2_center", "array": ["(0, y_coordinate)"]}},
+            {"name": "T2_top_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "T2_top", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T2_top", "array": ["(0, y_coordinate)"]}},
+            {"name": "T2_bottom_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "T2_bottom", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T2_bottom", "array": ["(0, y_coordinate)"]}},
+            {"name": "T3_center_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "T3_center", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T3_center", "array": ["(0, y_coordinate)"]}},
+            {"name": "T3_top_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "T3_top", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T3_top", "array": ["(0, y_coordinate)"]}},
+            {"name": "T3_bottom_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "T3_bottom", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T3_bottom", "array": ["(0, y_coordinate)"]}},
+            {"name": "T4_center_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "T4_center", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T4_center", "array": ["(0, y_coordinate)"]}},
+            {"name": "T4_top_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "T4_top", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T4_top", "array": ["(0, y_coordinate)"]}},
+            {"name": "T4_bottom_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "T4_bottom", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T4_bottom", "array": ["(0, y_coordinate)"]}},
+            {"name": "T5_center_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "T5_center", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T5_center", "array": ["(0, y_coordinate)"]}},
+            {"name": "T5_top_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "T5_top", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T5_top", "array": ["(0, y_coordinate)"]}},
+            {"name": "T5_bottom_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "T5_bottom", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T5_bottom", "array": ["(0, y_coordinate)"]}},
+            {"name": "T6_center_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "T6_center", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T6_center", "array": ["(0, y_coordinate)"]}},
+            {"name": "T6_top_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "T6_top", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T6_top", "array": ["(0, y_coordinate)"]}},
+            {"name": "T6_bottom_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "T6_bottom", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T6_bottom", "array": ["(0, y_coordinate)"]}},
+            {"name": "T7_center_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "T7_center", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T7_center", "array": ["(0, y_coordinate)"]}},
+            {"name": "T7_top_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "T7_top", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T7_top", "array": ["(0, y_coordinate)"]}},
+            {"name": "T7_bottom_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "T7_bottom", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T7_bottom", "array": ["(0, y_coordinate)"]}},
+            {"name": "T8_center_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "T8_center", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T8_center", "array": ["(0, y_coordinate)"]}},
+            {"name": "T8_top_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "T8_top", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T8_top", "array": ["(0, y_coordinate)"]}},
+            {"name": "T8_bottom_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "T8_bottom", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T8_bottom", "array": ["(0, y_coordinate)"]}},
+            {"name": "T9_center_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "T9_center", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T9_center", "array": ["(0, y_coordinate)"]}},
+            {"name": "T9_top_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "T9_top", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T9_top", "array": ["(0, y_coordinate)"]}},
+            {"name": "T9_bottom_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "T9_bottom", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T9_bottom", "array": ["(0, y_coordinate)"]}},
+            {"name": "T10_center_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "T10_center", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T10_center", "array": ["(0, y_coordinate)"]}},
+            {"name": "T10_top_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "T10_top", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T10_top", "array": ["(0, y_coordinate)"]}},
+            {"name": "T10_bottom_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "T10_bottom", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T10_bottom", "array": ["(0, y_coordinate)"]}},
+            {"name": "T11_center_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "T11_center", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T11_center", "array": ["(0, y_coordinate)"]}},
+            {"name": "T11_top_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "T11_top", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T11_top", "array": ["(0, y_coordinate)"]}},
+            {"name": "T11_bottom_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "T11_bottom", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T11_bottom", "array": ["(0, y_coordinate)"]}},
+            {"name": "T12_center_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "T12_center", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T12_center", "array": ["(0, y_coordinate)"]}},
+            {"name": "T12_top_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "T12_top", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T12_top", "array": ["(0, y_coordinate)"]}},
+            {"name": "T12_bottom_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "T12_bottom", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T12_bottom", "array": ["(0, y_coordinate)"]}},
+            {"name": "L1_center_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "L1_center", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L1_center", "array": ["(0, y_coordinate)"]}},
+            {"name": "L1_top_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "L1_top", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L1_top", "array": ["(0, y_coordinate)"]}},
+            {"name": "L1_bottom_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "L1_bottom", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L1_bottom", "array": ["(0, y_coordinate)"]}},
+            {"name": "L2_center_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "L2_center", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L2_center", "array": ["(0, y_coordinate)"]}},
+            {"name": "L2_top_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "L2_top", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L2_top", "array": ["(0, y_coordinate)"]}},
+            {"name": "L2_bottom_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "L2_bottom", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L2_bottom", "array": ["(0, y_coordinate)"]}},
+            {"name": "L3_center_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "L3_center", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L3_center", "array": ["(0, y_coordinate)"]}},
+            {"name": "L3_top_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "L3_top", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L3_top", "array": ["(0, y_coordinate)"]}},
+            {"name": "L3_bottom_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "L3_bottom", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L3_bottom", "array": ["(0, y_coordinate)"]}},
+            {"name": "L4_center_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "L4_center", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L4_center", "array": ["(0, y_coordinate)"]}},
+            {"name": "L4_top_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "L4_top", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L4_top", "array": ["(0, y_coordinate)"]}},
+            {"name": "L4_bottom_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "L4_bottom", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L4_bottom", "array": ["(0, y_coordinate)"]}},
+            {"name": "L5_center_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "L5_center", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L5_center", "array": ["(0, y_coordinate)"]}},
+            {"name": "L5_top_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "L5_top", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L5_top", "array": ["(0, y_coordinate)"]}},
+            {"name": "L5_bottom_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "L5_bottom", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L5_bottom", "array": ["(0, y_coordinate)"]}},
+            {"name": "C1_C2_MP_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "C1_C2_MP", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C1_C2_MP", "array": ["(0, y_coordinate)"]}},
+            {"name": "C2_C3_MP_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "C2_C3_MP", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C2_C3_MP", "array": ["(0, y_coordinate)"]}},
+            {"name": "C3_C4_MP_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "C3_C4_MP", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C3_C4_MP", "array": ["(0, y_coordinate)"]}},
+            {"name": "C4_C5_MP_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "C4_C5_MP", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C4_C5_MP", "array": ["(0, y_coordinate)"]}},
+            {"name": "C5_C6_MP_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "C5_C6_MP", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C5_C6_MP", "array": ["(0, y_coordinate)"]}},
+            {"name": "C6_C7_MP_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "C6_C7_MP", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C6_C7_MP", "array": ["(0, y_coordinate)"]}},
+            {"name": "C7_T1_MP_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "C7_T1_MP", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C7_T1_MP", "array": ["(0, y_coordinate)"]}},
+            {"name": "T1_T2_MP_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "T1_T2_MP", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T1_T2_MP", "array": ["(0, y_coordinate)"]}},
+            {"name": "T2_T3_MP_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "T2_T3_MP", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T2_T3_MP", "array": ["(0, y_coordinate)"]}},
+            {"name": "T3_T4_MP_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "T3_T4_MP", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T3_T4_MP", "array": ["(0, y_coordinate)"]}},
+            {"name": "T4_T5_MP_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "T4_T5_MP", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T4_T5_MP", "array": ["(0, y_coordinate)"]}},
+            {"name": "T5_T6_MP_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "T5_T6_MP", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T5_T6_MP", "array": ["(0, y_coordinate)"]}},
+            {"name": "T6_T7_MP_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "T6_T7_MP", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T6_T7_MP", "array": ["(0, y_coordinate)"]}},
+            {"name": "T7_T8_MP_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "T7_T8_MP", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T7_T8_MP", "array": ["(0, y_coordinate)"]}},
+            {"name": "T8_T9_MP_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "T8_T9_MP", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T8_T9_MP", "array": ["(0, y_coordinate)"]}},
+            {"name": "T9_T10_MP_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "T9_T10_MP", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T9_T10_MP", "array": ["(0, y_coordinate)"]}},
+            {"name": "T10_T11_MP_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "T10_T11_MP", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T10_T11_MP", "array": ["(0, y_coordinate)"]}},
+            {"name": "T11_T12_MP_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "T11_T12_MP", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T11_T12_MP", "array": ["(0, y_coordinate)"]}},
+            {"name": "T12_L1_MP_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "T12_L1_MP", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T12_L1_MP", "array": ["(0, y_coordinate)"]}},
+            {"name": "L1_L2_MP_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "L1_L2_MP", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L1_L2_MP", "array": ["(0, y_coordinate)"]}},
+            {"name": "L2_L3_MP_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "L2_L3_MP", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L2_L3_MP", "array": ["(0, y_coordinate)"]}},
+            {"name": "L3_L4_MP_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "L3_L4_MP", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L3_L4_MP", "array": ["(0, y_coordinate)"]}},
+            {"name": "L4_L5_MP_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "L4_L5_MP", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L4_L5_MP", "array": ["(0, y_coordinate)"]}},
+            {"name": "C1_COG_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "C1_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C1_COG", "array": ["(0, y_coordinate)"]}},
+            {"name": "C2_COG_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "C2_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C2_COG", "array": ["(0, y_coordinate)"]}},
+            {"name": "C3_COG_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "C3_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C3_COG", "array": ["(0, y_coordinate)"]}},
+            {"name": "C4_COG_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "C4_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C4_COG", "array": ["(0, y_coordinate)"]}},
+            {"name": "C5_COG_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "C5_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C5_COG", "array": ["(0, y_coordinate)"]}},
+            {"name": "C6_COG_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "C6_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C6_COG", "array": ["(0, y_coordinate)"]}},
+            {"name": "C7_COG_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "C7_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C7_COG", "array": ["(0, y_coordinate)"]}},
+            {"name": "T1_COG_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "T1_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T1_COG", "array": ["(0, y_coordinate)"]}},
+            {"name": "T2_COG_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "T2_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T2_COG", "array": ["(0, y_coordinate)"]}},
+            {"name": "T3_COG_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "T3_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T3_COG", "array": ["(0, y_coordinate)"]}},
+            {"name": "T4_COG_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "T4_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T4_COG", "array": ["(0, y_coordinate)"]}},
+            {"name": "T5_COG_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "T5_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T5_COG", "array": ["(0, y_coordinate)"]}},
+            {"name": "T6_COG_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "T6_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T6_COG", "array": ["(0, y_coordinate)"]}},
+            {"name": "T7_COG_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "T7_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T7_COG", "array": ["(0, y_coordinate)"]}},
+            {"name": "T8_COG_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "T8_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T8_COG", "array": ["(0, y_coordinate)"]}},
+            {"name": "T9_COG_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "T9_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T9_COG", "array": ["(0, y_coordinate)"]}},
+            {"name": "T10_COG_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "T10_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T10_COG", "array": ["(0, y_coordinate)"]}},
+            {"name": "T11_COG_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "T11_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T11_COG", "array": ["(0, y_coordinate)"]}},
+            {"name": "T12_COG_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "T12_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T12_COG", "array": ["(0, y_coordinate)"]}},
+            {"name": "C1_C2_MP_y_off_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "C1_C2_MP_y_off", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C1_C2_MP_y_off", "array": ["(0, y_coordinate)"]}},
+            {"name": "C2_C3_MP_y_off_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "C2_C3_MP_y_off", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C2_C3_MP_y_off", "array": ["(0, y_coordinate)"]}},
+            {"name": "C3_C4_MP_y_off_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "C3_C4_MP_y_off", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C3_C4_MP_y_off", "array": ["(0, y_coordinate)"]}},
+            {"name": "C4_C5_MP_y_off_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "C4_C5_MP_y_off", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C4_C5_MP_y_off", "array": ["(0, y_coordinate)"]}},
+            {"name": "C5_C6_MP_y_off_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "C5_C6_MP_y_off", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C5_C6_MP_y_off", "array": ["(0, y_coordinate)"]}},
+            {"name": "C6_C7_MP_y_off_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "C6_C7_MP_y_off", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C6_C7_MP_y_off", "array": ["(0, y_coordinate)"]}},
+            {"name": "C7_T1_MP_y_off_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "C7_T1_MP_y_off", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C7_T1_MP_y_off", "array": ["(0, y_coordinate)"]}},
+            {"name": "T1_T2_MP_y_off_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "T1_T2_MP_y_off", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T1_T2_MP_y_off", "array": ["(0, y_coordinate)"]}},
+            {"name": "T2_T3_MP_y_off_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "T2_T3_MP_y_off", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T2_T3_MP_y_off", "array": ["(0, y_coordinate)"]}},
+            {"name": "T3_T4_MP_y_off_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "T3_T4_MP_y_off", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T3_T4_MP_y_off", "array": ["(0, y_coordinate)"]}},
+            {"name": "T4_T5_MP_y_off_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "T4_T5_MP_y_off", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T4_T5_MP_y_off", "array": ["(0, y_coordinate)"]}},
+            {"name": "T5_T6_MP_y_off_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "T5_T6_MP_y_off", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T5_T6_MP_y_off", "array": ["(0, y_coordinate)"]}},
+            {"name": "T6_T7_MP_y_off_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "T6_T7_MP_y_off", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T6_T7_MP_y_off", "array": ["(0, y_coordinate)"]}},
+            {"name": "T7_T8_MP_y_off_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "T7_T8_MP_y_off", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T7_T8_MP_y_off", "array": ["(0, y_coordinate)"]}},
+            {"name": "T8_T9_MP_y_off_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "T8_T9_MP_y_off", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T8_T9_MP_y_off", "array": ["(0, y_coordinate)"]}},
+            {"name": "T9_T10_MP_y_off_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "T9_T10_MP_y_off", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T9_T10_MP_y_off", "array": ["(0, y_coordinate)"]}},
+            {"name": "T10_T11_MP_y_off_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "T10_T11_MP_y_off", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T10_T11_MP_y_off", "array": ["(0, y_coordinate)"]}},
+            {"name": "T11_T12_MP_y_off_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "T11_T12_MP_y_off", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T11_T12_MP_y_off", "array": ["(0, y_coordinate)"]}},
+            {"name": "T12_L1_MP_y_off_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "T12_L1_MP_y_off", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T12_L1_MP_y_off", "array": ["(0, y_coordinate)"]}},
+            {"name": "L1_L2_MP_y_off_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "L1_L2_MP_y_off", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L1_L2_MP_y_off", "array": ["(0, y_coordinate)"]}},
+            {"name": "L2_L3_MP_y_off_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "L2_L3_MP_y_off", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L2_L3_MP_y_off", "array": ["(0, y_coordinate)"]}},
+            {"name": "L3_L4_MP_y_off_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "L3_L4_MP_y_off", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L3_L4_MP_y_off", "array": ["(0, y_coordinate)"]}},
+            {"name": "L4_L5_MP_y_off_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "L4_L5_MP_y_off", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L4_L5_MP_y_off", "array": ["(0, y_coordinate)"]}},
+            {"name": "Head_COG_x_off_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "Head_COG_x_off", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "Head_COG_x_off", "array": ["(0, y_coordinate)"]}},
+            {"name": "Head_COG_y_off_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "Head_COG_y_off", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "Head_COG_y_off", "array": ["(0, y_coordinate)"]}},
+            {"name": "REF_MP_acetabulum_centers_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "REF_MP_acetabulum_centers", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "REF_MP_acetabulum_centers", "array": ["(0, y_coordinate)"]}},
+            {"name": "R_Acetabulum_O_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_Acetabulum_O", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_Acetabulum_O", "array": ["(0, y_coordinate)"]}},
+            {"name": "L_Acetabulum_O_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_Acetabulum_O", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_Acetabulum_O", "array": ["(0, y_coordinate)"]}},
+            {"name": "Head_COG_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "Head_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "Head_COG", "array": ["(0, y_coordinate)"]}},
+            {"name": "Head_COG_Loc_y", "part_of": "Bone", "x": {"type": "NODE", "ID": "Head_COG_Loc", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "Head_COG_Loc", "array": ["(0, y_coordinate)"]}},
+            
+            
+            {"name": "L_Patella_COG_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_Patella_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_Patella_COG", "array": ["(0, z_coordinate)"]}},
+            {"name": "R_Patella_COG_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_Patella_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_Patella_COG", "array": ["(0, z_coordinate)"]}},
+            {"name": "L_Calcaneus_COG_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_Calcaneus_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_Calcaneus_COG", "array": ["(0, z_coordinate)"]}},
+            {"name": "L_Calcaneus_posterior_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_Calcaneus_posterior", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_Calcaneus_posterior", "array": ["(0, z_coordinate)"]}},
+            {"name": "L_Malleolus_LM_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_Malleolus_LM", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_Malleolus_LM", "array": ["(0, z_coordinate)"]}},
+            {"name": "L_Malleolus_MM_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_Malleolus_MM", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_Malleolus_MM", "array": ["(0, z_coordinate)"]}},
+            {"name": "L_Malleolus_IM_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_Malleolus_IM", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_Malleolus_IM", "array": ["(0, z_coordinate)"]}},
+            {"name": "L_Tibia_MC_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_Tibia_MC", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_Tibia_MC", "array": ["(0, z_coordinate)"]}},
+            {"name": "L_Tibia_LC_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_Tibia_LC", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_Tibia_LC", "array": ["(0, z_coordinate)"]}},
+            {"name": "L_Tibia_IC_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_Tibia_IC", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_Tibia_IC", "array": ["(0, z_coordinate)"]}},
+            {"name": "L_Femur_FEL_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_Femur_FEL", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_Femur_FEL", "array": ["(0, z_coordinate)"]}},
+            {"name": "L_Femur_FEM_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_Femur_FEM", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_Femur_FEM", "array": ["(0, z_coordinate)"]}},
+            {"name": "L_Femur_O_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_Femur_O", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_Femur_O", "array": ["(0, z_coordinate)"]}},
+            {"name": "L_Clavicle_lateral_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_Clavicle_lateral", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_Clavicle_lateral", "array": ["(0, z_coordinate)"]}},
+            {"name": "L_Clavicle_medial_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_Clavicle_medial", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_Clavicle_medial", "array": ["(0, z_coordinate)"]}},
+            {"name": "L_Scapula_AI_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_Scapula_AI", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_Scapula_AI", "array": ["(0, z_coordinate)"]}},
+            {"name": "L_Scapula_TS_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_Scapula_TS", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_Scapula_TS", "array": ["(0, z_coordinate)"]}},
+            {"name": "L_Scapula_AA_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_Scapula_AA", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_Scapula_AA", "array": ["(0, z_coordinate)"]}},
+            {"name": "L_Scapula_PC_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_Scapula_PC", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_Scapula_PC", "array": ["(0, z_coordinate)"]}},
+            {"name": "L_Humerus_EL_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_Humerus_EL", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_Humerus_EL", "array": ["(0, z_coordinate)"]}},
+            {"name": "L_Humerus_EM_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_Humerus_EM", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_Humerus_EM", "array": ["(0, z_coordinate)"]}},
+            {"name": "L_Radius_RS_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_Radius_RS", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_Radius_RS", "array": ["(0, z_coordinate)"]}},
+            {"name": "L_Ulna_US_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_Ulna_US", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_Ulna_US", "array": ["(0, z_coordinate)"]}},
+            {"name": "L_Femur_MP_FEM_FEL_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_Femur_MP_FEM_FEL", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_Femur_MP_FEM_FEL", "array": ["(0, z_coordinate)"]}},
+            {"name": "L_Scalpula_MP_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_Scalpula_MP", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_Scalpula_MP", "array": ["(0, z_coordinate)"]}},
+            {"name": "L_Humerus_MP_EL_EM_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_Humerus_MP_EL_EM", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_Humerus_MP_EL_EM", "array": ["(0, z_coordinate)"]}},
+            {"name": "L_wrist_MP_RS_US_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_wrist_MP_RS_US", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_wrist_MP_RS_US", "array": ["(0, z_coordinate)"]}},
+            {"name": "R_Calcaneus_COG_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_Calcaneus_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_Calcaneus_COG", "array": ["(0, z_coordinate)"]}},
+            {"name": "R_Calcaneus_posterior_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_Calcaneus_posterior", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_Calcaneus_posterior", "array": ["(0, z_coordinate)"]}},
+            {"name": "R_Malleolus_LM_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_Malleolus_LM", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_Malleolus_LM", "array": ["(0, z_coordinate)"]}},
+            {"name": "R_Malleolus_MM_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_Malleolus_MM", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_Malleolus_MM", "array": ["(0, z_coordinate)"]}},
+            {"name": "R_Malleolus_IM_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_Malleolus_IM", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_Malleolus_IM", "array": ["(0, z_coordinate)"]}},
+            {"name": "R_Tibia_MC_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_Tibia_MC", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_Tibia_MC", "array": ["(0, z_coordinate)"]}},
+            {"name": "R_Tibia_LC_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_Tibia_LC", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_Tibia_LC", "array": ["(0, z_coordinate)"]}},
+            {"name": "R_Tibia_IC_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_Tibia_IC", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_Tibia_IC", "array": ["(0, z_coordinate)"]}},
+            {"name": "R_Femur_FEL_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_Femur_FEL", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_Femur_FEL", "array": ["(0, z_coordinate)"]}},
+            {"name": "R_Femur_FEM_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_Femur_FEM", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_Femur_FEM", "array": ["(0, z_coordinate)"]}},
+            {"name": "R_Femur_O_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_Femur_O", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_Femur_O", "array": ["(0, z_coordinate)"]}},
+            {"name": "R_Clavicle_lateral_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_Clavicle_lateral", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_Clavicle_lateral", "array": ["(0, z_coordinate)"]}},
+            {"name": "R_Clavicle_medial_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_Clavicle_medial", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_Clavicle_medial", "array": ["(0, z_coordinate)"]}},
+            {"name": "R_Scapula_AI_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_Scapula_AI", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_Scapula_AI", "array": ["(0, z_coordinate)"]}},
+            {"name": "R_Scapula_TS_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_Scapula_TS", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_Scapula_TS", "array": ["(0, z_coordinate)"]}},
+            {"name": "R_Scapula_AA_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_Scapula_AA", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_Scapula_AA", "array": ["(0, z_coordinate)"]}},
+            {"name": "R_Scapula_PC_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_Scapula_PC", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_Scapula_PC", "array": ["(0, z_coordinate)"]}},
+            {"name": "R_Humerus_EL_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_Humerus_EL", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_Humerus_EL", "array": ["(0, z_coordinate)"]}},
+            {"name": "R_Humerus_EM_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_Humerus_EM", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_Humerus_EM", "array": ["(0, z_coordinate)"]}},
+            {"name": "R_Radius_RS_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_Radius_RS", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_Radius_RS", "array": ["(0, z_coordinate)"]}},
+            {"name": "R_Ulna_US_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_Ulna_US", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_Ulna_US", "array": ["(0, z_coordinate)"]}},
+            {"name": "R_Femur_MP_FEM_FEL_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_Femur_MP_FEM_FEL", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_Femur_MP_FEM_FEL", "array": ["(0, z_coordinate)"]}},
+            {"name": "R_Scalpula_MP_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_Scalpula_MP", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_Scalpula_MP", "array": ["(0, z_coordinate)"]}},
+            {"name": "R_Humerus_MP_EL_EM_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_Humerus_MP_EL_EM", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_Humerus_MP_EL_EM", "array": ["(0, z_coordinate)"]}},
+            {"name": "R_wrist_MP_RS_US_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_wrist_MP_RS_US", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_wrist_MP_RS_US", "array": ["(0, z_coordinate)"]}},
+            {"name": "L_Ischium_inferior_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_Ischium_inferior", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_Ischium_inferior", "array": ["(0, z_coordinate)"]}},
+            {"name": "L_ASIS_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_ASIS", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_ASIS", "array": ["(0, z_coordinate)"]}},
+            {"name": "L_PSIS_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_PSIS", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_PSIS", "array": ["(0, z_coordinate)"]}},
+            {"name": "Cocyx_inferior_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "Cocyx_inferior", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "Cocyx_inferior", "array": ["(0, z_coordinate)"]}},
+            {"name": "Sacrum_anterior_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "Sacrum_anterior", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "Sacrum_anterior", "array": ["(0, z_coordinate)"]}},
+            {"name": "Sacrum_posterior_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "Sacrum_posterior", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "Sacrum_posterior", "array": ["(0, z_coordinate)"]}},
+            {"name": "R_Ischium_inferior_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_Ischium_inferior", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_Ischium_inferior", "array": ["(0, z_coordinate)"]}},
+            {"name": "R_ASIS_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_ASIS", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_ASIS", "array": ["(0, z_coordinate)"]}},
+            {"name": "R_PSIS_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_PSIS", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_PSIS", "array": ["(0, z_coordinate)"]}},
+            {"name": "R_orbit_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_orbit", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_orbit", "array": ["(0, z_coordinate)"]}},
+            {"name": "L_orbit_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_orbit", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_orbit", "array": ["(0, z_coordinate)"]}},
+            {"name": "R_auditory_meatus_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_auditory_meatus", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_auditory_meatus", "array": ["(0, z_coordinate)"]}},
+            {"name": "L_auditory_meatus_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_auditory_meatus", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_auditory_meatus", "array": ["(0, z_coordinate)"]}},
+            {"name": "M_auditory_meatus_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "M_auditory_meatus", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "M_auditory_meatus", "array": ["(0, z_coordinate)"]}},
+            {"name": "M_orbit_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "M_orbit", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "M_orbit", "array": ["(0, z_coordinate)"]}},
+            {"name": "Sternum_PX_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "Sternum_PX", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "Sternum_PX", "array": ["(0, z_coordinate)"]}},
+            {"name": "Sternum_IJ_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "Sternum_IJ", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "Sternum_IJ", "array": ["(0, z_coordinate)"]}},
+            {"name": "C1_post_sup_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "C1_post_sup", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C1_post_sup", "array": ["(0, z_coordinate)"]}},
+            {"name": "C7_post_sup_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "C7_post_sup", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C7_post_sup", "array": ["(0, z_coordinate)"]}},
+            {"name": "T8_post_sup_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "T8_post_sup", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T8_post_sup", "array": ["(0, z_coordinate)"]}},
+            {"name": "T12_post_sup_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "T12_post_sup", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T12_post_sup", "array": ["(0, z_coordinate)"]}},
+            {"name": "C1_bottom_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "C1_bottom", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C1_bottom", "array": ["(0, z_coordinate)"]}},
+            {"name": "C2_center_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "C2_center", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C2_center", "array": ["(0, z_coordinate)"]}},
+            {"name": "C2_top_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "C2_top", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C2_top", "array": ["(0, z_coordinate)"]}},
+            {"name": "C2_bottom_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "C2_bottom", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C2_bottom", "array": ["(0, z_coordinate)"]}},
+            {"name": "C3_center_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "C3_center", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C3_center", "array": ["(0, z_coordinate)"]}},
+            {"name": "C3_top_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "C3_top", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C3_top", "array": ["(0, z_coordinate)"]}},
+            {"name": "C3_bottom_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "C3_bottom", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C3_bottom", "array": ["(0, z_coordinate)"]}},
+            {"name": "C4_center_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "C4_center", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C4_center", "array": ["(0, z_coordinate)"]}},
+            {"name": "C4_top_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "C4_top", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C4_top", "array": ["(0, z_coordinate)"]}},
+            {"name": "C4_bottom_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "C4_bottom", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C4_bottom", "array": ["(0, z_coordinate)"]}},
+            {"name": "C5_center_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "C5_center", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C5_center", "array": ["(0, z_coordinate)"]}},
+            {"name": "C5_top_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "C5_top", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C5_top", "array": ["(0, z_coordinate)"]}},
+            {"name": "C5_bottom_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "C5_bottom", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C5_bottom", "array": ["(0, z_coordinate)"]}},
+            {"name": "C6_center_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "C6_center", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C6_center", "array": ["(0, z_coordinate)"]}},
+            {"name": "C6_top_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "C6_top", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C6_top", "array": ["(0, z_coordinate)"]}},
+            {"name": "C6_bottom_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "C6_bottom", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C6_bottom", "array": ["(0, z_coordinate)"]}},
+            {"name": "C7_center_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "C7_center", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C7_center", "array": ["(0, z_coordinate)"]}},
+            {"name": "C7_top_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "C7_top", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C7_top", "array": ["(0, z_coordinate)"]}},
+            {"name": "C7_bottom_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "C7_bottom", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C7_bottom", "array": ["(0, z_coordinate)"]}},
+            {"name": "T1_center_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "T1_center", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T1_center", "array": ["(0, z_coordinate)"]}},
+            {"name": "T1_top_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "T1_top", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T1_top", "array": ["(0, z_coordinate)"]}},
+            {"name": "T1_bottom_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "T1_bottom", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T1_bottom", "array": ["(0, z_coordinate)"]}},
+            {"name": "T2_center_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "T2_center", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T2_center", "array": ["(0, z_coordinate)"]}},
+            {"name": "T2_top_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "T2_top", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T2_top", "array": ["(0, z_coordinate)"]}},
+            {"name": "T2_bottom_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "T2_bottom", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T2_bottom", "array": ["(0, z_coordinate)"]}},
+            {"name": "T3_center_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "T3_center", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T3_center", "array": ["(0, z_coordinate)"]}},
+            {"name": "T3_top_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "T3_top", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T3_top", "array": ["(0, z_coordinate)"]}},
+            {"name": "T3_bottom_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "T3_bottom", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T3_bottom", "array": ["(0, z_coordinate)"]}},
+            {"name": "T4_center_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "T4_center", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T4_center", "array": ["(0, z_coordinate)"]}},
+            {"name": "T4_top_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "T4_top", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T4_top", "array": ["(0, z_coordinate)"]}},
+            {"name": "T4_bottom_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "T4_bottom", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T4_bottom", "array": ["(0, z_coordinate)"]}},
+            {"name": "T5_center_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "T5_center", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T5_center", "array": ["(0, z_coordinate)"]}},
+            {"name": "T5_top_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "T5_top", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T5_top", "array": ["(0, z_coordinate)"]}},
+            {"name": "T5_bottom_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "T5_bottom", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T5_bottom", "array": ["(0, z_coordinate)"]}},
+            {"name": "T6_center_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "T6_center", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T6_center", "array": ["(0, z_coordinate)"]}},
+            {"name": "T6_top_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "T6_top", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T6_top", "array": ["(0, z_coordinate)"]}},
+            {"name": "T6_bottom_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "T6_bottom", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T6_bottom", "array": ["(0, z_coordinate)"]}},
+            {"name": "T7_center_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "T7_center", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T7_center", "array": ["(0, z_coordinate)"]}},
+            {"name": "T7_top_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "T7_top", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T7_top", "array": ["(0, z_coordinate)"]}},
+            {"name": "T7_bottom_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "T7_bottom", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T7_bottom", "array": ["(0, z_coordinate)"]}},
+            {"name": "T8_center_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "T8_center", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T8_center", "array": ["(0, z_coordinate)"]}},
+            {"name": "T8_top_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "T8_top", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T8_top", "array": ["(0, z_coordinate)"]}},
+            {"name": "T8_bottom_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "T8_bottom", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T8_bottom", "array": ["(0, z_coordinate)"]}},
+            {"name": "T9_center_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "T9_center", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T9_center", "array": ["(0, z_coordinate)"]}},
+            {"name": "T9_top_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "T9_top", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T9_top", "array": ["(0, z_coordinate)"]}},
+            {"name": "T9_bottom_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "T9_bottom", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T9_bottom", "array": ["(0, z_coordinate)"]}},
+            {"name": "T10_center_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "T10_center", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T10_center", "array": ["(0, z_coordinate)"]}},
+            {"name": "T10_top_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "T10_top", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T10_top", "array": ["(0, z_coordinate)"]}},
+            {"name": "T10_bottom_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "T10_bottom", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T10_bottom", "array": ["(0, z_coordinate)"]}},
+            {"name": "T11_center_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "T11_center", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T11_center", "array": ["(0, z_coordinate)"]}},
+            {"name": "T11_top_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "T11_top", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T11_top", "array": ["(0, z_coordinate)"]}},
+            {"name": "T11_bottom_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "T11_bottom", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T11_bottom", "array": ["(0, z_coordinate)"]}},
+            {"name": "T12_center_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "T12_center", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T12_center", "array": ["(0, z_coordinate)"]}},
+            {"name": "T12_top_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "T12_top", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T12_top", "array": ["(0, z_coordinate)"]}},
+            {"name": "T12_bottom_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "T12_bottom", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T12_bottom", "array": ["(0, z_coordinate)"]}},
+            {"name": "L1_center_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "L1_center", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L1_center", "array": ["(0, z_coordinate)"]}},
+            {"name": "L1_top_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "L1_top", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L1_top", "array": ["(0, z_coordinate)"]}},
+            {"name": "L1_bottom_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "L1_bottom", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L1_bottom", "array": ["(0, z_coordinate)"]}},
+            {"name": "L2_center_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "L2_center", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L2_center", "array": ["(0, z_coordinate)"]}},
+            {"name": "L2_top_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "L2_top", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L2_top", "array": ["(0, z_coordinate)"]}},
+            {"name": "L2_bottom_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "L2_bottom", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L2_bottom", "array": ["(0, z_coordinate)"]}},
+            {"name": "L3_center_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "L3_center", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L3_center", "array": ["(0, z_coordinate)"]}},
+            {"name": "L3_top_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "L3_top", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L3_top", "array": ["(0, z_coordinate)"]}},
+            {"name": "L3_bottom_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "L3_bottom", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L3_bottom", "array": ["(0, z_coordinate)"]}},
+            {"name": "L4_center_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "L4_center", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L4_center", "array": ["(0, z_coordinate)"]}},
+            {"name": "L4_top_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "L4_top", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L4_top", "array": ["(0, z_coordinate)"]}},
+            {"name": "L4_bottom_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "L4_bottom", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L4_bottom", "array": ["(0, z_coordinate)"]}},
+            {"name": "L5_center_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "L5_center", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L5_center", "array": ["(0, z_coordinate)"]}},
+            {"name": "L5_top_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "L5_top", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L5_top", "array": ["(0, z_coordinate)"]}},
+            {"name": "L5_bottom_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "L5_bottom", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L5_bottom", "array": ["(0, z_coordinate)"]}},
+            {"name": "C1_C2_MP_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "C1_C2_MP", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C1_C2_MP", "array": ["(0, z_coordinate)"]}},
+            {"name": "C2_C3_MP_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "C2_C3_MP", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C2_C3_MP", "array": ["(0, z_coordinate)"]}},
+            {"name": "C3_C4_MP_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "C3_C4_MP", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C3_C4_MP", "array": ["(0, z_coordinate)"]}},
+            {"name": "C4_C5_MP_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "C4_C5_MP", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C4_C5_MP", "array": ["(0, z_coordinate)"]}},
+            {"name": "C5_C6_MP_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "C5_C6_MP", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C5_C6_MP", "array": ["(0, z_coordinate)"]}},
+            {"name": "C6_C7_MP_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "C6_C7_MP", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C6_C7_MP", "array": ["(0, z_coordinate)"]}},
+            {"name": "C7_T1_MP_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "C7_T1_MP", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C7_T1_MP", "array": ["(0, z_coordinate)"]}},
+            {"name": "T1_T2_MP_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "T1_T2_MP", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T1_T2_MP", "array": ["(0, z_coordinate)"]}},
+            {"name": "T2_T3_MP_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "T2_T3_MP", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T2_T3_MP", "array": ["(0, z_coordinate)"]}},
+            {"name": "T3_T4_MP_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "T3_T4_MP", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T3_T4_MP", "array": ["(0, z_coordinate)"]}},
+            {"name": "T4_T5_MP_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "T4_T5_MP", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T4_T5_MP", "array": ["(0, z_coordinate)"]}},
+            {"name": "T5_T6_MP_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "T5_T6_MP", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T5_T6_MP", "array": ["(0, z_coordinate)"]}},
+            {"name": "T6_T7_MP_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "T6_T7_MP", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T6_T7_MP", "array": ["(0, z_coordinate)"]}},
+            {"name": "T7_T8_MP_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "T7_T8_MP", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T7_T8_MP", "array": ["(0, z_coordinate)"]}},
+            {"name": "T8_T9_MP_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "T8_T9_MP", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T8_T9_MP", "array": ["(0, z_coordinate)"]}},
+            {"name": "T9_T10_MP_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "T9_T10_MP", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T9_T10_MP", "array": ["(0, z_coordinate)"]}},
+            {"name": "T10_T11_MP_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "T10_T11_MP", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T10_T11_MP", "array": ["(0, z_coordinate)"]}},
+            {"name": "T11_T12_MP_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "T11_T12_MP", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T11_T12_MP", "array": ["(0, z_coordinate)"]}},
+            {"name": "T12_L1_MP_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "T12_L1_MP", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T12_L1_MP", "array": ["(0, z_coordinate)"]}},
+            {"name": "L1_L2_MP_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "L1_L2_MP", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L1_L2_MP", "array": ["(0, z_coordinate)"]}},
+            {"name": "L2_L3_MP_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "L2_L3_MP", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L2_L3_MP", "array": ["(0, z_coordinate)"]}},
+            {"name": "L3_L4_MP_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "L3_L4_MP", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L3_L4_MP", "array": ["(0, z_coordinate)"]}},
+            {"name": "L4_L5_MP_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "L4_L5_MP", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L4_L5_MP", "array": ["(0, z_coordinate)"]}},
+            {"name": "C1_COG_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "C1_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C1_COG", "array": ["(0, z_coordinate)"]}},
+            {"name": "C2_COG_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "C2_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C2_COG", "array": ["(0, z_coordinate)"]}},
+            {"name": "C3_COG_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "C3_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C3_COG", "array": ["(0, z_coordinate)"]}},
+            {"name": "C4_COG_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "C4_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C4_COG", "array": ["(0, z_coordinate)"]}},
+            {"name": "C5_COG_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "C5_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C5_COG", "array": ["(0, z_coordinate)"]}},
+            {"name": "C6_COG_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "C6_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C6_COG", "array": ["(0, z_coordinate)"]}},
+            {"name": "C7_COG_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "C7_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C7_COG", "array": ["(0, z_coordinate)"]}},
+            {"name": "T1_COG_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "T1_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T1_COG", "array": ["(0, z_coordinate)"]}},
+            {"name": "T2_COG_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "T2_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T2_COG", "array": ["(0, z_coordinate)"]}},
+            {"name": "T3_COG_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "T3_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T3_COG", "array": ["(0, z_coordinate)"]}},
+            {"name": "T4_COG_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "T4_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T4_COG", "array": ["(0, z_coordinate)"]}},
+            {"name": "T5_COG_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "T5_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T5_COG", "array": ["(0, z_coordinate)"]}},
+            {"name": "T6_COG_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "T6_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T6_COG", "array": ["(0, z_coordinate)"]}},
+            {"name": "T7_COG_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "T7_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T7_COG", "array": ["(0, z_coordinate)"]}},
+            {"name": "T8_COG_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "T8_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T8_COG", "array": ["(0, z_coordinate)"]}},
+            {"name": "T9_COG_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "T9_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T9_COG", "array": ["(0, z_coordinate)"]}},
+            {"name": "T10_COG_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "T10_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T10_COG", "array": ["(0, z_coordinate)"]}},
+            {"name": "T11_COG_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "T11_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T11_COG", "array": ["(0, z_coordinate)"]}},
+            {"name": "T12_COG_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "T12_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T12_COG", "array": ["(0, z_coordinate)"]}},
+            {"name": "C1_C2_MP_y_off_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "C1_C2_MP_y_off", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C1_C2_MP_y_off", "array": ["(0, z_coordinate)"]}},
+            {"name": "C2_C3_MP_y_off_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "C2_C3_MP_y_off", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C2_C3_MP_y_off", "array": ["(0, z_coordinate)"]}},
+            {"name": "C3_C4_MP_y_off_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "C3_C4_MP_y_off", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C3_C4_MP_y_off", "array": ["(0, z_coordinate)"]}},
+            {"name": "C4_C5_MP_y_off_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "C4_C5_MP_y_off", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C4_C5_MP_y_off", "array": ["(0, z_coordinate)"]}},
+            {"name": "C5_C6_MP_y_off_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "C5_C6_MP_y_off", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C5_C6_MP_y_off", "array": ["(0, z_coordinate)"]}},
+            {"name": "C6_C7_MP_y_off_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "C6_C7_MP_y_off", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C6_C7_MP_y_off", "array": ["(0, z_coordinate)"]}},
+            {"name": "C7_T1_MP_y_off_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "C7_T1_MP_y_off", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C7_T1_MP_y_off", "array": ["(0, z_coordinate)"]}},
+            {"name": "T1_T2_MP_y_off_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "T1_T2_MP_y_off", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T1_T2_MP_y_off", "array": ["(0, z_coordinate)"]}},
+            {"name": "T2_T3_MP_y_off_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "T2_T3_MP_y_off", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T2_T3_MP_y_off", "array": ["(0, z_coordinate)"]}},
+            {"name": "T3_T4_MP_y_off_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "T3_T4_MP_y_off", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T3_T4_MP_y_off", "array": ["(0, z_coordinate)"]}},
+            {"name": "T4_T5_MP_y_off_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "T4_T5_MP_y_off", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T4_T5_MP_y_off", "array": ["(0, z_coordinate)"]}},
+            {"name": "T5_T6_MP_y_off_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "T5_T6_MP_y_off", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T5_T6_MP_y_off", "array": ["(0, z_coordinate)"]}},
+            {"name": "T6_T7_MP_y_off_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "T6_T7_MP_y_off", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T6_T7_MP_y_off", "array": ["(0, z_coordinate)"]}},
+            {"name": "T7_T8_MP_y_off_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "T7_T8_MP_y_off", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T7_T8_MP_y_off", "array": ["(0, z_coordinate)"]}},
+            {"name": "T8_T9_MP_y_off_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "T8_T9_MP_y_off", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T8_T9_MP_y_off", "array": ["(0, z_coordinate)"]}},
+            {"name": "T9_T10_MP_y_off_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "T9_T10_MP_y_off", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T9_T10_MP_y_off", "array": ["(0, z_coordinate)"]}},
+            {"name": "T10_T11_MP_y_off_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "T10_T11_MP_y_off", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T10_T11_MP_y_off", "array": ["(0, z_coordinate)"]}},
+            {"name": "T11_T12_MP_y_off_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "T11_T12_MP_y_off", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T11_T12_MP_y_off", "array": ["(0, z_coordinate)"]}},
+            {"name": "T12_L1_MP_y_off_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "T12_L1_MP_y_off", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T12_L1_MP_y_off", "array": ["(0, z_coordinate)"]}},
+            {"name": "L1_L2_MP_y_off_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "L1_L2_MP_y_off", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L1_L2_MP_y_off", "array": ["(0, z_coordinate)"]}},
+            {"name": "L2_L3_MP_y_off_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "L2_L3_MP_y_off", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L2_L3_MP_y_off", "array": ["(0, z_coordinate)"]}},
+            {"name": "L3_L4_MP_y_off_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "L3_L4_MP_y_off", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L3_L4_MP_y_off", "array": ["(0, z_coordinate)"]}},
+            {"name": "L4_L5_MP_y_off_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "L4_L5_MP_y_off", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L4_L5_MP_y_off", "array": ["(0, z_coordinate)"]}},
+            {"name": "Head_COG_x_off_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "Head_COG_x_off", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "Head_COG_x_off", "array": ["(0, z_coordinate)"]}},
+            {"name": "Head_COG_y_off_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "Head_COG_y_off", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "Head_COG_y_off", "array": ["(0, z_coordinate)"]}},
+            {"name": "REF_MP_acetabulum_centers_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "REF_MP_acetabulum_centers", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "REF_MP_acetabulum_centers", "array": ["(0, z_coordinate)"]}},
+            {"name": "R_Acetabulum_O_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_Acetabulum_O", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_Acetabulum_O", "array": ["(0, z_coordinate)"]}},
+            {"name": "L_Acetabulum_O_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_Acetabulum_O", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_Acetabulum_O", "array": ["(0, z_coordinate)"]}},
+            {"name": "Head_COG_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "Head_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "Head_COG", "array": ["(0, z_coordinate)"]}},
+            {"name": "Head_COG_Loc_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "Head_COG_Loc", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "Head_COG_Loc", "array": ["(0, z_coordinate)"]}},
+
+            {"name": "C1_COG_ry", "part_of": "Bone", "x": {"type": "NODE", "ID": "C1_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C1_COG", "array": ["(0, ry_displacement)"]}},
+            {"name": "C2_COG_ry", "part_of": "Bone", "x": {"type": "NODE", "ID": "C2_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C2_COG", "array": ["(0, ry_displacement)"]}},
+            {"name": "C3_COG_ry", "part_of": "Bone", "x": {"type": "NODE", "ID": "C3_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C3_COG", "array": ["(0, ry_displacement)"]}},
+            {"name": "C4_COG_ry", "part_of": "Bone", "x": {"type": "NODE", "ID": "C4_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C4_COG", "array": ["(0, ry_displacement)"]}},
+            {"name": "C5_COG_ry", "part_of": "Bone", "x": {"type": "NODE", "ID": "C5_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C5_COG", "array": ["(0, ry_displacement)"]}},
+            {"name": "C6_COG_ry", "part_of": "Bone", "x": {"type": "NODE", "ID": "C6_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C6_COG", "array": ["(0, ry_displacement)"]}},
+            {"name": "C7_COG_ry", "part_of": "Bone", "x": {"type": "NODE", "ID": "C7_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C7_COG", "array": ["(0, ry_displacement)"]}},
+            {"name": "T1_COG_ry", "part_of": "Bone", "x": {"type": "NODE", "ID": "T1_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T1_COG", "array": ["(0, ry_displacement)"]}},
+            
+            {"name": "Head_COG_ry", "part_of": "Bone", "x": {"type": "NODE", "ID": "Head_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "Head_COG", "array": ["(0, ry_displacement)"]}},
+            {"name": "Head_COG_ax", "part_of": "Bone", "x": {"type": "NODE", "ID": "Head_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "Head_COG", "array": ["(0, x_acceleration)"]}},
+            {"name": "Head_COG_ay", "part_of": "Bone", "x": {"type": "NODE", "ID": "Head_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "Head_COG", "array": ["(0, y_acceleration)"]}},
+            {"name": "Head_COG_az", "part_of": "Bone", "x": {"type": "NODE", "ID": "Head_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "Head_COG", "array": ["(0, z_acceleration)"]}},
+            {"name": "Head_COG_ares", "part_of": "Bone", "x": {"type": "NODE", "ID": "Head_COG", "array": ["(0, time)"]}, "y": {"function": {"name": "res", "param": {"data_vector": {"type": "NODE","ID": "Head_COG","array": ["(0, x_acceleration)", "(0, y_acceleration)", "(0, z_acceleration)"]}}}}},
+            
+            {"name": "Head_COG_vx", "part_of": "Bone", "x": {"type": "NODE", "ID": "Head_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "Head_COG", "array": ["(0, x_velocity)"]}},
+            {"name": "Head_COG_vy", "part_of": "Bone", "x": {"type": "NODE", "ID": "Head_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "Head_COG", "array": ["(0, y_velocity)"]}},
+            {"name": "Head_COG_vz", "part_of": "Bone", "x": {"type": "NODE", "ID": "Head_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "Head_COG", "array": ["(0, z_velocity)"]}},
+            {"name": "Head_COG_vres", "part_of": "Bone", "x": {"type": "NODE", "ID": "Head_COG", "array": ["(0, time)"]}, "y": {"function": {"name": "res", "param": {"data_vector": {"type": "NODE","ID": "Head_COG","array": ["(0, x_velocity)", "(0, y_velocity)", "(0, z_velocity)"]}}}}},
+            
+ 
+            {"name": "Sled_x", "part_of": "Env", "x": {"type": "NODE", "ID": "Sled", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "Sled", "array": ["(0, x_coordinate)"]}},
+            {"name": "Sled_vx", "part_of": "Env", "x": {"type": "NODE", "ID": "Sled", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "Sled", "array": ["(0, x_velocity)"]}},
+            {"name": "Sled_ax", "part_of": "Env", "x": {"type": "NODE", "ID": "Sled", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "Sled", "array": ["(0, x_acceleration)"]}},
+
+            {"name": "C1_COG_ax", "part_of": "Bone", "x": {"type": "NODE", "ID": "C1_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C1_COG", "array": ["(0, x_acceleration)"]}},
+            {"name": "C1_COG_ay", "part_of": "Bone", "x": {"type": "NODE", "ID": "C1_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C1_COG", "array": ["(0, y_acceleration)"]}},
+            {"name": "C1_COG_az", "part_of": "Bone", "x": {"type": "NODE", "ID": "C1_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C1_COG", "array": ["(0, z_acceleration)"]}},
+            {"name": "C1_COG_ares", "part_of": "Bone", "x": {"type": "NODE", "ID": "C1_COG", "array": ["(0, time)"]}, "y": {"function": {"name": "res", "param": {"data_vector": {"type": "NODE","ID": "C1_COG","array": ["(0, x_acceleration)", "(0, y_acceleration)", "(0, z_acceleration)"]}}}}},
+            
+            {"name": "T1_COG_ax", "part_of": "Bone", "x": {"type": "NODE", "ID": "T1_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T1_COG", "array": ["(0, x_acceleration)"]}},
+            {"name": "T1_COG_ay", "part_of": "Bone", "x": {"type": "NODE", "ID": "T1_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T1_COG", "array": ["(0, y_acceleration)"]}},
+            {"name": "T1_COG_az", "part_of": "Bone", "x": {"type": "NODE", "ID": "T1_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T1_COG", "array": ["(0, z_acceleration)"]}},
+            {"name": "T1_COG_ares", "part_of": "Bone", "x": {"type": "NODE", "ID": "T1_COG", "array": ["(0, time)"]}, "y": {"function": {"name": "res", "param": {"data_vector": {"type": "NODE","ID": "T1_COG","array": ["(0, x_acceleration)", "(0, y_acceleration)", "(0, z_acceleration)"]}}}}},
+            
+            {"name": "T1_COG_vx", "part_of": "Bone", "x": {"type": "NODE", "ID": "T1_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T1_COG", "array": ["(0, x_velocity)"]}},
+            {"name": "T1_COG_vy", "part_of": "Bone", "x": {"type": "NODE", "ID": "T1_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T1_COG", "array": ["(0, y_velocity)"]}},
+            {"name": "T1_COG_vz", "part_of": "Bone", "x": {"type": "NODE", "ID": "T1_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T1_COG", "array": ["(0, z_velocity)"]}},
+            {"name": "T1_COG_vres", "part_of": "Bone", "x": {"type": "NODE", "ID": "T1_COG", "array": ["(0, time)"]}, "y": {"function": {"name": "res", "param": {"data_vector": {"type": "NODE","ID": "T1_COG","array": ["(0, x_velocity)", "(0, y_velocity)", "(0, z_velocity)"]}}}}},
+            
+            {
+                "name":"NIC_curve",
+                "part_of":"NECK",
+                "y":{
+                "function":{
+                "name":"NIC",
+                "param":{
+                "a_head":{
+                "function":{
+                "name":"cfc",
+                "param":{
+                "cfc":180,
+                "sampled_array":{
+                "type":"NODE",
+                "ID":"Head_COG",
+                "array":[
+                "(0, x_acceleration)"
+                ]
+                },
+                "time":{
+                "type":"NODE",
+                "ID":"Head_COG",
+                "array":[
+                "(0, time)"
+                ]
+                }
+                }
+                }
+                },
+                "a_T1":{
+                "function":{
+                "name":"cfc",
+                "param":{
+                "cfc":60,
+                "sampled_array":{
+                "type":"NODE",
+                "ID":"T1_COG",
+                "array":[
+                "(0, x_acceleration)"
+                ]
+                },
+                "time":{
+                "type":"NODE",
+                "ID":"T1_COG",
+                "array":[
+                "(0, time)"
+                ]
+                }
+                }
+                }
+                },
+                "time":{
+                "type":"NODE",
+                "ID":"Head_COG",
+                "array":[
+                "(0, time)"
+                ]
+                }
+                }
+                }
+                },
+                "x":{
+                "type":"NODE",
+                "ID":"Head_COG",
+                "array":[
+                "(0, time)"
+                ]
+                }
+                }    
+                        
+        ]
+    }
+]
