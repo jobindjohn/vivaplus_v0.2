@@ -1,12 +1,13 @@
 $
-$ANSA_VERSION;20.1.0;
+$ANSA_VERSION;20.1.4;
 $
 $
-$ file created by  A N S A  Fri Sep  4 09:30:31 2020
+$ file created by  A N S A  Tue Nov  3 11:08:40 2020
 $
 $ output from :
 $
-$ C:/Meshing_WorkingFolder/vivaplus/vivaplus-50F_v0-1-7c.ansa
+$ C:/Users/jobinj/Box/vivaplus-share/VIVA-Plus-Meshing-Shared-Folder/vivaplus-50
+$ F_v0-2-1-d-2.ansa
 $
 $ANSA_USER_ATTRIBUTES;vivaplus-70-Lower-Extremity.k;INCLUDE;DM/IO Index;TEXT;11;
 $DM/Status;TEXT;WIP;
@@ -468,7 +469,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 LX-Soft-Thigh-Pelvis-connect-Tissue-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    705112    705112    705001              716002         0         0          
+    705112    705112    405100              716002         0         0          
 *SECTION_SOLID_TITLE
 LX-Soft-Thigh-Pelvis-connect-Tissue-L
 $    SECID|   ELFORM|
@@ -1030,7 +1031,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 LX-Soft-Thigh-Pelvis-connect-Tissue-R
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    755112    755112    705001              716002         0         0          
+    755112    755112    405100              716002         0         0          
 *SECTION_SOLID_TITLE
 LX-Soft-Thigh-Pelvis-connect-Tissue-R
 $    SECID|   ELFORM|

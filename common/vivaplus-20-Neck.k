@@ -1,12 +1,13 @@
 $
-$ANSA_VERSION;20.1.0;
+$ANSA_VERSION;20.1.4;
 $
 $
-$ file created by  A N S A  Fri Sep  4 12:42:39 2020
+$ file created by  A N S A  Tue Nov  3 11:08:39 2020
 $
 $ output from :
 $
-$ C:/Meshing_WorkingFolder/vivaplus/vivaplus-50F_v0-1-7g.ansa
+$ C:/Users/jobinj/Box/vivaplus-share/VIVA-Plus-Meshing-Shared-Folder/vivaplus-50
+$ F_v0-2-1-d-2.ansa
 $
 $ANSA_USER_ATTRIBUTES;vivaplus-20-Neck.k;INCLUDE;DM/IO Index;TEXT;5;DM/Status;TE
 $XT;WIP;
@@ -1720,7 +1721,7 @@ $       B1|       B2|
 *PART
 NE_Neck_Soft_Tissues
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    203001    203001    203001             2000000         0         0          
+    203001    203001    405100             2000000         0         0          
 *SECTION_SOLID_TITLE
 NE_Neck_Soft_Tissues
 $    SECID|   ELFORM|

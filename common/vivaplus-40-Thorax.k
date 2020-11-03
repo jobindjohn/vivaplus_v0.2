@@ -1,12 +1,13 @@
 $
-$ANSA_VERSION;20.1.0;
+$ANSA_VERSION;20.1.4;
 $
 $
-$ file created by  A N S A  Fri Sep  4 09:45:42 2020
+$ file created by  A N S A  Tue Nov  3 11:08:40 2020
 $
 $ output from :
 $
-$ C:/Meshing_WorkingFolder/vivaplus/vivaplus-50F_v0-1-7d.ansa
+$ C:/Users/jobinj/Box/vivaplus-share/VIVA-Plus-Meshing-Shared-Folder/vivaplus-50
+$ F_v0-2-1-d-2.ansa
 $
 $ANSA_USER_ATTRIBUTES;vivaplus-40-Thorax.k;INCLUDE;DM/IO Index;TEXT;14;DM/Status
 $;TEXT;WIP;
@@ -750,6 +751,26 @@ TX-Ribcage-Cartilage-Solid-L
 $    SECID|   ELFORM|
     403602         1
 *PART
+TX-Ribcage-external_nulls-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
+    403710    403710    406003                             0         0          
+*SECTION_SHELL_TITLE
+TX-Ribcage-external_nulls-L
+$    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
+    403710         2   0.83333        2.        1.         0         0
+$       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
+        1.        1.        1.        1.        0.                  0.          
+*PART
+TX-Ribcage-internal_nulls-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
+    403720    403720    406003                             0         0          
+*SECTION_SHELL_TITLE
+TX-Ribcage-internal_nulls-L
+$    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
+    403720         2   0.83333        2.        1.         0         0
+$       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
+        1.        1.        1.        1.        0.                  0.          
+*PART
 TX-Intercostal-muscle-External-T1-T12-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
     404000    404000    354111              354111         0         0          
@@ -814,7 +835,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 TX-Soft_Tissues-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    406002    406002    306002              306002         0         0          
+    406002    406002    405100              306002         0         0          
 *SECTION_SOLID_TITLE
 TX-Soft_Tissues-L
 $    SECID|   ELFORM|
@@ -822,7 +843,7 @@ $    SECID|   ELFORM|
 *PART
 TX-Internal_nulls-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    406003    406003    306003                             0         0          
+    406003    406003    406003                             0         0          
 *SECTION_SHELL_TITLE
 TX-Internal_nulls-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -1194,6 +1215,26 @@ TX-Ribcage-Cartilage-Solid-R
 $    SECID|   ELFORM|
     453602         1
 *PART
+TX-Ribcage-external_nulls-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
+    453710    453710    406003                             0         0          
+*SECTION_SHELL_TITLE
+TX-Ribcage-external_nulls-R
+$    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
+    453710         2   0.83333        2.        1.         0         0
+$       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
+        1.        1.        1.        1.        0.                  0.          
+*PART
+TX-Ribcage-internal_nulls-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
+    453720    453720    406003                             0         0          
+*SECTION_SHELL_TITLE
+TX-Ribcage-internal_nulls-R
+$    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
+    453720         2   0.83333        2.        1.         0         0
+$       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
+        1.        1.        1.        1.        0.                  0.          
+*PART
 TX-Intercostal-muscle-External-T1-T12-R
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
     454000    454000    354111              354111         0         0          
@@ -1258,7 +1299,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 TX-Soft-Tissues-R
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    456002    456002    306002              306002         0         0          
+    456002    456002    405100              306002         0         0          
 *SECTION_SOLID_TITLE
 TX-Soft-Tissues-R
 $    SECID|   ELFORM|
@@ -1266,7 +1307,7 @@ $    SECID|   ELFORM|
 *PART
 TX-internal_nulls-R
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    456003    456003    306003                             0         0          
+    456003    456003    406003                             0         0          
 *SECTION_SHELL_TITLE
 TX-internal_nulls-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -1429,6 +1470,10 @@ $ANSA_COLOR;403601;SECTION_SHELL;.658823549747467;.047058824449778;.945098042488
 $098;1.;
 $ANSA_COLOR;403602;SECTION_SOLID;.572549045085907;.376470595598221;.752941191196
 $442;1.;
+$ANSA_COLOR;403710;SECTION_SHELL;.905882358551025;.772549033164978;.200000002980
+$232;1.;
+$ANSA_COLOR;403720;SECTION_SHELL;.850980401039124;.890196084976196;.658823549747
+$467;1.;
 $ANSA_COLOR;404000;SECTION_SOLID;.976470589637756;.858823537826538;.513725519180
 $298;1.;
 $ANSA_COLOR;404001;SECTION_SHELL;.517647087574005;.639215707778931;.380392163991
@@ -1521,6 +1566,10 @@ $ANSA_COLOR;453601;SECTION_SHELL;.901960790157318;.447058826684952;.635294139385
 $223;1.;
 $ANSA_COLOR;453602;SECTION_SOLID;.831372559070587;.945098042488098;.658823549747
 $467;1.;
+$ANSA_COLOR;453710;SECTION_SHELL;.749019622802734;.427450984716415;.713725507259
+$369;1.;
+$ANSA_COLOR;453720;SECTION_SHELL;.674509823322296;.619607865810394;.023529412224
+$889;1.;
 $ANSA_COLOR;454000;SECTION_SOLID;.729411780834198;.223529413342476;.972549021244
 $049;1.;
 $ANSA_COLOR;454001;SECTION_SHELL;.733333349227905;.235294118523598;0.24705882370

@@ -1,14 +1,13 @@
 $
-$ANSA_VERSION;20.1.0;
+$ANSA_VERSION;20.1.4;
 $
 $
-$ file created by  A N S A  Wed Sep  9 23:11:49 2020
+$ file created by  A N S A  Tue Nov  3 11:08:36 2020
 $
 $ output from :
 $
-$ M:/VSI-P/010_RD/17_EU_VIRTUAL/020_Workpackage/WP2_HBM/T2_2_Seated OS-HBM 50F, 
-$ OS-HBM 50M, Active-HBM and validation/2_2_1_Upgrading the OS-HBM 50F/vivaplus-
-$ 50F_v0-1-7h.ansa
+$ C:/Users/jobinj/Box/vivaplus-share/VIVA-Plus-Meshing-Shared-Folder/vivaplus-50
+$ F_v0-2-1-d-2.ansa
 $
 $ANSA_USER_ATTRIBUTES;vivaplus-materials.k;INCLUDE;DM/IO Index;TEXT;7;DM/Status;
 $TEXT;WIP;
@@ -89,8 +88,8 @@ $      MID|       RO|        E|       PR|       DA|       DB|        K|
 NE_C_C1 Cortical_Reilly-et-al-1974
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     200011     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-$        C|        P|     LCSS|     LCSR|       VP|
-        0.        0.         0         0        0.
+$        C|        P|     LCSS|     LCSR|       VP|      LCF|
+        0.        0.         0         0        0.          
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.        0.        0.        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
@@ -105,8 +104,8 @@ $      SRC|      SRP|       FS|       VP|
 NE_C_C2 Cortical_Reilly-et-al-1974
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     200021     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-$        C|        P|     LCSS|     LCSR|       VP|
-        0.        0.         0         0        0.
+$        C|        P|     LCSS|     LCSR|       VP|      LCF|
+        0.        0.         0         0        0.          
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.        0.        0.        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
@@ -121,8 +120,8 @@ $      SRC|      SRP|       FS|       VP|
 NE_C_C3_Sup_Endplate_Reilly-et-al-1974
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     200023     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-$        C|        P|     LCSS|     LCSR|       VP|
-        0.        0.         0         0        0.
+$        C|        P|     LCSS|     LCSR|       VP|      LCF|
+        0.        0.         0         0        0.          
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.        0.        0.        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
@@ -131,8 +130,8 @@ $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8
 NE_C_C2_Inf_Endplate_Reilly-et-al-1974
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     200024     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-$        C|        P|     LCSS|     LCSR|       VP|
-        0.        0.         0         0        0.
+$        C|        P|     LCSS|     LCSR|       VP|      LCF|
+        0.        0.         0         0        0.          
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.        0.        0.        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
@@ -141,8 +140,8 @@ $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8
 NE_C_C3 Cortical_Reilly-et-al-1974
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     200031     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-$        C|        P|     LCSS|     LCSR|       VP|
-        0.        0.         0         0        0.
+$        C|        P|     LCSS|     LCSR|       VP|      LCF|
+        0.        0.         0         0        0.          
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.        0.        0.        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
@@ -157,8 +156,8 @@ $      SRC|      SRP|       FS|       VP|
 NE_C_C4_Sup_Endplate_Reilly-et-al-1974
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     200033     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-$        C|        P|     LCSS|     LCSR|       VP|
-        0.        0.         0         0        0.
+$        C|        P|     LCSS|     LCSR|       VP|      LCF|
+        0.        0.         0         0        0.          
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.        0.        0.        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
@@ -167,8 +166,8 @@ $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8
 NE_C_C3_Inf_Endplate_Reilly-et-al-1974
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     200034     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-$        C|        P|     LCSS|     LCSR|       VP|
-        0.        0.         0         0        0.
+$        C|        P|     LCSS|     LCSR|       VP|      LCF|
+        0.        0.         0         0        0.          
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.        0.        0.        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
@@ -177,8 +176,8 @@ $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8
 NE_C_C4 Cortical_Reilly-et-al-1974
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     200041     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-$        C|        P|     LCSS|     LCSR|       VP|
-        0.        0.         0         0        0.
+$        C|        P|     LCSS|     LCSR|       VP|      LCF|
+        0.        0.         0         0        0.          
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.        0.        0.        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
@@ -193,8 +192,8 @@ $      SRC|      SRP|       FS|       VP|
 NE_C_C5_Sup_Endplate_Reilly-et-al-1974
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     200043     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-$        C|        P|     LCSS|     LCSR|       VP|
-        0.        0.         0         0        0.
+$        C|        P|     LCSS|     LCSR|       VP|      LCF|
+        0.        0.         0         0        0.          
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.        0.        0.        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
@@ -203,8 +202,8 @@ $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8
 NE_C_C4_Inf_Endplate_Reilly-et-al-1974
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     200044     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-$        C|        P|     LCSS|     LCSR|       VP|
-        0.        0.         0         0        0.
+$        C|        P|     LCSS|     LCSR|       VP|      LCF|
+        0.        0.         0         0        0.          
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.        0.        0.        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
@@ -213,8 +212,8 @@ $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8
 NE_C_C5 Cortical_Reilly-et-al-1974
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     200051     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-$        C|        P|     LCSS|     LCSR|       VP|
-        0.        0.         0         0        0.
+$        C|        P|     LCSS|     LCSR|       VP|      LCF|
+        0.        0.         0         0        0.          
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.        0.        0.        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
@@ -229,8 +228,8 @@ $      SRC|      SRP|       FS|       VP|
 NE_C_C6_Sup_Endplate_Reilly-et-al-1974
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     200053     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-$        C|        P|     LCSS|     LCSR|       VP|
-        0.        0.         0         0        0.
+$        C|        P|     LCSS|     LCSR|       VP|      LCF|
+        0.        0.         0         0        0.          
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.        0.        0.        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
@@ -239,8 +238,8 @@ $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8
 NE_C_C5_Inf_Endplate_Reilly-et-al-1974
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     200054     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-$        C|        P|     LCSS|     LCSR|       VP|
-        0.        0.         0         0        0.
+$        C|        P|     LCSS|     LCSR|       VP|      LCF|
+        0.        0.         0         0        0.          
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.        0.        0.        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
@@ -249,8 +248,8 @@ $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8
 NE_C_C6 Cortical_Reilly-et-al-1974
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     200061     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-$        C|        P|     LCSS|     LCSR|       VP|
-        0.        0.         0         0        0.
+$        C|        P|     LCSS|     LCSR|       VP|      LCF|
+        0.        0.         0         0        0.          
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.        0.        0.        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
@@ -265,8 +264,8 @@ $      SRC|      SRP|       FS|       VP|
 NE_C_C7_Sup_Endplate_Reilly-et-al-1974
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     200063     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-$        C|        P|     LCSS|     LCSR|       VP|
-        0.        0.         0         0        0.
+$        C|        P|     LCSS|     LCSR|       VP|      LCF|
+        0.        0.         0         0        0.          
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.        0.        0.        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
@@ -275,8 +274,8 @@ $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8
 NE_C_C6_Inf_Endplate_Reilly-et-al-1974
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     200064     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-$        C|        P|     LCSS|     LCSR|       VP|
-        0.        0.         0         0        0.
+$        C|        P|     LCSS|     LCSR|       VP|      LCF|
+        0.        0.         0         0        0.          
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.        0.        0.        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
@@ -285,8 +284,8 @@ $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8
 NE_C_C7 Cortical_Reilly-et-al-1974
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     200071     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-$        C|        P|     LCSS|     LCSR|       VP|
-        0.        0.         0         0        0.
+$        C|        P|     LCSS|     LCSR|       VP|      LCF|
+        0.        0.         0         0        0.          
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.        0.        0.        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
@@ -301,8 +300,8 @@ $      SRC|      SRP|       FS|       VP|
 NE_C_T1_Sup_Endplate_Reilly-et-al-1974
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     200073     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-$        C|        P|     LCSS|     LCSR|       VP|
-        0.        0.         0         0        0.
+$        C|        P|     LCSS|     LCSR|       VP|      LCF|
+        0.        0.         0         0        0.          
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.        0.        0.        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
@@ -311,8 +310,8 @@ $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8
 NE_C_C7_Inf_Endplate_Reilly-et-al-1974
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     200074     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-$        C|        P|     LCSS|     LCSR|       VP|
-        0.        0.         0         0        0.
+$        C|        P|     LCSS|     LCSR|       VP|      LCF|
+        0.        0.         0         0        0.          
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.        0.        0.        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
@@ -2079,8 +2078,8 @@ $       A1|       A2|       A3|       V1|       V2|       V3|
 TX_Sternum_cortical-Iraeus-et-al-2020
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     301001     2.E-6      14.7       0.3                  0.        0.        0.
-$        C|        P|     LCSS|     LCSR|       VP|
-       2.5        7.         0         0        0.
+$        C|        P|     LCSS|     LCSR|       VP|      LCF|
+       2.5        7.         0         0        0.          
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.    0.0152       0.1        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
@@ -2089,8 +2088,8 @@ $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8
 TX_Sternum-trabecular-Rib-Mat-Iraeus-et-al-2020
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     301002  8.615E-7      0.04      0.45    0.0018        0.        0.        0.
-$        C|        P|     LCSS|     LCSR|       VP|
-        0.        0.         0         0        0.
+$        C|        P|     LCSS|     LCSR|       VP|      LCF|
+        0.        0.         0         0        0.          
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.      0.05      0.06       0.1        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
@@ -2151,8 +2150,8 @@ $      MID|       RO|       PC|       MU|    TEROD|    CEROD|       YM|       PR
 UX_Humerus_cortical_Vandenbulcke_et_al_transverse
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     301301  1.973E-6    12.516       0.2       0.1        1.     1.E20        0.
-$        C|        P|     LCSS|     LCSR|       VP|
-        0.        0.                            0.
+$        C|        P|     LCSS|     LCSR|       VP|      LCF|
+        0.        0.                            0.          
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.        0.        0.        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
@@ -2273,10 +2272,6 @@ $   ALPHA1|   ALPHA2|   ALPHA3|   ALPHA4|   ALPHA5|   ALPHA6|   ALPHA7|   ALPHA8
        20.        0.        0.        0.        0.        0.        0.        0.
 $GI       |GI       |    VFLAG|
      3.E-6      0.31          
-*MAT_NULL_TITLE
-TX_C_N_Skin_internal_nulls
-$      MID|       RO|       PC|       MU|    TEROD|    CEROD|       YM|       PR|
-    306003     1.E-6        0.        0.        0.        0.     0.001       0.3
 *MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM_TITLE
 TX_C_J_T1_T2
 $      MID|       RO|       KT|       KR|  UNLDOPT|   OFFSET|    DAMPF|    IFLAG|
@@ -2505,8 +2500,8 @@ $       A1|       A2|       A3|       V1|       V2|       V3|
 TX_Rib_Cartilage-Iraeus-et-al-2020
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     353111     1.E-6     0.049       0.4   0.00485        0.        0.        0.
-$        C|        P|     LCSS|     LCSR|       VP|
-        0.        0.         0         0        0.
+$        C|        P|     LCSS|     LCSR|       VP|      LCF|
+        0.        0.         0         0        0.          
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.    0.1675    0.3296        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
@@ -2603,8 +2598,8 @@ $       A1|       A2|       A3|       V1|       V2|       V3|
 TX-Ribs-Trabecular-Iraeus-et-al-2020
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     403003  8.615E-7      0.04      0.45    0.0018        0.        0.        0.
-$        C|        P|     LCSS|     LCSR|       VP|
-        0.        0.         0         0        0.
+$        C|        P|     LCSS|     LCSR|       VP|      LCF|
+        0.        0.         0         0        0.          
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.      0.05      0.06       0.1        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
@@ -2613,8 +2608,8 @@ $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8
 TX-Ribs cortical-Iraeus-et-al-2020
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     403004     2.E-6      14.7       0.3                  0.        0.        0.
-$        C|        P|     LCSS|     LCSR|       VP|
-       2.5        7.         0         0        0.
+$        C|        P|     LCSS|     LCSR|       VP|      LCF|
+       2.5        7.         0         0        0.          
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.    0.0152       0.1        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
@@ -2719,12 +2714,30 @@ $       A1|       A2|       A3|       V1|       V2|       V3|
 TX-Intercotal-muscle-External-T1-T12-L-Nulls
 $      MID|       RO|       PC|       MU|    TEROD|    CEROD|       YM|       PR|
     404001     1.E-7        0.        0.        0.        0.        1.       0.3
+*MAT_OGDEN_RUBBER_TITLE
+Hosein Ogden model - Upper range of compressive stiffness from experiments
+$      MID|       RO|       PR|        N|       NV|        G|     SIGF|      REF|
+    405100     9.E-7   0.49998         0         6                            0.
+$      MU1|      MU2|      MU3|      MU4|      MU5|      MU6|      MU7|      MU8|
+    3.5E-8                                                                      
+$   ALPHA1|   ALPHA2|   ALPHA3|   ALPHA4|   ALPHA5|   ALPHA6|   ALPHA7|   ALPHA8|
+       20.                                                                      
+$GI       |GI       |    VFLAG|
+    1.3E-6    0.0003          
+$GI       |GI       |
+    1.8E-6      0.05
+$GI       |GI       |
+    2.2E-6       0.6
 *MAT_LUNG_TISSUE_TITLE
 TX_Thoracic_Cavity_Lung_Gayzik_et_al_2010
 $      MID|       RO|        K|        C|    DELTA|    ALPHA|     BETA|
     405101   1.18E-7  8.485E-5   2.39E-7    0.0702     0.629    -1.143
 $       C1|       C2|     LCID|    TRAMP|       NT|
     2.2E-8      1.42                              
+*MAT_NULL_TITLE
+TX_C_N_Skin_internal_nulls
+$      MID|       RO|       PC|       MU|    TEROD|    CEROD|       YM|       PR|
+    406003     1.E-6        0.        0.        0.        0.     0.001       0.3
 *MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM_TITLE
 TX_C_J_L1_L2
 $      MID|       RO|       KT|       KR|  UNLDOPT|   OFFSET|    DAMPF|    IFLAG|
@@ -2957,8 +2970,8 @@ $        K|
 PE-Pelvic-Trabecular-Bone-Dalstra-et-al-1993
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     601002   3.45E-7    0.0236       0.2        1.        0.     1.E20        0.
-$        C|        P|     LCSS|     LCSR|       VP|
-        0.        0.                            0.
+$        C|        P|     LCSS|     LCSR|       VP|      LCF|
+        0.        0.                            0.          
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.        0.        0.        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
@@ -3265,8 +3278,8 @@ $      MID|       RO|       PC|       MU|    TEROD|    CEROD|       YM|       PR
 LX_L_CB_Patella_Reilly-et-al-1974
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     710401     2.E-6      17.1       0.3     1.E10        0.     1.E20        0.
-$        C|        P|     LCSS|     LCSR|       VP|
-        0.        0.                            0.
+$        C|        P|     LCSS|     LCSR|       VP|      LCF|
+        0.        0.                            0.          
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.        0.        0.        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
@@ -10586,8 +10599,6 @@ $ANSA_COLOR;305162;MAT20 MAT_RIGID;.835294127464294;0.95686274766922;.9333333373
 $06976;1.;
 $ANSA_COLOR;306002;MAT77 MAT_OGDEN_RUBBER;.709803938865662;.015686275437474;.266
 $666680574417;1.;
-$ANSA_COLOR;306003;MAT9 MAT_NULL;.921568632125854;.807843148708344;.019607843831
-$182;1.;
 $ANSA_COLOR;309011;MAT119 MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM;.847058832645
 $416;.850980401039124;.235294118523598;1.;
 $ANSA_COLOR;309021;MAT119 MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM;.854901969432
@@ -10668,8 +10679,12 @@ $ANSA_COLOR;403125;MAT20 MAT_RIGID;.623529434204102;.137254908680916;.0980392172
 $93262;1.;
 $ANSA_COLOR;404001;MAT9 MAT_NULL;.721568644046783;.878431379795074;.560784339904
 $785;1.;
+$ANSA_COLOR;405100;MAT77 MAT_OGDEN_RUBBER;.901960790157318;.933333337306976;.423
+$529416322708;1.;
 $ANSA_COLOR;405101;MAT129 MAT_LUNG_TISSUE;.745098054409027;0.18823529779911;.396
 $078437566757;1.;
+$ANSA_COLOR;406003;MAT9 MAT_NULL;.921568632125854;.807843148708344;.019607843831
+$182;1.;
 $ANSA_COLOR;409011;MAT119 MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM;.952941179275
 $513;.254901975393295;0.26274511218071;1.;
 $ANSA_COLOR;409021;MAT119 MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM;.960784316062
