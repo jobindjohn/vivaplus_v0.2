@@ -1,13 +1,13 @@
 $
-$ANSA_VERSION;20.1.3;
+$ANSA_VERSION;20.1.4;
 $
 $
-$ file created by  A N S A  Mon Oct 19 07:30:10 2020
+$ file created by  A N S A  Tue Nov  3 11:08:39 2020
 $
 $ output from :
 $
-$ /disk/project/eriks/P20017_Virtual/work/Vivaplus_v021a/contact_mod/vivaplus-50
-$ F_v0-2-1-a.ansa
+$ C:/Users/jobinj/Box/vivaplus-share/VIVA-Plus-Meshing-Shared-Folder/vivaplus-50
+$ F_v0-2-1-d-2.ansa
 $
 $ANSA_USER_ATTRIBUTES;vivaplus-30-Upper-Extremity.k;INCLUDE;DM/IO Index;TEXT;15;
 $DM/Status;TEXT;WIP;
@@ -345,7 +345,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 UX-Soft-UpperArm-Tissue-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    305122    305122  41983100              616002         0         0          
+    305122    305122    405100              616002         0         0          
 *SECTION_SOLID_TITLE
 UX-Soft-UpperArm-Tissue-L
 $    SECID|   ELFORM|
@@ -731,7 +731,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 UX-Soft-UpperArm-Tissue-R
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    355122    355122  41983100              616002         0         0          
+    355122    355122    405100              616002         0         0          
 *SECTION_SOLID_TITLE
 UX-Soft-UpperArm-Tissue-R
 $    SECID|   ELFORM|

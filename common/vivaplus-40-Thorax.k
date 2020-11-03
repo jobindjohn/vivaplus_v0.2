@@ -1,13 +1,13 @@
 $
-$ANSA_VERSION;20.1.3;
+$ANSA_VERSION;20.1.4;
 $
 $
-$ file created by  A N S A  Mon Oct 19 07:30:10 2020
+$ file created by  A N S A  Tue Nov  3 11:08:40 2020
 $
 $ output from :
 $
-$ /disk/project/eriks/P20017_Virtual/work/Vivaplus_v021a/contact_mod/vivaplus-50
-$ F_v0-2-1-a.ansa
+$ C:/Users/jobinj/Box/vivaplus-share/VIVA-Plus-Meshing-Shared-Folder/vivaplus-50
+$ F_v0-2-1-d-2.ansa
 $
 $ANSA_USER_ATTRIBUTES;vivaplus-40-Thorax.k;INCLUDE;DM/IO Index;TEXT;14;DM/Status
 $;TEXT;WIP;
@@ -835,7 +835,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 TX-Soft_Tissues-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    406002    406002  41983100              306002         0         0          
+    406002    406002    405100              306002         0         0          
 *SECTION_SOLID_TITLE
 TX-Soft_Tissues-L
 $    SECID|   ELFORM|
@@ -1299,7 +1299,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 TX-Soft-Tissues-R
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    456002    456002  41983100              306002         0         0          
+    456002    456002    405100              306002         0         0          
 *SECTION_SOLID_TITLE
 TX-Soft-Tissues-R
 $    SECID|   ELFORM|
