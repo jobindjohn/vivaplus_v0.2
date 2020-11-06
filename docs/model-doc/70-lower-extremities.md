@@ -18,9 +18,9 @@
 
 ### Femur
 
-The femur crossectional are was optimised to meet the target values of Klein et al. (2015) [@Klein2015].
+The femur crossection was optimised to meet the target values of Klein et al. (2015) [@Klein2015].
 The following target values were used (applying the regression model described in the paper and using age, stature and BMI of the 50F VIVA + models (50years, 161.6cm, 24 kg/m^2)
-An elliptic inner shape was aussumed, which is in line with medical images. However, if a proper inner geometry becomes available, this should be updated. The maximum difference to the reference is 3.3%.
+An elliptic inner shape was assumed, which is in line with medical images. However, if a proper inner geometry becomes available, this should be updated. The maximum difference to the reference is 3.3%.
 
 
 | Bone crossectional area [mm^2]    | L1  | L2  | L3  | L4  | L5  |
@@ -221,7 +221,7 @@ Cartilage thickness is based on (TODO for UL)
 
 The attachment point on the tibia is 36mm below the most distal edge of the patella.
 
-This is in line with @Yoo2007, where an average value of 38 mm was reported from the 30 female knees which were measrued in MRIs.
+This is in line with @Yoo2007, where an average value of 38 mm was reported from the 30 female knees which were measured in MRIs.
 
 They report a proximal width of 27.5 mm and a tickness of 3 mm while for the distal tendon a tickness of 4.6 mm and a width of 21.5 mm is reported.
 

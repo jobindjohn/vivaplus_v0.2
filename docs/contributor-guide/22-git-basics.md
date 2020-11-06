@@ -40,7 +40,7 @@ make a commit, take a snapshot(save your work,): `git commit`
 
 
 
-## How to colloborate
+## How to collaborate
 
 ### VIVA+ git workflow
 

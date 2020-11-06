@@ -42,7 +42,7 @@ The ribcage is modelled based on Iraeus&Pipkorn, 2019: "Development and Validati
 ### Model Components
 
 ## Skin
-strain rate dependent skin material porperties based on [@Ottenio2015]
+Strain rate dependent skin material properties based on [@Ottenio2015]
 
 | Features          | UTS (MPa)    | Stretch ratio at UTS | Stretch ratio at failure | Strain energy (MJ/m3) | E2 (MPa)      |
 | ----------------- | ------------ | -------------------- | ------------------------ | --------------------- | ------------- |

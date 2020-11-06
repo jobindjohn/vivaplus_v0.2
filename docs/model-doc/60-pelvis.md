@@ -8,11 +8,11 @@
 
 ### Pelvis
 
-For modeling the cortical bone of the pelvis, data from Kemper et al., 2008 [@Kemper2008] is applied. although it only includes males it was the most appropiate source iderntified within our review. 
+For modeling the cortical bone of the pelvis, data from Kemper et al., 2008 [@Kemper2008] is applied. Although it only includes males, it was the most appropiate source identified within our review. 
 
-We have derived an average curve from all curves that were presented in the paper. It could be later on decided to exclude some curves for the average. The curve was converted to true stress / strain
+We have derived an average curve from all curves that were presented in the paper. It could be later on decided to exclude some curves for the average. The curve was converted to true stress / strain.
 
-The trabecular bone is modellea as linear elastic material using the parameters descibed in [@Dalstra1993].
+The trabecular bone is modelled as linear elastic material using the parameters descibed in [@Dalstra1993].
 
 <!-- Notes: From Fleps et al. (2018): "Acetabular cartilage was modelled based on the study of Burgin et al. [28] using a hyperelastic material model without viscoelastic effect (LS Dyna, MAT_077, v = 0.495, rho = 0.795 g/cm3, C10 = 0.352 MPa, C01 = 0.306 MPa, C11 = 0.052 MPa). Hyperelastic material parameters for fibrous cartilage at the pubic symphysis were based on the study from Li et al. [29] (LS Dyna, MAT_027, v = 0.495, rho = 0.795 g/cm3, C10 = 0.1 MPa, C01 = 0.45 MPa). The same parameters were also used for the cartilage in the sacroiliac joint for lack of better published information."
 Pelvic ligaments were modelled with tension only cable elements with material properties according to Hammer et al. [31] (LS Dyna, MAT_071, E = 395 MPa). Cross sections that were based on subject specific insertion site length and an average ligament thickness of 1mm. -->
@@ -20,7 +20,7 @@ Material properties for the pelvic ligaments are descibed in Hammer et al. (2013
 
 <!-- Todo:
 
-- [ ] The isolated pelvic bone + joints should be validdated with the quasisatic and dynamic (spheric) impactor tests of [@Guillemot.1998] and   [@Salzar2009]
+- [ ] The isolated pelvic bone + joints should be validated with the quasisatic and dynamic (spheric) impactor tests of [@Guillemot.1998] and   [@Salzar2009]
 - [ ] Overall stiffness of Pelvis + Flesh should be validated with tests from Viano (1989)
  -->
 
@@ -67,8 +67,8 @@ The ligaments were modelled with MAT_FABRIC. The average modulus of elasticity (
 
 
 
-<!-- Notes: [@Fleps2018] have modelled the hip joint capsule ligaments with seperated matrix and fiber material. The matrix was modelled as shell with
-linear elastic material and E=0.002 MPA. The fibers were modelles as cable elements (MAT_071) with materiual properties according to Hewitt et al. (E=200 MPa with a toe region of 8% strain) -->
+<!-- Notes: [@Fleps2018] have modelled the hip joint capsule ligaments with separated matrix and fiber material. The matrix was modelled as shell with
+linear elastic material and E=0.002 MPA. The fibers were modelled as cable elements (MAT_071) with material properties according to Hewitt et al. (E=200 MPa with a toe region of 8% strain) -->
 
 A beam element from the femur head to the acetbulum was included to replicate the "ligament teres" . It was modelled linear elastic using the information from tests of Ito et al. (2009) [@Ito2009] in which the femur was teared apart from the acetabulum parallel to the femur shaft with the hip being in a neutral position. Load-Displacement curves are provided up to 5 mm for a constant loading of 4 mm/s.
 Around 300 N were needed to move the femur 5 mm apart from the pelvis with intact hip capsule. 50 N were needed when the capsule was completely resected. 
@@ -79,7 +79,7 @@ TODO:
 
 #### Modelling of sacroilliac joint
 
-To model the stiffness of the sacroiliac join, a part consisting of one layer solid elements is cerated between the sacrum and the ilium.
+To model the stiffness of the sacroiliac join, a part consisting of one layer solid elements is created between the sacrum and the ilium.
 
 The material parameters are chosen based on [@Miller1987].
 Data is based on 7 males and one female aged between 59 and 74 years. 
@@ -115,10 +115,10 @@ The density is set to the same one as for the PS disk
 - [ ] The sacroilliac should be recalibrated using the experiments of [@Guillemot.1998] as male and female pelvic bones were tested. For the quaistatic tests, a pelvic bone of  one female (S7) with an age of 63 years a height of 160 cm and a weight of 55 kg.  For the dynamic tests, 6 out of the 12 tested pelvic bones were from females with an age between 65 and 81.
 
 
-- [ ] For the male, [@Salzar2009] can be also used: The quasi-static tests were done with a testing machine at a constant 4mm/s The dynamic tests were done with a drop tower, consisting of a 76.6 kg weight dropped along a linear bearing rail onto a transfer beam, Figure 2 3. Between the weight and the beam was a 19 mm viscoelastic material Sorbothane (Sorbothane, Inc., Kent, OH)
+- [ ] For the male, [@Salzar2009] can be also used: The quasi-static tests were done with a testing machine at a constant 4mm/s. The dynamic tests were done with a drop tower, consisting of a 76.6 kg weight dropped along a linear bearing rail onto a transfer beam, Figure 2 3. Between the weight and the beam was a 19 mm viscoelastic material Sorbothane (Sorbothane, Inc., Kent, OH)
 
 
-The scaroiliac joint is connected with the illium using a tied contact 
+The sacroiliac joint is connected with the ilium using a tied contact.
 
 According to https://www.dynamore.de/de/download/papers/2015-ls-dyna-europ/documents/sessions-g-5-8/mpp-contact-options-and-recommendations a constraint based tied contact should be used with the parameters IGNORE=2 GROUPABLE=1 TIEDID=1
 

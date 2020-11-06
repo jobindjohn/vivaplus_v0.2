@@ -1,6 +1,6 @@
 # Model Data Structure
 
-The goal is to structure all the model data in such a way that it is enables
+The goal is to structure all the model data in such a way that it enables
 collaborative development of the model, which is one of the motivations of having
 an open model.
 One of the requirements for this is persistent (does not change over time) and
@@ -61,11 +61,11 @@ The left and right extremities follow the same numbering scheme, rather than sep
 
 Components located on the mid-sagittal plane will have a default value of 0, unless further sub-division is required for the sake of post-processing. For instance, separate output for responses of right and left halves of the intervertebral disc or spinal ligaments may of be interest in side/oblique impact, in which case, the components can be defined as different parts using this numbering system.
 
-Node numbering will also follow the same number scheme as the body region and sagittal aspect.
+Node numbering will also follow the same numbering scheme as the body region and sagittal aspect.
 
 ### Component/Organ
 
-The third and fourth digits of the identifier is used to describe components/organs in respective body regions. The fifth digit is used to identify a sub-component of the anatomical entity, for e.g., cortical and trabecular bone. This allows for a sub-components to represented within component under a common identifier.
+The third and fourth digits of the identifier is used to describe components/organs in respective body regions. The fifth digit is used to identify a sub-component of the anatomical entity, e.g., cortical and trabecular bone. This allows for sub-components to represented within a component under a common identifier.
 
 The component identifier for a body region is numbered in increasing order from superior to inferior direction. If multiple components are present at the same level, the components are numbered from the medial to lateral direction in the supine position and anterior to posterior.
 An example of the left upper extremity skeletal system is given below.
