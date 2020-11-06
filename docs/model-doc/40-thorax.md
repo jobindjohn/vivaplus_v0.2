@@ -62,6 +62,11 @@ Based on [@Polio2018] the young modulus for the Null material was set to 1kPA = 
 
 The material was not stable in the current model, which is why the liver material is used in the current preliminary version of the model.
 
+
+## Soft tissue
+The outer soft tissue in the thorax (PIDs 406002 and 456002), pelvis (PIDs 606002 and 656002), upper arms (PIDs 305122 and 355122) and upper legs (PIDs 705112 and 755112) is modelled using the adipose tissue model from Naseri [TODO: Add ref.]. The model, which represents the upper range of compressive stiffness from experiments, is implemented as MAT_OGDEN_RUBBER with material parameters given by RO = 9.0e-7, PR = 0.49998, MU1 = 3.5E-8, ALPHA1 = 20.0, G1 = 1.3E-6, BETA1 = 3.0E-4, G2 = 1.8E-6, BETA2 = 0.05, G3 = 2.2E-6, BETA3 =  0.6. This model was found be more robust than the fat model by Engelbrektsson [TODO: Add ref.], which is similar, but only contains one prony series damping term.
+
+
 <!-- TODO
 - [ ] change to compressible material and add sliding contact -->
 
