@@ -28,13 +28,12 @@ The include files that are common to  (material/section/property definitions, co
 
 ```
 viva-plus
-├───50F
-│   ├───Seated
-│   └───Standing
-├───assets
-├───common
-├───docs
-└───validation
+├─── model
+│   ├─── 50F-seated
+|   ├─── 50F-standing
+│   └─── common
+├─── assets
+└─── docs
 ```
 
 ## Model updates
