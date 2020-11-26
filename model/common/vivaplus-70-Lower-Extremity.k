@@ -1,25 +1,21 @@
 $
-$ANSA_VERSION;20.1.4;
+$ANSA_VERSION;20.1.0;
 $
 $
-$ file created by  A N S A  Tue Nov  3 11:08:40 2020
+$ file created by  A N S A  Thu Nov 26 21:34:32 2020
 $
 $ output from :
 $
-$ C:/Users/jobinj/Box/vivaplus-share/VIVA-Plus-Meshing-Shared-Folder/vivaplus-50
-$ F_v0-2-1-d-2.ansa
+$ B:/SYNC/VIRTUAL/50F-O/2020-11-08/Common/vivaplus-50F_v0-2-1-g.ansa
 $
 $ANSA_USER_ATTRIBUTES;vivaplus-70-Lower-Extremity.k;INCLUDE;DM/IO Index;TEXT;11;
 $DM/Status;TEXT;WIP;
 $
 $
 $
-$
-$
-$
+*KEYWORD
 $ANSA_COLOR;vivaplus-70-Lower-Extremity.k;INCLUDE;.729411780834198;.309803932905
 $197;.223529413342476;1.;
-*KEYWORD
 *PART
 LX-Bone-Femur-head-Cortical-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
@@ -27,7 +23,7 @@ $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SOLID_TITLE
 LX-Bone-Femur-head-Cortical-L
 $    SECID|   ELFORM|
-    701111         2
+    701111        -2
 *PART
 LX-Bone-Femur-head-Trabecular-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
@@ -53,7 +49,7 @@ $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SOLID_TITLE
 LX-Bone-Femur-neck-Cortical-L
 $    SECID|   ELFORM|
-    701121         2
+    701121        -2
 *PART
 LX-Bone-Femur-neck-Trabecular-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
@@ -69,7 +65,7 @@ $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SOLID_TITLE
 LX-Bone-Femur-greater-trochanter-Cortical-L
 $    SECID|   ELFORM|
-    701131         2
+    701131        -2
 *PART
 LX-Bone-Femur-greater-trochanter-Trabecular-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
@@ -85,7 +81,7 @@ $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SOLID_TITLE
 LX-Bone-Femur-lesser-trochanter-Cortical-L
 $    SECID|   ELFORM|
-    701141         2
+    701141        -2
 *PART
 LX-Bone-Femur-lesser-trochanter-Trabecular-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
@@ -101,7 +97,7 @@ $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SOLID_TITLE
 LX-Bone-Femur-shaft-proximal-Cortical-L
 $    SECID|   ELFORM|
-    701151         2
+    701151        -2
 *PART
 LX-Bone-Femur-shaft-proximal-Trabecular-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
@@ -117,7 +113,7 @@ $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SOLID_TITLE
 LX-Bone-Femur-shaft-middle-Cortical-L
 $    SECID|   ELFORM|
-    701161         2
+    701161        -2
 *PART
 LX-Bone-Femur-shaft-distal-Cortical-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
@@ -125,7 +121,7 @@ $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SOLID_TITLE
 LX-Bone-Femur-shaft-distal-Cortical-L
 $    SECID|   ELFORM|
-    701171         2
+    701171        -2
 *PART
 LX-Bone-Femur-shaft-distal-Trabecular-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
@@ -141,7 +137,7 @@ $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SOLID_TITLE
 LX-Bone-Femur-distal-medial-condyle-Cortical-L
 $    SECID|   ELFORM|
-    701181         2
+    701181        -2
 *PART
 LX-Bone-Femur-distal-medial-condyle-Trabecular-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
@@ -167,7 +163,7 @@ $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SOLID_TITLE
 LX-Bone-Femur-distal-intercondylar-fossa-Cortical-L
 $    SECID|   ELFORM|
-    701191         2
+    701191        -2
 *PART
 LX-Bone-Femur-distal-intercondylar-fossa-Trabecular-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
@@ -183,7 +179,7 @@ $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SOLID_TITLE
 LX-Bone-Femur-distal-lateral-condyle-Cortical-L
 $    SECID|   ELFORM|
-    701201         2
+    701201        -2
 *PART
 LX-Bone-Femur-distal-lateral-condyle-Trabecular-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
