@@ -7,6 +7,8 @@ Finite Element Models of Human Body for injury assessments, developed primarily 
 
 ## **Models under development**
 
+VIVA+ v0.2.1
+
 ### Vehicle Occupant Models
 
 - Average female (**50F**)

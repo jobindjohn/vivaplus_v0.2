@@ -3,9 +3,12 @@
 
 ## Checklist before version increment
 
-- [ ] Update `CHANGELOG.md`
-- [ ] Update version `*TITLE` for all models
-  - [ ] 50F-seated
-  - [ ] 50F-standing
-- [ ] Change version number and release date on header comment (all models)
 - [ ] Run robustness and test simulations
+- [ ] Update `CHANGELOG.md`
+- [ ] Update version number in:
+  - [ ] `*TITLE` for all models
+    - [ ] 50F-seated
+    - [ ] 50F-standing
+  - [ ] header comment 
+  - [ ] Repo README
+  - [ ] docs/ìndex.md for documentation Homepage 

@@ -10,7 +10,7 @@ Join the **users' community** [![project chat](https://img.shields.io/badge/zuli
 
 ## Quick start
 
-Current beta version is `0.2.0`
+Current beta version is `0.2.1`
 
 Download the files (download link above)
 
