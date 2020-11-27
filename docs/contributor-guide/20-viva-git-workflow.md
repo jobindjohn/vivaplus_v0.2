@@ -13,7 +13,7 @@ A brief overview of the git Workflow is provided here, but detailed help can be 
 
 !!! note "Introduction to Git: VIVA+ Workshop"
     
-    A brief introduction to Git and workflow using branches can found on the [VIVA Workshop handouts](https://viva-workshop.readthedocs.io/en/latest/2-1-git-overview/)
+    A brief introduction to Git and workflow using branches can be found on the [VIVA Workshop handouts](https://viva-workshop.readthedocs.io/en/latest/2-1-git-overview/)
 
 ## Step 1: **Clone** the model
 
@@ -91,7 +91,7 @@ git push origin BranchName
 
 !!! warning "Work in Progress"
 
-    These model tests will be run to verify the performance and responses of the model
+    These model tests will be run to verify the performance and response of the model
         
 
 
