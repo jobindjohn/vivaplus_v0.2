@@ -7,6 +7,15 @@ and this project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.ht
 
 # beta  versions
 
+## 0.2.1
+
+### Added
+
+- PIPER metadata for positioning (assets/preprocess)
+### Changed
+
+### Removed
+
 ## 0.2.0 - 2020-09-10
 
 ## Added
