@@ -12,7 +12,13 @@ and this project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.ht
 ### Added
 
 - PIPER metadata for positioning (assets/preprocess)
+- Added prestretch in knee ligaments
+- Added tiebreak sliding contact between thorax soft tissue and rib cage
+
 ### Changed
+- Tied lower part of abdominal soft tissue to pelvis
+- Adjusted hourglass settings to reduce hourglass energies
+- Changed material parameters for thorax soft tissue to the fat tissue model from Naseri's thesis
 
 ### Removed
 
