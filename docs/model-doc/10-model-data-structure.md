@@ -29,7 +29,7 @@ to the body regions/components.** An overview of the numbering scheme is given b
 The whole body is segmented into seven regions to define the body region identifiers.
 
 | **Identifier** | **Body Region**   |
-| --------------:| ----------------- |
+|---------------:|-------------------|
 |              1 | Head              |
 |              2 | Neck              |
 |              3 | Upper Extremities |
@@ -46,10 +46,10 @@ The torso is divided into three regions: thoracic, abdominal, and pelvic segment
 
 The position of the anatomical entity with respect to the mid-sagittal plane, i.e. left or right side of body, is described by the second digit of the identifier.
 
-**Sagittal Aspect**|**Sagittal Aspect**
-:-----:|:-----:
-X 0 XXX X |Left
-X 5 XXX X |Right
+**Sagittal Aspect** | **Sagittal Aspect**
+:------------------:|:------------------:
+     X 0 XXX X      |        Left
+     X 5 XXX X      |        Right
 
 The left and right extremities follow the same numbering scheme, rather than separate body region identifier. Hence, symmetric components will have identifiers that are offset by 50,000.
 
@@ -70,28 +70,29 @@ The third and fourth digits of the identifier is used to describe components/org
 The component identifier for a body region is numbered in increasing order from superior to inferior direction. If multiple components are present at the same level, the components are numbered from the medial to lateral direction in the supine position and anterior to posterior.
 An example of the left upper extremity skeletal system is given below.
 
-**Component Identifier**|**Description**
------:|:-----
-30 1 10 0 | Clavicle
-30 1 20 0 | Scapula
-30 1 30 0|Humerus
-30 1 40 0|Ulna
-30 1 50 0|Radius
-30 1 60 0 – 60 2 30 0|Carpal Bones
-30 2 40 0 – 60 2 80 0|Metacarpal Bones
-30 2 90 0 – 65 3 20 0|Phalanges
+**Component Identifier** | **Description**
+------------------------:|:----------------
+               30 1 10 0 | Clavicle
+               30 1 20 0 | Scapula
+               30 1 30 0 | Humerus
+               30 1 40 0 | Ulna
+               30 1 50 0 | Radius
+   30 1 60 0 – 30 2 30 0 | Carpal Bones
+   30 2 40 0 – 30 2 80 0 | Metacarpal Bones
+   30 2 90 0 – 30 3 20 0 | Phalanges
 
 ### Material specification
 In the current version materials are only specified once per region to avoid redundancies during the development process. At a later stage it is planned to have one material card per part, so that PID=MID.
 
-| last digit | type       |
-| ---------- | ---------- |
-| 1          | cortical   |
-| 2          | trabecular |
-| 3          | rigid      |
-| 4          | null       |
-| 5          | skin       |
-| 6          | flesh      |
+| last digit | type            |
+|------------|-----------------|
+| 1          | cortical        |
+| 2          | trabecular      |
+| 3          | rigid           |
+| 4          | null            |
+| 5          | skin            |
+| 6          | muscle          |
+| 7          | fat/soft tissue |
 
 Rigidified parts of bones that are used for joint definitions are seperated into an extra part (marked with 3 as last digit) to avoid that rigid elements are included in postprocessing routines.
 
