@@ -20,8 +20,9 @@ nav:
     - User Guide:
     #    - User guide: user-guide/01-getting-started.md
     #    - Setting up a simulation: user-guide/10-setting-up.md
-        - Postprocessing with Dynasaur: user-guide/30-postprocess-dynasaur.md
-    #    - LS-Dyna Quick Reference: user-guide/50-lsdyna-ref.md
+        - Positioning with PIPER: user-guide/30-positioning-with-PIPER.md
+        - Postprocessing with Dynasaur: user-guide/60-postprocess-dynasaur.md
+    #    - LS-Dyna Quick Reference: user-guide/80-lsdyna-ref.md
     - Model Documentation:
         # Introduction to the Models: 'model-doc/00-model-info.md'
         - Anthropometry: model-doc/01-anthro.md

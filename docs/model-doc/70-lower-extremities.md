@@ -5,8 +5,9 @@
     This section is being updated
 
 
-??? info "Lower Extremity Components Identifier Overview"
-    |       Component Group  | Identifier Range (Start) |
+??? info "Lower Extremity Identifier Overview"
+
+    |        Component Group | Identifier Range (Start) |
     |-----------------------:|--------------------------|
     |                  Bones | 701000                   |
     |  Knee joint structures | 702000                   |
@@ -26,10 +27,11 @@ An elliptic inner shape was assumed, which is in line with medical images. Howev
 | Bone crossectional area [mm^2]    | L1  | L2  | L3  | L4  | L5  |
 |-----------------------------------|-----|-----|-----|-----|-----|
 | Target from Klein et. al. for 50F | 361 | 310 | 303 | 255 | 199 |
-| Measured values in VIVA+ 50F       | 372 | 306 | 300 | 252 | 193 |
+| Measured values in VIVA+ 50F      | 372 | 306 | 300 | 252 | 193 |
 
 
 ??? note "Femur Mesh Quality"
+
     | Criteria       | limit          | % of failed elements | limit          | % of failed elements |
     |----------------|----------------|----------------------|----------------|----------------------|
     | Aspect Ratio   | < 10           | 0                    | 3              | 3.59                 |
@@ -87,12 +89,15 @@ The ligaments in the version 0.1 & 0.2 are based on van Dommelen et al., 2005, [
 
 <!-- - [ ] TODO: Model ligaments as solids  -->
 
+<!-- TODO: @Erik, @Matej, Add note on Prestretch -->
 #### Knee Cartilage
+
 Cartilage thickness is based on (TODO for UL)
 
 The material properties are based on Robinson et al. [@Robinson2016]
 
 #### Meniscus
+
 The material parameters are based on Peña et al., 2005 [@Pena2005]
 
 E. Peña, B. Calvo, M.A. Martínez, D. Palanca, M. Doblaré, Finite element analysis of the effect of meniscal tears and meniscectomies on human knee biomechanics, Clin Biomech 20(5) (2005) 498-507,[https://pubmed.ncbi.nlm.nih.gov/15836937/](https://pubmed.ncbi.nlm.nih.gov/15836937/))
@@ -102,9 +107,11 @@ An Ogden material model is applied using an alpha of 1 and therefore neo-hookean
 <!-- - [ ] TODO: enhance material properties and calibrate to published curves  -->
 
 #### Patella
+
 The patella is modelles rigid in version 0.1 and 0.2.
 
 ### Knee Joint geometry
+
 attachment points on femur:
 Blumensaat’s line (roof of femoral intercondylar ):
 Iriuchishima et al. 2016
@@ -139,10 +146,12 @@ Ligament dimensions anteroposterior
 LaPrade et al.(2003): "The average cross-sectional area of the fibular collateral ligament attachment site on the femur was 0.48 cm2 (range, 0.43 to 0.52).
 
 ##### Femur Attachment
+
 According to Kamath et al. (2010), the femoral LCL insertion(black dot) is 58%±4.7% across the width of the lateral femoral condyle along the Blumensaat line and 2.3±2.3 mm distal to this point.
 
 
 ##### Fibula attachement:
+
 LaPrade, 2003: "As the fibular collateral ligament coursed distally and attached on the lateral aspect of the fibular head, its average attachment was 8.2 mm (range, 6.8 to 9.7) posterior to the anterior margin of the fibular head and 28.4 mm (range, 25.1 to 30.6) distal to the tip of the fibular styloid process (Table 1). The average cross-sectional area of the attachment on the fibular head was 0.43 cm2 (range, 0.39 to 0.50). The fibular collateral ligament attachment was, on average, 38% (range, 28% to 46%) of the total width of the fibular head (anterior to posterior) from the anterior edge of the fibular head. The majority of the distal attachment was found in a bony depression that extended to approximately the distal one-third of the lateral aspect of the fibular head (Figs. 1 and 2). The remaining fibers extended further distally along with the peroneus longus fascia.25,26 The average total length of the fibular collateral ligament between its attachment sites was 69.6 mm (range, 62.6 to 73.5)."
 
 #### Medial Collateral Ligament (MCL)
@@ -172,6 +181,7 @@ Harner et al. 1999 (from Bedi et al., 2018) "The ACL is formed by 2 main bundles
 The distance between the attachment point in the baseline setated VIVA+ model is 31mm.
 
 ##### Femur Insertion:
+
 ACL attachment point on femur is determined based on the radiographic quadrant mehtod: "distance t (representing the total sagittal diameter of the lateral condyle measured along Blumensaat's line), distance h (representing the maximum intercondylar notch height), distance a (representing the distance of point K from the most dorsal subchondral contour of the lateral femoral condyle), and distance b (representing the distance of point K from Blumensaat's line). Distance a is a partial distance of t and distance b is a partial distance of h, and distances a and b are expressed as length ratios of t and h. The center of the femoral insertion of the ACL was located at 24.8% of the distance t measured from the most posterior contour of the lateral femoral condyle and at 28.5% of the height h measured from Blumensaat's line. Based on these results, the ACL can be found just inferior to the most superoposterior quadrant, which means in anatomic terms it is localized from the dorsal border of the condyle at approximately a quarter of the whole sagittal diameter of the condyle and from the roof of the notch at approximately a quarter of the notch height. "
 
 Accoridng to Yahagi et al. 2018, who are proposing a method which is applicabel also for cases where the Blumensaat's line is not a straight line, the hill is excluded to derive the Blumensaat line (grid 1)
@@ -188,6 +198,7 @@ https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs001
 
 
 ##### Tibia insertion:
+
 Stӓubli and Rauschning: 43.3% of the anterior-to-posterior distance acrossthe tibia as measured at the level of the posterior tibial margin at the posterior intercondylar area.In their study,the anteriormost fibers inserted at 27.5% across the plateau
 
 Frank et al., 2010: "The average AP diameter of the tibia was measured to be 50 ± 4 mm (range 40–64 mm). Female knees averaged 47 ± 3 mm compared to 52 ± 4 mm in men. The anterior-most position of the ACL attachment on the tibia was, on average, 14 ± 3 mm (range 8–26 mm) from the anterior edge of the tibia, or 28 ± 5% the total depth of the tibia. In women, the anterior-most position of the insertion was, on average, 13 ± 2 mm (28 ± 5%) compared to 15 ± 3 mm (28 ± 5%) in men. The posterior-most position of the ACL attachment on the tibia was located, on average, 31 ± 4 mm (range 23–40) from the anterior edge of the tibia, or 63 ± 6% the depth of the tibia. In women, the posterior-most position was, on average, 29 ± 3 mm (62 ± 5%) contrasted to 33 ± 4 mm (64 ± 5%) in men. Finally, the central portion of the ACL attachment on the tibia was located, on average, 23 ± 3 mm (range 16–30 mm). This center position corresponds to a point 46 ± 4% of the total tibial AP diameter as described. In women, this position was located at 21 ± 2 mm (45 ± 4%) compared to 24 ± 3 mm (46 ± 4%) in men. It was determined that the ACL takes up an average 36 ± 6% of the sagittal depth of the tibia and that the tibial insertion of the ACL is located between 28 and 63% of the total depth of the tibia in the anterior–posterior (sagittal) plane."
@@ -199,6 +210,7 @@ Johannnsen et al., 2013: Positionining of the bundles based on relative values p
 The distance between the attachment point in the baseline seated VIVA+ model is 36mm
 
 #### Meniscus
+
 The average thickness of the medial meniscus is 2.55 mm according to [@Bloecker2011] (40 male and 62 female knees were measured in MRI) For males it should be 2.8 mm.
 
 Data based on:
@@ -214,6 +226,7 @@ https://bmcmusculoskeletdisord.biomedcentral.com/articles/10.1186/1471-2474-12-2
 
 
 #### Knee Cartilage
+
 Cartilage thickness is based on (TODO for UL)
 
 
@@ -241,10 +254,10 @@ Simplified kinematic revolute joint between tiba+fibula and talus - rotational a
 
 ??? note "Contact between bones and soft tissues"
 
-    | Contact     | Contact ID     | Contact Type |
-    | :------------- | :------------- | :------------- |
-    | Knee_Internal      | 705130       | Automatic Surface to Surface|
-    | Ankle_Internal      | 705180       | Automatic Single Surface|
+    | Contact        | Contact ID | Contact Type                 |
+    |----------------|------------|------------------------------|
+    | Knee_Internal  | 705130     | Automatic Surface to Surface |
+    | Ankle_Internal | 705180     | Automatic Single Surface     |
 
 
 ## Future Model Improvements

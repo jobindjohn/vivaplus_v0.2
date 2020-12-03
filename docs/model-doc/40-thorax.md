@@ -36,12 +36,14 @@ The thoracic vertebrae are defined as rigid elements. The elements of the cortic
     A new thoracic Spine model with detailed vertebrae and intervertebral soft tissue
     definitions is planned.
 
-## Ribs
-The ribcage is modelled based on Iraeus&Pipkorn, 2019: "Development and Validation of a Generic Finite Element Ribcage to be used for Strain-based Fracture Prediction"
+## Ribcage
 
-### Model Components
+The ribcage is modelled based on generic model by Iraeus et al. [@Iraeus2019]
+
+### Ribcage Model Components
 
 ## Skin
+
 Strain rate dependent skin material properties based on [@Ottenio2015]
 
 | Features          | UTS (MPa)    | Stretch ratio at UTS | Stretch ratio at failure | Strain energy (MJ/m3) | E2 (MPa)      |
@@ -52,7 +54,8 @@ Strain rate dependent skin material properties based on [@Ottenio2015]
 | 167 s−1 (n=11)    | 25.8 (8.2)   | 1.3 (0.1)            | 1.5 (0.1)                | 8.2 (3.5)             | 169.1 (70.5)  |
 
 
-## Cavity
+## Thoracic Cavity
+
 To mimic the stiffness of the human lung, which is the main volume in the thoracic cavity, material parameters published in [@Gayzik2010] established for lungs of rats were applied. No appropiate macroscopic material data for humans was found so far. 
 <!-- (TODO?) -->
 Mat_Lung_Tissue was applied based on [@Vawter1980]. As alternative material parameter those published in the original paper [@Vawter1980] could be applied:
@@ -64,10 +67,15 @@ The material was not stable in the current model, which is why the liver materia
 
 
 ## Soft tissue
+
 The outer soft tissue in the thorax (PIDs 406002 and 456002), pelvis (PIDs 606002 and 656002), upper arms (PIDs 305122 and 355122) and upper legs (PIDs 705112 and 755112) is modelled using the adipose tissue model from Naseri [TODO: Add ref.]. The model, which represents the upper range of compressive stiffness from experiments, is implemented as MAT_OGDEN_RUBBER with material parameters given by RO = 9.0e-7, PR = 0.49998, MU1 = 3.5E-8, ALPHA1 = 20.0, G1 = 1.3E-6, BETA1 = 3.0E-4, G2 = 1.8E-6, BETA2 = 0.05, G3 = 2.2E-6, BETA3 =  0.6. This model was found be more robust than the fat model by Engelbrektsson [TODO: Add ref.], which is similar, but only contains one prony series damping term.
 
 
 <!-- TODO
 - [ ] change to compressible material and add sliding contact -->
+
+## Contacts in the Thorax
+
+<!-- TODO: @Erik -->
 
 \bibliography
