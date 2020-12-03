@@ -87,9 +87,11 @@ For the ligaments connecting the proximal end, a higher stiffness was assumed. I
 
 The ligaments in the version 0.1 & 0.2 are based on van Dommelen et al., 2005, [@Dommelen2005] and ligments are modelled as discrete springs
 
+The knee ligaments are pre-stretched using the _LCO option for the discrete elements. The pre-stretch is ramped up during 2 ms and SENSOR_DEFINE is used to compute the correct pre-stretch for different postures of the HBM (seated/standing/cyclist).
+
 <!-- - [ ] TODO: Model ligaments as solids  -->
 
-<!-- TODO: @Erik, @Matej, Add note on Prestretch -->
+<!-- TODO: @Matej, Add note on Prestretch -->
 #### Knee Cartilage
 
 Cartilage thickness is based on (TODO for UL)
