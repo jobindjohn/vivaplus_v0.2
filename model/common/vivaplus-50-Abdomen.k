@@ -1,25 +1,23 @@
 $
-$ANSA_VERSION;20.1.3;
+$ANSA_VERSION;20.1.0;
 $
 $
-$ file created by  A N S A  Mon Oct 19 07:30:10 2020
+$ file created by  A N S A  Sun Dec 13 20:26:07 2020
 $
 $ output from :
 $
-$ /disk/project/eriks/P20017_Virtual/work/Vivaplus_v021a/contact_mod/vivaplus-50
-$ F_v0-2-1-a.ansa
+$ M:/VSI-P/010_RD/17_EU_VIRTUAL/020_Workpackage/WP2_HBM/T2_2_Seated OS-HBM 50F, 
+$ OS-HBM 50M, Active-HBM and validation/LS-DYNA_Files/2020-12-13/vivaplus-50F_v0
+$ -2-1-j-FixJJ-5.ansa
 $
 $ANSA_USER_ATTRIBUTES;vivaplus-50-Abdomen.k;INCLUDE;DM/IO Index;TEXT;13;DM/Statu
 $s;TEXT;WIP;
 $
 $
 $
-$
-$
-$
+*KEYWORD
 $ANSA_COLOR;vivaplus-50-Abdomen.k;INCLUDE;.917647063732147;.458823531866074;.031
 $372550874949;1.;
-*KEYWORD
 *PART
 AB-Abdominal_Cavity_sliding-nulls-R
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|

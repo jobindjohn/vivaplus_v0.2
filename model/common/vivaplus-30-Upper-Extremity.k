@@ -1,25 +1,23 @@
 $
-$ANSA_VERSION;20.1.4;
+$ANSA_VERSION;20.1.0;
 $
 $
-$ file created by  A N S A  Tue Nov  3 11:08:39 2020
+$ file created by  A N S A  Sun Dec 13 20:26:06 2020
 $
 $ output from :
 $
-$ C:/Users/jobinj/Box/vivaplus-share/VIVA-Plus-Meshing-Shared-Folder/vivaplus-50
-$ F_v0-2-1-d-2.ansa
+$ M:/VSI-P/010_RD/17_EU_VIRTUAL/020_Workpackage/WP2_HBM/T2_2_Seated OS-HBM 50F, 
+$ OS-HBM 50M, Active-HBM and validation/LS-DYNA_Files/2020-12-13/vivaplus-50F_v0
+$ -2-1-j-FixJJ-5.ansa
 $
 $ANSA_USER_ATTRIBUTES;vivaplus-30-Upper-Extremity.k;INCLUDE;DM/IO Index;TEXT;15;
 $DM/Status;TEXT;WIP;
 $
 $
 $
-$
-$
-$
+*KEYWORD
 $ANSA_COLOR;vivaplus-30-Upper-Extremity.k;INCLUDE;.729411780834198;.517647087574
 $005;.415686279535294;1.;
-*KEYWORD
 *PART_CONTACT
 UX-Bone-Clavicle-Cortical-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|

@@ -2,13 +2,13 @@ $
 $ANSA_VERSION;20.1.0;
 $
 $
-$ file created by  A N S A  Mon Dec  7 22:54:21 2020
+$ file created by  A N S A  Sun Dec 13 20:26:01 2020
 $
 $ output from :
 $
 $ M:/VSI-P/010_RD/17_EU_VIRTUAL/020_Workpackage/WP2_HBM/T2_2_Seated OS-HBM 50F, 
-$ OS-HBM 50M, Active-HBM and validation/2_2_1_Upgrading the OS-HBM 50F/vivaplus-
-$ 50F_v0-2-1-i.ansa
+$ OS-HBM 50M, Active-HBM and validation/LS-DYNA_Files/2020-12-13/vivaplus-50F_v0
+$ -2-1-j-FixJJ-5.ansa
 $
 $ANSA_USER_ATTRIBUTES;vivaplus-constraineds-contacts.k;INCLUDE;DM/IO Index;TEXT;
 $8;DM/Status;TEXT;WIP;
@@ -175,6 +175,8 @@ $141174;.701960802078247;1.;
 *CONSTRAINED_JOINT_SPHERICAL_ID
    9000050Radioulnar_Distal                                                     
    3109445   3108545                                                0.        0.
+*SENSOR_DEFINE_ELEMENT
+    700034DISC-ELE     7274037          DLEN      BOT       
 *CONSTRAINED_EXTRA_NODES_NODE
 $ANSA_ID;1;
     100001   1121900
@@ -1571,13 +1573,13 @@ $     SSID|     MSID|     STYP|   MSTYPE|   SBOXID|   MBOXID|      SPR|      MPR
 $       FS|       FD|       DC|       VC|      VDC|   PENCHK|       BT|       DT|
        0.2       0.2        0.        0.       20.         0                    
 $      SFS|      SFM|      SST|      MST|     SFST|     SFMT|      FSF|      VSF|
-        1.        1.                            1.        1.        1.        1.
+        1.        1.       0.1                  1.        1.        1.        1.
 $     SOFT|   SOFSCL|   LCIDAB|   MAXPAR|    SBOPT|    DEPTH|    BSORT|   FRCFRQ|
          2       0.1               1.025        3.         5         0         0
 $   PENMAX|   THKOPT|   SHLTHK|    SNLOG|     ISYM|    I2D3D|   SLDTHK|   SLDSTF|
-        0.         0         0         0         0         0        0.        0.
+        0.                             0         0         0        0.        0.
 $     IGAP|   IGNORE|   DPRFAC|   DTSTIF|         |         |   FLANGL|  CID_RCF|
-         1         1        0.        0.                            0.          
+         1         2        0.        0.                            0.          
 *CONTACT_AUTOMATIC_SINGLE_SURFACE_ID
 $       ID|                                                                 NAME|
 400001    TX_Single_Surface                                                     
@@ -2114,6 +2116,41 @@ UX_Single_surface
     301531    301533    305114    305144    351101    351113    351123    351201
     351213    351223    351314    351334    351411    351413    351421    351431
     351433    351511    351513    351521    351531    351533    355114    355144
+*SET_PART_LIST_TITLE
+UX_L_Elbow
+    316011        0.        0.        0.        0.
+    301334    301411    301413    301421    301431    301433    301511    301513
+    301521    301531    301533    351334    351411    351413    351421    351431
+    351433    351511    351513    351521    351531    351533
+*SET_PART_LIST_TITLE
+UX_L_Elbow master
+    316012        0.        0.        0.        0.
+    305144    355144
+*SET_PART_LIST_TITLE
+TX_C_Thorax_pelvis_interior_main
+    400001                                        
+     99997     99998    401011    401021    401031    401041    401051    401061
+    401071    401081    401091    401101    401111    401121    403014    403024
+    403034    403044    403054    403064    403074    403084    403094    403104
+    403114    403124    403501    403503    403601    403710    403720    404001
+    405003    406003    453014    453024    453034    453044    453054    453064
+    453074    453084    453094    453104    453114    453124    453503    453601
+    453710    453720    454001    455003    456003    501011    501021    501031
+    501041    501051    505004    555004    601011    601021    601031    601041
+    601051    601053    605003    606003    651011    651021    651031    651041
+    651051    655003    656003
+*SET_PART_LIST_TITLE
+Scapula and Clavicula slave
+    400002                                        
+    301101    301201    351101    351201
+*SET_PART_LIST_TITLE
+Scapula and Clavicula master
+    400003                                        
+    203002    305111    355111    403014    403024    403034    403044    403054
+    403064    403074    403084    403094    403104    403114    403124    403501
+    403601    404001    406001    453014    453024    453034    453044    453054
+    453064    453074    453084    453094    453104    453114    453124    453601
+    454001    456001
 *SET_NODE_LIST_TITLE
 TX_Soft_Tissues_2_T1
     401015        0.        0.        0.        0.
@@ -51124,31 +51161,6 @@ T_T1_L_Sup_Art_Cart_TB_M
    4273098   4273100   4273056   4273056
    4273057   4273103   4273098   4273098
    4273090   4273065   4273066   4273066
-*SET_PART_LIST_TITLE
-TX_C_Thorax_pelvis_interior_main
-    400001                                        
-     99997     99998    401011    401021    401031    401041    401051    401061
-    401071    401081    401091    401101    401111    401121    403014    403024
-    403034    403044    403054    403064    403074    403084    403094    403104
-    403114    403124    403501    403503    403601    403710    403720    404001
-    405003    406003    453014    453024    453034    453044    453054    453064
-    453074    453084    453094    453104    453114    453124    453503    453601
-    453710    453720    454001    455003    456003    501011    501021    501031
-    501041    501051    505004    555004    601011    601021    601031    601041
-    601051    601053    605003    606003    651011    651021    651031    651041
-    651051    655003    656003
-*SET_PART_LIST_TITLE
-Scapula and Clavicula slave
-    400002                                        
-    301101    301201    351101    351201
-*SET_PART_LIST_TITLE
-Scapula and Clavicula master
-    400003                                        
-    203002    305111    355111    403014    403024    403034    403044    403054
-    403064    403074    403084    403094    403104    403114    403124    403501
-    403601    404001    406001    453014    453024    453034    453044    453054
-    453064    453074    453084    453094    453104    453114    453124    453601
-    454001    456001
 $ANSA_NAME_COMMENT;9000075;CONSTRAINED_EXTRA_NODES_NODE;HE-Head_cog_CSYS_Skull;;
 $NO;NO;NO;
 $ANSA_NAME_COMMENT;9000080;CONSTRAINED_EXTRA_NODES_NODE;HE-Head-CoG-CSYS;;NO;NO;
@@ -51239,6 +51251,9 @@ $T;1850;
 $ANSA_PART;GROUP;ID;2175;MID;300300;NAME;Humerus;PID_OFFSET;0;COLOR;222;153;9;0;
 $IS_COLOR_ACTIVE;1;ATTRIBUTES;2;DM/File Type;ANSA;DM/Status;WIP;CONTAINS;ANSAPAR
 $T;2141;
+$ANSA_PART;GROUP;ID;2176;NAME;sensor_define_element.k;BELONGS_HERE;YES;PID_OFFSE
+$T;0;COLOR;195;163;80;0;IS_COLOR_ACTIVE;0;ATTRIBUTES;2;DM/File Type;ANSA;DM/Stat
+$us;WIP;CONTAINS;ANSAPART;2178;
 $ANSA_PART;PART;ID;7;NAME;Humerus-Construction-Geometry;STUDY_VERSION;0;PID_OFFS
 $ET;0;COLOR;135;48;106;0;IS_COLOR_ACTIVE;0;GET_COLOR_FROM_ID;2167;ATTRIBUTES;2;D
 $M/File Type;ANSA;DM/Status;WIP;CONTAINS;CONSTRAINED_JOINT_SPHERICAL;3137535,314
@@ -51304,4 +51319,7 @@ $ANSA_PART;PART;ID;2142;MID;301103;NAME;Clavicle;STUDY_VERSION;0;PID_OFFSET;0;CO
 $LOR;155;191;162;40;IS_COLOR_ACTIVE;0;GET_COLOR_FROM_ID;2167;ATTRIBUTES;2;DM/Fil
 $e Type;ANSA;DM/Status;WIP;CONTAINS;CONSTRAINED_EXTRA_NODES_SET;9000111,9000113;
 $CONSTRAINED_RIGID_BODIES;9000098-9000099;
+$ANSA_PART;PART;ID;2178;NAME;NO PID ELMNTs@4;STUDY_VERSION;0;PID_OFFSET;0;COLOR;
+$199;96;39;0;IS_COLOR_ACTIVE;1;ATTRIBUTES;2;DM/File Type;ANSA;DM/Status;WIP;CONT
+$AINS;SENSOR_DEFINE_ELEMENT;700034;
 *END
