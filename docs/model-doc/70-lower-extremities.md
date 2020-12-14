@@ -5,9 +5,8 @@
     This section is being updated
 
 
-??? info "Lower Extremity Identifier Overview"
-
-    |        Component Group | Identifier Range (Start) |
+??? info "Lower Extremity Components Identifier Overview"
+    |       Component Group  | Identifier Range (Start) |
     |-----------------------:|--------------------------|
     |                  Bones | 701000                   |
     |  Knee joint structures | 702000                   |
@@ -27,11 +26,10 @@ An elliptic inner shape was assumed, which is in line with medical images. Howev
 | Bone crossectional area [mm^2]    | L1  | L2  | L3  | L4  | L5  |
 |-----------------------------------|-----|-----|-----|-----|-----|
 | Target from Klein et. al. for 50F | 361 | 310 | 303 | 255 | 199 |
-| Measured values in VIVA+ 50F      | 372 | 306 | 300 | 252 | 193 |
+| Measured values in VIVA+ 50F       | 372 | 306 | 300 | 252 | 193 |
 
 
 ??? note "Femur Mesh Quality"
-
     | Criteria       | limit          | % of failed elements | limit          | % of failed elements |
     |----------------|----------------|----------------------|----------------|----------------------|
     | Aspect Ratio   | < 10           | 0                    | 3              | 3.59                 |
@@ -85,21 +83,29 @@ For the ligaments connecting the proximal end, a higher stiffness was assumed. I
 
 #### Ligaments:  
 
-The ligaments in the version 0.1 & 0.2 are based on van Dommelen et al., 2005, [@Dommelen2005] and ligments are modelled as discrete springs
+The major knee ligaments in the version 0.1 & 0.2 are based on van Dommelen et al., 2005, [@Dommelen2005]  and Kunitomi et al., 2017 [@Kunitomi2017] and are modelled as discrete springs. Material properties for the patelar ligament are derived from Muller et al., 2004 [@Muller2004]. 
 
-The knee ligaments are pre-stretched using the _LCO option for the discrete elements. The pre-stretch is ramped up during 2 ms and SENSOR_DEFINE is used to compute the correct pre-stretch for different postures of the HBM (seated/standing/cyclist).
+Kunitomi, Yamamoto, Kato, Antona‐Makoshi, Konosu, Dokko, Yasuki (2017). The Development of the Lower Extremity of a Human FE Model and the Influence of Anatomical Detailed Modelling in Vehicle‐to‐Pedestrian Impacts.  IRC-17-62 http://www.ircobi.org/wordpress/downloads/irc17/pdf-files/62.pdf
+
+Muller et al. (2004). Comparative analysis of the mechanical properties of the patellar ligament and calcaneus tendon. Acta ortop. bras. \[online\], vol.12, n.3, pp.134-140. https://doi.org/10.1590/S1413-78522004000300001](https://doi.org/10.1590/S1413-78522004000300001
 
 <!-- - [ ] TODO: Model ligaments as solids  -->
 
-<!-- TODO: @Matej, Add note on Prestretch -->
 #### Knee Cartilage
 
-Cartilage thickness is based on (TODO for UL)
+Cartilage thickness is based on Faber et al. 2001  [@Faber2001] and Eckstein et al. 2001  [@Eckstein2001]
 
 The material properties are based on Robinson et al. [@Robinson2016]
 
-#### Meniscus
+Both cartilage and menisus are modelled as linear elastic homogeneous materials, due to instant loading conditions [@Pena]
 
+E. Peña, B. Calvo, M.A. Martínez, M. Doblaré, A three-dimensional finite element analysis of the combined behavior of ligaments and menisci in the healthy human knee joint, Journal of biomechanics 39(9) (2006) 1686-1701,  doi:10.1016/j.jbiomech.2005.04.030
+
+The imput parameters for both cartilage and menisus were determined from the review Joao et al. 2018 
+
+João, M. R. S. T., Moez, C., Abdelwahed, B., & Zahra, T. (2018). _FEM Analysis of the Human Knee Joint: A Review_. Springer.
+
+#### Meniscus
 The material parameters are based on Peña et al., 2005 [@Pena2005]
 
 E. Peña, B. Calvo, M.A. Martínez, D. Palanca, M. Doblaré, Finite element analysis of the effect of meniscal tears and meniscectomies on human knee biomechanics, Clin Biomech 20(5) (2005) 498-507,[https://pubmed.ncbi.nlm.nih.gov/15836937/](https://pubmed.ncbi.nlm.nih.gov/15836937/))
@@ -109,11 +115,9 @@ An Ogden material model is applied using an alpha of 1 and therefore neo-hookean
 <!-- - [ ] TODO: enhance material properties and calibrate to published curves  -->
 
 #### Patella
-
 The patella is modelles rigid in version 0.1 and 0.2.
 
 ### Knee Joint geometry
-
 attachment points on femur:
 Blumensaat’s line (roof of femoral intercondylar ):
 Iriuchishima et al. 2016
@@ -148,12 +152,10 @@ Ligament dimensions anteroposterior
 LaPrade et al.(2003): "The average cross-sectional area of the fibular collateral ligament attachment site on the femur was 0.48 cm2 (range, 0.43 to 0.52).
 
 ##### Femur Attachment
-
 According to Kamath et al. (2010), the femoral LCL insertion(black dot) is 58%±4.7% across the width of the lateral femoral condyle along the Blumensaat line and 2.3±2.3 mm distal to this point.
 
 
 ##### Fibula attachement:
-
 LaPrade, 2003: "As the fibular collateral ligament coursed distally and attached on the lateral aspect of the fibular head, its average attachment was 8.2 mm (range, 6.8 to 9.7) posterior to the anterior margin of the fibular head and 28.4 mm (range, 25.1 to 30.6) distal to the tip of the fibular styloid process (Table 1). The average cross-sectional area of the attachment on the fibular head was 0.43 cm2 (range, 0.39 to 0.50). The fibular collateral ligament attachment was, on average, 38% (range, 28% to 46%) of the total width of the fibular head (anterior to posterior) from the anterior edge of the fibular head. The majority of the distal attachment was found in a bony depression that extended to approximately the distal one-third of the lateral aspect of the fibular head (Figs. 1 and 2). The remaining fibers extended further distally along with the peroneus longus fascia.25,26 The average total length of the fibular collateral ligament between its attachment sites was 69.6 mm (range, 62.6 to 73.5)."
 
 #### Medial Collateral Ligament (MCL)
@@ -183,7 +185,6 @@ Harner et al. 1999 (from Bedi et al., 2018) "The ACL is formed by 2 main bundles
 The distance between the attachment point in the baseline setated VIVA+ model is 31mm.
 
 ##### Femur Insertion:
-
 ACL attachment point on femur is determined based on the radiographic quadrant mehtod: "distance t (representing the total sagittal diameter of the lateral condyle measured along Blumensaat's line), distance h (representing the maximum intercondylar notch height), distance a (representing the distance of point K from the most dorsal subchondral contour of the lateral femoral condyle), and distance b (representing the distance of point K from Blumensaat's line). Distance a is a partial distance of t and distance b is a partial distance of h, and distances a and b are expressed as length ratios of t and h. The center of the femoral insertion of the ACL was located at 24.8% of the distance t measured from the most posterior contour of the lateral femoral condyle and at 28.5% of the height h measured from Blumensaat's line. Based on these results, the ACL can be found just inferior to the most superoposterior quadrant, which means in anatomic terms it is localized from the dorsal border of the condyle at approximately a quarter of the whole sagittal diameter of the condyle and from the roof of the notch at approximately a quarter of the notch height. "
 
 Accoridng to Yahagi et al. 2018, who are proposing a method which is applicabel also for cases where the Blumensaat's line is not a straight line, the hill is excluded to derive the Blumensaat line (grid 1)
@@ -200,7 +201,6 @@ https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs001
 
 
 ##### Tibia insertion:
-
 Stӓubli and Rauschning: 43.3% of the anterior-to-posterior distance acrossthe tibia as measured at the level of the posterior tibial margin at the posterior intercondylar area.In their study,the anteriormost fibers inserted at 27.5% across the plateau
 
 Frank et al., 2010: "The average AP diameter of the tibia was measured to be 50 ± 4 mm (range 40–64 mm). Female knees averaged 47 ± 3 mm compared to 52 ± 4 mm in men. The anterior-most position of the ACL attachment on the tibia was, on average, 14 ± 3 mm (range 8–26 mm) from the anterior edge of the tibia, or 28 ± 5% the total depth of the tibia. In women, the anterior-most position of the insertion was, on average, 13 ± 2 mm (28 ± 5%) compared to 15 ± 3 mm (28 ± 5%) in men. The posterior-most position of the ACL attachment on the tibia was located, on average, 31 ± 4 mm (range 23–40) from the anterior edge of the tibia, or 63 ± 6% the depth of the tibia. In women, the posterior-most position was, on average, 29 ± 3 mm (62 ± 5%) contrasted to 33 ± 4 mm (64 ± 5%) in men. Finally, the central portion of the ACL attachment on the tibia was located, on average, 23 ± 3 mm (range 16–30 mm). This center position corresponds to a point 46 ± 4% of the total tibial AP diameter as described. In women, this position was located at 21 ± 2 mm (45 ± 4%) compared to 24 ± 3 mm (46 ± 4%) in men. It was determined that the ACL takes up an average 36 ± 6% of the sagittal depth of the tibia and that the tibial insertion of the ACL is located between 28 and 63% of the total depth of the tibia in the anterior–posterior (sagittal) plane."
@@ -212,7 +212,6 @@ Johannnsen et al., 2013: Positionining of the bundles based on relative values p
 The distance between the attachment point in the baseline seated VIVA+ model is 36mm
 
 #### Meniscus
-
 The average thickness of the medial meniscus is 2.55 mm according to [@Bloecker2011] (40 male and 62 female knees were measured in MRI) For males it should be 2.8 mm.
 
 Data based on:
@@ -228,9 +227,31 @@ https://bmcmusculoskeletdisord.biomedcentral.com/articles/10.1186/1471-2474-12-2
 
 
 #### Knee Cartilage
+Cartilage : Male vs. Female, young healthy individuals, MRI based data [@Faber2001]
 
-Cartilage thickness is based on (TODO for UL)
+| Location        | **Female mean Thickness [mm]** | **Male mean Thickness [mm]** | **Female maximal Thickness [mm]** | **Male maximal Thickness [mm]** | **Female Area [mm2]** | **Male Area [mm2]** |
+|-----------------|--------------------------------|------------------------------|-----------------------------------|---------------------------------|-----------------------|---------------------|
+| Patella         | 2,2±0,43                       | 2,39±0,42                    | 4,51±1.08                         | 5,26±0,99                       | 1047±123              | 1289±158            |
+| Femur (total)   | 1,79±0,22                      | 1,88±0,29                    |                                   |                                 | 5478±655              | 6554±391            |
+| Trochlea        | 2,01±0,25                      | 2,05±0,32                    | 4,2±0,48                          | 4,51±0,72                       |                       |                     |
+| Medial condyle  | 1,69±0,24                      | 1,86±0,31                    | 3,73±0,67                         | 3,89±0,85                       |                       |                     |
+| Lateral condyle | 1,65±0,33                      | 1,73±0,32                    | 3,29±0,64                         | 3,69±0,47                       |                       |                     |
+| Tibia med       | 1,2±0,19                       | 1,36±0,15                    | 2,9±0,92                          | 3,43±0,86                       | 811±122               | 1078±235            |
+| Tibia lateral   | 1,61±0,25                      | 1,7±0,27                     | 3,96±0,51                         | 4,54±0,91                       | 881±98                | 1175±147            |
+| Knee total      | 1,86±0,24                      | 2,01±0,31                    |                                   |                                 | 8218±795              | 10096±498           |
 
+S.C. Faber, F. Eckstein, S. Lukasz, R. Mühlbauer, J. Hohe, K.H. Englmeier, M. Reiser, Gender differences in knee joint cartilage thickness, volume and articular surface areas: assessment with quantitative three-dimensional MR imaging, Skeletal Radiol 30(3) (2001) 144-50, doi:10.1007/s002560000320
+
+Cartilage: Gender specific dimensions [@Eckstein2001]
+
+| **Location**  | **Female Thickness [mm]** | **Male Thickness [mm]** | **Female Area [mm2]** | **Male Area [mm2]** |
+|---------------|---------------------------|-------------------------|-----------------------|---------------------|
+| Patella       | 2,5                       | 2,6                     | 1100                  | 1400                |
+| Femur (total) | 1,6                       | 1,75                    | 5000                  | 6500                |
+| Tibia med     | 1,45                      | 1,55                    | 900                   | 1150                |
+| Tibia lateral | 1,75                      | 2                       | 900                   | 1150                |
+
+F. Eckstein, M. Reiser, K.H. Englmeier, R. Putz, In vivo morphometry and functional analysis of human articular cartilage with quantitative magneticresonance imaging-from image to data, from data to theory, Anat Embryol (Berl)203(3) (2001) 147-173, doi:[10.1007/s004290000154](https://doi.org/10.1007/s004290000154)
 
 #### Patella ligament
 
@@ -248,6 +269,27 @@ They report a proximal width of 27.5 mm and a tickness of 3 mm while for the dis
 | VIVA+50M                  |                    |                                      |                       |                                       |                         |
 
 
+####  Quadriceps muscle
+
+For the muscles the material model »S15_MAT_SPRING_MUSCLE« has been used, which is defined for descrete beam elements with the possibility of activation [1, 2, 3]. 
+The main imput parametres are:
+•	initial length (L0) (depending on the individual model)
+•	maximum shortening velocity (VMAX) [4, 7]
+•	function of activation (𝑓A) (if used) [5]
+•	peak isometric force (FMAX) [3, 4]
+•	functions for : active tension vs. length function (𝑓𝑇𝐿) [1]
+•	active tension vs. velocity function (𝑓𝑇V) [1, 6]
+•	force vs. length function for parallel elastic element (𝑓PE) [1]
+The the initial model configuration only one discrete element was used for the combination of four heads of quadriceps muscle. The imput parameters for all four heads were summed up and used for the single discrete element.
+
+[1]	LS-Dyna: User's manual, April 2003
+[2]	Hill, A. V. (October 10, 1938). The Heat of Shortening and the Dynamic Constants of Muscle. Proceedings of the Royal Society of London. Series B, Biological Sciences, 126, 843, 136-195.
+[3]	Winters, J.M. (1990). Hill-based muscle models: A systems engineering perspective. In multiple muscle systems: Biomechanics and movement organization. Winters, Woods, (Springer-Verlag).
+[4]	Arnold, E. M., Ward, S. R., Lieber, R. L., in Delp, S. L. (2009). A model of the lower limb for analysis of human movement. Annals of Biomedical Engineering, 38(2), 269–279. https://doi.org/10.1007/s10439-009-9852-5
+[5]	Mukherjee, S., Chawla, A., Karthikeyan, B., & Soni, A. (2007). Finite element crash simulations of the human body: Passive and active muscle modelling. Sadhana, 32(4), 409–426. https://doi.org/10.1007/s12046-007-0032-8
+[6]	Audu, M. L., & Davy, D. T. (1985). The Influence of Muscle Model Complexity in Musculoskeletal Motion Modeling. Journal of Biomechanical Engineering, 107(2), 147–157. https://doi.org/10.1115/1.3138535
+[7]	Horst, MJ (Marike) Van Der. (2002). Human head neck response in frontal, lateral and rear end impact loading : modelling and validation. Technische Universiteit Eindhoven. https://doi.org/10.6100/IR554047
+
 ### Ankle Joint
 
 Simplified kinematic revolute joint between tiba+fibula and talus - rotational axis from lateral to medial malleolus - [Mansfield et al. 2019](https://ars.els-cdn.com/content/image/3-s2.0-B9780323544986000114-f11-03-9780323544986.jpg)
@@ -256,10 +298,10 @@ Simplified kinematic revolute joint between tiba+fibula and talus - rotational a
 
 ??? note "Contact between bones and soft tissues"
 
-    | Contact        | Contact ID | Contact Type                 |
-    |----------------|------------|------------------------------|
-    | Knee_Internal  | 705130     | Automatic Surface to Surface |
-    | Ankle_Internal | 705180     | Automatic Single Surface     |
+    | Contact     | Contact ID     | Contact Type |
+    | :------------- | :------------- | :------------- |
+    | Knee_Internal      | 705130       | Automatic Surface to Surface|
+    | Ankle_Internal      | 705180       | Automatic Single Surface|
 
 
 ## Future Model Improvements
