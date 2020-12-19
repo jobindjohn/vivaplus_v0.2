@@ -1,23 +1,24 @@
 $
-$ANSA_VERSION;20.1.0;
+$ANSA_VERSION;20.1.4;
 $
 $
-$ file created by  A N S A  Sun Dec 13 20:26:01 2020
+$ file created by  A N S A  Sat Dec 19 09:48:26 2020
 $
 $ output from :
 $
-$ M:/VSI-P/010_RD/17_EU_VIRTUAL/020_Workpackage/WP2_HBM/T2_2_Seated OS-HBM 50F, 
-$ OS-HBM 50M, Active-HBM and validation/LS-DYNA_Files/2020-12-13/vivaplus-50F_v0
-$ -2-1-j-FixJJ-5.ansa
+$ C:/Users/jobinj/Box/vivaplus-dev/vivaplus-dev-JDJ/vivaplus-50F_v0-2-1-l.ansa
 $
 $ANSA_USER_ATTRIBUTES;vivaplus-materials.k;INCLUDE;DM/IO Index;TEXT;7;DM/Status;
 $TEXT;WIP;
 $
 $
 $
-*KEYWORD
+$
+$
+$
 $ANSA_COLOR;vivaplus-materials.k;INCLUDE;.800000011920929;0.91372549533844;.2941
 $17659330368;1.;
+*KEYWORD
 *MAT_RIGID_TITLE
 HE_C_Skull-rigid
 $      MID|       RO|        E|       PR|        N|   COUPLE|        M| ALIAS_RE|
@@ -86,8 +87,8 @@ $      MID|       RO|        E|       PR|       DA|       DB|        K|
 NE_C_C1 Cortical_Reilly-et-al-1974
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     200011     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-$        C|        P|     LCSS|     LCSR|       VP|
-        0.        0.         0         0        0.
+$        C|        P|     LCSS|     LCSR|       VP|      LCF|
+        0.        0.         0         0        0.          
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.        0.        0.        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
@@ -102,8 +103,8 @@ $      SRC|      SRP|       FS|       VP|
 NE_C_C2 Cortical_Reilly-et-al-1974
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     200021     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-$        C|        P|     LCSS|     LCSR|       VP|
-        0.        0.         0         0        0.
+$        C|        P|     LCSS|     LCSR|       VP|      LCF|
+        0.        0.         0         0        0.          
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.        0.        0.        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
@@ -118,8 +119,8 @@ $      SRC|      SRP|       FS|       VP|
 NE_C_C3_Sup_Endplate_Reilly-et-al-1974
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     200023     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-$        C|        P|     LCSS|     LCSR|       VP|
-        0.        0.         0         0        0.
+$        C|        P|     LCSS|     LCSR|       VP|      LCF|
+        0.        0.         0         0        0.          
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.        0.        0.        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
@@ -128,8 +129,8 @@ $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8
 NE_C_C2_Inf_Endplate_Reilly-et-al-1974
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     200024     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-$        C|        P|     LCSS|     LCSR|       VP|
-        0.        0.         0         0        0.
+$        C|        P|     LCSS|     LCSR|       VP|      LCF|
+        0.        0.         0         0        0.          
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.        0.        0.        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
@@ -138,8 +139,8 @@ $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8
 NE_C_C3 Cortical_Reilly-et-al-1974
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     200031     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-$        C|        P|     LCSS|     LCSR|       VP|
-        0.        0.         0         0        0.
+$        C|        P|     LCSS|     LCSR|       VP|      LCF|
+        0.        0.         0         0        0.          
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.        0.        0.        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
@@ -154,8 +155,8 @@ $      SRC|      SRP|       FS|       VP|
 NE_C_C4_Sup_Endplate_Reilly-et-al-1974
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     200033     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-$        C|        P|     LCSS|     LCSR|       VP|
-        0.        0.         0         0        0.
+$        C|        P|     LCSS|     LCSR|       VP|      LCF|
+        0.        0.         0         0        0.          
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.        0.        0.        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
@@ -164,8 +165,8 @@ $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8
 NE_C_C3_Inf_Endplate_Reilly-et-al-1974
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     200034     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-$        C|        P|     LCSS|     LCSR|       VP|
-        0.        0.         0         0        0.
+$        C|        P|     LCSS|     LCSR|       VP|      LCF|
+        0.        0.         0         0        0.          
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.        0.        0.        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
@@ -174,8 +175,8 @@ $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8
 NE_C_C4 Cortical_Reilly-et-al-1974
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     200041     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-$        C|        P|     LCSS|     LCSR|       VP|
-        0.        0.         0         0        0.
+$        C|        P|     LCSS|     LCSR|       VP|      LCF|
+        0.        0.         0         0        0.          
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.        0.        0.        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
@@ -190,8 +191,8 @@ $      SRC|      SRP|       FS|       VP|
 NE_C_C5_Sup_Endplate_Reilly-et-al-1974
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     200043     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-$        C|        P|     LCSS|     LCSR|       VP|
-        0.        0.         0         0        0.
+$        C|        P|     LCSS|     LCSR|       VP|      LCF|
+        0.        0.         0         0        0.          
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.        0.        0.        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
@@ -200,8 +201,8 @@ $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8
 NE_C_C4_Inf_Endplate_Reilly-et-al-1974
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     200044     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-$        C|        P|     LCSS|     LCSR|       VP|
-        0.        0.         0         0        0.
+$        C|        P|     LCSS|     LCSR|       VP|      LCF|
+        0.        0.         0         0        0.          
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.        0.        0.        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
@@ -210,8 +211,8 @@ $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8
 NE_C_C5 Cortical_Reilly-et-al-1974
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     200051     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-$        C|        P|     LCSS|     LCSR|       VP|
-        0.        0.         0         0        0.
+$        C|        P|     LCSS|     LCSR|       VP|      LCF|
+        0.        0.         0         0        0.          
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.        0.        0.        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
@@ -226,8 +227,8 @@ $      SRC|      SRP|       FS|       VP|
 NE_C_C6_Sup_Endplate_Reilly-et-al-1974
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     200053     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-$        C|        P|     LCSS|     LCSR|       VP|
-        0.        0.         0         0        0.
+$        C|        P|     LCSS|     LCSR|       VP|      LCF|
+        0.        0.         0         0        0.          
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.        0.        0.        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
@@ -236,8 +237,8 @@ $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8
 NE_C_C5_Inf_Endplate_Reilly-et-al-1974
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     200054     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-$        C|        P|     LCSS|     LCSR|       VP|
-        0.        0.         0         0        0.
+$        C|        P|     LCSS|     LCSR|       VP|      LCF|
+        0.        0.         0         0        0.          
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.        0.        0.        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
@@ -246,8 +247,8 @@ $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8
 NE_C_C6 Cortical_Reilly-et-al-1974
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     200061     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-$        C|        P|     LCSS|     LCSR|       VP|
-        0.        0.         0         0        0.
+$        C|        P|     LCSS|     LCSR|       VP|      LCF|
+        0.        0.         0         0        0.          
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.        0.        0.        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
@@ -262,8 +263,8 @@ $      SRC|      SRP|       FS|       VP|
 NE_C_C7_Sup_Endplate_Reilly-et-al-1974
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     200063     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-$        C|        P|     LCSS|     LCSR|       VP|
-        0.        0.         0         0        0.
+$        C|        P|     LCSS|     LCSR|       VP|      LCF|
+        0.        0.         0         0        0.          
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.        0.        0.        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
@@ -272,8 +273,8 @@ $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8
 NE_C_C6_Inf_Endplate_Reilly-et-al-1974
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     200064     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-$        C|        P|     LCSS|     LCSR|       VP|
-        0.        0.         0         0        0.
+$        C|        P|     LCSS|     LCSR|       VP|      LCF|
+        0.        0.         0         0        0.          
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.        0.        0.        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
@@ -282,8 +283,8 @@ $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8
 NE_C_C7 Cortical_Reilly-et-al-1974
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     200071     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-$        C|        P|     LCSS|     LCSR|       VP|
-        0.        0.         0         0        0.
+$        C|        P|     LCSS|     LCSR|       VP|      LCF|
+        0.        0.         0         0        0.          
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.        0.        0.        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
@@ -298,8 +299,8 @@ $      SRC|      SRP|       FS|       VP|
 NE_C_T1_Sup_Endplate_Reilly-et-al-1974
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     200073     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-$        C|        P|     LCSS|     LCSR|       VP|
-        0.        0.         0         0        0.
+$        C|        P|     LCSS|     LCSR|       VP|      LCF|
+        0.        0.         0         0        0.          
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.        0.        0.        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
@@ -308,8 +309,8 @@ $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8
 NE_C_C7_Inf_Endplate_Reilly-et-al-1974
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     200074     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-$        C|        P|     LCSS|     LCSR|       VP|
-        0.        0.         0         0        0.
+$        C|        P|     LCSS|     LCSR|       VP|      LCF|
+        0.        0.         0         0        0.          
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.        0.        0.        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
@@ -322,6 +323,10 @@ $      CMO|     CON1|     CON2|
        0.0        0.        0.
 $       A1|       A2|       A3|       V1|       V2|       V3|
         0.        0.        0.        0.        0.        0.
+*MAT_CABLE_DISCRETE_BEAM_TITLE
+NE_L_Stylohyoid_Ligament_Zajac-1989
+$      MID|       RO|        E|     LCID|       F0|   TMAXF0|    TRAMP|    IREAD|
+    200610     1.E-9       1.2         0        0.        0.        0.         0
 *MAT_OGDEN_RUBBER_TITLE
 NE_C_Neck_Soft_Tissues-Fat_Engelbrektsson-2011
 $      MID|       RO|       PR|        N|       NV|        G|     SIGF|      REF|
@@ -1872,10 +1877,6 @@ $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
     213079   2404107         0         0         0         0        0.
 $     LCAA|     LCBB|        H|       DT|         |    ECOAT|    SCOAT|    TCOAT|
          0         0        0.        3.                  0.        0.        0.
-*MAT_CABLE_DISCRETE_BEAM_TITLE
-NE_L_Stylohyoid_Ligament_Zajac-1989
-$      MID|       RO|        E|     LCID|       F0|   TMAXF0|    TRAMP|    IREAD|
-    214001     1.E-9       1.2         0        0.        0.        0.         0
 *MAT_ELASTIC_TITLE
 NE_C_Tracheal_Cartilage-Roberts et al. (1998)
 $      MID|       RO|        E|       PR|       DA|       DB|        K|
@@ -2076,8 +2077,8 @@ $       A1|       A2|       A3|       V1|       V2|       V3|
 TX_Sternum_cortical-Iraeus-et-al-2020
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     301001     2.E-6      14.7       0.3                  0.        0.        0.
-$        C|        P|     LCSS|     LCSR|       VP|
-       2.5        7.         0         0        0.
+$        C|        P|     LCSS|     LCSR|       VP|      LCF|
+       2.5        7.         0         0        0.          
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.    0.0152       0.1        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
@@ -2086,8 +2087,8 @@ $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8
 TX_Sternum-trabecular-Rib-Mat-Iraeus-et-al-2020
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     301002  8.615E-7      0.04      0.45    0.0018        0.        0.        0.
-$        C|        P|     LCSS|     LCSR|       VP|
-        0.        0.         0         0        0.
+$        C|        P|     LCSS|     LCSR|       VP|      LCF|
+        0.        0.         0         0        0.          
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.      0.05      0.06       0.1        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
@@ -2148,8 +2149,8 @@ $      MID|       RO|       PC|       MU|    TEROD|    CEROD|       YM|       PR
 UX_Humerus_cortical_Vandenbulcke_et_al_transverse
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     301301  1.973E-6    12.516       0.2       0.1        1.     1.E20        0.
-$        C|        P|     LCSS|     LCSR|       VP|
-        0.        0.                            0.
+$        C|        P|     LCSS|     LCSR|       VP|      LCF|
+        0.        0.                            0.          
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.        0.        0.        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
@@ -2270,222 +2271,6 @@ $   ALPHA1|   ALPHA2|   ALPHA3|   ALPHA4|   ALPHA5|   ALPHA6|   ALPHA7|   ALPHA8
        20.        0.        0.        0.        0.        0.        0.        0.
 $GI       |GI       |    VFLAG|
      3.E-6      0.31          
-*MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM_TITLE
-TX_C_J_T1_T2
-$      MID|       RO|       KT|       KR|  UNLDOPT|   OFFSET|    DAMPF|    IFLAG|
-    309011     1.E-6        0.        0.       0.0        0.       0.9         0
-$   LCIDTR|   LCIDTS|   LCIDTT|   LCIDRR|   LCIDRS|   LCIDRT|
-   3500001   3500002   3500003   3500004   3500005   3500006
-$  LCIDTUR|  LCIDTUS|  LCIDTUT|  LCIDRUR|  LCIDRUS|  LCIDRUT|
-         0         0         0         0         0         0
-$  LCIDTDR|  LCIDTDS|  LCIDTDT|  LCIDRDR|  LCIDRDS|  LCIDRDT|
-         0         0         0         0         0         0
-$  LCIDTER|  LCIDTES|  LCIDTET|  LCIDRER|  LCIDRES|  LCIDRET|
-         0         0         0         0         0         0
-$  UTFAILR|  UTFAILS|  UTFAILT|  WTFAILR|  WTFAILS|  WTFAILT|
-        0.        0.        0.        0.        0.        0.
-$  UCFAILR|  UCFAILS|  UCFAILT|  WCFAILR|  WCFAILS|  WCFAILT|
-        0.        0.        0.        0.        0.        0.
-$      IUR|      IUS|      IUT|      IWR|      IWS|      IWT|
-        0.        0.        0.        0.        0.        0.
-*MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM_TITLE
-TX_C_J_T2_T3
-$      MID|       RO|       KT|       KR|  UNLDOPT|   OFFSET|    DAMPF|    IFLAG|
-    309021     1.E-6        0.        0.       0.0        0.       0.9         0
-$   LCIDTR|   LCIDTS|   LCIDTT|   LCIDRR|   LCIDRS|   LCIDRT|
-   3500001   3500002   3500003   3500004   3500005   3500006
-$  LCIDTUR|  LCIDTUS|  LCIDTUT|  LCIDRUR|  LCIDRUS|  LCIDRUT|
-         0         0         0         0         0         0
-$  LCIDTDR|  LCIDTDS|  LCIDTDT|  LCIDRDR|  LCIDRDS|  LCIDRDT|
-         0         0         0         0         0         0
-$  LCIDTER|  LCIDTES|  LCIDTET|  LCIDRER|  LCIDRES|  LCIDRET|
-         0         0         0         0         0         0
-$  UTFAILR|  UTFAILS|  UTFAILT|  WTFAILR|  WTFAILS|  WTFAILT|
-        0.        0.        0.        0.        0.        0.
-$  UCFAILR|  UCFAILS|  UCFAILT|  WCFAILR|  WCFAILS|  WCFAILT|
-        0.        0.        0.        0.        0.        0.
-$      IUR|      IUS|      IUT|      IWR|      IWS|      IWT|
-        0.        0.        0.        0.        0.        0.
-*MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM_TITLE
-TX_C_J_T3_T4
-$      MID|       RO|       KT|       KR|  UNLDOPT|   OFFSET|    DAMPF|    IFLAG|
-    309031     1.E-6        0.        0.       0.0        0.       0.9         0
-$   LCIDTR|   LCIDTS|   LCIDTT|   LCIDRR|   LCIDRS|   LCIDRT|
-   3500001   3500002   3500003   3500004   3500005   3500006
-$  LCIDTUR|  LCIDTUS|  LCIDTUT|  LCIDRUR|  LCIDRUS|  LCIDRUT|
-         0         0         0         0         0         0
-$  LCIDTDR|  LCIDTDS|  LCIDTDT|  LCIDRDR|  LCIDRDS|  LCIDRDT|
-         0         0         0         0         0         0
-$  LCIDTER|  LCIDTES|  LCIDTET|  LCIDRER|  LCIDRES|  LCIDRET|
-         0         0         0         0         0         0
-$  UTFAILR|  UTFAILS|  UTFAILT|  WTFAILR|  WTFAILS|  WTFAILT|
-        0.        0.        0.        0.        0.        0.
-$  UCFAILR|  UCFAILS|  UCFAILT|  WCFAILR|  WCFAILS|  WCFAILT|
-        0.        0.        0.        0.        0.        0.
-$      IUR|      IUS|      IUT|      IWR|      IWS|      IWT|
-        0.        0.        0.        0.        0.        0.
-*MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM_TITLE
-TX_C_J_T4_T5
-$      MID|       RO|       KT|       KR|  UNLDOPT|   OFFSET|    DAMPF|    IFLAG|
-    309041     1.E-6        0.        0.       0.0        0.       0.9         0
-$   LCIDTR|   LCIDTS|   LCIDTT|   LCIDRR|   LCIDRS|   LCIDRT|
-   3500001   3500002   3500003   3500004   3500005   3500006
-$  LCIDTUR|  LCIDTUS|  LCIDTUT|  LCIDRUR|  LCIDRUS|  LCIDRUT|
-         0         0         0         0         0         0
-$  LCIDTDR|  LCIDTDS|  LCIDTDT|  LCIDRDR|  LCIDRDS|  LCIDRDT|
-         0         0         0         0         0         0
-$  LCIDTER|  LCIDTES|  LCIDTET|  LCIDRER|  LCIDRES|  LCIDRET|
-         0         0         0         0         0         0
-$  UTFAILR|  UTFAILS|  UTFAILT|  WTFAILR|  WTFAILS|  WTFAILT|
-        0.        0.        0.        0.        0.        0.
-$  UCFAILR|  UCFAILS|  UCFAILT|  WCFAILR|  WCFAILS|  WCFAILT|
-        0.        0.        0.        0.        0.        0.
-$      IUR|      IUS|      IUT|      IWR|      IWS|      IWT|
-        0.        0.        0.        0.        0.        0.
-*MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM_TITLE
-TX_C_J_T5_T6
-$      MID|       RO|       KT|       KR|  UNLDOPT|   OFFSET|    DAMPF|    IFLAG|
-    309051     1.E-6        0.        0.       0.0        0.       0.9         0
-$   LCIDTR|   LCIDTS|   LCIDTT|   LCIDRR|   LCIDRS|   LCIDRT|
-   3500001   3500002   3500003   3500004   3500005   3500006
-$  LCIDTUR|  LCIDTUS|  LCIDTUT|  LCIDRUR|  LCIDRUS|  LCIDRUT|
-         0         0         0         0         0         0
-$  LCIDTDR|  LCIDTDS|  LCIDTDT|  LCIDRDR|  LCIDRDS|  LCIDRDT|
-         0         0         0         0         0         0
-$  LCIDTER|  LCIDTES|  LCIDTET|  LCIDRER|  LCIDRES|  LCIDRET|
-         0         0         0         0         0         0
-$  UTFAILR|  UTFAILS|  UTFAILT|  WTFAILR|  WTFAILS|  WTFAILT|
-        0.        0.        0.        0.        0.        0.
-$  UCFAILR|  UCFAILS|  UCFAILT|  WCFAILR|  WCFAILS|  WCFAILT|
-        0.        0.        0.        0.        0.        0.
-$      IUR|      IUS|      IUT|      IWR|      IWS|      IWT|
-        0.        0.        0.        0.        0.        0.
-*MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM_TITLE
-TX_C_J_T6_T7
-$      MID|       RO|       KT|       KR|  UNLDOPT|   OFFSET|    DAMPF|    IFLAG|
-    309061     1.E-6        0.        0.       0.0        0.       0.9         0
-$   LCIDTR|   LCIDTS|   LCIDTT|   LCIDRR|   LCIDRS|   LCIDRT|
-   3500001   3500002   3500003   3500004   3500005   3500006
-$  LCIDTUR|  LCIDTUS|  LCIDTUT|  LCIDRUR|  LCIDRUS|  LCIDRUT|
-         0         0         0         0         0         0
-$  LCIDTDR|  LCIDTDS|  LCIDTDT|  LCIDRDR|  LCIDRDS|  LCIDRDT|
-         0         0         0         0         0         0
-$  LCIDTER|  LCIDTES|  LCIDTET|  LCIDRER|  LCIDRES|  LCIDRET|
-         0         0         0         0         0         0
-$  UTFAILR|  UTFAILS|  UTFAILT|  WTFAILR|  WTFAILS|  WTFAILT|
-        0.        0.        0.        0.        0.        0.
-$  UCFAILR|  UCFAILS|  UCFAILT|  WCFAILR|  WCFAILS|  WCFAILT|
-        0.        0.        0.        0.        0.        0.
-$      IUR|      IUS|      IUT|      IWR|      IWS|      IWT|
-        0.        0.        0.        0.        0.        0.
-*MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM_TITLE
-TX_C_J_T7_T8
-$      MID|       RO|       KT|       KR|  UNLDOPT|   OFFSET|    DAMPF|    IFLAG|
-    309071     1.E-6        0.        0.       0.0        0.       0.9         0
-$   LCIDTR|   LCIDTS|   LCIDTT|   LCIDRR|   LCIDRS|   LCIDRT|
-   3500001   3500002   3500003   3500004   3500005   3500006
-$  LCIDTUR|  LCIDTUS|  LCIDTUT|  LCIDRUR|  LCIDRUS|  LCIDRUT|
-         0         0         0         0         0         0
-$  LCIDTDR|  LCIDTDS|  LCIDTDT|  LCIDRDR|  LCIDRDS|  LCIDRDT|
-         0         0         0         0         0         0
-$  LCIDTER|  LCIDTES|  LCIDTET|  LCIDRER|  LCIDRES|  LCIDRET|
-         0         0         0         0         0         0
-$  UTFAILR|  UTFAILS|  UTFAILT|  WTFAILR|  WTFAILS|  WTFAILT|
-        0.        0.        0.        0.        0.        0.
-$  UCFAILR|  UCFAILS|  UCFAILT|  WCFAILR|  WCFAILS|  WCFAILT|
-        0.        0.        0.        0.        0.        0.
-$      IUR|      IUS|      IUT|      IWR|      IWS|      IWT|
-        0.        0.        0.        0.        0.        0.
-*MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM_TITLE
-TX_C_J_T8_T9
-$      MID|       RO|       KT|       KR|  UNLDOPT|   OFFSET|    DAMPF|    IFLAG|
-    309081     1.E-6        0.        0.       0.0        0.       0.9         0
-$   LCIDTR|   LCIDTS|   LCIDTT|   LCIDRR|   LCIDRS|   LCIDRT|
-   3500001   3500002   3500003   3500004   3500005   3500006
-$  LCIDTUR|  LCIDTUS|  LCIDTUT|  LCIDRUR|  LCIDRUS|  LCIDRUT|
-         0         0         0         0         0         0
-$  LCIDTDR|  LCIDTDS|  LCIDTDT|  LCIDRDR|  LCIDRDS|  LCIDRDT|
-         0         0         0         0         0         0
-$  LCIDTER|  LCIDTES|  LCIDTET|  LCIDRER|  LCIDRES|  LCIDRET|
-         0         0         0         0         0         0
-$  UTFAILR|  UTFAILS|  UTFAILT|  WTFAILR|  WTFAILS|  WTFAILT|
-        0.        0.        0.        0.        0.        0.
-$  UCFAILR|  UCFAILS|  UCFAILT|  WCFAILR|  WCFAILS|  WCFAILT|
-        0.        0.        0.        0.        0.        0.
-$      IUR|      IUS|      IUT|      IWR|      IWS|      IWT|
-        0.        0.        0.        0.        0.        0.
-*MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM_TITLE
-TX_C_J_T9_T10
-$      MID|       RO|       KT|       KR|  UNLDOPT|   OFFSET|    DAMPF|    IFLAG|
-    309091     1.E-6        0.        0.       0.0        0.       0.9         0
-$   LCIDTR|   LCIDTS|   LCIDTT|   LCIDRR|   LCIDRS|   LCIDRT|
-   3500001   3500002   3500003   3500004   3500005   3500006
-$  LCIDTUR|  LCIDTUS|  LCIDTUT|  LCIDRUR|  LCIDRUS|  LCIDRUT|
-         0         0         0         0         0         0
-$  LCIDTDR|  LCIDTDS|  LCIDTDT|  LCIDRDR|  LCIDRDS|  LCIDRDT|
-         0         0         0         0         0         0
-$  LCIDTER|  LCIDTES|  LCIDTET|  LCIDRER|  LCIDRES|  LCIDRET|
-         0         0         0         0         0         0
-$  UTFAILR|  UTFAILS|  UTFAILT|  WTFAILR|  WTFAILS|  WTFAILT|
-        0.        0.        0.        0.        0.        0.
-$  UCFAILR|  UCFAILS|  UCFAILT|  WCFAILR|  WCFAILS|  WCFAILT|
-        0.        0.        0.        0.        0.        0.
-$      IUR|      IUS|      IUT|      IWR|      IWS|      IWT|
-        0.        0.        0.        0.        0.        0.
-*MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM_TITLE
-TX_C_J_T10_T11
-$      MID|       RO|       KT|       KR|  UNLDOPT|   OFFSET|    DAMPF|    IFLAG|
-    309101     1.E-6        0.        0.       0.0        0.       0.9         0
-$   LCIDTR|   LCIDTS|   LCIDTT|   LCIDRR|   LCIDRS|   LCIDRT|
-   3500001   3500002   3500003   3500004   3500005   3500006
-$  LCIDTUR|  LCIDTUS|  LCIDTUT|  LCIDRUR|  LCIDRUS|  LCIDRUT|
-         0         0         0         0         0         0
-$  LCIDTDR|  LCIDTDS|  LCIDTDT|  LCIDRDR|  LCIDRDS|  LCIDRDT|
-         0         0         0         0         0         0
-$  LCIDTER|  LCIDTES|  LCIDTET|  LCIDRER|  LCIDRES|  LCIDRET|
-         0         0         0         0         0         0
-$  UTFAILR|  UTFAILS|  UTFAILT|  WTFAILR|  WTFAILS|  WTFAILT|
-        0.        0.        0.        0.        0.        0.
-$  UCFAILR|  UCFAILS|  UCFAILT|  WCFAILR|  WCFAILS|  WCFAILT|
-        0.        0.        0.        0.        0.        0.
-$      IUR|      IUS|      IUT|      IWR|      IWS|      IWT|
-        0.        0.        0.        0.        0.        0.
-*MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM_TITLE
-TX_C_J_T11_T12
-$      MID|       RO|       KT|       KR|  UNLDOPT|   OFFSET|    DAMPF|    IFLAG|
-    309111     1.E-6        0.        0.       0.0        0.       0.9         0
-$   LCIDTR|   LCIDTS|   LCIDTT|   LCIDRR|   LCIDRS|   LCIDRT|
-   3500001   3500002   3500003   3500004   3500005   3500006
-$  LCIDTUR|  LCIDTUS|  LCIDTUT|  LCIDRUR|  LCIDRUS|  LCIDRUT|
-         0         0         0         0         0         0
-$  LCIDTDR|  LCIDTDS|  LCIDTDT|  LCIDRDR|  LCIDRDS|  LCIDRDT|
-         0         0         0         0         0         0
-$  LCIDTER|  LCIDTES|  LCIDTET|  LCIDRER|  LCIDRES|  LCIDRET|
-         0         0         0         0         0         0
-$  UTFAILR|  UTFAILS|  UTFAILT|  WTFAILR|  WTFAILS|  WTFAILT|
-        0.        0.        0.        0.        0.        0.
-$  UCFAILR|  UCFAILS|  UCFAILT|  WCFAILR|  WCFAILS|  WCFAILT|
-        0.        0.        0.        0.        0.        0.
-$      IUR|      IUS|      IUT|      IWR|      IWS|      IWT|
-        0.        0.        0.        0.        0.        0.
-*MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM_TITLE
-TX_C_J_T12_L1
-$      MID|       RO|       KT|       KR|  UNLDOPT|   OFFSET|    DAMPF|    IFLAG|
-    309121     1.E-6        0.        0.       0.0        0.       0.9         0
-$   LCIDTR|   LCIDTS|   LCIDTT|   LCIDRR|   LCIDRS|   LCIDRT|
-   3500001   3500002   3500003   3500004   3500005   3500006
-$  LCIDTUR|  LCIDTUS|  LCIDTUT|  LCIDRUR|  LCIDRUS|  LCIDRUT|
-         0         0         0         0         0         0
-$  LCIDTDR|  LCIDTDS|  LCIDTDT|  LCIDRDR|  LCIDRDS|  LCIDRDT|
-         0         0         0         0         0         0
-$  LCIDTER|  LCIDTES|  LCIDTET|  LCIDRER|  LCIDRES|  LCIDRET|
-         0         0         0         0         0         0
-$  UTFAILR|  UTFAILS|  UTFAILT|  WTFAILR|  WTFAILS|  WTFAILT|
-        0.        0.        0.        0.        0.        0.
-$  UCFAILR|  UCFAILS|  UCFAILT|  WCFAILR|  WCFAILS|  WCFAILT|
-        0.        0.        0.        0.        0.        0.
-$      IUR|      IUS|      IUT|      IWR|      IWS|      IWT|
-        0.        0.        0.        0.        0.        0.
 *MAT_RIGID_TITLE
 UX-Bone-Scapula-Cortical-R
 $      MID|       RO|        E|       PR|        N|   COUPLE|        M| ALIAS_RE|
@@ -2498,8 +2283,8 @@ $       A1|       A2|       A3|       V1|       V2|       V3|
 TX_Rib_Cartilage-Iraeus-et-al-2020
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     353111     1.E-6     0.049       0.4   0.00485        0.        0.        0.
-$        C|        P|     LCSS|     LCSR|       VP|
-        0.        0.         0         0        0.
+$        C|        P|     LCSS|     LCSR|       VP|      LCF|
+        0.        0.         0         0        0.          
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.    0.1675    0.3296        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
@@ -2592,12 +2377,228 @@ $      CMO|     CON1|     CON2|
        0.0        0.        0.
 $       A1|       A2|       A3|       V1|       V2|       V3|
         0.        0.        0.        0.        0.        0.
+*MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM_TITLE
+TX_C_J_T1_T2
+$      MID|       RO|       KT|       KR|  UNLDOPT|   OFFSET|    DAMPF|    IFLAG|
+    402010     1.E-6        0.        0.       0.0        0.       0.9         0
+$   LCIDTR|   LCIDTS|   LCIDTT|   LCIDRR|   LCIDRS|   LCIDRT|
+    402001    402002    402003    402004    402005    402006
+$  LCIDTUR|  LCIDTUS|  LCIDTUT|  LCIDRUR|  LCIDRUS|  LCIDRUT|
+         0         0         0         0         0         0
+$  LCIDTDR|  LCIDTDS|  LCIDTDT|  LCIDRDR|  LCIDRDS|  LCIDRDT|
+         0         0         0         0         0         0
+$  LCIDTER|  LCIDTES|  LCIDTET|  LCIDRER|  LCIDRES|  LCIDRET|
+         0         0         0         0         0         0
+$  UTFAILR|  UTFAILS|  UTFAILT|  WTFAILR|  WTFAILS|  WTFAILT|
+        0.        0.        0.        0.        0.        0.
+$  UCFAILR|  UCFAILS|  UCFAILT|  WCFAILR|  WCFAILS|  WCFAILT|
+        0.        0.        0.        0.        0.        0.
+$      IUR|      IUS|      IUT|      IWR|      IWS|      IWT|
+        0.        0.        0.        0.        0.        0.
+*MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM_TITLE
+TX_C_J_T2_T3
+$      MID|       RO|       KT|       KR|  UNLDOPT|   OFFSET|    DAMPF|    IFLAG|
+    402020     1.E-6        0.        0.       0.0        0.       0.9         0
+$   LCIDTR|   LCIDTS|   LCIDTT|   LCIDRR|   LCIDRS|   LCIDRT|
+    402001    402002    402003    402004    402005    402006
+$  LCIDTUR|  LCIDTUS|  LCIDTUT|  LCIDRUR|  LCIDRUS|  LCIDRUT|
+         0         0         0         0         0         0
+$  LCIDTDR|  LCIDTDS|  LCIDTDT|  LCIDRDR|  LCIDRDS|  LCIDRDT|
+         0         0         0         0         0         0
+$  LCIDTER|  LCIDTES|  LCIDTET|  LCIDRER|  LCIDRES|  LCIDRET|
+         0         0         0         0         0         0
+$  UTFAILR|  UTFAILS|  UTFAILT|  WTFAILR|  WTFAILS|  WTFAILT|
+        0.        0.        0.        0.        0.        0.
+$  UCFAILR|  UCFAILS|  UCFAILT|  WCFAILR|  WCFAILS|  WCFAILT|
+        0.        0.        0.        0.        0.        0.
+$      IUR|      IUS|      IUT|      IWR|      IWS|      IWT|
+        0.        0.        0.        0.        0.        0.
+*MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM_TITLE
+TX_C_J_T3_T4
+$      MID|       RO|       KT|       KR|  UNLDOPT|   OFFSET|    DAMPF|    IFLAG|
+    402030     1.E-6        0.        0.       0.0        0.       0.9         0
+$   LCIDTR|   LCIDTS|   LCIDTT|   LCIDRR|   LCIDRS|   LCIDRT|
+    402001    402002    402003    402004    402005    402006
+$  LCIDTUR|  LCIDTUS|  LCIDTUT|  LCIDRUR|  LCIDRUS|  LCIDRUT|
+         0         0         0         0         0         0
+$  LCIDTDR|  LCIDTDS|  LCIDTDT|  LCIDRDR|  LCIDRDS|  LCIDRDT|
+         0         0         0         0         0         0
+$  LCIDTER|  LCIDTES|  LCIDTET|  LCIDRER|  LCIDRES|  LCIDRET|
+         0         0         0         0         0         0
+$  UTFAILR|  UTFAILS|  UTFAILT|  WTFAILR|  WTFAILS|  WTFAILT|
+        0.        0.        0.        0.        0.        0.
+$  UCFAILR|  UCFAILS|  UCFAILT|  WCFAILR|  WCFAILS|  WCFAILT|
+        0.        0.        0.        0.        0.        0.
+$      IUR|      IUS|      IUT|      IWR|      IWS|      IWT|
+        0.        0.        0.        0.        0.        0.
+*MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM_TITLE
+TX_C_J_T4_T5
+$      MID|       RO|       KT|       KR|  UNLDOPT|   OFFSET|    DAMPF|    IFLAG|
+    402040     1.E-6        0.        0.       0.0        0.       0.9         0
+$   LCIDTR|   LCIDTS|   LCIDTT|   LCIDRR|   LCIDRS|   LCIDRT|
+    402001    402002    402003    402004    402005    402006
+$  LCIDTUR|  LCIDTUS|  LCIDTUT|  LCIDRUR|  LCIDRUS|  LCIDRUT|
+         0         0         0         0         0         0
+$  LCIDTDR|  LCIDTDS|  LCIDTDT|  LCIDRDR|  LCIDRDS|  LCIDRDT|
+         0         0         0         0         0         0
+$  LCIDTER|  LCIDTES|  LCIDTET|  LCIDRER|  LCIDRES|  LCIDRET|
+         0         0         0         0         0         0
+$  UTFAILR|  UTFAILS|  UTFAILT|  WTFAILR|  WTFAILS|  WTFAILT|
+        0.        0.        0.        0.        0.        0.
+$  UCFAILR|  UCFAILS|  UCFAILT|  WCFAILR|  WCFAILS|  WCFAILT|
+        0.        0.        0.        0.        0.        0.
+$      IUR|      IUS|      IUT|      IWR|      IWS|      IWT|
+        0.        0.        0.        0.        0.        0.
+*MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM_TITLE
+TX_C_J_T5_T6
+$      MID|       RO|       KT|       KR|  UNLDOPT|   OFFSET|    DAMPF|    IFLAG|
+    402050     1.E-6        0.        0.       0.0        0.       0.9         0
+$   LCIDTR|   LCIDTS|   LCIDTT|   LCIDRR|   LCIDRS|   LCIDRT|
+    402001    402002    402003    402004    402005    402006
+$  LCIDTUR|  LCIDTUS|  LCIDTUT|  LCIDRUR|  LCIDRUS|  LCIDRUT|
+         0         0         0         0         0         0
+$  LCIDTDR|  LCIDTDS|  LCIDTDT|  LCIDRDR|  LCIDRDS|  LCIDRDT|
+         0         0         0         0         0         0
+$  LCIDTER|  LCIDTES|  LCIDTET|  LCIDRER|  LCIDRES|  LCIDRET|
+         0         0         0         0         0         0
+$  UTFAILR|  UTFAILS|  UTFAILT|  WTFAILR|  WTFAILS|  WTFAILT|
+        0.        0.        0.        0.        0.        0.
+$  UCFAILR|  UCFAILS|  UCFAILT|  WCFAILR|  WCFAILS|  WCFAILT|
+        0.        0.        0.        0.        0.        0.
+$      IUR|      IUS|      IUT|      IWR|      IWS|      IWT|
+        0.        0.        0.        0.        0.        0.
+*MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM_TITLE
+TX_C_J_T6_T7
+$      MID|       RO|       KT|       KR|  UNLDOPT|   OFFSET|    DAMPF|    IFLAG|
+    402060     1.E-6        0.        0.       0.0        0.       0.9         0
+$   LCIDTR|   LCIDTS|   LCIDTT|   LCIDRR|   LCIDRS|   LCIDRT|
+    402001    402002    402003    402004    402005    402006
+$  LCIDTUR|  LCIDTUS|  LCIDTUT|  LCIDRUR|  LCIDRUS|  LCIDRUT|
+         0         0         0         0         0         0
+$  LCIDTDR|  LCIDTDS|  LCIDTDT|  LCIDRDR|  LCIDRDS|  LCIDRDT|
+         0         0         0         0         0         0
+$  LCIDTER|  LCIDTES|  LCIDTET|  LCIDRER|  LCIDRES|  LCIDRET|
+         0         0         0         0         0         0
+$  UTFAILR|  UTFAILS|  UTFAILT|  WTFAILR|  WTFAILS|  WTFAILT|
+        0.        0.        0.        0.        0.        0.
+$  UCFAILR|  UCFAILS|  UCFAILT|  WCFAILR|  WCFAILS|  WCFAILT|
+        0.        0.        0.        0.        0.        0.
+$      IUR|      IUS|      IUT|      IWR|      IWS|      IWT|
+        0.        0.        0.        0.        0.        0.
+*MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM_TITLE
+TX_C_J_T7_T8
+$      MID|       RO|       KT|       KR|  UNLDOPT|   OFFSET|    DAMPF|    IFLAG|
+    402070     1.E-6        0.        0.       0.0        0.       0.9         0
+$   LCIDTR|   LCIDTS|   LCIDTT|   LCIDRR|   LCIDRS|   LCIDRT|
+    402001    402002    402003    402004    402005    402006
+$  LCIDTUR|  LCIDTUS|  LCIDTUT|  LCIDRUR|  LCIDRUS|  LCIDRUT|
+         0         0         0         0         0         0
+$  LCIDTDR|  LCIDTDS|  LCIDTDT|  LCIDRDR|  LCIDRDS|  LCIDRDT|
+         0         0         0         0         0         0
+$  LCIDTER|  LCIDTES|  LCIDTET|  LCIDRER|  LCIDRES|  LCIDRET|
+         0         0         0         0         0         0
+$  UTFAILR|  UTFAILS|  UTFAILT|  WTFAILR|  WTFAILS|  WTFAILT|
+        0.        0.        0.        0.        0.        0.
+$  UCFAILR|  UCFAILS|  UCFAILT|  WCFAILR|  WCFAILS|  WCFAILT|
+        0.        0.        0.        0.        0.        0.
+$      IUR|      IUS|      IUT|      IWR|      IWS|      IWT|
+        0.        0.        0.        0.        0.        0.
+*MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM_TITLE
+TX_C_J_T8_T9
+$      MID|       RO|       KT|       KR|  UNLDOPT|   OFFSET|    DAMPF|    IFLAG|
+    402080     1.E-6        0.        0.       0.0        0.       0.9         0
+$   LCIDTR|   LCIDTS|   LCIDTT|   LCIDRR|   LCIDRS|   LCIDRT|
+    402001    402002    402003    402004    402005    402006
+$  LCIDTUR|  LCIDTUS|  LCIDTUT|  LCIDRUR|  LCIDRUS|  LCIDRUT|
+         0         0         0         0         0         0
+$  LCIDTDR|  LCIDTDS|  LCIDTDT|  LCIDRDR|  LCIDRDS|  LCIDRDT|
+         0         0         0         0         0         0
+$  LCIDTER|  LCIDTES|  LCIDTET|  LCIDRER|  LCIDRES|  LCIDRET|
+         0         0         0         0         0         0
+$  UTFAILR|  UTFAILS|  UTFAILT|  WTFAILR|  WTFAILS|  WTFAILT|
+        0.        0.        0.        0.        0.        0.
+$  UCFAILR|  UCFAILS|  UCFAILT|  WCFAILR|  WCFAILS|  WCFAILT|
+        0.        0.        0.        0.        0.        0.
+$      IUR|      IUS|      IUT|      IWR|      IWS|      IWT|
+        0.        0.        0.        0.        0.        0.
+*MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM_TITLE
+TX_C_J_T9_T10
+$      MID|       RO|       KT|       KR|  UNLDOPT|   OFFSET|    DAMPF|    IFLAG|
+    402090     1.E-6        0.        0.       0.0        0.       0.9         0
+$   LCIDTR|   LCIDTS|   LCIDTT|   LCIDRR|   LCIDRS|   LCIDRT|
+    402001    402002    402003    402004    402005    402006
+$  LCIDTUR|  LCIDTUS|  LCIDTUT|  LCIDRUR|  LCIDRUS|  LCIDRUT|
+         0         0         0         0         0         0
+$  LCIDTDR|  LCIDTDS|  LCIDTDT|  LCIDRDR|  LCIDRDS|  LCIDRDT|
+         0         0         0         0         0         0
+$  LCIDTER|  LCIDTES|  LCIDTET|  LCIDRER|  LCIDRES|  LCIDRET|
+         0         0         0         0         0         0
+$  UTFAILR|  UTFAILS|  UTFAILT|  WTFAILR|  WTFAILS|  WTFAILT|
+        0.        0.        0.        0.        0.        0.
+$  UCFAILR|  UCFAILS|  UCFAILT|  WCFAILR|  WCFAILS|  WCFAILT|
+        0.        0.        0.        0.        0.        0.
+$      IUR|      IUS|      IUT|      IWR|      IWS|      IWT|
+        0.        0.        0.        0.        0.        0.
+*MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM_TITLE
+TX_C_J_T10_T11
+$      MID|       RO|       KT|       KR|  UNLDOPT|   OFFSET|    DAMPF|    IFLAG|
+    402100     1.E-6        0.        0.       0.0        0.       0.9         0
+$   LCIDTR|   LCIDTS|   LCIDTT|   LCIDRR|   LCIDRS|   LCIDRT|
+    402001    402002    402003    402004    402005    402006
+$  LCIDTUR|  LCIDTUS|  LCIDTUT|  LCIDRUR|  LCIDRUS|  LCIDRUT|
+         0         0         0         0         0         0
+$  LCIDTDR|  LCIDTDS|  LCIDTDT|  LCIDRDR|  LCIDRDS|  LCIDRDT|
+         0         0         0         0         0         0
+$  LCIDTER|  LCIDTES|  LCIDTET|  LCIDRER|  LCIDRES|  LCIDRET|
+         0         0         0         0         0         0
+$  UTFAILR|  UTFAILS|  UTFAILT|  WTFAILR|  WTFAILS|  WTFAILT|
+        0.        0.        0.        0.        0.        0.
+$  UCFAILR|  UCFAILS|  UCFAILT|  WCFAILR|  WCFAILS|  WCFAILT|
+        0.        0.        0.        0.        0.        0.
+$      IUR|      IUS|      IUT|      IWR|      IWS|      IWT|
+        0.        0.        0.        0.        0.        0.
+*MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM_TITLE
+TX_C_J_T11_T12
+$      MID|       RO|       KT|       KR|  UNLDOPT|   OFFSET|    DAMPF|    IFLAG|
+    402110     1.E-6        0.        0.       0.0        0.       0.9         0
+$   LCIDTR|   LCIDTS|   LCIDTT|   LCIDRR|   LCIDRS|   LCIDRT|
+    402001    402002    402003    402004    402005    402006
+$  LCIDTUR|  LCIDTUS|  LCIDTUT|  LCIDRUR|  LCIDRUS|  LCIDRUT|
+         0         0         0         0         0         0
+$  LCIDTDR|  LCIDTDS|  LCIDTDT|  LCIDRDR|  LCIDRDS|  LCIDRDT|
+         0         0         0         0         0         0
+$  LCIDTER|  LCIDTES|  LCIDTET|  LCIDRER|  LCIDRES|  LCIDRET|
+         0         0         0         0         0         0
+$  UTFAILR|  UTFAILS|  UTFAILT|  WTFAILR|  WTFAILS|  WTFAILT|
+        0.        0.        0.        0.        0.        0.
+$  UCFAILR|  UCFAILS|  UCFAILT|  WCFAILR|  WCFAILS|  WCFAILT|
+        0.        0.        0.        0.        0.        0.
+$      IUR|      IUS|      IUT|      IWR|      IWS|      IWT|
+        0.        0.        0.        0.        0.        0.
+*MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM_TITLE
+TX_C_J_T12_L1
+$      MID|       RO|       KT|       KR|  UNLDOPT|   OFFSET|    DAMPF|    IFLAG|
+    402120     1.E-6        0.        0.       0.0        0.       0.9         0
+$   LCIDTR|   LCIDTS|   LCIDTT|   LCIDRR|   LCIDRS|   LCIDRT|
+    402001    402002    402003    402004    402005    402006
+$  LCIDTUR|  LCIDTUS|  LCIDTUT|  LCIDRUR|  LCIDRUS|  LCIDRUT|
+         0         0         0         0         0         0
+$  LCIDTDR|  LCIDTDS|  LCIDTDT|  LCIDRDR|  LCIDRDS|  LCIDRDT|
+         0         0         0         0         0         0
+$  LCIDTER|  LCIDTES|  LCIDTET|  LCIDRER|  LCIDRES|  LCIDRET|
+         0         0         0         0         0         0
+$  UTFAILR|  UTFAILS|  UTFAILT|  WTFAILR|  WTFAILS|  WTFAILT|
+        0.        0.        0.        0.        0.        0.
+$  UCFAILR|  UCFAILS|  UCFAILT|  WCFAILR|  WCFAILS|  WCFAILT|
+        0.        0.        0.        0.        0.        0.
+$      IUR|      IUS|      IUT|      IWR|      IWS|      IWT|
+        0.        0.        0.        0.        0.        0.
 *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE
 TX-Ribs-Trabecular-Iraeus-et-al-2020
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     403003  8.615E-7      0.04      0.45    0.0018        0.        0.        0.
-$        C|        P|     LCSS|     LCSR|       VP|
-        0.        0.         0         0        0.
+$        C|        P|     LCSS|     LCSR|       VP|      LCF|
+        0.        0.         0         0        0.          
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.      0.05      0.06       0.1        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
@@ -2606,8 +2607,8 @@ $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8
 TX-Ribs cortical-Iraeus-et-al-2020
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     403004     2.E-6      14.7       0.3                  0.        0.        0.
-$        C|        P|     LCSS|     LCSR|       VP|
-       2.5        7.         0         0        0.
+$        C|        P|     LCSS|     LCSR|       VP|      LCF|
+       2.5        7.         0         0        0.          
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.    0.0152       0.1        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
@@ -2736,96 +2737,6 @@ $       C1|       C2|     LCID|    TRAMP|       NT|
 TX_C_N_Skin_internal_nulls
 $      MID|       RO|       PC|       MU|    TEROD|    CEROD|       YM|       PR|
     406003     1.E-6        0.        0.        0.        0.     0.001       0.3
-*MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM_TITLE
-TX_C_J_L1_L2
-$      MID|       RO|       KT|       KR|  UNLDOPT|   OFFSET|    DAMPF|    IFLAG|
-    409011     1.E-6        0.        0.       0.0        0.       0.9         0
-$   LCIDTR|   LCIDTS|   LCIDTT|   LCIDRR|   LCIDRS|   LCIDRT|
-   3500131   3500132   3500133   3500134   3500135   3500136
-$  LCIDTUR|  LCIDTUS|  LCIDTUT|  LCIDRUR|  LCIDRUS|  LCIDRUT|
-         0         0         0         0         0         0
-$  LCIDTDR|  LCIDTDS|  LCIDTDT|  LCIDRDR|  LCIDRDS|  LCIDRDT|
-         0         0         0         0         0         0
-$  LCIDTER|  LCIDTES|  LCIDTET|  LCIDRER|  LCIDRES|  LCIDRET|
-         0         0         0         0         0         0
-$  UTFAILR|  UTFAILS|  UTFAILT|  WTFAILR|  WTFAILS|  WTFAILT|
-        0.        0.        0.        0.        0.        0.
-$  UCFAILR|  UCFAILS|  UCFAILT|  WCFAILR|  WCFAILS|  WCFAILT|
-        0.        0.        0.        0.        0.        0.
-$      IUR|      IUS|      IUT|      IWR|      IWS|      IWT|
-        0.        0.        0.        0.        0.        0.
-*MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM_TITLE
-TX_C_J_L2_L3
-$      MID|       RO|       KT|       KR|  UNLDOPT|   OFFSET|    DAMPF|    IFLAG|
-    409021     1.E-6        0.        0.       0.0        0.       0.9         0
-$   LCIDTR|   LCIDTS|   LCIDTT|   LCIDRR|   LCIDRS|   LCIDRT|
-   3500141   3500142   3500143   3500144   3500145   3500146
-$  LCIDTUR|  LCIDTUS|  LCIDTUT|  LCIDRUR|  LCIDRUS|  LCIDRUT|
-         0         0         0         0         0         0
-$  LCIDTDR|  LCIDTDS|  LCIDTDT|  LCIDRDR|  LCIDRDS|  LCIDRDT|
-         0         0         0         0         0         0
-$  LCIDTER|  LCIDTES|  LCIDTET|  LCIDRER|  LCIDRES|  LCIDRET|
-         0         0         0         0         0         0
-$  UTFAILR|  UTFAILS|  UTFAILT|  WTFAILR|  WTFAILS|  WTFAILT|
-        0.        0.        0.        0.        0.        0.
-$  UCFAILR|  UCFAILS|  UCFAILT|  WCFAILR|  WCFAILS|  WCFAILT|
-        0.        0.        0.        0.        0.        0.
-$      IUR|      IUS|      IUT|      IWR|      IWS|      IWT|
-        0.        0.        0.        0.        0.        0.
-*MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM_TITLE
-TX_C_J_L3_L4
-$      MID|       RO|       KT|       KR|  UNLDOPT|   OFFSET|    DAMPF|    IFLAG|
-    409031     1.E-6        0.        0.       0.0        0.       0.9         0
-$   LCIDTR|   LCIDTS|   LCIDTT|   LCIDRR|   LCIDRS|   LCIDRT|
-   3500151   3500152   3500153   3500154   3500155   3500156
-$  LCIDTUR|  LCIDTUS|  LCIDTUT|  LCIDRUR|  LCIDRUS|  LCIDRUT|
-         0         0         0         0         0         0
-$  LCIDTDR|  LCIDTDS|  LCIDTDT|  LCIDRDR|  LCIDRDS|  LCIDRDT|
-         0         0         0         0         0         0
-$  LCIDTER|  LCIDTES|  LCIDTET|  LCIDRER|  LCIDRES|  LCIDRET|
-         0         0         0         0         0         0
-$  UTFAILR|  UTFAILS|  UTFAILT|  WTFAILR|  WTFAILS|  WTFAILT|
-        0.        0.        0.        0.        0.        0.
-$  UCFAILR|  UCFAILS|  UCFAILT|  WCFAILR|  WCFAILS|  WCFAILT|
-        0.        0.        0.        0.        0.        0.
-$      IUR|      IUS|      IUT|      IWR|      IWS|      IWT|
-        0.        0.        0.        0.        0.        0.
-*MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM_TITLE
-TX_C_J_L4_L5
-$      MID|       RO|       KT|       KR|  UNLDOPT|   OFFSET|    DAMPF|    IFLAG|
-    409041     1.E-6        0.        0.       0.0        0.       0.9         0
-$   LCIDTR|   LCIDTS|   LCIDTT|   LCIDRR|   LCIDRS|   LCIDRT|
-   3500161   3500162   3500163   3500164   3500165   3500166
-$  LCIDTUR|  LCIDTUS|  LCIDTUT|  LCIDRUR|  LCIDRUS|  LCIDRUT|
-         0         0         0         0         0         0
-$  LCIDTDR|  LCIDTDS|  LCIDTDT|  LCIDRDR|  LCIDRDS|  LCIDRDT|
-         0         0         0         0         0         0
-$  LCIDTER|  LCIDTES|  LCIDTET|  LCIDRER|  LCIDRES|  LCIDRET|
-         0         0         0         0         0         0
-$  UTFAILR|  UTFAILS|  UTFAILT|  WTFAILR|  WTFAILS|  WTFAILT|
-        0.        0.        0.        0.        0.        0.
-$  UCFAILR|  UCFAILS|  UCFAILT|  WCFAILR|  WCFAILS|  WCFAILT|
-        0.        0.        0.        0.        0.        0.
-$      IUR|      IUS|      IUT|      IWR|      IWS|      IWT|
-        0.        0.        0.        0.        0.        0.
-*MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM_TITLE
-TX_C_J_L5_S1
-$      MID|       RO|       KT|       KR|  UNLDOPT|   OFFSET|    DAMPF|    IFLAG|
-    409051     1.E-6        0.        0.       0.0        0.       0.9         0
-$   LCIDTR|   LCIDTS|   LCIDTT|   LCIDRR|   LCIDRS|   LCIDRT|
-   3500171   3500172   3500173   3500174   3500175   3500176
-$  LCIDTUR|  LCIDTUS|  LCIDTUT|  LCIDRUR|  LCIDRUS|  LCIDRUT|
-         0         0         0         0         0         0
-$  LCIDTDR|  LCIDTDS|  LCIDTDT|  LCIDRDR|  LCIDRDS|  LCIDRDT|
-         0         0         0         0         0         0
-$  LCIDTER|  LCIDTES|  LCIDTET|  LCIDRER|  LCIDRES|  LCIDRET|
-         0         0         0         0         0         0
-$  UTFAILR|  UTFAILS|  UTFAILT|  WTFAILR|  WTFAILS|  WTFAILT|
-        0.        0.        0.        0.        0.        0.
-$  UCFAILR|  UCFAILS|  UCFAILT|  WCFAILR|  WCFAILS|  WCFAILT|
-        0.        0.        0.        0.        0.        0.
-$      IUR|      IUS|      IUT|      IWR|      IWS|      IWT|
-        0.        0.        0.        0.        0.        0.
 *MAT_RIGID_TITLE
 TX-Ribcage-R1-Cortical-Posterior-End-R-Rigid
 $      MID|       RO|        E|       PR|        N|   COUPLE|        M| ALIAS_RE|
@@ -2926,6 +2837,96 @@ $       A1|       A2|       A3|       V1|       V2|       V3|
 TX-Intercotal-muscle-External-T1-T12-R-Nulls
 $      MID|       RO|       PC|       MU|    TEROD|    CEROD|       YM|       PR|
     454001     1.E-7        0.        0.        0.        0.        1.       0.3
+*MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM_TITLE
+TX_C_J_L1_L2
+$      MID|       RO|       KT|       KR|  UNLDOPT|   OFFSET|    DAMPF|    IFLAG|
+    502010     1.E-6        0.        0.       0.0        0.       0.9         0
+$   LCIDTR|   LCIDTS|   LCIDTT|   LCIDRR|   LCIDRS|   LCIDRT|
+    502011    502012    502013    502014    502015    502016
+$  LCIDTUR|  LCIDTUS|  LCIDTUT|  LCIDRUR|  LCIDRUS|  LCIDRUT|
+         0         0         0         0         0         0
+$  LCIDTDR|  LCIDTDS|  LCIDTDT|  LCIDRDR|  LCIDRDS|  LCIDRDT|
+         0         0         0         0         0         0
+$  LCIDTER|  LCIDTES|  LCIDTET|  LCIDRER|  LCIDRES|  LCIDRET|
+         0         0         0         0         0         0
+$  UTFAILR|  UTFAILS|  UTFAILT|  WTFAILR|  WTFAILS|  WTFAILT|
+        0.        0.        0.        0.        0.        0.
+$  UCFAILR|  UCFAILS|  UCFAILT|  WCFAILR|  WCFAILS|  WCFAILT|
+        0.        0.        0.        0.        0.        0.
+$      IUR|      IUS|      IUT|      IWR|      IWS|      IWT|
+        0.        0.        0.        0.        0.        0.
+*MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM_TITLE
+TX_C_J_L2_L3
+$      MID|       RO|       KT|       KR|  UNLDOPT|   OFFSET|    DAMPF|    IFLAG|
+    502020     1.E-6        0.        0.       0.0        0.       0.9         0
+$   LCIDTR|   LCIDTS|   LCIDTT|   LCIDRR|   LCIDRS|   LCIDRT|
+    502021    502022    502023    502024    502025    502026
+$  LCIDTUR|  LCIDTUS|  LCIDTUT|  LCIDRUR|  LCIDRUS|  LCIDRUT|
+         0         0         0         0         0         0
+$  LCIDTDR|  LCIDTDS|  LCIDTDT|  LCIDRDR|  LCIDRDS|  LCIDRDT|
+         0         0         0         0         0         0
+$  LCIDTER|  LCIDTES|  LCIDTET|  LCIDRER|  LCIDRES|  LCIDRET|
+         0         0         0         0         0         0
+$  UTFAILR|  UTFAILS|  UTFAILT|  WTFAILR|  WTFAILS|  WTFAILT|
+        0.        0.        0.        0.        0.        0.
+$  UCFAILR|  UCFAILS|  UCFAILT|  WCFAILR|  WCFAILS|  WCFAILT|
+        0.        0.        0.        0.        0.        0.
+$      IUR|      IUS|      IUT|      IWR|      IWS|      IWT|
+        0.        0.        0.        0.        0.        0.
+*MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM_TITLE
+TX_C_J_L3_L4
+$      MID|       RO|       KT|       KR|  UNLDOPT|   OFFSET|    DAMPF|    IFLAG|
+    502030     1.E-6        0.        0.       0.0        0.       0.9         0
+$   LCIDTR|   LCIDTS|   LCIDTT|   LCIDRR|   LCIDRS|   LCIDRT|
+    502031    502032    502033    502034    502035    502036
+$  LCIDTUR|  LCIDTUS|  LCIDTUT|  LCIDRUR|  LCIDRUS|  LCIDRUT|
+         0         0         0         0         0         0
+$  LCIDTDR|  LCIDTDS|  LCIDTDT|  LCIDRDR|  LCIDRDS|  LCIDRDT|
+         0         0         0         0         0         0
+$  LCIDTER|  LCIDTES|  LCIDTET|  LCIDRER|  LCIDRES|  LCIDRET|
+         0         0         0         0         0         0
+$  UTFAILR|  UTFAILS|  UTFAILT|  WTFAILR|  WTFAILS|  WTFAILT|
+        0.        0.        0.        0.        0.        0.
+$  UCFAILR|  UCFAILS|  UCFAILT|  WCFAILR|  WCFAILS|  WCFAILT|
+        0.        0.        0.        0.        0.        0.
+$      IUR|      IUS|      IUT|      IWR|      IWS|      IWT|
+        0.        0.        0.        0.        0.        0.
+*MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM_TITLE
+TX_C_J_L4_L5
+$      MID|       RO|       KT|       KR|  UNLDOPT|   OFFSET|    DAMPF|    IFLAG|
+    502040     1.E-6        0.        0.       0.0        0.       0.9         0
+$   LCIDTR|   LCIDTS|   LCIDTT|   LCIDRR|   LCIDRS|   LCIDRT|
+    502041    502042    502043    502044    502045    502046
+$  LCIDTUR|  LCIDTUS|  LCIDTUT|  LCIDRUR|  LCIDRUS|  LCIDRUT|
+         0         0         0         0         0         0
+$  LCIDTDR|  LCIDTDS|  LCIDTDT|  LCIDRDR|  LCIDRDS|  LCIDRDT|
+         0         0         0         0         0         0
+$  LCIDTER|  LCIDTES|  LCIDTET|  LCIDRER|  LCIDRES|  LCIDRET|
+         0         0         0         0         0         0
+$  UTFAILR|  UTFAILS|  UTFAILT|  WTFAILR|  WTFAILS|  WTFAILT|
+        0.        0.        0.        0.        0.        0.
+$  UCFAILR|  UCFAILS|  UCFAILT|  WCFAILR|  WCFAILS|  WCFAILT|
+        0.        0.        0.        0.        0.        0.
+$      IUR|      IUS|      IUT|      IWR|      IWS|      IWT|
+        0.        0.        0.        0.        0.        0.
+*MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM_TITLE
+TX_C_J_L5_S1
+$      MID|       RO|       KT|       KR|  UNLDOPT|   OFFSET|    DAMPF|    IFLAG|
+    502050     1.E-6        0.        0.       0.0        0.       0.9         0
+$   LCIDTR|   LCIDTS|   LCIDTT|   LCIDRR|   LCIDRS|   LCIDRT|
+    502051    502052    502053    502054    502055    502056
+$  LCIDTUR|  LCIDTUS|  LCIDTUT|  LCIDRUR|  LCIDRUS|  LCIDRUT|
+         0         0         0         0         0         0
+$  LCIDTDR|  LCIDTDS|  LCIDTDT|  LCIDRDR|  LCIDRDS|  LCIDRDT|
+         0         0         0         0         0         0
+$  LCIDTER|  LCIDTES|  LCIDTET|  LCIDRER|  LCIDRES|  LCIDRET|
+         0         0         0         0         0         0
+$  UTFAILR|  UTFAILS|  UTFAILT|  WTFAILR|  WTFAILS|  WTFAILT|
+        0.        0.        0.        0.        0.        0.
+$  UCFAILR|  UCFAILS|  UCFAILT|  WCFAILR|  WCFAILS|  WCFAILT|
+        0.        0.        0.        0.        0.        0.
+$      IUR|      IUS|      IUT|      IWR|      IWS|      IWT|
+        0.        0.        0.        0.        0.        0.
 *MAT_OGDEN_RUBBER_TITLE
 TX-Abdominal-Cavity-Liver-Sato-et-al-2013
 $      MID|       RO|       PR|        N|       NV|        G|     SIGF|      REF|
@@ -2968,8 +2969,8 @@ $        K|
 PE-Pelvic-Trabecular-Bone-Dalstra-et-al-1993
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     601002   3.45E-7    0.0236       0.2        1.        0.     1.E20        0.
-$        C|        P|     LCSS|     LCSR|       VP|
-        0.        0.                            0.
+$        C|        P|     LCSS|     LCSR|       VP|      LCF|
+        0.        0.                            0.          
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.        0.        0.        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
@@ -3276,8 +3277,8 @@ $      MID|       RO|       PC|       MU|    TEROD|    CEROD|       YM|       PR
 LX_L_CB_Patella_Reilly-et-al-1974
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     710401     2.E-6      17.1       0.3     1.E10        0.     1.E20        0.
-$        C|        P|     LCSS|     LCSR|       VP|
-        0.        0.                            0.
+$        C|        P|     LCSS|     LCSR|       VP|      LCF|
+        0.        0.                            0.          
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.        0.        0.        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
@@ -5083,6 +5084,362 @@ IM test curve for fitting
            0.5343318           0.6268199
            0.5788163          0.72796935
            0.6020251           0.7813538
+*DEFINE_CURVE_TITLE
+TSpine-Intervertebral
+    402001         0        1.        1.        0.        0.         0         0
+                -10.             -0.8703
+                  0.                  0.
+                 10.                0.85
+*DEFINE_CURVE_TITLE
+TSpine-Intervertebral
+    402002         0        1.        1.        0.        0.         0         0
+                -10.             -0.9302
+                  0.                  0.
+                 10.              1.1013
+*DEFINE_CURVE_TITLE
+TSpine-Intervertebral
+    402003         0        1.        1.        0.        0.         0         0
+                -10.               -12.5
+                  0.                  0.
+                 10.              7.5758
+*DEFINE_CURVE_TITLE
+TSpine-Intervertebral
+    402004         0        1.        1.        0.        0.         0         0
+           -1.570796              -272.7
+                  0.                  0.
+            1.570796               233.7
+*DEFINE_CURVE_TITLE
+TSpine-Intervertebral
+    402005         0        1.        1.        0.        0.         0         0
+           -1.570796              -254.2
+                  0.                  0.
+            1.570796                200.
+*DEFINE_CURVE_TITLE
+TSpine-Intervertebral
+    402006         0        1.        1.        0.        0.         0         0
+           -1.570796              -220.6
+                  0.                  0.
+            1.570796               233.8
+*DEFINE_CURVE_TITLE
+L1-L2
+    502011         0        1.        1.        0.        0.         0         0
+                -10.               -4.53
+                  0.                  0.
+                 10.                5.95
+*DEFINE_CURVE_TITLE
+L1-L2
+    502012         0        1.        1.        0.        0.         0         0
+                -10.               -4.53
+                  0.                  0.
+                 10.                5.95
+*DEFINE_CURVE_TITLE
+L1-L2
+    502013         0        1.        1.        0.        0.         0         0
+                -1.5              -1.612
+                 -1.              -0.847
+                -0.5              -0.349
+                  0.                  0.
+                 0.5               0.269
+                  1.               0.568
+                 1.5               1.036
+*DEFINE_CURVE_TITLE
+L1-L2
+    502014         0        1.        1.        0.        0.         0         0
+           -0.081263          -18.573502
+           -0.062937           -7.786725
+           -0.044611           -3.110601
+           -0.026285           -1.083477
+           -0.007959           -0.204708
+                  0.                  0.
+            0.018326            0.424053
+            0.036652            1.259204
+            0.054978            2.903996
+            0.073304            6.143336
+             0.09163           12.523063
+*DEFINE_CURVE_TITLE
+L1-L2
+    502015         0        1.        1.        0.        0.         0         0
+           -0.086499          -20.717323
+           -0.067942           -8.175458
+           -0.049386           -3.115876
+           -0.030829           -1.074764
+           -0.012273           -0.251348
+                  0.                  0.
+            0.018556            0.273899
+            0.037113            0.942026
+            0.055669            2.571802
+            0.074225            6.547345
+            0.092782           16.244963
+*DEFINE_CURVE_TITLE
+L1-L2
+    502016         0        1.        1.        0.        0.         0         0
+           -0.080634          -11.484924
+           -0.066036           -7.202102
+           -0.051438           -4.346006
+            -0.03684           -2.441354
+           -0.022242           -1.171194
+           -0.007645           -0.324159
+                  0.                  0.
+            0.014598            0.711821
+            0.029196            2.047257
+            0.043794            4.552649
+            0.058392            9.252977
+*DEFINE_CURVE_TITLE
+L2-L3
+    502021         0        1.        1.        0.        0.         0         0
+                -10.               -4.53
+                  0.                  0.
+                 10.                5.95
+*DEFINE_CURVE_TITLE
+L2-L3
+    502022         0        1.        1.        0.        0.         0         0
+                -10.               -4.53
+                  0.                  0.
+                 10.                5.95
+*DEFINE_CURVE_TITLE
+L2-L3
+    502023         0        1.        1.        0.        0.         0         0
+                -1.5              -1.612
+                 -1.              -0.847
+                -0.5              -0.349
+                  0.                  0.
+                 0.5               0.269
+                  1.               0.568
+                 1.5               1.036
+*DEFINE_CURVE_TITLE
+L2-L3
+    502024         0        1.        1.        0.        0.         0         0
+           -0.124826          -22.406397
+           -0.100301           -8.652965
+           -0.075775            -3.27037
+            -0.05125           -1.163818
+           -0.026724            -0.33939
+           -0.002199           -0.016738
+                  0.                  0.
+            0.024525             0.44539
+            0.049051            1.468014
+            0.073576            3.815976
+            0.098101            9.206939
+*DEFINE_CURVE_TITLE
+L2-L3
+    502025         0        1.        1.        0.        0.         0         0
+           -0.073094          -18.343294
+           -0.050831           -5.817621
+           -0.028568           -1.606335
+           -0.006304           -0.190449
+                  0.                  0.
+            0.022263            0.082025
+            0.044527             0.28847
+             0.06679            0.808055
+            0.089054            2.115762
+            0.111317            5.407041
+            0.133581           13.690632
+*DEFINE_CURVE_TITLE
+L2-L3
+    502026         0        1.        1.        0.        0.         0         0
+           -0.043145          -14.440545
+           -0.034578           -8.527524
+           -0.026012           -4.798135
+           -0.017446           -2.445979
+            -0.00888           -0.962456
+           -0.000314           -0.026786
+                  0.                  0.
+            0.008566            0.827545
+            0.017132            2.233188
+            0.025698            4.620769
+            0.034264            8.676241
+*DEFINE_CURVE_TITLE
+L3-L4
+    502031         0        1.        1.        0.        0.         0         0
+                -10.               -4.53
+                  0.                  0.
+                 10.                5.95
+*DEFINE_CURVE_TITLE
+L3-L4
+    502032         0        1.        1.        0.        0.         0         0
+                -10.               -4.53
+                  0.                  0.
+                 10.                5.95
+*DEFINE_CURVE_TITLE
+L3-L4
+    502033         0        1.        1.        0.        0.         0         0
+                -1.5              -1.612
+                 -1.              -0.847
+                -0.5              -0.349
+                  0.                  0.
+                 0.5               0.269
+                  1.               0.568
+                 1.5               1.036
+*DEFINE_CURVE_TITLE
+L3-L4
+    502034         0        1.        1.        0.        0.         0         0
+           -0.118333          -21.527914
+            -0.09584           -8.887302
+           -0.073346           -3.592648
+           -0.050852           -1.374925
+           -0.028358           -0.446009
+           -0.005864           -0.056922
+                  0.                  0.
+            0.022494            0.384176
+            0.044988            1.363397
+            0.067481            3.859324
+            0.089975           10.221167
+*DEFINE_CURVE_TITLE
+L3-L4
+    502035         0        1.        1.        0.        0.         0         0
+           -0.058434          -17.505844
+           -0.037238           -4.987261
+           -0.016043           -1.052539
+                  0.                  0.
+            0.021195            0.176177
+            0.042391            0.516188
+            0.063586            1.172393
+            0.084781            2.438835
+            0.105976            4.883002
+            0.127172            9.600117
+            0.148367           18.703905
+*DEFINE_CURVE_TITLE
+L3-L4
+    502036         0        1.        1.        0.        0.         0         0
+           -0.105139           -7.418511
+           -0.085451           -3.370695
+           -0.065764           -1.495224
+           -0.046077           -0.626264
+           -0.026389            -0.22365
+           -0.006702           -0.037107
+                  0.                  0.
+            0.019687            0.327963
+            0.039375            0.902962
+            0.059062            1.911073
+            0.078749            3.678538
+*DEFINE_CURVE_TITLE
+L4-L5
+    502041         0        1.        1.        0.        0.         0         0
+                -10.               -4.53
+                  0.                  0.
+                 10.                5.95
+*DEFINE_CURVE_TITLE
+L4-L5
+    502042         0        1.        1.        0.        0.         0         0
+                -10.               -4.53
+                  0.                  0.
+                 10.                5.95
+*DEFINE_CURVE_TITLE
+L4-L5
+    502043         0        1.        1.        0.        0.         0         0
+                -1.5              -1.612
+                 -1.              -0.847
+                -0.5              -0.349
+                  0.                  0.
+                 0.5               0.269
+                  1.               0.568
+                 1.5               1.036
+*DEFINE_CURVE_TITLE
+L4-L5
+    502044         0        1.        1.        0.        0.         0         0
+           -0.109327          -21.201939
+           -0.088342           -8.891738
+           -0.067356           -3.644971
+            -0.04637           -1.408732
+           -0.025384           -0.455617
+           -0.004398           -0.049388
+                  0.                  0.
+            0.020986            0.422533
+            0.041972            1.439914
+            0.062958            3.889573
+            0.083943            9.787889
+*DEFINE_CURVE_TITLE
+L4-L5
+    502045         0        1.        1.        0.        0.         0         0
+            -0.07456          -16.826923
+           -0.048318           -5.003769
+           -0.022075           -1.142236
+                  0.                  0.
+            0.026243            0.072941
+            0.052486            0.247584
+            0.078728            0.665734
+            0.104971            1.666918
+            0.131214            4.064067
+            0.157457            9.803595
+            0.183699           23.545832
+*DEFINE_CURVE_TITLE
+L5-S1
+    502046         0        1.        1.        0.        0.         0         0
+            -0.02974          -15.818902
+           -0.025175           -9.988454
+           -0.020609           -6.170695
+           -0.016043           -3.670839
+           -0.011477           -2.033941
+           -0.006912           -0.962106
+           -0.002346           -0.260272
+                  0.                  0.
+            0.004566            0.778792
+            0.009132            3.178373
+            0.013697           10.571867
+*DEFINE_CURVE_TITLE
+L5-S1
+    502051         0        1.        1.        0.        0.         0         0
+                -10.               -4.53
+                  0.                  0.
+                 10.                5.95
+*DEFINE_CURVE_TITLE
+L5-S1
+    502052         0        1.        1.        0.        0.         0         0
+                -10.               -4.53
+                  0.                  0.
+                 10.                5.95
+*DEFINE_CURVE_TITLE
+L5-S1
+    502053         0        1.        1.        0.        0.         0         0
+                -1.5              -1.612
+                 -1.              -0.847
+                -0.5              -0.349
+                  0.                  0.
+                 0.5               0.269
+                  1.               0.568
+                 1.5               1.036
+*DEFINE_CURVE_TITLE
+L5-S1
+    502054         0        1.        1.        0.        0.         0         0
+           -0.098227          -19.828897
+           -0.079168           -8.657951
+           -0.060109           -3.682999
+            -0.04105           -1.467416
+           -0.021991           -0.480712
+           -0.002932           -0.041286
+                  0.                  0.
+            0.019059            0.478053
+            0.038118            1.571329
+            0.057177            4.071578
+            0.076236            9.789479
+*DEFINE_CURVE_TITLE
+L5-S1
+    502055         0        1.        1.        0.        0.         0         0
+           -0.118543          -22.874393
+           -0.087902           -5.407688
+           -0.057261           -1.225539
+            -0.02662           -0.224185
+                  0.                  0.
+            0.030641            0.040395
+            0.061282            0.180645
+            0.091923            0.667585
+            0.122564            2.358208
+            0.153205            8.227945
+            0.183846             28.6073
+*DEFINE_CURVE_TITLE
+L5-S1
+    502056         0        1.        1.        0.        0.         0         0
+           -0.020735          -13.211658
+           -0.016902           -8.348394
+           -0.013069           -5.059654
+           -0.009236           -2.835671
+           -0.005404           -1.331721
+           -0.001571           -0.314688
+                  0.                  0.
+            0.003833            1.049295
+            0.007665            2.770102
+            0.011498            5.592169
+            0.015331           10.220264
 *DEFINE_CURVE_TITLE
 Pelvis_Kemper_et_al_2008_mean_of_all
     601001         0        1.        1.-0.0057484        0.         0         0
@@ -17926,362 +18283,6 @@ DEFINE_CURVE_2404128
              1.31113           0.0138905
              1.34639           0.0137573
 *DEFINE_CURVE_TITLE
-DEFINE_CURVE_3500001
-   3500001         0        1.        1.        0.        0.         0          
-                -10.             -0.8703
-                  0.                  0.
-                 10.                0.85
-*DEFINE_CURVE_TITLE
-DEFINE_CURVE_3500002
-   3500002         0        1.        1.        0.        0.         0          
-                -10.             -0.9302
-                  0.                  0.
-                 10.              1.1013
-*DEFINE_CURVE_TITLE
-DEFINE_CURVE_3500003
-   3500003         0        1.        1.        0.        0.         0          
-                -10.               -12.5
-                  0.                  0.
-                 10.              7.5758
-*DEFINE_CURVE_TITLE
-DEFINE_CURVE_3500004
-   3500004         0        1.        1.        0.        0.         0          
-           -1.570796              -272.7
-                  0.                  0.
-            1.570796               233.7
-*DEFINE_CURVE_TITLE
-DEFINE_CURVE_3500005
-   3500005         0        1.        1.        0.        0.         0          
-           -1.570796              -254.2
-                  0.                  0.
-            1.570796                200.
-*DEFINE_CURVE_TITLE
-DEFINE_CURVE_3500006
-   3500006         0        1.        1.        0.        0.         0          
-           -1.570796              -220.6
-                  0.                  0.
-            1.570796               233.8
-*DEFINE_CURVE_TITLE
-DEFINE_CURVE_3500131
-   3500131         0        1.        1.        0.        0.         0          
-                -10.               -4.53
-                  0.                  0.
-                 10.                5.95
-*DEFINE_CURVE_TITLE
-DEFINE_CURVE_3500132
-   3500132         0        1.        1.        0.        0.         0          
-                -10.               -4.53
-                  0.                  0.
-                 10.                5.95
-*DEFINE_CURVE_TITLE
-DEFINE_CURVE_3500133
-   3500133         0        1.        1.        0.        0.         0          
-                -1.5              -1.612
-                 -1.              -0.847
-                -0.5              -0.349
-                  0.                  0.
-                 0.5               0.269
-                  1.               0.568
-                 1.5               1.036
-*DEFINE_CURVE_TITLE
-DEFINE_CURVE_3500134
-   3500134         0        1.        1.        0.        0.         0          
-           -0.081263          -18.573502
-           -0.062937           -7.786725
-           -0.044611           -3.110601
-           -0.026285           -1.083477
-           -0.007959           -0.204708
-                  0.                  0.
-            0.018326            0.424053
-            0.036652            1.259204
-            0.054978            2.903996
-            0.073304            6.143336
-             0.09163           12.523063
-*DEFINE_CURVE_TITLE
-DEFINE_CURVE_3500135
-   3500135         0        1.        1.        0.        0.         0          
-           -0.086499          -20.717323
-           -0.067942           -8.175458
-           -0.049386           -3.115876
-           -0.030829           -1.074764
-           -0.012273           -0.251348
-                  0.                  0.
-            0.018556            0.273899
-            0.037113            0.942026
-            0.055669            2.571802
-            0.074225            6.547345
-            0.092782           16.244963
-*DEFINE_CURVE_TITLE
-DEFINE_CURVE_3500136
-   3500136         0        1.        1.        0.        0.         0          
-           -0.080634          -11.484924
-           -0.066036           -7.202102
-           -0.051438           -4.346006
-            -0.03684           -2.441354
-           -0.022242           -1.171194
-           -0.007645           -0.324159
-                  0.                  0.
-            0.014598            0.711821
-            0.029196            2.047257
-            0.043794            4.552649
-            0.058392            9.252977
-*DEFINE_CURVE_TITLE
-DEFINE_CURVE_3500141
-   3500141         0        1.        1.        0.        0.         0          
-                -10.               -4.53
-                  0.                  0.
-                 10.                5.95
-*DEFINE_CURVE_TITLE
-DEFINE_CURVE_3500142
-   3500142         0        1.        1.        0.        0.         0          
-                -10.               -4.53
-                  0.                  0.
-                 10.                5.95
-*DEFINE_CURVE_TITLE
-DEFINE_CURVE_3500143
-   3500143         0        1.        1.        0.        0.         0          
-                -1.5              -1.612
-                 -1.              -0.847
-                -0.5              -0.349
-                  0.                  0.
-                 0.5               0.269
-                  1.               0.568
-                 1.5               1.036
-*DEFINE_CURVE_TITLE
-DEFINE_CURVE_3500144
-   3500144         0        1.        1.        0.        0.         0          
-           -0.124826          -22.406397
-           -0.100301           -8.652965
-           -0.075775            -3.27037
-            -0.05125           -1.163818
-           -0.026724            -0.33939
-           -0.002199           -0.016738
-                  0.                  0.
-            0.024525             0.44539
-            0.049051            1.468014
-            0.073576            3.815976
-            0.098101            9.206939
-*DEFINE_CURVE_TITLE
-DEFINE_CURVE_3500145
-   3500145         0        1.        1.        0.        0.         0          
-           -0.073094          -18.343294
-           -0.050831           -5.817621
-           -0.028568           -1.606335
-           -0.006304           -0.190449
-                  0.                  0.
-            0.022263            0.082025
-            0.044527             0.28847
-             0.06679            0.808055
-            0.089054            2.115762
-            0.111317            5.407041
-            0.133581           13.690632
-*DEFINE_CURVE_TITLE
-DEFINE_CURVE_3500146
-   3500146         0        1.        1.        0.        0.         0          
-           -0.043145          -14.440545
-           -0.034578           -8.527524
-           -0.026012           -4.798135
-           -0.017446           -2.445979
-            -0.00888           -0.962456
-           -0.000314           -0.026786
-                  0.                  0.
-            0.008566            0.827545
-            0.017132            2.233188
-            0.025698            4.620769
-            0.034264            8.676241
-*DEFINE_CURVE_TITLE
-DEFINE_CURVE_3500151
-   3500151         0        1.        1.        0.        0.         0          
-                -10.               -4.53
-                  0.                  0.
-                 10.                5.95
-*DEFINE_CURVE_TITLE
-DEFINE_CURVE_3500152
-   3500152         0        1.        1.        0.        0.         0          
-                -10.               -4.53
-                  0.                  0.
-                 10.                5.95
-*DEFINE_CURVE_TITLE
-DEFINE_CURVE_3500153
-   3500153         0        1.        1.        0.        0.         0          
-                -1.5              -1.612
-                 -1.              -0.847
-                -0.5              -0.349
-                  0.                  0.
-                 0.5               0.269
-                  1.               0.568
-                 1.5               1.036
-*DEFINE_CURVE_TITLE
-DEFINE_CURVE_3500154
-   3500154         0        1.        1.        0.        0.         0          
-           -0.118333          -21.527914
-            -0.09584           -8.887302
-           -0.073346           -3.592648
-           -0.050852           -1.374925
-           -0.028358           -0.446009
-           -0.005864           -0.056922
-                  0.                  0.
-            0.022494            0.384176
-            0.044988            1.363397
-            0.067481            3.859324
-            0.089975           10.221167
-*DEFINE_CURVE_TITLE
-DEFINE_CURVE_3500155
-   3500155         0        1.        1.        0.        0.         0          
-           -0.058434          -17.505844
-           -0.037238           -4.987261
-           -0.016043           -1.052539
-                  0.                  0.
-            0.021195            0.176177
-            0.042391            0.516188
-            0.063586            1.172393
-            0.084781            2.438835
-            0.105976            4.883002
-            0.127172            9.600117
-            0.148367           18.703905
-*DEFINE_CURVE_TITLE
-DEFINE_CURVE_3500156
-   3500156         0        1.        1.        0.        0.         0          
-           -0.105139           -7.418511
-           -0.085451           -3.370695
-           -0.065764           -1.495224
-           -0.046077           -0.626264
-           -0.026389            -0.22365
-           -0.006702           -0.037107
-                  0.                  0.
-            0.019687            0.327963
-            0.039375            0.902962
-            0.059062            1.911073
-            0.078749            3.678538
-*DEFINE_CURVE_TITLE
-DEFINE_CURVE_3500161
-   3500161         0        1.        1.        0.        0.         0          
-                -10.               -4.53
-                  0.                  0.
-                 10.                5.95
-*DEFINE_CURVE_TITLE
-DEFINE_CURVE_3500162
-   3500162         0        1.        1.        0.        0.         0          
-                -10.               -4.53
-                  0.                  0.
-                 10.                5.95
-*DEFINE_CURVE_TITLE
-DEFINE_CURVE_3500163
-   3500163         0        1.        1.        0.        0.         0          
-                -1.5              -1.612
-                 -1.              -0.847
-                -0.5              -0.349
-                  0.                  0.
-                 0.5               0.269
-                  1.               0.568
-                 1.5               1.036
-*DEFINE_CURVE_TITLE
-DEFINE_CURVE_3500164
-   3500164         0        1.        1.        0.        0.         0          
-           -0.109327          -21.201939
-           -0.088342           -8.891738
-           -0.067356           -3.644971
-            -0.04637           -1.408732
-           -0.025384           -0.455617
-           -0.004398           -0.049388
-                  0.                  0.
-            0.020986            0.422533
-            0.041972            1.439914
-            0.062958            3.889573
-            0.083943            9.787889
-*DEFINE_CURVE_TITLE
-DEFINE_CURVE_3500165
-   3500165         0        1.        1.        0.        0.         0          
-            -0.07456          -16.826923
-           -0.048318           -5.003769
-           -0.022075           -1.142236
-                  0.                  0.
-            0.026243            0.072941
-            0.052486            0.247584
-            0.078728            0.665734
-            0.104971            1.666918
-            0.131214            4.064067
-            0.157457            9.803595
-            0.183699           23.545832
-*DEFINE_CURVE_TITLE
-DEFINE_CURVE_3500166
-   3500166         0        1.        1.        0.        0.         0          
-            -0.02974          -15.818902
-           -0.025175           -9.988454
-           -0.020609           -6.170695
-           -0.016043           -3.670839
-           -0.011477           -2.033941
-           -0.006912           -0.962106
-           -0.002346           -0.260272
-                  0.                  0.
-            0.004566            0.778792
-            0.009132            3.178373
-            0.013697           10.571867
-*DEFINE_CURVE_TITLE
-DEFINE_CURVE_3500171
-   3500171         0        1.        1.        0.        0.         0          
-                -10.               -4.53
-                  0.                  0.
-                 10.                5.95
-*DEFINE_CURVE_TITLE
-DEFINE_CURVE_3500172
-   3500172         0        1.        1.        0.        0.         0          
-                -10.               -4.53
-                  0.                  0.
-                 10.                5.95
-*DEFINE_CURVE_TITLE
-DEFINE_CURVE_3500173
-   3500173         0        1.        1.        0.        0.         0          
-                -1.5              -1.612
-                 -1.              -0.847
-                -0.5              -0.349
-                  0.                  0.
-                 0.5               0.269
-                  1.               0.568
-                 1.5               1.036
-*DEFINE_CURVE_TITLE
-DEFINE_CURVE_3500174
-   3500174         0        1.        1.        0.        0.         0          
-           -0.098227          -19.828897
-           -0.079168           -8.657951
-           -0.060109           -3.682999
-            -0.04105           -1.467416
-           -0.021991           -0.480712
-           -0.002932           -0.041286
-                  0.                  0.
-            0.019059            0.478053
-            0.038118            1.571329
-            0.057177            4.071578
-            0.076236            9.789479
-*DEFINE_CURVE_TITLE
-DEFINE_CURVE_3500175
-   3500175         0        1.        1.        0.        0.         0          
-           -0.118543          -22.874393
-           -0.087902           -5.407688
-           -0.057261           -1.225539
-            -0.02662           -0.224185
-                  0.                  0.
-            0.030641            0.040395
-            0.061282            0.180645
-            0.091923            0.667585
-            0.122564            2.358208
-            0.153205            8.227945
-            0.183846             28.6073
-*DEFINE_CURVE_TITLE
-DEFINE_CURVE_3500176
-   3500176         0        1.        1.        0.        0.         0          
-           -0.020735          -13.211658
-           -0.016902           -8.348394
-           -0.013069           -5.059654
-           -0.009236           -2.835671
-           -0.005404           -1.331721
-           -0.001571           -0.314688
-                  0.                  0.
-            0.003833            1.049295
-            0.007665            2.770102
-            0.011498            5.592169
-            0.015331           10.220264
-*DEFINE_CURVE_TITLE
 DEFINE_CURVE_3500501
    3500501         0        1.        1.        0.        0.         0          
            -0.349066               -2.89
@@ -18614,6 +18615,8 @@ $ANSA_COLOR;200074;MAT24 MAT_PIECEWISE_LINEAR_PLASTICITY;.517647087574005;.88627
 $4516582489;.447058826684952;1.;
 $ANSA_COLOR;200101;MAT20 MAT_RIGID;.937254905700684;.086274512112141;.1764705926
 $17989;1.;
+$ANSA_COLOR;200610;MAT71 MAT_CABLE_DISCRETE_BEAM;.960784316062927;.7176470756530
+$76;.239215686917305;1.;
 $ANSA_COLOR;203001;MAT77 MAT_OGDEN_RUBBER;.549019634723663;.003921568859369;.780
 $392169952393;1.;
 $ANSA_COLOR;203003;MAT9 MAT_NULL;.894117653369904;.980392158031464;.850980401039
@@ -18892,8 +18895,6 @@ $ANSA_COLOR;213078;MAT34 MAT_FABRIC;.988235294818878;.898039221763611;0.61176472
 $902298;1.;
 $ANSA_COLOR;213079;MAT34 MAT_FABRIC;.749019622802734;.909803926944733;.180392161
 $011696;1.;
-$ANSA_COLOR;214001;MAT71 MAT_CABLE_DISCRETE_BEAM;.960784316062927;.7176470756530
-$76;.239215686917305;1.;
 $ANSA_COLOR;214002;MAT1 MAT_ELASTIC;0.87058824300766;.890196084976196;.243137255
 $311012;1.;
 $ANSA_COLOR;300011;MAT20 MAT_RIGID;0.65490198135376;.901960790157318;.0862745121
@@ -18996,30 +18997,6 @@ $ANSA_COLOR;305162;MAT20 MAT_RIGID;.835294127464294;0.95686274766922;.9333333373
 $06976;1.;
 $ANSA_COLOR;306002;MAT77 MAT_OGDEN_RUBBER;.709803938865662;.015686275437474;.266
 $666680574417;1.;
-$ANSA_COLOR;309011;MAT119 MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM;.847058832645
-$416;.850980401039124;.235294118523598;1.;
-$ANSA_COLOR;309021;MAT119 MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM;.854901969432
-$831;.717647075653076;.152941182255745;1.;
-$ANSA_COLOR;309031;MAT119 MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM;.866666674613
-$953;.584313750267029;.074509806931019;1.;
-$ANSA_COLOR;309041;MAT119 MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM;.874509811401
-$367;.450980395078659;.992156863212585;1.;
-$ANSA_COLOR;309051;MAT119 MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM;.882352948188
-$782;.317647069692612;.909803926944733;1.;
-$ANSA_COLOR;309061;MAT119 MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM;.890196084976
-$196;0.18823529779911;.831372559070587;1.;
-$ANSA_COLOR;309071;MAT119 MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM;.898039221763
-$611;.054901961237192;.749019622802734;1.;
-$ANSA_COLOR;309081;MAT119 MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM;.909803926944
-$733;.921568632125854;.670588254928589;1.;
-$ANSA_COLOR;309091;MAT119 MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM;.917647063732
-$147;.788235306739807;.588235318660736;1.;
-$ANSA_COLOR;309101;MAT119 MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM;.925490200519
-$562;0.65490198135376;.505882382392883;1.;
-$ANSA_COLOR;309111;MAT119 MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM;.933333337306
-$976;.521568655967712;.427450984716415;1.;
-$ANSA_COLOR;309121;MAT119 MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM;.945098042488
-$098;.388235300779343;.345098048448563;1.;
 $ANSA_COLOR;351201;MAT20 MAT_RIGID;.929411768913269;.200000002980232;.3882353007
 $79343;1.;
 $ANSA_COLOR;353111;MAT24 MAT_PIECEWISE_LINEAR_PLASTICITY;.815686285495758;.21176
@@ -19046,6 +19023,30 @@ $ANSA_COLOR;400051;MAT20 MAT_RIGID;.796078443527222;.772549033164978;.7921568751
 $33514;1.;
 $ANSA_COLOR;400052;MAT20 MAT_RIGID;.572549045085907;.776470601558685;.7803921699
 $52393;1.;
+$ANSA_COLOR;402010;MAT119 MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM;.847058832645
+$416;.850980401039124;.235294118523598;1.;
+$ANSA_COLOR;402020;MAT119 MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM;.854901969432
+$831;.717647075653076;.152941182255745;1.;
+$ANSA_COLOR;402030;MAT119 MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM;.866666674613
+$953;.584313750267029;.074509806931019;1.;
+$ANSA_COLOR;402040;MAT119 MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM;.874509811401
+$367;.450980395078659;.992156863212585;1.;
+$ANSA_COLOR;402050;MAT119 MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM;.882352948188
+$782;.317647069692612;.909803926944733;1.;
+$ANSA_COLOR;402060;MAT119 MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM;.890196084976
+$196;0.18823529779911;.831372559070587;1.;
+$ANSA_COLOR;402070;MAT119 MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM;.898039221763
+$611;.054901961237192;.749019622802734;1.;
+$ANSA_COLOR;402080;MAT119 MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM;.909803926944
+$733;.921568632125854;.670588254928589;1.;
+$ANSA_COLOR;402090;MAT119 MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM;.917647063732
+$147;.788235306739807;.588235318660736;1.;
+$ANSA_COLOR;402100;MAT119 MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM;.925490200519
+$562;0.65490198135376;.505882382392883;1.;
+$ANSA_COLOR;402110;MAT119 MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM;.933333337306
+$976;.521568655967712;.427450984716415;1.;
+$ANSA_COLOR;402120;MAT119 MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM;.945098042488
+$098;.388235300779343;.345098048448563;1.;
 $ANSA_COLOR;403003;MAT24 MAT_PIECEWISE_LINEAR_PLASTICITY;.917647063732147;.22745
 $0981736183;.266666680574417;1.;
 $ANSA_COLOR;403004;MAT24 MAT_PIECEWISE_LINEAR_PLASTICITY;.505882382392883;.89803
@@ -19082,16 +19083,6 @@ $ANSA_COLOR;405101;MAT129 MAT_LUNG_TISSUE;.745098054409027;0.18823529779911;.396
 $078437566757;1.;
 $ANSA_COLOR;406003;MAT9 MAT_NULL;.921568632125854;.807843148708344;.019607843831
 $182;1.;
-$ANSA_COLOR;409011;MAT119 MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM;.952941179275
-$513;.254901975393295;0.26274511218071;1.;
-$ANSA_COLOR;409021;MAT119 MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM;.960784316062
-$927;.121568627655506;.184313729405403;1.;
-$ANSA_COLOR;409031;MAT119 MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM;.968627452850
-$342;.988235294818878;0.10196078568697;1.;
-$ANSA_COLOR;409041;MAT119 MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM;.976470589637
-$756;.854901969432831;.019607843831182;1.;
-$ANSA_COLOR;409051;MAT119 MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM;.988235294818
-$878;.721568644046783;.941176474094391;1.;
 $ANSA_COLOR;453015;MAT20 MAT_RIGID;.901960790157318;.298039227724075;.8901960849
 $76196;1.;
 $ANSA_COLOR;453025;MAT20 MAT_RIGID;.909803926944733;.168627455830574;.8078431487
@@ -19117,6 +19108,16 @@ $24726;1.;
 $ANSA_COLOR;453125;MAT20 MAT_RIGID;.996078431606293;.835294127464294;0.;1.;
 $ANSA_COLOR;454001;MAT9 MAT_NULL;.509803950786591;.862745106220245;.725490212440
 $491;1.;
+$ANSA_COLOR;502010;MAT119 MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM;.952941179275
+$513;.254901975393295;0.26274511218071;1.;
+$ANSA_COLOR;502020;MAT119 MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM;.960784316062
+$927;.121568627655506;.184313729405403;1.;
+$ANSA_COLOR;502030;MAT119 MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM;.968627452850
+$342;.988235294818878;0.10196078568697;1.;
+$ANSA_COLOR;502040;MAT119 MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM;.976470589637
+$756;.854901969432831;.019607843831182;1.;
+$ANSA_COLOR;502050;MAT119 MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM;.988235294818
+$878;.721568644046783;.941176474094391;1.;
 $ANSA_COLOR;505001;MAT77 MAT_OGDEN_RUBBER;.678431391716003;.474509805440903;0.65
 $490198135376;1.;
 $ANSA_COLOR;505004;MAT9 MAT_NULL;.623529434204102;.556862771511078;.411764711141
@@ -19271,13 +19272,10 @@ $Upgrading the OS-HBM 50F/2020-04-14_Material_DB.key;NO;NO;NO;
 $ANSA_PART;GROUP;ID;28;NAME;vivaplus-constraineds-contacts.k;BELONGS_HERE;FORCED
 $;PID_OFFSET;0;COLOR;134;85;70;0;IS_COLOR_ACTIVE;1;ATTRIBUTES;2;DM/File Type;ANS
 $A;DM/Status;WIP;
-$ANSA_PART;GROUP;ID;1276;NAME;vivaplus-50F-seated-reference_points.key;BELONGS_H
-$ERE;FORCED;PID_OFFSET;0;COLOR;233;88;52;0;IS_COLOR_ACTIVE;1;ATTRIBUTES;2;DM/Fil
-$e Type;ANSA;DM/Status;WIP;
-$ANSA_PART;GROUP;ID;1277;NAME;vivaplus-constraineds-landmarks.k;BELONGS_HERE;FOR
-$CED;PID_OFFSET;0;COLOR;206;168;77;0;IS_COLOR_ACTIVE;1;ATTRIBUTES;2;DM/File Type
-$;ANSA;DM/Status;WIP;
 $ANSA_PART;GROUP;ID;1279;NAME;vivaplus-parts-elements.k;BELONGS_HERE;FORCED;PID_
 $OFFSET;0;COLOR;239;241;245;0;IS_COLOR_ACTIVE;1;ATTRIBUTES;2;DM/File Type;ANSA;D
 $M/Status;WIP;
+$ANSA_PART;GROUP;ID;2184;NAME;vivaplus-constraineds-landmarks.k;BELONGS_HERE;FOR
+$CED;PID_OFFSET;0;COLOR;206;168;77;0;IS_COLOR_ACTIVE;1;ATTRIBUTES;2;DM/File Type
+$;ANSA;DM/Status;WIP;
 *END

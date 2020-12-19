@@ -1,23 +1,24 @@
 $
-$ANSA_VERSION;20.1.0;
+$ANSA_VERSION;20.1.4;
 $
 $
-$ file created by  A N S A  Sun Dec 13 20:26:07 2020
+$ file created by  A N S A  Sat Dec 19 09:48:08 2020
 $
 $ output from :
 $
-$ M:/VSI-P/010_RD/17_EU_VIRTUAL/020_Workpackage/WP2_HBM/T2_2_Seated OS-HBM 50F, 
-$ OS-HBM 50M, Active-HBM and validation/LS-DYNA_Files/2020-12-13/vivaplus-50F_v0
-$ -2-1-j-FixJJ-5.ansa
+$ C:/Users/jobinj/Box/vivaplus-dev/vivaplus-dev-JDJ/vivaplus-50F_v0-2-1-l.ansa
 $
 $ANSA_USER_ATTRIBUTES;vivaplus-50-Abdomen.k;INCLUDE;DM/IO Index;TEXT;13;DM/Statu
 $s;TEXT;WIP;
 $
 $
 $
-*KEYWORD
+$
+$
+$
 $ANSA_COLOR;vivaplus-50-Abdomen.k;INCLUDE;.917647063732147;.458823531866074;.031
 $372550874949;1.;
+*KEYWORD
 *PART
 AB-Abdominal_Cavity_sliding-nulls-R
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
@@ -131,7 +132,7 @@ $    SECID|   ELFORM|
 *PART
 AB-Lumbar-IVD-L1-L2-Joint-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
-    502010    502010    409011                             0                    
+    502010    502010    502010                             0                    
 *SECTION_BEAM_TITLE
 AB-Lumbar-IVD-L1-L2-Joint-M
 $    SECID|   ELFORM|     SHRF|  QR/IRID|      CST|    SCOOR|      NSM|
@@ -141,7 +142,7 @@ $      VOL|     INER|      CID|       CA|   OFFSET|    RRCON|    SRCON|    TRCON
 *PART
 AB-Lumbar-IVD-L2-L3-Joint-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
-    502020    502020    409021                             0                    
+    502020    502020    502020                             0                    
 *SECTION_BEAM_TITLE
 AB-Lumbar-IVD-L2-L3-Joint-M
 $    SECID|   ELFORM|     SHRF|  QR/IRID|      CST|    SCOOR|      NSM|
@@ -151,7 +152,7 @@ $      VOL|     INER|      CID|       CA|   OFFSET|    RRCON|    SRCON|    TRCON
 *PART
 AB-Lumbar-IVD-L3-L4-Joint-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
-    502030    502030    409031                             0                    
+    502030    502030    502030                             0                    
 *SECTION_BEAM_TITLE
 AB-Lumbar-IVD-L3-L4-Joint-M
 $    SECID|   ELFORM|     SHRF|  QR/IRID|      CST|    SCOOR|      NSM|
@@ -161,7 +162,7 @@ $      VOL|     INER|      CID|       CA|   OFFSET|    RRCON|    SRCON|    TRCON
 *PART
 AB-Lumbar-IVD-L4-L5-Joint-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
-    502040    502040    409041                             0                    
+    502040    502040    502040                             0                    
 *SECTION_BEAM_TITLE
 AB-Lumbar-IVD-L4-L5-Joint-M
 $    SECID|   ELFORM|     SHRF|  QR/IRID|      CST|    SCOOR|      NSM|
@@ -171,7 +172,7 @@ $      VOL|     INER|      CID|       CA|   OFFSET|    RRCON|    SRCON|    TRCON
 *PART
 AB-Lumbar-IVD-L5-Sacrum-Joint-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
-    502050    502050    409051                             0                    
+    502050    502050    502050                             0                    
 *SECTION_BEAM_TITLE
 AB-Lumbar-IVD-L5-Sacrum-Joint-M
 $    SECID|   ELFORM|     SHRF|  QR/IRID|      CST|    SCOOR|      NSM|
