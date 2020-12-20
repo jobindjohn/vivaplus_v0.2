@@ -2,22 +2,25 @@ $
 $ANSA_VERSION;20.1.0;
 $
 $
-$ file created by  A N S A  Sun Dec 13 20:26:00 2020
+$ file created by  A N S A  Sun Dec 20 15:55:40 2020
 $
 $ output from :
 $
-$ M:/VSI-P/010_RD/17_EU_VIRTUAL/020_Workpackage/WP2_HBM/T2_2_Seated OS-HBM 50F, 
-$ OS-HBM 50M, Active-HBM and validation/LS-DYNA_Files/2020-12-13/vivaplus-50F_v0
-$ -2-1-j-FixJJ-5.ansa
+$ //129.27.213.85/vsi-p/010_RD/17_EU_VIRTUAL/020_Workpackage/WP2_HBM/T2_2_Seated
+$  OS-HBM 50F, OS-HBM 50M, Active-HBM and validation/2_2_1_Upgrading the OS-HBM 
+$ 50F/vivaplus-50F_v0-2-1-m.ansa
 $
 $ANSA_USER_ATTRIBUTES;vivaplus-joints.k;INCLUDE;DM/IO Index;TEXT;4;DM/Status;TEX
 $T;WIP;
 $
 $
 $
-*KEYWORD
+$
+$
+$
 $ANSA_COLOR;vivaplus-joints.k;INCLUDE;.713725507259369;.592156887054443;.2666666
 $80574417;1.;
+*KEYWORD
 *CONSTRAINED_JOINT_SPHERICAL_ID
    1010473sternoclavicular joint                                                
    1000003   1000002                                                0.        0.
@@ -43,61 +46,61 @@ $80574417;1.;
    1010480Hand-Radius                                                           
    3190629   9100018                                                0.        0.
 *CONSTRAINED_JOINT_STIFFNESS_GENERALIZED_TITLE
-Radius-Hand
+UX_Radius-Hand-R
     301219    351533    355162   9500014   9500026          
                                                             
         0.        0.        0.        0.        0.        0.
         0.        0.        0.        0.        0.        0.
 *CONSTRAINED_JOINT_STIFFNESS_GENERALIZED_TITLE
-Ulna-Hand
+UX_Ulna-Hand-R
     301220    351433    355162   9500013   9500026          
                                                             
         0.        0.        0.        0.        0.        0.
         0.        0.        0.        0.        0.        0.
 *CONSTRAINED_JOINT_STIFFNESS_GENERALIZED_TITLE
-sternoclavicular joint
-    301221    453503    351113   9500044   9500044          
+UX_Sternoclavicular-R
+    301221    453503    351113   8150022   8150022          
                                                             
         0.        0.        0.        0.        0.        0.
         0.        0.        0.        0.        0.        0.
 *CONSTRAINED_JOINT_STIFFNESS_GENERALIZED_TITLE
-Shoulder
+UX_Shoulder-R
     301222    351223    351313   9500011   9500012          
                                                             
         0.        0.        0.        0.        0.        0.
         0.        0.        0.        0.        0.        0.
 *CONSTRAINED_JOINT_STIFFNESS_GENERALIZED_TITLE
-scapulaclavicular-R
+UX_Scapulaclavicular-R
     301223    351213    351123   9500024   9500024          
                                                             
         0.        0.        0.        0.        0.        0.
         0.        0.        0.        0.        0.        0.
 *CONSTRAINED_JOINT_STIFFNESS_GENERALIZED_TITLE
-scapulaclavicular joint
+UX_Scapulaclavicular-L
     301224    301213    301123   7500030   7500030          
                                                             
         0.        0.        0.        0.        0.        0.
         0.        0.        0.        0.        0.        0.
 *CONSTRAINED_JOINT_STIFFNESS_GENERALIZED_TITLE
-Shoulder
+UX_Shoulder-L
     301225    301223    301313    301223    301313          
                                                             
         0.        0.        0.        0.        0.        0.
         0.        0.        0.        0.        0.        0.
 *CONSTRAINED_JOINT_STIFFNESS_GENERALIZED_TITLE
-sternoclavicular joint
-    301226    403503    301113   3500504   3500504          
+UX_Sternoclavicular-L
+    301226    403503    301113   8250022   8250022          
                                                             
         0.        0.        0.        0.        0.        0.
         0.        0.        0.        0.        0.        0.
 *CONSTRAINED_JOINT_STIFFNESS_GENERALIZED_TITLE
-Ulna-Hand
+UX_Ulna-Hand
     301227    301433    305162    301433   9500007          
                                                             
         0.        0.        0.        0.        0.        0.
         0.        0.        0.        0.        0.        0.
 *CONSTRAINED_JOINT_STIFFNESS_GENERALIZED_TITLE
-Radius-Hand
+UX_Radius-Hand
     301228    301533    305162    301530   9500007          
                                                             
         0.        0.        0.        0.        0.        0.
@@ -223,13 +226,13 @@ Radius-Hand
         0.        0.        0.        0.        0.        0.
         0.        0.        0.        0.        0.        0.
 *CONSTRAINED_JOINT_STIFFNESS_GENERALIZED_TITLE
-Ankle_Joint
+LX_Ankle
    9000000    701433    704113    701460    701460          
                                                             
         0.        0.        0.        0.        0.        0.
         0.        0.        0.        0.        0.        0.
 *CONSTRAINED_JOINT_STIFFNESS_GENERALIZED_TITLE
-Ankle_Joint
+LX_Ankle
    9000070    751433    754113   9500018   9500018          
                                                             
         0.        0.        0.        0.        0.        0.
@@ -892,30 +895,30 @@ $ANSA_NAME_COMMENT;9000081;CONSTRAINED_EXTRA_NODES_NODE;UX-Forearm_Radius_z;;NO;
 $NO;NO;
 $ANSA_NAME_COMMENT;9000082;CONSTRAINED_EXTRA_NODES_NODE;LX-Intermalleola-R;;NO;N
 $O;NO;
-$ANSA_NAME_COMMENT;301219;CONSTRAINED_JOINT_STIFFNESS_GENERALIZED;Radius-Hand;;N
-$O;NO;NO;
-$ANSA_NAME_COMMENT;301220;CONSTRAINED_JOINT_STIFFNESS_GENERALIZED;Ulna-Hand;;NO;
-$NO;NO;
-$ANSA_NAME_COMMENT;301221;CONSTRAINED_JOINT_STIFFNESS_GENERALIZED;sternoclavicul
-$ar joint;;NO;NO;NO;
-$ANSA_NAME_COMMENT;301222;CONSTRAINED_JOINT_STIFFNESS_GENERALIZED;Shoulder;;NO;N
-$O;NO;
-$ANSA_NAME_COMMENT;301223;CONSTRAINED_JOINT_STIFFNESS_GENERALIZED;scapulaclavicu
-$lar-R;;NO;NO;NO;
-$ANSA_NAME_COMMENT;301224;CONSTRAINED_JOINT_STIFFNESS_GENERALIZED;scapulaclavicu
-$lar joint;;NO;NO;NO;
-$ANSA_NAME_COMMENT;301225;CONSTRAINED_JOINT_STIFFNESS_GENERALIZED;Shoulder;;NO;N
-$O;NO;
-$ANSA_NAME_COMMENT;301226;CONSTRAINED_JOINT_STIFFNESS_GENERALIZED;sternoclavicul
-$ar joint;;NO;NO;NO;
-$ANSA_NAME_COMMENT;301227;CONSTRAINED_JOINT_STIFFNESS_GENERALIZED;Ulna-Hand;;NO;
-$NO;NO;
-$ANSA_NAME_COMMENT;301228;CONSTRAINED_JOINT_STIFFNESS_GENERALIZED;Radius-Hand;;N
-$O;NO;NO;
-$ANSA_NAME_COMMENT;9000000;CONSTRAINED_JOINT_STIFFNESS_GENERALIZED;Ankle_Joint;;
+$ANSA_NAME_COMMENT;301219;CONSTRAINED_JOINT_STIFFNESS_GENERALIZED;UX_Radius-Hand
+$-R;;NO;NO;NO;
+$ANSA_NAME_COMMENT;301220;CONSTRAINED_JOINT_STIFFNESS_GENERALIZED;UX_Ulna-Hand-R
+$;;NO;NO;NO;
+$ANSA_NAME_COMMENT;301221;CONSTRAINED_JOINT_STIFFNESS_GENERALIZED;UX_Sternoclavi
+$cular-R;;NO;NO;NO;
+$ANSA_NAME_COMMENT;301222;CONSTRAINED_JOINT_STIFFNESS_GENERALIZED;UX_Shoulder-R;
+$;NO;NO;NO;
+$ANSA_NAME_COMMENT;301223;CONSTRAINED_JOINT_STIFFNESS_GENERALIZED;UX_Scapulaclav
+$icular-R;;NO;NO;NO;
+$ANSA_NAME_COMMENT;301224;CONSTRAINED_JOINT_STIFFNESS_GENERALIZED;UX_Scapulaclav
+$icular-L;;NO;NO;NO;
+$ANSA_NAME_COMMENT;301225;CONSTRAINED_JOINT_STIFFNESS_GENERALIZED;UX_Shoulder-L;
+$;NO;NO;NO;
+$ANSA_NAME_COMMENT;301226;CONSTRAINED_JOINT_STIFFNESS_GENERALIZED;UX_Sternoclavi
+$cular-L;;NO;NO;NO;
+$ANSA_NAME_COMMENT;301227;CONSTRAINED_JOINT_STIFFNESS_GENERALIZED;UX_Ulna-Hand;;
 $NO;NO;NO;
-$ANSA_NAME_COMMENT;9000070;CONSTRAINED_JOINT_STIFFNESS_GENERALIZED;Ankle_Joint;;
-$NO;NO;NO;
+$ANSA_NAME_COMMENT;301228;CONSTRAINED_JOINT_STIFFNESS_GENERALIZED;UX_Radius-Hand
+$;;NO;NO;NO;
+$ANSA_NAME_COMMENT;9000000;CONSTRAINED_JOINT_STIFFNESS_GENERALIZED;LX_Ankle;;NO;
+$NO;NO;
+$ANSA_NAME_COMMENT;9000070;CONSTRAINED_JOINT_STIFFNESS_GENERALIZED;LX_Ankle;;NO;
+$NO;NO;
 $ANSA_PART;GROUP;ID;2147;NAME;Ulna_Group;PID_OFFSET;0;COLOR;185;31;115;0;IS_COLO
 $R_ACTIVE;0;GET_COLOR_FROM_ID;2167;ATTRIBUTES;2;DM/File Type;ANSA;DM/Status;WIP;
 $CONTAINS;ANSAPART;2124;
