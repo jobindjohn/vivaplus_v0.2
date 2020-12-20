@@ -2,28 +2,31 @@ $
 $ANSA_VERSION;20.1.0;
 $
 $
-$ file created by  A N S A  Sun Dec 13 20:26:06 2020
+$ file created by  A N S A  Sun Dec 20 14:55:48 2020
 $
 $ output from :
 $
-$ M:/VSI-P/010_RD/17_EU_VIRTUAL/020_Workpackage/WP2_HBM/T2_2_Seated OS-HBM 50F, 
-$ OS-HBM 50M, Active-HBM and validation/LS-DYNA_Files/2020-12-13/vivaplus-50F_v0
-$ -2-1-j-FixJJ-5.ansa
+$ //129.27.213.85/vsi-p/010_RD/17_EU_VIRTUAL/020_Workpackage/WP2_HBM/T2_2_Seated
+$  OS-HBM 50F, OS-HBM 50M, Active-HBM and validation/2_2_1_Upgrading the OS-HBM 
+$ 50F/vivaplus-50F_v0-2-1-m.ansa
 $
 $ANSA_USER_ATTRIBUTES;vivaplus-30-Upper-Extremity.k;INCLUDE;DM/IO Index;TEXT;15;
 $DM/Status;TEXT;WIP;
 $
 $
 $
-*KEYWORD
+$
+$
+$
 $ANSA_COLOR;vivaplus-30-Upper-Extremity.k;INCLUDE;.729411780834198;.517647087574
 $005;.415686279535294;1.;
+*KEYWORD
 *PART_CONTACT
 UX-Bone-Clavicle-Cortical-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
     301101    301101    301101              301101         0         0          
 $       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
-                                                1.                    
+                                               0.1                    
 *SECTION_SHELL_TITLE
 UX-Bone-Clavicle-Cortical-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -38,20 +41,24 @@ $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID
 UX-Bone-Clavicle-Trabecular-L
 $    SECID|   ELFORM|
     301102         1
-*PART
+*PART_CONTACT
 UX-Bone-Clavicle-Medial-Rigid-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
     301113    301113    301103                             0         0          
+$       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
+                                               0.1                    
 *SECTION_SHELL_TITLE
 UX-Bone-Clavicle-Medial-Rigid-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
     301113         2        1.        2.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
       2.78      2.78      2.78      2.78        0.                  0.          
-*PART
+*PART_CONTACT
 UX-Bone-Clavicle-Lateral-Rigid-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
     301123    301123    301103                             0         0          
+$       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
+                                               0.1                    
 *SECTION_SHELL_TITLE
 UX-Bone-Clavicle-Lateral-Rigid-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -63,7 +70,7 @@ UX-Bone-Scapula-Cortical-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
     301201    301201    610411              301201         0         0          
 $       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
-                                                1.                    
+                                               0.1                    
 *SECTION_SHELL_TITLE
 UX-Bone-Scapula-Cortical-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -78,20 +85,24 @@ $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID
 UX-Bone-Scapula-Trabecular-L
 $    SECID|   ELFORM|
     301202         1
-*PART
+*PART_CONTACT
 UX-Bone-Scapula-Proximal-Rigid-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
     301213    301213    301203                             0         0          
+$       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
+                                               0.1                    
 *SECTION_SHELL_TITLE
 UX-Bone-Scapula-Proximal-Rigid-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
     301213         2        1.        2.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
         4.        4.        4.        4.        0.                  0.          
-*PART
+*PART_CONTACT
 UX-Bone-Scapula-Rigid-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
     301223    301223    301203                             0         0          
+$       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
+                                               0.1                    
 *SECTION_SHELL_TITLE
 UX-Bone-Scapula-Rigid-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -130,10 +141,12 @@ $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID
 UX-Bone-Humerus-proximal-Rigid-L
 $    SECID|   ELFORM|
     301313         1
-*PART
+*PART_CONTACT
 UX-Bone-Humerus-proximal-Null-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
     301314    301314    301300                             0         0          
+$       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
+                                               0.1                    
 *SECTION_SHELL_TITLE
 UX-Bone-Humerus-proximal-Null-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -164,10 +177,12 @@ $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID
 UX-Bone-Humerus-distal-Rigid-L
 $    SECID|   ELFORM|
     301333         1
-*PART
+*PART_CONTACT
 UX-Bone-Humerus-distal-Null-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
     301334    301334    301300                             0         0          
+$       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
+                                               0.1                    
 *SECTION_SHELL_TITLE
 UX-Bone-Humerus-distal-Null-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -179,7 +194,7 @@ UX-Bone-Ulna-proximal-Cortical-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
     301411    301411    301401                 999         0         0          
 $       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
-                                                1.                    
+                                               0.1                    
 *SECTION_SHELL_TITLE
 UX-Bone-Ulna-proximal-Cortical-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -199,7 +214,7 @@ UX-Bone-Ulna-proximal-Rigid-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
     301413    301413    301413                             0         0          
 $       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
-                                                1.                    
+                                               0.1                    
 *SECTION_SHELL_TITLE
 UX-Bone-Ulna-proximal-Rigid-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -211,7 +226,7 @@ UX-Bone-Ulna-shaft-Cortical-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
     301421    301421    301401                 999         0         0          
 $       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
-                                                1.                    
+                                               0.1                    
 *SECTION_SHELL_TITLE
 UX-Bone-Ulna-shaft-Cortical-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -223,7 +238,7 @@ UX-Bone-Ulna-distal-Cortical-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
     301431    301431    301401                 999         0         0          
 $       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
-                                                1.                    
+                                               0.1                    
 *SECTION_SHELL_TITLE
 UX-Bone-Ulna-distal-Cortical-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -235,7 +250,7 @@ UX-Bone-Ulna-distal-Rigid-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
     301433    301433    301413                             0         0          
 $       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
-                                                1.                    
+                                               0.1                    
 *SECTION_SHELL_TITLE
 UX-Bone-Ulna-distal-Rigid-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -247,7 +262,7 @@ UX-Bone-Radius-proximal-Cortical-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
     301511    301511    301501                 999         0         0          
 $       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
-                                                1.                    
+                                               0.1                    
 *SECTION_SHELL_TITLE
 UX-Bone-Radius-proximal-Cortical-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -267,7 +282,7 @@ UX-Bone-Radius-proximal-Rigid-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
     301513    301513    301503                             0         0          
 $       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
-                                                1.                    
+                                               0.1                    
 *SECTION_SHELL_TITLE
 UX-Bone-Radius-proximal-Rigid-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -279,7 +294,7 @@ UX-Bone-Radius-shaft-Cortical-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
     301521    301521    301501                 999         0         0          
 $       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
-                                                1.                    
+                                               0.1                    
 *SECTION_SHELL_TITLE
 UX-Bone-Radius-shaft-Cortical-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -291,7 +306,7 @@ UX-Bone-Radius-distal-Cortical-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
     301531    301531    301501                 999         0         0          
 $       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
-                                                1.                    
+                                               0.1                    
 *SECTION_SHELL_TITLE
 UX-Bone-Radius-distal-Cortical-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -303,7 +318,7 @@ UX-Bone-Radius-distal-Rigid-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
     301533    301533    301503                             0         0          
 $       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
-                                                1.                    
+                                               0.1                    
 *SECTION_SHELL_TITLE
 UX-Bone-Radius-distal-Rigid-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -320,10 +335,12 @@ $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
     305111         9   0.83333        1.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
         1.        1.        1.        1.        0.                  0.          
-*PART
+*PART_CONTACT
 UX-Soft-Shoulder-connect-Null-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
     305114    305114    305104                             0         0          
+$       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
+                                               0.1                    
 *SECTION_SHELL_TITLE
 UX-Soft-Shoulder-connect-Null-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -376,10 +393,12 @@ $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID
 UX-Soft-LowerArm-Tissue-L
 $    SECID|   ELFORM|
     305142         1
-*PART
+*PART_CONTACT
 UX-Soft-LowerArm-Null-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
     305144    305144    305104                             0         0          
+$       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
+                                               0.1                    
 *SECTION_SHELL_TITLE
 UX-Soft-LowerArm-Null-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -409,7 +428,7 @@ UX-Bone-Clavicle-Cortical-R
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
     351101    351101    301101                 999         0         0          
 $       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
-                                                1.                    
+                                               0.1                    
 *SECTION_SHELL_TITLE
 UX-Bone-Clavicle-Cortical-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -424,20 +443,24 @@ $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID
 UX-Bone-Clavicle-Trabecular-R
 $    SECID|   ELFORM|
     351102         1
-*PART
+*PART_CONTACT
 UX-Bone-Clavicle-Medial-Rigid-R
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
     351113    351113    301103                             0         0          
+$       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
+                                               0.1                    
 *SECTION_SHELL_TITLE
 UX-Bone-Clavicle-Medial-Rigid-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
     351113         2        1.        2.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
       2.78      2.78      2.78      2.78        0.                  0.          
-*PART
+*PART_CONTACT
 UX-Bone-Clavicle-Lateral-Rigid-R
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
     351123    351123    301103                             0         0          
+$       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
+                                               0.1                    
 *SECTION_SHELL_TITLE
 UX-Bone-Clavicle-Lateral-Rigid-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -449,7 +472,7 @@ UX-Bone-Scapula-Cortical-R
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
     351201    351201    351201                 999         0         0          
 $       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
-                                                1.                    
+                                               0.1                    
 *SECTION_SHELL_TITLE
 UX-Bone-Scapula-Cortical-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -464,20 +487,24 @@ $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID
 UX-Bone-Scapula-Trabecular-R
 $    SECID|   ELFORM|
     351202         1
-*PART
+*PART_CONTACT
 UX-Bone-Scapula-Proximal-Rigid-R
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
     351213    351213    301203                             0         0          
+$       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
+                                               0.1                    
 *SECTION_SHELL_TITLE
 UX-Bone-Scapula-Proximal-Rigid-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
     351213         2        1.        2.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
         4.        4.        4.        4.        0.                  0.          
-*PART
+*PART_CONTACT
 UX-Bone-Scapula-Rigid-R
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
     351223    351223    301203                             0         0          
+$       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
+                                               0.1                    
 *SECTION_SHELL_TITLE
 UX-Bone-Scapula-Rigid-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -516,10 +543,12 @@ $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID
 UX-Bone-Humerus-proximal-Rigid-R
 $    SECID|   ELFORM|
     351313         1
-*PART
+*PART_CONTACT
 UX-Bone-Humerus-proximal-Null-R
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
     351314    351314    301300                             0         0          
+$       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
+                                               0.1                    
 *SECTION_SHELL_TITLE
 UX-Bone-Humerus-proximal-Null-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -550,10 +579,12 @@ $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID
 UX-Bone-Humerus-distal-Rigid-R
 $    SECID|   ELFORM|
     351333         1
-*PART
+*PART_CONTACT
 UX-Bone-Humerus-distal-Null-R
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
     351334    351334    301300                             0         0          
+$       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
+                                               0.1                    
 *SECTION_SHELL_TITLE
 UX-Bone-Humerus-distal-Null-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -565,7 +596,7 @@ UX-Bone-Ulna-proximal-Cortical-R
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
     351411    351411    301401                 999         0         0          
 $       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
-                                                1.                    
+                                               0.1                    
 *SECTION_SHELL_TITLE
 UX-Bone-Ulna-proximal-Cortical-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -585,7 +616,7 @@ UX-Bone-Ulna-proximal-Rigid-R
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
     351413    351413    301413                             0         0          
 $       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
-                                                1.                    
+                                               0.1                    
 *SECTION_SHELL_TITLE
 UX-Bone-Ulna-proximal-Rigid-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -597,7 +628,7 @@ UX-Bone-Ulna-shaft-Cortical-R
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
     351421    351421    301401                 999         0         0          
 $       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
-                                                1.                    
+                                               0.1                    
 *SECTION_SHELL_TITLE
 UX-Bone-Ulna-shaft-Cortical-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -609,7 +640,7 @@ UX-Bone-Ulna-distal-Cortical-R
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
     351431    351431    301401                 999         0         0          
 $       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
-                                                1.                    
+                                               0.1                    
 *SECTION_SHELL_TITLE
 UX-Bone-Ulna-distal-Cortical-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -621,7 +652,7 @@ UX-Bone-Ulna-distal-Rigid-R
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
     351433    351433    301413                             0         0          
 $       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
-                                                1.                    
+                                               0.1                    
 *SECTION_SHELL_TITLE
 UX-Bone-Ulna-distal-Rigid-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -633,7 +664,7 @@ UX-Bone-Radius-proximal-Cortical-R
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
     351511    351511    301501                 999         0         0          
 $       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
-                                                1.                    
+                                               0.1                    
 *SECTION_SHELL_TITLE
 UX-Bone-Radius-proximal-Cortical-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -653,7 +684,7 @@ UX-Bone-Radius-proximal-Rigid-R
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
     351513    351513    301503                             0         0          
 $       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
-                                                1.                    
+                                               0.1                    
 *SECTION_SHELL_TITLE
 UX-Bone-Radius-proximal-Rigid-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -665,7 +696,7 @@ UX-Bone-Radius-shaft-Cortical-R
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
     351521    351521    301501                 999         0         0          
 $       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
-                                                1.                    
+                                               0.1                    
 *SECTION_SHELL_TITLE
 UX-Bone-Radius-shaft-Cortical-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -677,7 +708,7 @@ UX-Bone-Radius-distal-Cortical-R
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
     351531    351531    301501                 999         0         0          
 $       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
-                                                1.                    
+                                               0.1                    
 *SECTION_SHELL_TITLE
 UX-Bone-Radius-distal-Cortical-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -689,7 +720,7 @@ UX-Bone-Radius-distal-Rigid-R
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
     351533    351533    301503                             0         0          
 $       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
-                                                1.                    
+                                               0.1                    
 *SECTION_SHELL_TITLE
 UX-Bone-Radius-distal-Rigid-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -706,10 +737,12 @@ $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
     355111         9   0.83333        1.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
         1.        1.        1.        1.        0.                  0.          
-*PART
+*PART_CONTACT
 UX-Soft-Shoulder-connect-Null-R
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
     355114    355114    305104                             0         0          
+$       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
+                                               0.1                    
 *SECTION_SHELL_TITLE
 UX-Soft-Shoulder-connect-Null-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -762,10 +795,12 @@ $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID
 UX-Soft-LowerArm-Tissue-R
 $    SECID|   ELFORM|
     355142         1
-*PART
+*PART_CONTACT
 UX-Soft-LowerArm-Null-R
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
     355144    355144    305104                             0         0          
+$       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
+                                               0.1                    
 *SECTION_SHELL_TITLE
 UX-Soft-LowerArm-Null-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
