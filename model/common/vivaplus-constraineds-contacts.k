@@ -2,22 +2,25 @@ $
 $ANSA_VERSION;20.1.0;
 $
 $
-$ file created by  A N S A  Sun Dec 13 20:26:01 2020
+$ file created by  A N S A  Sun Dec 20 15:16:16 2020
 $
 $ output from :
 $
-$ M:/VSI-P/010_RD/17_EU_VIRTUAL/020_Workpackage/WP2_HBM/T2_2_Seated OS-HBM 50F, 
-$ OS-HBM 50M, Active-HBM and validation/LS-DYNA_Files/2020-12-13/vivaplus-50F_v0
-$ -2-1-j-FixJJ-5.ansa
+$ //129.27.213.85/vsi-p/010_RD/17_EU_VIRTUAL/020_Workpackage/WP2_HBM/T2_2_Seated
+$  OS-HBM 50F, OS-HBM 50M, Active-HBM and validation/2_2_1_Upgrading the OS-HBM 
+$ 50F/vivaplus-50F_v0-2-1-m.ansa
 $
 $ANSA_USER_ATTRIBUTES;vivaplus-constraineds-contacts.k;INCLUDE;DM/IO Index;TEXT;
 $8;DM/Status;TEXT;WIP;
 $
 $
 $
-*KEYWORD
+$
+$
+$
 $ANSA_COLOR;vivaplus-constraineds-contacts.k;INCLUDE;.788235306739807;.662745118
 $141174;.701960802078247;1.;
+*KEYWORD
 *CONSTRAINED_INTERPOLATION
    1000000   7124708       123                   0          
    7124713       123        1.
@@ -1571,9 +1574,9 @@ $       ID|                                                                 NAME
 $     SSID|     MSID|     STYP|   MSTYPE|   SBOXID|   MBOXID|      SPR|      MPR|
     300000                   2         2                             0         0
 $       FS|       FD|       DC|       VC|      VDC|   PENCHK|       BT|       DT|
-       0.2       0.2        0.        0.       20.         0                    
+       0.1       0.1        0.        0.       20.         0                    
 $      SFS|      SFM|      SST|      MST|     SFST|     SFMT|      FSF|      VSF|
-        1.        1.       0.1                  1.        1.        1.        1.
+        1.        1.                            1.        1.        1.        1.
 $     SOFT|   SOFSCL|   LCIDAB|   MAXPAR|    SBOPT|    DEPTH|    BSORT|   FRCFRQ|
          2       0.1               1.025        3.         5         0         0
 $   PENMAX|   THKOPT|   SHLTHK|    SNLOG|     ISYM|    I2D3D|   SLDTHK|   SLDSTF|
@@ -2111,11 +2114,10 @@ NE_Discs_ligaments
 *SET_PART_LIST_TITLE
 UX_Single_surface
     300000                                        
-    301101    301113    301123    301201    301213    301223    301314    301334
-    301411    301413    301421    301431    301433    301511    301513    301521
-    301531    301533    305114    305144    351101    351113    351123    351201
-    351213    351223    351314    351334    351411    351413    351421    351431
-    351433    351511    351513    351521    351531    351533    355114    355144
+    301314    301411    301413    301421    301431    301433    301511    301513
+    301521    301531    301533    305114    305144    351314    351411    351413
+    351421    351431    351433    351511    351513    351521    351531    351533
+    355114    355144
 *SET_PART_LIST_TITLE
 UX_L_Elbow
     316011        0.        0.        0.        0.
@@ -51252,8 +51254,11 @@ $ANSA_PART;GROUP;ID;2175;MID;300300;NAME;Humerus;PID_OFFSET;0;COLOR;222;153;9;0;
 $IS_COLOR_ACTIVE;1;ATTRIBUTES;2;DM/File Type;ANSA;DM/Status;WIP;CONTAINS;ANSAPAR
 $T;2141;
 $ANSA_PART;GROUP;ID;2176;NAME;sensor_define_element.k;BELONGS_HERE;YES;PID_OFFSE
-$T;0;COLOR;195;163;80;0;IS_COLOR_ACTIVE;0;ATTRIBUTES;2;DM/File Type;ANSA;DM/Stat
+$T;0;COLOR;195;163;80;0;IS_COLOR_ACTIVE;1;ATTRIBUTES;2;DM/File Type;ANSA;DM/Stat
 $us;WIP;CONTAINS;ANSAPART;2178;
+$ANSA_PART;GROUP;ID;2177;NAME;INCLUDE_CONF 1;BELONGS_HERE;FORCED;PID_OFFSET;0;CO
+$LOR;197;129;59;0;IS_COLOR_ACTIVE;1;ATTRIBUTES;2;DM/File Type;ANSA;DM/Status;WIP
+$;
 $ANSA_PART;PART;ID;7;NAME;Humerus-Construction-Geometry;STUDY_VERSION;0;PID_OFFS
 $ET;0;COLOR;135;48;106;0;IS_COLOR_ACTIVE;0;GET_COLOR_FROM_ID;2167;ATTRIBUTES;2;D
 $M/File Type;ANSA;DM/Status;WIP;CONTAINS;CONSTRAINED_JOINT_SPHERICAL;3137535,314
