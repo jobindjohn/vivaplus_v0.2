@@ -1,12 +1,14 @@
 $
-$ANSA_VERSION;20.1.4;
+$ANSA_VERSION;20.1.0;
 $
 $
-$ file created by  A N S A  Sat Dec 19 09:48:26 2020
+$ file created by  A N S A  Mon Dec 21 21:36:32 2020
 $
 $ output from :
 $
-$ C:/Users/jobinj/Box/vivaplus-dev/vivaplus-dev-JDJ/vivaplus-50F_v0-2-1-l.ansa
+$ //129.27.213.85/vsi-p/010_RD/17_EU_VIRTUAL/020_Workpackage/WP2_HBM/T2_2_Seated
+$  OS-HBM 50F, OS-HBM 50M, Active-HBM and validation/LS-DYNA_Files/2020-12-20/vi
+$ vaplus-50F_v0-2-1-n.ansa
 $
 $ANSA_USER_ATTRIBUTES;vivaplus-materials.k;INCLUDE;DM/IO Index;TEXT;7;DM/Status;
 $TEXT;WIP;
@@ -87,8 +89,8 @@ $      MID|       RO|        E|       PR|       DA|       DB|        K|
 NE_C_C1 Cortical_Reilly-et-al-1974
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     200011     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-$        C|        P|     LCSS|     LCSR|       VP|      LCF|
-        0.        0.         0         0        0.          
+$        C|        P|     LCSS|     LCSR|       VP|
+        0.        0.         0         0        0.
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.        0.        0.        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
@@ -103,8 +105,8 @@ $      SRC|      SRP|       FS|       VP|
 NE_C_C2 Cortical_Reilly-et-al-1974
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     200021     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-$        C|        P|     LCSS|     LCSR|       VP|      LCF|
-        0.        0.         0         0        0.          
+$        C|        P|     LCSS|     LCSR|       VP|
+        0.        0.         0         0        0.
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.        0.        0.        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
@@ -119,8 +121,8 @@ $      SRC|      SRP|       FS|       VP|
 NE_C_C3_Sup_Endplate_Reilly-et-al-1974
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     200023     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-$        C|        P|     LCSS|     LCSR|       VP|      LCF|
-        0.        0.         0         0        0.          
+$        C|        P|     LCSS|     LCSR|       VP|
+        0.        0.         0         0        0.
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.        0.        0.        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
@@ -129,8 +131,8 @@ $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8
 NE_C_C2_Inf_Endplate_Reilly-et-al-1974
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     200024     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-$        C|        P|     LCSS|     LCSR|       VP|      LCF|
-        0.        0.         0         0        0.          
+$        C|        P|     LCSS|     LCSR|       VP|
+        0.        0.         0         0        0.
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.        0.        0.        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
@@ -139,8 +141,8 @@ $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8
 NE_C_C3 Cortical_Reilly-et-al-1974
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     200031     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-$        C|        P|     LCSS|     LCSR|       VP|      LCF|
-        0.        0.         0         0        0.          
+$        C|        P|     LCSS|     LCSR|       VP|
+        0.        0.         0         0        0.
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.        0.        0.        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
@@ -155,8 +157,8 @@ $      SRC|      SRP|       FS|       VP|
 NE_C_C4_Sup_Endplate_Reilly-et-al-1974
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     200033     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-$        C|        P|     LCSS|     LCSR|       VP|      LCF|
-        0.        0.         0         0        0.          
+$        C|        P|     LCSS|     LCSR|       VP|
+        0.        0.         0         0        0.
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.        0.        0.        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
@@ -165,8 +167,8 @@ $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8
 NE_C_C3_Inf_Endplate_Reilly-et-al-1974
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     200034     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-$        C|        P|     LCSS|     LCSR|       VP|      LCF|
-        0.        0.         0         0        0.          
+$        C|        P|     LCSS|     LCSR|       VP|
+        0.        0.         0         0        0.
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.        0.        0.        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
@@ -175,8 +177,8 @@ $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8
 NE_C_C4 Cortical_Reilly-et-al-1974
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     200041     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-$        C|        P|     LCSS|     LCSR|       VP|      LCF|
-        0.        0.         0         0        0.          
+$        C|        P|     LCSS|     LCSR|       VP|
+        0.        0.         0         0        0.
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.        0.        0.        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
@@ -191,8 +193,8 @@ $      SRC|      SRP|       FS|       VP|
 NE_C_C5_Sup_Endplate_Reilly-et-al-1974
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     200043     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-$        C|        P|     LCSS|     LCSR|       VP|      LCF|
-        0.        0.         0         0        0.          
+$        C|        P|     LCSS|     LCSR|       VP|
+        0.        0.         0         0        0.
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.        0.        0.        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
@@ -201,8 +203,8 @@ $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8
 NE_C_C4_Inf_Endplate_Reilly-et-al-1974
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     200044     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-$        C|        P|     LCSS|     LCSR|       VP|      LCF|
-        0.        0.         0         0        0.          
+$        C|        P|     LCSS|     LCSR|       VP|
+        0.        0.         0         0        0.
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.        0.        0.        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
@@ -211,8 +213,8 @@ $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8
 NE_C_C5 Cortical_Reilly-et-al-1974
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     200051     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-$        C|        P|     LCSS|     LCSR|       VP|      LCF|
-        0.        0.         0         0        0.          
+$        C|        P|     LCSS|     LCSR|       VP|
+        0.        0.         0         0        0.
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.        0.        0.        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
@@ -227,8 +229,8 @@ $      SRC|      SRP|       FS|       VP|
 NE_C_C6_Sup_Endplate_Reilly-et-al-1974
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     200053     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-$        C|        P|     LCSS|     LCSR|       VP|      LCF|
-        0.        0.         0         0        0.          
+$        C|        P|     LCSS|     LCSR|       VP|
+        0.        0.         0         0        0.
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.        0.        0.        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
@@ -237,8 +239,8 @@ $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8
 NE_C_C5_Inf_Endplate_Reilly-et-al-1974
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     200054     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-$        C|        P|     LCSS|     LCSR|       VP|      LCF|
-        0.        0.         0         0        0.          
+$        C|        P|     LCSS|     LCSR|       VP|
+        0.        0.         0         0        0.
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.        0.        0.        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
@@ -247,8 +249,8 @@ $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8
 NE_C_C6 Cortical_Reilly-et-al-1974
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     200061     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-$        C|        P|     LCSS|     LCSR|       VP|      LCF|
-        0.        0.         0         0        0.          
+$        C|        P|     LCSS|     LCSR|       VP|
+        0.        0.         0         0        0.
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.        0.        0.        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
@@ -263,8 +265,8 @@ $      SRC|      SRP|       FS|       VP|
 NE_C_C7_Sup_Endplate_Reilly-et-al-1974
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     200063     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-$        C|        P|     LCSS|     LCSR|       VP|      LCF|
-        0.        0.         0         0        0.          
+$        C|        P|     LCSS|     LCSR|       VP|
+        0.        0.         0         0        0.
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.        0.        0.        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
@@ -273,8 +275,8 @@ $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8
 NE_C_C6_Inf_Endplate_Reilly-et-al-1974
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     200064     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-$        C|        P|     LCSS|     LCSR|       VP|      LCF|
-        0.        0.         0         0        0.          
+$        C|        P|     LCSS|     LCSR|       VP|
+        0.        0.         0         0        0.
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.        0.        0.        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
@@ -283,8 +285,8 @@ $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8
 NE_C_C7 Cortical_Reilly-et-al-1974
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     200071     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-$        C|        P|     LCSS|     LCSR|       VP|      LCF|
-        0.        0.         0         0        0.          
+$        C|        P|     LCSS|     LCSR|       VP|
+        0.        0.         0         0        0.
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.        0.        0.        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
@@ -299,8 +301,8 @@ $      SRC|      SRP|       FS|       VP|
 NE_C_T1_Sup_Endplate_Reilly-et-al-1974
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     200073     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-$        C|        P|     LCSS|     LCSR|       VP|      LCF|
-        0.        0.         0         0        0.          
+$        C|        P|     LCSS|     LCSR|       VP|
+        0.        0.         0         0        0.
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.        0.        0.        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
@@ -309,8 +311,8 @@ $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8
 NE_C_C7_Inf_Endplate_Reilly-et-al-1974
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     200074     2.E-6      17.1       0.3     1.E20   0.89668     1.E20        0.
-$        C|        P|     LCSS|     LCSR|       VP|      LCF|
-        0.        0.         0         0        0.          
+$        C|        P|     LCSS|     LCSR|       VP|
+        0.        0.         0         0        0.
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.        0.        0.        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
@@ -2077,8 +2079,8 @@ $       A1|       A2|       A3|       V1|       V2|       V3|
 TX_Sternum_cortical-Iraeus-et-al-2020
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     301001     2.E-6      14.7       0.3                  0.        0.        0.
-$        C|        P|     LCSS|     LCSR|       VP|      LCF|
-       2.5        7.         0         0        0.          
+$        C|        P|     LCSS|     LCSR|       VP|
+       2.5        7.         0         0        0.
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.    0.0152       0.1        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
@@ -2087,8 +2089,8 @@ $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8
 TX_Sternum-trabecular-Rib-Mat-Iraeus-et-al-2020
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     301002  8.615E-7      0.04      0.45    0.0018        0.        0.        0.
-$        C|        P|     LCSS|     LCSR|       VP|      LCF|
-        0.        0.         0         0        0.          
+$        C|        P|     LCSS|     LCSR|       VP|
+        0.        0.         0         0        0.
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.      0.05      0.06       0.1        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
@@ -2149,8 +2151,8 @@ $      MID|       RO|       PC|       MU|    TEROD|    CEROD|       YM|       PR
 UX_Humerus_cortical_Vandenbulcke_et_al_transverse
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     301301  1.973E-6    12.516       0.2       0.1        1.     1.E20        0.
-$        C|        P|     LCSS|     LCSR|       VP|      LCF|
-        0.        0.                            0.          
+$        C|        P|     LCSS|     LCSR|       VP|
+        0.        0.                            0.
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.        0.        0.        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
@@ -2283,8 +2285,8 @@ $       A1|       A2|       A3|       V1|       V2|       V3|
 TX_Rib_Cartilage-Iraeus-et-al-2020
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     353111     1.E-6     0.049       0.4   0.00485        0.        0.        0.
-$        C|        P|     LCSS|     LCSR|       VP|      LCF|
-        0.        0.         0         0        0.          
+$        C|        P|     LCSS|     LCSR|       VP|
+        0.        0.         0         0        0.
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.    0.1675    0.3296        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
@@ -2597,8 +2599,8 @@ $      IUR|      IUS|      IUT|      IWR|      IWS|      IWT|
 TX-Ribs-Trabecular-Iraeus-et-al-2020
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     403003  8.615E-7      0.04      0.45    0.0018        0.        0.        0.
-$        C|        P|     LCSS|     LCSR|       VP|      LCF|
-        0.        0.         0         0        0.          
+$        C|        P|     LCSS|     LCSR|       VP|
+        0.        0.         0         0        0.
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.      0.05      0.06       0.1        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
@@ -2607,8 +2609,8 @@ $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8
 TX-Ribs cortical-Iraeus-et-al-2020
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     403004     2.E-6      14.7       0.3                  0.        0.        0.
-$        C|        P|     LCSS|     LCSR|       VP|      LCF|
-       2.5        7.         0         0        0.          
+$        C|        P|     LCSS|     LCSR|       VP|
+       2.5        7.         0         0        0.
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.    0.0152       0.1        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
@@ -2969,8 +2971,8 @@ $        K|
 PE-Pelvic-Trabecular-Bone-Dalstra-et-al-1993
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     601002   3.45E-7    0.0236       0.2        1.        0.     1.E20        0.
-$        C|        P|     LCSS|     LCSR|       VP|      LCF|
-        0.        0.                            0.          
+$        C|        P|     LCSS|     LCSR|       VP|
+        0.        0.                            0.
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.        0.        0.        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
@@ -3130,31 +3132,31 @@ $      CMO|     CON1|     CON2|
 $       A1|       A2|       A3|       V1|       V2|       V3|
         0.        0.        0.        0.        0.        0.
 *MAT_SPRING_NONLINEAR_ELASTIC_TITLE
-LX-Knee-Ligament-MCL_static--van-Dommelen-et-al.2005
+LX-Knee-Ligament-MCL_high-Kunitomi-et-al.2017
 $      MID|      LCD|      LCR|
     702110    702110         0
 *MAT_SPRING_NONLINEAR_ELASTIC_TITLE
-LX-Knee-Ligament-LCL_medium--van-Dommelen-et-al.2005
+LX-Knee-Ligament-LCL_high-Kunitomi-et-al.2017
 $      MID|      LCD|      LCR|
     702120    702120         0
 *MAT_SPRING_NONLINEAR_ELASTIC_TITLE
-LX-Knee-Ligament-a_ACL_high-van-Dommelen-et-al.2005
+LX-Knee-Ligament-a_ACL_high-Kunitomi-et-al.2017
 $      MID|      LCD|      LCR|
     702131    702131         0
 *MAT_SPRING_NONLINEAR_ELASTIC_TITLE
-LX-Knee-Ligament-p_ACL_static-van-Dommelen-et-al.2005
+LX-Knee-Ligament-p_ACL_high-Kunitomi-et-al.2017
 $      MID|      LCD|      LCR|
     702132    702132         0
 *MAT_SPRING_NONLINEAR_ELASTIC_TITLE
-LX-Knee-Ligament-a_PCL_static--van-Dommelen-et-al.2005
+LX-Knee-Ligament-a_PCL_high-Kunitomi-et-al.2017
 $      MID|      LCD|      LCR|
     702141    702141         0
 *MAT_SPRING_NONLINEAR_ELASTIC_TITLE
-LX-Knee-Ligament-p_PCL_high-van-Dommelen-et-al.2005
+LX-Knee-Ligament-p_PCL_high-Kunitomi-et-al.2017
 $      MID|      LCD|      LCR|
     702142    702142         0
 *MAT_SPRING_NONLINEAR_ELASTIC_TITLE
-LX-Knee-Ligament-PL-van-Dommelen-et-al.2005
+LX-Knee-Ligament-PL-Muller-et-al.2004
 $      MID|      LCD|      LCR|
     702150    702150         0
 *MAT_OGDEN_RUBBER_TITLE
@@ -3277,8 +3279,8 @@ $      MID|       RO|       PC|       MU|    TEROD|    CEROD|       YM|       PR
 LX_L_CB_Patella_Reilly-et-al-1974
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     710401     2.E-6      17.1       0.3     1.E10        0.     1.E20        0.
-$        C|        P|     LCSS|     LCSR|       VP|      LCF|
-        0.        0.                            0.          
+$        C|        P|     LCSS|     LCSR|       VP|
+        0.        0.                            0.
 $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
         0.        0.        0.        0.        0.        0.        0.        0.
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
@@ -13128,239 +13130,89 @@ Tibia Cortical Burstein Reilly Tension
                   0.               0.114
            0.0227683               0.135
 *DEFINE_CURVE_TITLE
-LX-Knee-Ligament-MCL_static
+LX-Knee-Ligament-MCL_high-Kunitomi-et-al.2017
     702110         0        1.   0.00025&MCL_l_off        0.         0         0
                 -10.                  0.
                   0.                  0.
-           0.0164294             1.71233
-            0.180723             1.71233
-            0.345016             1.71233
-            0.492881             5.13699
-            0.657174             6.84932
-            0.821468             8.56164
-            0.969332              10.274
-             1.13363             13.6986
-             1.26506              15.411
-             1.41292             18.8356
-             1.57722             20.5479
-             1.72508             25.6849
-             1.87295             29.1096
-             2.00438             35.9589
-             2.16867             39.3836
-             2.30011             42.8082
-             2.44797             47.9452
-             2.59584             51.3699
-             2.72727             59.9315
-             2.85871             65.0685
-             3.00657             66.7808
-             3.12158             75.3425
-             3.25301             82.1918
-             3.41731             83.9041
-             3.54874             90.7534
-             3.66375             99.3151
-             3.79518             106.164
-             3.92662             113.014
-             4.05805             119.863
-             4.18949             126.712
-             4.32092             135.274
-             4.45235             142.123
-             4.58379             152.397
-             4.73165             157.534
-             4.86309             164.384
-             4.97809             172.945
-             5.10953             183.219
-             5.24096             191.781
-             5.35597             200.342
-             5.47097             208.904
-             5.60241             215.753
-             5.71742             226.027
-             5.84885             231.164
-             5.96386             243.151
-             6.07886             255.137
-              6.2103             261.986
-             6.34173             270.548
-             6.45674             280.822
-             6.58817             292.808
-             6.70318              301.37
-             6.83461             309.932
-             6.94962             321.918
-             7.06462             332.192
-             7.19606             340.753
-             7.31106              352.74
-             7.40964             364.726
-              7.5575             371.575
-             7.67251             383.562
-             7.78751             393.836
-             7.88609             405.822
-              8.0011             416.096
-              8.1161             429.795
-             8.24754             436.644
-             8.36254             446.918
-             8.46112             457.192
-             8.57612             469.178
-              8.6747             479.452
-              8.7897             491.438
-             8.92114                500.
-             9.03614             510.274
-             9.15115              522.26
-             9.26616             532.534
-             9.38116             544.521
-             9.47974             556.507
-             9.61117             566.781
-             9.74261              573.63
-             9.84118             585.616
-             9.95619              595.89
-             10.0712             606.164
-             10.2026             616.438
-             10.3176             626.712
-             10.4326             638.699
-             10.5476             650.685
-             10.6627             659.247
-             10.7941             667.808
-             10.8927             679.795
-             11.0241             690.068
-             11.1555              698.63
-             11.2705             710.616
-              11.402              720.89
-             11.5498             726.027
+             2.31884          99.5866013
+           3.2463801         168.2610016
+           4.4927502         261.9140015
+           6.2318802         449.4570007
+           7.2463799         555.7219849
+             8.31884         668.2390137
+             10.1159         893.3809814
+          12.2028999        1174.8599854
+                 15.               1500.
 *DEFINE_CURVE_TITLE
-LX-Knee-Ligament-LCL_medium
+LX-Knee-Ligament-LCL_high-Kunitomi-et-al.2017
     702120         0        1.   0.00025&LCL_l_off        0.         0         0
                 -10.                  0.
                   0.                  0.
-            0.010627              1.5411
-             0.10627              1.5411
-            0.201913             2.05479
-            0.308183             3.59589
-            0.403826             5.65068
-            0.510096             6.67808
-            0.605739             7.70548
-            0.712009             8.73288
-            0.807651              10.274
-            0.903294             12.3288
-            0.998937             14.8973
-             1.09458             16.9521
-             1.19022             19.0068
-             1.28587             21.0616
-             1.38151             23.6301
-             1.46652             26.7123
-             1.55154             29.2808
-             1.64718             31.8493
-             1.74283             33.9041
-             1.82784             36.9863
-             1.91286             39.5548
-             1.99787             43.1507
-             2.07226             46.7466
-             2.14665             50.3425
-             2.23167             53.4247
-             2.31668             56.5068
-              2.4017              59.589
-             2.47609             62.6712
-             2.57173             65.7534
-             2.64612             69.3493
-             2.70988             72.9452
-              2.7949             76.5411
-             2.85866              80.137
-             2.93305             83.7329
-             3.01807             87.3288
-             3.09245             90.9247
-             3.17747             93.4932
-             3.25186             97.6027
-             3.30499             101.712
-             3.37938             105.308
-             3.45377              108.39
-             3.52816             111.986
-             3.61318             116.096
-             3.68757             119.692
-             3.75133             123.288
-             3.81509             127.397
-             3.87885             131.507
-             3.95324             135.103
-             4.02763             138.699
-             4.10202             142.295
-             4.17641              145.89
-             4.26142             149.486
-             4.34644             152.055
-             4.42083             155.651
-             4.50584             159.247
-             4.56961             163.356
-             4.63337             167.466
-             4.69713             171.062
-             4.77152             174.658
-             4.84591             178.767
-             4.90967             182.877
-             4.96281               187.5
-             5.01594             192.123
-             5.05845             196.233
-             5.11158             200.856
-             5.15409             205.479
-              5.1966             210.616
-             5.23911              215.24
-             5.26036             219.863
-             5.32412             223.973
-             5.36663             228.596
+            0.667669             29.1898
+             1.02857             55.6719
+             1.40752             82.1579
+             1.76842             116.561
+              2.5985              182.75
+             3.60902               256.9
+             4.47519             309.896
+             5.43158             370.832
+             6.13534             415.871
+             6.91128             471.488
+                 15.               1000.
 *DEFINE_CURVE_TITLE
-LX-Knee-Ligament-a_ACL_high-van-Dommelen
+LX-Knee-Ligament-a_ACL_high-Kunitomi-et-al.2017
     702131         0        1.     0.001&ACL_l_off        0.         0         0
-                 -1.                  0.
+                -10.                  0.
                   0.                  0.
-           0.0164294             8.56164
-            0.147864             17.1233
-            0.295728             18.8356
-            0.443593             23.9726
-            0.607886             23.9726
-             0.77218             23.9726
-            0.936473             25.6849
-             1.10077             25.6849
-             1.26506             25.6849
-             1.41292             32.5342
-             1.57722             32.5342
-             1.72508             39.3836
-             1.85652             47.9452
-             1.98795             56.5068
-             2.11939             66.7808
-             2.25082             78.7671
-             2.36583             90.7534
-              2.4644              102.74
-             2.59584             114.726
-             2.69441             128.425
-             2.79299             142.123
-               2.908              154.11
-               3.023             167.808
-             3.13801             179.795
-             3.25301             191.781
-             3.36802             203.767
-             3.46659             215.753
-              3.5816             229.452
-             3.68018             243.151
-             3.77875             255.137
-             3.89376             267.123
-             4.02519             280.822
-              4.1402             292.808
-              4.2552             303.082
-             4.38664             315.068
-             4.51807              323.63
-             4.63308             335.616
-             4.74808             347.603
-             4.86309             359.589
-             4.99452             369.863
-             5.12596             381.849
-             5.24096             392.123
-             5.35597              404.11
-             5.47097             416.096
-             5.58598             429.795
-             5.68456             441.781
-             5.79956             455.479
-             5.89814             469.178
-             6.01314             481.164
-             6.14458             493.151
-             6.25958             505.137
-             6.37459             517.123
-             6.48959              529.11
-              6.6046             537.671
-             6.70318             542.808
+             0.13617             6.00601
+            0.340426              36.036
+            0.459574             60.0601
+            0.595745             78.0781
+            0.714894             96.0961
+            0.851064              120.12
+            0.970213             144.144
+             1.10638             168.168
+             1.24255              180.18
+             1.37872             204.204
+             1.49787             228.228
+             1.63404             252.252
+             1.75319             276.276
+             1.88936               300.3
+             2.02553             324.324
+              2.1617             342.342
+             2.28085             366.366
+             2.41702             384.384
+             2.55319             402.402
+             2.68936             426.426
+             2.84255             438.438
+              2.9617             462.462
+             3.09787              480.48
+             3.23404             504.505
+             3.47234             552.553
+             3.60851             576.577
+             3.72766             600.601
+             3.86383             618.619
+                  4.             636.637
+             4.11915             660.661
+              4.2383             684.685
+             4.37447             708.709
+             4.51064             732.733
+             4.64681             744.745
+             4.78298             768.769
+             4.90213             792.793
+              5.0383             816.817
+             5.15745             840.841
+             5.25957             870.871
+             5.41277             882.883
+             5.54894             906.907
+             5.78723             954.955
+              5.9234             978.979
+             6.05957             996.997
+             6.17872             1009.01
+                 12.               2000.
+                 15.               2500.
 *DEFINE_CURVE_TITLE
-LX-Knee-Ligament-p_ACL_static
+LX-Knee-Ligament-p_ACL_high-Kunitomi-et-al.2017
     702132         0        1.     0.001&ACL_l_off        0.         0         0
                 -10.                  0.
                   0.                  0.
@@ -13434,160 +13286,86 @@ LX-Knee-Ligament-p_ACL_static
               3.8473             79.2149
               3.9427             79.8982
 *DEFINE_CURVE_TITLE
-LX-Knee-Ligament-a_PCL_static
+LX-Knee-Ligament-a_PCL_high-Kunitomi-et-al.2017
     702141         0        1.     0.001&PCL_l_off        0.         0         0
                 -10.                  0.
                   0.                  0.
-            0.010627             2.73973
-           0.0956429             1.71233
-            0.180659             2.39726
-            0.276302             1.36986
-            0.371945             2.05479
-            0.456961             1.71233
-            0.552604             2.39726
-             0.63762             2.05479
-            0.722635             2.05479
-            0.818278             1.71233
-            0.924548             1.71233
-             1.02019             2.39726
-             1.10521             2.73973
-             1.21148             2.73973
-             1.31775             2.73973
-             1.42402             3.08219
-             1.53029             3.42466
-              1.6153             3.42466
-             1.71095             3.42466
-             1.82784             3.76712
-             1.93411             4.10959
-             2.01913             4.79452
-             2.11477             5.82192
-             2.22104             6.50685
-             2.30606             7.87671
-             2.38045             9.58904
-             2.47609              10.274
-             2.56111             11.9863
-             2.64612             13.0137
-             2.73114              14.726
-             2.80553             14.3836
-             2.86929             17.1233
-              2.9543             18.4932
-             3.02869             20.5479
-             3.11371             22.2603
-              3.1881             24.6575
-             3.25186             26.7123
-             3.33688             28.7671
-             3.39001             31.5068
-              3.4644             33.9041
-             3.53879             35.9589
-              3.6238             38.0137
-             3.67694              40.411
-             3.73007             43.1507
-             3.80446             45.5479
-             3.84697             48.6301
-             3.91073             50.3425
-              3.9745             53.0822
-             4.09139             57.8767
-             4.19766             63.6986
-              4.2508             66.0959
-             4.30393             68.8356
-             4.35707             71.5753
-              4.4102             74.3151
-             4.46334             77.0548
-             4.51647             79.7945
-             4.55898             82.5342
-             4.61211              85.274
-             4.66525             88.0137
-             4.71838              90.411
-             4.77152             93.1507
-             4.83528             95.8904
-             4.89904             98.2877
-             4.94155             101.027
-             4.99469             103.767
-             5.04782             106.507
-             5.10096             109.247
-             5.15409             111.986
-             5.21785             114.384
-             5.29224             116.781
-             5.33475             119.178
-             5.38789             121.918
-             5.45165             124.315
-             5.52604             126.712
-             5.60043             128.767
-             5.67481             130.479
-             5.73858             133.219
-             5.82359             134.932
-             5.90861             136.644
+            0.030722                  0.
+            0.184332                  0.
+            0.337994             3.43643
+            0.491604             3.43643
+            0.645267             6.87285
+            0.737433             6.87285
+            0.891043             6.87285
+             1.04471             10.3093
+             1.25981             13.7457
+             1.50569             20.6186
+             1.65936              24.055
+              1.7976              24.055
+             1.95127             27.4914
+             2.08962             34.3643
+             2.22808               48.11
+             2.38174             51.5464
+              2.5201             58.4192
+             2.67381             65.2921
+             2.81233             82.4742
+             3.35044             113.402
+             3.48884             123.711
+             3.81153             130.584
+             3.94999              144.33
+             4.08834             151.203
+              4.2268             164.948
+             4.31897             164.948
+              4.4881             175.258
+             4.56496             178.694
+             4.73419             195.876
+              4.8726             206.186
+             4.99565             216.495
+             5.11874             230.241
+             5.25715              240.55
+             5.39561             254.296
+             5.50324             261.168
+             5.65706             274.914
+             5.78006             281.787
+             5.91852             295.533
+             6.04162             309.278
+              6.2109             329.897
+             6.39561             353.952
+             6.51876             371.134
+             6.64186              384.88
+             6.73429             402.062
+             6.84208             419.244
+             6.94982              432.99
+              7.0423             453.608
+             7.15014             474.227
+             7.24273             501.718
+             7.33532              529.21
+             7.44311             546.392
+             7.55101             570.447
+                 10.               1140.
+                 15.               2500.
 *DEFINE_CURVE_TITLE
-LX-Knee-Ligament-p_PCL_high
+LX-Knee-Ligament-p_PCL_high-Kunitomi-et-al.2017
     702142         0        1.     0.001&PCL_l_off        0.         0         0
                 -10.                  0.
                   0.                  0.
-             1.40276           0.0720597
-             1.49841             1.10437
-           1.6046799           2.1372299
-             1.71095           2.1426899
-             1.74283             3.17172
-             1.82784           5.7445798
-             1.92349           8.3179903
-             2.01913          11.4050999
-           2.0935199          14.4911003
-           2.1679101          18.0907993
-              2.2423          21.6905003
-             2.31668          25.8038998
-             2.38045          29.9167995
-           2.4335799          34.0290985
-             2.49734          38.1419983
-             2.56111          42.2549019
-           2.6142399          46.8809013
-               2.678          50.9936981
-           2.7311399          55.6198006
-             2.78427          59.7321014
-             2.83741          64.3581009
-           2.8905399          68.4703979
-             2.94368          73.0963974
-             2.99681          77.7223969
-           3.0499499          81.8348007
-             3.10308          86.4608002
-           3.1668401          90.5736008
-             3.21998          95.1996994
-           3.2731099          99.8256989
-           3.3262501         103.9380035
-             3.37938          108.564003
-             3.44315          112.677002
-             3.49628         117.3030014
-           3.5494201         121.4150009
-           3.6131799         126.0419998
-           3.6663101          130.154007
-           3.7300701         134.2669983
-           3.7938399         138.3800049
-              3.8576         142.4929962
-             3.92136         146.6060028
-           3.9851201         150.7180023
-             4.03826         155.3439941
-           4.1020198         159.4570007
-           4.1551499         163.5700073
-           4.2082901         168.1959991
-           4.2614198         172.8220062
-           4.3039298         177.4470062
-             4.35707          182.072998
-             4.39957         186.6990051
-           4.4527102         191.3249969
-           4.5271001          194.923996
-             4.60149         198.5240021
-             4.67588         202.1239929
-           4.7715201         204.1829987
-           4.8671598         206.2429962
-           4.9734302         207.7899933
-           5.0690799         208.3079987
-           5.1753502         208.8280029
-             5.28162         209.3470001
-           5.3772602         210.3789978
-             5.48353          210.897995
-           5.5897999          210.904007
-           5.6960702         210.9089966
-             5.80234         211.4279938
+            0.469897          24.6835003
+            0.751836           36.075901
+             1.12775           47.468399
+           1.5271699          68.3544006
+             1.87959           93.038002
+           2.3494899          115.822998
+             2.71366         142.4049988
+           3.1483099         170.8860016
+             3.67695         201.2660065
+           3.9706299         222.1519928
+           4.2290702         237.3419952
+           4.5462599         258.2279968
+           4.8164501         269.6199951
+                 10.                550.
+                 15.                775.
 *DEFINE_CURVE_TITLE
-LX-Knee-Ligament-PL-L46.2mm-CSA106.2
+LX-Knee-Ligament-PL-L46.2mm-CSA106.2-Muller-et-al.2004
     702150         0     0.462   0.02655&PL_l_off         0.         0         0
                 -15.                  0.
                   0.                  0.
@@ -13602,11 +13380,7 @@ LX-Knee-Ligament-PL-L46.2mm-CSA106.2
               9.3793              22.709
              10.6207             25.9474
              11.7793             28.6117
-                12.8             30.5789
-             13.6828             31.8899
-             14.7034             33.2827
-             15.8897             34.3059
-             16.7172             34.8375
+                 30.                 80.
 *DEFINE_CURVE_TITLE
 LX-Knee-Muscle-QF-Activation-test1
     702411         0       50.       0.3        0.        0.         0         0
