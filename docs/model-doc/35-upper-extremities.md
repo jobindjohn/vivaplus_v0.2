@@ -4,11 +4,31 @@
     
     This section is being updated
     
+## Identifiers
+
+
+**Identifier Range** | **Description**
+:-------------------:|:---------------
+  30 1000 - 30 4000  | Skeletal Tissue
+  30 4000 - 60 4000  | Soft Tissue
+
 ## Skeletal Structure
+
+**Component Identifier** | **Description**
+------------------------:|:----------------
+                30 110 0 | Clavicle
+                30 120 0 | Scapula
+                30 130 0 | Humerus
+                30 140 0 | Ulna
+                30 150 0 | Radius
+     30 160 0 – 30 230 0 | Carpal Bones
+     30 240 0 – 30 280 0 | Metacarpal Bones
+     30 290 0 – 30 320 0 | Phalanges
 
 ### Clavicle and Scapula
 
 ### Humerus
+
 For all cortical bones MAT_124 is applied as it allows to distinguish between tension and compression and model strain-rate dependency.
 
 The humerus material charateristics are based on [@Vandenbulcke.2012] As no anisotropic material model is applied at the current stage, and transversal loading is of higher interest in the considered loading scenarios (no steering wheel), the parameters representative for transverse loading were selected.
@@ -47,9 +67,13 @@ Tension parameters described in the same publication:
     Maximum strain ∊ max = 0.015
 
 
-### Radius and Ulnar
+### Radius and Ulna
+
 Both bones were modelled elastic with the same material properties as the humerus for now. 
 
+### Carpals, Metacarpals, and Phalanges
+
+The geometry for the bones in the VIVA 50F wrist and hand is from the [PIPER Reference Model](https://gitlab.inria.fr/piper/misc_models/-/tree/master/registration_reference_model/22_REF_LTE635_Assembly). It corresponds to anthropometry of female with height 1610mm, mass 57kg, and age 56 years.
 
 #### To be implemented later on 
 
@@ -61,35 +85,38 @@ Paper: (Cortical thickness on the shaft) Measurement of the bony anatomy of the 
 
 Paper: Three-dimensional distribution of trabecular bone density and cortical thickness in the **distal humerus** [@Diederichs2009]
 
-## Identifiers
 
-### Soft Tissues
+## Soft Tissues
 
-**Component Identifier**|**Description**
-:-----:|:-----:
-30 510 0 | Shoulder
-30 520 0 | Upper Arm
-30 530 0 | Elbow
-30 540 0 | Lower Arm
-70 550 0 | Wrist
-70 560 0 | Hand
+**Component Identifier** | **Description**
+------------------------:|:---------------
+                30 510 0 | Shoulder
+                30 520 0 | Upper Arm
+                30 540 0 | Elbow
+                30 560 0 | Lower Arm
+                30 600 0 | Wrist
+                30 650 0 | Hand
 
-## Skin
+### Skin
+
 Skin material properties for the whole upper extremities are based on [@Flynn2010] using an Ogden material model (without strain rate dependency).
 The material properties provided for the posterior side of the upper arm were selected. In future trials the other region-specific material parameters can be tried out. 
 Prony series coefficients provided in the paper are also applied (TODO: Check if variables are consistent within simplified example)
 
-## Soft tissue
+### Fat
+
 For the soft tissue, the material form the original VIVA model remained, which are based on a fat tissue model from 
 
+### Muscle
+
 ## Joints
+
 For the VIRTUAL version of the VIVA+ models, joints of the upper extremities will be assumed as kinematic joints.
 
 ### Shoulder
 
-
-
 ### Elbow
+
 Humerus und Ulnar are connected with a revolute joint (axis through medial and lateral epicondyle of humerus)
 Humerus and Radius are connected with a spherical joint (center of rotation on tip of Radius)
 Radius and Ulnar are connected with a spherical joint on the distal end (center of roation on US - ulnar styloid)

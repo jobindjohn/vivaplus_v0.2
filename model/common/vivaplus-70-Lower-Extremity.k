@@ -2,11 +2,13 @@ $
 $ANSA_VERSION;20.1.0;
 $
 $
-$ file created by  A N S A  Thu Nov 26 21:34:32 2020
+$ file created by  A N S A  Sun Dec 13 20:26:07 2020
 $
 $ output from :
 $
-$ B:/SYNC/VIRTUAL/50F-O/2020-11-08/Common/vivaplus-50F_v0-2-1-g.ansa
+$ M:/VSI-P/010_RD/17_EU_VIRTUAL/020_Workpackage/WP2_HBM/T2_2_Seated OS-HBM 50F, 
+$ OS-HBM 50M, Active-HBM and validation/LS-DYNA_Files/2020-12-13/vivaplus-50F_v0
+$ -2-1-j-FixJJ-5.ansa
 $
 $ANSA_USER_ATTRIBUTES;vivaplus-70-Lower-Extremity.k;INCLUDE;DM/IO Index;TEXT;11;
 $DM/Status;TEXT;WIP;
