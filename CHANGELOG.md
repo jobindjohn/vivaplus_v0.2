@@ -19,6 +19,9 @@ and this project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.ht
 - Tied lower part of abdominal soft tissue to pelvis
 - Adjusted hourglass settings to reduce hourglass energies
 - Changed material parameters for thorax soft tissue to the fat tissue model from Naseri's thesis
+- Material properties of femur bone
+- Internal Contacts
+- Material properties of Knee Ligaments
 
 ### Removed
 
