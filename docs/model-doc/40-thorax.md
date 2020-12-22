@@ -32,10 +32,11 @@ The thoracic vertebrae are defined as rigid elements. The elements of the cortic
 
 #### Intervertebral Joints
 
-??? info "Future Model Development"
+<!-- ??? info "Future Model Development"
     A new thoracic Spine model with detailed vertebrae and intervertebral soft tissue
-    definitions is planned.
+    definitions is planned. -->
 
+The intervertebral joints are modeled as zero-length discrete beam elements (MAT119). 
 ## Ribs
 The ribcage is modelled based on Iraeus&Pipkorn, 2019: "Development and Validation of a Generic Finite Element Ribcage to be used for Strain-based Fracture Prediction"
 
