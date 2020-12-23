@@ -2,23 +2,22 @@ $
 $ANSA_VERSION;20.1.0;
 $
 $
-$ file created by  A N S A  Fri Sep  4 11:02:28 2020
+$ file created by  A N S A  Tue Dec 22 21:40:24 2020
 $
 $ output from :
 $
-$ C:/Meshing_WorkingFolder/vivaplus/vivaplus-50F_v0-1-7e.ansa
+$ //129.27.213.85/vsi-p/010_RD/17_EU_VIRTUAL/020_Workpackage/WP2_HBM/T2_2_Seated
+$  OS-HBM 50F, OS-HBM 50M, Active-HBM and validation/LS-DYNA_Files/2020-12-20/vi
+$ vaplus-50F_v0-2-1-o.ansa
 $
 $ANSA_USER_ATTRIBUTES;vivaplus-global-contact.k;INCLUDE;DM/IO Index;TEXT;3;DM/St
 $atus;TEXT;WIP;
 $
 $
 $
-$
-$
-$
+*KEYWORD
 $ANSA_COLOR;vivaplus-global-contact.k;INCLUDE;.647058844566345;.407843142747879;
 $.588235318660736;1.;
-*KEYWORD
 *CONTACT_AUTOMATIC_SINGLE_SURFACE_ID
 $       ID|                                                                 NAME|
 903001    ME_C_Whole_body_skin                                                  
@@ -37,11 +36,10 @@ $     IGAP|   IGNORE|   DPRFAC|   DTSTIF|         |         |   FLANGL|  CID_RCF
 *SET_SHELL_GENERAL_TITLE
 Whole_body_skin
       1000                                        
-PART          103002    103005    203002    305111    305121    305131    305141
-PART          305161    355111    355121    355131    355141    355161    406001
-PART          456001    506001    556001    606001    656001    705111    705121
-PART          705131    705141    705191    755111    755121    755131    755141
-PART          755191
+PART          103002    203002    305111    305121    305131    305141    305161
+PART          355111    355121    355131    355141    355161    406001    456001
+PART          506001    556001    606001    656001    705111    705121    705131
+PART          705141    705191    755111    755121    755131    755141    755191
 *SET_PART_LIST_TITLE
 Thorax flesh
     416003                                        
@@ -53,7 +51,7 @@ Scapula-and-Clavicula
 *SET_PART_LIST_TITLE
 Patella
     716002                                        
-    701301    701302    751302
+    701302    751302
 *SET_PART_LIST_TITLE
 Upper_leg_flesh
     716003                                        

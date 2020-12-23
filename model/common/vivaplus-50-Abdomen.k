@@ -1,13 +1,12 @@
 $
-$ANSA_VERSION;20.1.3;
+$ANSA_VERSION;20.1.4;
 $
 $
-$ file created by  A N S A  Mon Oct 19 07:30:10 2020
+$ file created by  A N S A  Sat Dec 19 09:48:08 2020
 $
 $ output from :
 $
-$ /disk/project/eriks/P20017_Virtual/work/Vivaplus_v021a/contact_mod/vivaplus-50
-$ F_v0-2-1-a.ansa
+$ C:/Users/jobinj/Box/vivaplus-dev/vivaplus-dev-JDJ/vivaplus-50F_v0-2-1-l.ansa
 $
 $ANSA_USER_ATTRIBUTES;vivaplus-50-Abdomen.k;INCLUDE;DM/IO Index;TEXT;13;DM/Statu
 $s;TEXT;WIP;
@@ -133,7 +132,7 @@ $    SECID|   ELFORM|
 *PART
 AB-Lumbar-IVD-L1-L2-Joint-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
-    502010    502010    409011                             0                    
+    502010    502010    502010                             0                    
 *SECTION_BEAM_TITLE
 AB-Lumbar-IVD-L1-L2-Joint-M
 $    SECID|   ELFORM|     SHRF|  QR/IRID|      CST|    SCOOR|      NSM|
@@ -143,7 +142,7 @@ $      VOL|     INER|      CID|       CA|   OFFSET|    RRCON|    SRCON|    TRCON
 *PART
 AB-Lumbar-IVD-L2-L3-Joint-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
-    502020    502020    409021                             0                    
+    502020    502020    502020                             0                    
 *SECTION_BEAM_TITLE
 AB-Lumbar-IVD-L2-L3-Joint-M
 $    SECID|   ELFORM|     SHRF|  QR/IRID|      CST|    SCOOR|      NSM|
@@ -153,7 +152,7 @@ $      VOL|     INER|      CID|       CA|   OFFSET|    RRCON|    SRCON|    TRCON
 *PART
 AB-Lumbar-IVD-L3-L4-Joint-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
-    502030    502030    409031                             0                    
+    502030    502030    502030                             0                    
 *SECTION_BEAM_TITLE
 AB-Lumbar-IVD-L3-L4-Joint-M
 $    SECID|   ELFORM|     SHRF|  QR/IRID|      CST|    SCOOR|      NSM|
@@ -163,7 +162,7 @@ $      VOL|     INER|      CID|       CA|   OFFSET|    RRCON|    SRCON|    TRCON
 *PART
 AB-Lumbar-IVD-L4-L5-Joint-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
-    502040    502040    409041                             0                    
+    502040    502040    502040                             0                    
 *SECTION_BEAM_TITLE
 AB-Lumbar-IVD-L4-L5-Joint-M
 $    SECID|   ELFORM|     SHRF|  QR/IRID|      CST|    SCOOR|      NSM|
@@ -173,7 +172,7 @@ $      VOL|     INER|      CID|       CA|   OFFSET|    RRCON|    SRCON|    TRCON
 *PART
 AB-Lumbar-IVD-L5-Sacrum-Joint-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
-    502050    502050    409051                             0                    
+    502050    502050    502050                             0                    
 *SECTION_BEAM_TITLE
 AB-Lumbar-IVD-L5-Sacrum-Joint-M
 $    SECID|   ELFORM|     SHRF|  QR/IRID|      CST|    SCOOR|      NSM|

@@ -1,25 +1,23 @@
 $
-$ANSA_VERSION;20.1.4;
+$ANSA_VERSION;20.1.0;
 $
 $
-$ file created by  A N S A  Tue Nov  3 11:08:40 2020
+$ file created by  A N S A  Sun Dec 13 20:26:07 2020
 $
 $ output from :
 $
-$ C:/Users/jobinj/Box/vivaplus-share/VIVA-Plus-Meshing-Shared-Folder/vivaplus-50
-$ F_v0-2-1-d-2.ansa
+$ M:/VSI-P/010_RD/17_EU_VIRTUAL/020_Workpackage/WP2_HBM/T2_2_Seated OS-HBM 50F, 
+$ OS-HBM 50M, Active-HBM and validation/LS-DYNA_Files/2020-12-13/vivaplus-50F_v0
+$ -2-1-j-FixJJ-5.ansa
 $
 $ANSA_USER_ATTRIBUTES;vivaplus-60-Pelvis.k;INCLUDE;DM/IO Index;TEXT;12;DM/Status
 $;TEXT;WIP;
 $
 $
 $
-$
-$
-$
+*KEYWORD
 $ANSA_COLOR;vivaplus-60-Pelvis.k;INCLUDE;.996078431606293;.894117653369904;.3019
 $60796117783;1.;
-*KEYWORD
 *PART
 PE-Pelvic-Pubis-Cortical-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|

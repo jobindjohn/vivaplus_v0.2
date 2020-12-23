@@ -2,12 +2,11 @@ $
 $ANSA_VERSION;20.1.4;
 $
 $
-$ file created by  A N S A  Tue Nov  3 11:08:40 2020
+$ file created by  A N S A  Sat Dec 19 09:47:54 2020
 $
 $ output from :
 $
-$ C:/Users/jobinj/Box/vivaplus-share/VIVA-Plus-Meshing-Shared-Folder/vivaplus-50
-$ F_v0-2-1-d-2.ansa
+$ C:/Users/jobinj/Box/vivaplus-dev/vivaplus-dev-JDJ/vivaplus-50F_v0-2-1-l.ansa
 $
 $ANSA_USER_ATTRIBUTES;vivaplus-40-Thorax.k;INCLUDE;DM/IO Index;TEXT;14;DM/Status
 $;TEXT;WIP;
@@ -251,7 +250,7 @@ $    SECID|   ELFORM|
 *PART
 TX-IVD-T1-T2-Joint-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
-    402010    402010    309011                             0                    
+    402010    402010    402010                             0                    
 *SECTION_BEAM_TITLE
 TX-IVD-T1-T2-Joint-M
 $    SECID|   ELFORM|     SHRF|  QR/IRID|      CST|    SCOOR|      NSM|
@@ -261,7 +260,7 @@ $      VOL|     INER|      CID|       CA|   OFFSET|    RRCON|    SRCON|    TRCON
 *PART
 TX-IVD-T2-T3-Joint-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
-    402020    402020    309021                             0                    
+    402020    402020    402020                             0                    
 *SECTION_BEAM_TITLE
 TX-IVD-T2-T3-Joint-M
 $    SECID|   ELFORM|     SHRF|  QR/IRID|      CST|    SCOOR|      NSM|
@@ -271,7 +270,7 @@ $      VOL|     INER|      CID|       CA|   OFFSET|    RRCON|    SRCON|    TRCON
 *PART
 TX-IVD-T3-T4-Joint-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
-    402030    402030    309031                             0                    
+    402030    402030    402030                             0                    
 *SECTION_BEAM_TITLE
 TX-IVD-T3-T4-Joint-M
 $    SECID|   ELFORM|     SHRF|  QR/IRID|      CST|    SCOOR|      NSM|
@@ -281,7 +280,7 @@ $      VOL|     INER|      CID|       CA|   OFFSET|    RRCON|    SRCON|    TRCON
 *PART
 TX-IVD-T4-T5-Joint-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
-    402040    402040    309041                             0                    
+    402040    402040    402040                             0                    
 *SECTION_BEAM_TITLE
 TX-IVD-T4-T5-Joint-M
 $    SECID|   ELFORM|     SHRF|  QR/IRID|      CST|    SCOOR|      NSM|
@@ -291,7 +290,7 @@ $      VOL|     INER|      CID|       CA|   OFFSET|    RRCON|    SRCON|    TRCON
 *PART
 TX-IVD-T5-T6-Joint-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
-    402050    402050    309051                             0                    
+    402050    402050    402050                             0                    
 *SECTION_BEAM_TITLE
 TX-IVD-T5-T6-Joint-M
 $    SECID|   ELFORM|     SHRF|  QR/IRID|      CST|    SCOOR|      NSM|
@@ -301,7 +300,7 @@ $      VOL|     INER|      CID|       CA|   OFFSET|    RRCON|    SRCON|    TRCON
 *PART
 TX-IVD-T6-T7-Joint-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
-    402060    402060    309061                             0                    
+    402060    402060    402060                             0                    
 *SECTION_BEAM_TITLE
 TX-IVD-T6-T7-Joint-M
 $    SECID|   ELFORM|     SHRF|  QR/IRID|      CST|    SCOOR|      NSM|
@@ -311,7 +310,7 @@ $      VOL|     INER|      CID|       CA|   OFFSET|    RRCON|    SRCON|    TRCON
 *PART
 TX-IVD-T7-T8-Joint-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
-    402070    402070    309071                             0                    
+    402070    402070    402070                             0                    
 *SECTION_BEAM_TITLE
 TX-IVD-T7-T8-Joint-M
 $    SECID|   ELFORM|     SHRF|  QR/IRID|      CST|    SCOOR|      NSM|
@@ -321,7 +320,7 @@ $      VOL|     INER|      CID|       CA|   OFFSET|    RRCON|    SRCON|    TRCON
 *PART
 TX-IVD-T8-T9-Joint-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
-    402080    402080    309081                             0                    
+    402080    402080    402080                             0                    
 *SECTION_BEAM_TITLE
 TX-IVD-T8-T9-Joint-M
 $    SECID|   ELFORM|     SHRF|  QR/IRID|      CST|    SCOOR|      NSM|
@@ -331,7 +330,7 @@ $      VOL|     INER|      CID|       CA|   OFFSET|    RRCON|    SRCON|    TRCON
 *PART
 TX-IVD-T9-T10-Joint-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
-    402090    402090    309091                             0                    
+    402090    402090    402090                             0                    
 *SECTION_BEAM_TITLE
 TX-IVD-T9-T10-Joint-M
 $    SECID|   ELFORM|     SHRF|  QR/IRID|      CST|    SCOOR|      NSM|
@@ -341,7 +340,7 @@ $      VOL|     INER|      CID|       CA|   OFFSET|    RRCON|    SRCON|    TRCON
 *PART
 TX-IVD-T10-T11-Joint-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
-    402100    402100    309101                             0                    
+    402100    402100    402100                             0                    
 *SECTION_BEAM_TITLE
 TX-IVD-T10-T11-Joint-M
 $    SECID|   ELFORM|     SHRF|  QR/IRID|      CST|    SCOOR|      NSM|
@@ -351,7 +350,7 @@ $      VOL|     INER|      CID|       CA|   OFFSET|    RRCON|    SRCON|    TRCON
 *PART
 TX-IVD-T11-T11-Joint-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
-    402110    402110    309111                             0                    
+    402110    402110    402110                             0                    
 *SECTION_BEAM_TITLE
 TX-IVD-T11-T11-Joint-M
 $    SECID|   ELFORM|     SHRF|  QR/IRID|      CST|    SCOOR|      NSM|
@@ -361,7 +360,7 @@ $      VOL|     INER|      CID|       CA|   OFFSET|    RRCON|    SRCON|    TRCON
 *PART
 TX-IVD-T12-L1-Joint-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
-    402120    402120    309121                             0                    
+    402120    402120    402120                             0                    
 *SECTION_BEAM_TITLE
 TX-IVD-T12-L1-Joint-M
 $    SECID|   ELFORM|     SHRF|  QR/IRID|      CST|    SCOOR|      NSM|

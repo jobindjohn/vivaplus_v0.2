@@ -2,23 +2,22 @@ $
 $ANSA_VERSION;20.1.0;
 $
 $
-$ file created by  A N S A  Fri Sep  4 12:42:38 2020
+$ file created by  A N S A  Sun Dec 13 20:26:05 2020
 $
 $ output from :
 $
-$ C:/Meshing_WorkingFolder/vivaplus/vivaplus-50F_v0-1-7g.ansa
+$ M:/VSI-P/010_RD/17_EU_VIRTUAL/020_Workpackage/WP2_HBM/T2_2_Seated OS-HBM 50F, 
+$ OS-HBM 50M, Active-HBM and validation/LS-DYNA_Files/2020-12-13/vivaplus-50F_v0
+$ -2-1-j-FixJJ-5.ansa
 $
 $ANSA_USER_ATTRIBUTES;vivaplus-10-Head.k;INCLUDE;DM/IO Index;TEXT;10;DM/Status;T
 $EXT;WIP;
 $
 $
 $
-$
-$
-$
+*KEYWORD
 $ANSA_COLOR;vivaplus-10-Head.k;INCLUDE;.937254905700684;.086274512112141;.737254
 $917621613;1.;
-*KEYWORD
 *PART
 HE_C_Skull
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|

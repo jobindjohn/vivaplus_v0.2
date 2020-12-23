@@ -2,15 +2,15 @@
 
 Human body finite element (FE) models for Virtual Testing
 
-The VIVA+ models are under active development, with frequent beta releases of preliminary models.
+Current beta version is `0.2.1`, released on 2020-12-23. 
 
-The documentation is available at <https://vivaplus.readthedocs.io/>
+The VIVA+ models are under active development, with frequent beta releases. Find details of recent updates in the [CHANGELOG](CHANGELOG.md)
+
+The documentation is under development. It is available at <https://vivaplus.readthedocs.io/>
 
 Join the **users' community** [![project chat](https://img.shields.io/badge/zulip-join_chat-brightgreen.svg)](https://vivaplus.zulipchat.com)
 
 ## Quick start
-
-Current beta version is `0.2.0`
 
 Download the files (download link above)
 
@@ -19,26 +19,30 @@ or
 Clone the repository:
 
 ```
-git clone git@virtual.openvt.eu:fem/viva/plus.git
+git clone git@virtual.openvt.eu:fem/viva/vivaplus.git
+```
+
+or 
+
+```
+git clone https://virtual.openvt.eu/fem/viva/vivaplus.git
 ```
 
 ### Directory structure
 
-The include files that are common to  (material/section/property definitions, contacts, constraints, etc.) are placed in the `common` directory. The files the seated/standing (for example, node coordinates), can be found in the respective directory, for e.g., `50F/Seated/`.
+The include files that are common to all the models (material/section/property definitions, contacts, constraints, etc.) are placed in the `common` sub-directory. The model-specific files (main files, node coordinates) can be found in the respective sub-directory, e.g., `model/50F-Seated/`.
 
 ```
 viva-plus
 ├─── model
 │   ├─── 50F-seated
 |   ├─── 50F-standing
-│   └─── common
+|   ├─── common
+|   ├─── preprocess
+│   └─── postprocess
 ├─── assets
 └─── docs
 ```
-
-## Model updates
-
-Find information on ongoing updates in the [CHANGELOG](CHANGELOG.md) file.
 
 ## License
 

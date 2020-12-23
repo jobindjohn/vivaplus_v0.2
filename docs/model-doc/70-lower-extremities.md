@@ -83,14 +83,27 @@ For the ligaments connecting the proximal end, a higher stiffness was assumed. I
 
 #### Ligaments:  
 
-The ligaments in the version 0.1 & 0.2 are based on van Dommelen et al., 2005, [@Dommelen2005] and ligments are modelled as discrete springs
+The major knee ligaments in the version 0.1 & 0.2 are based on van Dommelen et al., 2005, [@Dommelen2005]  and Kunitomi et al., 2017 [@Kunitomi2017] and are modelled as discrete springs. Material properties for the patelar ligament are derived from Muller et al., 2004 [@Muller2004]. 
+
+Kunitomi, Yamamoto, Kato, Antona‐Makoshi, Konosu, Dokko, Yasuki (2017). The Development of the Lower Extremity of a Human FE Model and the Influence of Anatomical Detailed Modelling in Vehicle‐to‐Pedestrian Impacts.  IRC-17-62 http://www.ircobi.org/wordpress/downloads/irc17/pdf-files/62.pdf
+
+Muller et al. (2004). Comparative analysis of the mechanical properties of the patellar ligament and calcaneus tendon. Acta ortop. bras. \[online\], vol.12, n.3, pp.134-140. https://doi.org/10.1590/S1413-78522004000300001](https://doi.org/10.1590/S1413-78522004000300001
 
 <!-- - [ ] TODO: Model ligaments as solids  -->
 
 #### Knee Cartilage
-Cartilage thickness is based on (TODO for UL)
+
+Cartilage thickness is based on Faber et al. 2001  [@Faber2001] and Eckstein et al. 2001  [@Eckstein2001]
 
 The material properties are based on Robinson et al. [@Robinson2016]
+
+Both cartilage and menisus are modelled as linear elastic homogeneous materials, due to instant loading conditions [@Pena]
+
+E. Peña, B. Calvo, M.A. Martínez, M. Doblaré, A three-dimensional finite element analysis of the combined behavior of ligaments and menisci in the healthy human knee joint, Journal of biomechanics 39(9) (2006) 1686-1701,  doi:10.1016/j.jbiomech.2005.04.030
+
+The imput parameters for both cartilage and menisus were determined from the review Joao et al. 2018 
+
+João, M. R. S. T., Moez, C., Abdelwahed, B., & Zahra, T. (2018). _FEM Analysis of the Human Knee Joint: A Review_. Springer.
 
 #### Meniscus
 The material parameters are based on Peña et al., 2005 [@Pena2005]
@@ -214,8 +227,31 @@ https://bmcmusculoskeletdisord.biomedcentral.com/articles/10.1186/1471-2474-12-2
 
 
 #### Knee Cartilage
-Cartilage thickness is based on (TODO for UL)
+Cartilage : Male vs. Female, young healthy individuals, MRI based data [@Faber2001]
 
+| Location        | **Female mean Thickness [mm]** | **Male mean Thickness [mm]** | **Female maximal Thickness [mm]** | **Male maximal Thickness [mm]** | **Female Area [mm2]** | **Male Area [mm2]** |
+|-----------------|--------------------------------|------------------------------|-----------------------------------|---------------------------------|-----------------------|---------------------|
+| Patella         | 2,2±0,43                       | 2,39±0,42                    | 4,51±1.08                         | 5,26±0,99                       | 1047±123              | 1289±158            |
+| Femur (total)   | 1,79±0,22                      | 1,88±0,29                    |                                   |                                 | 5478±655              | 6554±391            |
+| Trochlea        | 2,01±0,25                      | 2,05±0,32                    | 4,2±0,48                          | 4,51±0,72                       |                       |                     |
+| Medial condyle  | 1,69±0,24                      | 1,86±0,31                    | 3,73±0,67                         | 3,89±0,85                       |                       |                     |
+| Lateral condyle | 1,65±0,33                      | 1,73±0,32                    | 3,29±0,64                         | 3,69±0,47                       |                       |                     |
+| Tibia med       | 1,2±0,19                       | 1,36±0,15                    | 2,9±0,92                          | 3,43±0,86                       | 811±122               | 1078±235            |
+| Tibia lateral   | 1,61±0,25                      | 1,7±0,27                     | 3,96±0,51                         | 4,54±0,91                       | 881±98                | 1175±147            |
+| Knee total      | 1,86±0,24                      | 2,01±0,31                    |                                   |                                 | 8218±795              | 10096±498           |
+
+S.C. Faber, F. Eckstein, S. Lukasz, R. Mühlbauer, J. Hohe, K.H. Englmeier, M. Reiser, Gender differences in knee joint cartilage thickness, volume and articular surface areas: assessment with quantitative three-dimensional MR imaging, Skeletal Radiol 30(3) (2001) 144-50, doi:10.1007/s002560000320
+
+Cartilage: Gender specific dimensions [@Eckstein2001]
+
+| **Location**  | **Female Thickness [mm]** | **Male Thickness [mm]** | **Female Area [mm2]** | **Male Area [mm2]** |
+|---------------|---------------------------|-------------------------|-----------------------|---------------------|
+| Patella       | 2,5                       | 2,6                     | 1100                  | 1400                |
+| Femur (total) | 1,6                       | 1,75                    | 5000                  | 6500                |
+| Tibia med     | 1,45                      | 1,55                    | 900                   | 1150                |
+| Tibia lateral | 1,75                      | 2                       | 900                   | 1150                |
+
+F. Eckstein, M. Reiser, K.H. Englmeier, R. Putz, In vivo morphometry and functional analysis of human articular cartilage with quantitative magneticresonance imaging-from image to data, from data to theory, Anat Embryol (Berl)203(3) (2001) 147-173, doi:[10.1007/s004290000154](https://doi.org/10.1007/s004290000154)
 
 #### Patella ligament
 
@@ -232,6 +268,27 @@ They report a proximal width of 27.5 mm and a tickness of 3 mm while for the dis
 | Male (Yoo et al., 2007)   |                    |                                      |                       |                                       |                         |
 | VIVA+50M                  |                    |                                      |                       |                                       |                         |
 
+
+####  Quadriceps muscle
+
+For the muscles the material model »S15_MAT_SPRING_MUSCLE« has been used, which is defined for descrete beam elements with the possibility of activation [1, 2, 3]. 
+The main imput parametres are:
+•	initial length (L0) (depending on the individual model)
+•	maximum shortening velocity (VMAX) [4, 7]
+•	function of activation (𝑓A) (if used) [5]
+•	peak isometric force (FMAX) [3, 4]
+•	functions for : active tension vs. length function (𝑓𝑇𝐿) [1]
+•	active tension vs. velocity function (𝑓𝑇V) [1, 6]
+•	force vs. length function for parallel elastic element (𝑓PE) [1]
+The the initial model configuration only one discrete element was used for the combination of four heads of quadriceps muscle. The imput parameters for all four heads were summed up and used for the single discrete element.
+
+[1]	LS-Dyna: User's manual, April 2003
+[2]	Hill, A. V. (October 10, 1938). The Heat of Shortening and the Dynamic Constants of Muscle. Proceedings of the Royal Society of London. Series B, Biological Sciences, 126, 843, 136-195.
+[3]	Winters, J.M. (1990). Hill-based muscle models: A systems engineering perspective. In multiple muscle systems: Biomechanics and movement organization. Winters, Woods, (Springer-Verlag).
+[4]	Arnold, E. M., Ward, S. R., Lieber, R. L., in Delp, S. L. (2009). A model of the lower limb for analysis of human movement. Annals of Biomedical Engineering, 38(2), 269–279. https://doi.org/10.1007/s10439-009-9852-5
+[5]	Mukherjee, S., Chawla, A., Karthikeyan, B., & Soni, A. (2007). Finite element crash simulations of the human body: Passive and active muscle modelling. Sadhana, 32(4), 409–426. https://doi.org/10.1007/s12046-007-0032-8
+[6]	Audu, M. L., & Davy, D. T. (1985). The Influence of Muscle Model Complexity in Musculoskeletal Motion Modeling. Journal of Biomechanical Engineering, 107(2), 147–157. https://doi.org/10.1115/1.3138535
+[7]	Horst, MJ (Marike) Van Der. (2002). Human head neck response in frontal, lateral and rear end impact loading : modelling and validation. Technische Universiteit Eindhoven. https://doi.org/10.6100/IR554047
 
 ### Ankle Joint
 
