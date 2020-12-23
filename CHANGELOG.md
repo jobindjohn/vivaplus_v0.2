@@ -7,24 +7,32 @@ and this project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.ht
 
 # beta  versions
 
-## 0.2.1
+## 0.2.1 - 2020-12-23
 
 ### Added
 
-- PIPER metadata for positioning (assets/preprocess)
 - Added prestretch in knee ligaments
 - Added tiebreak sliding contact between thorax soft tissue and rib cage
+- Control cards in `vivaplus-controls.k`
+- Added `PART_CONTACT` for ligaments in the neck (fixes SMP issues)
+- Dynasaur metadata for postprocessing (model/postprocess)
+- PIPER metadata for positioning (model/preprocess)
 
 ### Changed
+
 - Tied lower part of abdominal soft tissue to pelvis
 - Adjusted hourglass settings to reduce hourglass energies
 - Changed material parameters for thorax soft tissue to the fat tissue model from Naseri's thesis
 - Material properties of femur bone
 - Internal Contacts
 - Material properties of Knee Ligaments
-
+- Corrected CSYS for sternoclavicular joint
+- Thoracic and Lumbar intervertebral Discrete beam joint MIDs and curves renumbered
 ### Removed
 
+- Validation setups removed from model directory (will be moved to Validation Catalogue)
+- Eyelid from global contact (causing instabilty)
+- 
 ## 0.2.0 - 2020-09-10
 
 ## Added
