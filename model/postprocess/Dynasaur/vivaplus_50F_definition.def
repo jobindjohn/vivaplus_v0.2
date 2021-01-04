@@ -1045,7 +1045,154 @@
                 "(0, time)"
                 ]
                 }
-                }    
+                },
+            {
+				"name": "Impactor_disp_x",
+				"part_of": "IMPACTOR",
+				"x": {
+					"type": "NODE",
+					"ID": "Impactor",
+					"array": ["(0, time)"]
+				},
+				"y": {
+					"type": "NODE",
+					"ID": "Impactor",
+					"array": ["(0, x_displacement)"]
+				}
+			},
+			{
+				"name": "Impactor_acc_x",
+				"part_of": "IMPACTOR",
+				"x": {
+					"type": "NODE",
+					"ID": "Impactor",
+					"array": ["(0, time)"]
+				},
+				"y": {
+					"type": "NODE",
+					"ID": "Impactor",
+					"array": ["(0, x_acceleration)"]
+				}
+			},
+			{
+				"name": "Impactor_acc_x_filter",
+				"part_of": "IMPACTOR",
+				"y": {
+					"function": {
+						"name": "cfc",
+						"param": {
+							"cfc": 180,
+							"time": {
+								"type": "NODE",
+								"ID": "Impactor",
+								"array": ["(0, time)"]
+							},
+							"sampled_array": {
+								"type": "NODE",
+								"ID": "Impactor",
+								"array": ["(0, x_acceleration)"]
+							}
+						}
+					}
+				},
+				"x": {
+					"type": "NODE",
+					"ID": "Impactor",
+					"array": ["(0, time)"]
+				}
+			},
+			{
+				"name": "Contactforce-Impactor-to-HBM-m",
+				"part_of": "IMPACTOR",
+				"y": {
+					"function": {
+
+						"name": "res",
+						"param": {
+							"data_vector": {
+								"type": "CONTACT",
+								"ID": "Impactor-to-HBM-m",
+								"array": ["(0, x_force)", "(0, y_force)", "(0, z_force)"]
+							}
+						}
+					}
+				},
+				"x": {
+					"type": "CONTACT",
+					"ID": "Impactor-to-HBM-m",
+					"array": ["(0, time)"]
+				}
+			},
+			{
+				"name": "Added_Mass",
+				"part_of": "MODEL",
+				"y": {
+					"type": "ENERGY_GLOBAL",
+					"ID": "Model",
+					"array": ["(0, added_mass)"]
+				},
+				"x": {
+					"type": "ENERGY_GLOBAL",
+					"ID": "Model",
+					"array": ["(0, time)"]
+				}
+			},
+			{
+				"name": "Total_Energy",
+				"part_of": "MODEL",
+				"y": {
+					"type": "ENERGY_GLOBAL",
+					"ID": "Model",
+					"array": ["(0, total_energy)"]
+				},
+				"x": {
+					"type": "ENERGY_GLOBAL",
+					"ID": "Model",
+					"array": ["(0, time)"]
+				}
+			},
+			{
+				"name": "Internal_Energy",
+				"part_of": "MODEL",
+				"y": {
+					"type": "ENERGY_GLOBAL",
+					"ID": "Model",
+					"array": ["(0, internal_energy)"]
+				},
+				"x": {
+					"type": "ENERGY_GLOBAL",
+					"ID": "Model",
+					"array": ["(0, time)"]
+				}
+			},
+			{
+				"name": "Kinetic_Energy",
+				"part_of": "MODEL",
+				"y": {
+					"type": "ENERGY_GLOBAL",
+					"ID": "Model",
+					"array": ["(0, kinetic_energy)"]
+				},
+				"x": {
+					"type": "ENERGY_GLOBAL",
+					"ID": "Model",
+					"array": ["(0, time)"]
+				}
+			},
+			{
+				"name": "Hourglass_Energy",
+				"part_of": "MODEL",
+				"y": {
+					"type": "ENERGY_GLOBAL",
+					"ID": "Model",
+					"array": ["(0, hourglass_energy)"]
+				},
+				"x": {
+					"type": "ENERGY_GLOBAL",
+					"ID": "Model",
+					"array": ["(0, time)"]
+				}
+			}    
                         
         ]
     }
