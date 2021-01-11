@@ -13,8 +13,8 @@ copyright: Copyright &copy; 2019-2020 viva+ team
 
 # Page tree
 nav:
-    - Getting started: 
-        - Getting started: index.md
+    - index.md
+        # - Getting started: index.md
         #- VIVA+ Models overview: getting-started/10-model-overview.md
         #- FAQ: getting-started/FAQ
     - User Guide:
