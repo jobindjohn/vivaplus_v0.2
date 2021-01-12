@@ -1,11 +1,15 @@
+<center> Open Finite Element Models of Human Body for Injury Assessments</center>
 
-![viva-plus-logo](images/VIVA-plus-logo.png)
+![viva-plus-logo](images/vivaplus-docs-homepage-logo.png)
 
-# **Open Human Body Models**
 
-_Finite Element Models of Human Body for injury assessments, developed primarily for Road Safety._
 
-## **VIVA+ _beta_ models** (v0.2.1)
+Welcome to the online documentation of the Open VIVA+ Human Body Models! 
+
+Here you will find information on getting started with the VIVA+ models, documentation of model implementations, and guides to make contributions to the models.
+
+# **Getting started**
+## **Models (_beta_)** (v0.2.1)
 
 #### Vehicle Occupant
 
