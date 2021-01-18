@@ -20,7 +20,7 @@ Material properties for the pelvic ligaments are descibed in Hammer et al. (2013
 
 <!-- Todo:
 
-- [ ] The isolated pelvic bone + joints should be validated with the quasisatic and dynamic (spheric) impactor tests of [@Guillemot.1998] and   [@Salzar2009]
+- [ ] The isolated pelvic bone + joints should be validated with the quasistatic and dynamic (spheric) impactor tests of [@Guillemot.1998] and   [@Salzar2009]
 - [ ] Overall stiffness of Pelvis + Flesh should be validated with tests from Viano (1989)
  -->
 
@@ -77,9 +77,9 @@ TODO:
 - [ ] simulated Ito experiments and recalibrate hip joint stiffness if needed
 
 
-#### Modelling of sacroilliac joint
+#### Modelling of sacroiliac joint
 
-To model the stiffness of the sacroiliac join, a part consisting of one layer solid elements is created between the sacrum and the ilium.
+To model the stiffness of the sacroiliac joint, a part consisting of one layer solid elements is created between the sacrum and the ilium.
 
 The material parameters are chosen based on [@Miller1987].
 Data is based on 7 males and one female aged between 59 and 74 years. 
@@ -96,7 +96,7 @@ The average thickness of the outer face is 4.4 mm.
 
 E=k * thickness/A
 
-leading to the young modulus
+leading to the Young's modulus
 
 * superior: 0.655 N/mm^2 
 * inferior: 1.113 N/mm^2

@@ -64,15 +64,14 @@ https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs002
 https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00276-013-1199-9/MediaObjects/276_2013_1199_Fig4_HTML.jpg?as=webp
 
 140 beams were created oriented as described in Elamrani et al., 2013 [@Elamrani2013]: "Fibers of the anterior layer made an angle of 13° (SD 2.6) with the axis of fibula. Those of the posterior layer made an angle of 24.2° (SD 2.48) with the axis of fibula."
-The avarage thickness is 0.54 mm
+The average thickness is 0.54 mm
 
 Stiffness of anterior tibiofibular ligament: 162 +/- 64 N/mm [@Hoefnagels2007]
 
 stiffness in fiber direction is assumed based on Minns and Hunter [@Minns1976] 
 For the 2mm x 20mm sample an ultimate stress of  920 ±/- 205 Kgf/cm^2  = 0.09022118 GPa is reported at 7.7%
 
-Assuming linear stiffness up to the ultimate stress, a young modulus of 1.17 GPa can be assumed. 
- for a sample with a crossection of 2x0.54=~1mm^2
+Assuming linear stiffness up to the ultimate stress, a young modulus of 1.17 GPa can be assumed for a sample with a crossection of 2x0.54=~1mm^2.
 
 For the ligaments connecting the proximal end, a higher stiffness was assumed. It was set to 5 GPa as first trial. 
 
@@ -83,7 +82,7 @@ For the ligaments connecting the proximal end, a higher stiffness was assumed. I
 
 #### Ligaments:  
 
-The major knee ligaments in the version 0.1 & 0.2 are based on van Dommelen et al., 2005, [@Dommelen2005]  and Kunitomi et al., 2017 [@Kunitomi2017] and are modelled as discrete springs. Material properties for the patelar ligament are derived from Muller et al., 2004 [@Muller2004]. 
+The major knee ligaments in the version 0.1 & 0.2 are based on van Dommelen et al., 2005, [@Dommelen2005]  and Kunitomi et al., 2017 [@Kunitomi2017] and are modelled as discrete springs. Material properties for the patellar ligament are derived from Muller et al., 2004 [@Muller2004]. 
 
 Kunitomi, Yamamoto, Kato, Antona‐Makoshi, Konosu, Dokko, Yasuki (2017). The Development of the Lower Extremity of a Human FE Model and the Influence of Anatomical Detailed Modelling in Vehicle‐to‐Pedestrian Impacts.  IRC-17-62 http://www.ircobi.org/wordpress/downloads/irc17/pdf-files/62.pdf
 
@@ -97,11 +96,11 @@ Cartilage thickness is based on Faber et al. 2001  [@Faber2001] and Eckstein et 
 
 The material properties are based on Robinson et al. [@Robinson2016]
 
-Both cartilage and menisus are modelled as linear elastic homogeneous materials, due to instant loading conditions [@Pena]
+Both cartilage and meniscus are modelled as linear elastic homogeneous materials, due to instant loading conditions [@Pena]
 
 E. Peña, B. Calvo, M.A. Martínez, M. Doblaré, A three-dimensional finite element analysis of the combined behavior of ligaments and menisci in the healthy human knee joint, Journal of biomechanics 39(9) (2006) 1686-1701,  doi:10.1016/j.jbiomech.2005.04.030
 
-The imput parameters for both cartilage and menisus were determined from the review Joao et al. 2018 
+The imput parameters for both cartilage and meniscus were determined from the review Joao et al. 2018 
 
 João, M. R. S. T., Moez, C., Abdelwahed, B., & Zahra, T. (2018). _FEM Analysis of the Human Knee Joint: A Review_. Springer.
 
@@ -115,14 +114,14 @@ An Ogden material model is applied using an alpha of 1 and therefore neo-hookean
 <!-- - [ ] TODO: enhance material properties and calibrate to published curves  -->
 
 #### Patella
-The patella is modelles rigid in version 0.1 and 0.2.
+The patella is currently modelled as rigid.
 
 ### Knee Joint geometry
-attachment points on femur:
+Attachment points on femur:
 Blumensaat’s line (roof of femoral intercondylar ):
 Iriuchishima et al. 2016
 
-Ligaments were attached to the bones based on the anatomic landmarks descirbed in the review of Bedi et al., 2018
+Ligaments were attached to the bones based on the anatomic landmarks described in the review of Bedi et al., 2018
 
 Furthermore, the OpenKnee model was used as reference.
 
@@ -160,40 +159,40 @@ LaPrade, 2003: "As the fibular collateral ligament coursed distally and attached
 
 #### Medial Collateral Ligament (MCL)
 
-based on Wijdicks et al. 2009 - values in table 5 will be used
+Based on Wijdicks et al. 2009 - values in table 5 will be used.
 
 Additionally, pictures from Prince et al. (2015) were used.
 
 https://ars.els-cdn.com/content/image/1-s2.0-S2212628715001401-gr1.jpg
 
-##### Femur attachement
+##### Femur attachment
 
 https://ars.els-cdn.com/content/image/1-s2.0-S2212628715001401-gr5.jpg
 
 "line 1 is an extension of the posterior femoral cortex, and line 2 is drawn perpendicular to line 1, intersecting the most posterior aspect of the Blumensaat line"
 "The femoral attachment of the sMCL was found to be, on average, 8.6 mm anterior to the posterior femoral cortex line and 11.0 mm distal to the intersection of the posterior femoral cortex line (line 1) and the line intersecting the posterior aspect of the Blumensaat line (line 2)"
 
-##### Tibia attachement
+##### Tibia attachment
 
 "On the lateral tibial radiographs, the proximal and distal
 tibial attachments of the superficial medial collateral ligament were 15.9 ± 5.2 and 66.1 ± 3.6 mm distal to the tibial
-inclination, respectivel"
+inclination, respectively"
 
 #### Anterior cruciate Ligament (ACL)
-Harner et al. 1999 (from Bedi et al., 2018) "The ACL is formed by 2 main bundles, the anteromedial (AM)and posterolateral (PL) bundles, which are named for their tibialinsertions and provide the primary restraint against anterior tibialtranslation and secondary restraint against internal tibial rotation,respectively. It is 31±2 mm long with a mean diameter of 10±2mm6, although it fans out at the insertions to approximately 3.5times the midsubstance width7."
+Harner et al. 1999 (from Bedi et al., 2018) "The ACL is formed by 2 main bundles, the anteromedial (AM) and posterolateral (PL) bundles, which are named for their tibial insertions and provide the primary restraint against anterior tibial translation and secondary restraint against internal tibial rotation, respectively. It is 31±2 mm long with a mean diameter of 10±2mm6, although it fans out at the insertions to approximately 3.5 times the midsubstance width 7."
 
-The distance between the attachment point in the baseline setated VIVA+ model is 31mm.
+The distance between the attachment point in the baseline seated VIVA+ model is 31mm.
 
 ##### Femur Insertion:
 ACL attachment point on femur is determined based on the radiographic quadrant mehtod: "distance t (representing the total sagittal diameter of the lateral condyle measured along Blumensaat's line), distance h (representing the maximum intercondylar notch height), distance a (representing the distance of point K from the most dorsal subchondral contour of the lateral femoral condyle), and distance b (representing the distance of point K from Blumensaat's line). Distance a is a partial distance of t and distance b is a partial distance of h, and distances a and b are expressed as length ratios of t and h. The center of the femoral insertion of the ACL was located at 24.8% of the distance t measured from the most posterior contour of the lateral femoral condyle and at 28.5% of the height h measured from Blumensaat's line. Based on these results, the ACL can be found just inferior to the most superoposterior quadrant, which means in anatomic terms it is localized from the dorsal border of the condyle at approximately a quarter of the whole sagittal diameter of the condyle and from the roof of the notch at approximately a quarter of the notch height. "
 
-Accoridng to Yahagi et al. 2018, who are proposing a method which is applicabel also for cases where the Blumensaat's line is not a straight line, the hill is excluded to derive the Blumensaat line (grid 1)
+According to Yahagi et al. 2018, who are proposing a method which is applicable also for cases where the Blumensaat's line is not a straight line, the hill is excluded to derive the Blumensaat line (grid 1)
 https://media.springernature.com/lw785/springer-static/image/art%3A10.1007%2Fs00167-017-4501-2/MediaObjects/167_2017_4501_Fig2_HTML.gif
 
 Yahagi et al. 2018: "In small hill type knees, the ACL center was placed as follows: Grid (1) 37.5 ± 6% in the shallow–deep, 50.2 ± 8.3% in the high–low directions. [..]
 In large hill type knees, the ACL center was placed as follows: Grid (1) 37.1 ± 5.6% in the shallow–deep, 50.4 ± 5.8% in the high–low directions"
 
-Method to derive both bundle attachements (Pietrini et al. 2011):
+Method to derive both bundle attachments (Pietrini et al. 2011):
 
 https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00167-010-1372-1/MediaObjects/167_2010_1372_Fig4_HTML.gif?as=webp
 
@@ -201,7 +200,7 @@ https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs001
 
 
 ##### Tibia insertion:
-Stӓubli and Rauschning: 43.3% of the anterior-to-posterior distance acrossthe tibia as measured at the level of the posterior tibial margin at the posterior intercondylar area.In their study,the anteriormost fibers inserted at 27.5% across the plateau
+Stӓubli and Rauschning: 43.3% of the anterior-to-posterior distance across the tibia as measured at the level of the posterior tibial margin at the posterior intercondylar area.In their study,the anteriormost fibers inserted at 27.5% across the plateau
 
 Frank et al., 2010: "The average AP diameter of the tibia was measured to be 50 ± 4 mm (range 40–64 mm). Female knees averaged 47 ± 3 mm compared to 52 ± 4 mm in men. The anterior-most position of the ACL attachment on the tibia was, on average, 14 ± 3 mm (range 8–26 mm) from the anterior edge of the tibia, or 28 ± 5% the total depth of the tibia. In women, the anterior-most position of the insertion was, on average, 13 ± 2 mm (28 ± 5%) compared to 15 ± 3 mm (28 ± 5%) in men. The posterior-most position of the ACL attachment on the tibia was located, on average, 31 ± 4 mm (range 23–40) from the anterior edge of the tibia, or 63 ± 6% the depth of the tibia. In women, the posterior-most position was, on average, 29 ± 3 mm (62 ± 5%) contrasted to 33 ± 4 mm (64 ± 5%) in men. Finally, the central portion of the ACL attachment on the tibia was located, on average, 23 ± 3 mm (range 16–30 mm). This center position corresponds to a point 46 ± 4% of the total tibial AP diameter as described. In women, this position was located at 21 ± 2 mm (45 ± 4%) compared to 24 ± 3 mm (46 ± 4%) in men. It was determined that the ACL takes up an average 36 ± 6% of the sagittal depth of the tibia and that the tibial insertion of the ACL is located between 28 and 63% of the total depth of the tibia in the anterior–posterior (sagittal) plane."
 
@@ -271,7 +270,7 @@ They report a proximal width of 27.5 mm and a tickness of 3 mm while for the dis
 
 ####  Quadriceps muscle
 
-For the muscles the material model »S15_MAT_SPRING_MUSCLE« has been used, which is defined for descrete beam elements with the possibility of activation [1, 2, 3]. 
+For the muscles the material model »S15_MAT_SPRING_MUSCLE« has been used, which is defined for discrete beam elements with the possibility of activation [1, 2, 3]. 
 The main imput parametres are:
 •	initial length (L0) (depending on the individual model)
 •	maximum shortening velocity (VMAX) [4, 7]
@@ -280,7 +279,7 @@ The main imput parametres are:
 •	functions for : active tension vs. length function (𝑓𝑇𝐿) [1]
 •	active tension vs. velocity function (𝑓𝑇V) [1, 6]
 •	force vs. length function for parallel elastic element (𝑓PE) [1]
-The the initial model configuration only one discrete element was used for the combination of four heads of quadriceps muscle. The imput parameters for all four heads were summed up and used for the single discrete element.
+The the initial model configuration only one discrete element was used for the combination of four heads of quadriceps muscle. The input parameters for all four heads were summed up and used for the single discrete element.
 
 [1]	LS-Dyna: User's manual, April 2003
 [2]	Hill, A. V. (October 10, 1938). The Heat of Shortening and the Dynamic Constants of Muscle. Proceedings of the Royal Society of London. Series B, Biological Sciences, 126, 843, 136-195.
