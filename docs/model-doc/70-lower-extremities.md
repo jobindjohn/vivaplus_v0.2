@@ -6,7 +6,7 @@
 
 
 ??? info "Lower Extremity Components Identifier Overview"
-    |       Component Group  | Identifier Range (Start) |
+    |        Component Group | Identifier Range (Start) |
     |-----------------------:|--------------------------|
     |                  Bones | 701000                   |
     |  Knee joint structures | 702000                   |
@@ -26,7 +26,7 @@ An elliptic inner shape was assumed, which is in line with medical images. Howev
 | Bone crossectional area [mm^2]    | L1  | L2  | L3  | L4  | L5  |
 |-----------------------------------|-----|-----|-----|-----|-----|
 | Target from Klein et. al. for 50F | 361 | 310 | 303 | 255 | 199 |
-| Measured values in VIVA+ 50F       | 372 | 306 | 300 | 252 | 193 |
+| Measured values in VIVA+ 50F      | 372 | 306 | 300 | 252 | 193 |
 
 
 ??? note "Femur Mesh Quality"
@@ -40,12 +40,12 @@ An elliptic inner shape was assumed, which is in line with medical images. Howev
     |                | <20$^{\circ}$  | 0                    | <30$^{\circ}$  | 0.07                 |
 
 Cortical bone properties are based on [@Mirzaali2016]. Subject with diagnosed osteopherosis were excluded.
-Trabecular bone properties are based on Ding et al.  [@Ding.1997]
+Trabecular bone properties are based on Ding et al.  [@Ding1997]
 
 <!-- (TODO: double check with other parameters!) -->
 
 ### Tibia
-Trabecular bone properties are based on Ding et al.  [@Ding.1997] 
+Trabecular bone properties are based on Ding et al.  [@Ding1997] 
 
 <!-- (TODO: double check with other parameters!) -->
 
@@ -226,7 +226,8 @@ https://bmcmusculoskeletdisord.biomedcentral.com/articles/10.1186/1471-2474-12-2
 
 
 #### Knee Cartilage
-Cartilage : Male vs. Female, young healthy individuals, MRI based data [@Faber2001]
+
+Cartilage: Male vs. Female, young healthy individuals, MRI based data [@Faber2001]
 
 | Location        | **Female mean Thickness [mm]** | **Male mean Thickness [mm]** | **Female maximal Thickness [mm]** | **Male maximal Thickness [mm]** | **Female Area [mm2]** | **Male Area [mm2]** |
 |-----------------|--------------------------------|------------------------------|-----------------------------------|---------------------------------|-----------------------|---------------------|
@@ -239,7 +240,6 @@ Cartilage : Male vs. Female, young healthy individuals, MRI based data [@Faber20
 | Tibia lateral   | 1,61±0,25                      | 1,7±0,27                     | 3,96±0,51                         | 4,54±0,91                       | 881±98                | 1175±147            |
 | Knee total      | 1,86±0,24                      | 2,01±0,31                    |                                   |                                 | 8218±795              | 10096±498           |
 
-S.C. Faber, F. Eckstein, S. Lukasz, R. Mühlbauer, J. Hohe, K.H. Englmeier, M. Reiser, Gender differences in knee joint cartilage thickness, volume and articular surface areas: assessment with quantitative three-dimensional MR imaging, Skeletal Radiol 30(3) (2001) 144-50, doi:10.1007/s002560000320
 
 Cartilage: Gender specific dimensions [@Eckstein2001]
 
@@ -297,10 +297,10 @@ Simplified kinematic revolute joint between tiba+fibula and talus - rotational a
 
 ??? note "Contact between bones and soft tissues"
 
-    | Contact     | Contact ID     | Contact Type |
-    | :------------- | :------------- | :------------- |
-    | Knee_Internal      | 705130       | Automatic Surface to Surface|
-    | Ankle_Internal      | 705180       | Automatic Single Surface|
+    | Contact        | Contact ID | Contact Type                 |
+    |----------------|------------|------------------------------|
+    | Knee_Internal  | 705130     | Automatic Surface to Surface |
+    | Ankle_Internal | 705180     | Automatic Single Surface     |
 
 
 ## Future Model Improvements
