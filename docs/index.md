@@ -1,4 +1,4 @@
-<center> Open Finite Element Models of Human Body for Injury Assessments</center>
+<center>**Open Finite Element Models of Human Body for Injury Assessments**</center>
 
 ![viva-plus-logo](images/vivaplus-docs-homepage-logo.png)
 
@@ -9,7 +9,7 @@ Welcome to the online documentation of the Open VIVA+ Human Body Models!
 Here you will find information on getting started with the VIVA+ models, documentation of model implementations, and guides to make contributions to the models.
 
 # **Getting started**
-## **Models (_beta_)** (v0.2.1)
+### **Models (_beta_)** (v0.2.1)
 
 #### Vehicle Occupant
 
@@ -20,7 +20,7 @@ Here you will find information on getting started with the VIVA+ models, documen
 - Average female standing (**50F**)
 
 
-## **Quick Start**
+### **Quick Start**
 
 Download or Clone repository from the main repo at [OpenVT](https://virtual.openvt.eu/fem/viva/vivaplus)
 
@@ -34,14 +34,14 @@ or
 git clone git@virtual.openvt.eu:fem/viva/plus.git
 ```
 
-## **Documentation**
+### **Documentation**
 
 !!! warning "Work in Progress: The VIVA+ documentation is under construction"
     
     We are in the process of writing the documentation. If you would like to 
     see specific details of the model added to the documentation, please start an issue on the repo
 
-## **You are welcome to Contribute!**
+### **You are welcome to Contribute!**
 
 How can you contribute?
 
@@ -55,7 +55,7 @@ How can you contribute?
 
 Find out more on how to be part of the VIVA+ community in CONTRIBUTING.md
 
-## **License**
+### **License**
 
 **Models**
 
