@@ -4,20 +4,20 @@ All the validations for VIVA+ are documented in Jupyter notebooks. A separate re
 
 !!! example "Golden Path: Making a validation notebook"
 
-  - [Getting started](#getting-started)
-    - [1. Start an issue for the new validation load case](#1-start-an-issue-for-the-new-validation-load-case)
-    - [2. Create a branch](#2-create-a-branch)
-  - [Setting up your validation directory](#setting-up-your-validation-directory)
-    - [3. Get the VIVA+ Validation Repo](#3-get-the-viva-validation-repo)
-    - [4. Start a new folder for the load case](#4-start-a-new-folder-for-the-load-case)
-  - [Postprocessing your simulations](#postprocessing-your-simulations)
-    - [5. Set up your environment](#5-set-up-your-environment)
-    - [6. Starting Jupyter](#6-starting-jupyter)
-    - [7. Using Dynasar to postprocess](#7-using-dynasar-to-postprocess)
-  - [Preparing to publish on the VIVA+ Validation Catalog](#preparing-to-publish-on-the-viva-validation-catalog)
-    - [8. Jupyter Cell Metadata](#8-jupyter-cell-metadata)
-    - [9. Submit Merge Request](#9-submit-merge-request)
-    - [10. Validation notebook review](#10-validation-notebook-review)
+    - [Getting started](#getting-started)
+        - [1. Start an issue for the new validation load case](#1-start-an-issue-for-the-new-validation-load-case)
+        - [2. Create a branch](#2-create-a-branch)
+    - [Setting up your validation directory](#setting-up-your-validation-directory)
+        - [3. Get the VIVA+ Validation Repo](#3-get-the-viva-validation-repo)
+        - [4. Start a new folder for the load case](#4-start-a-new-folder-for-the-load-case)
+    - [Postprocessing your simulations](#postprocessing-your-simulations)
+        - [5. Set up your environment](#5-set-up-your-environment)
+        - [6. Starting Jupyter](#6-starting-jupyter)
+        - [7. Using Dynasar to postprocess](#7-using-dynasar-to-postprocess)
+    - [Preparing to publish on the VIVA+ Validation Catalog](#preparing-to-publish-on-the-viva-validation-catalog)
+        - [8. Jupyter Cell Metadata](#8-jupyter-cell-metadata)
+        - [9. Submit Merge Request](#9-submit-merge-request)
+        - [10. Validation notebook review](#10-validation-notebook-review)
     
 
 ## Getting started
