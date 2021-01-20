@@ -47,7 +47,7 @@ The following steps assume that you have Git installed on your system.
 If you don't have a copy of the validation repo on your computer, use `git clone` to start a local repo.
 
 ```
-git clone https://virtual.openvt.eu/fem/viva/vivaplus-validation.git
+ git clone --recurse-submodules https://virtual.openvt.eu/fem/viva/vivaplus-validation.git
 ```
 After you clone the repo, checkout the branch you created in step 2 before you proceed with the rest of the steps. Replace `branch-name` with the name of the branch you are going to work on.
 
