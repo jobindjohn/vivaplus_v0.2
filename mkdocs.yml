@@ -64,7 +64,7 @@ theme:
         repo: fontawesome/brands/git-alt
         # Find more at https://material.io/resources/icons/
     font:
-        text: Noto Serif
+        text: Heeba
         code: Roboto Mono
     favicon: 'images/favicon.ico'
 
