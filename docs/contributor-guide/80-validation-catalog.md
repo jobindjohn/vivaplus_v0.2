@@ -13,7 +13,7 @@ All the validations for VIVA+ are documented in Jupyter notebooks. A separate re
     - [Postprocessing your simulations](#postprocessing-your-simulations)
         - [5. Set up your environment](#5-set-up-your-environment)
         - [6. Starting Jupyter](#6-starting-jupyter)
-        - [7. Using Dynasar to postprocess](#7-using-dynasar-to-postprocess)
+        - [7. Using Dynasaur to postprocess](#7-using-dynasaur-to-postprocess)
     - [Preparing to publish on the VIVA+ Validation Catalog](#preparing-to-publish-on-the-viva-validation-catalog)
         - [8. Jupyter Cell Metadata](#8-jupyter-cell-metadata)
         - [9. Submit Merge Request](#9-submit-merge-request)
@@ -47,7 +47,7 @@ The following steps assume that you have Git installed on your system.
 If you don't have a copy of the validation repo on your computer, use `git clone` to start a local repo.
 
 ```
- git clone --recurse-submodules git@virtual.openvt.eu:fem/viva/vivaplus.git
+ git clone --recurse-submodules git@virtual.openvt.eu:fem/viva/vivaplus-validation.git
 ```
 After you clone the repo, checkout the branch you created in step 2 before you proceed with the rest of the steps. Replace `branch-name` with the name of the branch you created in Step 2.
 
@@ -135,7 +135,7 @@ jupyter lab`
 
     Other IDEs like VSCode also provides support for Jupyter notebook. But they may not have some features we require for the Validation Catalog, like editing cell tags.
 
-### 7. Using Dynasar to postprocess
+### 7. Using Dynasaur to postprocess
 
 The notebook in the template folder has the basic steps to get started with postprocessing (importing binouts and extracting simulation outputs)
 
