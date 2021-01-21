@@ -26,7 +26,7 @@ It is good practice to let the VIVA+ community know that you are working on the 
 
 ### 1. Start an issue for the new validation load case
 
-Open an issue on the repo with a description of the validation case. Give a brief  title for the issue (AuthorLastName-Year-Load-case) 
+Open an issue on the repo with a description of the validation case. Give a brief  title for the issue: ExperimentAuthorLastName-Year-Load-case. Limit the load case keywords to 2-4 words. (In the next step, we use an automated method to make branches and keeping a short title will give you a not-so-long 'Branch name')
 
 ![](img/contributor-guide-start-issue.gif)
 
@@ -47,13 +47,13 @@ The following steps assume that you have Git installed on your system.
 If you don't have a copy of the validation repo on your computer, use `git clone` to start a local repo.
 
 ```
- git clone --recurse-submodules https://virtual.openvt.eu/fem/viva/vivaplus-validation.git
+ git clone --recurse-submodules git@virtual.openvt.eu:fem/viva/vivaplus.git
 ```
-After you clone the repo, checkout the branch you created in step 2 before you proceed with the rest of the steps. Replace `branch-name` with the name of the branch you are going to work on.
+After you clone the repo, checkout the branch you created in step 2 before you proceed with the rest of the steps. Replace `branch-name` with the name of the branch you created in Step 2.
 
 ```
 cd vivaplus-validation # Move inside the repository
-git checkout branch-name
+git checkout -b branch-name
 ```
 ### 4. Start a new folder for the load case
 
@@ -76,17 +76,21 @@ Copy the template folder `0000-validation-template` and rename the folder as `NN
 
 ## Postprocessing your simulations
 
-Postprocessing for the validation catalog is done using Python-based [Dynasaur](../user-guide/60-postprocess-dynasaur.md) library. The easiest way to get started with Python is using Anaconda. You can find Anaconda installers for your Operating System at the [Anaconda webpage](https://www.anaconda.com/products/individual). 
+VIVA+ validations are recorded as Jupyter notebooks. Rename the serial number and notebook from the template you just copied to the same as your folder name. Postprocessing for the validation catalog is done using Python-based [Dynasaur](../user-guide/60-postprocess-dynasaur.md) library.
 
-VIVA+ validations are recorded as Jupyter notebooks.
+??? Question "If you do not have Anaconda/Miniconda Installations"
+
+    The following steps require Anaconda/Miniconda to setup working environments. The easiest way to get started with Python is using Anaconda. You can find Anaconda installers for your Operating System at the [Anaconda webpage](https://www.anaconda.com/products/individual). 
 
 ### 5. Set up your environment
 
-By having a separate working environment on your system for running the validation notebooks, you can ensure that you are postprocessing using the same versions of libraries as the rest of the VIVA+ contributors. This minimizes the risk of runtime errors and makes it easy to integrate your validation notebook with the main validation catalog.
 
-We use conda environment and you can set it up using the `requirements.txt` file. 
+You can set up the conda environment needed for VIVA+ notebooks using the `requirements.txt` file in the `vivaplus-validation` repo that you just cloned.
 
- If you previously setup an environment, activate it by `conda activate viva` (replace `viva` with the name of your environment)
+On Windows, the easiest way is to open your Anaconda prompt and move to the `vivaplus-validation` directory. Follow the instructions below from the `vivaplus-validation` directory. 
+
+- If you previously setup an environment, activate it by `conda activate viva` (replace `viva` with the name of your environment)
+
 
 !!! note "Setting up a conda environment for VIVA+"
 
@@ -107,6 +111,17 @@ We use conda environment and you can set it up using the `requirements.txt` file
     ```
     pip install -r requirements.txt
     ```
+
+
+??? info "Why we use environments"
+
+    By having a separate working environment on your system for running the validation notebooks, you can ensure that you are postprocessing using the same versions of libraries as the rest of the VIVA+ contributors. This minimizes the risk of runtime errors and makes it easy to integrate your validation notebook with the main validation catalog.
+
+??? tip "Tips for Windows Users"
+
+    - Conda environments can be accessed from other Windows CLI (Powershell/Windows Terminal). To do so, do a one time initialization using `conda init powershell` 
+    - All these work smoothly on Windows Subsystem for Linux (WSL) too. You will need to have a separate Anaconda installation for WSL. 
+        
 
 ### 6. Starting Jupyter
 
