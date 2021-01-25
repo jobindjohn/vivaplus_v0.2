@@ -10,10 +10,52 @@ A brief overview of the git Workflow is provided here, but detailed help can be 
 [Merging your contributions](../50-merge-guidelines) section. -->
 
 
-
 !!! note "Introduction to Git: VIVA+ Workshop"
     
     A brief introduction to Git and workflow using branches can be found on the [VIVA Workshop handouts](https://viva-workshop.readthedocs.io/en/latest/2-1-git-overview/)
+
+
+??? tip "Installing and Configuring Git" 
+        
+    === "Windows"
+
+        Download and install [Git for Windows](https://git-scm.com/download/win). You will be able to use Git from PowerShell, Git Bash, and Anaconda Command Prompt after you install. It is recommended to keep the defaults during installation.
+
+    === "Linux"
+
+        Use your package management system to install and update Git.
+        ```    
+        sudo apt-get install git
+        ```
+
+    === "macOS"
+
+        Easiest way is to install [Homebrew](http://brew.sh/) and run the following:
+
+        ```
+        > brew install git
+        ```
+
+        To update your Git install, use Homebrew’s upgrade option:
+
+        ```
+        > brew upgrade git
+        ```
+
+        Graphical installer for Git on macOS is available at the [official Git website](https://git-scm.com/download/mac). 
+
+    
+    **Configuring your Git installation**
+
+    Before you use Git for the first time, you will need set up your name and email address. Run the following commands with your name and email address
+
+    ```
+    > git config --global user.name "FirstName LastName"
+    ```
+
+    ```
+    > git config --global user.email "name@email.com"
+    ```
 
 ## Step 1: **Clone** the model
 

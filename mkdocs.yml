@@ -71,6 +71,7 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.details
   - pymdownx.magiclink
+  - pymdownx.tabbed
   - pymdownx.tasklist:
       custom_checkbox: true
 #  - pymdownx.emoji:
