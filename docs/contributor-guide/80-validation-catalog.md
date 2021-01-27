@@ -47,7 +47,7 @@ The following steps assume that you have Git installed on your system.
 If you don't have a copy of the validation repo on your computer, use `git clone` to start a local repo.
 
 ```
- git clone --recurse-submodules git@virtual.openvt.eu:fem/viva/vivaplus-validation.git
+git clone --recurse-submodules git@virtual.openvt.eu:fem/viva/vivaplus-validation.git
 ```
 After you clone the repo, checkout the branch you created in step 2 before you proceed with the rest of the steps. Replace `branch-name` with the name of the branch you created in Step 2.
 
@@ -128,7 +128,7 @@ On Windows, the easiest way is to open your Anaconda prompt and move to the `viv
 We use JupyterLab as IDE(Integrated Development Environment) for Jupyter notebooks. Start JupyterLab by using this command within your conda environment 
 
 ```
-jupyter lab` 
+jupyter lab 
 ```
 
 ??? Question "Other IDEs"
