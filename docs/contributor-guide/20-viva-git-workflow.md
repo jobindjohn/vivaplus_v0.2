@@ -87,7 +87,27 @@ git push origin BranchName
         - Microsoft Excel (if you have a CSV file open)
         - JabRef (if you use it to edit BibTeX files)
 
-## Step 6: Run **Model Tests**
+## Step 6: Run the Models 
+
+
+### Getting the updates from master
+
+The model may have had updates while you worked on your changes and it is a good practice to test run your changes along with the updates on the model.
+
+To merge the updates from the master branch into your branch, first make sure the Git `HEAD` is on your branch
+
+```
+git checkout your-branch-name
+```
+
+Then merge the updates on the master into your branch
+```
+git merge master
+```
+
+### **Model Tests**
+
+
 
 !!! warning "Work in Progress"
 
