@@ -20,6 +20,7 @@ nav:
     - User Guide:
     #    - User guide: user-guide/01-getting-started.md
     #    - Setting up a simulation: user-guide/10-setting-up.md
+    #    - Model validation: user-guide/20-model-validation.md
         - Positioning with PIPER: user-guide/30-positioning-with-PIPER.md
         - Postprocessing with Dynasaur: user-guide/60-postprocess-dynasaur.md
     #    - LS-Dyna Quick Reference: user-guide/80-lsdyna-ref.md
