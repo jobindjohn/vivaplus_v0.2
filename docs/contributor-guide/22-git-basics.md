@@ -58,6 +58,7 @@ make a commit, take a snapshot(save your work,): `git commit`
 
 
 #### Git log
+
 `git log`
 
 `git log --oneline --decorate --graph --all`

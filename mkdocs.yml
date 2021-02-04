@@ -21,8 +21,9 @@ nav:
     #    - User guide: user-guide/01-getting-started.md
     #    - Setting up a simulation: user-guide/10-setting-up.md
     #    - Model validation: user-guide/20-model-validation.md
-        - Positioning with PIPER: user-guide/30-positioning-with-PIPER.md
-        - Postprocessing with Dynasaur: user-guide/60-postprocess-dynasaur.md
+        - Postprocessing with Dynasaur: user-guide/50-postprocess-dynasaur.md
+        - Jupyter and Python: user-guide/60-Python-Jupyter.md
+        - Positioning with PIPER: user-guide/70-positioning-with-PIPER.md
     #    - LS-Dyna Quick Reference: user-guide/80-lsdyna-ref.md
     - Model Documentation:
         # Introduction to the Models: 'model-doc/00-model-info.md'
