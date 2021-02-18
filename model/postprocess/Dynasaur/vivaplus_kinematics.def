@@ -681,11 +681,6 @@
             {"name": "Head_COG_vz", "part_of": "Bone", "x": {"type": "NODE", "ID": "Head_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "Head_COG", "array": ["(0, z_velocity)"]}},
             {"name": "Head_COG_vres", "part_of": "Bone", "x": {"type": "NODE", "ID": "Head_COG", "array": ["(0, time)"]}, "y": {"function": {"name": "res", "param": {"data_vector": {"type": "NODE","ID": "Head_COG","array": ["(0, x_velocity)", "(0, y_velocity)", "(0, z_velocity)"]}}}}},
             
- 
-            {"name": "Sled_x", "part_of": "Env", "x": {"type": "NODE", "ID": "Sled", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "Sled", "array": ["(0, x_coordinate)"]}},
-            {"name": "Sled_vx", "part_of": "Env", "x": {"type": "NODE", "ID": "Sled", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "Sled", "array": ["(0, x_velocity)"]}},
-            {"name": "Sled_ax", "part_of": "Env", "x": {"type": "NODE", "ID": "Sled", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "Sled", "array": ["(0, x_acceleration)"]}},
-
             {"name": "C1_COG_ax", "part_of": "Bone", "x": {"type": "NODE", "ID": "C1_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C1_COG", "array": ["(0, x_acceleration)"]}},
             {"name": "C1_COG_ay", "part_of": "Bone", "x": {"type": "NODE", "ID": "C1_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C1_COG", "array": ["(0, y_acceleration)"]}},
             {"name": "C1_COG_az", "part_of": "Bone", "x": {"type": "NODE", "ID": "C1_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C1_COG", "array": ["(0, z_acceleration)"]}},
