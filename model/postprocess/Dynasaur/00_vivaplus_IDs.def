@@ -215,7 +215,6 @@
         {"type": "NODE", "name": "L_Acetabulum_O", "id": [8240000]},
         {"type": "NODE", "name": "Head_COG", "id": [8390000]},
         {"type": "NODE", "name": "Head_COG_Loc", "id": [8190000]},
-        {"type": "NODE", "name": "Sled", "id": [19000698]},
         {"type": "ENERGY_GLOBAL", "name": "Model", "id": [0]}
         ]
     }

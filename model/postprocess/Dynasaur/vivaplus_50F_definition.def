@@ -978,151 +978,74 @@
             {"name": "T1_COG_vres", "part_of": "Bone", "x": {"type": "NODE", "ID": "T1_COG", "array": ["(0, time)"]}, "y": {"function": {"name": "res", "param": {"data_vector": {"type": "NODE","ID": "T1_COG","array": ["(0, x_velocity)", "(0, y_velocity)", "(0, z_velocity)"]}}}}},
             
             {
-                "name":"NIC_curve",
-                "part_of":"NECK",
-                "y":{
-                "function":{
-                "name":"NIC",
-                "param":{
-                "a_head":{
-                "function":{
-                "name":"cfc",
-                "param":{
-                "cfc":180,
-                "sampled_array":{
-                "type":"NODE",
-                "ID":"Head_COG",
-                "array":[
-                "(0, x_acceleration)"
-                ]
+                "name": "NIC_curve",
+                "part_of": "NECK",
+                "y": {
+                    "function": {
+                        "name": "NIC",
+                        "param": {
+                            "a_head": {
+                                "function": {
+                                    "name": "cfc",
+                                    "param": {
+                                        "cfc": 180,
+                                        "sampled_array": {
+                                            "type": "NODE",
+                                            "ID": "Head_COG",
+                                            "array": [
+                                                "(0, x_acceleration)"
+                                            ]
+                                        },
+                                        "time": {
+                                            "type": "NODE",
+                                            "ID": "Head_COG",
+                                            "array": [
+                                                "(0, time)"
+                                            ]
+                                        }
+                                    }
+                                }
+                            },
+                            "a_T1": {
+                                "function": {
+                                    "name": "cfc",
+                                    "param": {
+                                        "cfc": 60,
+                                        "sampled_array": {
+                                            "type": "NODE",
+                                            "ID": "T1_COG",
+                                            "array": [
+                                                "(0, x_acceleration)"
+                                            ]
+                                        },
+                                        "time": {
+                                            "type": "NODE",
+                                            "ID": "T1_COG",
+                                            "array": [
+                                                "(0, time)"
+                                            ]
+                                        }
+                                    }
+                                }
+                            },
+                            "time": {
+                                "type": "NODE",
+                                "ID": "Head_COG",
+                                "array": [
+                                    "(0, time)"
+                                ]
+                            }
+                        }
+                    }
                 },
-                "time":{
-                "type":"NODE",
-                "ID":"Head_COG",
-                "array":[
-                "(0, time)"
-                ]
+                "x": {
+                    "type": "NODE",
+                    "ID": "Head_COG",
+                    "array": [
+                        "(0, time)"
+                    ]
                 }
-                }
-                }
-                },
-                "a_T1":{
-                "function":{
-                "name":"cfc",
-                "param":{
-                "cfc":60,
-                "sampled_array":{
-                "type":"NODE",
-                "ID":"T1_COG",
-                "array":[
-                "(0, x_acceleration)"
-                ]
-                },
-                "time":{
-                "type":"NODE",
-                "ID":"T1_COG",
-                "array":[
-                "(0, time)"
-                ]
-                }
-                }
-                }
-                },
-                "time":{
-                "type":"NODE",
-                "ID":"Head_COG",
-                "array":[
-                "(0, time)"
-                ]
-                }
-                }
-                }
-                },
-                "x":{
-                "type":"NODE",
-                "ID":"Head_COG",
-                "array":[
-                "(0, time)"
-                ]
-                }
-                },
-            {
-				"name": "Impactor_disp_x",
-				"part_of": "IMPACTOR",
-				"x": {
-					"type": "NODE",
-					"ID": "Impactor",
-					"array": ["(0, time)"]
-				},
-				"y": {
-					"type": "NODE",
-					"ID": "Impactor",
-					"array": ["(0, x_displacement)"]
-				}
-			},
-			{
-				"name": "Impactor_acc_x",
-				"part_of": "IMPACTOR",
-				"x": {
-					"type": "NODE",
-					"ID": "Impactor",
-					"array": ["(0, time)"]
-				},
-				"y": {
-					"type": "NODE",
-					"ID": "Impactor",
-					"array": ["(0, x_acceleration)"]
-				}
-			},
-			{
-				"name": "Impactor_acc_x_filter",
-				"part_of": "IMPACTOR",
-				"y": {
-					"function": {
-						"name": "cfc",
-						"param": {
-							"cfc": 180,
-							"time": {
-								"type": "NODE",
-								"ID": "Impactor",
-								"array": ["(0, time)"]
-							},
-							"sampled_array": {
-								"type": "NODE",
-								"ID": "Impactor",
-								"array": ["(0, x_acceleration)"]
-							}
-						}
-					}
-				},
-				"x": {
-					"type": "NODE",
-					"ID": "Impactor",
-					"array": ["(0, time)"]
-				}
-			},
-			{
-				"name": "Contactforce-Impactor-to-HBM-m",
-				"part_of": "IMPACTOR",
-				"y": {
-					"function": {
-
-						"name": "res",
-						"param": {
-							"data_vector": {
-								"type": "CONTACT",
-								"ID": "Impactor-to-HBM-m",
-								"array": ["(0, x_force)", "(0, y_force)", "(0, z_force)"]
-							}
-						}
-					}
-				},
-				"x": {
-					"type": "CONTACT",
-					"ID": "Impactor-to-HBM-m",
-					"array": ["(0, time)"]
-				}
-			},
+            },
 			{
 				"name": "Added_Mass",
 				"part_of": "MODEL",
