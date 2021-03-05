@@ -14,6 +14,9 @@ https://coderefinery.github.io/jupyter/02-interface/
     |-------------------------------------:|:--------------------------------------|
     |                **comment**/uncomment | `Ctrl` + `/` English Keyboard         |
     |                                      | `Ctrl` + `'` Swedish/Finnish keyboard |
+    |                    **delete** a cell | `d-d`                                 |
+    |                      **undo** delete | `z`                                   |
+    |     **new** cell **above**/**below** | `a`/`b`                               |
     |                     **run** the cell | `Ctrl` + `Enter`                      |
     | run the cell and **go to** next cell | `Shift` + `Enter`                     |
 
