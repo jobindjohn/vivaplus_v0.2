@@ -7,6 +7,30 @@ and this project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.ht
 
 # beta  versions
 
+## 0.2.2 - 2021-04-13
+
+### Added
+
+- Add sex parameter
+- Add density, ligament, muscle length and head mass parameters dependent on sex parameter
+
+### Changed
+
+- Removed PRCA on mat fabric (was giving warning in LS-DYNA)
+- Changed density and YM of mat null MID 305104 and 404001 (only density), 454001 (only density)
+- Changed density of MID 305122 (Upper extremity tissue) to 1.0e-6
+- Changed MID 405100 (thorax soft tissue) ; added density parameter (sex based), and updated viscous parameters to OSCCAR report
+- Changed MID 405101 (lung) to lung material definitions and material model according to RATER (2013)
+- Changed MID 505001 (abdomen) to Naseri avg response from OSCCAR report
+- Added L0 parameter on MID 702411
+- Changed MID 705001 (lower extremity soft tissue) to Naseri avg response from OSCCAR project
+- Changed MID 710401 (patella cortical) to rigid
+- Trimmed curve definition 305101 (skin properties) to get rid of LS-DYNA warnings about curve discretisation error
+### Removed
+
+- Validation setups removed from model directory (will be moved to Validation Catalogue)
+- 
+
 ## 0.2.1 - 2020-12-23
 
 ### Added
