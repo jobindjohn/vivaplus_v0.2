@@ -10,6 +10,8 @@ and this project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.ht
 ## 0.2.2 - 2021-04-13
 
 ### Added
+
+- Added the seated male 50M
 - Added sex parameter
 - Added density, ligament, muscle length and head mass parameters dependent on sex parameter
 - Added material angles for skin PIDs 103002, 203002, 305111, 305121, 305131, 305141, 305161, ...
