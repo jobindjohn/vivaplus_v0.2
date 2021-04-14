@@ -2,7 +2,7 @@ $
 $ANSA_VERSION;21.1.0;
 $
 $
-$ file created by  A N S A  Wed Apr 14 10:49:43 2021
+$ file created by  A N S A  Wed Apr 14 11:53:23 2021
 $
 $ output from :
 $
@@ -15,15 +15,15 @@ $ Output format : R12
 $
 $ Output : All
 $
-$ANSA_USER_ATTRIBUTES;vivaplus-parts-elements.k;INCLUDE;DM/Status;TEXT;WIP;
+$ANSA_USER_ATTRIBUTES;vivaplus-misc.k;INCLUDE;DM/Status;TEXT;WIP;
 $
 $
 $
 $
 $
 $
-$ANSA_COLOR;vivaplus-parts-elements.k;INCLUDE;.764705896377563;.003921568859369;
-$0.87058824300766;1.;
+$ANSA_COLOR;vivaplus-misc.k;INCLUDE;.764705896377563;.003921568859369;0.87058824
+$300766;1.;
 *KEYWORD
 *SENSOR_DEFINE_NODE
     700001   7234674   7249095                    COORD     
