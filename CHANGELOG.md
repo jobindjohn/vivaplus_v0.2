@@ -25,6 +25,7 @@ and this project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.ht
 
 ### Changed
 
+- Updated node file and main file for 50F standing to version 0.2.2
 - Removed PRCA on mat fabric (was giving warning in LS-DYNA)
 - Changed density and YM of mat null MID 305104 and 404001 (only density), 454001 (only density)
 - Changed density of MID 305122 (Upper extremity tissue) to 1.0e-6
@@ -48,6 +49,7 @@ and this project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.ht
 - Changed parts in contact 400001 (TX_C_Thorax_pelvis_interior_main) by adding 404400 and 454400 (TX-Intercostal-muscle-Intermost)
 - Changed content of Set 716002 to include newly created patella shells. Set used by contact 903001 (Whole body contact)
 - Changed DEFINE_CURVE_FUNCTION definitions for knee ligaments to include ssex based scaling
+- Changed contact 600001 to _OFFSET
 
 ### Removed
 
