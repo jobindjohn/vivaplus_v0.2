@@ -1,23 +1,30 @@
 $
-$ANSA_VERSION;20.1.0;
+$ANSA_VERSION;21.1.0;
 $
 $
-$ file created by  A N S A  Sun Dec 13 20:26:07 2020
+$ file created by  A N S A  Tue Apr 13 12:04:15 2021
 $
 $ output from :
 $
-$ M:/VSI-P/010_RD/17_EU_VIRTUAL/020_Workpackage/WP2_HBM/T2_2_Seated OS-HBM 50F, 
-$ OS-HBM 50M, Active-HBM and validation/LS-DYNA_Files/2020-12-13/vivaplus-50F_v0
-$ -2-1-j-FixJJ-5.ansa
+$ C:/Users/iraeus/Documents/Projects/VIRTUAL/ViVA+/Final_assembly/vivaplus-50F_v
+$ 0-2-2d.ansa
 $
-$ANSA_USER_ATTRIBUTES;vivaplus-60-Pelvis.k;INCLUDE;DM/IO Index;TEXT;12;DM/Status
-$;TEXT;WIP;
+$ Settings :
+$
+$ Output format : R12
+$
+$ Output : All
+$
+$ANSA_USER_ATTRIBUTES;vivaplus-60-Pelvis.k;INCLUDE;DM/Status;TEXT;WIP;
 $
 $
 $
-*KEYWORD
+$
+$
+$
 $ANSA_COLOR;vivaplus-60-Pelvis.k;INCLUDE;.996078431606293;.894117653369904;.3019
 $60796117783;1.;
+*KEYWORD
 *PART
 PE-Pelvic-Pubis-Cortical-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
@@ -141,7 +148,7 @@ $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SHELL_TITLE
 PE-Hip-Ligament-Shell-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    603110         2        1.        5.        1.         0         0
+    603110         9        1.        1.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
       1.87      1.87      1.87      1.87                            0.          
 *PART
@@ -179,9 +186,11 @@ $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SHELL_TITLE
 PE-Soft-Skin-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    606001         9   0.83333        1.        1.         0         0
+    606001         9   0.83333        1.        1.         0         1
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
         1.        1.        1.        1.        0.                  0.          
+$       B1|       B2|
+        0.       90.
 *PART
 PE_C_F_Soft_Tissues-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
@@ -313,7 +322,7 @@ $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SHELL_TITLE
 PE-Hip-Ligament-Shell-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    653110         2        1.        5.        1.         0         0
+    653110         9        1.        1.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
       1.87      1.87      1.87      1.87                            0.          
 *PART
@@ -351,9 +360,11 @@ $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SHELL_TITLE
 PE-Soft-Skin-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    656001         9   0.83333        1.        1.         0         0
+    656001         9   0.83333        1.        1.         0         1
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
         1.        1.        1.        1.        0.                  0.          
+$       B1|       B2|
+        0.       90.
 *PART
 PE_C_F_Soft_Tissues-R
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|

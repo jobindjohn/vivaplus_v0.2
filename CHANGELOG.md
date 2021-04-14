@@ -7,6 +7,52 @@ and this project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.ht
 
 # beta  versions
 
+## 0.2.2 - 2021-04-13
+
+### Added
+
+- Added the seated male 50M
+- Added sex parameter
+- Added density, ligament, muscle length and head mass parameters dependent on sex parameter
+- Added material angles for skin PIDs 103002, 203002, 305111, 305121, 305131, 305141, 305161, ...
+- ... 355111, 355121, 355131, 355141, 355161, 406001, 456001, 506001, 556001, 606001, 656001, ...
+- ... 705111, 705121, 705131, 705141, 755111, 755121, 755131, 755141 to remove LS-DYNA warning
+- Added cortical bone for the patella PID 751301
+- Added constrained rigid bodies between patella shells (7x1301) and solids (7x1302)
+- Added surface to surface contact 300001 (UX_Elbox_Surface_to_surface_temp_contact)
+- Added set_part 316013 for new contact 300001 (UX_Elbox_Surface_to_surface_temp_contact)
+- Added new include (vivaplus-elements.k) and moved all elements to it
+
+### Changed
+
+- Removed PRCA on mat fabric (was giving warning in LS-DYNA)
+- Changed density and YM of mat null MID 305104 and 404001 (only density), 454001 (only density)
+- Changed density of MID 305122 (Upper extremity tissue) to 1.0e-6
+- Changed MID 405100 (thorax soft tissue) ; added density parameter (sex based), and updated viscous parameters to OSCCAR report
+- Changed MID 405101 (lung) to lung material definitions and material model according to RATER (2013)
+- Changed MID 505001 (abdomen) to Naseri avg response from OSCCAR report
+- Added L0 parameter on MID 702411
+- Changed MID 705001 (lower extremity soft tissue) to Naseri avg response from OSCCAR project
+- Changed MID 710401 (patella cortical) to rigid
+- Trimmed curve definition 305101 (skin properties) to get rid of LS-DYNA warnings about curve discretisation error
+- Morphed geometry around C7-T1 facet joints to make it more similar to the other CV facet joints.
+- Changed thickness of PID 201174 (C7 null shells) to 0.6mm (same as other CV null shells)
+- Changed thickness of PID 401212 (TX-Vertebra-Articular-Process-T1-Superior-Null-L) to 0.25mm (same as other CV null shells)
+- Changed contact thickness OPTT to 0.5mm for PID 201573 NE-ligaments-C7-T1-CL-M
+- Changed MID for PID 305142 and 355142 (Lower arm tissue) to 405100 (Thorax soft tissue)
+- Changed element formulation, NIP and SHRF for PID 403601 and 453601 (TX-Ribcage-Cartilage-Exterior) to 2 to improve stability
+- Changed MID for PID 405001 and 455001 (Thorax cavity) to 405101 (RATER lung material)
+- Chnaged PID 603110 and 653110 (PE-Hip-Ligament-Shell) element form to 9 and NIP to 1 to conform to MAT_FABRIC
+- Changed MID for PID 705112 and 755112 (LX-Soft-Thigh-Pelvis-connect-Tissue) to 705001 (Hosein material)
+- Changed tied contact 403505 to _OFFSET
+- Changed parts in contact 400001 (TX_C_Thorax_pelvis_interior_main) by adding 404400 and 454400 (TX-Intercostal-muscle-Intermost)
+- Changed content of Set 716002 to include newly created patella shells. Set used by contact 903001 (Whole body contact)
+- Changed DEFINE_CURVE_FUNCTION definitions for knee ligaments to include ssex based scaling
+
+### Removed
+
+- Control cards removed from model (added to separate control file)
+
 ## 0.2.1 - 2020-12-23
 
 ### Added
@@ -28,11 +74,12 @@ and this project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.ht
 - Material properties of Knee Ligaments
 - Corrected CSYS for sternoclavicular joint
 - Thoracic and Lumbar intervertebral Discrete beam joint MIDs and curves renumbered
+
 ### Removed
 
 - Validation setups removed from model directory (will be moved to Validation Catalogue)
 - Eyelid from global contact (causing instabilty)
-- 
+
 ## 0.2.0 - 2020-09-10
 
 ## Added
