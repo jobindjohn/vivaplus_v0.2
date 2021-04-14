@@ -2,7 +2,7 @@ $
 $ANSA_VERSION;21.1.0;
 $
 $
-$ file created by  A N S A  Wed Apr 14 10:49:43 2021
+$ file created by  A N S A  Wed Apr 14 13:57:20 2021
 $
 $ output from :
 $
@@ -11,7 +11,7 @@ $ 0-2-2d.ansa
 $
 $ Settings :
 $
-$ Output format : R12
+$ Output format : R11.2
 $
 $ Output : All
 $
@@ -1680,7 +1680,7 @@ $    Q2TRI|   DTPCHK|    SFNBR|   FNLSCL|   DNLSCL|     TCSO|   TIEDID|   SHLEDG
                                                            0         1          
 $   SHAREC|   CPARM8|   IPBACK|    SRNDE|   FRISCF|     ICOR|    FTORQ|
          0         0         1         0                   0         0
-*CONTACT_TIED_NODES_TO_SURFACE_ID
+*CONTACT_TIED_NODES_TO_SURFACE_OFFSET_ID
 $       ID|                                                                 NAME|
 600001    LX_Contact_tied_pelvis_to_soft_tissue                                 
 $     SSID|     MSID|     STYP|   MSTYPE|   SBOXID|   MBOXID|      SPR|      MPR|
