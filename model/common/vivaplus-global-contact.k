@@ -2,11 +2,12 @@ $
 $ANSA_VERSION;21.1.0;
 $
 $
-$ file created by  A N S A  Fri Feb 19 18:12:05 2021
+$ file created by  A N S A  Tue Apr 13 12:03:45 2021
 $
 $ output from :
 $
-$ C:/Users/klugcor/Downloads/vivaplus-50F_v0-2-2a.ansa
+$ C:/Users/iraeus/Documents/Projects/VIRTUAL/ViVA+/Final_assembly/vivaplus-50F_v
+$ 0-2-2d.ansa
 $
 $ Settings :
 $
@@ -54,9 +55,10 @@ Thorax flesh
 Scapula-and-Clavicula
     616002                                        
     301101    301102    301201    301202    351101    351102    351201    351202
-*SET_SHELL_LIST_TITLE
+*SET_SHELL_GENERAL_TITLE
 Patella
     716002                                        
+PART          701301    751301
 *SET_PART_LIST_TITLE
 Upper_leg_flesh
     716003                                        
