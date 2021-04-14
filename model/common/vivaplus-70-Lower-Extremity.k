@@ -1,23 +1,30 @@
 $
-$ANSA_VERSION;20.1.0;
+$ANSA_VERSION;21.1.0;
 $
 $
-$ file created by  A N S A  Sun Dec 13 20:26:07 2020
+$ file created by  A N S A  Tue Apr 13 12:04:15 2021
 $
 $ output from :
 $
-$ M:/VSI-P/010_RD/17_EU_VIRTUAL/020_Workpackage/WP2_HBM/T2_2_Seated OS-HBM 50F, 
-$ OS-HBM 50M, Active-HBM and validation/LS-DYNA_Files/2020-12-13/vivaplus-50F_v0
-$ -2-1-j-FixJJ-5.ansa
+$ C:/Users/iraeus/Documents/Projects/VIRTUAL/ViVA+/Final_assembly/vivaplus-50F_v
+$ 0-2-2d.ansa
 $
-$ANSA_USER_ATTRIBUTES;vivaplus-70-Lower-Extremity.k;INCLUDE;DM/IO Index;TEXT;11;
-$DM/Status;TEXT;WIP;
+$ Settings :
+$
+$ Output format : R12
+$
+$ Output : All
+$
+$ANSA_USER_ATTRIBUTES;vivaplus-70-Lower-Extremity.k;INCLUDE;DM/Status;TEXT;WIP;
 $
 $
 $
-*KEYWORD
+$
+$
+$
 $ANSA_COLOR;vivaplus-70-Lower-Extremity.k;INCLUDE;.729411780834198;.309803932905
 $197;.223529413342476;1.;
+*KEYWORD
 *PART
 LX-Bone-Femur-head-Cortical-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
@@ -461,13 +468,15 @@ $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SHELL_TITLE
 LX-Soft-Thigh-Pelvis-connect-Skin-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    705111         9   0.83333        1.        1.         0         0
+    705111         9   0.83333        1.        1.         0         1
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
         1.        1.        1.        1.        0.                  0.          
+$       B1|       B2|
+        0.       90.
 *PART
 LX-Soft-Thigh-Pelvis-connect-Tissue-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    705112    705112    405100              716002         0         0          
+    705112    705112    705001              716002         0         0          
 *SECTION_SOLID_TITLE
 LX-Soft-Thigh-Pelvis-connect-Tissue-L
 $    SECID|   ELFORM|
@@ -489,9 +498,11 @@ $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SHELL_TITLE
 LX-Soft-Thigh-Skin-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    705121         9   0.83333        1.        1.         0         0
+    705121         9   0.83333        1.        1.         0         1
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
         1.        1.        1.        1.        0.                  0.          
+$       B1|       B2|
+        0.       90.
 *PART
 LX-Soft-Knee-Skin-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
@@ -499,9 +510,11 @@ $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SHELL_TITLE
 LX-Soft-Knee-Skin-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    705131         9   0.83333        1.        1.         0         0
+    705131         9   0.83333        1.        1.         0         1
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
         1.        1.        1.        1.        0.                  0.          
+$       B1|       B2|
+        0.       90.
 *PART
 LX-Soft-Knee-Null-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
@@ -519,9 +532,11 @@ $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SHELL_TITLE
 LX-Soft-LowerLeg-Skin-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    705141         9   0.83333        1.        1.         0         0
+    705141         9   0.83333        1.        1.         0         1
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
         1.        1.        1.        1.        0.                  0.          
+$       B1|       B2|
+        0.       90.
 *PART
 LX-Soft-LowerLeg-Tissue-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
@@ -762,6 +777,16 @@ $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID
 LX-Bone-Femur-distal-lateral-condyle-Trabecular-R
 $    SECID|   ELFORM|
     751202         1
+*PART
+LX-Bone-Patella-Cortical-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
+    751301    751301    710401                 999         0         0          
+*SECTION_SHELL_TITLE
+LX-Bone-Patella-Cortical-R
+$    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
+    751301        16        1.        5.        1.         0         0
+$       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
+        1.        1.        1.        1.        0.                  0.          
 *PART
 LX-Bone-Patella-Trabecular-R
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
@@ -1023,13 +1048,15 @@ $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SHELL_TITLE
 LX-Soft-Thigh-Pelvis-connect-Skin-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    755111         9   0.83333        1.        1.         0         0
+    755111         9   0.83333        1.        1.         0         1
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
         1.        1.        1.        1.        0.                  0.          
+$       B1|       B2|
+        0.       90.
 *PART
 LX-Soft-Thigh-Pelvis-connect-Tissue-R
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    755112    755112    405100              716002         0         0          
+    755112    755112    705001              716002         0         0          
 *SECTION_SOLID_TITLE
 LX-Soft-Thigh-Pelvis-connect-Tissue-R
 $    SECID|   ELFORM|
@@ -1051,9 +1078,11 @@ $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SHELL_TITLE
 LX-Soft-Thigh-Skin-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    755121         9   0.83333        1.        1.         0         0
+    755121         9   0.83333        1.        1.         0         1
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
         1.        1.        1.        1.        0.                  0.          
+$       B1|       B2|
+        0.       90.
 *PART
 LX-Soft-Knee-Skin-R
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
@@ -1061,9 +1090,11 @@ $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SHELL_TITLE
 LX-Soft-Knee-Skin-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    755131         9   0.83333        1.        1.         0         0
+    755131         9   0.83333        1.        1.         0         1
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
         1.        1.        1.        1.        0.                  0.          
+$       B1|       B2|
+        0.       90.
 *PART
 LX-Soft-Knee-Null-R
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
@@ -1081,9 +1112,11 @@ $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SHELL_TITLE
 LX-Soft-LowerLeg-Skin-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    755141         9   0.83333        1.        1.         0         0
+    755141         9   0.83333        1.        1.         0         1
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
         1.        1.        1.        1.        0.                  0.          
+$       B1|       B2|
+        0.       90.
 *PART
 LX-Soft-LowerLeg-Tissue-R
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
@@ -1254,6 +1287,8 @@ $ANSA_COLOR;751191;SECTION_SOLID;1.;.964705884456635;.560784339904785;1.;
 $ANSA_COLOR;751192;SECTION_SOLID;1.;.549019634723663;.411764711141586;1.;
 $ANSA_COLOR;751201;SECTION_SOLID;1.;.964705884456635;.560784339904785;1.;
 $ANSA_COLOR;751202;SECTION_SOLID;1.;.549019634723663;.411764711141586;1.;
+$ANSA_COLOR;751301;SECTION_SHELL;.682352960109711;.486274510622025;.925490200519
+$562;1.;
 $ANSA_COLOR;751302;SECTION_SOLID;.894117653369904;0.18823529779911;.466666668653
 $488;1.;
 $ANSA_COLOR;751412;SECTION_SOLID;.901960790157318;.901960790157318;.980392158031

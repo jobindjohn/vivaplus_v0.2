@@ -1,0 +1,1044 @@
+*KEYWORD
+*TITLE
+$#                                                                         title
+LS-DYNA keyword deck by LS-PrePost
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8230000L_Patella_COG
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8130000R_Patella_COG
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8210010L_Calcaneus_COG
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8210011L_Calcaneus_posterior
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8220021L_Malleolus_LM
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8220022L_Malleolus_MM
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8220020L_Malleolus_IM
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8230011L_Tibia_MC
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8230012L_Tibia_LC
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8230010L_Tibia_IC
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8230021L_Femur_FEL
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8230022L_Femur_FEM
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8250021L_Clavicle_lateral
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8250022L_Clavicle_medial
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8250013L_Scapula_AI
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8250014L_Scapula_TS
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8250012L_Scapula_AA
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8250011L_Scapula_PC
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8260011L_Humerus_EL
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8260012L_Humerus_EM
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8270011L_Radius_RS
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8270012L_Ulna_US
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8230020L_Femur_MP_FEM_FEL
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8250010L_Scalpula_MP
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8260010L_Humerus_MP_EL_EM
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8270010L_wrist_MP_RS_US
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8110010R_Calcaneus_COG
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8110011R_Calcaneus_posterior
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8120021R_Malleolus_LM
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8120022R_Malleolus_MM
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8120020R_Malleolus_IM
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8130011R_Tibia_MC
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8130012R_Tibia_LC
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8130010R_Tibia_IC
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8130021R_Femur_FEL
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8130022R_Femur_FEM
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8150021R_Clavicle_lateral
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8150022R_Clavicle_medial
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8150013R_Scapula_AI
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8150014R_Scapula_TS
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8150012R_Scapula_AA
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8150011R_Scapula_PC
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8160011R_Humerus_EL
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8160012R_Humerus_EM
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8170011R_Radius_RS
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8170012R_Ulna_US
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8130020R_Femur_MP_FEM_FEL
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8150010R_Scalpula_MP
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8160010R_Humerus_MP_EL_EM
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8170010R_wrist_MP_RS_US
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8240021L_Ischium_inferior
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8240022L_ASIS
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8240023L_PSIS
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8340020Cocyx_inferior
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8340031Sacrum_anterior
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8340032Sacrum_posterior
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8140021R_Ischium_inferior
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8140022R_ASIS
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8140023R_PSIS
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8390021R_orbit
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8390022L_orbit
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8390011R_auditory_meatus
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8390012L_auditory_meatus
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8390010M_auditory_meatus
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8390020M_orbit
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8383002Sternum_PX
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8383001Sternum_IJ
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8380111C1_post_sup
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8381071C7_post_sup
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8382081T8_post_sup
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8382121T12_post_sup
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8381014C1_bottom
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8381025C2_center
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8381026C2_top
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8381024C2_bottom
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8381035C3_center
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8381036C3_top
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8381034C3_bottom
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8381045C4_center
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8381046C4_top
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8381044C4_bottom
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8381055C5_center
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8381056C5_top
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8381054C5_bottom
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8381065C6_center
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8381066C6_top
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8381064C6_bottom
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8381075C7_center
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8381076C7_top
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8381074C7_bottom
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8382015T1_center
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8382016T1_top
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8382014T1_bottom
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8382025T2_center
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8382026T2_top
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8382024T2_bottom
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8382035T3_center
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8382036T3_top
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8382034T3_bottom
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8382045T4_center
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8382046T4_top
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8382044T4_bottom
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8382055T5_center
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8382056T5_top
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8382054T5_bottom
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8382065T6_center
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8382066T6_top
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8382064T6_bottom
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8382075T7_center
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8382076T7_top
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8382074T7_bottom
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8382085T8_center
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8382086T8_top
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8382084T8_bottom
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8382095T9_center
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8382096T9_top
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8382094T9_bottom
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8382105T10_center
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8382106T10_top
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8382104T10_bottom
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8382115T11_center
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8382116T11_top
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8382114T11_bottom
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8382125T12_center
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8382126T12_top
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8382124T12_bottom
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8383015L1_center
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8383016L1_top
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8383014L1_bottom
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8383025L2_center
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8383026L2_top
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8383024L2_bottom
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8383035L3_center
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8383036L3_top
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8383034L3_bottom
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8383045L4_center
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8383046L4_top
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8383044L4_bottom
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8383055L5_center
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8383056L5_top
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8383054L5_bottom
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8981129C1_C2_MP_y_off
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8981239C2_C3_MP_y_off
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8981349C3_C4_MP_y_off
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8981459C4_C5_MP_y_off
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8981569C5_C6_MP_y_off
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8981679C6_C7_MP_y_off
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8981789C7_T1_MP_y_off
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8982129T1_T2_MP_y_off
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8982239T2_T3_MP_y_off
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8982349T3_T4_MP_y_off
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8982459T4_T5_MP_y_off
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8982569T5_T6_MP_y_off
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8982679T6_T7_MP_y_off
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8982789T7_T8_MP_y_off
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8982899T8_T9_MP_y_off
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8982099T9_T10_MP_y_off
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8982109T10_T11_MP_y_off
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8982219T11_T12_MP_y_off
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8982329T12_L1_MP_y_off
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8983129L1_L2_MP_y_off
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8983239L2_L3_MP_y_off
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8983349L3_L4_MP_y_off
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8983459L4_L5_MP_y_off
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8390001Head_COG_x_off
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8390002Head_COG_y_off
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8300000REF_MP_acetabulum_centers
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8140000R_Acetabulum_O
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8240000L_Acetabulum_O
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8390000Head_COG
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8240010L_Femur_O
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8140010R_Femur_O
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8260000L_Humerus_GH
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8160000R_Humerus_GH
+*DATABASE_HISTORY_NODE_LOCAL_ID
+$#      id       cid       ref   
+   8381129   8381129         1
+$#                                                             heading       
+8381239, 8381239,1.0,C2_C3_MP
+*DATABASE_HISTORY_NODE_LOCAL_ID
+$#      id       cid       ref   
+   8381349   8381349         1
+$#                                                             heading       
+8381459, 8381459,1.0,C4_C5_MP
+*DATABASE_HISTORY_NODE_LOCAL_ID
+$#      id       cid       ref   
+   8381569   8381569         1
+$#                                                             heading       
+8381679, 8381679,1.0,C6_C7_MP
+*DATABASE_HISTORY_NODE_LOCAL_ID
+$#      id       cid       ref   
+   8381789   8381789         1
+$#                                                             heading       
+8382129, 8382129,1.0,T1_T2_MP
+*DATABASE_HISTORY_NODE_LOCAL_ID
+$#      id       cid       ref   
+   8382239   8382239         1
+$#                                                             heading       
+8382349, 8382349,1.0,T3_T4_MP
+*DATABASE_HISTORY_NODE_LOCAL_ID
+$#      id       cid       ref   
+   8382459   8382459         1
+$#                                                             heading       
+8382569, 8382569,1.0,T5_T6_MP
+*DATABASE_HISTORY_NODE_LOCAL_ID
+$#      id       cid       ref   
+   8382679   8382679         1
+$#                                                             heading       
+8382789, 8382789,1.0,T7_T8_MP
+*DATABASE_HISTORY_NODE_LOCAL_ID
+$#      id       cid       ref   
+   8382899   8382899         1
+$#                                                             heading       
+8382099, 8382099,1.0,T9_T10_MP
+*DATABASE_HISTORY_NODE_LOCAL_ID
+$#      id       cid       ref   
+   8382109   8382109         1
+$#                                                             heading       
+8382219, 8382219,1.0,T11_T12_MP
+*DATABASE_HISTORY_NODE_LOCAL_ID
+$#      id       cid       ref   
+   8382329   8382329         1
+$#                                                             heading       
+8383129, 8383129,1.0,L1_L2_MP
+*DATABASE_HISTORY_NODE_LOCAL_ID
+$#      id       cid       ref   
+   8383239   8383239         1
+$#                                                             heading       
+8383349, 8383349,1.0,L3_L4_MP
+*DATABASE_HISTORY_NODE_LOCAL_ID
+$#      id       cid       ref   
+   8383459   8383459         1
+$#                                                             heading       
+8190000, 8390000,1.0,Head_COG_Loc
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8381010C1_COG
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8381020C2_COG
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8381030C3_COG
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8381040C4_COG
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8381050C5_COG
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8381060C6_COG
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8381070C7_COG
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8382010T1_COG
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8382020T2_COG
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8382030T3_COG
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8382040T4_COG
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8382050T5_COG
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8382060T6_COG
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8382070T7_COG
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8382080T8_COG
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8382090T9_COG
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8382100T10_COG
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8382110T11_COG
+*DATABASE_HISTORY_NODE_ID
+$#     id1                                                               heading
+   8382120T12_COG
+*DEFINE_COORDINATE_NODES_TITLE
+Right_ankle_joint
+$#     cid        n1        n2        n3      flag       dir   
+   8120020   8120020   8129021   8129022         1X
+*DEFINE_COORDINATE_NODES_TITLE
+Right_knee
+$#     cid        n1        n2        n3      flag       dir   
+   8130020   8130020   8139021   8139022         1X
+*DEFINE_COORDINATE_NODES_TITLE
+Right_hip
+$#     cid        n1        n2        n3      flag       dir   
+   8140010   8140010   8149011   8149012         1X
+*DEFINE_COORDINATE_NODES_TITLE
+Right_sternoclavicular_joint
+$#     cid        n1        n2        n3      flag       dir   
+   8150022   8150022   8159023   8159024         1X
+*DEFINE_COORDINATE_NODES_TITLE
+Right_glenohumeral
+$#     cid        n1        n2        n3      flag       dir   
+   8160000   8160000   8169001   8169002         1X
+*DEFINE_COORDINATE_NODES_TITLE
+Right_Humeroulnar
+$#     cid        n1        n2        n3      flag       dir   
+   8160010   8160010   8169011   8169012         1X
+*DEFINE_COORDINATE_NODES_TITLE
+Right_radiocarpal_joint
+$#     cid        n1        n2        n3      flag       dir   
+   8170010   8170010   8179011   8179012         1X
+*DEFINE_COORDINATE_NODES_TITLE
+Left_ankle_joint
+$#     cid        n1        n2        n3      flag       dir   
+   8220020   8220020   8229021   8229022         1X
+*DEFINE_COORDINATE_NODES_TITLE
+Left_knee
+$#     cid        n1        n2        n3      flag       dir   
+   8230020   8230020   8239021   8239022         1X
+*DEFINE_COORDINATE_NODES_TITLE
+Left_hip
+$#     cid        n1        n2        n3      flag       dir   
+   8240010   8240010   8249011   8249012         1X
+*DEFINE_COORDINATE_NODES_TITLE
+Left_sternoclavicular_joint
+$#     cid        n1        n2        n3      flag       dir   
+   8250022   8250022   8259023   8259024         1X
+*DEFINE_COORDINATE_NODES_TITLE
+Left_glenohumeral
+$#     cid        n1        n2        n3      flag       dir   
+   8260000   8260000   8269001   8269002         1X
+*DEFINE_COORDINATE_NODES_TITLE
+Left_Humeroulnar
+$#     cid        n1        n2        n3      flag       dir   
+   8260010   8260010   8269011   8269012         1X
+*DEFINE_COORDINATE_NODES_TITLE
+Left_radiocarpal_joint
+$#     cid        n1        n2        n3      flag       dir   
+   8270010   8270010   8279011   8279012         1X
+*DEFINE_COORDINATE_NODES_TITLE
+C1-C2
+$#     cid        n1        n2        n3      flag       dir   
+   8381129   8381129   8381014   8981129         1X
+*DEFINE_COORDINATE_NODES_TITLE
+C2-C3
+$#     cid        n1        n2        n3      flag       dir   
+   8381239   8381239   8381024   8981239         1X
+*DEFINE_COORDINATE_NODES_TITLE
+C3-C4
+$#     cid        n1        n2        n3      flag       dir   
+   8381349   8381349   8381034   8981349         1X
+*DEFINE_COORDINATE_NODES_TITLE
+C4-C5
+$#     cid        n1        n2        n3      flag       dir   
+   8381459   8381459   8381044   8981459         1X
+*DEFINE_COORDINATE_NODES_TITLE
+C5-C6
+$#     cid        n1        n2        n3      flag       dir   
+   8381569   8381569   8381054   8981569         1X
+*DEFINE_COORDINATE_NODES_TITLE
+C6-C7
+$#     cid        n1        n2        n3      flag       dir   
+   8381679   8381679   8381064   8981679         1X
+*DEFINE_COORDINATE_NODES_TITLE
+C7-T1
+$#     cid        n1        n2        n3      flag       dir   
+   8381789   8381789   8381074   8981789         1X
+*DEFINE_COORDINATE_NODES_TITLE
+T9-T10
+$#     cid        n1        n2        n3      flag       dir   
+   8382099   8382099   8382096   8982099         1X
+*DEFINE_COORDINATE_NODES_TITLE
+T10-T11
+$#     cid        n1        n2        n3      flag       dir   
+   8382109   8382109   8382106   8982109         1X
+*DEFINE_COORDINATE_NODES_TITLE
+T1-T2
+$#     cid        n1        n2        n3      flag       dir   
+   8382129   8382129   8382016   8982129         1X
+*DEFINE_COORDINATE_NODES_TITLE
+T11-T12
+$#     cid        n1        n2        n3      flag       dir   
+   8382219   8382219   8382116   8982219         1X
+*DEFINE_COORDINATE_NODES_TITLE
+T2-T3
+$#     cid        n1        n2        n3      flag       dir   
+   8382239   8382239   8382026   8982239         1X
+*DEFINE_COORDINATE_NODES_TITLE
+T12-L1
+$#     cid        n1        n2        n3      flag       dir   
+   8382329   8382329   8382126   8982329         1X
+*DEFINE_COORDINATE_NODES_TITLE
+T3-T4
+$#     cid        n1        n2        n3      flag       dir   
+   8382349   8382349   8382036   8982349         1X
+*DEFINE_COORDINATE_NODES_TITLE
+T4-T5
+$#     cid        n1        n2        n3      flag       dir   
+   8382459   8382459   8382046   8982459         1X
+*DEFINE_COORDINATE_NODES_TITLE
+T5-T6
+$#     cid        n1        n2        n3      flag       dir   
+   8382569   8382569   8382056   8982569         1X
+*DEFINE_COORDINATE_NODES_TITLE
+T6-T7
+$#     cid        n1        n2        n3      flag       dir   
+   8382679   8382679   8382066   8982679         1X
+*DEFINE_COORDINATE_NODES_TITLE
+T7-T8
+$#     cid        n1        n2        n3      flag       dir   
+   8382789   8382789   8382076   8982789         1X
+*DEFINE_COORDINATE_NODES_TITLE
+T8-T9
+$#     cid        n1        n2        n3      flag       dir   
+   8382899   8382899   8382086   8982899         1X
+*DEFINE_COORDINATE_NODES_TITLE
+L1-L2
+$#     cid        n1        n2        n3      flag       dir   
+   8383129   8383129   8383016   8983129         1X
+*DEFINE_COORDINATE_NODES_TITLE
+L2-L3
+$#     cid        n1        n2        n3      flag       dir   
+   8383239   8383239   8383026   8983239         1X
+*DEFINE_COORDINATE_NODES_TITLE
+L3-L4
+$#     cid        n1        n2        n3      flag       dir   
+   8383349   8383349   8383036   8983349         1X
+*DEFINE_COORDINATE_NODES_TITLE
+L4-L5
+$#     cid        n1        n2        n3      flag       dir   
+   8383459   8383459   8383046   8983459         1X
+*DEFINE_COORDINATE_NODES_TITLE
+Head_CSYS_F_Plane
+$#     cid        n1        n2        n3      flag       dir   
+   8390000   8390000   8390001   8390002         1X
+*NODE
+$#   nid               x               y               z      tc      rc  
+ 8110010         693.826        -114.532        -220.201       0       0
+ 8110011         690.769        -107.318        -248.144       0       0
+ 8120020         682.886        -112.604        -179.139       0       0
+ 8120021         682.469        -130.544        -183.331       0       0
+ 8120022         681.632         -92.857        -174.836       0       0
+ 8129021         613.377        -119.341         -237.91       0       0
+ 8129022         603.306        -108.972        -236.861       0       0
+ 8130000         428.369        -116.932         124.543       0       0
+ 8130010         426.238        -115.843          59.206       0       0
+ 8130011         425.257         -78.038          55.608       0       0
+ 8130012         427.034        -154.383          57.828       0       0
+ 8130020         402.208          -111.4          88.913       0       0
+ 8130021         400.602        -154.113          87.925       0       0
+ 8130022         402.789         -69.188           89.94       0       0
+ 8139021         384.101         -110.95          36.177       0       0
+ 8139022         374.486        -100.538          37.151       0       0
+ 8140000          -2.213          75.955           8.702       0       0
+ 8140010           3.911         -92.811           3.668       0       0
+ 8140021           19.61         -55.091         -76.847       0       0
+ 8140022          -22.23        -114.207          88.425       0       0
+ 8140023        -127.418         -42.558         -17.403       0       0
+ 8149011           14.98          -92.59           4.521       0       0
+ 8149012           5.228         -82.323           5.884       0       0
+ 8150010        -184.645        -159.313          462.36       0       0
+ 8150011        -170.627        -154.045         467.147       0       0
+ 8150012        -198.058        -166.381         461.058       0       0
+ 8150013        -255.293         -81.604         358.292       0       0
+ 8150014         -248.72         -73.696          452.27       0       0
+ 8150021         -180.07        -143.951         461.626       0       0
+ 8150022        -108.791         -20.944         463.093       0       0
+ 8159023         -95.564         -21.715         465.224       0       0
+ 8159024        -107.053            -9.2         465.841       0       0
+ 8160000        -171.626        -156.488         435.377       0       0
+ 8160010         -20.859        -213.525         205.978       0       0
+ 8160011         -16.863        -239.158         217.779       0       0
+ 8160012         -24.854        -187.893         194.177       0       0
+ 8169001         -161.24        -155.567         434.226       0       0
+ 8169002        -172.649        -144.163          435.23       0       0
+ 8169011         -21.985        -218.377         199.661       0       0
+ 8169012         -31.922        -209.159         198.758       0       0
+ 8170010         230.101        -174.757           275.2       0       0
+ 8170011         230.323        -157.296         284.502       0       0
+ 8170012         229.097        -191.877         267.703       0       0
+ 8179011         223.345        -168.554         247.421       0       0
+ 8179012         213.479        -158.283         248.014       0       0
+ 8190000        -144.985          -0.002         659.483       0       0
+ 8210010         693.826         114.532        -220.201       0       0
+ 8210011         690.769         107.318        -248.144       0       0
+ 8220020         682.844         110.516        -180.903       0       0
+ 8220021         682.469         130.544        -183.331       0       0
+ 8220022         681.823          88.318        -178.483       0       0
+ 8229021         613.296         117.283        -239.598       0       0
+ 8229022          603.22         127.614        -238.632       0       0
+ 8230000         428.369         116.932         124.543       0       0
+ 8230010         426.238         115.843          59.206       0       0
+ 8230011         425.257          78.038          55.608       0       0
+ 8230012         427.034         154.383          57.828       0       0
+ 8230020         402.208           111.4          88.913       0       0
+ 8230021         400.602         154.113          87.925       0       0
+ 8230022         402.789          69.188           89.94       0       0
+ 8239021         384.018         110.935          36.124       0       0
+ 8239022         374.144         121.299          36.946       0       0
+ 8240000          -2.214         -75.954           8.702       0       0
+ 8240010            1.04          87.898           2.338       0       0
+ 8240021          19.607          55.092         -76.842       0       0
+ 8240022          -21.38         117.667          87.036       0       0
+ 8240023        -127.424          42.555         -17.403       0       0
+ 8249011          14.984           92.59           4.516       0       0
+ 8249012           2.856         103.261           2.129       0       0
+ 8250010        -184.602         159.092         461.003       0       0
+ 8250011        -170.647         153.989           467.3       0       0
+ 8250012        -197.989          166.09         458.347       0       0
+ 8250013        -255.329          81.632         358.118       0       0
+ 8250014        -248.983          73.804         451.455       0       0
+ 8250021        -180.068         143.958         461.589       0       0
+ 8250022        -108.793          20.922          463.11       0       0
+ 8259023          -95.65          21.723         465.135       0       0
+ 8259024        -107.818          31.471         460.786       0       0
+ 8260000        -171.626         156.488         435.377       0       0
+ 8260010          -23.86         212.919         208.389       0       0
+ 8260011         -16.863         239.158         217.779       0       0
+ 8260012         -30.856         186.679         198.998       0       0
+ 8269001        -161.245         155.577         434.233       0       0
+ 8269002        -171.776         166.122         433.874       0       0
+ 8269011         -25.551          218.22         201.559       0       0
+ 8269012          -36.87         229.231         202.004       0       0
+ 8270010           227.6         176.043          274.74       0       0
+ 8270011         230.323         157.296         284.502       0       0
+ 8270012         223.976         194.199          266.82       0       0
+ 8279011         220.855         170.136          247.11       0       0
+ 8279012         210.293         181.031         247.279       0       0
+ 8300000          -5.042              0.           7.847       0       0
+ 8340020         -34.902           0.002         -73.333       0       0
+ 8340031          -74.12           0.009          48.805       0       0
+ 8340032        -126.032           0.006         -19.545       0       0
+ 8380111        -184.251           0.001          623.42       0       0
+ 8381010        -159.009          -0.002         615.822       0       0
+ 8381014          -154.3          -0.002         608.121       0       0
+ 8381020        -164.198          -0.003         599.665       0       0
+ 8381024        -155.151          -0.002          587.35       0       0
+ 8381025        -154.711          -0.002         596.201       0       0
+ 8381026        -154.179          -0.002         604.892       0       0
+ 8381030        -167.302          -0.004         580.289       0       0
+ 8381034        -158.304          -0.002         568.102       0       0
+ 8381035         -157.52          -0.002         575.729       0       0
+ 8381036        -156.635          -0.002         583.283       0       0
+ 8381040        -170.739          -0.004         561.268       0       0
+ 8381044        -161.077          -0.002         549.521       0       0
+ 8381045         -160.61          -0.002          556.57       0       0
+ 8381046        -160.011          -0.002          563.61       0       0
+ 8381050        -172.532          -0.004         544.545       0       0
+ 8381054        -163.041          -0.002         532.283       0       0
+ 8381055        -162.728          -0.002         538.985       0       0
+ 8381056        -162.301          -0.002         545.717       0       0
+ 8381060        -176.444          -0.003          528.04       0       0
+ 8381064         -165.03          -0.004         515.001       0       0
+ 8381065         -164.38          -0.003         522.063       0       0
+ 8381066        -163.751          -0.001         529.197       0       0
+ 8381070        -182.264          -0.003         510.022       0       0
+ 8381071        -195.325          -0.003           523.3       0       0
+ 8381074        -168.812          -0.003         496.359       0       0
+ 8381075        -167.522          -0.003         503.569       0       0
+ 8381076        -166.409          -0.003          510.86       0       0
+ 8381129        -154.241          -0.002          606.51       0       0
+ 8381239        -155.896          -0.002         585.319       0       0
+ 8381349        -159.161          -0.002         565.858       0       0
+ 8381459        -161.692          -0.002         547.619       0       0
+ 8381569        -163.397          -0.001         530.739       0       0
+ 8381679        -165.715          -0.004         512.929       0       0
+ 8381789        -169.787          -0.004         494.616       0       0
+ 8382010        -173.054          -0.388         486.591       0       0
+ 8382014        -175.873          -0.002         475.728       0       0
+ 8382015        -173.256          -0.004         484.293       0       0
+ 8382016        -170.761          -0.005         492.856       0       0
+ 8382020        -181.242          -0.056          463.78       0       0
+ 8382024         -185.92           0.004           456.3       0       0
+ 8382025         -181.95           0.804          464.15       0       0
+ 8382026        -178.039           1.553         472.303       0       0
+ 8382030         -188.36           -0.14         443.573       0       0
+ 8382034        -190.115          -1.129          436.18       0       0
+ 8382035        -187.553          -0.552         444.189       0       0
+ 8382036        -184.816           0.006         452.141       0       0
+ 8382040        -193.569          -0.238         423.096       0       0
+ 8382044        -195.224           0.004         415.263       0       0
+ 8382045        -193.007           0.003         424.009       0       0
+ 8382046        -190.679           0.002         432.619       0       0
+ 8382050        -197.446           0.001         402.238       0       0
+ 8382054        -199.027          -0.002         393.631       0       0
+ 8382055        -197.036           0.001         402.487       0       0
+ 8382056        -195.035           0.004         411.306       0       0
+ 8382060          -201.1          -0.583         378.981       0       0
+ 8382064         -199.49          -0.001         368.411       0       0
+ 8382065        -198.691           0.398         378.535       0       0
+ 8382066        -197.776           0.805         388.606       0       0
+ 8382070        -199.168          -0.391         353.509       0       0
+ 8382074        -197.787          -0.004         344.041       0       0
+ 8382075        -196.693          -0.126         353.526       0       0
+ 8382076        -195.791           -0.25         363.174       0       0
+ 8382080         -194.79          -0.197         329.874       0       0
+ 8382081        -222.769           0.002         337.365       0       0
+ 8382084         -194.95              0.         319.612       0       0
+ 8382085        -195.507          -0.114         329.998       0       0
+ 8382086        -196.229           -0.23         340.332       0       0
+ 8382090         -191.26          -0.146         303.044       0       0
+ 8382094        -191.971              0.         292.456       0       0
+ 8382095        -190.683              0.         303.868       0       0
+ 8382096         -189.57              0.         315.129       0       0
+ 8382099        -189.118           0.001         290.567       0       0
+ 8382100        -186.015          -0.157         277.389       0       0
+ 8382104        -184.928           0.005         266.561       0       0
+ 8382105        -185.768           0.004         277.553       0       0
+ 8382106        -186.234           0.002         288.694       0       0
+ 8382109        -181.427           0.005         265.287       0       0
+ 8382110        -176.073          -0.185         252.568       0       0
+ 8382114        -171.711           0.003         241.661       0       0
+ 8382115        -174.849           0.005         252.838       0       0
+ 8382116        -177.898           0.006         263.999       0       0
+ 8382120        -164.142          -0.092         225.041       0       0
+ 8382121        -195.461           0.003         223.113       0       0
+ 8382124        -159.291           0.002         213.678       0       0
+ 8382125        -161.134           0.003         225.463       0       0
+ 8382126        -163.191           0.004         237.072       0       0
+ 8382129        -176.952           0.768         474.008       0       0
+ 8382219        -167.456           0.004         239.391       0       0
+ 8382239        -185.383           0.005          454.22       0       0
+ 8382329        -156.946           0.002         210.929       0       0
+ 8382349        -190.405          -0.562         434.406       0       0
+ 8382459        -195.127           0.004         413.285       0       0
+ 8382569        -198.407           0.404         391.122       0       0
+ 8382679        -197.625          -0.125         365.789       0       0
+ 8382789        -197.008          -0.117         342.185       0       0
+ 8382899        -192.252              0.         317.387       0       0
+ 8383001        -102.196           -0.11         460.589       0       0
+ 8383002          -47.76           0.002         293.013       0       0
+ 8383014        -143.452           0.002          184.22       0       0
+ 8383015        -148.878           0.002         196.095       0       0
+ 8383016        -154.605           0.002         208.181       0       0
+ 8383024        -128.126           0.001           155.3       0       0
+ 8383025        -131.702           0.002            167.       0       0
+ 8383026        -135.801           0.002         179.025       0       0
+ 8383034        -115.535              0.         125.816       0       0
+ 8383035        -120.143          -0.082         136.681       0       0
+ 8383036        -125.138          -0.165         147.608       0       0
+ 8383044        -107.089           0.529           94.04       0       0
+ 8383045        -109.392          -0.055         106.504       0       0
+ 8383046        -111.548          -0.643         118.795       0       0
+ 8383054         -99.454          -0.001            59.1       0       0
+ 8383055         -95.835          -0.007           66.62       0       0
+ 8383056         -99.107          -0.001          86.266       0       0
+ 8383066         -90.788           -0.01          46.518       0       0
+ 8383129         -139.62           0.002         181.615       0       0
+ 8383239        -126.602          -0.082         151.441       0       0
+ 8383349        -113.531          -0.322         122.312       0       0
+ 8383459        -103.116           0.264          90.169       0       0
+ 8390000        -144.985          -0.002         659.483       0       0
+ 8390001        -155.396           0.191         660.499       0       0
+ 8390002        -144.949           9.609         659.605       0       0
+ 8390010        -149.267          -0.001         647.504       0       0
+ 8390011        -148.346         -49.409         650.741       0       0
+ 8390012        -148.343          49.409         650.748       0       0
+ 8390020         -58.124          -1.597          640.78       0       0
+ 8390021         -58.572         -33.998         641.255       0       0
+ 8390022         -57.904          30.398         641.264       0       0
+ 8981129        -176.875         -20.322         587.266       0       0
+ 8981239        -178.393         -21.464         565.867       0       0
+ 8981349        -181.396          -22.55         546.255       0       0
+ 8981459        -183.125         -23.325         527.157       0       0
+ 8981569        -184.031         -23.823          507.53       0       0
+ 8981679        -186.662         -23.693         486.955       0       0
+ 8981789        -191.802         -24.078         468.719       0       0
+ 8982099        -211.375         -21.022         267.022       0       0
+ 8982109         -201.29         -23.431         242.472       0       0
+ 8982129        -200.296         -24.569         450.456       0       0
+ 8982219        -189.302         -20.947         217.168       0       0
+ 8982239        -207.959         -26.208         431.649       0       0
+ 8982329        -180.291         -22.842         186.796       0       0
+ 8982349        -211.299          -23.22         410.934       0       0
+ 8982459        -216.078         -22.053         389.478       0       0
+ 8982569        -218.263         -21.849         366.708       0       0
+ 8982679        -218.654         -21.676         342.183       0       0
+ 8982789        -217.445         -21.273         320.265       0       0
+ 8982899        -214.688         -21.654          294.26       0       0
+ 8983129        -164.682         -23.111         158.256       0       0
+ 8983239         -153.46          -22.78         130.144       0       0
+ 8983349        -141.181         -22.546         102.437       0       0
+ 8983459        -129.864         -21.941            70.1       0       0
+*END

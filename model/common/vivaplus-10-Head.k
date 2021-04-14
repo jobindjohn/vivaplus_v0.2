@@ -1,23 +1,30 @@
 $
-$ANSA_VERSION;20.1.0;
+$ANSA_VERSION;21.1.0;
 $
 $
-$ file created by  A N S A  Sun Dec 13 20:26:05 2020
+$ file created by  A N S A  Tue Apr 13 12:03:47 2021
 $
 $ output from :
 $
-$ M:/VSI-P/010_RD/17_EU_VIRTUAL/020_Workpackage/WP2_HBM/T2_2_Seated OS-HBM 50F, 
-$ OS-HBM 50M, Active-HBM and validation/LS-DYNA_Files/2020-12-13/vivaplus-50F_v0
-$ -2-1-j-FixJJ-5.ansa
+$ C:/Users/iraeus/Documents/Projects/VIRTUAL/ViVA+/Final_assembly/vivaplus-50F_v
+$ 0-2-2d.ansa
 $
-$ANSA_USER_ATTRIBUTES;vivaplus-10-Head.k;INCLUDE;DM/IO Index;TEXT;10;DM/Status;T
-$EXT;WIP;
+$ Settings :
+$
+$ Output format : R12
+$
+$ Output : All
+$
+$ANSA_USER_ATTRIBUTES;vivaplus-10-Head.k;INCLUDE;DM/Status;TEXT;WIP;
 $
 $
 $
-*KEYWORD
+$
+$
+$
 $ANSA_COLOR;vivaplus-10-Head.k;INCLUDE;.937254905700684;.086274512112141;.737254
 $917621613;1.;
+*KEYWORD
 *PART
 HE_C_Skull
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
@@ -73,9 +80,11 @@ $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SHELL_TITLE
 HE_C_Head-Skin
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    103002         9   0.83333        1.        1.         0         0
+    103002         9   0.83333        1.        1.         0         1
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
         1.        1.        1.        1.        0.                  0.          
+$       B1|       B2|
+        0.       90.
 *PART
 HE_C_Oral_Cavity
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
