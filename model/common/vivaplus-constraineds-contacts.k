@@ -2,15 +2,16 @@ $
 $ANSA_VERSION;21.1.0;
 $
 $
-$ file created by  A N S A  Fri Feb 19 18:12:06 2021
+$ file created by  A N S A  Wed Apr 14 13:57:20 2021
 $
 $ output from :
 $
-$ C:/Users/klugcor/Downloads/vivaplus-50F_v0-2-2a.ansa
+$ C:/Users/iraeus/Documents/Projects/VIRTUAL/ViVA+/Final_assembly/vivaplus-50F_v
+$ 0-2-2d.ansa
 $
 $ Settings :
 $
-$ Output format : R12
+$ Output format : R11.2
 $
 $ Output : All
 $
@@ -1165,6 +1166,10 @@ $ANSA_ID;9000102;
     351101    351123         0
 $ANSA_ID;9000103;
     351101    351113         0
+$ANSA_ID;9000114;
+    701302    701301         0
+$ANSA_ID;9000115;
+    751302    751301         0
 *CONTACT_AUTOMATIC_GENERAL_ID_MPP
 $       ID|                                                                 NAME|
 100001    HE_Head_neck_main                                                     
@@ -1585,6 +1590,21 @@ $   PENMAX|   THKOPT|   SHLTHK|    SNLOG|     ISYM|    I2D3D|   SLDTHK|   SLDSTF
         0.                             0         0         0        0.        0.
 $     IGAP|   IGNORE|   DPRFAC|   DTSTIF|         |         |   FLANGL|  CID_RCF|
          1         2        0.        0.                            0.          
+*CONTACT_AUTOMATIC_SURFACE_TO_SURFACE_ID
+$       ID|                                                                 NAME|
+300001    UX_Elbox_Surface_to_surface_temp_contact                              
+$     SSID|     MSID|     STYP|   MSTYPE|   SBOXID|   MBOXID|      SPR|      MPR|
+    316013    316012         2         2                             0         0
+$       FS|       FD|       DC|       VC|      VDC|   PENCHK|       BT|       DT|
+       0.1       0.1        0.        0.       20.         0                    
+$      SFS|      SFM|      SST|      MST|     SFST|     SFMT|      FSF|      VSF|
+        1.        1.                            1.        1.        1.        1.
+$     SOFT|   SOFSCL|   LCIDAB|   MAXPAR|    SBOPT|    DEPTH|    BSORT|   FRCFRQ|
+         2       0.1               1.025        3.         5         0         0
+$   PENMAX|   THKOPT|   SHLTHK|    SNLOG|     ISYM|    I2D3D|   SLDTHK|   SLDSTF|
+        0.                             0         0         0        0.        0.
+$     IGAP|   IGNORE|   DPRFAC|   DTSTIF|         |         |   FLANGL|  CID_RCF|
+         1         2        0.        0.                            0.          
 *CONTACT_AUTOMATIC_SINGLE_SURFACE_ID
 $       ID|                                                                 NAME|
 400001    TX_Single_Surface                                                     
@@ -1619,7 +1639,7 @@ $    Q2TRI|   DTPCHK|    SFNBR|   FNLSCL|   DNLSCL|     TCSO|   TIEDID|   SHLEDG
          0                                                 0         0         0
 $   SHAREC|   CPARM8|   IPBACK|    SRNDE|   FRISCF|     ICOR|    FTORQ|
          0         0         0         0                   0         0
-*CONTACT_TIED_NODES_TO_SURFACE_ID
+*CONTACT_TIED_NODES_TO_SURFACE_OFFSET_ID
 $       ID|                                                                 NAME|
 403505    TX_Contact_tied_sternum_to_soft_tissue                                
 $     SSID|     MSID|     STYP|   MSTYPE|   SBOXID|   MBOXID|      SPR|      MPR|
@@ -1660,7 +1680,7 @@ $    Q2TRI|   DTPCHK|    SFNBR|   FNLSCL|   DNLSCL|     TCSO|   TIEDID|   SHLEDG
                                                            0         1          
 $   SHAREC|   CPARM8|   IPBACK|    SRNDE|   FRISCF|     ICOR|    FTORQ|
          0         0         1         0                   0         0
-*CONTACT_TIED_NODES_TO_SURFACE_ID
+*CONTACT_TIED_NODES_TO_SURFACE_OFFSET_ID
 $       ID|                                                                 NAME|
 600001    LX_Contact_tied_pelvis_to_soft_tissue                                 
 $     SSID|     MSID|     STYP|   MSTYPE|   SBOXID|   MBOXID|      SPR|      MPR|
@@ -2130,19 +2150,24 @@ UX_L_Elbow master
     316012        0.        0.        0.        0.
     305144    355144
 *SET_PART_LIST_TITLE
+UX_L_Elbow slave
+    316013        0.        0.        0.        0.
+    301334    351334
+*SET_PART_LIST_TITLE
 TX_C_Thorax_pelvis_interior_main
     400001                                        
     301314    305114    351314    355114    401011    401021    401031    401041
     401051    401061    401071    401081    401091    401101    401111    401121
     403013    403023    403033    403043    403053    403063    403073    403083
     403093    403103    403113    403123    403501    403503    403601    404000
-    404200    405003    406003    453013    453014    453023    453024    453033
-    453034    453043    453044    453053    453054    453063    453064    453073
-    453074    453083    453084    453093    453094    453103    453104    453113
-    453114    453123    453124    453503    453601    454000    454200    455003
-    456003    501011    501021    501031    501041    501051    505004    555004
-    601011    601021    601031    601041    601051    601053    605003    606003
-    651011    651021    651031    651041    651051    655003    656003
+    404200    404400    405003    406003    453013    453014    453023    453024
+    453033    453034    453043    453044    453053    453054    453063    453064
+    453073    453074    453083    453084    453093    453094    453103    453104
+    453113    453114    453123    453124    453503    453601    454000    454200
+    454400    455003    456003    501011    501021    501031    501041    501051
+    505004    555004    601011    601021    601031    601041    601051    601053
+    605003    606003    651011    651021    651031    651041    651051    655003
+    656003
 *SET_PART_LIST_TITLE
 Scapula and Clavicula slave
     400002                                        
@@ -51318,7 +51343,8 @@ $ile Type;ANSA;DM/Status;WIP;CONTAINS;CONSTRAINED_EXTRA_NODES_NODE;1-15,9000075,
 $9000080,9000083;CONSTRAINED_EXTRA_NODES_SET;103003,201101,251101;
 $ANSA_PART;PART;ID;2130;MID;701300;NAME;Patella;STUDY_VERSION;0;PID_OFFSET;0;COL
 $OR;234;144;33;0;IS_COLOR_ACTIVE;1;ATTRIBUTES;2;DM/File Type;ANSA;DM/Status;WIP;
-$CONTAINS;CONSTRAINED_EXTRA_NODES_SET;9000108-9000109;
+$CONTAINS;CONSTRAINED_EXTRA_NODES_SET;9000108-9000109;CONSTRAINED_RIGID_BODIES;9
+$000114-9000115;
 $ANSA_PART;PART;ID;2141;MID;301301;NAME;Humerus-Cortical-1;STUDY_VERSION;0;PID_O
 $FFSET;0;COLOR;252;253;179;0;IS_COLOR_ACTIVE;1;ATTRIBUTES;2;DM/File Type;ANSA;DM
 $/Status;WIP;CONTAINS;CONSTRAINED_JOINT_SPHERICAL;3137534,3146332;

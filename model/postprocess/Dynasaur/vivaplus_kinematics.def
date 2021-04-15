@@ -694,7 +694,7 @@
             {"name": "T1_COG_vx", "part_of": "Bone", "x": {"type": "NODE", "ID": "T1_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T1_COG", "array": ["(0, x_velocity)"]}},
             {"name": "T1_COG_vy", "part_of": "Bone", "x": {"type": "NODE", "ID": "T1_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T1_COG", "array": ["(0, y_velocity)"]}},
             {"name": "T1_COG_vz", "part_of": "Bone", "x": {"type": "NODE", "ID": "T1_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T1_COG", "array": ["(0, z_velocity)"]}},
-            {"name": "T1_COG_vres", "part_of": "Bone", "x": {"type": "NODE", "ID": "T1_COG", "array": ["(0, time)"]}, "y": {"function": {"name": "res", "param": {"data_vector": {"type": "NODE","ID": "T1_COG","array": ["(0, x_velocity)", "(0, y_velocity)", "(0, z_velocity)"]}}}}},
+            {"name": "T1_COG_vres", "part_of": "Bone", "x": {"type": "NODE", "ID": "T1_COG", "array": ["(0, time)"]}, "y": {"function": {"name": "res", "param": {"data_vector": {"type": "NODE","ID": "T1_COG","array": ["(0, x_velocity)", "(0, y_velocity)", "(0, z_velocity)"]}}}}}
             
         ]
     }

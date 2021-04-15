@@ -1,17 +1,21 @@
 $
-$ANSA_VERSION;20.1.0;
+$ANSA_VERSION;21.1.0;
 $
 $
-$ file created by  A N S A  Sun Dec 20 14:55:48 2020
+$ file created by  A N S A  Tue Apr 13 12:04:14 2021
 $
 $ output from :
 $
-$ //129.27.213.85/vsi-p/010_RD/17_EU_VIRTUAL/020_Workpackage/WP2_HBM/T2_2_Seated
-$  OS-HBM 50F, OS-HBM 50M, Active-HBM and validation/2_2_1_Upgrading the OS-HBM 
-$ 50F/vivaplus-50F_v0-2-1-m.ansa
+$ C:/Users/iraeus/Documents/Projects/VIRTUAL/ViVA+/Final_assembly/vivaplus-50F_v
+$ 0-2-2d.ansa
 $
-$ANSA_USER_ATTRIBUTES;vivaplus-30-Upper-Extremity.k;INCLUDE;DM/IO Index;TEXT;15;
-$DM/Status;TEXT;WIP;
+$ Settings :
+$
+$ Output format : R12
+$
+$ Output : All
+$
+$ANSA_USER_ATTRIBUTES;vivaplus-30-Upper-Extremity.k;INCLUDE;DM/Status;TEXT;WIP;
 $
 $
 $
@@ -332,9 +336,11 @@ $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SHELL_TITLE
 UX-Soft-Shoulder-connect-Skin-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    305111         9   0.83333        1.        1.         0         0
+    305111         9   0.83333        1.        1.         0         1
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
         1.        1.        1.        1.        0.                  0.          
+$       B1|       B2|
+        0.       90.
 *PART_CONTACT
 UX-Soft-Shoulder-connect-Null-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
@@ -354,9 +360,11 @@ $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SHELL_TITLE
 UX-Soft-UpperArm-Skin-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    305121         9   0.83333        1.        1.         0         0
+    305121         9   0.83333        1.        1.         0         1
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
         1.        1.        1.        1.        0.                  0.          
+$       B1|       B2|
+        0.       90.
 *PART
 UX-Soft-UpperArm-Tissue-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
@@ -372,9 +380,11 @@ $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SHELL_TITLE
 UX-Soft-Elbow-Skin-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    305131         9   0.83333        1.        1.         0         0
+    305131         9   0.83333        1.        1.         0         1
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
         1.        1.        1.        1.        0.                  0.          
+$       B1|       B2|
+        0.       90.
 *PART
 UX-Soft-LowerArm-Skin-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
@@ -382,13 +392,15 @@ $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SHELL_TITLE
 UX-Soft-LowerArm-Skin-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    305141         9   0.83333        1.        1.         0         0
+    305141         9   0.83333        1.        1.         0         1
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
         1.        1.        1.        1.        0.                  0.          
+$       B1|       B2|
+        0.       90.
 *PART
 UX-Soft-LowerArm-Tissue-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    305142    305142    305122              616012         0         0          
+    305142    305142    405100              616012         0         0          
 *SECTION_SOLID_TITLE
 UX-Soft-LowerArm-Tissue-L
 $    SECID|   ELFORM|
@@ -412,9 +424,11 @@ $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SHELL_TITLE
 UX-Soft-Hand-Skin-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    305161         9   0.83333        1.        1.         0         0
+    305161         9   0.83333        1.        1.         0         1
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
         1.        1.        1.        1.        0.                  0.          
+$       B1|       B2|
+        0.       90.
 *PART
 UX-Soft-Hand-Tissue-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
@@ -734,9 +748,11 @@ $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SHELL_TITLE
 UX-Soft-Shoulder-connect-Skin-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    355111         9   0.83333        1.        1.         0         0
+    355111         9   0.83333        1.        1.         0         1
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
         1.        1.        1.        1.        0.                  0.          
+$       B1|       B2|
+        0.       90.
 *PART_CONTACT
 UX-Soft-Shoulder-connect-Null-R
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
@@ -756,9 +772,11 @@ $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SHELL_TITLE
 UX-Soft-UpperArm-Skin-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    355121         9   0.83333        1.        1.         0         0
+    355121         9   0.83333        1.        1.         0         1
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
         1.        1.        1.        1.        0.                  0.          
+$       B1|       B2|
+        0.       90.
 *PART
 UX-Soft-UpperArm-Tissue-R
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
@@ -774,9 +792,11 @@ $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SHELL_TITLE
 UX-Soft-Elbow-Skin-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    355131         9   0.83333        1.        1.         0         0
+    355131         9   0.83333        1.        1.         0         1
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
         1.        1.        1.        1.        0.                  0.          
+$       B1|       B2|
+        0.       90.
 *PART
 UX-Soft-LowerArm-Skin-R
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
@@ -784,13 +804,15 @@ $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SHELL_TITLE
 UX-Soft-LowerArm-Skin-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    355141         9   0.83333        1.        1.         0         0
+    355141         9   0.83333        1.        1.         0         1
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
         1.        1.        1.        1.        0.                  0.          
+$       B1|       B2|
+        0.       90.
 *PART
 UX-Soft-LowerArm-Tissue-R
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    355142    355142    305122              616012         0         0          
+    355142    355142    405100              616012         0         0          
 *SECTION_SOLID_TITLE
 UX-Soft-LowerArm-Tissue-R
 $    SECID|   ELFORM|
@@ -814,9 +836,11 @@ $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SHELL_TITLE
 UX-Soft-Hand-Skin-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    355161         9   0.83333        1.        1.         0         0
+    355161         9   0.83333        1.        1.         0         1
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
         1.        1.        1.        1.        0.                  0.          
+$       B1|       B2|
+        0.       90.
 *PART
 UX-Soft-Hand-Tissue-R
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
