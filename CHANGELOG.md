@@ -25,6 +25,7 @@ and this project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.ht
 
 ### Changed
 
+- Updated node file and main file for 50F standing to version 0.2.2
 - Removed PRCA on mat fabric (was giving warning in LS-DYNA)
 - Changed density and YM of mat null MID 305104 and 404001 (only density), 454001 (only density)
 - Changed density of MID 305122 (Upper extremity tissue) to 1.0e-6
@@ -50,6 +51,7 @@ and this project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.ht
 - Changed DEFINE_CURVE_FUNCTION definitions for knee ligaments to include ssex based scaling
 - Changed LS-DYNA format for solid elements to 960 format
 - Changed format for load curves on second row of *ELEMENT_DISCRETE_LCO to I8I8
+- Changed contact 600001 to _OFFSET
 
 ### Removed
 
