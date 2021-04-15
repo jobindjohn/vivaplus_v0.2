@@ -49,6 +49,7 @@ and this project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.ht
 - Changed content of Set 716002 to include newly created patella shells. Set used by contact 903001 (Whole body contact)
 - Changed DEFINE_CURVE_FUNCTION definitions for knee ligaments to include ssex based scaling
 - Changed LS-DYNA format for solid elements to 960 format
+- Changed format for load curves on second row of *ELEMENT_DISCRETE_LCO to I8I8
 
 ### Removed
 
