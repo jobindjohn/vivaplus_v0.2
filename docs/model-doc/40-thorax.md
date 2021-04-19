@@ -38,7 +38,7 @@ The thoracic vertebrae are defined as rigid elements. The elements of the cortic
 
 ## Ribcage
 
-The ribcage is modelled based on generic model by Iraeus et al. [@Iraeus2019]
+The ribcage is modelled based on the generic model by Iraeus et al. [@Iraeus2019]
 
 ### Ribcage Model Components
 
@@ -55,15 +55,15 @@ Strain rate dependent skin material properties based on [@Ottenio2015]
 
 
 ## Thoracic Cavity
-
-To mimic the stiffness of the human lung, which is the main volume in the thoracic cavity, material parameters published in [@Gayzik2010] established for lungs of rats were applied. No appropiate macroscopic material data for humans was found so far. 
-<!-- (TODO?) -->
-Mat_Lung_Tissue was applied based on [@Vawter1980]. As alternative material parameter those published in the original paper [@Vawter1980] could be applied:
-C/delta = 25cmH20(2.45 kPa), alpha = 0.183, (beta = -0.291, C1/delta = 0.1966 cmH20 (19.3 Pa), and C2 = 2.71.)
-
-Based on [@Polio2018] the young modulus for the Null material was set to 1kPA = 1E-9GPa
-
-The material was not stable in the current model, which is why the liver material is used in the current preliminary version of the model.
+The lungs are modeled using MAT_LOW_DENSITY_FOAM with material parameters from  Rater [@Rater2013]. 
+#To mimic the stiffness of the human lung, which is the main volume in the thoracic cavity, material parameters published in [@Gayzik2010] established for lungs of rats were applied. No appropiate macroscopic material data for humans was found so far. 
+#<!-- (TODO?) -->
+#Mat_Lung_Tissue was applied based on [@Vawter1980]. As alternative material parameter those published in the original paper [@Vawter1980] could be applied:
+#C/delta = 25cmH20(2.45 kPa), alpha = 0.183, (beta = -0.291, C1/delta = 0.1966 cmH20 (19.3 Pa), and C2 = 2.71.)
+#
+#Based on [@Polio2018] the young modulus for the Null material was set to 1kPA = 1E-9GPa
+#
+#The material was not stable in the current model, which is why the liver material is used in the current preliminary version of the model.
 
 
 ## Soft tissue
@@ -72,7 +72,7 @@ The outer soft tissue in the thorax (PIDs 406002 and 456002), pelvis (PIDs 60600
 
 
 <!-- TODO
-- [ ] change to compressible material and add sliding contact for thoracic cavity soft tissue -->
+- [ ] add sliding contact for thoracic cavity soft tissue -->
 
 ## Contacts in the Thorax
 
