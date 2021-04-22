@@ -132,7 +132,7 @@ $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SOLID_TITLE
 PE-Pelvis-joints-Pubic-symphysis-L
 $    SECID|   ELFORM|
-    602010         2
+    602010         1
 *PART
 PE-Pelvis-joints-SI-joint-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
@@ -306,7 +306,7 @@ $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SOLID_TITLE
 PE-Pelvis-joints-Pubic-symphysis-R
 $    SECID|   ELFORM|
-    652010         2
+    652010         1
 *PART
 PE-Pelvis-joints-SI-joint-R
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
