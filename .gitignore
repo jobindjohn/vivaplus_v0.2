@@ -3,3 +3,4 @@ documentation/site/
 *.sav
 *.ipynb_checkpoints/
 *.code-workspace
+*lspost*

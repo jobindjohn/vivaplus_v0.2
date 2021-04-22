@@ -3,8 +3,9 @@
 The goal is to structure all the model data in such a way that it enables
 collaborative development of the model, which is one of the motivations of having
 an open model.
-One of the requirements for this is persistent (does not change over time) and
-unique (no mismatches or clashes) structuring of model data.
+To facilitate this, we try to have identifiers of model data to be persistent (does not change over time) and
+unique (no mismatches or clashes).
+
 A brief overview of identifier numbering scheme for the model parts and include
 file structuring of the model data is given below.
 
@@ -12,7 +13,7 @@ file structuring of the model data is given below.
 
 The primary identifier for any model data (part, section, material definition,
   curves) is a six-digit number that locates the anatomical entity that the
-  data pertains to. Moving from left to right of the identifier locates the component with increasing specificity. The hierarchy in the idenfier follows the order: Body region, sagittal aspect (left/right), component/organ within the body region, sub-components (to be used if detailed geometric and material definitions are required for a component).
+  data pertains to. Moving from left to right of the identifier locates the component with increasing specificity. The hierarchy in the identifier follows the order: Body region, sagittal aspect (left/right), component/organ within the body region, sub-components (to be used if detailed geometric and material definitions are required for a component).
 
 ![Model Data Identifiers](images/data-identifier.png)
 

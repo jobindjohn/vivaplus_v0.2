@@ -29,10 +29,3 @@ Find more information at the Dynasaur [wiki](https://gitlab.com/VSI-TUGraz/Dynas
 
 The Object Definition and Calculation Procedure file for the VIVA+ models are available in the `assets` sub-directory.
 
-## Jupyter
-
-Jupyter is a interactve computational notebook that can be used to write Python scripts and analysis workflows using Dynasaur.
-
-### Getting started with Jupyter
-
-https://coderefinery.github.io/jupyter/02-interface/

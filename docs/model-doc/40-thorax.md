@@ -27,16 +27,18 @@
 
 #### Vertebrae
 
-The thoracic vertebrae are defined as rigid elements. The elements of the cortical and trabecular bone are constrained together with `*CONSTRAINED_RIGID_BODY`
+The thoracic vertebrae are defined as rigid elements. The elements of the cortical and trabecular bone are constrained together with `*CONSTRAINED_RIGID_BODY`.
 
 
 #### Intervertebral Joints
 
-??? info "Future Model Development"
+<!-- ??? info "Future Model Development"
     A new thoracic Spine model with detailed vertebrae and intervertebral soft tissue
-    definitions is planned.
+    definitions is planned. -->
 
-## Ribcage
+
+The intervertebral joints are modeled as zero-length discrete beam elements (MAT119). 
+## Ribs
 
 The ribcage is modelled based on the generic model by Iraeus et al. [@Iraeus2019]
 
@@ -78,7 +80,7 @@ The outer soft tissue in the thorax (PIDs 406002 and 456002), pelvis (PIDs 60600
 
 The main contact for the thorax and pelvis interior is a CONTACT_AUTOMATIC_SINGLE_SURFACE (CID 400001). The interaction between the thoracic cavity soft tissue and the rib cage is also handled by this contact. 
 
-To connect the outer soft tissue in the thorax to the ribcage and abdomen, a CONTACT_AUTOMATIC_SURFACE_TO_SURFACE_TIEBREAK with OPTION=4 is used (CID 403710). This contact takes load in tension and compression, but allows tangential sliging in order to mimic the vacuum in the body that prevents the internal organs from separating.
+To connect the outer soft tissue in the thorax to the ribcage and abdomen, a CONTACT_AUTOMATIC_SURFACE_TO_SURFACE_TIEBREAK with OPTION=4 is used (CID 403710). This contact takes load in tension and compression, but allows tangential sliding in order to mimic the vacuum in the body that prevents the internal organs from separating.
 
 A CONTACT_TIED_NODES_TO_SURFACE (CID 403505) between the thorax outer soft tissue and the sternum is used to model the muscle attachment to the sternum.
 
