@@ -31,7 +31,7 @@
 
 For all cortical bones MAT_124 is applied as it allows to distinguish between tension and compression and model strain-rate dependency.
 
-The humerus material charateristics are based on [@Vandenbulcke.2012] As no anisotropic material model is applied at the current stage, and transversal loading is of higher interest in the considered loading scenarios (no steering wheel), the parameters representative for transverse loading were selected.
+The humerus material charateristics are based on [@Vandenbulcke2012] As no anisotropic material model is applied at the current stage, and transversal loading is of higher interest in the considered loading scenarios (no steering wheel), the parameters representative for transverse loading were selected.
 
 Bone density was corrected with the factor 1E-3 as there seems to be an error in the original paper - 1.9g/mm^2 is out of range compared to other publications and would lead to a to heavy bone. 
 
@@ -117,20 +117,20 @@ For the VIRTUAL version of the VIVA+ models, joints of the upper extremities wil
 
 ### Elbow
 
-Humerus und Ulnar are connected with a revolute joint (axis through medial and lateral epicondyle of humerus)
-Humerus and Radius are connected with a spherical joint (center of rotation on tip of Radius)
-Radius and Ulnar are connected with a spherical joint on the distal end (center of roation on US - ulnar styloid)
+Humerus und ulna are connected with a revolute joint (axis through medial and lateral epicondyle of humerus)
+Humerus and radius are connected with a spherical joint (center of rotation on tip of Radius). 
+The radius and ulna are connected with a spherical joint on the distal end (center of rotation on ulnar styloid)
 
-## Future Development
+!!! note "Future Development" 
+        
+    ### Gender Differences
 
-### Gender Differences
+    Paper: Gender differences in the ratio between humerus width and length are established prior to puberty [@Clark2006]
 
-Paper: Gender differences in the ratio between humerus width and length are established prior to puberty [@Clark2006]
+    Paper: Dimensions and estimated mechanical characteristics of the humerus after long-term tennis loading [@Haapasalo1993]
 
-Paper: Dimensions and estimated mechanical characteristics of the humerus after long-term tennis loading [@Haapasalo1993]
+    ### Changes due to aging
 
-### Changes due to aging
+    Paper: High-Resolution Tomography-Based Quantification of **Cortical Porosity and Cortical Thickness at the Surgical Neck** of the Humerus During Aging [@Helfen2017]
 
-Paper: High-Resolution Tomography-Based Quantification of **Cortical Porosity and Cortical Thickness at the Surgical Neck** of the Humerus During Aging [@Helfen2017]
-
-\bibliography
+    \bibliography

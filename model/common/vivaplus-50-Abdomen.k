@@ -1,15 +1,21 @@
 $
-$ANSA_VERSION;20.1.4;
+$ANSA_VERSION;21.1.0;
 $
 $
-$ file created by  A N S A  Sat Dec 19 09:48:08 2020
+$ file created by  A N S A  Tue Apr 13 12:04:15 2021
 $
 $ output from :
 $
-$ C:/Users/jobinj/Box/vivaplus-dev/vivaplus-dev-JDJ/vivaplus-50F_v0-2-1-l.ansa
+$ C:/Users/iraeus/Documents/Projects/VIRTUAL/ViVA+/Final_assembly/vivaplus-50F_v
+$ 0-2-2d.ansa
 $
-$ANSA_USER_ATTRIBUTES;vivaplus-50-Abdomen.k;INCLUDE;DM/IO Index;TEXT;13;DM/Statu
-$s;TEXT;WIP;
+$ Settings :
+$
+$ Output format : R12
+$
+$ Output : All
+$
+$ANSA_USER_ATTRIBUTES;vivaplus-50-Abdomen.k;INCLUDE;DM/Status;TEXT;WIP;
 $
 $
 $
@@ -204,9 +210,11 @@ $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SHELL_TITLE
 AB-Soft-Skin-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    506001         9   0.83333        1.        1.         0         0
+    506001         9   0.83333        1.        1.         0         1
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
         1.        1.        1.        1.        0.                  0.          
+$       B1|       B2|
+        0.       90.
 *PART
 AB_Abdominal_Cavity-R
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
@@ -232,9 +240,11 @@ $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SHELL_TITLE
 AB-Soft-Skin-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    556001         9   0.83333        1.        1.         0         0
+    556001         9   0.83333        1.        1.         0         1
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
         1.        1.        1.        1.        0.                  0.          
+$       B1|       B2|
+        0.       90.
 $ANSA_COLOR;99997;SECTION_SHELL;.909803926944733;.243137255311012;.1372549086809
 $16;1.;
 $ANSA_COLOR;99998;SECTION_SHELL;.682352960109711;.929411768913269;0.741176486015

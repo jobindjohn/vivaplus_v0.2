@@ -1,23 +1,31 @@
 $
-$ANSA_VERSION;20.1.0;
+$ANSA_VERSION;21.1.0;
 $
 $
-$ file created by  A N S A  Tue Dec 22 21:40:25 2020
+$ file created by  A N S A  Wed Apr 14 13:57:20 2021
 $
 $ output from :
 $
-$ //129.27.213.85/vsi-p/010_RD/17_EU_VIRTUAL/020_Workpackage/WP2_HBM/T2_2_Seated
-$  OS-HBM 50F, OS-HBM 50M, Active-HBM and validation/LS-DYNA_Files/2020-12-20/vi
-$ vaplus-50F_v0-2-1-o.ansa
+$ C:/Users/iraeus/Documents/Projects/VIRTUAL/ViVA+/Final_assembly/vivaplus-50F_v
+$ 0-2-2d.ansa
 $
-$ANSA_USER_ATTRIBUTES;vivaplus-constraineds-contacts.k;INCLUDE;DM/IO Index;TEXT;
-$8;DM/Status;TEXT;WIP;
+$ Settings :
+$
+$ Output format : R11.2
+$
+$ Output : All
+$
+$ANSA_USER_ATTRIBUTES;vivaplus-constraineds-contacts.k;INCLUDE;DM/Status;TEXT;WI
+$P;
 $
 $
 $
-*KEYWORD
+$
+$
+$
 $ANSA_COLOR;vivaplus-constraineds-contacts.k;INCLUDE;.788235306739807;.662745118
 $141174;.701960802078247;1.;
+*KEYWORD
 *CONSTRAINED_INTERPOLATION
    1000000   7124708       123                   0          
    7124713       123        1.
@@ -1158,6 +1166,10 @@ $ANSA_ID;9000102;
     351101    351123         0
 $ANSA_ID;9000103;
     351101    351113         0
+$ANSA_ID;9000114;
+    701302    701301         0
+$ANSA_ID;9000115;
+    751302    751301         0
 *CONTACT_AUTOMATIC_GENERAL_ID_MPP
 $       ID|                                                                 NAME|
 100001    HE_Head_neck_main                                                     
@@ -1166,7 +1178,7 @@ $ TRACKPEN|   BUCKET| LCBUCKET|NSEG2TRAC| INITITER|   PARMAX|         |   CPARM8
 $   &_LINE|  CHKSEGS|    PENSF|  GRPABLE|
 &                  0        1.         0
 $     SSID|     MSID|     STYP|   MSTYPE|   SBOXID|   MBOXID|      SPR|      MPR|
-    100001         0         2         0         0         0         0         0
+    100001         0         2                   0         0         0         0
 $       FS|       FD|       DC|       VC|      VDC|   PENCHK|       BT|       DT|
         0.        0.        0.        0.        0.         0        0.     1.E20
 $      SFS|      SFM|      SST|      MST|     SFST|     SFMT|      FSF|      VSF|
@@ -1547,7 +1559,7 @@ $ TRACKPEN|   BUCKET| LCBUCKET|NSEG2TRAC| INITITER|   PARMAX|         |   CPARM8
 $   &_LINE|  CHKSEGS|    PENSF|  GRPABLE|
 &                  0        1.         0
 $     SSID|     MSID|     STYP|   MSTYPE|   SBOXID|   MBOXID|      SPR|      MPR|
-    202100         0         2         0         0         0         0         0
+    202100         0         2                   0         0         0         0
 $       FS|       FD|       DC|       VC|      VDC|   PENCHK|       BT|       DT|
         0.        0.        0.        0.        0.         0        0.     1.E20
 $      SFS|      SFM|      SST|      MST|     SFST|     SFMT|      FSF|      VSF|
@@ -1567,7 +1579,22 @@ $      SFS|      SFM|      SST|      MST|     SFST|     SFMT|      FSF|      VSF
 $       ID|                                                                 NAME|
 300000    UX_Single_Surface                                                     
 $     SSID|     MSID|     STYP|   MSTYPE|   SBOXID|   MBOXID|      SPR|      MPR|
-    300000                   2         2                             0         0
+    300000                   2                                       0         0
+$       FS|       FD|       DC|       VC|      VDC|   PENCHK|       BT|       DT|
+       0.1       0.1        0.        0.       20.         0                    
+$      SFS|      SFM|      SST|      MST|     SFST|     SFMT|      FSF|      VSF|
+        1.        1.                            1.        1.        1.        1.
+$     SOFT|   SOFSCL|   LCIDAB|   MAXPAR|    SBOPT|    DEPTH|    BSORT|   FRCFRQ|
+         2       0.1               1.025        3.         5         0         0
+$   PENMAX|   THKOPT|   SHLTHK|    SNLOG|     ISYM|    I2D3D|   SLDTHK|   SLDSTF|
+        0.                             0         0         0        0.        0.
+$     IGAP|   IGNORE|   DPRFAC|   DTSTIF|         |         |   FLANGL|  CID_RCF|
+         1         2        0.        0.                            0.          
+*CONTACT_AUTOMATIC_SURFACE_TO_SURFACE_ID
+$       ID|                                                                 NAME|
+300001    UX_Elbox_Surface_to_surface_temp_contact                              
+$     SSID|     MSID|     STYP|   MSTYPE|   SBOXID|   MBOXID|      SPR|      MPR|
+    316013    316012         2         2                             0         0
 $       FS|       FD|       DC|       VC|      VDC|   PENCHK|       BT|       DT|
        0.1       0.1        0.        0.       20.         0                    
 $      SFS|      SFM|      SST|      MST|     SFST|     SFMT|      FSF|      VSF|
@@ -1582,7 +1609,7 @@ $     IGAP|   IGNORE|   DPRFAC|   DTSTIF|         |         |   FLANGL|  CID_RCF
 $       ID|                                                                 NAME|
 400001    TX_Single_Surface                                                     
 $     SSID|     MSID|     STYP|   MSTYPE|   SBOXID|   MBOXID|      SPR|      MPR|
-    400001                   2         0         0         0         0         0
+    400001                   2                   0         0         0         0
 $       FS|       FD|       DC|       VC|      VDC|   PENCHK|       BT|       DT|
        0.2       0.2        0.        0.       20.         0        0.     1.E20
 $      SFS|      SFM|      SST|      MST|     SFST|     SFMT|      FSF|      VSF|
@@ -1612,7 +1639,7 @@ $    Q2TRI|   DTPCHK|    SFNBR|   FNLSCL|   DNLSCL|     TCSO|   TIEDID|   SHLEDG
          0                                                 0         0         0
 $   SHAREC|   CPARM8|   IPBACK|    SRNDE|   FRISCF|     ICOR|    FTORQ|
          0         0         0         0                   0         0
-*CONTACT_TIED_NODES_TO_SURFACE_ID
+*CONTACT_TIED_NODES_TO_SURFACE_OFFSET_ID
 $       ID|                                                                 NAME|
 403505    TX_Contact_tied_sternum_to_soft_tissue                                
 $     SSID|     MSID|     STYP|   MSTYPE|   SBOXID|   MBOXID|      SPR|      MPR|
@@ -1653,7 +1680,7 @@ $    Q2TRI|   DTPCHK|    SFNBR|   FNLSCL|   DNLSCL|     TCSO|   TIEDID|   SHLEDG
                                                            0         1          
 $   SHAREC|   CPARM8|   IPBACK|    SRNDE|   FRISCF|     ICOR|    FTORQ|
          0         0         1         0                   0         0
-*CONTACT_TIED_NODES_TO_SURFACE_ID
+*CONTACT_TIED_NODES_TO_SURFACE_OFFSET_ID
 $       ID|                                                                 NAME|
 600001    LX_Contact_tied_pelvis_to_soft_tissue                                 
 $     SSID|     MSID|     STYP|   MSTYPE|   SBOXID|   MBOXID|      SPR|      MPR|
@@ -1666,7 +1693,7 @@ $      SFS|      SFM|      SST|      MST|     SFST|     SFMT|      FSF|      VSF
 $       ID|                                                                 NAME|
 700000    LX_Single_Surface                                                     
 $     SSID|     MSID|     STYP|   MSTYPE|   SBOXID|   MBOXID|      SPR|      MPR|
-    700000                   2         2                             0         0
+    700000                   2                                       0         0
 $       FS|       FD|       DC|       VC|      VDC|   PENCHK|       BT|       DT|
        0.2       0.2        0.        0.       20.         0                    
 $      SFS|      SFM|      SST|      MST|     SFST|     SFMT|      FSF|      VSF|
@@ -2109,10 +2136,9 @@ NE_Discs_ligaments
 *SET_PART_LIST_TITLE
 UX_Single_surface
     300000                                        
-    301314    301411    301413    301421    301431    301433    301511    301513
-    301521    301531    301533    305114    305144    351314    351411    351413
-    351421    351431    351433    351511    351513    351521    351531    351533
-    355114    355144
+    301411    301413    301421    301431    301433    301511    301513    301521
+    301531    301533    305144    351411    351413    351421    351431    351433
+    351511    351513    351521    351531    351533    355144
 *SET_PART_LIST_TITLE
 UX_L_Elbow
     316011        0.        0.        0.        0.
@@ -2124,18 +2150,24 @@ UX_L_Elbow master
     316012        0.        0.        0.        0.
     305144    355144
 *SET_PART_LIST_TITLE
+UX_L_Elbow slave
+    316013        0.        0.        0.        0.
+    301334    351334
+*SET_PART_LIST_TITLE
 TX_C_Thorax_pelvis_interior_main
     400001                                        
-     99997     99998    401011    401021    401031    401041    401051    401061
-    401071    401081    401091    401101    401111    401121    403014    403024
-    403034    403044    403054    403064    403074    403084    403094    403104
-    403114    403124    403501    403503    403601    403710    403720    404001
-    405003    406003    453014    453024    453034    453044    453054    453064
-    453074    453084    453094    453104    453114    453124    453503    453601
-    453710    453720    454001    455003    456003    501011    501021    501031
-    501041    501051    505004    555004    601011    601021    601031    601041
-    601051    601053    605003    606003    651011    651021    651031    651041
-    651051    655003    656003
+    301314    305114    351314    355114    401011    401021    401031    401041
+    401051    401061    401071    401081    401091    401101    401111    401121
+    403013    403023    403033    403043    403053    403063    403073    403083
+    403093    403103    403113    403123    403501    403503    403601    404000
+    404200    404400    405003    406003    453013    453014    453023    453024
+    453033    453034    453043    453044    453053    453054    453063    453064
+    453073    453074    453083    453084    453093    453094    453103    453104
+    453113    453114    453123    453124    453503    453601    454000    454200
+    454400    455003    456003    501011    501021    501031    501041    501051
+    505004    555004    601011    601021    601031    601041    601051    601053
+    605003    606003    651011    651021    651031    651041    651051    655003
+    656003
 *SET_PART_LIST_TITLE
 Scapula and Clavicula slave
     400002                                        
@@ -45315,17 +45347,17 @@ SET_NODES_Pelv_cav_tied
 *SET_PART_LIST_TITLE
 SET_Pelvis_contact
     600004                                        
-    601011    601021    601031    601041    601051    602010    602020    651011
-    651021    651031    651041    651051    652010    652020
+    601011    601021    601031    601041    601051    652020    602020    651011
+    651021    651031    651041    651051              
 *SET_PART_LIST
     601030                                        
     601031    603110    651031    653110
 *SET_PART_LIST_TITLE
 LX_Single_Surface_Shells
     700000                                        
-    601031    603110    651031    653110    701114    701184    701302    701414
-    701434    704113    705114    705134    705184    751114    751184    751302
-    751414    751434    754113    755114    755134    755184
+    601031    603110    651031    653110    701114    701184    701414    701434
+    704113    705114    705134    705184    751114    751184    751414    751434
+    754113    755114    755134    755184
 *SET_PART_LIST
     701110                                        
     701114    751114
@@ -51311,7 +51343,8 @@ $ile Type;ANSA;DM/Status;WIP;CONTAINS;CONSTRAINED_EXTRA_NODES_NODE;1-15,9000075,
 $9000080,9000083;CONSTRAINED_EXTRA_NODES_SET;103003,201101,251101;
 $ANSA_PART;PART;ID;2130;MID;701300;NAME;Patella;STUDY_VERSION;0;PID_OFFSET;0;COL
 $OR;234;144;33;0;IS_COLOR_ACTIVE;1;ATTRIBUTES;2;DM/File Type;ANSA;DM/Status;WIP;
-$CONTAINS;CONSTRAINED_EXTRA_NODES_SET;9000108-9000109;
+$CONTAINS;CONSTRAINED_EXTRA_NODES_SET;9000108-9000109;CONSTRAINED_RIGID_BODIES;9
+$000114-9000115;
 $ANSA_PART;PART;ID;2141;MID;301301;NAME;Humerus-Cortical-1;STUDY_VERSION;0;PID_O
 $FFSET;0;COLOR;252;253;179;0;IS_COLOR_ACTIVE;1;ATTRIBUTES;2;DM/File Type;ANSA;DM
 $/Status;WIP;CONTAINS;CONSTRAINED_JOINT_SPHERICAL;3137534,3146332;

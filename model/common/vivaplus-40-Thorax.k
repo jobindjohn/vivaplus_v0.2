@@ -1,15 +1,21 @@
 $
-$ANSA_VERSION;20.1.4;
+$ANSA_VERSION;21.1.0;
 $
 $
-$ file created by  A N S A  Sat Dec 19 09:47:54 2020
+$ file created by  A N S A  Tue Apr 13 12:04:14 2021
 $
 $ output from :
 $
-$ C:/Users/jobinj/Box/vivaplus-dev/vivaplus-dev-JDJ/vivaplus-50F_v0-2-1-l.ansa
+$ C:/Users/iraeus/Documents/Projects/VIRTUAL/ViVA+/Final_assembly/vivaplus-50F_v
+$ 0-2-2d.ansa
 $
-$ANSA_USER_ATTRIBUTES;vivaplus-40-Thorax.k;INCLUDE;DM/IO Index;TEXT;14;DM/Status
-$;TEXT;WIP;
+$ Settings :
+$
+$ Output format : R12
+$
+$ Output : All
+$
+$ANSA_USER_ATTRIBUTES;vivaplus-40-Thorax.k;INCLUDE;DM/Status;TEXT;WIP;
 $
 $
 $
@@ -738,7 +744,7 @@ $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SHELL_TITLE
 TX-Ribcage-Cartilage-Exterior-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    403601        16        0.        5.        1.         0         0
+    403601         2      0.83        2.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
        0.5       0.5       0.5       0.5        0.                  0.          
 *PART
@@ -806,7 +812,7 @@ $    SECID|   ELFORM|
 *PART
 TX-Thoracic_Cavity-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    405001    405001    505001              305001         0         0          
+    405001    405001    405101              305001         0         0          
 *SECTION_SOLID_TITLE
 TX-Thoracic_Cavity-L
 $    SECID|   ELFORM|
@@ -828,9 +834,11 @@ $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SHELL_TITLE
 TX-Skin-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    406001         9   0.83333        1.        1.         0         0
+    406001         9   0.83333        1.        1.         0         1
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
         1.        1.        1.        1.        0.                  0.          
+$       B1|       B2|
+        0.       90.
 *PART
 TX-Soft_Tissues-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
@@ -1202,7 +1210,7 @@ $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SHELL_TITLE
 TX-Ribcage-Cartilage-Exterior-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    453601        16        0.        5.        1.         0         0
+    453601         2      0.83        2.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
        0.5       0.5       0.5       0.5        0.                  0.          
 *PART
@@ -1270,7 +1278,7 @@ $    SECID|   ELFORM|
 *PART
 TX-Thoracic_Cavity-R
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    455001    455001    505001              305001         0         0          
+    455001    455001    405101              305001         0         0          
 *SECTION_SOLID_TITLE
 TX-Thoracic_Cavity-R
 $    SECID|   ELFORM|
@@ -1292,9 +1300,11 @@ $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SHELL_TITLE
 TX-Skin-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    456001         9   0.83333        1.        1.         0         0
+    456001         9   0.83333        1.        1.         0         1
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
         1.        1.        1.        1.        0.                  0.          
+$       B1|       B2|
+        0.       90.
 *PART
 TX-Soft-Tissues-R
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
@@ -1488,7 +1498,7 @@ $899;1.;
 $ANSA_COLOR;406001;SECTION_SHELL;1.;.894117653369904;.768627464771271;0.5;
 $ANSA_COLOR;406002;SECTION_SOLID;.592156887054443;.482352942228317;.803921580314
 $636;1.;
-$ANSA_COLOR;406003;SECTION_SHELL;1.;.894117653369904;.768627464771271;0.5;
+$ANSA_COLOR;406003;SECTION_SHELL;1.;.894117653369904;.768627464771271;1.;
 $ANSA_COLOR;453013;SECTION_SOLID;.603921592235565;.894117653369904;.007843137718
 $737;1.;
 $ANSA_COLOR;453014;SECTION_SHELL;.592156887054443;.168627455830574;0.47843137383
@@ -1584,7 +1594,7 @@ $443;1.;
 $ANSA_COLOR;456001;SECTION_SHELL;1.;.894117653369904;.768627464771271;0.5;
 $ANSA_COLOR;456002;SECTION_SOLID;.764705896377563;.549019634723663;0.78431373834
 $61;1.;
-$ANSA_COLOR;456003;SECTION_SHELL;1.;.894117653369904;.768627464771271;0.5;
+$ANSA_COLOR;456003;SECTION_SHELL;1.;.894117653369904;.768627464771271;1.;
 $ANSA_USER_ATTRIBUTES;SECTION_SHELL;User/cad_material;TEXT;RW;YES;;;
 $ANSA_USER_ATTRIBUTES;SECTION_SHELL;User/cad_thickness;TEXT;RW;YES;;;
 $ANSA_USER_ATTRIBUTES;SECTION_SOLID;User/cad_material;TEXT;RW;YES;;;

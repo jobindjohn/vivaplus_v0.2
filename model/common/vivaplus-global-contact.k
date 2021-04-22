@@ -1,28 +1,35 @@
 $
-$ANSA_VERSION;20.1.0;
+$ANSA_VERSION;21.1.0;
 $
 $
-$ file created by  A N S A  Tue Dec 22 21:40:24 2020
+$ file created by  A N S A  Tue Apr 13 12:03:45 2021
 $
 $ output from :
 $
-$ //129.27.213.85/vsi-p/010_RD/17_EU_VIRTUAL/020_Workpackage/WP2_HBM/T2_2_Seated
-$  OS-HBM 50F, OS-HBM 50M, Active-HBM and validation/LS-DYNA_Files/2020-12-20/vi
-$ vaplus-50F_v0-2-1-o.ansa
+$ C:/Users/iraeus/Documents/Projects/VIRTUAL/ViVA+/Final_assembly/vivaplus-50F_v
+$ 0-2-2d.ansa
 $
-$ANSA_USER_ATTRIBUTES;vivaplus-global-contact.k;INCLUDE;DM/IO Index;TEXT;3;DM/St
-$atus;TEXT;WIP;
+$ Settings :
+$
+$ Output format : R12
+$
+$ Output : All
+$
+$ANSA_USER_ATTRIBUTES;vivaplus-global-contact.k;INCLUDE;DM/Status;TEXT;WIP;
 $
 $
 $
-*KEYWORD
+$
+$
+$
 $ANSA_COLOR;vivaplus-global-contact.k;INCLUDE;.647058844566345;.407843142747879;
 $.588235318660736;1.;
+*KEYWORD
 *CONTACT_AUTOMATIC_SINGLE_SURFACE_ID
 $       ID|                                                                 NAME|
 903001    ME_C_Whole_body_skin                                                  
 $     SSID|     MSID|     STYP|   MSTYPE|   SBOXID|   MBOXID|      SPR|      MPR|
-    903001                   1         2         0         0         0         0
+    903001                   1                   0         0         0         0
 $       FS|       FD|       DC|       VC|      VDC|   PENCHK|       BT|       DT|
        0.2       0.2        0.        0.       20.         0        0.     1.E20
 $      SFS|      SFM|      SST|      MST|     SFST|     SFMT|      FSF|      VSF|
@@ -48,10 +55,10 @@ Thorax flesh
 Scapula-and-Clavicula
     616002                                        
     301101    301102    301201    301202    351101    351102    351201    351202
-*SET_PART_LIST_TITLE
+*SET_SHELL_GENERAL_TITLE
 Patella
     716002                                        
-    701302    751302
+PART          701301    751301
 *SET_PART_LIST_TITLE
 Upper_leg_flesh
     716003                                        
@@ -59,7 +66,7 @@ Upper_leg_flesh
 *SET_SHELL_ADD_TITLE
 Whole-Body-Contact-sans-neck-interface-shells
     903001                                        
-    903002    903003
+    716002    903002    903003
 *SET_SHELL_GENERAL_TITLE
 ME_C_Whole_body_skin
     903002                                        

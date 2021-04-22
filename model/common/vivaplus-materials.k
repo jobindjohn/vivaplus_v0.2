@@ -1,17 +1,21 @@
 $
-$ANSA_VERSION;20.1.0;
+$ANSA_VERSION;21.1.0;
 $
 $
-$ file created by  A N S A  Mon Dec 21 21:36:32 2020
+$ file created by  A N S A  Wed Apr 14 11:53:22 2021
 $
 $ output from :
 $
-$ //129.27.213.85/vsi-p/010_RD/17_EU_VIRTUAL/020_Workpackage/WP2_HBM/T2_2_Seated
-$  OS-HBM 50F, OS-HBM 50M, Active-HBM and validation/LS-DYNA_Files/2020-12-20/vi
-$ vaplus-50F_v0-2-1-n.ansa
+$ C:/Users/iraeus/Documents/Projects/VIRTUAL/ViVA+/Final_assembly/vivaplus-50F_v
+$ 0-2-2d.ansa
 $
-$ANSA_USER_ATTRIBUTES;vivaplus-materials.k;INCLUDE;DM/IO Index;TEXT;7;DM/Status;
-$TEXT;WIP;
+$ Settings :
+$
+$ Output format : R12
+$
+$ Output : All
+$
+$ANSA_USER_ATTRIBUTES;vivaplus-materials.k;INCLUDE;DM/Status;TEXT;WIP;
 $
 $
 $
@@ -73,7 +77,7 @@ $GI       |GI       |    VFLAG|
      3.E-6      0.31         0
 *MAT_FU_CHANG_FOAM_TITLE
 HE_C_AOJ_Art_Cart_Oesth-et-al-2020
-$      MID|       RO|        E|       ED|       TC|     FAIL|     DAMP|     TBID|
+$      MID|       RO|        E|     KCON|       TC|     FAIL|     DAMP|     TBID|
     103004     1.E-6      0.01        2.     1.E20       0.0      0.05    213000
 $   BVFLAG|    SFLAG|    RFLAG|    TFLAG|     PVID|     SRAF|      REF|       HU|
        0.0       0.0       0.0       0.0         0       0.0        0.        0.
@@ -354,7 +358,7 @@ $      MID|       RO|       PC|       MU|    TEROD|    CEROD|       YM|       PR
 *MAT_FABRIC_TITLE
 NE_C_SC1-PAOM
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
-    203008     1.E-6     1.E-6     1.E-6                 0.3      0.49
+    203008     1.E-6     1.E-6     1.E-6                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
   3.846E-7                            1.     0.001      0.49      0.05      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
@@ -368,7 +372,7 @@ $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
 *MAT_FABRIC_TITLE
 NE_C_SC1-AAOM
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
-    203009     1.E-6     1.E-6     1.E-6                 0.3      0.49
+    203009     1.E-6     1.E-6     1.E-6                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
   3.846E-7                            1.     0.001      0.49      0.05      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
@@ -382,7 +386,7 @@ $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
 *MAT_FABRIC_TITLE
 NE_C_C1C2-ALL
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
-    203011     1.E-6     1.E-6     1.E-6                 0.3      0.49
+    203011     1.E-6     1.E-6     1.E-6                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
   0.006459                            1.     0.001      0.49      0.05      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
@@ -398,7 +402,7 @@ $     LCAA|     LCBB|        H|       DT|         |    ECOAT|    SCOAT|    TCOAT
 *MAT_FABRIC_TITLE
 NE_C_C1C2-AAAM
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
-    203012     1.E-6     1.E-6     1.E-6                 0.3      0.49
+    203012     1.E-6     1.E-6     1.E-6                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
   3.846E-7                            1.     0.001      0.49      0.05      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
@@ -412,7 +416,7 @@ $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
 *MAT_FABRIC_TITLE
 NE_C_SC2-SL_Cruciform
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
-    203013     1.E-6     1.E-6     1.E-6                 0.3      0.49
+    203013     1.E-6     1.E-6     1.E-6                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
   0.008826                            1.     0.001      0.49      0.05      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
@@ -426,7 +430,7 @@ $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
 *MAT_FABRIC_TITLE
 NE_C_SC2-Apical
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
-    203014     1.E-6     1.E-6     1.E-6                 0.3      0.49
+    203014     1.E-6     1.E-6     1.E-6                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
   0.002507                            1.     0.001      0.49      0.05      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
@@ -440,7 +444,7 @@ $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
 *MAT_FABRIC_TITLE
 NE_C_SC2-Tectoria
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
-    203015     1.E-6     1.E-6     1.E-6                 0.3      0.49
+    203015     1.E-6     1.E-6     1.E-6                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
    0.01623                            1.     0.001      0.49      0.05      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
@@ -454,7 +458,7 @@ $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
 *MAT_FABRIC_TITLE
 NE_C_C1C2-Transverse
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
-    203016     1.E-6     1.E-6     1.E-6                 0.3      0.49
+    203016     1.E-6     1.E-6     1.E-6                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
   0.008826                            1.     0.001      0.49      0.05      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
@@ -468,7 +472,7 @@ $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
 *MAT_FABRIC_TITLE
 NE_C_C1C2-PAAM
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
-    203017     1.E-6     1.E-6     1.E-6                 0.3      0.49
+    203017     1.E-6     1.E-6     1.E-6                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
   3.846E-7                            1.     0.001      0.49      0.05      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
@@ -482,7 +486,7 @@ $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
 *MAT_FABRIC_TITLE
 NE_C_C1C2-IL_Cruciform
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
-    203018     1.E-6     1.E-6     1.E-6                 0.3      0.49
+    203018     1.E-6     1.E-6     1.E-6                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
   0.008826                            1.     0.001      0.49      0.05      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
@@ -496,7 +500,7 @@ $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
 *MAT_FABRIC_TITLE
 NE_C_C1C2-Transverse_Center
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
-    203019     1.E-6     1.E-6     1.E-6                 0.3      0.49
+    203019     1.E-6     1.E-6     1.E-6                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
   0.008826                            1.     0.001      0.49      0.05      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
@@ -520,7 +524,7 @@ NE_C_C2C3-Anulus_Ground_Panzer-Cronin-2009
 $      MID|       RO|        K|        N|       MU|     LCID|  FITTYPE|     LCSR|
     203022     1.E-6     0.001        2.        0.         0                   0
 $       C1|       C2|       C3|       C4|       C5|       C6|       C7|       C8|
-  0.000115  0.002101 -0.000893        0.        0.        0.        0.        0.
+   1.15E-4  0.002101  -8.93E-4        0.        0.        0.        0.        0.
 $       B1|       B2|       B3|       B4|       B5|       B6|       B7|       B8|
         4.       -1.       -2.        0.        0.        0.        0.        0.
 $        R|        M|
@@ -528,7 +532,7 @@ $        R|        M|
 *MAT_FABRIC_TITLE
 NE_C_C2C3-Anulus_Superficial_1
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
-    203023     1.E-6  0.006985  0.006985                 0.3      0.49
+    203023     1.E-6  0.006985  0.006985                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
   0.002687                            0.        0.        0.        0.      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
@@ -542,7 +546,7 @@ $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
 *MAT_FABRIC_TITLE
 NE_C_C2C3-Anulus_Superficial_2
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
-    203024     1.E-6  0.006985  0.006985                 0.3      0.49
+    203024     1.E-6  0.006985  0.006985                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
   0.002687                            0.        0.        0.        0.      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
@@ -556,7 +560,7 @@ $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
 *MAT_FABRIC_TITLE
 NE_C_C2C3-Anulus_Mid_1
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
-    203025     1.E-6   0.00539   0.00539                 0.3      0.49
+    203025     1.E-6   0.00539   0.00539                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
   0.002073                            0.        0.        0.        0.      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
@@ -570,7 +574,7 @@ $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
 *MAT_FABRIC_TITLE
 NE_C_C2C3-Anulus_Mid_2
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
-    203026     1.E-6   0.00539   0.00539                 0.3      0.49
+    203026     1.E-6   0.00539   0.00539                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
   0.002073                            0.        0.        0.        0.      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
@@ -584,7 +588,7 @@ $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
 *MAT_FABRIC_TITLE
 NE_C_C2C3-Anulus_Deep_1
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
-    203027     1.E-6  0.003795  0.003795                 0.3      0.49
+    203027     1.E-6  0.003795  0.003795                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
    0.00146                            0.        0.        0.        0.      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
@@ -598,7 +602,7 @@ $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
 *MAT_FABRIC_TITLE
 NE_C_C2C3-Anulus_Deep_2
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
-    203028     1.E-6  0.003795  0.003795                 0.3      0.49
+    203028     1.E-6  0.003795  0.003795                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
    0.00146                            0.        0.        0.        0.      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
@@ -626,7 +630,7 @@ NE_C_C3C4-Anulus_Ground_Panzer-Cronin-2009
 $      MID|       RO|        K|        N|       MU|     LCID|  FITTYPE|     LCSR|
     203032     1.E-6     0.001        2.        0.         0                   0
 $       C1|       C2|       C3|       C4|       C5|       C6|       C7|       C8|
-  0.000115  0.002101 -0.000893        0.        0.        0.        0.        0.
+   1.15E-4  0.002101  -8.93E-4        0.        0.        0.        0.        0.
 $       B1|       B2|       B3|       B4|       B5|       B6|       B7|       B8|
         4.       -1.       -2.        0.        0.        0.        0.        0.
 $        R|        M|
@@ -634,7 +638,7 @@ $        R|        M|
 *MAT_FABRIC_TITLE
 NE_C_C3C4-Anulus_Superficial_1
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
-    203033     1.E-6  0.006985  0.006985                 0.3      0.49
+    203033     1.E-6  0.006985  0.006985                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
   0.002687                            0.        0.        0.        0.      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
@@ -648,7 +652,7 @@ $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
 *MAT_FABRIC_TITLE
 NE_C_C3C4-Anulus_Superficial_2
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
-    203034     1.E-6  0.006985  0.006985                 0.3      0.49
+    203034     1.E-6  0.006985  0.006985                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
   0.002687                            0.        0.        0.        0.      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
@@ -662,7 +666,7 @@ $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
 *MAT_FABRIC_TITLE
 NE_C_C3C4-Anulus_Mid_1
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
-    203035     1.E-6   0.00539   0.00539                 0.3      0.49
+    203035     1.E-6   0.00539   0.00539                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
   0.002073                            0.        0.        0.        0.      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
@@ -676,7 +680,7 @@ $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
 *MAT_FABRIC_TITLE
 NE_C_C3C4-Anulus_Mid_2
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
-    203036     1.E-6   0.00539   0.00539                 0.3      0.49
+    203036     1.E-6   0.00539   0.00539                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
   0.002073                            0.        0.        0.        0.      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
@@ -690,7 +694,7 @@ $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
 *MAT_FABRIC_TITLE
 NE_C_C3C4-Anulus_Deep_1
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
-    203037     1.E-6  0.003795  0.003795                 0.3      0.49
+    203037     1.E-6  0.003795  0.003795                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
    0.00146                            0.        0.        0.        0.      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
@@ -704,7 +708,7 @@ $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
 *MAT_FABRIC_TITLE
 NE_C_C3C4-Anulus_Deep_2
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
-    203038     1.E-6  0.003795  0.003795                 0.3      0.49
+    203038     1.E-6  0.003795  0.003795                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
    0.00146                            0.        0.        0.        0.      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
@@ -732,7 +736,7 @@ NE_C_C4C5-Anulus_Ground_Panzer-Cronin-2009
 $      MID|       RO|        K|        N|       MU|     LCID|  FITTYPE|     LCSR|
     203042     1.E-6     0.001        2.        0.         0                   0
 $       C1|       C2|       C3|       C4|       C5|       C6|       C7|       C8|
-  0.000115  0.002101 -0.000893        0.        0.        0.        0.        0.
+   1.15E-4  0.002101  -8.93E-4        0.        0.        0.        0.        0.
 $       B1|       B2|       B3|       B4|       B5|       B6|       B7|       B8|
         4.       -1.       -2.        0.        0.        0.        0.        0.
 $        R|        M|
@@ -740,7 +744,7 @@ $        R|        M|
 *MAT_FABRIC_TITLE
 NE_C_C4C5-Anulus_Superficial_1
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
-    203043     1.E-6  0.006985  0.006985                 0.3      0.49
+    203043     1.E-6  0.006985  0.006985                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
   0.002687                            0.        0.        0.        0.      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
@@ -754,7 +758,7 @@ $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
 *MAT_FABRIC_TITLE
 NE_C_C4C5-Anulus_Superficial_2
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
-    203044     1.E-6  0.006985  0.006985                 0.3      0.49
+    203044     1.E-6  0.006985  0.006985                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
   0.002687                            0.        0.        0.        0.      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
@@ -768,7 +772,7 @@ $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
 *MAT_FABRIC_TITLE
 NE_C_C4C5-Anulus_Mid_1
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
-    203045     1.E-6   0.00539   0.00539                 0.3      0.49
+    203045     1.E-6   0.00539   0.00539                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
   0.002073                            0.        0.        0.        0.      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
@@ -782,7 +786,7 @@ $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
 *MAT_FABRIC_TITLE
 NE_C_C4C5-Anulus_Mid_2
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
-    203046     1.E-6   0.00539   0.00539                 0.3      0.49
+    203046     1.E-6   0.00539   0.00539                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
   0.002073                            0.        0.        0.        0.      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
@@ -796,7 +800,7 @@ $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
 *MAT_FABRIC_TITLE
 NE_C_C4C5-Anulus_Deep_1
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
-    203047     1.E-6  0.003795  0.003795                 0.3      0.49
+    203047     1.E-6  0.003795  0.003795                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
    0.00146                            0.        0.        0.        0.      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
@@ -810,7 +814,7 @@ $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
 *MAT_FABRIC_TITLE
 NE_C_C4C5-Anulus_Deep_2
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
-    203048     1.E-6  0.003795  0.003795                 0.3      0.49
+    203048     1.E-6  0.003795  0.003795                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
    0.00146                            0.        0.        0.        0.      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
@@ -838,7 +842,7 @@ NE_C_C5C6-Anulus_Ground_Panzer-Cronin-2009
 $      MID|       RO|        K|        N|       MU|     LCID|  FITTYPE|     LCSR|
     203052     1.E-6     0.001        2.        0.         0                   0
 $       C1|       C2|       C3|       C4|       C5|       C6|       C7|       C8|
-  0.000115  0.002101 -0.000893        0.        0.        0.        0.        0.
+   1.15E-4  0.002101  -8.93E-4        0.        0.        0.        0.        0.
 $       B1|       B2|       B3|       B4|       B5|       B6|       B7|       B8|
         4.       -1.       -2.        0.        0.        0.        0.        0.
 $        R|        M|
@@ -846,7 +850,7 @@ $        R|        M|
 *MAT_FABRIC_TITLE
 NE_C_C5C6-Anulus_Superficial_1
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
-    203053     1.E-6  0.006985  0.006985                 0.3      0.49
+    203053     1.E-6  0.006985  0.006985                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
   0.002687                            0.        0.        0.        0.      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
@@ -860,7 +864,7 @@ $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
 *MAT_FABRIC_TITLE
 NE_C_C5C6-Anulus_Superficial_2
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
-    203054     1.E-6  0.006985  0.006985                 0.3      0.49
+    203054     1.E-6  0.006985  0.006985                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
   0.002687                            0.        0.        0.        0.      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
@@ -874,7 +878,7 @@ $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
 *MAT_FABRIC_TITLE
 NE_C_C5C6-Anulus_Mid_1
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
-    203055     1.E-6   0.00539   0.00539                 0.3      0.49
+    203055     1.E-6   0.00539   0.00539                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
   0.002073                            0.        0.        0.        0.      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
@@ -888,7 +892,7 @@ $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
 *MAT_FABRIC_TITLE
 NE_C_C5C6-Anulus_Mid_2
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
-    203056     1.E-6   0.00539   0.00539                 0.3      0.49
+    203056     1.E-6   0.00539   0.00539                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
   0.002073                            0.        0.        0.        0.      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
@@ -902,7 +906,7 @@ $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
 *MAT_FABRIC_TITLE
 NE_C_C5C6-Anulus_Deep_1
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
-    203057     1.E-6  0.003795  0.003795                 0.3      0.49
+    203057     1.E-6  0.003795  0.003795                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
    0.00146                            0.        0.        0.        0.      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
@@ -916,7 +920,7 @@ $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
 *MAT_FABRIC_TITLE
 NE_C_C5C6-Anulus_Deep_2
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
-    203058     1.E-6  0.003795  0.003795                 0.3      0.49
+    203058     1.E-6  0.003795  0.003795                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
    0.00146                            0.        0.        0.        0.      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
@@ -944,7 +948,7 @@ NE_C_C6C7-Anulus_Ground_Panzer-Cronin-2009
 $      MID|       RO|        K|        N|       MU|     LCID|  FITTYPE|     LCSR|
     203062     1.E-6     0.001        2.        0.         0                   0
 $       C1|       C2|       C3|       C4|       C5|       C6|       C7|       C8|
-  0.000115  0.002101 -0.000893        0.        0.        0.        0.        0.
+   1.15E-4  0.002101  -8.93E-4        0.        0.        0.        0.        0.
 $       B1|       B2|       B3|       B4|       B5|       B6|       B7|       B8|
         4.       -1.       -2.        0.        0.        0.        0.        0.
 $        R|        M|
@@ -952,7 +956,7 @@ $        R|        M|
 *MAT_FABRIC_TITLE
 NE_C_C6C7-Anulus_Superficial_1
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
-    203063     1.E-6  0.006985  0.006985                 0.3      0.49
+    203063     1.E-6  0.006985  0.006985                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
   0.002687                            0.        0.        0.        0.      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
@@ -966,7 +970,7 @@ $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
 *MAT_FABRIC_TITLE
 NE_C_C6C7-Anulus_Superficial_2
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
-    203064     1.E-6  0.006985  0.006985                 0.3      0.49
+    203064     1.E-6  0.006985  0.006985                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
   0.002687                            0.        0.        0.        0.      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
@@ -980,7 +984,7 @@ $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
 *MAT_FABRIC_TITLE
 NE_C_C6C7-Anulus_Mid_1
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
-    203065     1.E-6   0.00539   0.00539                 0.3      0.49
+    203065     1.E-6   0.00539   0.00539                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
   0.002073                            0.        0.        0.        0.      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
@@ -994,7 +998,7 @@ $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
 *MAT_FABRIC_TITLE
 NE_C_C6C7-Anulus_Mid_2
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
-    203066     1.E-6   0.00539   0.00539                 0.3      0.49
+    203066     1.E-6   0.00539   0.00539                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
   0.002073                            0.        0.        0.        0.      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
@@ -1008,7 +1012,7 @@ $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
 *MAT_FABRIC_TITLE
 NE_C_C6C7-Anulus_Deep_1
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
-    203067     1.E-6  0.003795  0.003795                 0.3      0.49
+    203067     1.E-6  0.003795  0.003795                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
    0.00146                            0.        0.        0.        0.      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
@@ -1022,7 +1026,7 @@ $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
 *MAT_FABRIC_TITLE
 NE_C_C6C7-Anulus_Deep_2
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
-    203068     1.E-6  0.003795  0.003795                 0.3      0.49
+    203068     1.E-6  0.003795  0.003795                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
    0.00146                            0.        0.        0.        0.      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
@@ -1050,7 +1054,7 @@ NE_C_C7T1-Anulus_Ground_Panzer-Cronin-2009
 $      MID|       RO|        K|        N|       MU|     LCID|  FITTYPE|     LCSR|
     203072     1.E-6     0.001        2.        0.         0                   0
 $       C1|       C2|       C3|       C4|       C5|       C6|       C7|       C8|
-  0.000115  0.002101 -0.000893        0.        0.        0.        0.        0.
+   1.15E-4  0.002101  -8.93E-4        0.        0.        0.        0.        0.
 $       B1|       B2|       B3|       B4|       B5|       B6|       B7|       B8|
         4.       -1.       -2.        0.        0.        0.        0.        0.
 $        R|        M|
@@ -1058,7 +1062,7 @@ $        R|        M|
 *MAT_FABRIC_TITLE
 NE_C_C7T1-Anulus_Superficial_1
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
-    203073     1.E-6  0.006985  0.006985                 0.3      0.49
+    203073     1.E-6  0.006985  0.006985                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
   0.002687                            0.        0.        0.        0.      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
@@ -1072,7 +1076,7 @@ $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
 *MAT_FABRIC_TITLE
 NE_C_C7T1-Anulus_Superficial_2
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
-    203074     1.E-6  0.006985  0.006985                 0.3      0.49
+    203074     1.E-6  0.006985  0.006985                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
   0.002687                            0.        0.        0.        0.      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
@@ -1086,7 +1090,7 @@ $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
 *MAT_FABRIC_TITLE
 NE_C_C7T1-Anulus_Mid_1
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
-    203075     1.E-6   0.00539   0.00539                 0.3      0.49
+    203075     1.E-6   0.00539   0.00539                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
   0.002073                            0.        0.        0.        0.      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
@@ -1100,7 +1104,7 @@ $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
 *MAT_FABRIC_TITLE
 NE_C_C7T1-Anulus_Mid_2
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
-    203076     1.E-6   0.00539   0.00539                 0.3      0.49
+    203076     1.E-6   0.00539   0.00539                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
   0.002073                            0.        0.        0.        0.      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
@@ -1114,7 +1118,7 @@ $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
 *MAT_FABRIC_TITLE
 NE_C_C7T1-Anulus_Deep_1
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
-    203077     1.E-6  0.003795  0.003795                 0.3      0.49
+    203077     1.E-6  0.003795  0.003795                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
    0.00146                            0.        0.        0.        0.      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
@@ -1128,7 +1132,7 @@ $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
 *MAT_FABRIC_TITLE
 NE_C_C7T1-Anulus_Deep_2
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
-    203078     1.E-6  0.003795  0.003795                 0.3      0.49
+    203078     1.E-6  0.003795  0.003795                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
    0.00146                            0.        0.        0.        0.      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
@@ -1145,7 +1149,7 @@ $      MID|       RO|       PC|       MU|    TEROD|    CEROD|       YM|       PR
     203079     1.E-6        0.        0.        0.        0.      17.1       0.4
 *MAT_FU_CHANG_FOAM_TITLE
 NE_C_C2_AAJ_Art_Cart_Oesth-et-al-2020
-$      MID|       RO|        E|       ED|       TC|     FAIL|     DAMP|     TBID|
+$      MID|       RO|        E|     KCON|       TC|     FAIL|     DAMP|     TBID|
     213010     1.E-6      0.01        2.     1.E20       0.0      0.05    213000
 $   BVFLAG|    SFLAG|    RFLAG|    TFLAG|     PVID|     SRAF|      REF|       HU|
        0.0       0.0       0.0       0.0         0       0.0        0.        0.
@@ -1163,7 +1167,7 @@ $      MID|       RO|       PC|       MU|    TEROD|    CEROD|       YM|       PR
     213012     1.E-6        0.        0.        0.        0.      0.01       0.4
 *MAT_FU_CHANG_FOAM_TITLE
 NE_C_C1_AOJ_Art_Cart_Oesth-et-al-2020
-$      MID|       RO|        E|       ED|       TC|     FAIL|     DAMP|     TBID|
+$      MID|       RO|        E|     KCON|       TC|     FAIL|     DAMP|     TBID|
     213013     1.E-6      0.01        2.     1.E20       0.0      0.05    213000
 $   BVFLAG|    SFLAG|    RFLAG|    TFLAG|     PVID|     SRAF|      REF|       HU|
        0.0       0.0       0.0       0.0         0       0.0        0.        0.
@@ -1174,7 +1178,7 @@ $       C3|       C4|       C5|      AIJ|      SIJ|     MINR|     MAXR|    SHAPE
 *MAT_FABRIC_TITLE
 NE_C_AOCJ-CL
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
-    213014     1.E-6     1.E-6     1.E-6                 0.3      0.49
+    213014     1.E-6     1.E-6     1.E-6                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
   3.846E-7                            1.     0.001      0.49      0.05      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
@@ -1188,7 +1192,7 @@ $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
 *MAT_FABRIC_TITLE
 NE_C_AAJ-CL
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
-    213015     1.E-6     1.E-6     1.E-6                 0.3      0.49
+    213015     1.E-6     1.E-6     1.E-6                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
   3.846E-7                            1.     0.001      0.49      0.05      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
@@ -1201,7 +1205,7 @@ $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
    2004111   2404111         0         0         0         0        0.
 *MAT_FU_CHANG_FOAM_TITLE
 NE_C_C1_AAJ_Art_Cart_Oesth-et-al-2020
-$      MID|       RO|        E|       ED|       TC|     FAIL|     DAMP|     TBID|
+$      MID|       RO|        E|     KCON|       TC|     FAIL|     DAMP|     TBID|
     213016     1.E-6      0.01        2.     1.E20       0.0      0.05    213000
 $   BVFLAG|    SFLAG|    RFLAG|    TFLAG|     PVID|     SRAF|      REF|       HU|
        0.0       0.0       0.0       0.0         0       0.0        0.        0.
@@ -1220,7 +1224,7 @@ $      MID|       RO|       PC|       MU|    TEROD|    CEROD|       YM|       PR
 *MAT_FABRIC_TITLE
 NE_C_SC2-Alar
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
-    213019     1.E-6     1.E-6     1.E-6                 0.3      0.49
+    213019     1.E-6     1.E-6     1.E-6                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
   0.002925                            1.     0.001      0.49      0.05      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
@@ -1234,9 +1238,9 @@ $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
 *MAT_FABRIC_TITLE
 NE_L_C2C3-CL
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
-    213021     1.E-6     1.E-6     1.E-6                 0.3      0.49
+    213021     1.E-6     1.E-6     1.E-6                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
- 0.0002346                            1.     0.001      0.49      0.05      0.05
+  2.346E-4                            1.     0.001      0.49      0.05      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
        0.0        0.        0.        0.       0.0     -14.0       0.0         0
 $         |   RGBRTH|    A0REF|                             |       X0|       X1|
@@ -1249,7 +1253,7 @@ $     LCAA|     LCBB|        H|       DT|         |    ECOAT|    SCOAT|    TCOAT
          0         0        0.        3.                  0.        0.        0.
 *MAT_FU_CHANG_FOAM_TITLE
 NE_L_C2-Inf_Facet_Art_Cart_Oesth-et-al-2020
-$      MID|       RO|        E|       ED|       TC|     FAIL|     DAMP|     TBID|
+$      MID|       RO|        E|     KCON|       TC|     FAIL|     DAMP|     TBID|
     213022     1.E-6      0.01        2.     1.E20       0.0      0.05    213000
 $   BVFLAG|    SFLAG|    RFLAG|    TFLAG|     PVID|     SRAF|      REF|       HU|
        0.0       0.0       0.0       0.0         0       0.0        0.        0.
@@ -1259,7 +1263,7 @@ $       C3|       C4|       C5|      AIJ|      SIJ|     MINR|     MAXR|    SHAPE
         0.        0.        0.        0.        0.        0.        0.        0.
 *MAT_FU_CHANG_FOAM_TITLE
 NE_L_C3-Sup_Facet_Art_Cart_Oesth-et-al-2020
-$      MID|       RO|        E|       ED|       TC|     FAIL|     DAMP|     TBID|
+$      MID|       RO|        E|     KCON|       TC|     FAIL|     DAMP|     TBID|
     213023     1.E-6      0.01        2.     1.E20       0.0      0.05    213000
 $   BVFLAG|    SFLAG|    RFLAG|    TFLAG|     PVID|     SRAF|      REF|       HU|
        0.0       0.0       0.0       0.0         0       0.0        0.        0.
@@ -1278,9 +1282,9 @@ $      MID|       RO|       PC|       MU|    TEROD|    CEROD|       YM|       PR
 *MAT_FABRIC_TITLE
 NE_C_C2C3-LF
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
-    213026     1.E-6     1.E-6     1.E-6                 0.3      0.49
+    213026     1.E-6     1.E-6     1.E-6                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
- 0.0004825                            1.     0.001      0.49      0.05      0.05
+  4.825E-4                            1.     0.001      0.49      0.05      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
        0.0        0.        0.        0.       0.0     -14.0       0.0         0
 $         |   RGBRTH|    A0REF|                             |       X0|       X1|
@@ -1294,7 +1298,7 @@ $     LCAA|     LCBB|        H|       DT|         |    ECOAT|    SCOAT|    TCOAT
 *MAT_FABRIC_TITLE
 NE_C_C2C3-PLL
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
-    213027     1.E-6     1.E-6     1.E-6                 0.3      0.49
+    213027     1.E-6     1.E-6     1.E-6                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
   0.008964                            1.     0.001      0.49      0.05      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
@@ -1310,7 +1314,7 @@ $     LCAA|     LCBB|        H|       DT|         |    ECOAT|    SCOAT|    TCOAT
 *MAT_FABRIC_TITLE
 NE_C_C2C3-ALL
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
-    213028     1.E-6     1.E-6     1.E-6                 0.3      0.49
+    213028     1.E-6     1.E-6     1.E-6                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
   0.006459                            1.     0.001      0.49      0.05      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
@@ -1326,9 +1330,9 @@ $     LCAA|     LCBB|        H|       DT|         |    ECOAT|    SCOAT|    TCOAT
 *MAT_FABRIC_TITLE
 NE_C_C2C3-ISL
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
-    213029     1.E-6     1.E-6     1.E-6                 0.3      0.49
+    213029     1.E-6     1.E-6     1.E-6                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
- 0.0006219                            1.     0.001      0.49      0.05      0.05
+  6.219E-4                            1.     0.001      0.49      0.05      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
        0.0        0.        0.        0.       0.0     -14.0       0.0         0
 $         |   RGBRTH|    A0REF|                             |       X0|       X1|
@@ -1342,9 +1346,9 @@ $     LCAA|     LCBB|        H|       DT|         |    ECOAT|    SCOAT|    TCOAT
 *MAT_FABRIC_TITLE
 NE_C_C3C4-CL
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
-    213031     1.E-6     1.E-6     1.E-6                 0.3      0.49
+    213031     1.E-6     1.E-6     1.E-6                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
- 0.0002228                            1.     0.001      0.49      0.05      0.05
+  2.228E-4                            1.     0.001      0.49      0.05      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
        0.0        0.        0.        0.       0.0     -14.0       0.0         0
 $         |   RGBRTH|    A0REF|                             |       X0|       X1|
@@ -1357,7 +1361,7 @@ $     LCAA|     LCBB|        H|       DT|         |    ECOAT|    SCOAT|    TCOAT
          0         0        0.        3.                  0.        0.        0.
 *MAT_FU_CHANG_FOAM_TITLE
 NE_C_C3-Inf_Facet_Art_Cart_Oesth-et-al-2020
-$      MID|       RO|        E|       ED|       TC|     FAIL|     DAMP|     TBID|
+$      MID|       RO|        E|     KCON|       TC|     FAIL|     DAMP|     TBID|
     213032     1.E-6      0.01        2.     1.E20       0.0      0.05    213000
 $   BVFLAG|    SFLAG|    RFLAG|    TFLAG|     PVID|     SRAF|      REF|       HU|
        0.0       0.0       0.0       0.0         0       0.0        0.        0.
@@ -1367,7 +1371,7 @@ $       C3|       C4|       C5|      AIJ|      SIJ|     MINR|     MAXR|    SHAPE
         0.        0.        0.        0.        0.        0.        0.        0.
 *MAT_FU_CHANG_FOAM_TITLE
 NE_C_C4-Sup_Facet_Art_Cart_Oesth-et-al-2020
-$      MID|       RO|        E|       ED|       TC|     FAIL|     DAMP|     TBID|
+$      MID|       RO|        E|     KCON|       TC|     FAIL|     DAMP|     TBID|
     213033     1.E-6      0.01        2.     1.E20       0.0      0.05    213000
 $   BVFLAG|    SFLAG|    RFLAG|    TFLAG|     PVID|     SRAF|      REF|       HU|
        0.0       0.0       0.0       0.0         0       0.0        0.        0.
@@ -1386,9 +1390,9 @@ $      MID|       RO|       PC|       MU|    TEROD|    CEROD|       YM|       PR
 *MAT_FABRIC_TITLE
 NE_C_C3C4-LF
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
-    213036     1.E-6     1.E-6     1.E-6                 0.3      0.49
+    213036     1.E-6     1.E-6     1.E-6                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
- 0.0006713                            1.     0.001      0.49      0.05      0.05
+  6.713E-4                            1.     0.001      0.49      0.05      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
        0.0        0.        0.        0.       0.0     -14.0       0.0         0
 $         |   RGBRTH|    A0REF|                             |       X0|       X1|
@@ -1402,7 +1406,7 @@ $     LCAA|     LCBB|        H|       DT|         |    ECOAT|    SCOAT|    TCOAT
 *MAT_FABRIC_TITLE
 NE_C_C3C4-PLL
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
-    213037     1.E-6     1.E-6     1.E-6                 0.3      0.49
+    213037     1.E-6     1.E-6     1.E-6                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
   0.008964                            1.     0.001      0.49      0.05      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
@@ -1418,7 +1422,7 @@ $     LCAA|     LCBB|        H|       DT|         |    ECOAT|    SCOAT|    TCOAT
 *MAT_FABRIC_TITLE
 NE_C_C3C4-ALL
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
-    213038     1.E-6     1.E-6     1.E-6                 0.3      0.49
+    213038     1.E-6     1.E-6     1.E-6                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
   0.006459                            1.     0.001      0.49      0.05      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
@@ -1434,9 +1438,9 @@ $     LCAA|     LCBB|        H|       DT|         |    ECOAT|    SCOAT|    TCOAT
 *MAT_FABRIC_TITLE
 NE_C_C3C4-ISL
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
-    213039     1.E-6     1.E-6     1.E-6                 0.3      0.49
+    213039     1.E-6     1.E-6     1.E-6                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
- 0.0006984                            1.     0.001      0.49      0.05      0.05
+  6.984E-4                            1.     0.001      0.49      0.05      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
        0.0        0.        0.        0.       0.0     -14.0       0.0         0
 $         |   RGBRTH|    A0REF|                             |       X0|       X1|
@@ -1450,9 +1454,9 @@ $     LCAA|     LCBB|        H|       DT|         |    ECOAT|    SCOAT|    TCOAT
 *MAT_FABRIC_TITLE
 NE_C_C4C5-CL
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
-    213041     1.E-6     1.E-6     1.E-6                 0.3      0.49
+    213041     1.E-6     1.E-6     1.E-6                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
- 0.0002427                            1.     0.001      0.49      0.05      0.05
+  2.427E-4                            1.     0.001      0.49      0.05      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
        0.0        0.        0.        0.       0.0     -14.0       0.0         0
 $         |   RGBRTH|    A0REF|                             |       X0|       X1|
@@ -1465,7 +1469,7 @@ $     LCAA|     LCBB|        H|       DT|         |    ECOAT|    SCOAT|    TCOAT
          0         0        0.        3.                  0.        0.        0.
 *MAT_FU_CHANG_FOAM_TITLE
 NE_C_C4-Inf_Facet_Art_Cart_Oesth-et-al-2020
-$      MID|       RO|        E|       ED|       TC|     FAIL|     DAMP|     TBID|
+$      MID|       RO|        E|     KCON|       TC|     FAIL|     DAMP|     TBID|
     213042     1.E-6      0.01        2.     1.E20       0.0      0.05    213000
 $   BVFLAG|    SFLAG|    RFLAG|    TFLAG|     PVID|     SRAF|      REF|       HU|
        0.0       0.0       0.0       0.0         0       0.0        0.        0.
@@ -1475,7 +1479,7 @@ $       C3|       C4|       C5|      AIJ|      SIJ|     MINR|     MAXR|    SHAPE
         0.        0.        0.        0.        0.        0.        0.        0.
 *MAT_FU_CHANG_FOAM_TITLE
 NE_C_C5-Sup_Facet_Art_Cart_Oesth-et-al-2020
-$      MID|       RO|        E|       ED|       TC|     FAIL|     DAMP|     TBID|
+$      MID|       RO|        E|     KCON|       TC|     FAIL|     DAMP|     TBID|
     213043     1.E-6      0.01        2.     1.E20       0.0      0.05    213000
 $   BVFLAG|    SFLAG|    RFLAG|    TFLAG|     PVID|     SRAF|      REF|       HU|
        0.0       0.0       0.0       0.0         0       0.0        0.        0.
@@ -1494,9 +1498,9 @@ $      MID|       RO|       PC|       MU|    TEROD|    CEROD|       YM|       PR
 *MAT_FABRIC_TITLE
 NE_C_C4C5-LF
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
-    213046     1.E-6     1.E-6     1.E-6                 0.3      0.49
+    213046     1.E-6     1.E-6     1.E-6                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
- 0.0004434                            1.     0.001      0.49      0.05      0.05
+  4.434E-4                            1.     0.001      0.49      0.05      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
        0.0        0.        0.        0.       0.0     -14.0       0.0         0
 $         |   RGBRTH|    A0REF|                             |       X0|       X1|
@@ -1510,7 +1514,7 @@ $     LCAA|     LCBB|        H|       DT|         |    ECOAT|    SCOAT|    TCOAT
 *MAT_FABRIC_TITLE
 NE_C_C4C5-PLL
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
-    213047     1.E-6     1.E-6     1.E-6                 0.3      0.49
+    213047     1.E-6     1.E-6     1.E-6                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
   0.008964                            1.     0.001      0.49      0.05      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
@@ -1526,7 +1530,7 @@ $     LCAA|     LCBB|        H|       DT|         |    ECOAT|    SCOAT|    TCOAT
 *MAT_FABRIC_TITLE
 NE_C_C4C5-ALL
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
-    213048     1.E-6     1.E-6     1.E-6                 0.3      0.49
+    213048     1.E-6     1.E-6     1.E-6                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
   0.006459                            1.     0.001      0.49      0.05      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
@@ -1542,9 +1546,9 @@ $     LCAA|     LCBB|        H|       DT|         |    ECOAT|    SCOAT|    TCOAT
 *MAT_FABRIC_TITLE
 NE_C_C4C5-ISL
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
-    213049     1.E-6     1.E-6     1.E-6                 0.3      0.49
+    213049     1.E-6     1.E-6     1.E-6                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
- 0.0004787                            1.     0.001      0.49      0.05      0.05
+  4.787E-4                            1.     0.001      0.49      0.05      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
        0.0        0.        0.        0.       0.0     -14.0       0.0         0
 $         |   RGBRTH|    A0REF|                             |       X0|       X1|
@@ -1558,9 +1562,9 @@ $     LCAA|     LCBB|        H|       DT|         |    ECOAT|    SCOAT|    TCOAT
 *MAT_FABRIC_TITLE
 NE_C_C5C6-CL
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
-    213051     1.E-6     1.E-6     1.E-6                 0.3      0.49
+    213051     1.E-6     1.E-6     1.E-6                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
- 0.0001759                            1.     0.001      0.49      0.05      0.05
+  1.759E-4                            1.     0.001      0.49      0.05      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
        0.0        0.        0.        0.       0.0     -14.0       0.0         0
 $         |   RGBRTH|    A0REF|                             |       X0|       X1|
@@ -1573,7 +1577,7 @@ $     LCAA|     LCBB|        H|       DT|         |    ECOAT|    SCOAT|    TCOAT
          0         0        0.        3.                  0.        0.        0.
 *MAT_FU_CHANG_FOAM_TITLE
 NE_C_C5-Inf_Facet_Art_Cart_Oesth-et-al-2020
-$      MID|       RO|        E|       ED|       TC|     FAIL|     DAMP|     TBID|
+$      MID|       RO|        E|     KCON|       TC|     FAIL|     DAMP|     TBID|
     213052     1.E-6      0.01        2.     1.E20       0.0      0.05    213000
 $   BVFLAG|    SFLAG|    RFLAG|    TFLAG|     PVID|     SRAF|      REF|       HU|
        0.0       0.0       0.0       0.0         0       0.0        0.        0.
@@ -1583,7 +1587,7 @@ $       C3|       C4|       C5|      AIJ|      SIJ|     MINR|     MAXR|    SHAPE
         0.        0.        0.        0.        0.        0.        0.        0.
 *MAT_FU_CHANG_FOAM_TITLE
 NE_C_C6-Sup_Facet_Art_Cart_Oesth-et-al-2020
-$      MID|       RO|        E|       ED|       TC|     FAIL|     DAMP|     TBID|
+$      MID|       RO|        E|     KCON|       TC|     FAIL|     DAMP|     TBID|
     213053     1.E-6      0.01        2.     1.E20       0.0      0.05    213000
 $   BVFLAG|    SFLAG|    RFLAG|    TFLAG|     PVID|     SRAF|      REF|       HU|
        0.0       0.0       0.0       0.0         0       0.0        0.        0.
@@ -1602,9 +1606,9 @@ $      MID|       RO|       PC|       MU|    TEROD|    CEROD|       YM|       PR
 *MAT_FABRIC_TITLE
 NE_C_C5C6-LF
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
-    213056     1.E-6     1.E-6     1.E-6                 0.3      0.49
+    213056     1.E-6     1.E-6     1.E-6                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
- 0.0004086                            1.     0.001      0.49      0.05      0.05
+  4.086E-4                            1.     0.001      0.49      0.05      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
        0.0        0.        0.        0.       0.0     -14.0       0.0         0
 $         |   RGBRTH|    A0REF|                             |       X0|       X1|
@@ -1618,7 +1622,7 @@ $     LCAA|     LCBB|        H|       DT|         |    ECOAT|    SCOAT|    TCOAT
 *MAT_FABRIC_TITLE
 NE_C_C5C6-PLL
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
-    213057     1.E-6     1.E-6     1.E-6                 0.3      0.49
+    213057     1.E-6     1.E-6     1.E-6                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
   0.008964                            1.     0.001      0.49      0.05      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
@@ -1634,7 +1638,7 @@ $     LCAA|     LCBB|        H|       DT|         |    ECOAT|    SCOAT|    TCOAT
 *MAT_FABRIC_TITLE
 NE_C_C5C6-ALL
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
-    213058     1.E-6     1.E-6     1.E-6                 0.3      0.49
+    213058     1.E-6     1.E-6     1.E-6                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
   0.006459                            1.     0.001      0.49      0.05      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
@@ -1650,9 +1654,9 @@ $     LCAA|     LCBB|        H|       DT|         |    ECOAT|    SCOAT|    TCOAT
 *MAT_FABRIC_TITLE
 NE_C_C5C6-ISL
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
-    213059     1.E-6     1.E-6     1.E-6                 0.3      0.49
+    213059     1.E-6     1.E-6     1.E-6                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
- 0.0002851                            1.     0.001      0.49      0.05      0.05
+  2.851E-4                            1.     0.001      0.49      0.05      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
        0.0        0.        0.        0.       0.0     -14.0       0.0         0
 $         |   RGBRTH|    A0REF|                             |       X0|       X1|
@@ -1666,9 +1670,9 @@ $     LCAA|     LCBB|        H|       DT|         |    ECOAT|    SCOAT|    TCOAT
 *MAT_FABRIC_TITLE
 NE_C_C6C7-CL
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
-    213061     1.E-6     1.E-6     1.E-6                 0.3      0.49
+    213061     1.E-6     1.E-6     1.E-6                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
- 0.0002459                            1.     0.001      0.49      0.05      0.05
+  2.459E-4                            1.     0.001      0.49      0.05      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
        0.0        0.        0.        0.       0.0     -14.0       0.0         0
 $         |   RGBRTH|    A0REF|                             |       X0|       X1|
@@ -1681,7 +1685,7 @@ $     LCAA|     LCBB|        H|       DT|         |    ECOAT|    SCOAT|    TCOAT
          0         0        0.        3.                  0.        0.        0.
 *MAT_FU_CHANG_FOAM_TITLE
 NE_C_C6-Inf_Facet_Art_Cart_Oesth-et-al-2020
-$      MID|       RO|        E|       ED|       TC|     FAIL|     DAMP|     TBID|
+$      MID|       RO|        E|     KCON|       TC|     FAIL|     DAMP|     TBID|
     213062     1.E-6      0.01        2.     1.E20       0.0      0.05    213000
 $   BVFLAG|    SFLAG|    RFLAG|    TFLAG|     PVID|     SRAF|      REF|       HU|
        0.0       0.0       0.0       0.0         0       0.0        0.        0.
@@ -1691,7 +1695,7 @@ $       C3|       C4|       C5|      AIJ|      SIJ|     MINR|     MAXR|    SHAPE
         0.        0.        0.        0.        0.        0.        0.        0.
 *MAT_FU_CHANG_FOAM_TITLE
 NE_C_C7-Sup_Facet_Art_Cart_Oesth-et-al-2020
-$      MID|       RO|        E|       ED|       TC|     FAIL|     DAMP|     TBID|
+$      MID|       RO|        E|     KCON|       TC|     FAIL|     DAMP|     TBID|
     213063     1.E-6      0.01        2.     1.E20       0.0      0.05    213000
 $   BVFLAG|    SFLAG|    RFLAG|    TFLAG|     PVID|     SRAF|      REF|       HU|
        0.0       0.0       0.0       0.0         0       0.0        0.        0.
@@ -1710,9 +1714,9 @@ $      MID|       RO|       PC|       MU|    TEROD|    CEROD|       YM|       PR
 *MAT_FABRIC_TITLE
 NE_C_C6C7-LF
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
-    213066     1.E-6     1.E-6     1.E-6                 0.3      0.49
+    213066     1.E-6     1.E-6     1.E-6                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
- 0.0002516                            1.     0.001      0.49      0.05      0.05
+  2.516E-4                            1.     0.001      0.49      0.05      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
        0.0        0.        0.        0.       0.0     -14.0       0.0         0
 $         |   RGBRTH|    A0REF|                             |       X0|       X1|
@@ -1726,7 +1730,7 @@ $     LCAA|     LCBB|        H|       DT|         |    ECOAT|    SCOAT|    TCOAT
 *MAT_FABRIC_TITLE
 NE_C_C6C7-PLL
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
-    213067     1.E-6     1.E-6     1.E-6                 0.3      0.49
+    213067     1.E-6     1.E-6     1.E-6                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
   0.008964                            1.     0.001      0.49      0.05      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
@@ -1742,7 +1746,7 @@ $     LCAA|     LCBB|        H|       DT|         |    ECOAT|    SCOAT|    TCOAT
 *MAT_FABRIC_TITLE
 NE_C_C6C7-ALL
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
-    213068     1.E-6     1.E-6     1.E-6                 0.3      0.49
+    213068     1.E-6     1.E-6     1.E-6                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
   0.006459                            1.     0.001      0.49      0.05      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
@@ -1758,9 +1762,9 @@ $     LCAA|     LCBB|        H|       DT|         |    ECOAT|    SCOAT|    TCOAT
 *MAT_FABRIC_TITLE
 NE_C_C6C7-ISL
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
-    213069     1.E-6     1.E-6     1.E-6                 0.3      0.49
+    213069     1.E-6     1.E-6     1.E-6                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
- 0.0001627                            1.     0.001      0.49      0.05      0.05
+  1.627E-4                            1.     0.001      0.49      0.05      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
        0.0        0.        0.        0.       0.0     -14.0       0.0         0
 $         |   RGBRTH|    A0REF|                             |       X0|       X1|
@@ -1774,9 +1778,9 @@ $     LCAA|     LCBB|        H|       DT|         |    ECOAT|    SCOAT|    TCOAT
 *MAT_FABRIC_TITLE
 NE_C_C7T1-CL
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
-    213071     1.E-6     1.E-6     1.E-6                 0.3      0.49
+    213071     1.E-6     1.E-6     1.E-6                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
-  0.000154                            1.     0.001      0.49      0.05      0.05
+   1.54E-4                            1.     0.001      0.49      0.05      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
        0.0        0.        0.        0.       0.0     -14.0       0.0         0
 $         |   RGBRTH|    A0REF|                             |       X0|       X1|
@@ -1789,7 +1793,7 @@ $     LCAA|     LCBB|        H|       DT|         |    ECOAT|    SCOAT|    TCOAT
          0         0        0.        3.                  0.        0.        0.
 *MAT_FU_CHANG_FOAM_TITLE
 NE_C_C7-Inf_Facet_Art_Cart_Oesth-et-al-2020
-$      MID|       RO|        E|       ED|       TC|     FAIL|     DAMP|     TBID|
+$      MID|       RO|        E|     KCON|       TC|     FAIL|     DAMP|     TBID|
     213072     1.E-6      0.01        2.     1.E20       0.0      0.05    213000
 $   BVFLAG|    SFLAG|    RFLAG|    TFLAG|     PVID|     SRAF|      REF|       HU|
        0.0       0.0       0.0       0.0         0       0.0        0.        0.
@@ -1799,7 +1803,7 @@ $       C3|       C4|       C5|      AIJ|      SIJ|     MINR|     MAXR|    SHAPE
         0.        0.        0.        0.        0.        0.        0.        0.
 *MAT_FU_CHANG_FOAM_TITLE
 NE_C_T1-Sup_Facet_Art_Cart_Oesth-et-al-2020
-$      MID|       RO|        E|       ED|       TC|     FAIL|     DAMP|     TBID|
+$      MID|       RO|        E|     KCON|       TC|     FAIL|     DAMP|     TBID|
     213073     1.E-6      0.01        2.     1.E20       0.0      0.05    213000
 $   BVFLAG|    SFLAG|    RFLAG|    TFLAG|     PVID|     SRAF|      REF|       HU|
        0.0       0.0       0.0       0.0         0       0.0        0.        0.
@@ -1818,9 +1822,9 @@ $      MID|       RO|       PC|       MU|    TEROD|    CEROD|       YM|       PR
 *MAT_FABRIC_TITLE
 NE_C_C7T1-LF
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
-    213076     1.E-6     1.E-6     1.E-6                 0.3      0.49
+    213076     1.E-6     1.E-6     1.E-6                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
- 0.0005178                            1.     0.001      0.49      0.05      0.05
+  5.178E-4                            1.     0.001      0.49      0.05      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
        0.0        0.        0.        0.       0.0     -14.0       0.0         0
 $         |   RGBRTH|    A0REF|                             |       X0|       X1|
@@ -1834,7 +1838,7 @@ $     LCAA|     LCBB|        H|       DT|         |    ECOAT|    SCOAT|    TCOAT
 *MAT_FABRIC_TITLE
 NE_C_C7T1-PLL
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
-    213077     1.E-6     1.E-6     1.E-6                 0.3      0.49
+    213077     1.E-6     1.E-6     1.E-6                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
   0.008964                            1.     0.001      0.49      0.05      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
@@ -1850,7 +1854,7 @@ $     LCAA|     LCBB|        H|       DT|         |    ECOAT|    SCOAT|    TCOAT
 *MAT_FABRIC_TITLE
 NE_C_C7T1-ALL
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
-    213078     1.E-6     1.E-6     1.E-6                 0.3      0.49
+    213078     1.E-6     1.E-6     1.E-6                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
   0.006459                            1.     0.001      0.49      0.05      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
@@ -1866,9 +1870,9 @@ $     LCAA|     LCBB|        H|       DT|         |    ECOAT|    SCOAT|    TCOAT
 *MAT_FABRIC_TITLE
 NE_C_C7T1-ISL
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
-    213079     1.E-6     1.E-6     1.E-6                 0.3      0.49
+    213079     1.E-6     1.E-6     1.E-6                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
- 0.0001627                            1.     0.001      0.49      0.05      0.05
+  1.627E-4                            1.     0.001      0.49      0.05      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
        0.0        0.        0.        0.       0.0     -14.0       0.0         0
 $         |   RGBRTH|    A0REF|                             |       X0|       X1|
@@ -2214,9 +2218,9 @@ $      MID|       RO|       PC|       MU|    TEROD|    CEROD|       YM|       PR
 *MAT_FABRIC_TITLE
 UX_Skin_Manschot_et_al_1986
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
-    305101     1.E-6     0.001     0.001                0.49      0.49
+    305101     1.E-6     0.001     0.001                0.49          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
-   0.00033                            1.     1.E-6      0.49      0.05      0.05
+    3.3E-4                            1.     1.E-6      0.49      0.05      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
        0.0        0.        0.        0.       0.0      14.0       0.0         0
 $         |   RGBRTH|    A0REF|                             |       X0|       X1|
@@ -2236,11 +2240,11 @@ $   ALPHA1|   ALPHA2|   ALPHA3|   ALPHA4|   ALPHA5|   ALPHA6|   ALPHA7|   ALPHA8
 *MAT_NULL_TITLE
 UX-Shoulder_Null
 $      MID|       RO|       PC|       MU|    TEROD|    CEROD|       YM|       PR|
-    305104     1.E-9        0.        0.        0.        0.       10.       0.3
+    305104     1.E-6        0.        0.        0.        0.     0.001       0.3
 *MAT_OGDEN_RUBBER_TITLE
 UX-Soft-Tissue_Fat-Engelbrektsson-2011
 $      MID|       RO|       PR|        N|       NV|        G|     SIGF|      REF|
-    305122 1.2886E-6 0.4999983         0         6        0.        0.        0.
+    305122     1.E-6 0.4999983         0         6        0.        0.        0.
 $      MU1|      MU2|      MU3|      MU4|      MU5|      MU6|      MU7|      MU8|
      3.E-8        0.        0.        0.        0.        0.        0.        0.
 $   ALPHA1|   ALPHA2|   ALPHA3|   ALPHA4|   ALPHA5|   ALPHA6|   ALPHA7|   ALPHA8|
@@ -2297,8 +2301,8 @@ $      MID|       RO|       KM|       MU|        G|     SIGF|      REF|    PRTEN
     354111     1.E-6       0.1       0.1                            0.          
 $      SGL|       SW|       ST|     LCID|  TENSION|    RTYPE|   AVGOPT|   PRBETA|
         1.        1.        1.    354111                                        
-$   LCUNLD|       HU|    SHAPE|
-                  1.        0.
+$   LCUNLD|       HU|    SHAPE|     STOL|    VISCO|   HISOUT|
+                  1.        0.                           0.0
 *MAT_RIGID_TITLE
 TX_C_CB_L1-Rigid
 $      MID|       RO|        E|       PR|        N|   COUPLE|        M| ALIAS_RE|
@@ -2714,27 +2718,27 @@ $       A1|       A2|       A3|       V1|       V2|       V3|
 *MAT_NULL_TITLE
 TX-Intercotal-muscle-External-T1-T12-L-Nulls
 $      MID|       RO|       PC|       MU|    TEROD|    CEROD|       YM|       PR|
-    404001     1.E-7        0.        0.        0.        0.        1.       0.3
+    404001     1.E-6        0.        0.        0.        0.        1.       0.3
 *MAT_OGDEN_RUBBER_TITLE
-Hosein Ogden model - Upper range of compressive stiffness from experiments
+Naseri Ogden model - Average response of compressive stiffness from experiments
 $      MID|       RO|       PR|        N|       NV|        G|     SIGF|      REF|
-    405100     9.E-7   0.49998         0         6                            0.
+    405100&TX_DENS     0.49998         0         6                            0.
 $      MU1|      MU2|      MU3|      MU4|      MU5|      MU6|      MU7|      MU8|
     3.5E-8                                                                      
 $   ALPHA1|   ALPHA2|   ALPHA3|   ALPHA4|   ALPHA5|   ALPHA6|   ALPHA7|   ALPHA8|
        20.                                                                      
 $GI       |GI       |    VFLAG|
-    1.3E-6    0.0003          
+     8.E-7     0.006          
 $GI       |GI       |
     1.8E-6      0.05
 $GI       |GI       |
     2.2E-6       0.6
-*MAT_LUNG_TISSUE_TITLE
-TX_Thoracic_Cavity_Lung_Gayzik_et_al_2010
-$      MID|       RO|        K|        C|    DELTA|    ALPHA|     BETA|
-    405101   1.18E-7  8.485E-5   2.39E-7    0.0702     0.629    -1.143
-$       C1|       C2|     LCID|    TRAMP|       NT|
-    2.2E-8      1.42                              
+*MAT_LOW_DENSITY_FOAM_TITLE
+TX_Thoracic_Cavity_Lung_Rater_2013
+$      MID|       RO|        E|     LCID|       TC|       HU|     BETA|     DAMP|
+    405101     1.E-6       0.1    405101     1.E20       0.1        0.       0.3
+$    SHAPE|     FAIL|   BVFLAG|       ED|    BETA1|     KCON|      REF|
+        1.       0.0       0.0        0.        0.        0.        0.
 *MAT_NULL_TITLE
 TX_C_N_Skin_internal_nulls
 $      MID|       RO|       PC|       MU|    TEROD|    CEROD|       YM|       PR|
@@ -2838,7 +2842,7 @@ $       A1|       A2|       A3|       V1|       V2|       V3|
 *MAT_NULL_TITLE
 TX-Intercotal-muscle-External-T1-T12-R-Nulls
 $      MID|       RO|       PC|       MU|    TEROD|    CEROD|       YM|       PR|
-    454001     1.E-7        0.        0.        0.        0.        1.       0.3
+    454001     1.E-6        0.        0.        0.        0.        1.       0.3
 *MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM_TITLE
 TX_C_J_L1_L2
 $      MID|       RO|       KT|       KR|  UNLDOPT|   OFFSET|    DAMPF|    IFLAG|
@@ -2930,19 +2934,19 @@ $  UCFAILR|  UCFAILS|  UCFAILT|  WCFAILR|  WCFAILS|  WCFAILT|
 $      IUR|      IUS|      IUT|      IWR|      IWS|      IWT|
         0.        0.        0.        0.        0.        0.
 *MAT_OGDEN_RUBBER_TITLE
-TX-Abdominal-Cavity-Liver-Sato-et-al-2013
+TX-Abdominal-Cavity-Average response of compressive stiffness from experiments
 $      MID|       RO|       PR|        N|       NV|        G|     SIGF|      REF|
-    505001     1.E-6     0.499         0                                      0.
+    505001     1.E-6   0.49998         0                                      0.
 $      MU1|      MU2|      MU3|      MU4|      MU5|      MU6|      MU7|      MU8|
- 3.7244E-5-.00015281-0.0003366 0.0035137 0.0027666-.00022088                    
+    3.5E-8                                                                      
 $   ALPHA1|   ALPHA2|   ALPHA3|   ALPHA4|   ALPHA5|   ALPHA6|   ALPHA7|   ALPHA8|
-    5.5872    3.5132    2.0948   0.73096  -0.74234   -2.3587                    
+       20.                                                                      
 $GI       |GI       |    VFLAG|
-   6.97E-6      0.01          
+     8.E-7     0.006          
 $GI       |GI       |
- 5.8327E-5       0.1
+    1.8E-6      0.05
 $GI       |GI       |
- 3.5291E-5        1.
+    2.2E-6       0.6
 *MAT_NULL_TITLE
 TX_C_N_Abdominal_Cavity_nulls
 $      MID|       RO|       PC|       MU|    TEROD|    CEROD|       YM|       PR|
@@ -2990,7 +2994,7 @@ PE-Pubic-symphisis-Li-et-al-2006
 $      MID|       RO|       PR|        N|       NV|        G|     SIGF|      REF|
     602010    1.2E-6     0.495         0                 0.5                  0.
 $      C10|      C01|      C11|      C20|      C02|      C30|
-    0.0001   0.00045    0.0006                              
+     1.E-4    4.5E-4     6.E-4                              
 *MAT_OGDEN_RUBBER_TITLE
 PR-SI-Joint-Miller-1987
 $      MID|       RO|       PR|        N|       NV|        G|     SIGF|      REF|
@@ -3002,9 +3006,9 @@ $   ALPHA1|   ALPHA2|   ALPHA3|   ALPHA4|   ALPHA5|   ALPHA6|   ALPHA7|   ALPHA8
 *MAT_FABRIC_TITLE
 PE-Hip-Joint-Ligament-Shell-Hewitt
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
-    603110     1.E-6    0.1368    0.1368                 0.3          
+    603110     1.E-6    0.1368    0.1368                0.49          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
-                                                                                
+    3.3E-4                            1.        0.      0.49        0.      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|   TSRFAC|
                                       0.       0.0       0.0                    
 $         |   RGBRTH|    A0REF|       A1|       A2|       A3|       X0|       X1|
@@ -3056,17 +3060,17 @@ $       A1|       A2|       A3|       V1|       V2|       V3|
 *MAT_PLASTICITY_COMPRESSION_TENSION_TITLE
 LX-Femur-Cortical-Bone-Mirzaali-et-al-2016
 $      MID|       RO|        E|       PR|        C|        P|     FAIL|     TDEL|
-    701101    1.8E-616.3840056       0.3        0.        0.     1.E20        0.
+    701101    1.8E-6 16.384007       0.3        0.        0.     1.E20        0.
 $    LCIDC|    LCIDT|    LCSRC|    LCSRT|   SRFLAG|   LCFAIL|       EC|     RPCT|
-    701021    701011                           0.0          16.4792415     0.001
+    701021    701011                           0.0           16.479242     0.001
 $       PC|       PT|    PCUTC|    PCUTT|    PCUTF|
                                                0.0
 $        K|
           
 *MAT_FU_CHANG_FOAM_TITLE
 Trabecular_FuChang-Enns-Bray_et_al_2018
-$      MID|       RO|        E|       ED|       TC|     FAIL|     DAMP|     TBID|
-    701102    2.7E-70.97369419        0.     1.E20       0.0              701102
+$      MID|       RO|        E|     KCON|       TC|     FAIL|     DAMP|     TBID|
+    701102    2.7E-7 0.9736942        0.     1.E20       0.0              701102
 $   BVFLAG|    SFLAG|    RFLAG|    TFLAG|     PVID|     SRAF|      REF|       HU|
        0.0       0.0       0.0       1.0                 0.0        0.        0.
 $       D0|       N0|       N1|       N2|       N3|       C0|       C1|       C2|
@@ -3192,7 +3196,7 @@ $ FPE_LCID|     LMAX|      KSH|
 *MAT_SPRING_MUSCLE_TITLE
 LX-Knee-Muscle-Quadriceps-Femoris-param
 $      MID|       L0|     VMAX|       SV|     ACTL|     FMAX|  TL_LCID|  TV_LCID|
-    702411      364.       1.6        1.        0.       2.5   -702412   -702413
+    702411&LX_QuadL0       1.6        1.        0.       2.5   -702412   -702413
 $      FPE|     LMAX|      KSH|
         0.       1.5      0.54
 *MAT_RIGID_TITLE
@@ -3212,21 +3216,25 @@ $      CMO|     CON1|     CON2|
 $       A1|       A2|       A3|       V1|       V2|       V3|
         0.        0.        0.        0.        0.        0.
 *MAT_OGDEN_RUBBER_TITLE
-LX-Soft-Tissue_Fat_Engelbrektsson-2011
+Naseri Ogden model - Average response of compressive stiffness from experiments
 $      MID|       RO|       PR|        N|       NV|        G|     SIGF|      REF|
-    705001 1.2886E-6 0.4999983         0         6        0.        0.        0.
+    705001&LX_DENS     0.49998         0         6                            0.
 $      MU1|      MU2|      MU3|      MU4|      MU5|      MU6|      MU7|      MU8|
-     3.E-8        0.        0.        0.        0.        0.        0.        0.
+    3.5E-8                                                                      
 $   ALPHA1|   ALPHA2|   ALPHA3|   ALPHA4|   ALPHA5|   ALPHA6|   ALPHA7|   ALPHA8|
-       20.        0.        0.        0.        0.        0.        0.        0.
+       20.                                                                      
 $GI       |GI       |    VFLAG|
-     3.E-6      0.31         0
+     8.E-7     0.006          
+$GI       |GI       |
+    1.8E-6      0.05
+$GI       |GI       |
+    2.2E-6       0.6
 *MAT_FABRIC_TITLE
 UX_Skin_Manschot_et_al_1986
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
-    705101     1.E-6     0.001     0.001                0.49      0.49
+    705101     1.E-6     0.001     0.001                0.49          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
-   0.00033                            1.     1.E-6      0.49      0.05      0.05
+    3.3E-4                            1.     1.E-6      0.49      0.05      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
        0.0        0.        0.        0.       0.0      14.0       0.0         0
 $         |   RGBRTH|    A0REF|                             |       X0|       X1|
@@ -3275,16 +3283,14 @@ $      MID|       RO|       PC|       MU|    TEROD|    CEROD|       YM|       PR
 LX_R_CB_Femur_distal_nulls
 $      MID|       RO|       PC|       MU|    TEROD|    CEROD|       YM|       PR|
     710014     1.E-6        0.        0.        0.        0.     0.001       0.3
-*MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE
+*MAT_RIGID_TITLE
 LX_L_CB_Patella_Reilly-et-al-1974
-$      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
-    710401     2.E-6      17.1       0.3     1.E10        0.     1.E20        0.
-$        C|        P|     LCSS|     LCSR|       VP|
-        0.        0.                            0.
-$     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8|
-        0.        0.        0.        0.        0.        0.        0.        0.
-$      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
-        0.        0.        0.        0.        0.        0.        0.        0.
+$      MID|       RO|        E|       PR|        N|   COUPLE|        M| ALIAS_RE|
+    710401     2.E-6      17.1       0.3        0.        0.        0.
+$      CMO|     CON1|     CON2|
+       0.0        0.        0.
+$       A1|       A2|       A3|       V1|       V2|       V3|
+        0.        0.        0.        0.        0.        0.
 *MAT_RIGID_TITLE
 LX_L_TB_Patella-Rigid
 $      MID|       RO|        E|       PR|        N|   COUPLE|        M| ALIAS_RE|
@@ -3300,9 +3306,9 @@ $      MID|       RO|       PC|       MU|    TEROD|    CEROD|       YM|       PR
 *MAT_FABRIC_TITLE
 UX_Skin_Manschot_et_al_1986
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
-    906001     1.E-6     0.001     0.001                0.49      0.49
+    906001     1.E-6     0.001     0.001                0.49          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
-   0.00033                            1.     1.E-6      0.49      0.05      0.05
+    3.3E-4                            1.     1.E-6      0.49      0.05      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
        0.0        0.        0.        0.       0.0      14.0       0.0         0
 $         |   RGBRTH|    A0REF|                             |       X0|       X1|
@@ -3321,14 +3327,14 @@ Facet_Art_Cart-MAT83_MAT_FU_CHANG_FOAM
     213001         0        1.        1.        0.        0.         0         0
                   0.                  0.
                 0.01          7.25082E-5
-                0.02         0.000150274
-                0.03         0.000233678
-                0.04          0.00032313
-                0.05         0.000419068
-                0.06         0.000521962
-                0.07         0.000632316
-                0.08         0.000750673
-                0.09         0.000877611
+                0.02          1.50274E-4
+                0.03          2.33678E-4
+                0.04           3.2313E-4
+                0.05          4.19068E-4
+                0.06          5.21962E-4
+                0.07          6.32316E-4
+                0.08          7.50673E-4
+                0.09          8.77611E-4
                  0.1            0.001014
                 0.15            0.001858
                  0.2            0.003055
@@ -3348,14 +3354,14 @@ Facet_Art_Cart-MAT83_MAT_FU_CHANG_FOAM
     213002         0        1.        1.        0.        0.         0          
                   0.                  0.
                 0.01           7.9759E-5
-                0.02         0.000165301
-                0.03         0.000257046
-                0.04         0.000355443
-                0.05         0.000460974
-                0.06         0.000574158
-                0.07         0.000695548
-                0.08          0.00082574
-                0.09         0.000965372
+                0.02          1.65301E-4
+                0.03          2.57046E-4
+                0.04          3.55443E-4
+                0.05          4.60974E-4
+                0.06          5.74158E-4
+                0.07          6.95548E-4
+                0.08           8.2574E-4
+                0.09          9.65372E-4
                  0.1            0.001115
                 0.15            0.002043
                  0.2            0.003361
@@ -3391,969 +3397,969 @@ Trabecular_Table_027gcm
 *DEFINE_CURVE_TITLE
 Trab_027gcm_0005
    7011021         0        1.        1.        0.        0.         0         0
-                 0.6       0.00288578936
-              0.5775       0.00288578936
-               0.555       0.00288578936
-              0.5325       0.00288578936
-                0.51       0.00288578936
-              0.4875       0.00288578936
-               0.465       0.00288578936
-              0.4425       0.00288578936
-                0.42       0.00288578936
-              0.3975       0.00288578936
-               0.375       0.00288578936
-              0.3525       0.00288578936
-                0.33       0.00288578936
-              0.3075       0.00288578936
-               0.285       0.00288578936
-              0.2625       0.00288578936
-                0.24       0.00288578936
-              0.2175       0.00288578936
-               0.195       0.00288578936
-              0.1725       0.00288578936
-                0.15       0.00288578936
-              0.1275       0.00288578936
-               0.105       0.00288578936
-                0.02        0.0036072367
-       0.00536790146       0.00327930609
-       0.00269432117       0.00262344488
-                  0.                  0.
-      -0.00188671147         -0.00183708
-      -0.00375753102         -0.00229635
+                -0.6         -2.52599E-4
+               -0.55         -2.52601E-4
+                -0.5         -2.52607E-4
+               -0.45         -2.52628E-4
+                -0.4         -2.52702E-4
+          -0.3833857         -2.52755E-4
+         -0.36677137         -2.52835E-4
+         -0.35015702         -2.52957E-4
+          -0.3335427         -2.53142E-4
+          -0.3169284         -2.53422E-4
+         -0.30031407         -2.53846E-4
+         -0.28369975         -2.54488E-4
+         -0.26708543         -2.55462E-4
+         -0.25047112         -2.56936E-4
+          -0.2338568         -2.59169E-4
+         -0.21724246         -2.62552E-4
+         -0.20062815         -2.67678E-4
+         -0.18401383         -2.75442E-4
+         -0.16739951         -2.87205E-4
+         -0.15078518         -3.05024E-4
+         -0.13417086         -3.32019E-4
+         -0.11755654         -3.72913E-4
+        -0.100942224         -4.34865E-4
+          -0.0843279         -5.28717E-4
+         -0.06771358         -6.70893E-4
+         -0.05109926         -8.86279E-4
+        -0.034484938        -0.001212569
               -0.014        -0.002525985
-      -0.03448493796      -0.00121256885
-      -0.05109925896      -0.00088627868
-      -0.06771357996      -0.00067089326
-      -0.08432790096       -0.0005287165
-      -0.10094222197      -0.00043486507
-      -0.11755654297      -0.00037291338
-      -0.13417086397      -0.00033201882
-      -0.15078518497      -0.00030502416
-      -0.16739950597      -0.00028720488
-      -0.18401382697      -0.00027544231
-      -0.20062814798      -0.00026767779
-      -0.21724246898       -0.0002625524
-      -0.23385678998      -0.00025916911
-      -0.25047111098      -0.00025693578
-      -0.26708543198      -0.00025546156
-      -0.28369975299      -0.00025448842
-      -0.30031407399      -0.00025384604
-      -0.31692839499      -0.00025342201
-      -0.33354271599       -0.0002531421
-      -0.35015703699      -0.00025295733
-        -0.366771358      -0.00025283537
-        -0.383385679      -0.00025275486
-                -0.4      -0.00025270171
-               -0.45      -0.00025262807
-                -0.5      -0.00025260697
-               -0.55      -0.00025260093
-                -0.6       -0.0002525992
+        -0.003757531         -0.00229635
+        -0.001886711         -0.00183708
+                  0.                  0.
+         0.002694321         0.002623445
+         0.005367901         0.003279306
+                0.02         0.003607237
+               0.105         0.002885789
+              0.1275         0.002885789
+                0.15         0.002885789
+              0.1725         0.002885789
+               0.195         0.002885789
+              0.2175         0.002885789
+                0.24         0.002885789
+              0.2625         0.002885789
+               0.285         0.002885789
+              0.3075         0.002885789
+                0.33         0.002885789
+              0.3525         0.002885789
+               0.375         0.002885789
+              0.3975         0.002885789
+                0.42         0.002885789
+              0.4425         0.002885789
+               0.465         0.002885789
+              0.4875         0.002885789
+                0.51         0.002885789
+              0.5325         0.002885789
+               0.555         0.002885789
+              0.5775         0.002885789
+                 0.6         0.002885789
 *DEFINE_CURVE_TITLE
 Trab_027gcm_001
    7011022         0        1.        1.        0.        0.         0         0
-                 0.6        0.0030083366
-              0.5775        0.0030083366
-               0.555        0.0030083366
-              0.5325        0.0030083366
-                0.51        0.0030083366
-              0.4875        0.0030083366
-               0.465        0.0030083366
-              0.4425        0.0030083366
-                0.42        0.0030083366
-              0.3975        0.0030083366
-               0.375        0.0030083366
-              0.3525        0.0030083366
-                0.33        0.0030083366
-              0.3075        0.0030083366
-               0.285        0.0030083366
-              0.2625        0.0030083366
-                0.24        0.0030083366
-              0.2175        0.0030083366
-               0.195        0.0030083366
-              0.1725        0.0030083366
-                0.15        0.0030083366
-              0.1275        0.0030083366
-               0.105        0.0030083366
-                0.02       0.00376042075
-       0.00551092196       0.00341856432
-       0.00280873757       0.00273485146
+                -0.6         -2.63326E-4
+               -0.55         -2.63328E-4
+                -0.5         -2.63334E-4
+               -0.45         -2.63356E-4
+                -0.4         -2.63433E-4
+         -0.38337657         -2.63488E-4
+         -0.36675316         -2.63572E-4
+         -0.35012972           -2.637E-4
+         -0.33350632         -2.63892E-4
+         -0.31688288         -2.64185E-4
+         -0.30025947         -2.64628E-4
+         -0.28363603         -2.65299E-4
+         -0.26701263         -2.66315E-4
+          -0.2503892         -2.67856E-4
+         -0.23376578         -2.70191E-4
+         -0.21714236         -2.73728E-4
+         -0.20051894         -2.79088E-4
+         -0.18389551          -2.8721E-4
+         -0.16727209         -2.99516E-4
+         -0.15064867         -3.18164E-4
+         -0.13402525          -3.4642E-4
+         -0.11740182         -3.89236E-4
+          -0.1007784         -4.54112E-4
+         -0.08415498         -5.52416E-4
+        -0.067531556         -7.01372E-4
+        -0.050908133         -9.27079E-4
+        -0.034284707        -0.001269083
+              -0.014        -0.002633253
+        -0.003857645        -0.002393866
+        -0.001966832        -0.001915093
                   0.                  0.
-       -0.0019668321        -0.001915093
-      -0.00385764537      -0.00239386625
-              -0.014      -0.00263325287
-      -0.03428470926      -0.00126908347
-      -0.05090813157      -0.00092707915
-      -0.06753155387      -0.00070137212
-      -0.08415497618      -0.00055241593
-      -0.10077839849      -0.00045411173
-      -0.11740182079      -0.00038923551
-       -0.1340252431      -0.00034642021
-       -0.1506486654      -0.00031816409
-      -0.16727208771      -0.00029951636
-      -0.18389551002      -0.00028720972
-      -0.20051893232      -0.00027908791
-      -0.21714235463      -0.00027372789
-      -0.23376577694      -0.00027019052
-      -0.25038919924      -0.00026785602
-      -0.26701262155      -0.00026631536
-      -0.28363604386       -0.0002652986
-      -0.30025946616      -0.00026462758
-      -0.31688288847      -0.00026418474
-      -0.33350631077      -0.00026389249
-      -0.35012973308      -0.00026369961
-      -0.36675315539      -0.00026357233
-      -0.38337657769      -0.00026348832
-                -0.4      -0.00026343288
-               -0.45      -0.00026335611
-                -0.5      -0.00026333412
-               -0.55      -0.00026332782
-                -0.6      -0.00026332601
+         0.002808738         0.002734851
+         0.005510922         0.003418564
+                0.02         0.003760421
+               0.105         0.003008337
+              0.1275         0.003008337
+                0.15         0.003008337
+              0.1725         0.003008337
+               0.195         0.003008337
+              0.2175         0.003008337
+                0.24         0.003008337
+              0.2625         0.003008337
+               0.285         0.003008337
+              0.3075         0.003008337
+                0.33         0.003008337
+              0.3525         0.003008337
+               0.375         0.003008337
+              0.3975         0.003008337
+                0.42         0.003008337
+              0.4425         0.003008337
+               0.465         0.003008337
+              0.4875         0.003008337
+                0.51         0.003008337
+              0.5325         0.003008337
+               0.555         0.003008337
+              0.5775         0.003008337
+                 0.6         0.003008337
 *DEFINE_CURVE_TITLE
 Trab_027gcm_01
    7011023         0        1.        1.        0.        0.         0         0
-                 0.6       0.00345403257
-              0.5775       0.00345403257
-               0.555       0.00345403257
-              0.5325       0.00345403257
-                0.51       0.00345403257
-              0.4875       0.00345403257
-               0.465       0.00345403257
-              0.4425       0.00345403257
-                0.42       0.00345403257
-              0.3975       0.00345403257
-               0.375       0.00345403257
-              0.3525       0.00345403257
-                0.33       0.00345403257
-              0.3075       0.00345403257
-               0.285       0.00345403257
-              0.2625       0.00345403257
-                0.24       0.00345403257
-              0.2175       0.00345403257
-               0.195       0.00345403257
-              0.1725       0.00345403257
-                0.15       0.00345403257
-              0.1275       0.00345403257
-               0.105       0.00345403257
-                0.02       0.00431754071
-       0.00603107776       0.00392503701
-       0.00322486221       0.00314002961
+                -0.6         -3.02339E-4
+               -0.55         -3.02341E-4
+                -0.5         -3.02348E-4
+               -0.45         -3.02373E-4
+                -0.4         -3.02461E-4
+          -0.3833435         -3.02525E-4
+         -0.36668694         -3.02622E-4
+         -0.35003042         -3.02769E-4
+          -0.3333739         -3.02991E-4
+          -0.3167174         -3.03329E-4
+         -0.30006087         -3.03841E-4
+         -0.28340435         -3.04617E-4
+          -0.2667478         -3.05794E-4
+         -0.25009128         -3.07579E-4
+         -0.23343477         -3.10286E-4
+         -0.21677825         -3.14391E-4
+         -0.20012172         -3.20616E-4
+          -0.1834652         -3.30057E-4
+         -0.16680868         -3.44375E-4
+         -0.15015215         -3.66088E-4
+         -0.13349563         -3.99015E-4
+          -0.1168391          -4.4895E-4
+        -0.100182585         -5.24677E-4
+         -0.08352606         -6.39518E-4
+        -0.066869535         -8.13676E-4
+        -0.050213013        -0.001077789
+         -0.03355649        -0.001478318
+              -0.014        -0.003023379
+        -0.004221754        -0.002748526
+        -0.002258225        -0.002198821
                   0.                  0.
-       -0.0022582254      -0.00219882096
-      -0.00422175443       -0.0027485262
-              -0.014      -0.00302337882
-      -0.03355649114      -0.00147831834
-      -0.05021301427       -0.0010777886
-       -0.0668695374      -0.00081367615
-      -0.08352606053      -0.00063951834
-      -0.10018258366      -0.00052467732
-      -0.11683910679      -0.00044895025
-      -0.13349562992      -0.00039901522
-      -0.15015215305      -0.00036608768
-      -0.16680867618        -0.000344375
-      -0.18346519931      -0.00033005748
-      -0.20012172244       -0.0003206164
-      -0.21677824557      -0.00031439088
-       -0.2334347687      -0.00031028573
-      -0.25009129183      -0.00030757875
-      -0.26674781496      -0.00030579375
-      -0.28340433809      -0.00030461671
-      -0.30006086122      -0.00030384056
-      -0.31671738435      -0.00030332876
-      -0.33337390748      -0.00030299127
-      -0.35003043061      -0.00030276873
-      -0.36668695374      -0.00030262199
-      -0.38334347687      -0.00030252522
-                -0.4      -0.00030246142
-               -0.45      -0.00030237328
-                -0.5      -0.00030234802
-               -0.55      -0.00030234079
-                -0.6      -0.00030233871
+         0.003224862          0.00314003
+         0.006031078         0.003925037
+                0.02         0.004317541
+               0.105         0.003454033
+              0.1275         0.003454033
+                0.15         0.003454033
+              0.1725         0.003454033
+               0.195         0.003454033
+              0.2175         0.003454033
+                0.24         0.003454033
+              0.2625         0.003454033
+               0.285         0.003454033
+              0.3075         0.003454033
+                0.33         0.003454033
+              0.3525         0.003454033
+               0.375         0.003454033
+              0.3975         0.003454033
+                0.42         0.003454033
+              0.4425         0.003454033
+               0.465         0.003454033
+              0.4875         0.003454033
+                0.51         0.003454033
+              0.5325         0.003454033
+               0.555         0.003454033
+              0.5775         0.003454033
+                 0.6         0.003454033
 *DEFINE_CURVE_TITLE
 Trab_027gcm_05
    7011024         0        1.        1.        0.        0.         0         0
-                 0.6       0.00380421127
-              0.5775       0.00380421127
-               0.555       0.00380421127
-              0.5325       0.00380421127
-                0.51       0.00380421127
-              0.4875       0.00380421127
-               0.465       0.00380421127
-              0.4425       0.00380421127
-                0.42       0.00380421127
-              0.3975       0.00380421127
-               0.375       0.00380421127
-              0.3525       0.00380421127
-                0.33       0.00380421127
-              0.3075       0.00380421127
-               0.285       0.00380421127
-              0.2625       0.00380421127
-                0.24       0.00380421127
-              0.2175       0.00380421127
-               0.195       0.00380421127
-              0.1725       0.00380421127
-                0.15       0.00380421127
-              0.1275       0.00380421127
-               0.105       0.00380421127
-                0.02       0.00475526409
-       0.00643975879       0.00432296736
-       0.00355180703       0.00345837389
+                -0.6         -3.32991E-4
+               -0.55         -3.32993E-4
+                -0.5         -3.33001E-4
+               -0.45         -3.33029E-4
+                -0.4         -3.33126E-4
+         -0.38331747         -3.33196E-4
+         -0.36663494         -3.33303E-4
+          -0.3499524         -3.33465E-4
+          -0.3332699         -3.33711E-4
+         -0.31658736         -3.34085E-4
+         -0.29990482         -3.34651E-4
+          -0.2832223         -3.35511E-4
+         -0.26653975         -3.36816E-4
+         -0.24985723         -3.38796E-4
+          -0.2331747           -3.418E-4
+         -0.21649218          -3.4636E-4
+         -0.19980964         -3.53279E-4
+          -0.1831271         -3.63779E-4
+         -0.16644458         -3.79712E-4
+         -0.14976205         -4.03891E-4
+         -0.13307951         -4.40582E-4
+        -0.116396986         -4.96261E-4
+         -0.09971446         -5.80753E-4
+         -0.08303193          -7.0897E-4
+        -0.066349395          -9.0354E-4
+        -0.049666867        -0.001198799
+         -0.03298434        -0.001646854
+              -0.014        -0.003329897
+        -0.004507831        -0.003027179
+         -0.00248717        -0.002421743
                   0.                  0.
-      -0.00248717011      -0.00242174309
-      -0.00450783116      -0.00302717886
-              -0.014      -0.00332989675
-      -0.03298433769      -0.00164685358
-      -0.04966686779      -0.00119879871
-       -0.0663493979      -0.00090353985
-        -0.083031928      -0.00070897039
-      -0.09971445811      -0.00058075316
-      -0.11639698821      -0.00049626067
-      -0.13307951832      -0.00044058187
-      -0.14976204842       -0.0004038907
-      -0.16644457853      -0.00037971198
-      -0.18312710863       -0.0003637787
-      -0.19980963874        -0.000353279
-      -0.21649216884      -0.00034635992
-      -0.23317469895      -0.00034180039
-      -0.24985722905      -0.00033879575
-      -0.26653975916      -0.00033681576
-      -0.28322228926      -0.00033551099
-      -0.29990481937      -0.00033465117
-      -0.31658734947      -0.00033408456
-      -0.33326987958      -0.00033371118
-      -0.34995240968      -0.00033346513
-      -0.36663493979      -0.00033330299
-      -0.38331746989      -0.00033319614
-                -0.4      -0.00033312573
-               -0.45      -0.00033302866
-                -0.5      -0.00033300084
-               -0.55      -0.00033299287
-                -0.6      -0.00033299059
+         0.003551807         0.003458374
+         0.006439759         0.004322967
+                0.02         0.004755264
+               0.105         0.003804211
+              0.1275         0.003804211
+                0.15         0.003804211
+              0.1725         0.003804211
+               0.195         0.003804211
+              0.2175         0.003804211
+                0.24         0.003804211
+              0.2625         0.003804211
+               0.285         0.003804211
+              0.3075         0.003804211
+                0.33         0.003804211
+              0.3525         0.003804211
+               0.375         0.003804211
+              0.3975         0.003804211
+                0.42         0.003804211
+              0.4425         0.003804211
+               0.465         0.003804211
+              0.4875         0.003804211
+                0.51         0.003804211
+              0.5325         0.003804211
+               0.555         0.003804211
+              0.5775         0.003804211
+                 0.6         0.003804211
 *DEFINE_CURVE_TITLE
 Trab_027gcm_1
    7011025         0        1.        1.        0.        0.         0         0
-                 0.6          0.00396576
-              0.5775          0.00396576
-               0.555          0.00396576
-              0.5325          0.00396576
-                0.51          0.00396576
-              0.4875          0.00396576
-               0.465          0.00396576
-              0.4425          0.00396576
-                0.42          0.00396576
-              0.3975          0.00396576
-               0.375          0.00396576
-              0.3525          0.00396576
-                0.33          0.00396576
-              0.3075          0.00396576
-               0.285          0.00396576
-              0.2625          0.00396576
-                0.24          0.00396576
-              0.2175          0.00396576
-               0.195          0.00396576
-              0.1725          0.00396576
-                0.15          0.00396576
-              0.1275          0.00396576
-               0.105          0.00396576
-                0.02           0.0049572
-       0.00662829653       0.00450654545
-       0.00370263722       0.00360523636
+                -0.6         -3.47131E-4
+               -0.55         -3.47134E-4
+                -0.5         -3.47142E-4
+               -0.45         -3.47171E-4
+                -0.4         -3.47272E-4
+         -0.38330546         -3.47346E-4
+         -0.36661094         -3.47457E-4
+         -0.34991643         -3.47626E-4
+         -0.33322188         -3.47883E-4
+         -0.31652737         -3.48273E-4
+         -0.29983282         -3.48866E-4
+          -0.2831383         -3.49764E-4
+          -0.2664438         -3.51128E-4
+         -0.24974924         -3.53199E-4
+         -0.23305473         -3.56343E-4
+          -0.2163602         -3.61114E-4
+         -0.19966567         -3.68358E-4
+         -0.18297113         -3.79352E-4
+          -0.1662766         -3.96042E-4
+         -0.14958209         -4.21376E-4
+         -0.13288756         -4.59831E-4
+         -0.11619303         -5.18205E-4
+        -0.099498495         -6.06814E-4
+         -0.08280397         -7.41317E-4
+         -0.06610944         -9.45488E-4
+        -0.049414914         -0.00125541
+        -0.032720383        -0.001725856
+              -0.014        -0.003471303
+        -0.004639808         -0.00315573
+         -0.00259279        -0.002524584
                   0.                  0.
-      -0.00259278968      -0.00252458425
-      -0.00463980757      -0.00315573032
-              -0.014      -0.00347130335
-      -0.03272038486      -0.00172585648
-      -0.04941491282      -0.00125540976
-      -0.06610944078      -0.00094548812
-      -0.08280396874      -0.00074131744
-       -0.0994984967      -0.00060681355
-      -0.11619302467      -0.00051820486
-      -0.13288755263      -0.00045983108
-      -0.14958208059      -0.00042137552
-      -0.16627660855      -0.00039604169
-      -0.18297113651      -0.00037935224
-      -0.19966566447      -0.00036835753
-      -0.21636019243      -0.00036111442
-      -0.23305472039      -0.00035634279
-      -0.24974924835      -0.00035319933
-      -0.26644377631      -0.00035112848
-      -0.28313830427      -0.00034976424
-      -0.29983283223       -0.0003488655
-       -0.3165273602      -0.00034827343
-      -0.33322188816      -0.00034788339
-      -0.34991641612      -0.00034762643
-      -0.36661094408      -0.00034745715
-      -0.38330547204      -0.00034734564
-                -0.4      -0.00034727217
-               -0.45      -0.00034717097
-                -0.5      -0.00034714198
-               -0.55      -0.00034713367
-                -0.6      -0.00034713129
+         0.003702637         0.003605236
+         0.006628297         0.004506545
+                0.02           0.0049572
+               0.105          0.00396576
+              0.1275          0.00396576
+                0.15          0.00396576
+              0.1725          0.00396576
+               0.195          0.00396576
+              0.2175          0.00396576
+                0.24          0.00396576
+              0.2625          0.00396576
+               0.285          0.00396576
+              0.3075          0.00396576
+                0.33          0.00396576
+              0.3525          0.00396576
+               0.375          0.00396576
+              0.3975          0.00396576
+                0.42          0.00396576
+              0.4425          0.00396576
+               0.465          0.00396576
+              0.4875          0.00396576
+                0.51          0.00396576
+              0.5325          0.00396576
+               0.555          0.00396576
+              0.5775          0.00396576
+                 0.6          0.00396576
 *DEFINE_CURVE_TITLE
 Trab_027gcm_5
    7011026         0        1.        1.        0.        0.         0         0
-                 0.6       0.00436781895
-              0.5775       0.00436781895
-               0.555       0.00436781895
-              0.5325       0.00436781895
-                0.51       0.00436781895
-              0.4875       0.00436781895
-               0.465       0.00436781895
-              0.4425       0.00436781895
-                0.42       0.00436781895
-              0.3975       0.00436781895
-               0.375       0.00436781895
-              0.3525       0.00436781895
-                0.33       0.00436781895
-              0.3075       0.00436781895
-               0.285       0.00436781895
-              0.2625       0.00436781895
-                0.24       0.00436781895
-              0.2175       0.00436781895
-               0.195       0.00436781895
-              0.1725       0.00436781895
-                0.15       0.00436781895
-              0.1275       0.00436781895
-               0.105       0.00436781895
-                0.02       0.00545977369
-       0.00709752514       0.00496343063
-       0.00407802011        0.0039707445
+                -0.6         -3.82324E-4
+               -0.55         -3.82327E-4
+                -0.5         -3.82336E-4
+               -0.45         -3.82368E-4
+                -0.4          -3.8248E-4
+          -0.3832756         -3.82561E-4
+         -0.36655122         -3.82684E-4
+         -0.34982684         -3.82871E-4
+         -0.33310243         -3.83155E-4
+         -0.31637806         -3.83587E-4
+         -0.29965368         -3.84243E-4
+         -0.28292927         -3.85239E-4
+          -0.2662049         -3.86753E-4
+          -0.2494805         -3.89053E-4
+         -0.23275612         -3.92546E-4
+         -0.21603173         -3.97852E-4
+         -0.19930734         -4.05913E-4
+         -0.18258296         -4.18158E-4
+         -0.16585857         -4.36759E-4
+         -0.14913417         -4.65016E-4
+          -0.1324098         -5.07941E-4
+          -0.1156854         -5.73148E-4
+         -0.09896102         -6.72203E-4
+         -0.08223663         -8.22676E-4
+         -0.06551224        -0.001051257
+        -0.048787855        -0.001398492
+        -0.032063466        -0.001925973
+              -0.014        -0.003823233
+        -0.004968268        -0.003475666
+        -0.002855653        -0.002780533
                   0.                  0.
-      -0.00285565336       -0.0027805331
-       -0.0049682676      -0.00347566637
-              -0.014      -0.00382323301
-      -0.03206346481      -0.00192597257
-      -0.04878785277      -0.00139849219
-      -0.06551224074      -0.00105125713
-       -0.0822366287      -0.00082267576
-      -0.09896101666      -0.00067220293
-      -0.11568540462      -0.00057314816
-      -0.13240979259       -0.0005079414
-      -0.14913418055      -0.00046501644
-      -0.16585856851      -0.00043675937
-      -0.18258295648      -0.00041815802
-      -0.19930734444      -0.00040591294
-       -0.2160317324      -0.00039785212
-      -0.23275612037      -0.00039254577
-      -0.24948050833      -0.00038905265
-      -0.26620489629      -0.00038675316
-      -0.28292928426      -0.00038523944
-      -0.29965367222      -0.00038424296
-      -0.31637806018        -0.000383587
-      -0.33310244815      -0.00038315518
-      -0.34982683611      -0.00038287092
-      -0.36655122407      -0.00038268379
-      -0.38327561204      -0.00038256061
-                -0.4      -0.00038247952
-               -0.45      -0.00038236806
-                -0.5      -0.00038233612
-               -0.55      -0.00038232697
-                -0.6      -0.00038232435
+          0.00407802         0.003970745
+         0.007097525         0.004963431
+                0.02         0.005459774
+               0.105         0.004367819
+              0.1275         0.004367819
+                0.15         0.004367819
+              0.1725         0.004367819
+               0.195         0.004367819
+              0.2175         0.004367819
+                0.24         0.004367819
+              0.2625         0.004367819
+               0.285         0.004367819
+              0.3075         0.004367819
+                0.33         0.004367819
+              0.3525         0.004367819
+               0.375         0.004367819
+              0.3975         0.004367819
+                0.42         0.004367819
+              0.4425         0.004367819
+               0.465         0.004367819
+              0.4875         0.004367819
+                0.51         0.004367819
+              0.5325         0.004367819
+               0.555         0.004367819
+              0.5775         0.004367819
+                 0.6         0.004367819
 *DEFINE_CURVE_TITLE
 Trab_027gcm_10
    7011027         0        1.        1.        0.        0.         0         0
-                 0.6       0.00455330171
-              0.5775       0.00455330171
-               0.555       0.00455330171
-              0.5325       0.00455330171
-                0.51       0.00455330171
-              0.4875       0.00455330171
-               0.465       0.00455330171
-              0.4425       0.00455330171
-                0.42       0.00455330171
-              0.3975       0.00455330171
-               0.375       0.00455330171
-              0.3525       0.00455330171
-                0.33       0.00455330171
-              0.3075       0.00455330171
-               0.285       0.00455330171
-              0.2625       0.00455330171
-                0.24       0.00455330171
-              0.2175       0.00455330171
-               0.195       0.00455330171
-              0.1725       0.00455330171
-                0.15       0.00455330171
-              0.1275       0.00455330171
-               0.105       0.00455330171
-                0.02       0.00569162713
-       0.00731399542       0.00517420648
-       0.00425119634       0.00413936519
+                -0.6          -3.9856E-4
+               -0.55         -3.98563E-4
+                -0.5         -3.98572E-4
+               -0.45         -3.98606E-4
+                -0.4         -3.98722E-4
+         -0.38326183         -3.98806E-4
+         -0.36652368         -3.98935E-4
+          -0.3497855          -3.9913E-4
+         -0.33304736         -3.99427E-4
+         -0.31630918         -3.99879E-4
+           -0.299571         -4.00564E-4
+         -0.28283286         -4.01606E-4
+         -0.26609468          -4.0319E-4
+         -0.24935652         -4.05596E-4
+         -0.23261836         -4.09252E-4
+          -0.2158802         -4.14809E-4
+         -0.19914204         -4.23252E-4
+         -0.18240388         -4.36083E-4
+         -0.16566572         -4.55581E-4
+         -0.14892755          -4.8521E-4
+          -0.1321894         -5.30235E-4
+        -0.115451224         -5.98655E-4
+         -0.09871306         -7.02628E-4
+        -0.081974894         -8.60625E-4
+         -0.06523673        -0.001100719
+         -0.04849857        -0.001465569
+        -0.031760406        -0.002019999
+              -0.014         -0.00398559
+        -0.005119797        -0.003623263
+        -0.002976921        -0.002898611
                   0.                  0.
-      -0.00297692086      -0.00289861055
-      -0.00511979679      -0.00362326319
-              -0.014      -0.00398558951
-      -0.03176040641      -0.00201999881
-      -0.04849856976      -0.00146556909
-       -0.0652367331      -0.00110071921
-      -0.08197489645      -0.00086062488
-      -0.09871305979       -0.0007026276
-      -0.11545122314      -0.00059865538
-      -0.13218938648      -0.00053023508
-      -0.14892754983      -0.00048521018
-      -0.16566571317      -0.00045558095
-      -0.18240387652      -0.00043608304
-      -0.19914203986      -0.00042325218
-      -0.21588020321      -0.00041480866
-      -0.23261836655      -0.00040925229
-       -0.2493565299      -0.00040559584
-      -0.26609469324      -0.00040318967
-      -0.28283285659      -0.00040160626
-      -0.29957101993      -0.00040056427
-      -0.31630918328      -0.00039987858
-      -0.33304734662      -0.00039942735
-      -0.34978550997      -0.00039913041
-      -0.36652367331      -0.00039893501
-      -0.38326183666      -0.00039880642
-                -0.4       -0.0003987218
-               -0.45      -0.00039860561
-                -0.5      -0.00039857232
-               -0.55      -0.00039856278
-                -0.6      -0.00039856005
+         0.004251196         0.004139365
+         0.007313995         0.005174206
+                0.02         0.005691627
+               0.105         0.004553302
+              0.1275         0.004553302
+                0.15         0.004553302
+              0.1725         0.004553302
+               0.195         0.004553302
+              0.2175         0.004553302
+                0.24         0.004553302
+              0.2625         0.004553302
+               0.285         0.004553302
+              0.3075         0.004553302
+                0.33         0.004553302
+              0.3525         0.004553302
+               0.375         0.004553302
+              0.3975         0.004553302
+                0.42         0.004553302
+              0.4425         0.004553302
+               0.465         0.004553302
+              0.4875         0.004553302
+                0.51         0.004553302
+              0.5325         0.004553302
+               0.555         0.004553302
+              0.5775         0.004553302
+                 0.6         0.004553302
 *DEFINE_CURVE_TITLE
 Trab_027gcm_15
    7011028         0        1.        1.        0.        0.         0         0
-                 0.6       0.00466543243
-              0.5775       0.00466543243
-               0.555       0.00466543243
-              0.5325       0.00466543243
-                0.51       0.00466543243
-              0.4875       0.00466543243
-               0.465       0.00466543243
-              0.4425       0.00466543243
-                0.42       0.00466543243
-              0.3975       0.00466543243
-               0.375       0.00466543243
-              0.3525       0.00466543243
-                0.33       0.00466543243
-              0.3075       0.00466543243
-               0.285       0.00466543243
-              0.2625       0.00466543243
-                0.24       0.00466543243
-              0.2175       0.00466543243
-               0.195       0.00466543243
-              0.1725       0.00466543243
-                0.15       0.00466543243
-              0.1275       0.00466543243
-               0.105       0.00466543243
-                0.02       0.00583179053
-       0.00744485917       0.00530162776
-       0.00435588734       0.00424130221
+                -0.6         -4.08375E-4
+               -0.55         -4.08378E-4
+                -0.5         -4.08388E-4
+               -0.45         -4.08422E-4
+                -0.4         -4.08541E-4
+          -0.3832535         -4.08628E-4
+         -0.36650702         -4.08759E-4
+         -0.34976053          -4.0896E-4
+         -0.33301404         -4.09264E-4
+         -0.31626755         -4.09728E-4
+         -0.29952106         -4.10431E-4
+         -0.28277457         -4.11501E-4
+         -0.26602808         -4.13127E-4
+         -0.24928159         -4.15598E-4
+          -0.2325351         -4.19353E-4
+          -0.2157886         -4.25062E-4
+         -0.19904211         -4.33739E-4
+         -0.18229562         -4.46926E-4
+         -0.16554913         -4.66971E-4
+         -0.14880264         -4.97437E-4
+         -0.13205615         -5.43743E-4
+        -0.115309656         -6.14125E-4
+        -0.098563164           -7.211E-4
+         -0.08181667         -8.83695E-4
+         -0.06507018        -0.001130828
+        -0.048323687        -0.001506451
+        -0.031577196        -0.002077371
+              -0.014         -0.00408374
+        -0.005211401        -0.003712491
+        -0.003050231        -0.002969992
                   0.                  0.
-      -0.00305023124      -0.00296999244
-      -0.00521140142      -0.00371249055
-              -0.014      -0.00408373961
-      -0.03157719716      -0.00207737071
-       -0.0483236882      -0.00150645091
-      -0.06507017924      -0.00113082772
-      -0.08181667028      -0.00088369533
-      -0.09856316131      -0.00072110042
-      -0.11530965235      -0.00061412494
-      -0.13205614339      -0.00054374295
-      -0.14880263443      -0.00049743679
-      -0.16554912547      -0.00046697074
-       -0.1822956165      -0.00044692633
-      -0.19904210754      -0.00043373858
-      -0.21578859858      -0.00042506201
-      -0.23253508962      -0.00041935347
-      -0.24928158066      -0.00041559767
-       -0.2660280717      -0.00041312663
-      -0.28277456273      -0.00041150087
-      -0.29952105377      -0.00041043123
-      -0.31626754481       -0.0004097275
-      -0.33301403585      -0.00040926449
-      -0.34976052689      -0.00040895986
-      -0.36650701792      -0.00040875944
-      -0.38325350896      -0.00040862758
-                -0.4      -0.00040854082
-               -0.45      -0.00040842177
-                -0.5      -0.00040838766
-               -0.55      -0.00040837789
-                -0.6      -0.00040837509
+         0.004355887         0.004241302
+         0.007444859         0.005301628
+                0.02         0.005831791
+               0.105         0.004665432
+              0.1275         0.004665432
+                0.15         0.004665432
+              0.1725         0.004665432
+               0.195         0.004665432
+              0.2175         0.004665432
+                0.24         0.004665432
+              0.2625         0.004665432
+               0.285         0.004665432
+              0.3075         0.004665432
+                0.33         0.004665432
+              0.3525         0.004665432
+               0.375         0.004665432
+              0.3975         0.004665432
+                0.42         0.004665432
+              0.4425         0.004665432
+               0.465         0.004665432
+              0.4875         0.004665432
+                0.51         0.004665432
+              0.5325         0.004665432
+               0.555         0.004665432
+              0.5775         0.004665432
+                 0.6         0.004665432
 *DEFINE_CURVE_TITLE
 Trab_027gcm_20
    7011029         0        1.        1.        0.        0.         0         0
-                 0.6       0.00474666113
-              0.5775       0.00474666113
-               0.555       0.00474666113
-              0.5325       0.00474666113
-                0.51       0.00474666113
-              0.4875       0.00474666113
-               0.465       0.00474666113
-              0.4425       0.00474666113
-                0.42       0.00474666113
-              0.3975       0.00474666113
-               0.375       0.00474666113
-              0.3525       0.00474666113
-                0.33       0.00474666113
-              0.3075       0.00474666113
-               0.285       0.00474666113
-              0.2625       0.00474666113
-                0.24       0.00474666113
-              0.2175       0.00474666113
-               0.195       0.00474666113
-              0.1725       0.00474666113
-                0.15       0.00474666113
-              0.1275       0.00474666113
-               0.105       0.00474666113
-                0.02       0.00593332641
-       0.00753965828        0.0053939331
-       0.00443172662       0.00431514648
+                -0.6         -4.15485E-4
+               -0.55         -4.15488E-4
+                -0.5         -4.15498E-4
+               -0.45         -4.15533E-4
+                -0.4         -4.15654E-4
+         -0.38324746         -4.15742E-4
+         -0.36649495         -4.15876E-4
+         -0.34974244          -4.1608E-4
+          -0.3329899         -4.16391E-4
+          -0.3162374         -4.16862E-4
+         -0.29948485         -4.17579E-4
+         -0.28273234         -4.18669E-4
+          -0.2659798         -4.20325E-4
+         -0.24922729         -4.22844E-4
+         -0.23247476         -4.26672E-4
+         -0.21572223         -4.32491E-4
+         -0.19896972         -4.41337E-4
+          -0.1822172         -4.54785E-4
+         -0.16546467         -4.75227E-4
+         -0.14871214         -5.06303E-4
+         -0.13195962         -5.53543E-4
+          -0.1152071         -6.25355E-4
+         -0.09845457          -7.3452E-4
+         -0.08170205         -9.00469E-4
+         -0.06494953        -0.001152737
+           -0.048197        -0.001536223
+         -0.03144448        -0.002119183
+              -0.014        -0.004154841
+        -0.005277761        -0.003777128
+        -0.003103338        -0.003021702
                   0.                  0.
-      -0.00310333807      -0.00302170225
-       -0.0052777608      -0.00377712782
-              -0.014       -0.0041548406
-      -0.03144447841      -0.00211918275
-      -0.04819700212      -0.00153622329
-      -0.06494952583      -0.00115273674
-      -0.08170204954      -0.00090046888
-      -0.09845457324      -0.00073452023
-      -0.11520709695      -0.00062535471
-      -0.13195962066      -0.00055354267
-      -0.14871214437      -0.00050630276
-      -0.16546466808      -0.00047522707
-      -0.18221719179      -0.00045478463
-       -0.1989697155      -0.00044133704
-       -0.2157222392      -0.00043249085
-      -0.23247476291      -0.00042667159
-      -0.24922728662      -0.00042284352
-      -0.26597981033      -0.00042032531
-      -0.28273233404      -0.00041866877
-      -0.29948485775      -0.00041757905
-      -0.31623738146       -0.0004168622
-      -0.33298990517      -0.00041639064
-      -0.34974242887      -0.00041608043
-      -0.36649495258      -0.00041587637
-      -0.38324747629      -0.00041574213
-                -0.4      -0.00041565383
-               -0.45       -0.0004155327
-                -0.5        -0.000415498
-               -0.55      -0.00041548805
-                -0.6       -0.0004154852
+         0.004431727         0.004315146
+         0.007539658         0.005393933
+                0.02         0.005933326
+               0.105         0.004746661
+              0.1275         0.004746661
+                0.15         0.004746661
+              0.1725         0.004746661
+               0.195         0.004746661
+              0.2175         0.004746661
+                0.24         0.004746661
+              0.2625         0.004746661
+               0.285         0.004746661
+              0.3075         0.004746661
+                0.33         0.004746661
+              0.3525         0.004746661
+               0.375         0.004746661
+              0.3975         0.004746661
+                0.42         0.004746661
+              0.4425         0.004746661
+               0.465         0.004746661
+              0.4875         0.004746661
+                0.51         0.004746661
+              0.5325         0.004746661
+               0.555         0.004746661
+              0.5775         0.004746661
+                 0.6         0.004746661
 *DEFINE_CURVE_TITLE
 Trab_027gcm_50
    7011030         0        1.        1.        0.        0.         0         0
-                 0.6       0.00501492715
-              0.5775       0.00501492715
-               0.555       0.00501492715
-              0.5325       0.00501492715
-                0.51       0.00501492715
-              0.4875       0.00501492715
-               0.465       0.00501492715
-              0.4425       0.00501492715
-                0.42       0.00501492715
-              0.3975       0.00501492715
-               0.375       0.00501492715
-              0.3525       0.00501492715
-                0.33       0.00501492715
-              0.3075       0.00501492715
-               0.285       0.00501492715
-              0.2625       0.00501492715
-                0.24       0.00501492715
-              0.2175       0.00501492715
-               0.195       0.00501492715
-              0.1725       0.00501492715
-                0.15       0.00501492715
-              0.1275       0.00501492715
-               0.105       0.00501492715
-                0.02       0.00626865893
-       0.00785274195       0.00569878085
-       0.00468219356       0.00455902468
+                -0.6         -4.38967E-4
+               -0.55          -4.3897E-4
+                -0.5         -4.38981E-4
+               -0.45         -4.39017E-4
+                -0.4         -4.39145E-4
+         -0.38322756         -4.39239E-4
+          -0.3664551         -4.39381E-4
+         -0.34968266         -4.39597E-4
+          -0.3329102         -4.39926E-4
+         -0.31613776         -4.40426E-4
+          -0.2993653         -4.41186E-4
+         -0.28259286         -4.42342E-4
+          -0.2658204         -4.44101E-4
+         -0.24904798         -4.46776E-4
+         -0.23227553         -4.50845E-4
+         -0.21550308         -4.57033E-4
+         -0.19873063         -4.66444E-4
+         -0.18195818         -4.80757E-4
+         -0.16518573         -5.02527E-4
+         -0.14841329         -5.35637E-4
+         -0.13164085         -5.85994E-4
+        -0.114868395         -6.62583E-4
+         -0.09809595         -7.79069E-4
+        -0.081323504         -9.56233E-4
+        -0.064551055        -0.001225684
+        -0.047778606        -0.001635496
+        -0.031006161        -0.002258785
+              -0.014        -0.004389659
+        -0.005496919        -0.003990599
+        -0.003278729        -0.003192479
                   0.                  0.
-      -0.00327872875      -0.00319247915
-      -0.00549691936      -0.00399059893
-              -0.014      -0.00438965883
-      -0.03100616127      -0.00225878473
-      -0.04777860849      -0.00163549598
-       -0.0645510557       -0.0012256839
-      -0.08132350292      -0.00095623263
-      -0.09809595013      -0.00077906854
-      -0.11486839735      -0.00066258323
-      -0.13164084456      -0.00058599419
-      -0.14841329178      -0.00053563693
-      -0.16518573899      -0.00050252706
-      -0.18195818621      -0.00048075733
-      -0.19873063342      -0.00046644374
-      -0.21550308064      -0.00045703256
-      -0.23227552785      -0.00045084472
-      -0.24904797507      -0.00044677621
-      -0.26582042228      -0.00044410117
-       -0.2825928695      -0.00044234233
-      -0.29936531671       -0.0004411859
-      -0.31613776393      -0.00044042554
-      -0.33291021114      -0.00043992561
-      -0.34968265836       -0.0004395969
-      -0.36645510557      -0.00043938078
-      -0.38322755279      -0.00043923868
-                -0.4      -0.00043914524
-               -0.45      -0.00043901727
-                -0.5      -0.00043898061
-               -0.55       -0.0004389701
-                -0.6      -0.00043896709
+         0.004682194         0.004559025
+         0.007852742         0.005698781
+                0.02         0.006268659
+               0.105         0.005014927
+              0.1275         0.005014927
+                0.15         0.005014927
+              0.1725         0.005014927
+               0.195         0.005014927
+              0.2175         0.005014927
+                0.24         0.005014927
+              0.2625         0.005014927
+               0.285         0.005014927
+              0.3075         0.005014927
+                0.33         0.005014927
+              0.3525         0.005014927
+               0.375         0.005014927
+              0.3975         0.005014927
+                0.42         0.005014927
+              0.4425         0.005014927
+               0.465         0.005014927
+              0.4875         0.005014927
+                0.51         0.005014927
+              0.5325         0.005014927
+               0.555         0.005014927
+              0.5775         0.005014927
+                 0.6         0.005014927
 *DEFINE_CURVE_TITLE
 Trab_027gcm_100
    7011031         0        1.        1.        0.        0.         0         0
-                 0.6       0.00522788984
-              0.5775       0.00522788984
-               0.555       0.00522788984
-              0.5325       0.00522788984
-                0.51       0.00522788984
-              0.4875       0.00522788984
-               0.465       0.00522788984
-              0.4425       0.00522788984
-                0.42       0.00522788984
-              0.3975       0.00522788984
-               0.375       0.00522788984
-              0.3525       0.00522788984
-                0.33       0.00522788984
-              0.3075       0.00522788984
-               0.285       0.00522788984
-              0.2625       0.00522788984
-                0.24       0.00522788984
-              0.2175       0.00522788984
-               0.195       0.00522788984
-              0.1725       0.00522788984
-                0.15       0.00522788984
-              0.1275       0.00522788984
-               0.105       0.00522788984
-                0.02        0.0065348623
-       0.00810128309       0.00594078391
-       0.00488102647       0.00475262713
+                -0.6         -4.57608E-4
+               -0.55         -4.57611E-4
+                -0.5         -4.57622E-4
+               -0.45          -4.5766E-4
+                -0.4         -4.57794E-4
+         -0.38321173         -4.57891E-4
+          -0.3664235          -4.5804E-4
+          -0.3496352         -4.58266E-4
+         -0.33284694         -4.58609E-4
+          -0.3160587         -4.59132E-4
+         -0.29927042         -4.59927E-4
+         -0.28248215         -4.61136E-4
+          -0.2656939         -4.62977E-4
+         -0.24890563         -4.65778E-4
+         -0.23211737         -4.70039E-4
+          -0.2153291         -4.76523E-4
+         -0.19854084         -4.86388E-4
+         -0.18175258         -5.01398E-4
+         -0.16496432         -5.24235E-4
+         -0.14817604         -5.58983E-4
+         -0.13138779         -6.11852E-4
+         -0.11459952         -6.92293E-4
+         -0.09781126         -8.14685E-4
+         -0.08102299        -0.001000906
+         -0.06423473        -0.001284245
+        -0.047446467        -0.001715349
+        -0.030658204         -0.00237128
+              -0.014        -0.004576069
+        -0.005670898        -0.004160063
+        -0.003417962         -0.00332805
                   0.                  0.
-      -0.00341796246       -0.0033280502
-      -0.00567089816      -0.00416006275
-              -0.014      -0.00457606903
-      -0.03065820368      -0.00237128048
-      -0.04744646715      -0.00171534902
-      -0.06423473062      -0.00128424487
-      -0.08102299409      -0.00100090614
-      -0.09781125756      -0.00081468469
-      -0.11459952102      -0.00069229258
-      -0.13138778449      -0.00061185163
-      -0.14817604796      -0.00055898265
-      -0.16496431143      -0.00052423506
-       -0.1817525749      -0.00050139757
-      -0.19854083837      -0.00048638787
-      -0.21532910184      -0.00047652289
-      -0.23211736531      -0.00047003924
-      -0.24890562878      -0.00046577793
-      -0.26569389225      -0.00046297722
-      -0.28248215572      -0.00046113649
-      -0.29927041919      -0.00045992669
-      -0.31605868265      -0.00045913156
-      -0.33284694612      -0.00045860897
-      -0.34963520959       -0.0004582655
-      -0.36642347306      -0.00045803976
-      -0.38321173653      -0.00045789139
-                -0.4      -0.00045779388
-               -0.45      -0.00045766047
-                -0.5      -0.00045762225
-               -0.55       -0.0004576113
-                -0.6      -0.00045760816
+         0.004881026         0.004752627
+         0.008101283         0.005940784
+                0.02         0.006534862
+               0.105          0.00522789
+              0.1275          0.00522789
+                0.15          0.00522789
+              0.1725          0.00522789
+               0.195          0.00522789
+              0.2175          0.00522789
+                0.24          0.00522789
+              0.2625          0.00522789
+               0.285          0.00522789
+              0.3075          0.00522789
+                0.33          0.00522789
+              0.3525          0.00522789
+               0.375          0.00522789
+              0.3975          0.00522789
+                0.42          0.00522789
+              0.4425          0.00522789
+               0.465          0.00522789
+              0.4875          0.00522789
+                0.51          0.00522789
+              0.5325          0.00522789
+               0.555          0.00522789
+              0.5775          0.00522789
+                 0.6          0.00522789
 *DEFINE_CURVE_TITLE
 Trab_027gcm_200
    7011032         0        1.        1.        0.        0.         0         0
-                 0.6       0.00544989616
-              0.5775       0.00544989616
-               0.555       0.00544989616
-              0.5325       0.00544989616
-                0.51       0.00544989616
-              0.4875       0.00544989616
-               0.465       0.00544989616
-              0.4425       0.00544989616
-                0.42       0.00544989616
-              0.3975       0.00544989616
-               0.375       0.00544989616
-              0.3525       0.00544989616
-                0.33       0.00544989616
-              0.3075       0.00544989616
-               0.285       0.00544989616
-              0.2625       0.00544989616
-                0.24       0.00544989616
-              0.2175       0.00544989616
-               0.195       0.00544989616
-              0.1725       0.00544989616
-                0.15       0.00544989616
-              0.1275       0.00544989616
-               0.105       0.00544989616
-                0.02        0.0068123702
-       0.00836037871       0.00619306382
-       0.00508830297       0.00495445106
+                -0.6         -4.77041E-4
+               -0.55         -4.77044E-4
+                -0.5         -4.77056E-4
+               -0.45         -4.77095E-4
+                -0.4         -4.77234E-4
+         -0.38319525         -4.77336E-4
+          -0.3663905         -4.77491E-4
+         -0.34958574         -4.77727E-4
+           -0.332781         -4.78086E-4
+         -0.31597623         -4.78632E-4
+         -0.29917148         -4.79464E-4
+         -0.28236675          -4.8073E-4
+           -0.265562         -4.82656E-4
+         -0.24875724         -4.85589E-4
+         -0.23195249         -4.90053E-4
+         -0.21514773         -4.96848E-4
+         -0.19834298         -5.07191E-4
+         -0.18153824         -5.22935E-4
+         -0.16473348         -5.46899E-4
+         -0.14792873         -5.83376E-4
+         -0.13112397         -6.38898E-4
+         -0.11431923         -7.23412E-4
+         -0.09751447         -8.52053E-4
+        -0.080709726        -0.001047863
+         -0.06390497        -0.001345915
+         -0.04710022        -0.001799591
+         -0.03029547        -0.002490152
+              -0.014        -0.004770395
+        -0.005852265        -0.004336723
+        -0.003563109        -0.003469378
                   0.                  0.
-      -0.00356310884      -0.00346937839
-       -0.0058522651      -0.00433672298
-              -0.014      -0.00477039528
-       -0.0302954698      -0.00249015178
-      -0.04710022117      -0.00179959142
-      -0.06390497255      -0.00134591483
-      -0.08070972392      -0.00104786347
-      -0.09751447529      -0.00085205304
-      -0.11431922666       -0.0007234117
-      -0.13112397804      -0.00063889835
-      -0.14792872941      -0.00058337572
-      -0.16473348078      -0.00054689909
-      -0.18153823215      -0.00052293508
-      -0.19834298353      -0.00050719147
-       -0.2151477349      -0.00049684841
-      -0.23195248627      -0.00049005335
-      -0.24875723765       -0.0004855892
-      -0.26556198902       -0.0004826564
-      -0.28236674039      -0.00048072964
-      -0.29917149176      -0.00047946381
-      -0.31597624314      -0.00047863221
-      -0.33278099451      -0.00047808587
-      -0.34958574588      -0.00047772694
-      -0.36639049725      -0.00047749114
-      -0.38319524863      -0.00047733622
-                -0.4      -0.00047723445
-               -0.45      -0.00047709537
-                -0.5      -0.00047705553
-               -0.55      -0.00047704411
-                -0.6      -0.00047704084
+         0.005088303         0.004954451
+         0.008360379         0.006193064
+                0.02          0.00681237
+               0.105         0.005449896
+              0.1275         0.005449896
+                0.15         0.005449896
+              0.1725         0.005449896
+               0.195         0.005449896
+              0.2175         0.005449896
+                0.24         0.005449896
+              0.2625         0.005449896
+               0.285         0.005449896
+              0.3075         0.005449896
+                0.33         0.005449896
+              0.3525         0.005449896
+               0.375         0.005449896
+              0.3975         0.005449896
+                0.42         0.005449896
+              0.4425         0.005449896
+               0.465         0.005449896
+              0.4875         0.005449896
+                0.51         0.005449896
+              0.5325         0.005449896
+               0.555         0.005449896
+              0.5775         0.005449896
+                 0.6         0.005449896
 *DEFINE_CURVE_TITLE
 Trab_027gcm_500
    7011033         0        1.        1.        0.        0.         0         0
-                 0.6       0.00575790676
-              0.5775       0.00575790676
-               0.555       0.00575790676
-              0.5325       0.00575790676
-                0.51       0.00575790676
-              0.4875       0.00575790676
-               0.465       0.00575790676
-              0.4425       0.00575790676
-                0.42       0.00575790676
-              0.3975       0.00575790676
-               0.375       0.00575790676
-              0.3525       0.00575790676
-                0.33       0.00575790676
-              0.3075       0.00575790676
-               0.285       0.00575790676
-              0.2625       0.00575790676
-                0.24       0.00575790676
-              0.2175       0.00575790676
-               0.195       0.00575790676
-              0.1725       0.00575790676
-                0.15       0.00575790676
-              0.1275       0.00575790676
-               0.105       0.00575790676
-                0.02       0.00719738346
-       0.00871984686       0.00654307587
-       0.00537587749        0.0052344607
+                -0.6         -5.04002E-4
+               -0.55         -5.04005E-4
+                -0.5         -5.04017E-4
+               -0.45         -5.04059E-4
+                -0.4         -5.04206E-4
+         -0.38317236         -5.04314E-4
+         -0.36634475         -5.04478E-4
+          -0.3495171         -5.04728E-4
+          -0.3326895         -5.05108E-4
+         -0.31586188         -5.05688E-4
+         -0.29903424          -5.0657E-4
+         -0.28220662         -5.07915E-4
+         -0.26537898         -5.09962E-4
+         -0.24855135          -5.1308E-4
+         -0.23172374         -5.17828E-4
+         -0.21489611         -5.25061E-4
+         -0.19806848         -5.36076E-4
+         -0.18124086         -5.52852E-4
+         -0.16441323         -5.78401E-4
+          -0.1475856         -6.17314E-4
+         -0.13075797         -6.76579E-4
+        -0.113930345          -7.6684E-4
+        -0.097102724         -9.04308E-4
+        -0.080275096        -0.001113674
+         -0.06344747        -0.001432541
+         -0.04661984        -0.001918181
+        -0.029792214        -0.002657815
+              -0.014        -0.005040003
+        -0.006103893        -0.004581821
+        -0.003764484        -0.003665456
                   0.                  0.
-      -0.00376448429      -0.00366545649
-       -0.0061038928      -0.00458182062
-              -0.014      -0.00504000268
-      -0.02979221439      -0.00265781537
-      -0.04661984101      -0.00191818057
-      -0.06344746763      -0.00143254141
-      -0.08027509425      -0.00111367404
-      -0.09710272087      -0.00090430791
-      -0.11393034749      -0.00076683953
-       -0.1307579741      -0.00067657874
-      -0.14758560072      -0.00061731411
-      -0.16441322734      -0.00057840137
-      -0.18124085396      -0.00055285152
-      -0.19806848058      -0.00053607567
-       -0.2148961072      -0.00052506076
-      -0.23172373382      -0.00051782844
-      -0.24855136043      -0.00051307975
-      -0.26537898705       -0.0005099618
-      -0.28220661367      -0.00050791457
-      -0.29903424029      -0.00050657037
-      -0.31586186691      -0.00050568778
-      -0.33268949353      -0.00050510828
-      -0.34951712014      -0.00050472778
-      -0.36634474676      -0.00050447795
-      -0.38317237338      -0.00050431391
-                -0.4       -0.0005042062
-               -0.45      -0.00050405927
-                -0.5      -0.00050401717
-               -0.55      -0.00050400511
-                -0.6      -0.00050400166
+         0.005375877         0.005234461
+         0.008719847         0.006543076
+                0.02         0.007197383
+               0.105         0.005757907
+              0.1275         0.005757907
+                0.15         0.005757907
+              0.1725         0.005757907
+               0.195         0.005757907
+              0.2175         0.005757907
+                0.24         0.005757907
+              0.2625         0.005757907
+               0.285         0.005757907
+              0.3075         0.005757907
+                0.33         0.005757907
+              0.3525         0.005757907
+               0.375         0.005757907
+              0.3975         0.005757907
+                0.42         0.005757907
+              0.4425         0.005757907
+               0.465         0.005757907
+              0.4875         0.005757907
+                0.51         0.005757907
+              0.5325         0.005757907
+               0.555         0.005757907
+              0.5775         0.005757907
+                 0.6         0.005757907
 *DEFINE_CURVE_TITLE
 Trab_027gcm_1000
    7011034         0        1.        1.        0.        0.         0         0
-                 0.6       0.00600242066
-              0.5775       0.00600242066
-               0.555       0.00600242066
-              0.5325       0.00600242066
-                0.51       0.00600242066
-              0.4875       0.00600242066
-               0.465       0.00600242066
-              0.4425       0.00600242066
-                0.42       0.00600242066
-              0.3975       0.00600242066
-               0.375       0.00600242066
-              0.3525       0.00600242066
-                0.33       0.00600242066
-              0.3075       0.00600242066
-               0.285       0.00600242066
-              0.2625       0.00600242066
-                0.24       0.00600242066
-              0.2175       0.00600242066
-               0.195       0.00600242066
-              0.1725       0.00600242066
-                0.15       0.00600242066
-              0.1275       0.00600242066
-               0.105       0.00600242066
-                0.02       0.00750302582
-       0.00900521027       0.00682093256
-       0.00560416822       0.00545674605
+                -0.6         -5.25404E-4
+               -0.55         -5.25408E-4
+                -0.5         -5.25421E-4
+               -0.45         -5.25465E-4
+                -0.4         -5.25618E-4
+          -0.3831542          -5.2573E-4
+         -0.36630842         -5.25901E-4
+         -0.34946263         -5.26162E-4
+         -0.33261687          -5.2656E-4
+         -0.31577107         -5.27166E-4
+         -0.29892528          -5.2809E-4
+          -0.2820795         -5.29497E-4
+         -0.26523373          -5.3164E-4
+         -0.24838792         -5.34907E-4
+         -0.23154214         -5.39884E-4
+         -0.21469635         -5.47468E-4
+         -0.19785057         -5.59023E-4
+         -0.18100478          -5.7663E-4
+           -0.164159         -6.03458E-4
+          -0.1473132         -6.44336E-4
+         -0.13046741         -7.06622E-4
+         -0.11362164         -8.01527E-4
+         -0.09677585         -9.46134E-4
+         -0.07993007        -0.001166473
+        -0.063084275        -0.001502204
+        -0.046238493         -0.00201376
+        -0.029392706        -0.002793219
+              -0.014         -0.00525403
+        -0.006303647        -0.004776391
+        -0.003924346        -0.003821113
                   0.                  0.
-      -0.00392434598      -0.00382111289
-      -0.00630364719      -0.00477639112
-              -0.014      -0.00525403023
-      -0.02939270562       -0.0027932191
-      -0.04623849173      -0.00201375974
-      -0.06308427784      -0.00150220433
-      -0.07993006394      -0.00116647299
-      -0.09677585005      -0.00094613414
-      -0.11362163616      -0.00080152682
-      -0.13046742227      -0.00070662173
-      -0.14731320838      -0.00064433599
-      -0.16415899449      -0.00060345815
-      -0.18100478059      -0.00057663023
-       -0.1978505667      -0.00055902319
-      -0.21469635281      -0.00054746777
-      -0.23154213892      -0.00053988401
-      -0.24838792503      -0.00053490683
-      -0.26523371113      -0.00053164032
-      -0.28207949724      -0.00052949653
-      -0.29892528335      -0.00052808957
-      -0.31577106946      -0.00052716619
-      -0.33261685557      -0.00052656018
-      -0.34946264168      -0.00052616246
-      -0.36630842778      -0.00052590144
-      -0.38315421389      -0.00052573013
-                -0.4       -0.0005256177
-               -0.45      -0.00052546453
-                -0.5      -0.00052542064
-               -0.55      -0.00052540807
-                -0.6      -0.00052540447
+         0.005604168         0.005456746
+          0.00900521         0.006820933
+                0.02         0.007503026
+               0.105         0.006002421
+              0.1275         0.006002421
+                0.15         0.006002421
+              0.1725         0.006002421
+               0.195         0.006002421
+              0.2175         0.006002421
+                0.24         0.006002421
+              0.2625         0.006002421
+               0.285         0.006002421
+              0.3075         0.006002421
+                0.33         0.006002421
+              0.3525         0.006002421
+               0.375         0.006002421
+              0.3975         0.006002421
+                0.42         0.006002421
+              0.4425         0.006002421
+               0.465         0.006002421
+              0.4875         0.006002421
+                0.51         0.006002421
+              0.5325         0.006002421
+               0.555         0.006002421
+              0.5775         0.006002421
+                 0.6         0.006002421
 *DEFINE_CURVE_TITLE
 Trab_027gcm_2000
    7011035         0        1.        1.        0.        0.         0         0
-                 0.6       0.00625731802
-              0.5775       0.00625731802
-               0.555       0.00625731802
-              0.5325       0.00625731802
-                0.51       0.00625731802
-              0.4875       0.00625731802
-               0.465       0.00625731802
-              0.4425       0.00625731802
-                0.42       0.00625731802
-              0.3975       0.00625731802
-               0.375       0.00625731802
-              0.3525       0.00625731802
-                0.33       0.00625731802
-              0.3075       0.00625731802
-               0.285       0.00625731802
-              0.2625       0.00625731802
-                0.24       0.00625731802
-              0.2175       0.00625731802
-               0.195       0.00625731802
-              0.1725       0.00625731802
-                0.15       0.00625731802
-              0.1275       0.00625731802
-               0.105       0.00625731802
-                0.02       0.00782164752
-       0.00930269186       0.00711058866
-       0.00584215348       0.00568847092
+                -0.6         -5.47716E-4
+               -0.55          -5.4772E-4
+                -0.5         -5.47733E-4
+               -0.45         -5.47779E-4
+                -0.4         -5.47938E-4
+          -0.3831353         -5.48056E-4
+         -0.36627057         -5.48235E-4
+         -0.34940585         -5.48507E-4
+         -0.33254114         -5.48923E-4
+         -0.31567642         -5.49557E-4
+          -0.2988117         -5.50523E-4
+           -0.281947         -5.51996E-4
+         -0.26508227         -5.54242E-4
+         -0.24821755         -5.57664E-4
+         -0.23135284         -5.62882E-4
+         -0.21448812         -5.70836E-4
+          -0.1976234         -5.82962E-4
+         -0.18075868         -6.01447E-4
+         -0.16389397         -6.29625E-4
+         -0.14702925         -6.72581E-4
+         -0.13016453         -7.38065E-4
+         -0.11329982          -8.3789E-4
+          -0.0964351         -9.90065E-4
+         -0.07957038        -0.001222045
+        -0.062705666        -0.001575681
+         -0.04584095        -0.002114773
+        -0.028976232        -0.002936579
+              -0.014        -0.005477147
+        -0.006511884        -0.004979224
+        -0.004090996        -0.003983379
                   0.                  0.
-      -0.00409099632      -0.00398337936
-       -0.0065118843       -0.0049792242
-              -0.014      -0.00547714662
-       -0.0289762314      -0.00293657875
-      -0.04584094816      -0.00211477279
-      -0.06270566491      -0.00157568071
-      -0.07957038167      -0.00122204459
-      -0.09643509842      -0.00099006473
-      -0.11329981517      -0.00083788951
-      -0.13016453193       -0.0007380649
-      -0.14702924868      -0.00067258149
-      -0.16389396544      -0.00062962538
-      -0.18075868219      -0.00060144684
-      -0.19762339895      -0.00058296214
-       -0.2144881157      -0.00057083647
-      -0.23135283246      -0.00056288221
-      -0.24821754921      -0.00055766434
-      -0.26508226596       -0.0005542415
-      -0.28194698272      -0.00055199617
-      -0.29881169947      -0.00055052326
-      -0.31567641623      -0.00054955706
-      -0.33254113298      -0.00054892325
-      -0.34940584974      -0.00054850748
-      -0.36627056649      -0.00054823474
-      -0.38313528325      -0.00054805582
-                -0.4      -0.00054793846
-               -0.45      -0.00054777878
-                -0.5      -0.00054773303
-               -0.55      -0.00054771992
-                -0.6      -0.00054771617
+         0.005842153         0.005688471
+         0.009302692         0.007110589
+                0.02         0.007821648
+               0.105         0.006257318
+              0.1275         0.006257318
+                0.15         0.006257318
+              0.1725         0.006257318
+               0.195         0.006257318
+              0.2175         0.006257318
+                0.24         0.006257318
+              0.2625         0.006257318
+               0.285         0.006257318
+              0.3075         0.006257318
+                0.33         0.006257318
+              0.3525         0.006257318
+               0.375         0.006257318
+              0.3975         0.006257318
+                0.42         0.006257318
+              0.4425         0.006257318
+               0.465         0.006257318
+              0.4875         0.006257318
+                0.51         0.006257318
+              0.5325         0.006257318
+               0.555         0.006257318
+              0.5775         0.006257318
+                 0.6         0.006257318
 *DEFINE_TABLE_2D_TITLE
 DEFINE_TABLE_2D_02004072
    2004072                    
-         0.000240141             2104072
+          2.40141E-4             2104072
           0.00960563             2204072
            0.0720423             2304072
 *DEFINE_TABLE_2D_TITLE
 DEFINE_TABLE_2D_02004073
    2004073                    
-         0.000240141             2104073
+          2.40141E-4             2104073
           0.00960563             2204073
            0.0720423             2304073
 *DEFINE_TABLE_2D_TITLE
 DEFINE_TABLE_2D_02004074
    2004074                    
-         0.000240141             2104074
+          2.40141E-4             2104074
           0.00960563             2204074
            0.0720423             2304074
 *DEFINE_TABLE_2D_TITLE
 DEFINE_TABLE_2D_02004075
    2004075                    
-         0.000240141             2104075
+          2.40141E-4             2104075
           0.00960563             2204075
            0.0720423             2304075
 *DEFINE_TABLE_2D_TITLE
 DEFINE_TABLE_2D_02004076
    2004076                    
-         0.000240141             2104076
+          2.40141E-4             2104076
           0.00960563             2204076
            0.0720423             2304076
 *DEFINE_TABLE_2D_TITLE
 DEFINE_TABLE_2D_02004077
    2004077                    
-         0.000240141             2104077
+          2.40141E-4             2104077
           0.00960563             2204077
            0.0720423             2304077
 *DEFINE_TABLE_2D_TITLE
 DEFINE_TABLE_2D_02004082
    2004082                    
-         0.000238223             2104082
+          2.38223E-4             2104082
           0.00952891             2204082
 *DEFINE_TABLE_2D_TITLE
 DEFINE_TABLE_2D_02004083
    2004083                    
-         0.000238223             2104083
+          2.38223E-4             2104083
           0.00952891             2204083
 *DEFINE_TABLE_2D_TITLE
 DEFINE_TABLE_2D_02004084
    2004084                    
-         0.000238223             2104084
+          2.38223E-4             2104084
           0.00952891             2204084
 *DEFINE_TABLE_2D_TITLE
 DEFINE_TABLE_2D_02004085
    2004085                    
-         0.000238223             2104085
+          2.38223E-4             2104085
           0.00952891             2204085
 *DEFINE_TABLE_2D_TITLE
 DEFINE_TABLE_2D_02004086
    2004086                    
-         0.000238223             2104086
+          2.38223E-4             2104086
           0.00952891             2204086
 *DEFINE_TABLE_2D_TITLE
 DEFINE_TABLE_2D_02004087
    2004087                    
                   0.             2104087
-         0.000238223             2104087
+          2.38223E-4             2104087
           0.00952891             2204087
            0.0714669             2204087
             0.714669             2204087
@@ -4429,11 +4435,11 @@ NE_C-Anulus_Superficial
                   0.                  0.
            0.0050125          2.04498E-5
              0.01005          5.36462E-5
-           0.0151125           0.0001076
-              0.0202         0.000195359
-           0.0253125          0.00033817
-             0.03045         0.000570636
-           0.0356125         0.000949113
+           0.0151125            1.076E-4
+              0.0202          1.95359E-4
+           0.0253125           3.3817E-4
+             0.03045          5.70636E-4
+           0.0356125          9.49113E-4
               0.0408          0.00144684
            0.0460125          0.00194089
              0.05125          0.00243023
@@ -4463,12 +4469,12 @@ NE_C-Anulus_Mid
            0.0050125          1.52883E-5
              0.01005           3.7094E-5
            0.0151125            6.823E-5
-              0.0202         0.000112723
-           0.0253125         0.000176337
-             0.03045         0.000267324
-           0.0356125           0.0003975
-              0.0408          0.00058378
-           0.0460125          0.00085038
+              0.0202          1.12723E-4
+           0.0253125          1.76337E-4
+             0.03045          2.67324E-4
+           0.0356125            3.975E-4
+              0.0408           5.8378E-4
+           0.0460125           8.5038E-4
              0.05125          0.00121268
            0.0565125          0.00158714
               0.0618          0.00195806
@@ -4498,15 +4504,15 @@ NE_C-Anulus_Deep
            0.0151125          4.11945E-5
               0.0202          6.24366E-5
            0.0253125          8.91095E-5
-             0.03045         0.000122617
-           0.0356125         0.000164724
-              0.0408         0.000217655
-           0.0460125         0.000284205
-             0.05125         0.000367895
-           0.0565125         0.000473156
-              0.0618         0.000605561
-           0.0671125          0.00077213
-             0.07245         0.000981694
+             0.03045          1.22617E-4
+           0.0356125          1.64724E-4
+              0.0408          2.17655E-4
+           0.0460125          2.84205E-4
+             0.05125          3.67895E-4
+           0.0565125          4.73156E-4
+              0.0618          6.05561E-4
+           0.0671125           7.7213E-4
+             0.07245          9.81694E-4
            0.0778125          0.00123475
               0.0832          0.00149086
            0.0886125          0.00174461
@@ -4529,9 +4535,9 @@ NE_C_SC1-PAOM
            0.0347724          9.80606E-6
            0.0707137          2.94909E-5
             0.107824          6.94038E-5
-            0.146103         0.000150746
-             0.18555         0.000316985
-            0.226167         0.000657303
+            0.146103          1.50746E-4
+             0.18555          3.16985E-4
+            0.226167          6.57303E-4
             0.267952          0.00133767
             0.310907          0.00213712
              0.35503          0.00289476
@@ -4581,9 +4587,9 @@ NE_C_SC1-AAOM
     203009         0        1.        1.        0.        0.         0         0
                   0.                  0.
            0.0562957          6.79164E-5
-            0.115594         0.000180872
-            0.177895         0.000372033
-            0.243198         0.000698856
+            0.115594          1.80872E-4
+            0.177895          3.72033E-4
+            0.243198          6.98856E-4
             0.311503          0.00126107
             0.382811          0.00223206
             0.457121           0.0039136
@@ -4640,50 +4646,50 @@ NE_C_SC1-PAOM
             0.223041          1.42703E-5
             0.285211          3.60587E-5
             0.349944          9.04923E-5
-            0.417241         0.000226709
-            0.487101         0.000452174
-            0.559526         0.000663583
-            0.634514         0.000763992
-            0.712065         0.000817505
-            0.792181         0.000852885
-             0.87486         0.000875599
-            0.960103         0.000889262
-             1.04791         0.000896346
-             1.13828         0.000898587
-             1.23121         0.000897228
-             1.32671         0.000893179
-             1.42477         0.000887116
-              1.5254         0.000879547
-             1.62859         0.000870857
-             1.73434         0.000861342
-             1.84265         0.000851231
-             1.95353         0.000840703
-             2.06698         0.000822954
-             2.18298         0.000804966
-             2.30155         0.000787747
-             2.42269          0.00077125
-             2.54639         0.000755429
-             2.67265         0.000740245
-             2.80147         0.000725659
-             2.93286         0.000711636
-             3.06682         0.000698146
-             3.20333         0.000685157
-             3.34241         0.000672643
-             3.48406         0.000660577
-             3.62826         0.000648937
-             3.77504           0.0006377
-             3.92437         0.000626846
-             4.07627         0.000616355
-             4.23073         0.000606209
-             4.38776         0.000596392
-             4.54735         0.000586887
-              4.7095         0.000577681
-             4.87422          0.00056876
-              5.0415         0.000560109
-             5.21134         0.000551718
-             5.38375         0.000543575
-             5.55872         0.000535668
-             5.73626         0.000527988
+            0.417241          2.26709E-4
+            0.487101          4.52174E-4
+            0.559526          6.63583E-4
+            0.634514          7.63992E-4
+            0.712065          8.17505E-4
+            0.792181          8.52885E-4
+             0.87486          8.75599E-4
+            0.960103          8.89262E-4
+             1.04791          8.96346E-4
+             1.13828          8.98587E-4
+             1.23121          8.97228E-4
+             1.32671          8.93179E-4
+             1.42477          8.87116E-4
+              1.5254          8.79547E-4
+             1.62859          8.70857E-4
+             1.73434          8.61342E-4
+             1.84265          8.51231E-4
+             1.95353          8.40703E-4
+             2.06698          8.22954E-4
+             2.18298          8.04966E-4
+             2.30155          7.87747E-4
+             2.42269           7.7125E-4
+             2.54639          7.55429E-4
+             2.67265          7.40245E-4
+             2.80147          7.25659E-4
+             2.93286          7.11636E-4
+             3.06682          6.98146E-4
+             3.20333          6.85157E-4
+             3.34241          6.72643E-4
+             3.48406          6.60577E-4
+             3.62826          6.48937E-4
+             3.77504            6.377E-4
+             3.92437          6.26846E-4
+             4.07627          6.16355E-4
+             4.23073          6.06209E-4
+             4.38776          5.96392E-4
+             4.54735          5.86887E-4
+              4.7095          5.77681E-4
+             4.87422           5.6876E-4
+              5.0415          5.60109E-4
+             5.21134          5.51718E-4
+             5.38375          5.43575E-4
+             5.55872          5.35668E-4
+             5.73626          5.27988E-4
 *DEFINE_CURVE_TITLE
 NE_C_C2C3-ISL
     213029         0        1.        1.        0.        0.         0         0
@@ -4691,14 +4697,14 @@ NE_C_C2C3-ISL
            0.0195104          8.65621E-6
            0.0393942           3.5179E-5
            0.0596513          7.92986E-5
-           0.0802819         0.000140452
-            0.101286         0.000218009
-            0.122663         0.000311322
-            0.144414         0.000419754
-            0.166538         0.000542686
-            0.189036         0.000679521
-            0.211907         0.000829689
-            0.235151         0.000992645
+           0.0802819          1.40452E-4
+            0.101286          2.18009E-4
+            0.122663          3.11322E-4
+            0.144414          4.19754E-4
+            0.166538          5.42686E-4
+            0.189036          6.79521E-4
+            0.211907          8.29689E-4
+            0.235151          9.92645E-4
             0.258769          0.00116787
              0.28276          0.00135487
             0.307125          0.00155317
@@ -4747,13 +4753,13 @@ NE_C_C3C4-ISL
            0.0203645          1.01344E-5
            0.0411355           4.1154E-5
             0.062313          9.26964E-5
-            0.083897         0.000164062
-            0.105887         0.000254476
-            0.128284          0.00036315
-            0.151088         0.000489311
-            0.174298         0.000632212
-            0.197914         0.000791135
-            0.221937         0.000965395
+            0.083897          1.64062E-4
+            0.105887          2.54476E-4
+            0.128284           3.6315E-4
+            0.151088          4.89311E-4
+            0.174298          6.32212E-4
+            0.197914          7.91135E-4
+            0.221937          9.65395E-4
             0.246366          0.00115434
             0.271202          0.00135735
             0.296444          0.00157384
@@ -4803,13 +4809,13 @@ NE_C_C4C5-ISL
            0.0324592          1.08811E-5
            0.0659392          4.37062E-5
              0.10044          9.74272E-5
-            0.135961         0.000170736
-            0.172504         0.000262336
-            0.210066         0.000371003
-             0.24865         0.000495597
-            0.288254         0.000635066
-             0.32888         0.000788441
-            0.370525         0.000954832
+            0.135961          1.70736E-4
+            0.172504          2.62336E-4
+            0.210066          3.71003E-4
+             0.24865          4.95597E-4
+            0.288254          6.35066E-4
+             0.32888          7.88441E-4
+            0.370525          9.54832E-4
             0.413192          0.00113342
             0.456879          0.00132346
             0.501587          0.00152426
@@ -4859,15 +4865,15 @@ NE_C_C5C6-ISL
            0.0392012          7.75367E-6
            0.0798817          3.09617E-5
             0.122041          6.86391E-5
-             0.16568         0.000119667
-            0.210799         0.000182978
-            0.257396         0.000257592
-            0.305473         0.000342617
-             0.35503         0.000437248
-            0.406065         0.000540756
-             0.45858         0.000652485
-            0.512574         0.000771838
-            0.568047         0.000898279
+             0.16568          1.19667E-4
+            0.210799          1.82978E-4
+            0.257396          2.57592E-4
+            0.305473          3.42617E-4
+             0.35503          4.37248E-4
+            0.406065          5.40756E-4
+             0.45858          6.52485E-4
+            0.512574          7.71838E-4
+            0.568047          8.98279E-4
                0.625          0.00103132
             0.683432          0.00117051
             0.743343          0.00131546
@@ -4915,14 +4921,14 @@ NE_C_C6C7-ISL
            0.0475933           9.5182E-6
            0.0973499          3.77382E-5
              0.14927          8.31133E-5
-            0.203353         0.000144019
-              0.2596         0.000218968
-             0.31801         0.000306631
-            0.378583         0.000405831
-             0.44132         0.000515527
-             0.50622         0.000634799
-            0.573283         0.000762832
-            0.642509           0.0008989
+            0.203353          1.44019E-4
+              0.2596          2.18968E-4
+             0.31801          3.06631E-4
+            0.378583          4.05831E-4
+             0.44132          5.15527E-4
+             0.50622          6.34799E-4
+            0.573283          7.62832E-4
+            0.642509            8.989E-4
             0.713899          0.00104236
             0.787453          0.00119263
             0.863169          0.00134919
@@ -4971,15 +4977,15 @@ NE_C_C7T1-ISL
            0.0399846          8.36788E-6
            0.0815071          3.33918E-5
             0.124567          7.39802E-5
-            0.169166         0.000128903
-            0.215302         0.000196993
-            0.262976          0.00027718
-            0.312188         0.000368494
-            0.362937         0.000470059
-            0.415225         0.000581087
-             0.46905         0.000700866
-            0.524414         0.000828754
-            0.581315         0.000964171
+            0.169166          1.28903E-4
+            0.215302          1.96993E-4
+            0.262976           2.7718E-4
+            0.312188          3.68494E-4
+            0.362937          4.70059E-4
+            0.415225          5.81087E-4
+             0.46905          7.00866E-4
+            0.524414          8.28754E-4
+            0.581315          9.64171E-4
             0.639754          0.00110659
             0.699731          0.00125554
             0.761246          0.00141058
@@ -5039,35 +5045,17 @@ Manschot el at 1986 (across)
            0.0595664          7.56222E-5
            0.0628569          8.48259E-5
            0.0657617          9.40087E-5
-           0.0683487         0.000103174
-           0.0847367         0.000194189
-           0.0942015         0.000284367
-            0.101543         0.000373797
-            0.108034         0.000462478
-            0.114128         0.000550409
-             0.12002         0.000637589
-            0.125801         0.000724022
-            0.131523         0.000809714
+           0.0683487          1.03174E-4
+           0.0847367          1.94189E-4
+           0.0942015          2.84367E-4
+            0.101543          3.73797E-4
+            0.108034          4.62478E-4
+            0.114128          5.50409E-4
+             0.12002          6.37589E-4
+            0.125801          7.24022E-4
+            0.131523          8.09714E-4
             0.378379          0.00377237
             0.733868          0.00636576
-             1.14958          0.00825827
-             1.62554          0.00970018
-             2.16175           0.0108353
-             2.75821           0.0117521
-             3.41491           0.0125081
-             4.13186           0.0131422
-             4.90906           0.0136816
-             5.74651           0.0141461
-              6.6442           0.0145503
-             7.60214           0.0149051
-             8.62033           0.0152192
-             9.69877           0.0154992
-             10.8375           0.0157503
-             12.0364           0.0159768
-             13.2956           0.0161821
-              14.615            0.016369
-             15.9947             0.01654
-             17.4346            0.016697
 *DEFINE_CURVE_TITLE
 IM test curve for fitting
     354111         0        1.     0.001        0.        0.         0          
@@ -5122,6 +5110,86 @@ TSpine-Intervertebral
            -1.570796              -220.6
                   0.                  0.
             1.570796               233.8
+*DEFINE_CURVE_TITLE
+Lung tissue Rater (2013)
+    405101         0        1.     1.E-6        0.        0.         0         0
+                  0.                  0.
+         0.023981584           0.6519244
+         0.039127845           1.0117657
+          0.05427411           1.3867265
+         0.069420375           1.7768066
+          0.08456664           2.1729345
+           0.0997129           2.5267282
+         0.114859164           2.9349513
+          0.13000543           3.3492227
+          0.14515169           3.7695415
+          0.16029796           4.1626453
+          0.17544422            4.534582
+          0.19059049           4.8732567
+          0.20573674             5.13331
+          0.22088301            5.372196
+          0.23602927           5.6110826
+          0.25117552           5.8076344
+           0.2663218           6.0102344
+          0.28146806           6.1825953
+          0.29661432           6.3579803
+          0.31176057           6.5182457
+          0.32690686           6.6422243
+          0.34205312           6.7934184
+          0.35719937           6.9053016
+          0.37234563           7.0292807
+           0.3874919           7.1260448
+          0.40263817            7.216761
+          0.41778442             7.28631
+          0.43293068           7.3528357
+          0.44807696           7.3951697
+          0.46322322           7.4465756
+          0.47836947           7.4979815
+          0.49351576            7.510077
+            0.508662           7.5312443
+           0.5238083           7.5524116
+          0.53895456           7.6189365
+           0.5541008            7.733844
+          0.56924707           7.9485393
+           0.5843933            8.235807
+           0.5995396            8.671246
+          0.61468583            9.233687
+          0.62845516            9.870717
+          0.64015913           10.595566
+           0.6504861           11.313683
+          0.66012466           12.078723
+           0.6690747            12.84218
+          0.67664784           13.585046
+           0.6843193           14.335832
+           0.6919908          15.2367735
+          0.69966227           16.317905
+           0.7073338           17.615261
+           0.7150053            19.17209
+          0.72267675           21.040285
+           0.7303482           23.282118
+           0.7380197           25.972319
+           0.7456912           29.200558
+          0.75336266           33.074448
+           0.7610342            37.72311
+          0.76870567            43.30151
+          0.77637714            49.99559
+           0.7840486           58.028484
+           0.7917201            67.66795
+          0.79939157            79.23532
+          0.80706304           93.116165
+           0.8147346           109.77317
+          0.82240605           129.76158
+           0.8300775           153.74768
+            0.837749           182.53099
+           0.8454205           217.07097
+          0.85309196           258.51892
+          0.86076343            308.2565
+          0.86843497           367.94156
+          0.87610644           439.56366
+           0.8837779            525.5102
+           0.8914494             628.646
+          0.89912087           752.40894
+          0.90679234            900.9245
 *DEFINE_CURVE_TITLE
 L1-L2
     502011         0        1.        1.        0.        0.         0         0
@@ -5244,7 +5312,7 @@ L2-L3
            -0.026012           -4.798135
            -0.017446           -2.445979
             -0.00888           -0.962456
-           -0.000314           -0.026786
+            -3.14E-4           -0.026786
                   0.                  0.
             0.008566            0.827545
             0.017132            2.233188
@@ -5446,173 +5514,173 @@ L5-S1
 Pelvis_Kemper_et_al_2008_mean_of_all
     601001         0        1.        1.-0.0057484        0.         0         0
            0.0057484          0.05942722
-         0.005996982         0.061128138
-         0.006245456         0.062605921
+         0.005996982          0.06112814
+         0.006245456          0.06260592
          0.006493869          0.06397523
-          0.00674222         0.065417136
-         0.006990509         0.066969749
-         0.007238737         0.068263237
-         0.007486903         0.069417239
-         0.007735008         0.070618772
+          0.00674222          0.06541713
+         0.006990509          0.06696975
+         0.007238737          0.06826324
+         0.007486903          0.06941724
+         0.007735008          0.07061877
           0.00798305          0.07172898
-         0.008231032         0.072733697
-         0.008478952         0.073716879
-          0.00872681         0.074614908
-         0.008974607         0.075489356
-         0.009222343         0.076335734
-         0.009470018         0.077234861
-         0.009717631         0.078094981
+         0.008231032           0.0727337
+         0.008478952          0.07371688
+          0.00872681         0.074614905
+         0.008974607          0.07548936
+         0.009222343         0.076335736
+         0.009470018         0.077234864
+         0.009717631          0.07809498
          0.009965182          0.07897282
-         0.010212673         0.079754769
-         0.010460102         0.080532251
-          0.01070747         0.081238272
-         0.010954777         0.081862787
+         0.010212673          0.07975477
+         0.010460102          0.08053225
+          0.01070747          0.08123827
+         0.010954777         0.081862785
          0.011202022          0.08254302
-         0.011449207         0.083191353
-          0.01169633         0.083805044
-         0.011943393         0.084405584
-         0.012190394         0.084967093
-         0.012437335         0.085533041
-         0.012684214         0.086110681
-         0.012931033         0.086708148
-          0.01317779         0.087261524
-         0.013424487         0.087766187
-         0.013671123         0.088280113
-         0.013917698         0.088760301
-         0.014164212         0.089219442
-         0.014410666         0.089690511
-         0.014657059         0.090147429
+         0.011449207          0.08319135
+          0.01169633          0.08380505
+         0.011943393         0.084405586
+         0.012190394          0.08496709
+         0.012437335          0.08553304
+         0.012684214          0.08611068
+         0.012931033          0.08670815
+          0.01317779          0.08726152
+         0.013424487         0.087766185
+         0.013671123          0.08828011
+         0.013917698           0.0887603
+         0.014164212          0.08921944
+         0.014410666         0.089690514
+         0.014657059          0.09014743
          0.014903391          0.09057703
-         0.015149662         0.090998819
-         0.015395873         0.091451407
-         0.015642023         0.091862373
-         0.015888113         0.092232255
-         0.016134142         0.092633909
-          0.01638011         0.093078366
-         0.016626019         0.093484721
-         0.016871866         0.093777352
-         0.017117653         0.094152322
-          0.01736338         0.094634806
-         0.017609047         0.095085354
-         0.017854653         0.095617207
-         0.018100199         0.096107325
-         0.018345684         0.096546667
-         0.018591109         0.096862521
-         0.018836474         0.097224161
-         0.019081779         0.097673947
-         0.019327024         0.098106201
-         0.019572209         0.098560117
-         0.019817333          0.09891546
-         0.020062397         0.099276516
-         0.020307402          0.09964827
-         0.020552346         0.099988627
-         0.020797231         0.100260844
-         0.021042055         0.100552251
-         0.021286819         0.100830812
-         0.021531524         0.101094062
-         0.021776169          0.10126592
-         0.022020754         0.101490898
-         0.022265279          0.10173417
-         0.022509744         0.102042025
-          0.02275415         0.102253653
-         0.022998495         0.102521995
-         0.023242782          0.10279886
-         0.023487008         0.103081549
-         0.023731175         0.103444857
-         0.023975282         0.103610307
+         0.015149662          0.09099882
+         0.015395873          0.09145141
+         0.015642023          0.09186237
+         0.015888114          0.09223226
+         0.016134143          0.09263391
+          0.01638011          0.09307837
+         0.016626019          0.09348472
+         0.016871866          0.09377735
+         0.017117653         0.094152324
+          0.01736338          0.09463481
+         0.017609047          0.09508535
+         0.017854653         0.095617205
+         0.018100198          0.09610733
+         0.018345684         0.096546665
+          0.01859111          0.09686252
+         0.018836474          0.09722416
+         0.019081779         0.097673945
+         0.019327024           0.0981062
+          0.01957221          0.09856012
+         0.019817334          0.09891546
+         0.020062396          0.09927651
+         0.020307401          0.09964827
+         0.020552346         0.099988624
+          0.02079723          0.10026085
+         0.021042055          0.10055225
+          0.02128682          0.10083081
+         0.021531524          0.10109406
+          0.02177617          0.10126592
+         0.022020753           0.1014909
+          0.02226528          0.10173417
+         0.022509744          0.10204203
+          0.02275415          0.10225365
+         0.022998495          0.10252199
+         0.023242783          0.10279886
+         0.023487007          0.10308155
+         0.023731176          0.10344486
+         0.023975283          0.10361031
           0.02421933          0.10362789
-         0.024463318         0.103729217
-         0.024707247         0.103935984
-         0.024951116         0.104229703
-         0.025194925         0.104417077
-         0.025438676         0.104761406
-         0.025682367         0.105128141
-         0.025925998         0.105469101
-          0.02616957         0.105798559
-         0.026413083         0.106126975
-         0.026656536         0.106398452
-         0.026899931          0.10672587
-         0.027143266         0.107105739
-         0.027386542         0.107249646
-         0.027629758         0.107436652
+         0.024463318          0.10372922
+         0.024707247          0.10393599
+         0.024951115           0.1042297
+         0.025194924          0.10441708
+         0.025438676          0.10476141
+         0.025682367          0.10512814
+         0.025925998           0.1054691
+          0.02616957          0.10579856
+         0.026413083          0.10612697
+         0.026656536          0.10639845
+          0.02689993          0.10672587
+         0.027143266          0.10710574
+         0.027386542          0.10724965
+         0.027629757          0.10743665
          0.027872916          0.10752739
-         0.028116014         0.107579056
+         0.028116014          0.10757905
          0.028359054          0.10777548
-         0.028602034         0.108238456
-         0.028844955         0.108473084
-         0.029087818         0.108696356
-         0.029330621         0.108999585
-         0.029573365          0.10920385
-         0.029816051         0.109487947
-         0.030058677         0.109805382
-         0.030301245         0.110189446
-         0.030543754         0.110432692
-         0.030786204         0.110705845
-         0.031028595         0.110951733
-         0.031270928         0.111176235
-         0.031513202         0.111616965
-         0.031755417         0.112067716
-         0.031997574         0.112399797
-         0.032239672         0.112537952
-         0.032481711         0.112767372
-         0.032723692          0.11305828
-         0.032965614         0.113379678
-         0.033207478         0.113416827
-         0.033449283         0.113739494
-          0.03369103         0.114273348
-         0.033932718         0.114374022
-         0.034174348         0.114483335
-         0.034415919         0.114607565
-         0.034657433         0.114741819
-         0.034898888         0.114980442
-         0.035140284         0.115170852
-         0.035381622         0.115350858
-         0.035622903         0.115549734
-         0.035864125         0.115855369
-         0.036105288         0.116127945
-         0.036346394         0.116309387
-         0.036587441         0.116437011
-         0.036828431         0.116621574
-         0.037069362         0.116750175
-         0.037310236         0.116963253
-         0.037551051         0.117209938
-         0.037791808         0.117518546
-         0.038032508         0.117917984
-         0.038273149         0.118423907
-         0.038513733         0.118734115
-         0.038754258         0.118957323
-         0.038994726         0.119310822
-         0.039235136         0.119677918
-         0.039475488         0.120047237
-         0.039715783         0.120385715
-          0.03995602         0.120506749
-         0.040196199         0.120651248
-          0.04043632         0.120773688
-         0.040676384          0.12084969
-          0.04091639         0.121048618
-         0.041156339         0.121237647
+         0.028602034          0.10823846
+         0.028844954         0.108473085
+         0.029087817          0.10869636
+          0.02933062          0.10899959
+         0.029573364          0.10920385
+          0.02981605          0.10948794
+         0.030058676          0.10980538
+         0.030301245         0.110189445
+         0.030543754          0.11043269
+         0.030786203         0.110705845
+         0.031028595          0.11095174
+          0.03127093          0.11117624
+         0.031513203          0.11161696
+         0.031755418         0.112067714
+         0.031997573         0.112399794
+          0.03223967          0.11253795
+          0.03248171          0.11276737
+          0.03272369          0.11305828
+         0.032965615          0.11337968
+         0.033207476          0.11341683
+         0.033449285          0.11373949
+          0.03369103          0.11427335
+          0.03393272          0.11437402
+          0.03417435         0.114483334
+          0.03441592         0.114607565
+         0.034657434          0.11474182
+          0.03489889         0.114980444
+         0.035140283          0.11517085
+         0.035381623          0.11535086
+         0.035622902         0.115549736
+         0.035864126         0.115855366
+         0.036105286         0.116127945
+         0.036346395          0.11630939
+          0.03658744          0.11643701
+         0.036828432         0.116621576
+          0.03706936          0.11675017
+         0.037310235          0.11696325
+          0.03755105          0.11720994
+         0.037791807         0.117518544
+          0.03803251         0.117917985
+          0.03827315          0.11842391
+          0.03851373         0.118734114
+          0.03875426         0.118957326
+         0.038994726          0.11931082
+         0.039235137         0.119677916
+          0.03947549         0.120047234
+          0.03971578         0.120385714
+          0.03995602          0.12050675
+           0.0401962         0.120651245
+          0.04043632          0.12077369
+         0.040676385          0.12084969
+          0.04091639         0.121048614
+          0.04115634          0.12123765
           0.04139623          0.12148422
-         0.041636063         0.121901232
-         0.041875839         0.122178438
-         0.042115558         0.122514119
-         0.042355219         0.122916026
-         0.042594822         0.123318097
-         0.042834368         0.123683568
-         0.043073857         0.124000343
-         0.043313289         0.124262603
-         0.043552663         0.124524964
-          0.04379198         0.124650807
-         0.044031239           0.1247153
-         0.044270442         0.124790677
-         0.044509587         0.124967886
+         0.041636065          0.12190123
+          0.04187584         0.122178435
+         0.042115558          0.12251412
+          0.04235522          0.12291603
+          0.04259482           0.1233181
+         0.042834368         0.123683564
+         0.043073855          0.12400034
+         0.043313287           0.1242626
+         0.043552663         0.124524966
+          0.04379198         0.124650806
+          0.04403124           0.1247153
+          0.04427044         0.124790676
+         0.044509586          0.12496789
          0.044748675          0.12515257
-         0.044987706         0.125316517
-          0.04522668         0.125392021
+         0.044987705          0.12531652
+          0.04522668          0.12539202
          0.045465596          0.12573631
-         0.045704456         0.126090918
-         0.045943258          0.12637807
-         0.046182004         0.126578839
-         0.046420693         0.126864387
+         0.045704454          0.12609091
+         0.045943256          0.12637807
+         0.046182003          0.12657884
+         0.046420693          0.12686439
 *DEFINE_CURVE_TITLE
 Pelvis_Kemper_et_al_2008_Anterior_ilium_Tension
     601011         0        1.        1.        0.        0.         0         0
@@ -5633,33 +5701,33 @@ Femur Trabecular Ding_2000
             0.008835           0.0100668
 *DEFINE_CURVE_TITLE
 Mirzaali-et-al-Tension-Females
-    701011         0        1.        1.        0..041094984         0         0
+    701011         0        1.        1.        0..041094985         0         0
                   0.                  0.
                3.E-7             3.93E-5
                5.E-7             7.86E-5
-               7.E-7            0.000118
-               1.E-6           0.0001572
-              1.2E-6           0.0001965
-              1.4E-6           0.0002358
-              1.6E-6            0.000275
-              1.9E-6           0.0003142
-              2.2E-6           0.0003535
-              2.4E-6           0.0003926
-              2.7E-6           0.0004317
-              2.9E-6            0.000471
-              3.2E-6           0.0005101
-              3.4E-6           0.0005492
-              3.6E-6           0.0005884
-              3.9E-6           0.0006274
-              4.1E-6           0.0006665
-              4.4E-6           0.0007056
-              4.7E-6           0.0007446
-               5.E-6           0.0007836
-              5.2E-6           0.0008228
-              5.5E-6           0.0008617
-              5.7E-6           0.0009007
-               6.E-6           0.0009397
-              6.2E-6           0.0009786
+               7.E-7             1.18E-4
+               1.E-6            1.572E-4
+              1.2E-6            1.965E-4
+              1.4E-6            2.358E-4
+              1.6E-6             2.75E-4
+              1.9E-6            3.142E-4
+              2.2E-6            3.535E-4
+              2.4E-6            3.926E-4
+              2.7E-6            4.317E-4
+              2.9E-6             4.71E-4
+              3.2E-6            5.101E-4
+              3.4E-6            5.492E-4
+              3.6E-6            5.884E-4
+              3.9E-6            6.274E-4
+              4.1E-6            6.665E-4
+              4.4E-6            7.056E-4
+              4.7E-6            7.446E-4
+               5.E-6            7.836E-4
+              5.2E-6            8.228E-4
+              5.5E-6            8.617E-4
+              5.7E-6            9.007E-4
+               6.E-6            9.397E-4
+              6.2E-6            9.786E-4
               6.5E-6           0.0010175
               6.8E-6           0.0010564
               7.1E-6           0.0010954
@@ -5896,672 +5964,672 @@ Mirzaali-et-al-Tension-Females
              9.84E-5           0.0098886
              9.89E-5           0.0099258
              9.95E-5            0.009963
-              0.0001           0.0100003
-           0.0001006           0.0100374
-           0.0001011           0.0100745
-           0.0001017           0.0101118
-           0.0001022           0.0101488
-           0.0001027           0.0101859
-           0.0001033           0.0102231
-           0.0001038           0.0102602
-           0.0001044           0.0102973
-           0.0001049           0.0103344
-           0.0001055           0.0103715
-           0.0001061           0.0104085
-           0.0001066           0.0104456
-           0.0001072           0.0104826
-           0.0001078           0.0105196
-           0.0001083           0.0105566
-           0.0001089           0.0105936
-           0.0001095           0.0106305
-             0.00011           0.0106675
-           0.0001106           0.0107045
-           0.0001112           0.0107414
-           0.0001118           0.0107782
-           0.0001124           0.0108152
-           0.0001129            0.010852
-           0.0001135           0.0108888
-           0.0001141           0.0109257
-           0.0001147           0.0109625
-           0.0001153           0.0109993
-           0.0001159           0.0110361
-           0.0001165           0.0110729
-           0.0001171           0.0111096
-           0.0001177           0.0111464
-           0.0001183           0.0111831
-           0.0001189           0.0112198
-           0.0001195           0.0112565
-           0.0001202           0.0112932
-           0.0001208           0.0113298
-           0.0001214           0.0113665
-            0.000122           0.0114031
-           0.0001227           0.0114396
-           0.0001233           0.0114761
-           0.0001239           0.0115128
-           0.0001245           0.0115493
-           0.0001251           0.0115858
-           0.0001258           0.0116223
-           0.0001264           0.0116588
-           0.0001271           0.0116952
-           0.0001277           0.0117318
-           0.0001283           0.0117682
-            0.000129           0.0118046
-           0.0001296            0.011841
-           0.0001303           0.0118774
-           0.0001309           0.0119137
-           0.0001315           0.0119501
-           0.0001322           0.0119864
-           0.0001328           0.0120227
-           0.0001335           0.0120591
-           0.0001341           0.0120953
-           0.0001348           0.0121316
-           0.0001355           0.0121679
-           0.0001361           0.0122041
-           0.0001368           0.0122403
-           0.0001374           0.0122765
-           0.0001381           0.0123127
-           0.0001387           0.0123488
-           0.0001394           0.0123849
-             0.00014           0.0124212
-           0.0001407           0.0124572
-           0.0001414           0.0124933
-           0.0001421           0.0125295
-           0.0001427           0.0125656
-           0.0001434           0.0126016
-           0.0001441           0.0126378
-           0.0001447           0.0126738
-           0.0001453           0.0127098
-            0.000146            0.012746
-           0.0001466            0.012782
-           0.0001473           0.0128179
-            0.000148            0.012854
-           0.0001487             0.01289
-           0.0001494           0.0129259
-           0.0001501            0.012962
-           0.0001507           0.0129979
-           0.0001514           0.0130339
-            0.000152           0.0130699
-           0.0001527           0.0131058
-           0.0001533           0.0131418
-            0.000154           0.0131778
-           0.0001547           0.0132137
-           0.0001554           0.0132495
-           0.0001561           0.0132854
-           0.0001568           0.0133214
-           0.0001574           0.0133572
-           0.0001581            0.013393
-           0.0001588           0.0134289
-           0.0001595           0.0134647
-           0.0001602           0.0135005
-           0.0001609           0.0135364
-           0.0001616           0.0135722
-           0.0001623            0.013608
-            0.000163           0.0136438
-           0.0001636           0.0136796
-           0.0001643           0.0137153
-            0.000165           0.0137511
-           0.0001657           0.0137868
-           0.0001665           0.0138224
-           0.0001672           0.0138582
-           0.0001679           0.0138938
-           0.0001686           0.0139295
-           0.0001693           0.0139653
-             0.00017           0.0140009
-           0.0001707           0.0140365
-           0.0001715           0.0140722
-           0.0001722           0.0141078
-            0.000173           0.0141435
-           0.0001737            0.014179
-           0.0001745           0.0142147
-           0.0001752           0.0142503
-           0.0001759           0.0142859
-           0.0001767           0.0143215
-           0.0001774           0.0143571
-           0.0001782           0.0143926
-           0.0001789           0.0144282
-           0.0001797           0.0144637
-           0.0001805           0.0144992
-           0.0001813           0.0145347
-           0.0001821           0.0145702
-           0.0001828           0.0146056
-           0.0001836           0.0146411
-           0.0001843           0.0146765
-           0.0001851           0.0147118
-           0.0001859           0.0147473
-           0.0001868           0.0147826
-           0.0001876           0.0148179
-           0.0001884           0.0148533
-           0.0001892           0.0148886
-           0.0001899           0.0149239
-           0.0001907           0.0149593
-           0.0001915           0.0149945
-           0.0001923           0.0150298
-           0.0001932            0.015065
-            0.000194           0.0151004
-           0.0001948           0.0151356
-           0.0001957           0.0151708
-           0.0001965           0.0152061
-           0.0001972           0.0152413
-            0.000198           0.0152765
-           0.0001988           0.0153117
-           0.0001997           0.0153469
-           0.0002005            0.015382
-           0.0002014           0.0154172
-           0.0002023           0.0154523
-           0.0002031           0.0154874
-           0.0002039           0.0155225
-           0.0002047           0.0155575
-           0.0002055           0.0155925
-           0.0002063           0.0156276
-           0.0002072           0.0156626
-           0.0002081           0.0156975
-           0.0002089           0.0157326
-           0.0002098           0.0157674
-           0.0002106           0.0158023
-           0.0002114           0.0158372
-           0.0002123           0.0158721
-           0.0002131           0.0159069
-           0.0002139           0.0159417
-           0.0002148           0.0159766
-           0.0002156           0.0160113
-           0.0002165           0.0160461
-           0.0002173           0.0160809
-           0.0002182           0.0161157
-            0.000219           0.0161504
-           0.0002198           0.0161852
-           0.0002207           0.0162199
-           0.0002215           0.0162546
-           0.0002224           0.0162893
-           0.0002233            0.016324
-           0.0002241           0.0163586
-            0.000225           0.0163933
-           0.0002258           0.0164279
-           0.0002266           0.0164625
-           0.0002274           0.0164972
-           0.0002283           0.0165317
-           0.0002292           0.0165663
-           0.0002301            0.016601
-           0.0002309           0.0166355
-           0.0002318             0.01667
-           0.0002327           0.0167046
-           0.0002335            0.016739
-           0.0002343           0.0167735
-           0.0002351           0.0168079
-            0.000236           0.0168425
-           0.0002369           0.0168769
-           0.0002378           0.0169113
-           0.0002387           0.0169458
-           0.0002396           0.0169802
-           0.0002404           0.0170146
-           0.0002413           0.0170491
-           0.0002421           0.0170834
-            0.000243           0.0171178
-           0.0002439           0.0171523
-           0.0002448           0.0171866
-           0.0002457            0.017221
-           0.0002466           0.0172555
-           0.0002475           0.0172898
-           0.0002483           0.0173242
-           0.0002492           0.0173587
-             0.00025            0.017393
-           0.0002509           0.0174274
-           0.0002518           0.0174619
-           0.0002528           0.0174962
-           0.0002537           0.0175305
-           0.0002546            0.017565
-           0.0002555           0.0175993
-           0.0002564           0.0176336
-           0.0002572           0.0176679
-           0.0002581           0.0177023
-            0.000259           0.0177366
-             0.00026           0.0177708
-           0.0002609           0.0178052
-           0.0002619           0.0178395
-           0.0002628           0.0178737
-           0.0002637           0.0179081
-           0.0002646           0.0179424
-           0.0002655           0.0179766
-           0.0002664            0.018011
-           0.0002673           0.0180453
-           0.0002683           0.0180795
-           0.0002693           0.0181139
-           0.0002703           0.0181482
-           0.0002712           0.0181824
-           0.0002722           0.0182167
-            0.000273           0.0182509
-           0.0002739           0.0182851
-           0.0002748           0.0183195
-           0.0002758           0.0183537
-           0.0002768           0.0183879
-           0.0002778           0.0184221
-           0.0002788           0.0184563
-           0.0002797           0.0184905
-           0.0002807           0.0185247
-           0.0002816           0.0185589
-           0.0002825           0.0185931
-           0.0002834           0.0186272
-           0.0002844           0.0186614
-           0.0002854           0.0186955
-           0.0002864           0.0187297
-           0.0002874           0.0187639
-           0.0002884            0.018798
-           0.0002893            0.018832
-           0.0002903           0.0188662
-           0.0002912           0.0189003
-           0.0002922           0.0189343
-           0.0002931           0.0189684
-           0.0002942           0.0190024
-           0.0002952           0.0190363
-           0.0002962           0.0190704
-           0.0002972           0.0191043
-           0.0002981           0.0191382
-           0.0002991           0.0191723
-              0.0003           0.0192062
-            0.000301             0.01924
-            0.000302            0.019274
-            0.000303           0.0193078
-           0.0003041           0.0193416
-           0.0003051           0.0193754
-           0.0003061           0.0194092
-            0.000307            0.019443
-           0.0003079           0.0194767
-           0.0003089           0.0195105
-           0.0003099           0.0195443
-           0.0003109            0.019578
-            0.000312           0.0196117
-           0.0003131           0.0196454
-           0.0003141           0.0196791
-           0.0003151           0.0197128
-            0.000316           0.0197464
-            0.000317             0.01978
-           0.0003179           0.0198137
-            0.000319           0.0198473
-             0.00032           0.0198809
-           0.0003211           0.0199146
-           0.0003222           0.0199481
-           0.0003232           0.0199816
-           0.0003242           0.0200153
-           0.0003252           0.0200488
-           0.0003262           0.0200822
-           0.0003272           0.0201158
-           0.0003282           0.0201493
-           0.0003293           0.0201827
-           0.0003304           0.0202161
-           0.0003315           0.0202496
-           0.0003325            0.020283
-           0.0003335           0.0203164
-           0.0003345           0.0203499
-           0.0003356           0.0203832
-           0.0003366           0.0204166
-           0.0003376             0.02045
-           0.0003387           0.0204833
-           0.0003398           0.0205166
-           0.0003409             0.02055
-            0.000342           0.0205833
-           0.0003431           0.0206165
-           0.0003441           0.0206499
-           0.0003452           0.0206832
-           0.0003462           0.0207164
-           0.0003473           0.0207498
-           0.0003484            0.020783
-           0.0003496           0.0208162
-           0.0003507           0.0208496
-           0.0003518           0.0208828
-           0.0003529            0.020916
-           0.0003539           0.0209492
-            0.000355           0.0209824
-           0.0003561           0.0210156
-           0.0003573           0.0210488
-           0.0003584            0.021082
-           0.0003596           0.0211151
-           0.0003607           0.0211482
-           0.0003618           0.0211814
-           0.0003629           0.0212144
-           0.0003641           0.0212475
-           0.0003652           0.0212806
-           0.0003663           0.0213136
-           0.0003675           0.0213466
-           0.0003687           0.0213797
-           0.0003699           0.0214127
-           0.0003711           0.0214456
-           0.0003722           0.0214787
-           0.0003733           0.0215116
-           0.0003744           0.0215445
-           0.0003756           0.0215774
-           0.0003768           0.0216103
-            0.000378           0.0216431
-           0.0003792           0.0216761
-           0.0003804           0.0217089
-           0.0003816           0.0217417
-           0.0003828           0.0217746
-           0.0003839           0.0218074
-           0.0003851           0.0218401
-           0.0003863           0.0218729
-           0.0003875           0.0219057
-           0.0003888           0.0219384
-             0.00039            0.021971
-           0.0003913           0.0220038
-           0.0003925           0.0220364
-           0.0003937            0.022069
-           0.0003948           0.0221017
-            0.000396           0.0221343
-           0.0003973           0.0221668
-           0.0003985           0.0221994
-           0.0003998           0.0222319
-           0.0004011           0.0222644
-           0.0004023           0.0222969
-           0.0004036           0.0223293
-           0.0004048           0.0223617
-            0.000406           0.0223942
-           0.0004072           0.0224265
-           0.0004085           0.0224588
-           0.0004098           0.0224912
-           0.0004111           0.0225235
-           0.0004124           0.0225558
-           0.0004137           0.0225881
-           0.0004149           0.0226203
-           0.0004162           0.0226525
-           0.0004174           0.0226846
-           0.0004187           0.0227169
-             0.00042            0.022749
-           0.0004214           0.0227811
-           0.0004227           0.0228132
-            0.000424           0.0228452
-           0.0004253           0.0228772
-           0.0004266           0.0229093
-           0.0004279           0.0229413
-           0.0004292           0.0229732
-           0.0004305           0.0230052
-           0.0004318           0.0230371
-           0.0004332           0.0230689
-           0.0004346           0.0231009
-           0.0004359           0.0231327
-           0.0004372           0.0231645
-           0.0004386           0.0231963
-           0.0004399           0.0232281
-           0.0004412           0.0232598
-           0.0004425           0.0232916
-           0.0004439           0.0233232
-           0.0004453           0.0233548
-           0.0004467           0.0233865
-           0.0004481           0.0234181
-           0.0004495           0.0234496
-           0.0004508           0.0234812
-           0.0004521           0.0235127
-           0.0004535           0.0235442
-           0.0004549           0.0235756
-           0.0004563           0.0236072
-           0.0004578           0.0236386
-           0.0004592             0.02367
-           0.0004606           0.0237014
-            0.000462           0.0237328
-           0.0004633           0.0237641
-           0.0004647           0.0237956
-           0.0004661           0.0238269
-           0.0004676           0.0238581
-            0.000469           0.0238895
-           0.0004705           0.0239207
-           0.0004719           0.0239519
-           0.0004734           0.0239831
-           0.0004748           0.0240143
-           0.0004762           0.0240454
-           0.0004776           0.0240766
-            0.000479           0.0241077
-           0.0004805           0.0241388
-            0.000482           0.0241699
-           0.0004835           0.0242009
-            0.000485           0.0242319
-           0.0004864           0.0242628
-           0.0004879           0.0242938
-           0.0004893           0.0243247
-           0.0004908           0.0243556
-           0.0004923           0.0243866
-           0.0004938           0.0244174
-           0.0004953           0.0244483
-           0.0004968           0.0244792
-           0.0004983             0.02451
-           0.0004998           0.0245407
-           0.0005012           0.0245715
-           0.0005027           0.0246023
-           0.0005042            0.024633
-           0.0005057           0.0246637
-           0.0005073           0.0246944
-           0.0005089            0.024725
-           0.0005104           0.0247557
-           0.0005119           0.0247863
-           0.0005134           0.0248169
-           0.0005149           0.0248476
-           0.0005165           0.0248781
-            0.000518           0.0249086
-           0.0005196           0.0249392
-           0.0005211           0.0249697
-           0.0005227           0.0250001
-           0.0005243           0.0250306
-           0.0005259           0.0250611
-           0.0005274           0.0250915
-           0.0005289           0.0251218
-           0.0005305           0.0251523
-           0.0005321           0.0251826
-           0.0005337           0.0252129
-           0.0005353           0.0252433
-           0.0005369           0.0252736
-           0.0005385           0.0253039
-           0.0005401           0.0253342
-           0.0005417           0.0253645
-           0.0005432           0.0253947
-           0.0005449            0.025425
-           0.0005465           0.0254552
-           0.0005481           0.0254854
-           0.0005498           0.0255157
-           0.0005514           0.0255458
-           0.0005531            0.025576
-           0.0005547           0.0256062
-           0.0005563           0.0256363
-           0.0005579           0.0256663
-           0.0005595           0.0256965
-           0.0005612           0.0257265
-           0.0005629           0.0257565
-           0.0005646           0.0257865
-           0.0005663           0.0258166
-            0.000568           0.0258465
-           0.0005696           0.0258764
-           0.0005712           0.0259064
-           0.0005729           0.0259363
-           0.0005746           0.0259662
-           0.0005763           0.0259961
-           0.0005781           0.0260259
-           0.0005798           0.0260557
-           0.0005815           0.0260856
-           0.0005832           0.0261154
-           0.0005849           0.0261451
-           0.0005866           0.0261749
-           0.0005884           0.0262046
-           0.0005901           0.0262343
-           0.0005919            0.026264
-           0.0005937           0.0262936
-           0.0005954           0.0263232
-           0.0005972           0.0263529
-           0.0005989           0.0263824
-           0.0006007           0.0264119
-           0.0006024           0.0264415
-           0.0006042           0.0264709
-            0.000606           0.0265004
-           0.0006078           0.0265298
-           0.0006096           0.0265592
-           0.0006114           0.0265885
-           0.0006132           0.0266178
-            0.000615           0.0266472
-           0.0006168           0.0266765
-           0.0006186           0.0267057
-           0.0006204           0.0267349
-           0.0006223           0.0267641
-           0.0006242           0.0267932
-            0.000626           0.0268224
-           0.0006279           0.0268515
-           0.0006297           0.0268805
-           0.0006315           0.0269096
-           0.0006334           0.0269386
-           0.0006352           0.0269676
-           0.0006371           0.0269966
-            0.000639           0.0270255
-           0.0006409           0.0270544
-           0.0006428           0.0270834
-           0.0006447           0.0271122
-           0.0006466            0.027141
-           0.0006484           0.0271699
-           0.0006503           0.0271987
-           0.0006522           0.0272274
-           0.0006541           0.0272562
-           0.0006561           0.0272849
-           0.0006581           0.0273136
-             0.00066           0.0273423
-           0.0006619            0.027371
-           0.0006638           0.0273996
-           0.0006657           0.0274282
-           0.0006676           0.0274568
-           0.0006696           0.0274853
-           0.0006715           0.0275138
-           0.0006736           0.0275424
-           0.0006756           0.0275708
-           0.0006775           0.0275992
-           0.0006795           0.0276277
-           0.0006815           0.0276561
-           0.0006834           0.0276844
-           0.0006854           0.0277129
-           0.0006873           0.0277412
-           0.0006894           0.0277695
-           0.0006914           0.0277979
-           0.0006935           0.0278261
-           0.0006955           0.0278544
-           0.0006975           0.0278827
-           0.0006995           0.0279109
-           0.0007015           0.0279391
-           0.0007035           0.0279673
-           0.0007055           0.0279955
-           0.0007076           0.0280236
-           0.0007096           0.0280517
-           0.0007117           0.0280798
-           0.0007138           0.0281079
-           0.0007158           0.0281359
-           0.0007178           0.0281641
-           0.0007199           0.0281921
-           0.0007219           0.0282201
-            0.000724           0.0282481
-           0.0007261           0.0282761
-           0.0007282            0.028304
-           0.0007304            0.028332
-           0.0007324           0.0283599
-           0.0007345           0.0283878
-           0.0007366           0.0284157
-           0.0007387           0.0284435
-           0.0007408           0.0284713
-           0.0007429           0.0284992
-           0.0007451            0.028527
-           0.0007472           0.0285547
-           0.0007494           0.0285825
-           0.0007515           0.0286102
-           0.0007536           0.0286379
-           0.0007557           0.0286655
-           0.0007579           0.0286932
-             0.00076           0.0287208
-           0.0007622           0.0287483
-           0.0007645           0.0287759
-           0.0007667           0.0288034
-           0.0007689           0.0288309
-            0.000771           0.0288584
-           0.0007732           0.0288858
-           0.0007753           0.0289132
-           0.0007775           0.0289406
-           0.0007797           0.0289679
-            0.000782           0.0289952
-           0.0007842           0.0290226
-           0.0007865           0.0290499
-           0.0007887           0.0290771
-            0.000791           0.0291044
-           0.0007932           0.0291315
-           0.0007954           0.0291587
-           0.0007976           0.0291859
-           0.0007999           0.0292129
-           0.0008022             0.02924
-           0.0008045           0.0292671
-           0.0008068           0.0292941
-           0.0008091            0.029321
-           0.0008113           0.0293479
-           0.0008136           0.0293749
-           0.0008159           0.0294018
-           0.0008182           0.0294286
-           0.0008205           0.0294555
-           0.0008228           0.0294822
-           0.0008252           0.0295089
-           0.0008276           0.0295357
-           0.0008299           0.0295623
-           0.0008322           0.0295889
-           0.0008345           0.0296155
-           0.0008368            0.029642
-           0.0008392           0.0296685
-           0.0008416            0.029695
-            0.000844           0.0297214
-           0.0008464           0.0297478
-           0.0008488           0.0297743
-           0.0008511           0.0298006
-           0.0008535           0.0298269
-           0.0008558           0.0298533
-           0.0008582           0.0298795
-           0.0008606           0.0299058
-           0.0008631            0.029932
-           0.0008655           0.0299582
-            0.000868           0.0299844
-           0.0008704           0.0300105
-           0.0008728           0.0300367
-           0.0008752           0.0300628
-           0.0008776           0.0300888
-             0.00088           0.0301149
-           0.0008825            0.030141
-            0.000885           0.0301669
-           0.0008875           0.0301929
-             0.00089           0.0302189
-           0.0008924           0.0302447
-           0.0008949           0.0302707
-           0.0008973           0.0302965
-           0.0008998           0.0303222
-           0.0009023           0.0303481
-           0.0009048           0.0303738
-           0.0009073           0.0303995
-           0.0009099           0.0304252
-           0.0009124           0.0304509
-           0.0009149           0.0304765
-           0.0009174           0.0305021
-           0.0009199           0.0305277
-           0.0009224           0.0305532
-           0.0009249           0.0305787
-           0.0009275           0.0306042
-             0.00093           0.0306296
-           0.0009326            0.030655
-           0.0009352           0.0306804
-           0.0009377           0.0307057
-           0.0009403           0.0307311
-           0.0009428           0.0307564
-           0.0009454           0.0307817
-           0.0009479           0.0308069
-           0.0009505           0.0308322
-           0.0009532           0.0308574
-           0.0009558           0.0308826
-           0.0009584           0.0309078
-            0.000961           0.0309329
-           0.0009635            0.030958
-           0.0009661           0.0309831
-           0.0009687           0.0310081
-           0.0009713           0.0310331
-            0.000974           0.0310581
-           0.0009766            0.031083
-           0.0009793           0.0311079
-            0.000982           0.0311328
-           0.0009846           0.0311576
-           0.0009872           0.0311823
-           0.0009899           0.0312071
-           0.0009925           0.0312318
-           0.0009952           0.0312564
-           0.0009979            0.031281
+               1.E-4           0.0100003
+            1.006E-4           0.0100374
+            1.011E-4           0.0100745
+            1.017E-4           0.0101118
+            1.022E-4           0.0101488
+            1.027E-4           0.0101859
+            1.033E-4           0.0102231
+            1.038E-4           0.0102602
+            1.044E-4           0.0102973
+            1.049E-4           0.0103344
+            1.055E-4           0.0103715
+            1.061E-4           0.0104085
+            1.066E-4           0.0104456
+            1.072E-4           0.0104826
+            1.078E-4           0.0105196
+            1.083E-4           0.0105566
+            1.089E-4           0.0105936
+            1.095E-4           0.0106305
+              1.1E-4           0.0106675
+            1.106E-4           0.0107045
+            1.112E-4           0.0107414
+            1.118E-4           0.0107782
+            1.124E-4           0.0108152
+            1.129E-4            0.010852
+            1.135E-4           0.0108888
+            1.141E-4           0.0109257
+            1.147E-4           0.0109625
+            1.153E-4           0.0109993
+            1.159E-4           0.0110361
+            1.165E-4           0.0110729
+            1.171E-4           0.0111096
+            1.177E-4           0.0111464
+            1.183E-4           0.0111831
+            1.189E-4           0.0112198
+            1.195E-4           0.0112565
+            1.202E-4           0.0112932
+            1.208E-4           0.0113298
+            1.214E-4           0.0113665
+             1.22E-4           0.0114031
+            1.227E-4           0.0114396
+            1.233E-4           0.0114761
+            1.239E-4           0.0115128
+            1.245E-4           0.0115493
+            1.251E-4           0.0115858
+            1.258E-4           0.0116223
+            1.264E-4           0.0116588
+            1.271E-4           0.0116952
+            1.277E-4           0.0117318
+            1.283E-4           0.0117682
+             1.29E-4           0.0118046
+            1.296E-4            0.011841
+            1.303E-4           0.0118774
+            1.309E-4           0.0119137
+            1.315E-4           0.0119501
+            1.322E-4           0.0119864
+            1.328E-4           0.0120227
+            1.335E-4           0.0120591
+            1.341E-4           0.0120953
+            1.348E-4           0.0121316
+            1.355E-4           0.0121679
+            1.361E-4           0.0122041
+            1.368E-4           0.0122403
+            1.374E-4           0.0122765
+            1.381E-4           0.0123127
+            1.387E-4           0.0123488
+            1.394E-4           0.0123849
+              1.4E-4           0.0124212
+            1.407E-4           0.0124572
+            1.414E-4           0.0124933
+            1.421E-4           0.0125295
+            1.427E-4           0.0125656
+            1.434E-4           0.0126016
+            1.441E-4           0.0126378
+            1.447E-4           0.0126738
+            1.453E-4           0.0127098
+             1.46E-4            0.012746
+            1.466E-4            0.012782
+            1.473E-4           0.0128179
+             1.48E-4            0.012854
+            1.487E-4             0.01289
+            1.494E-4           0.0129259
+            1.501E-4            0.012962
+            1.507E-4           0.0129979
+            1.514E-4           0.0130339
+             1.52E-4           0.0130699
+            1.527E-4           0.0131058
+            1.533E-4           0.0131418
+             1.54E-4           0.0131778
+            1.547E-4           0.0132137
+            1.554E-4           0.0132495
+            1.561E-4           0.0132854
+            1.568E-4           0.0133214
+            1.574E-4           0.0133572
+            1.581E-4            0.013393
+            1.588E-4           0.0134289
+            1.595E-4           0.0134647
+            1.602E-4           0.0135005
+            1.609E-4           0.0135364
+            1.616E-4           0.0135722
+            1.623E-4            0.013608
+             1.63E-4           0.0136438
+            1.636E-4           0.0136796
+            1.643E-4           0.0137153
+             1.65E-4           0.0137511
+            1.657E-4           0.0137868
+            1.665E-4           0.0138224
+            1.672E-4           0.0138582
+            1.679E-4           0.0138938
+            1.686E-4           0.0139295
+            1.693E-4           0.0139653
+              1.7E-4           0.0140009
+            1.707E-4           0.0140365
+            1.715E-4           0.0140722
+            1.722E-4           0.0141078
+             1.73E-4           0.0141435
+            1.737E-4            0.014179
+            1.745E-4           0.0142147
+            1.752E-4           0.0142503
+            1.759E-4           0.0142859
+            1.767E-4           0.0143215
+            1.774E-4           0.0143571
+            1.782E-4           0.0143926
+            1.789E-4           0.0144282
+            1.797E-4           0.0144637
+            1.805E-4           0.0144992
+            1.813E-4           0.0145347
+            1.821E-4           0.0145702
+            1.828E-4           0.0146056
+            1.836E-4           0.0146411
+            1.843E-4           0.0146765
+            1.851E-4           0.0147118
+            1.859E-4           0.0147473
+            1.868E-4           0.0147826
+            1.876E-4           0.0148179
+            1.884E-4           0.0148533
+            1.892E-4           0.0148886
+            1.899E-4           0.0149239
+            1.907E-4           0.0149593
+            1.915E-4           0.0149945
+            1.923E-4           0.0150298
+            1.932E-4            0.015065
+             1.94E-4           0.0151004
+            1.948E-4           0.0151356
+            1.957E-4           0.0151708
+            1.965E-4           0.0152061
+            1.972E-4           0.0152413
+             1.98E-4           0.0152765
+            1.988E-4           0.0153117
+            1.997E-4           0.0153469
+            2.005E-4            0.015382
+            2.014E-4           0.0154172
+            2.023E-4           0.0154523
+            2.031E-4           0.0154874
+            2.039E-4           0.0155225
+            2.047E-4           0.0155575
+            2.055E-4           0.0155925
+            2.063E-4           0.0156276
+            2.072E-4           0.0156626
+            2.081E-4           0.0156975
+            2.089E-4           0.0157326
+            2.098E-4           0.0157674
+            2.106E-4           0.0158023
+            2.114E-4           0.0158372
+            2.123E-4           0.0158721
+            2.131E-4           0.0159069
+            2.139E-4           0.0159417
+            2.148E-4           0.0159766
+            2.156E-4           0.0160113
+            2.165E-4           0.0160461
+            2.173E-4           0.0160809
+            2.182E-4           0.0161157
+             2.19E-4           0.0161504
+            2.198E-4           0.0161852
+            2.207E-4           0.0162199
+            2.215E-4           0.0162546
+            2.224E-4           0.0162893
+            2.233E-4            0.016324
+            2.241E-4           0.0163586
+             2.25E-4           0.0163933
+            2.258E-4           0.0164279
+            2.266E-4           0.0164625
+            2.274E-4           0.0164972
+            2.283E-4           0.0165317
+            2.292E-4           0.0165663
+            2.301E-4            0.016601
+            2.309E-4           0.0166355
+            2.318E-4             0.01667
+            2.327E-4           0.0167046
+            2.335E-4            0.016739
+            2.343E-4           0.0167735
+            2.351E-4           0.0168079
+             2.36E-4           0.0168425
+            2.369E-4           0.0168769
+            2.378E-4           0.0169113
+            2.387E-4           0.0169458
+            2.396E-4           0.0169802
+            2.404E-4           0.0170146
+            2.413E-4           0.0170491
+            2.421E-4           0.0170834
+             2.43E-4           0.0171178
+            2.439E-4           0.0171523
+            2.448E-4           0.0171866
+            2.457E-4            0.017221
+            2.466E-4           0.0172555
+            2.475E-4           0.0172898
+            2.483E-4           0.0173242
+            2.492E-4           0.0173587
+              2.5E-4            0.017393
+            2.509E-4           0.0174274
+            2.518E-4           0.0174619
+            2.528E-4           0.0174962
+            2.537E-4           0.0175305
+            2.546E-4            0.017565
+            2.555E-4           0.0175993
+            2.564E-4           0.0176336
+            2.572E-4           0.0176679
+            2.581E-4           0.0177023
+             2.59E-4           0.0177366
+              2.6E-4           0.0177708
+            2.609E-4           0.0178052
+            2.619E-4           0.0178395
+            2.628E-4           0.0178737
+            2.637E-4           0.0179081
+            2.646E-4           0.0179424
+            2.655E-4           0.0179766
+            2.664E-4            0.018011
+            2.673E-4           0.0180453
+            2.683E-4           0.0180795
+            2.693E-4           0.0181139
+            2.703E-4           0.0181482
+            2.712E-4           0.0181824
+            2.722E-4           0.0182167
+             2.73E-4           0.0182509
+            2.739E-4           0.0182851
+            2.748E-4           0.0183195
+            2.758E-4           0.0183537
+            2.768E-4           0.0183879
+            2.778E-4           0.0184221
+            2.788E-4           0.0184563
+            2.797E-4           0.0184905
+            2.807E-4           0.0185247
+            2.816E-4           0.0185589
+            2.825E-4           0.0185931
+            2.834E-4           0.0186272
+            2.844E-4           0.0186614
+            2.854E-4           0.0186955
+            2.864E-4           0.0187297
+            2.874E-4           0.0187639
+            2.884E-4            0.018798
+            2.893E-4            0.018832
+            2.903E-4           0.0188662
+            2.912E-4           0.0189003
+            2.922E-4           0.0189343
+            2.931E-4           0.0189684
+            2.942E-4           0.0190024
+            2.952E-4           0.0190363
+            2.962E-4           0.0190704
+            2.972E-4           0.0191043
+            2.981E-4           0.0191382
+            2.991E-4           0.0191723
+               3.E-4           0.0192062
+             3.01E-4             0.01924
+             3.02E-4            0.019274
+             3.03E-4           0.0193078
+            3.041E-4           0.0193416
+            3.051E-4           0.0193754
+            3.061E-4           0.0194092
+             3.07E-4            0.019443
+            3.079E-4           0.0194767
+            3.089E-4           0.0195105
+            3.099E-4           0.0195443
+            3.109E-4            0.019578
+             3.12E-4           0.0196117
+            3.131E-4           0.0196454
+            3.141E-4           0.0196791
+            3.151E-4           0.0197128
+             3.16E-4           0.0197464
+             3.17E-4             0.01978
+            3.179E-4           0.0198137
+             3.19E-4           0.0198473
+              3.2E-4           0.0198809
+            3.211E-4           0.0199146
+            3.222E-4           0.0199481
+            3.232E-4           0.0199816
+            3.242E-4           0.0200153
+            3.252E-4           0.0200488
+            3.262E-4           0.0200822
+            3.272E-4           0.0201158
+            3.282E-4           0.0201493
+            3.293E-4           0.0201827
+            3.304E-4           0.0202161
+            3.315E-4           0.0202496
+            3.325E-4            0.020283
+            3.335E-4           0.0203164
+            3.345E-4           0.0203499
+            3.356E-4           0.0203832
+            3.366E-4           0.0204166
+            3.376E-4             0.02045
+            3.387E-4           0.0204833
+            3.398E-4           0.0205166
+            3.409E-4             0.02055
+             3.42E-4           0.0205833
+            3.431E-4           0.0206165
+            3.441E-4           0.0206499
+            3.452E-4           0.0206832
+            3.462E-4           0.0207164
+            3.473E-4           0.0207498
+            3.484E-4            0.020783
+            3.496E-4           0.0208162
+            3.507E-4           0.0208496
+            3.518E-4           0.0208828
+            3.529E-4            0.020916
+            3.539E-4           0.0209492
+             3.55E-4           0.0209824
+            3.561E-4           0.0210156
+            3.573E-4           0.0210488
+            3.584E-4            0.021082
+            3.596E-4           0.0211151
+            3.607E-4           0.0211482
+            3.618E-4           0.0211814
+            3.629E-4           0.0212144
+            3.641E-4           0.0212475
+            3.652E-4           0.0212806
+            3.663E-4           0.0213136
+            3.675E-4           0.0213466
+            3.687E-4           0.0213797
+            3.699E-4           0.0214127
+            3.711E-4           0.0214456
+            3.722E-4           0.0214787
+            3.733E-4           0.0215116
+            3.744E-4           0.0215445
+            3.756E-4           0.0215774
+            3.768E-4           0.0216103
+             3.78E-4           0.0216431
+            3.792E-4           0.0216761
+            3.804E-4           0.0217089
+            3.816E-4           0.0217417
+            3.828E-4           0.0217746
+            3.839E-4           0.0218074
+            3.851E-4           0.0218401
+            3.863E-4           0.0218729
+            3.875E-4           0.0219057
+            3.888E-4           0.0219384
+              3.9E-4            0.021971
+            3.913E-4           0.0220038
+            3.925E-4           0.0220364
+            3.937E-4            0.022069
+            3.948E-4           0.0221017
+             3.96E-4           0.0221343
+            3.973E-4           0.0221668
+            3.985E-4           0.0221994
+            3.998E-4           0.0222319
+            4.011E-4           0.0222644
+            4.023E-4           0.0222969
+            4.036E-4           0.0223293
+            4.048E-4           0.0223617
+             4.06E-4           0.0223942
+            4.072E-4           0.0224265
+            4.085E-4           0.0224588
+            4.098E-4           0.0224912
+            4.111E-4           0.0225235
+            4.124E-4           0.0225558
+            4.137E-4           0.0225881
+            4.149E-4           0.0226203
+            4.162E-4           0.0226525
+            4.174E-4           0.0226846
+            4.187E-4           0.0227169
+              4.2E-4            0.022749
+            4.214E-4           0.0227811
+            4.227E-4           0.0228132
+             4.24E-4           0.0228452
+            4.253E-4           0.0228772
+            4.266E-4           0.0229093
+            4.279E-4           0.0229413
+            4.292E-4           0.0229732
+            4.305E-4           0.0230052
+            4.318E-4           0.0230371
+            4.332E-4           0.0230689
+            4.346E-4           0.0231009
+            4.359E-4           0.0231327
+            4.372E-4           0.0231645
+            4.386E-4           0.0231963
+            4.399E-4           0.0232281
+            4.412E-4           0.0232598
+            4.425E-4           0.0232916
+            4.439E-4           0.0233232
+            4.453E-4           0.0233548
+            4.467E-4           0.0233865
+            4.481E-4           0.0234181
+            4.495E-4           0.0234496
+            4.508E-4           0.0234812
+            4.521E-4           0.0235127
+            4.535E-4           0.0235442
+            4.549E-4           0.0235756
+            4.563E-4           0.0236072
+            4.578E-4           0.0236386
+            4.592E-4             0.02367
+            4.606E-4           0.0237014
+             4.62E-4           0.0237328
+            4.633E-4           0.0237641
+            4.647E-4           0.0237956
+            4.661E-4           0.0238269
+            4.676E-4           0.0238581
+             4.69E-4           0.0238895
+            4.705E-4           0.0239207
+            4.719E-4           0.0239519
+            4.734E-4           0.0239831
+            4.748E-4           0.0240143
+            4.762E-4           0.0240454
+            4.776E-4           0.0240766
+             4.79E-4           0.0241077
+            4.805E-4           0.0241388
+             4.82E-4           0.0241699
+            4.835E-4           0.0242009
+             4.85E-4           0.0242319
+            4.864E-4           0.0242628
+            4.879E-4           0.0242938
+            4.893E-4           0.0243247
+            4.908E-4           0.0243556
+            4.923E-4           0.0243866
+            4.938E-4           0.0244174
+            4.953E-4           0.0244483
+            4.968E-4           0.0244792
+            4.983E-4             0.02451
+            4.998E-4           0.0245407
+            5.012E-4           0.0245715
+            5.027E-4           0.0246023
+            5.042E-4            0.024633
+            5.057E-4           0.0246637
+            5.073E-4           0.0246944
+            5.089E-4            0.024725
+            5.104E-4           0.0247557
+            5.119E-4           0.0247863
+            5.134E-4           0.0248169
+            5.149E-4           0.0248476
+            5.165E-4           0.0248781
+             5.18E-4           0.0249086
+            5.196E-4           0.0249392
+            5.211E-4           0.0249697
+            5.227E-4           0.0250001
+            5.243E-4           0.0250306
+            5.259E-4           0.0250611
+            5.274E-4           0.0250915
+            5.289E-4           0.0251218
+            5.305E-4           0.0251523
+            5.321E-4           0.0251826
+            5.337E-4           0.0252129
+            5.353E-4           0.0252433
+            5.369E-4           0.0252736
+            5.385E-4           0.0253039
+            5.401E-4           0.0253342
+            5.417E-4           0.0253645
+            5.432E-4           0.0253947
+            5.449E-4            0.025425
+            5.465E-4           0.0254552
+            5.481E-4           0.0254854
+            5.498E-4           0.0255157
+            5.514E-4           0.0255458
+            5.531E-4            0.025576
+            5.547E-4           0.0256062
+            5.563E-4           0.0256363
+            5.579E-4           0.0256663
+            5.595E-4           0.0256965
+            5.612E-4           0.0257265
+            5.629E-4           0.0257565
+            5.646E-4           0.0257865
+            5.663E-4           0.0258166
+             5.68E-4           0.0258465
+            5.696E-4           0.0258764
+            5.712E-4           0.0259064
+            5.729E-4           0.0259363
+            5.746E-4           0.0259662
+            5.763E-4           0.0259961
+            5.781E-4           0.0260259
+            5.798E-4           0.0260557
+            5.815E-4           0.0260856
+            5.832E-4           0.0261154
+            5.849E-4           0.0261451
+            5.866E-4           0.0261749
+            5.884E-4           0.0262046
+            5.901E-4           0.0262343
+            5.919E-4            0.026264
+            5.937E-4           0.0262936
+            5.954E-4           0.0263232
+            5.972E-4           0.0263529
+            5.989E-4           0.0263824
+            6.007E-4           0.0264119
+            6.024E-4           0.0264415
+            6.042E-4           0.0264709
+             6.06E-4           0.0265004
+            6.078E-4           0.0265298
+            6.096E-4           0.0265592
+            6.114E-4           0.0265885
+            6.132E-4           0.0266178
+             6.15E-4           0.0266472
+            6.168E-4           0.0266765
+            6.186E-4           0.0267057
+            6.204E-4           0.0267349
+            6.223E-4           0.0267641
+            6.242E-4           0.0267932
+             6.26E-4           0.0268224
+            6.279E-4           0.0268515
+            6.297E-4           0.0268805
+            6.315E-4           0.0269096
+            6.334E-4           0.0269386
+            6.352E-4           0.0269676
+            6.371E-4           0.0269966
+             6.39E-4           0.0270255
+            6.409E-4           0.0270544
+            6.428E-4           0.0270834
+            6.447E-4           0.0271122
+            6.466E-4            0.027141
+            6.484E-4           0.0271699
+            6.503E-4           0.0271987
+            6.522E-4           0.0272274
+            6.541E-4           0.0272562
+            6.561E-4           0.0272849
+            6.581E-4           0.0273136
+              6.6E-4           0.0273423
+            6.619E-4            0.027371
+            6.638E-4           0.0273996
+            6.657E-4           0.0274282
+            6.676E-4           0.0274568
+            6.696E-4           0.0274853
+            6.715E-4           0.0275138
+            6.736E-4           0.0275424
+            6.756E-4           0.0275708
+            6.775E-4           0.0275992
+            6.795E-4           0.0276277
+            6.815E-4           0.0276561
+            6.834E-4           0.0276844
+            6.854E-4           0.0277129
+            6.873E-4           0.0277412
+            6.894E-4           0.0277695
+            6.914E-4           0.0277979
+            6.935E-4           0.0278261
+            6.955E-4           0.0278544
+            6.975E-4           0.0278827
+            6.995E-4           0.0279109
+            7.015E-4           0.0279391
+            7.035E-4           0.0279673
+            7.055E-4           0.0279955
+            7.076E-4           0.0280236
+            7.096E-4           0.0280517
+            7.117E-4           0.0280798
+            7.138E-4           0.0281079
+            7.158E-4           0.0281359
+            7.178E-4           0.0281641
+            7.199E-4           0.0281921
+            7.219E-4           0.0282201
+             7.24E-4           0.0282481
+            7.261E-4           0.0282761
+            7.282E-4            0.028304
+            7.304E-4            0.028332
+            7.324E-4           0.0283599
+            7.345E-4           0.0283878
+            7.366E-4           0.0284157
+            7.387E-4           0.0284435
+            7.408E-4           0.0284713
+            7.429E-4           0.0284992
+            7.451E-4            0.028527
+            7.472E-4           0.0285547
+            7.494E-4           0.0285825
+            7.515E-4           0.0286102
+            7.536E-4           0.0286379
+            7.557E-4           0.0286655
+            7.579E-4           0.0286932
+              7.6E-4           0.0287208
+            7.622E-4           0.0287483
+            7.645E-4           0.0287759
+            7.667E-4           0.0288034
+            7.689E-4           0.0288309
+             7.71E-4           0.0288584
+            7.732E-4           0.0288858
+            7.753E-4           0.0289132
+            7.775E-4           0.0289406
+            7.797E-4           0.0289679
+             7.82E-4           0.0289952
+            7.842E-4           0.0290226
+            7.865E-4           0.0290499
+            7.887E-4           0.0290771
+             7.91E-4           0.0291044
+            7.932E-4           0.0291315
+            7.954E-4           0.0291587
+            7.976E-4           0.0291859
+            7.999E-4           0.0292129
+            8.022E-4             0.02924
+            8.045E-4           0.0292671
+            8.068E-4           0.0292941
+            8.091E-4            0.029321
+            8.113E-4           0.0293479
+            8.136E-4           0.0293749
+            8.159E-4           0.0294018
+            8.182E-4           0.0294286
+            8.205E-4           0.0294555
+            8.228E-4           0.0294822
+            8.252E-4           0.0295089
+            8.276E-4           0.0295357
+            8.299E-4           0.0295623
+            8.322E-4           0.0295889
+            8.345E-4           0.0296155
+            8.368E-4            0.029642
+            8.392E-4           0.0296685
+            8.416E-4            0.029695
+             8.44E-4           0.0297214
+            8.464E-4           0.0297478
+            8.488E-4           0.0297743
+            8.511E-4           0.0298006
+            8.535E-4           0.0298269
+            8.558E-4           0.0298533
+            8.582E-4           0.0298795
+            8.606E-4           0.0299058
+            8.631E-4            0.029932
+            8.655E-4           0.0299582
+             8.68E-4           0.0299844
+            8.704E-4           0.0300105
+            8.728E-4           0.0300367
+            8.752E-4           0.0300628
+            8.776E-4           0.0300888
+              8.8E-4           0.0301149
+            8.825E-4            0.030141
+             8.85E-4           0.0301669
+            8.875E-4           0.0301929
+              8.9E-4           0.0302189
+            8.924E-4           0.0302447
+            8.949E-4           0.0302707
+            8.973E-4           0.0302965
+            8.998E-4           0.0303222
+            9.023E-4           0.0303481
+            9.048E-4           0.0303738
+            9.073E-4           0.0303995
+            9.099E-4           0.0304252
+            9.124E-4           0.0304509
+            9.149E-4           0.0304765
+            9.174E-4           0.0305021
+            9.199E-4           0.0305277
+            9.224E-4           0.0305532
+            9.249E-4           0.0305787
+            9.275E-4           0.0306042
+              9.3E-4           0.0306296
+            9.326E-4            0.030655
+            9.352E-4           0.0306804
+            9.377E-4           0.0307057
+            9.403E-4           0.0307311
+            9.428E-4           0.0307564
+            9.454E-4           0.0307817
+            9.479E-4           0.0308069
+            9.505E-4           0.0308322
+            9.532E-4           0.0308574
+            9.558E-4           0.0308826
+            9.584E-4           0.0309078
+             9.61E-4           0.0309329
+            9.635E-4            0.030958
+            9.661E-4           0.0309831
+            9.687E-4           0.0310081
+            9.713E-4           0.0310331
+             9.74E-4           0.0310581
+            9.766E-4            0.031083
+            9.793E-4           0.0311079
+             9.82E-4           0.0311328
+            9.846E-4           0.0311576
+            9.872E-4           0.0311823
+            9.899E-4           0.0312071
+            9.925E-4           0.0312318
+            9.952E-4           0.0312564
+            9.979E-4            0.031281
            0.0010006           0.0313056
            0.0010032           0.0313301
            0.0010059           0.0313546
@@ -10231,35 +10299,35 @@ Mirzaali-et-al-Tension-Females
            0.0234725           0.0515021
 *DEFINE_CURVE_TITLE
 Mirzaali-et-al-Compression-Females
-    701021         0        1.        1.        0..082461525         0         0
+    701021         0        1.        1.        0.0.08246153         0         0
                   0.                  0.
                3.E-7             3.63E-5
                5.E-7             7.26E-5
-               8.E-7           0.0001089
-              1.1E-6           0.0001451
-              1.4E-6           0.0001813
-              1.7E-6           0.0002177
-               2.E-6           0.0002539
-              2.3E-6           0.0002901
-              2.6E-6           0.0003263
-              2.9E-6           0.0003625
-              3.1E-6           0.0003987
-              3.4E-6           0.0004349
-              3.7E-6           0.0004711
-               4.E-6           0.0005072
-              4.4E-6           0.0005434
-              4.7E-6           0.0005796
-               5.E-6           0.0006157
-              5.3E-6           0.0006519
-              5.5E-6            0.000688
-              5.8E-6           0.0007241
-              6.1E-6           0.0007603
-              6.4E-6           0.0007964
-              6.7E-6           0.0008324
-               7.E-6           0.0008686
-              7.4E-6           0.0009047
-              7.7E-6           0.0009407
-              7.9E-6           0.0009769
+               8.E-7            1.089E-4
+              1.1E-6            1.451E-4
+              1.4E-6            1.813E-4
+              1.7E-6            2.177E-4
+               2.E-6            2.539E-4
+              2.3E-6            2.901E-4
+              2.6E-6            3.263E-4
+              2.9E-6            3.625E-4
+              3.1E-6            3.987E-4
+              3.4E-6            4.349E-4
+              3.7E-6            4.711E-4
+               4.E-6            5.072E-4
+              4.4E-6            5.434E-4
+              4.7E-6            5.796E-4
+               5.E-6            6.157E-4
+              5.3E-6            6.519E-4
+              5.5E-6             6.88E-4
+              5.8E-6            7.241E-4
+              6.1E-6            7.603E-4
+              6.4E-6            7.964E-4
+              6.7E-6            8.324E-4
+               7.E-6            8.686E-4
+              7.4E-6            9.047E-4
+              7.7E-6            9.407E-4
+              7.9E-6            9.769E-4
               8.2E-6           0.0010129
               8.5E-6            0.001049
               8.8E-6           0.0010852
@@ -10553,1082 +10621,1082 @@ Mirzaali-et-al-Compression-Females
              9.93E-5           0.0112586
              9.96E-5           0.0112928
              9.99E-5            0.011327
-           0.0001002           0.0113612
-           0.0001005           0.0113954
-           0.0001008           0.0114295
-           0.0001011           0.0114637
-           0.0001014           0.0114978
-           0.0001017           0.0115319
-            0.000102           0.0115661
-           0.0001023           0.0116002
-           0.0001026           0.0116343
-           0.0001029           0.0116685
-           0.0001032           0.0117025
-           0.0001035           0.0117366
-           0.0001038           0.0117706
-           0.0001041           0.0118047
-           0.0001044           0.0118387
-           0.0001046           0.0118727
-           0.0001049           0.0119068
-           0.0001053           0.0119408
-           0.0001056           0.0119748
-           0.0001059           0.0120089
-           0.0001062           0.0120428
-           0.0001065           0.0120768
-           0.0001068           0.0121108
-           0.0001071           0.0121447
-           0.0001074           0.0121786
-           0.0001077           0.0122126
-            0.000108           0.0122465
-           0.0001083           0.0122803
-           0.0001087           0.0123143
-            0.000109           0.0123481
-           0.0001093           0.0123819
-           0.0001096           0.0124158
-           0.0001099           0.0124496
-           0.0001102           0.0124834
-           0.0001105           0.0125173
-           0.0001108           0.0125511
-           0.0001112           0.0125849
-           0.0001115           0.0126186
-           0.0001119           0.0126525
-           0.0001122           0.0126862
-           0.0001125             0.01272
-           0.0001128           0.0127538
-           0.0001131           0.0127875
-           0.0001134           0.0128212
-           0.0001138            0.012855
-           0.0001141           0.0128887
-           0.0001145           0.0129224
-           0.0001148           0.0129561
-           0.0001151           0.0129898
-           0.0001155           0.0130235
-           0.0001158           0.0130572
-           0.0001161           0.0130909
-           0.0001164           0.0131246
-           0.0001168           0.0131583
-           0.0001171            0.013192
-           0.0001175           0.0132256
-           0.0001179           0.0132593
-           0.0001182           0.0132929
-           0.0001185           0.0133265
-           0.0001188           0.0133602
-           0.0001192           0.0133938
-           0.0001195           0.0134274
-           0.0001198            0.013461
-           0.0001202           0.0134947
-           0.0001206           0.0135283
-           0.0001209           0.0135619
-           0.0001213           0.0135955
-           0.0001216           0.0136291
-           0.0001219           0.0136627
-           0.0001223           0.0136963
-           0.0001226           0.0137299
-            0.000123           0.0137635
-           0.0001233           0.0137971
-           0.0001237           0.0138307
-            0.000124           0.0138643
-           0.0001244           0.0138979
-           0.0001247           0.0139315
-           0.0001251           0.0139651
-           0.0001254           0.0139988
-           0.0001257           0.0140324
-           0.0001261           0.0140659
-           0.0001264           0.0140996
-           0.0001268           0.0141332
-           0.0001271           0.0141668
-           0.0001275           0.0142004
-           0.0001278            0.014234
-           0.0001282           0.0142675
-           0.0001285           0.0143011
-           0.0001289           0.0143347
-           0.0001292           0.0143683
-           0.0001296           0.0144018
-             0.00013           0.0144354
-           0.0001303            0.014469
-           0.0001307           0.0145025
-            0.000131           0.0145361
-           0.0001314           0.0145697
-           0.0001318           0.0146032
-           0.0001321           0.0146369
-           0.0001325           0.0146704
-           0.0001328            0.014704
-           0.0001332           0.0147376
-           0.0001336           0.0147711
-           0.0001339           0.0148047
-           0.0001343           0.0148384
-           0.0001347           0.0148719
-            0.000135           0.0149054
-           0.0001354           0.0149391
-           0.0001358           0.0149726
-           0.0001361           0.0150061
-           0.0001365           0.0150397
-           0.0001369           0.0150733
-           0.0001373           0.0151068
-           0.0001377           0.0151402
-            0.000138           0.0151738
-           0.0001384           0.0152073
-           0.0001388           0.0152407
-           0.0001392           0.0152743
-           0.0001396           0.0153078
-             0.00014           0.0153412
-           0.0001404           0.0153747
-           0.0001407           0.0154082
-           0.0001411           0.0154416
-           0.0001415           0.0154751
-           0.0001419           0.0155085
-           0.0001423           0.0155419
-           0.0001427           0.0155753
-           0.0001431           0.0156087
-           0.0001435           0.0156421
-           0.0001439           0.0156756
-           0.0001443           0.0157089
-           0.0001447           0.0157422
-           0.0001451           0.0157757
-           0.0001456            0.015809
-            0.000146           0.0158423
-           0.0001464           0.0158758
-           0.0001468           0.0159091
-           0.0001472           0.0159424
-           0.0001476           0.0159758
-            0.000148           0.0160092
-           0.0001484           0.0160425
-           0.0001488           0.0160758
-           0.0001492           0.0161092
-           0.0001496           0.0161425
-             0.00015           0.0161758
-           0.0001504           0.0162092
-           0.0001508           0.0162425
-           0.0001512           0.0162757
-           0.0001516            0.016309
-           0.0001521           0.0163423
-           0.0001525           0.0163755
-           0.0001529           0.0164088
-           0.0001533            0.016442
-           0.0001537           0.0164752
-           0.0001542           0.0165085
-           0.0001546           0.0165417
-            0.000155           0.0165748
-           0.0001554           0.0166081
-           0.0001558           0.0166412
-           0.0001562           0.0166743
-           0.0001566           0.0167075
-            0.000157           0.0167407
-           0.0001575           0.0167738
-           0.0001579           0.0168069
-           0.0001583           0.0168401
-           0.0001587           0.0168732
-           0.0001591           0.0169062
-           0.0001595           0.0169394
-           0.0001599           0.0169725
-           0.0001603           0.0170055
-           0.0001608           0.0170387
-           0.0001612           0.0170717
-           0.0001616           0.0171048
-            0.000162           0.0171379
-           0.0001624           0.0171709
-           0.0001628           0.0172039
-           0.0001632           0.0172371
-           0.0001636           0.0172701
-            0.000164           0.0173031
-           0.0001645           0.0173362
-           0.0001649           0.0173692
-           0.0001653           0.0174022
-           0.0001657           0.0174353
-           0.0001661           0.0174683
-           0.0001665           0.0175013
-           0.0001669           0.0175343
-           0.0001673           0.0175673
-           0.0001678           0.0176002
-           0.0001682           0.0176331
-           0.0001686           0.0176662
-           0.0001691           0.0176991
-           0.0001695            0.017732
-           0.0001699           0.0177649
-           0.0001703           0.0177978
-           0.0001707           0.0178306
-           0.0001711           0.0178636
-           0.0001715           0.0178964
-            0.000172           0.0179293
-           0.0001724           0.0179622
-           0.0001729            0.017995
-           0.0001733           0.0180278
-           0.0001737           0.0180607
-           0.0001741           0.0180935
-           0.0001745           0.0181262
-           0.0001749           0.0181591
-           0.0001753           0.0181918
-           0.0001758           0.0182246
-           0.0001762           0.0182574
-           0.0001767           0.0182901
-           0.0001771           0.0183228
-           0.0001775           0.0183556
-            0.000178           0.0183883
-           0.0001784            0.018421
-           0.0001788           0.0184536
-           0.0001792           0.0184864
-           0.0001797            0.018519
-           0.0001801           0.0185517
-           0.0001806           0.0185844
-            0.000181            0.018617
-           0.0001815           0.0186497
-           0.0001819           0.0186824
-           0.0001823            0.018715
-           0.0001828           0.0187476
-           0.0001832           0.0187803
-           0.0001837           0.0188129
-           0.0001841           0.0188454
-           0.0001846           0.0188781
-           0.0001851           0.0189107
-           0.0001855           0.0189432
-            0.000186           0.0189759
-           0.0001865           0.0190084
-           0.0001869            0.019041
-           0.0001874           0.0190736
-           0.0001879           0.0191061
-           0.0001883           0.0191386
-           0.0001888           0.0191711
-           0.0001893           0.0192036
-           0.0001898           0.0192361
-           0.0001903           0.0192685
-           0.0001907           0.0193011
-           0.0001912           0.0193335
-           0.0001917            0.019366
-           0.0001922           0.0193985
-           0.0001926           0.0194309
-           0.0001931           0.0194633
-           0.0001936           0.0194957
-           0.0001941           0.0195281
-           0.0001946           0.0195605
-           0.0001951            0.019593
-           0.0001956           0.0196253
-           0.0001961           0.0196577
-           0.0001966           0.0196902
-           0.0001971           0.0197225
-           0.0001976           0.0197549
-           0.0001981           0.0197873
-           0.0001986           0.0198197
-           0.0001991            0.019852
-           0.0001996           0.0198845
-           0.0002001           0.0199168
-           0.0002006           0.0199492
-           0.0002011           0.0199816
-           0.0002016           0.0200139
-           0.0002021           0.0200463
-           0.0002026           0.0200786
-           0.0002031            0.020111
-           0.0002037           0.0201434
-           0.0002042           0.0201757
-           0.0002047           0.0202081
-           0.0002052           0.0202404
-           0.0002057           0.0202727
-           0.0002061            0.020305
-           0.0002067           0.0203373
-           0.0002072           0.0203696
-           0.0002077           0.0204019
-           0.0002082           0.0204341
-           0.0002087           0.0204664
-           0.0002092           0.0204986
-           0.0002097           0.0205308
-           0.0002102            0.020563
-           0.0002107           0.0205953
-           0.0002112           0.0206274
-           0.0002117           0.0206596
-           0.0002123           0.0206918
-           0.0002128           0.0207239
-           0.0002133            0.020756
-           0.0002138           0.0207882
-           0.0002143           0.0208203
-           0.0002148           0.0208523
-           0.0002153           0.0208844
-           0.0002159           0.0209165
-           0.0002164           0.0209485
-           0.0002169           0.0209806
-           0.0002174           0.0210127
-            0.000218           0.0210447
-           0.0002185           0.0210767
-            0.000219           0.0211088
-           0.0002195           0.0211408
-             0.00022           0.0211728
-           0.0002205           0.0212049
-           0.0002211           0.0212369
-           0.0002216           0.0212688
-           0.0002221           0.0213009
-           0.0002227           0.0213328
-           0.0002232           0.0213648
-           0.0002237           0.0213968
-           0.0002242           0.0214288
-           0.0002248           0.0214607
-           0.0002253           0.0214927
-           0.0002258           0.0215246
-           0.0002264           0.0215564
-           0.0002269           0.0215884
-           0.0002275           0.0216203
-            0.000228           0.0216521
-           0.0002286            0.021684
-           0.0002291           0.0217159
-           0.0002296           0.0217477
-           0.0002302           0.0217794
-           0.0002307           0.0218113
-           0.0002313           0.0218431
-           0.0002318           0.0218748
-           0.0002324           0.0219067
-            0.000233           0.0219384
-           0.0002335           0.0219701
-           0.0002341           0.0220019
-           0.0002346           0.0220336
-           0.0002352           0.0220653
-           0.0002357           0.0220971
-           0.0002363           0.0221287
-           0.0002369           0.0221604
-           0.0002375           0.0221921
-           0.0002381           0.0222237
-           0.0002386           0.0222553
-           0.0002392            0.022287
-           0.0002398           0.0223186
-           0.0002403           0.0223502
-           0.0002409           0.0223819
-           0.0002415           0.0224134
-           0.0002421            0.022445
-           0.0002426           0.0224765
-           0.0002432           0.0225082
-           0.0002438           0.0225397
-           0.0002444           0.0225712
-            0.000245           0.0226029
-           0.0002456           0.0226344
-           0.0002462           0.0226659
-           0.0002468           0.0226975
-           0.0002473            0.022729
-           0.0002479           0.0227605
-           0.0002485           0.0227921
-           0.0002491           0.0228235
-           0.0002497            0.022855
-           0.0002504           0.0228866
-            0.000251            0.022918
-           0.0002516           0.0229495
-           0.0002522            0.022981
-           0.0002527           0.0230124
-           0.0002533           0.0230438
-           0.0002539           0.0230753
-           0.0002545           0.0231067
-           0.0002552           0.0231381
-           0.0002558           0.0231695
-           0.0002564           0.0232009
-            0.000257           0.0232322
-           0.0002576           0.0232636
-           0.0002582            0.023295
-           0.0002588           0.0233263
-           0.0002594           0.0233576
-             0.00026            0.023389
-           0.0002606           0.0234202
-           0.0002612           0.0234515
-           0.0002618           0.0234829
-           0.0002624           0.0235141
-            0.000263           0.0235454
-           0.0002636           0.0235767
-           0.0002642           0.0236079
-           0.0002648           0.0236392
-           0.0002654           0.0236705
-            0.000266           0.0237018
-           0.0002666            0.023733
-           0.0002672           0.0237644
-           0.0002678           0.0237956
-           0.0002684           0.0238269
-            0.000269           0.0238582
-           0.0002696           0.0238895
-           0.0002702           0.0239207
-           0.0002708            0.023952
-           0.0002714           0.0239833
-            0.000272           0.0240145
-           0.0002726           0.0240458
-           0.0002732           0.0240771
-           0.0002738           0.0241083
-           0.0002744           0.0241396
-            0.000275           0.0241708
-           0.0002756            0.024202
-           0.0002762           0.0242332
-           0.0002768           0.0242644
-           0.0002774           0.0242956
-           0.0002781           0.0243267
-           0.0002787           0.0243579
-           0.0002792            0.024389
-           0.0002798           0.0244201
-           0.0002804           0.0244513
-            0.000281           0.0244824
-           0.0002816           0.0245135
-           0.0002822           0.0245446
-           0.0002828           0.0245756
-           0.0002835           0.0246067
-           0.0002841           0.0246378
-           0.0002847           0.0246688
-           0.0002852           0.0246997
-           0.0002858           0.0247308
-           0.0002864           0.0247617
-            0.000287           0.0247927
-           0.0002877           0.0248236
-           0.0002883           0.0248546
-           0.0002889           0.0248855
-           0.0002895           0.0249164
-           0.0002901           0.0249474
-           0.0002907           0.0249783
-           0.0002913           0.0250092
-           0.0002919           0.0250402
-           0.0002925           0.0250711
-           0.0002932           0.0251019
-           0.0002938           0.0251329
-           0.0002944           0.0251637
-           0.0002951           0.0251946
-           0.0002957           0.0252255
-           0.0002963           0.0252563
-           0.0002969           0.0252871
-           0.0002975            0.025318
-           0.0002982           0.0253488
-           0.0002988           0.0253796
-           0.0002994           0.0254104
-           0.0003001           0.0254412
-           0.0003007           0.0254719
-           0.0003013           0.0255028
-            0.000302           0.0255335
-           0.0003026           0.0255642
-           0.0003032           0.0255949
-           0.0003039           0.0256257
-           0.0003045           0.0256564
-           0.0003052           0.0256871
-           0.0003058           0.0257178
-           0.0003065           0.0257485
-           0.0003071           0.0257792
-           0.0003077           0.0258099
-           0.0003084           0.0258405
-            0.000309           0.0258711
-           0.0003097           0.0259018
-           0.0003103           0.0259324
-            0.000311            0.025963
-           0.0003117           0.0259937
-           0.0003123           0.0260242
-            0.000313           0.0260548
-           0.0003136           0.0260855
-           0.0003142            0.026116
-           0.0003149           0.0261465
-           0.0003156           0.0261771
-           0.0003162           0.0262077
-           0.0003169           0.0262382
-           0.0003176           0.0262688
-           0.0003182           0.0262994
-           0.0003189           0.0263299
-           0.0003195           0.0263604
-           0.0003202            0.026391
-           0.0003208           0.0264214
-           0.0003215           0.0264519
-           0.0003221           0.0264824
-           0.0003228           0.0265129
-           0.0003235           0.0265433
-           0.0003241           0.0265738
-           0.0003248           0.0266042
-           0.0003254           0.0266346
-           0.0003261           0.0266651
-           0.0003267           0.0266956
-           0.0003274           0.0267259
-            0.000328           0.0267564
-           0.0003287           0.0267868
-           0.0003294           0.0268172
-             0.00033           0.0268476
-           0.0003307            0.026878
-           0.0003313           0.0269083
-            0.000332           0.0269387
-           0.0003326           0.0269689
-           0.0003333           0.0269992
-            0.000334           0.0270295
-           0.0003346           0.0270597
-           0.0003353           0.0270899
-           0.0003359             0.02712
-           0.0003366           0.0271503
-           0.0003372           0.0271804
-           0.0003379           0.0272105
-           0.0003385           0.0272407
-           0.0003392           0.0272708
-           0.0003399           0.0273009
-           0.0003405            0.027331
-           0.0003412           0.0273611
-           0.0003418           0.0273912
-           0.0003425           0.0274213
-           0.0003431           0.0274513
-           0.0003438           0.0274813
-           0.0003445           0.0275114
-           0.0003451           0.0275414
-           0.0003458           0.0275713
-           0.0003465           0.0276014
-           0.0003472           0.0276313
-           0.0003478           0.0276612
-           0.0003485           0.0276912
-           0.0003491           0.0277211
-           0.0003498            0.027751
-           0.0003505           0.0277809
-           0.0003511           0.0278108
-           0.0003518           0.0278406
-           0.0003525           0.0278705
-           0.0003532           0.0279004
-           0.0003539           0.0279301
-           0.0003545           0.0279599
-           0.0003552           0.0279897
-           0.0003559           0.0280194
-           0.0003566           0.0280491
-           0.0003573           0.0280789
-            0.000358           0.0281086
-           0.0003587           0.0281382
-           0.0003594           0.0281679
-             0.00036           0.0281975
-           0.0003607           0.0282271
-           0.0003614           0.0282567
-           0.0003621           0.0282863
-           0.0003628           0.0283158
-           0.0003635           0.0283454
-           0.0003642           0.0283749
-           0.0003649           0.0284044
-           0.0003656            0.028434
-           0.0003663           0.0284634
-            0.000367           0.0284928
-           0.0003677           0.0285223
-           0.0003684           0.0285517
-           0.0003691           0.0285811
-           0.0003698           0.0286105
-           0.0003706             0.02864
-           0.0003713           0.0286693
-            0.000372           0.0286987
-           0.0003727           0.0287281
-           0.0003734           0.0287575
-           0.0003741           0.0287868
-           0.0003748           0.0288162
-           0.0003755           0.0288455
-           0.0003763           0.0288748
-            0.000377           0.0289041
-           0.0003777           0.0289334
-           0.0003784           0.0289627
-           0.0003792           0.0289921
-           0.0003799           0.0290214
-           0.0003806           0.0290506
-           0.0003813             0.02908
-           0.0003821           0.0291092
-           0.0003828           0.0291385
-           0.0003836           0.0291678
-           0.0003843            0.029197
-            0.000385           0.0292262
-           0.0003858           0.0292555
-           0.0003865           0.0292846
-           0.0003872           0.0293138
-           0.0003879           0.0293429
-           0.0003887           0.0293722
-           0.0003895           0.0294013
-           0.0003902           0.0294305
-            0.000391           0.0294597
-           0.0003917           0.0294889
-           0.0003924            0.029518
-           0.0003932           0.0295472
-           0.0003939           0.0295763
-           0.0003947           0.0296055
-           0.0003954           0.0296346
-           0.0003962           0.0296637
-            0.000397           0.0296928
-           0.0003977           0.0297219
-           0.0003985           0.0297509
-           0.0003992           0.0297799
-              0.0004           0.0298091
-           0.0004008           0.0298381
-           0.0004015            0.029867
-           0.0004023           0.0298961
-           0.0004031           0.0299251
-           0.0004039            0.029954
-           0.0004047            0.029983
-           0.0004054           0.0300119
-           0.0004062           0.0300408
-           0.0004069           0.0300697
-           0.0004077           0.0300987
-           0.0004085           0.0301275
-           0.0004093           0.0301564
-           0.0004101           0.0301853
-           0.0004109           0.0302142
-           0.0004117            0.030243
-           0.0004125           0.0302719
-           0.0004132           0.0303007
-            0.000414           0.0303295
-           0.0004148           0.0303583
-           0.0004156           0.0303871
-           0.0004165           0.0304159
-           0.0004173           0.0304447
-           0.0004181           0.0304734
-           0.0004189           0.0305021
-           0.0004197           0.0305309
-           0.0004205           0.0305596
-           0.0004212           0.0305883
-           0.0004221            0.030617
-           0.0004229           0.0306457
-           0.0004237           0.0306744
-           0.0004246           0.0307031
-           0.0004254           0.0307318
-           0.0004262           0.0307604
-            0.000427           0.0307891
-           0.0004278           0.0308178
-           0.0004286           0.0308464
-           0.0004295           0.0308749
-           0.0004303           0.0309036
-           0.0004312           0.0309322
-           0.0004321           0.0309607
-           0.0004329           0.0309893
-           0.0004337           0.0310178
-           0.0004346           0.0310464
-           0.0004354           0.0310749
-           0.0004362           0.0311034
-           0.0004371           0.0311319
-           0.0004379           0.0311605
-           0.0004388            0.031189
-           0.0004397           0.0312175
-           0.0004406           0.0312461
-           0.0004414           0.0312746
-           0.0004423           0.0313031
-           0.0004431           0.0313317
-            0.000444           0.0313601
-           0.0004448           0.0313886
-           0.0004457           0.0314171
-           0.0004466           0.0314456
-           0.0004475            0.031474
-           0.0004484           0.0315025
-           0.0004493            0.031531
-           0.0004501           0.0315594
-            0.000451           0.0315878
-           0.0004519           0.0316162
-           0.0004528           0.0316446
-           0.0004537            0.031673
-           0.0004546           0.0317015
-           0.0004556           0.0317298
-           0.0004565           0.0317582
-           0.0004573           0.0317866
-           0.0004582            0.031815
-           0.0004591           0.0318434
-             0.00046           0.0318718
-           0.0004609           0.0319001
-           0.0004619           0.0319284
-           0.0004628           0.0319568
-           0.0004638           0.0319851
-           0.0004647           0.0320134
-           0.0004656           0.0320417
-           0.0004665           0.0320699
-           0.0004674           0.0320982
-           0.0004683           0.0321264
-           0.0004693           0.0321546
-           0.0004703           0.0321828
-           0.0004712            0.032211
-           0.0004722           0.0322393
-           0.0004731           0.0322674
-           0.0004741           0.0322956
-            0.000475           0.0323238
-           0.0004759           0.0323519
-           0.0004768             0.03238
-           0.0004778           0.0324082
-           0.0004788           0.0324363
-           0.0004798           0.0324643
-           0.0004808           0.0324924
-           0.0004817           0.0325205
-           0.0004827           0.0325485
-           0.0004836           0.0325765
-           0.0004846           0.0326045
-           0.0004855           0.0326324
-           0.0004865           0.0326605
-           0.0004875           0.0326884
-           0.0004885           0.0327163
-           0.0004895           0.0327443
-           0.0004905           0.0327722
-           0.0004915              0.0328
-           0.0004924           0.0328279
-           0.0004934           0.0328558
-           0.0004944           0.0328836
-           0.0004954           0.0329114
-           0.0004964           0.0329393
-           0.0004974            0.032967
-           0.0004985           0.0329948
-           0.0004995           0.0330226
-           0.0005004           0.0330502
-           0.0005014           0.0330779
-           0.0005024           0.0331056
-           0.0005034           0.0331332
-           0.0005044           0.0331607
-           0.0005055           0.0331883
-           0.0005065           0.0332158
-           0.0005075           0.0332433
-           0.0005086           0.0332709
-           0.0005096           0.0332983
-           0.0005106           0.0333257
-           0.0005116           0.0333532
-           0.0005126           0.0333806
-           0.0005136           0.0334079
-           0.0005147           0.0334353
-           0.0005157           0.0334627
-           0.0005167           0.0334899
-           0.0005178           0.0335173
-           0.0005188           0.0335445
-           0.0005198           0.0335716
-           0.0005208           0.0335988
-           0.0005219            0.033626
-           0.0005229           0.0336531
-            0.000524           0.0336802
-            0.000525           0.0337074
-           0.0005261           0.0337344
-           0.0005271           0.0337614
-           0.0005281           0.0337885
-           0.0005291           0.0338155
-           0.0005302           0.0338425
-           0.0005312           0.0338695
-           0.0005323           0.0338964
-           0.0005334           0.0339233
-           0.0005345           0.0339503
-           0.0005355           0.0339771
-           0.0005365            0.034004
-           0.0005375           0.0340309
-           0.0005386           0.0340576
-           0.0005396           0.0340844
-           0.0005407           0.0341112
-           0.0005418           0.0341379
-           0.0005429           0.0341646
-           0.0005439           0.0341914
-            0.000545            0.034218
-            0.000546           0.0342446
-            0.000547           0.0342712
-           0.0005481           0.0342978
-           0.0005491           0.0343244
-           0.0005502           0.0343509
-           0.0005513           0.0343775
-           0.0005524            0.034404
-           0.0005535           0.0344304
-           0.0005545            0.034457
-           0.0005556           0.0344834
-           0.0005566           0.0345098
-           0.0005577           0.0345362
-           0.0005588           0.0345625
-           0.0005598           0.0345888
-            0.000561           0.0346152
-           0.0005621           0.0346414
-           0.0005632           0.0346676
-           0.0005642           0.0346939
-           0.0005653             0.03472
-           0.0005663           0.0347461
-           0.0005674           0.0347722
-           0.0005685           0.0347983
-           0.0005696           0.0348243
-           0.0005707           0.0348504
-           0.0005719           0.0348763
-            0.000573           0.0349023
-            0.000574           0.0349282
-           0.0005751           0.0349541
-           0.0005762             0.03498
-           0.0005773           0.0350058
-           0.0005784           0.0350317
-           0.0005795           0.0350574
-           0.0005807           0.0350832
-           0.0005818           0.0351089
-           0.0005829           0.0351346
-            0.000584           0.0351602
-           0.0005851           0.0351859
-           0.0005862           0.0352115
-           0.0005873            0.035237
-           0.0005885           0.0352626
-           0.0005897           0.0352881
-           0.0005908           0.0353135
-            0.000592            0.035339
-           0.0005931           0.0353644
-           0.0005942           0.0353897
-           0.0005953           0.0354151
-           0.0005964           0.0354404
-           0.0005976           0.0354656
-           0.0005987           0.0354909
-           0.0005999           0.0355161
-           0.0006011           0.0355413
-           0.0006023           0.0355664
-           0.0006034           0.0355916
-           0.0006046           0.0356166
-           0.0006057           0.0356416
-           0.0006068           0.0356667
-            0.000608           0.0356916
-            0.000609           0.0357179
-             0.00061           0.0357441
-           0.0006111           0.0357703
-           0.0006121           0.0357965
-           0.0006131           0.0358227
-            0.000614           0.0358488
-            0.000615           0.0358749
-            0.000616           0.0359011
-            0.000617           0.0359272
-            0.000618           0.0359532
-           0.0006191           0.0359794
-           0.0006201           0.0360054
-           0.0006211           0.0360314
-           0.0006221           0.0360575
-           0.0006231           0.0360835
-           0.0006241           0.0361094
-           0.0006251           0.0361354
-           0.0006262           0.0361613
-           0.0006272           0.0361872
-           0.0006283           0.0362131
-           0.0006293            0.036239
-           0.0006303           0.0362648
-           0.0006314           0.0362906
-           0.0006323           0.0363164
-           0.0006333           0.0363421
-           0.0006344           0.0363678
-           0.0006354           0.0363936
-           0.0006365           0.0364192
-           0.0006375           0.0364448
-           0.0006386           0.0364705
-           0.0006397           0.0364961
-           0.0006407           0.0365216
-           0.0006417           0.0365472
-           0.0006427           0.0365727
-           0.0006437           0.0365982
-           0.0006448           0.0366238
-           0.0006459           0.0366492
-            0.000647           0.0366745
-           0.0006481              0.0367
-           0.0006491           0.0367253
-           0.0006502           0.0367506
-           0.0006512           0.0367759
-           0.0006522           0.0368011
-           0.0006533           0.0368263
-           0.0006544           0.0368515
-           0.0006555           0.0368767
-           0.0006566           0.0369019
-           0.0006577            0.036927
-           0.0006588           0.0369522
-           0.0006598           0.0369772
-           0.0006609           0.0370023
-           0.0006619           0.0370274
-            0.000663           0.0370525
-           0.0006641           0.0370775
-           0.0006652           0.0371025
-           0.0006664           0.0371274
-           0.0006675           0.0371523
-           0.0006686           0.0371773
-           0.0006697           0.0372021
-           0.0006708           0.0372269
-           0.0006719           0.0372517
-            0.000673           0.0372764
-           0.0006741           0.0373011
-           0.0006753           0.0373258
-           0.0006764           0.0373504
-           0.0006776            0.037375
-           0.0006787           0.0373996
-           0.0006798           0.0374241
-           0.0006809           0.0374486
-            0.000682            0.037473
-           0.0006832           0.0374975
-           0.0006844           0.0375218
-           0.0006856           0.0375462
-           0.0006867           0.0375705
-           0.0006879           0.0375948
-           0.0006891            0.037619
-           0.0006902           0.0376432
-           0.0006913           0.0376673
-           0.0006925           0.0376914
-           0.0006937           0.0377155
-           0.0006949           0.0377394
-           0.0006961           0.0377634
-           0.0006973           0.0377873
-           0.0006985           0.0378111
-           0.0006997           0.0378361
-           0.0007008           0.0378613
-            0.000702           0.0378863
-           0.0007031           0.0379114
-           0.0007044           0.0379364
-           0.0007056           0.0379614
-           0.0007068           0.0379864
-           0.0007081           0.0380114
-           0.0007093           0.0380363
-           0.0007105           0.0380612
-           0.0007116           0.0380861
-           0.0007128            0.038111
-            0.000714           0.0381358
-           0.0007153           0.0381605
-           0.0007165           0.0381853
-           0.0007178           0.0382101
-           0.0007191           0.0382348
-           0.0007203           0.0382595
-           0.0007215           0.0382841
-           0.0007227           0.0383088
-           0.0007239           0.0383334
-           0.0007252            0.038358
-           0.0007265           0.0383826
-           0.0007278           0.0384072
-            0.000729           0.0384317
-           0.0007303           0.0384562
-           0.0007316           0.0384808
-           0.0007328           0.0385052
-           0.0007341           0.0385297
-           0.0007353           0.0385541
-           0.0007366           0.0385785
-           0.0007379           0.0386029
-           0.0007392           0.0386273
-           0.0007405           0.0386516
-           0.0007418           0.0386759
-           0.0007431           0.0387002
-           0.0007444           0.0387245
-           0.0007457           0.0387502
-            0.000747            0.038776
-           0.0007484           0.0388017
-           0.0007498           0.0388274
-           0.0007513           0.0388531
-           0.0007527           0.0388789
-           0.0007541           0.0389045
-           0.0007555           0.0389302
-           0.0007569           0.0389559
-           0.0007582           0.0389815
-           0.0007596           0.0390071
-            0.000761           0.0390328
-           0.0007625           0.0390585
-            0.000764           0.0390841
-           0.0007655           0.0391098
-           0.0007669           0.0391354
-           0.0007683            0.039161
-           0.0007697           0.0391866
-           0.0007711           0.0392121
-           0.0007725           0.0392377
-            0.000774           0.0392632
-           0.0007755           0.0392887
-            0.000777           0.0393142
-           0.0007785           0.0393397
-             0.00078           0.0393652
-           0.0007814           0.0393907
-           0.0007829           0.0394161
-           0.0007843           0.0394416
-           0.0007858            0.039467
-           0.0007873           0.0394923
-           0.0007888           0.0395177
-           0.0007903            0.039543
-           0.0007919           0.0395683
-           0.0007934           0.0395937
-           0.0007948           0.0396189
-           0.0007963           0.0396441
-           0.0007978           0.0396694
-           0.0007992           0.0396945
-           0.0008008           0.0397197
-           0.0008023           0.0397449
-           0.0008039           0.0397699
-           0.0008054            0.039795
-            0.000807           0.0398201
-           0.0008084           0.0398451
-           0.0008099           0.0398701
-           0.0008114           0.0398952
-           0.0008129           0.0399201
-           0.0008145           0.0399451
-           0.0008161             0.03997
-           0.0008177            0.039995
-           0.0008192           0.0400199
-           0.0008208           0.0400448
-           0.0008223           0.0400697
-           0.0008238           0.0400945
-           0.0008253           0.0401193
-           0.0008269           0.0401442
-           0.0008285           0.0401689
-           0.0008301           0.0401937
-           0.0008317           0.0402184
-           0.0008332           0.0402431
-           0.0008348           0.0402678
-           0.0008363           0.0402925
-           0.0008378           0.0403171
-           0.0008394           0.0403417
-           0.0008409           0.0403663
-           0.0008425           0.0403908
-           0.0008441           0.0404153
-           0.0008458           0.0404399
-           0.0008473           0.0404644
-           0.0008489           0.0404888
-           0.0008504           0.0405133
-           0.0008519           0.0405377
-           0.0008535            0.040562
-            0.000855           0.0405864
-           0.0008567           0.0406107
-           0.0008583            0.040635
-           0.0008599           0.0406593
-           0.0008615           0.0406836
-            0.000863           0.0407078
-           0.0008646           0.0407319
-           0.0008661           0.0407562
-           0.0008676           0.0407803
-           0.0008692           0.0408044
-           0.0008708           0.0408286
-           0.0008725           0.0408526
-           0.0008741           0.0408767
-           0.0008757           0.0409008
-           0.0008772           0.0409248
-           0.0008788           0.0409488
-           0.0008803           0.0409729
-           0.0008819           0.0409969
-           0.0008834           0.0410208
-           0.0008851           0.0410448
-           0.0008867           0.0410687
-           0.0008883           0.0410925
-           0.0008899           0.0411164
-           0.0008915           0.0411402
-            0.000893            0.041164
-           0.0008946           0.0411877
-           0.0008961           0.0412115
-           0.0008977           0.0412351
-           0.0008993           0.0412588
-            0.000901           0.0412825
-           0.0009026            0.041306
-           0.0009041           0.0413296
-           0.0009057           0.0413532
-           0.0009073           0.0413767
-           0.0009089           0.0414002
-           0.0009105           0.0414237
-           0.0009121           0.0414471
-           0.0009137           0.0414705
-           0.0009154           0.0414939
-            0.000917           0.0415173
-           0.0009186           0.0415406
-           0.0009202            0.041564
-           0.0009217           0.0415872
-           0.0009233           0.0416105
-            0.000925           0.0416338
-           0.0009266            0.041657
-           0.0009283           0.0416801
-           0.0009299           0.0417034
-           0.0009316           0.0417265
-           0.0009332           0.0417496
-           0.0009348           0.0417727
-           0.0009364           0.0417958
-            0.000938           0.0418189
-           0.0009397            0.041842
-           0.0009414            0.041865
-            0.000943            0.041888
-           0.0009447            0.041911
-           0.0009464            0.041934
-            0.000948            0.041957
-           0.0009496           0.0419799
-           0.0009513           0.0420028
-           0.0009529           0.0420257
-           0.0009546           0.0420485
-           0.0009563           0.0420714
-            0.000958           0.0420942
-           0.0009597            0.042117
-           0.0009614           0.0421398
-           0.0009631           0.0421626
-           0.0009647           0.0421853
-           0.0009664            0.042208
-           0.0009681           0.0422306
-           0.0009698           0.0422533
-           0.0009715           0.0422759
-           0.0009732           0.0422985
-            0.000975            0.042321
-           0.0009767           0.0423436
-           0.0009784           0.0423661
-             0.00098           0.0423886
-           0.0009817           0.0424111
-           0.0009834           0.0424336
-           0.0009851           0.0424561
-           0.0009869           0.0424785
-           0.0009886            0.042501
-           0.0009904           0.0425233
-           0.0009921           0.0425457
-           0.0009938            0.042568
-           0.0009955           0.0425903
-           0.0009972           0.0426126
-           0.0009989           0.0426349
+            1.002E-4           0.0113612
+            1.005E-4           0.0113954
+            1.008E-4           0.0114295
+            1.011E-4           0.0114637
+            1.014E-4           0.0114978
+            1.017E-4           0.0115319
+             1.02E-4           0.0115661
+            1.023E-4           0.0116002
+            1.026E-4           0.0116343
+            1.029E-4           0.0116685
+            1.032E-4           0.0117025
+            1.035E-4           0.0117366
+            1.038E-4           0.0117706
+            1.041E-4           0.0118047
+            1.044E-4           0.0118387
+            1.046E-4           0.0118727
+            1.049E-4           0.0119068
+            1.053E-4           0.0119408
+            1.056E-4           0.0119748
+            1.059E-4           0.0120089
+            1.062E-4           0.0120428
+            1.065E-4           0.0120768
+            1.068E-4           0.0121108
+            1.071E-4           0.0121447
+            1.074E-4           0.0121786
+            1.077E-4           0.0122126
+             1.08E-4           0.0122465
+            1.083E-4           0.0122803
+            1.087E-4           0.0123143
+             1.09E-4           0.0123481
+            1.093E-4           0.0123819
+            1.096E-4           0.0124158
+            1.099E-4           0.0124496
+            1.102E-4           0.0124834
+            1.105E-4           0.0125173
+            1.108E-4           0.0125511
+            1.112E-4           0.0125849
+            1.115E-4           0.0126186
+            1.119E-4           0.0126525
+            1.122E-4           0.0126862
+            1.125E-4             0.01272
+            1.128E-4           0.0127538
+            1.131E-4           0.0127875
+            1.134E-4           0.0128212
+            1.138E-4            0.012855
+            1.141E-4           0.0128887
+            1.145E-4           0.0129224
+            1.148E-4           0.0129561
+            1.151E-4           0.0129898
+            1.155E-4           0.0130235
+            1.158E-4           0.0130572
+            1.161E-4           0.0130909
+            1.164E-4           0.0131246
+            1.168E-4           0.0131583
+            1.171E-4            0.013192
+            1.175E-4           0.0132256
+            1.179E-4           0.0132593
+            1.182E-4           0.0132929
+            1.185E-4           0.0133265
+            1.188E-4           0.0133602
+            1.192E-4           0.0133938
+            1.195E-4           0.0134274
+            1.198E-4            0.013461
+            1.202E-4           0.0134947
+            1.206E-4           0.0135283
+            1.209E-4           0.0135619
+            1.213E-4           0.0135955
+            1.216E-4           0.0136291
+            1.219E-4           0.0136627
+            1.223E-4           0.0136963
+            1.226E-4           0.0137299
+             1.23E-4           0.0137635
+            1.233E-4           0.0137971
+            1.237E-4           0.0138307
+             1.24E-4           0.0138643
+            1.244E-4           0.0138979
+            1.247E-4           0.0139315
+            1.251E-4           0.0139651
+            1.254E-4           0.0139988
+            1.257E-4           0.0140324
+            1.261E-4           0.0140659
+            1.264E-4           0.0140996
+            1.268E-4           0.0141332
+            1.271E-4           0.0141668
+            1.275E-4           0.0142004
+            1.278E-4            0.014234
+            1.282E-4           0.0142675
+            1.285E-4           0.0143011
+            1.289E-4           0.0143347
+            1.292E-4           0.0143683
+            1.296E-4           0.0144018
+              1.3E-4           0.0144354
+            1.303E-4            0.014469
+            1.307E-4           0.0145025
+             1.31E-4           0.0145361
+            1.314E-4           0.0145697
+            1.318E-4           0.0146032
+            1.321E-4           0.0146369
+            1.325E-4           0.0146704
+            1.328E-4            0.014704
+            1.332E-4           0.0147376
+            1.336E-4           0.0147711
+            1.339E-4           0.0148047
+            1.343E-4           0.0148384
+            1.347E-4           0.0148719
+             1.35E-4           0.0149054
+            1.354E-4           0.0149391
+            1.358E-4           0.0149726
+            1.361E-4           0.0150061
+            1.365E-4           0.0150397
+            1.369E-4           0.0150733
+            1.373E-4           0.0151068
+            1.377E-4           0.0151402
+             1.38E-4           0.0151738
+            1.384E-4           0.0152073
+            1.388E-4           0.0152407
+            1.392E-4           0.0152743
+            1.396E-4           0.0153078
+              1.4E-4           0.0153412
+            1.404E-4           0.0153747
+            1.407E-4           0.0154082
+            1.411E-4           0.0154416
+            1.415E-4           0.0154751
+            1.419E-4           0.0155085
+            1.423E-4           0.0155419
+            1.427E-4           0.0155753
+            1.431E-4           0.0156087
+            1.435E-4           0.0156421
+            1.439E-4           0.0156756
+            1.443E-4           0.0157089
+            1.447E-4           0.0157422
+            1.451E-4           0.0157757
+            1.456E-4            0.015809
+             1.46E-4           0.0158423
+            1.464E-4           0.0158758
+            1.468E-4           0.0159091
+            1.472E-4           0.0159424
+            1.476E-4           0.0159758
+             1.48E-4           0.0160092
+            1.484E-4           0.0160425
+            1.488E-4           0.0160758
+            1.492E-4           0.0161092
+            1.496E-4           0.0161425
+              1.5E-4           0.0161758
+            1.504E-4           0.0162092
+            1.508E-4           0.0162425
+            1.512E-4           0.0162757
+            1.516E-4            0.016309
+            1.521E-4           0.0163423
+            1.525E-4           0.0163755
+            1.529E-4           0.0164088
+            1.533E-4            0.016442
+            1.537E-4           0.0164752
+            1.542E-4           0.0165085
+            1.546E-4           0.0165417
+             1.55E-4           0.0165748
+            1.554E-4           0.0166081
+            1.558E-4           0.0166412
+            1.562E-4           0.0166743
+            1.566E-4           0.0167075
+             1.57E-4           0.0167407
+            1.575E-4           0.0167738
+            1.579E-4           0.0168069
+            1.583E-4           0.0168401
+            1.587E-4           0.0168732
+            1.591E-4           0.0169062
+            1.595E-4           0.0169394
+            1.599E-4           0.0169725
+            1.603E-4           0.0170055
+            1.608E-4           0.0170387
+            1.612E-4           0.0170717
+            1.616E-4           0.0171048
+             1.62E-4           0.0171379
+            1.624E-4           0.0171709
+            1.628E-4           0.0172039
+            1.632E-4           0.0172371
+            1.636E-4           0.0172701
+             1.64E-4           0.0173031
+            1.645E-4           0.0173362
+            1.649E-4           0.0173692
+            1.653E-4           0.0174022
+            1.657E-4           0.0174353
+            1.661E-4           0.0174683
+            1.665E-4           0.0175013
+            1.669E-4           0.0175343
+            1.673E-4           0.0175673
+            1.678E-4           0.0176002
+            1.682E-4           0.0176331
+            1.686E-4           0.0176662
+            1.691E-4           0.0176991
+            1.695E-4            0.017732
+            1.699E-4           0.0177649
+            1.703E-4           0.0177978
+            1.707E-4           0.0178306
+            1.711E-4           0.0178636
+            1.715E-4           0.0178964
+             1.72E-4           0.0179293
+            1.724E-4           0.0179622
+            1.729E-4            0.017995
+            1.733E-4           0.0180278
+            1.737E-4           0.0180607
+            1.741E-4           0.0180935
+            1.745E-4           0.0181262
+            1.749E-4           0.0181591
+            1.753E-4           0.0181918
+            1.758E-4           0.0182246
+            1.762E-4           0.0182574
+            1.767E-4           0.0182901
+            1.771E-4           0.0183228
+            1.775E-4           0.0183556
+             1.78E-4           0.0183883
+            1.784E-4            0.018421
+            1.788E-4           0.0184536
+            1.792E-4           0.0184864
+            1.797E-4            0.018519
+            1.801E-4           0.0185517
+            1.806E-4           0.0185844
+             1.81E-4            0.018617
+            1.815E-4           0.0186497
+            1.819E-4           0.0186824
+            1.823E-4            0.018715
+            1.828E-4           0.0187476
+            1.832E-4           0.0187803
+            1.837E-4           0.0188129
+            1.841E-4           0.0188454
+            1.846E-4           0.0188781
+            1.851E-4           0.0189107
+            1.855E-4           0.0189432
+             1.86E-4           0.0189759
+            1.865E-4           0.0190084
+            1.869E-4            0.019041
+            1.874E-4           0.0190736
+            1.879E-4           0.0191061
+            1.883E-4           0.0191386
+            1.888E-4           0.0191711
+            1.893E-4           0.0192036
+            1.898E-4           0.0192361
+            1.903E-4           0.0192685
+            1.907E-4           0.0193011
+            1.912E-4           0.0193335
+            1.917E-4            0.019366
+            1.922E-4           0.0193985
+            1.926E-4           0.0194309
+            1.931E-4           0.0194633
+            1.936E-4           0.0194957
+            1.941E-4           0.0195281
+            1.946E-4           0.0195605
+            1.951E-4            0.019593
+            1.956E-4           0.0196253
+            1.961E-4           0.0196577
+            1.966E-4           0.0196902
+            1.971E-4           0.0197225
+            1.976E-4           0.0197549
+            1.981E-4           0.0197873
+            1.986E-4           0.0198197
+            1.991E-4            0.019852
+            1.996E-4           0.0198845
+            2.001E-4           0.0199168
+            2.006E-4           0.0199492
+            2.011E-4           0.0199816
+            2.016E-4           0.0200139
+            2.021E-4           0.0200463
+            2.026E-4           0.0200786
+            2.031E-4            0.020111
+            2.037E-4           0.0201434
+            2.042E-4           0.0201757
+            2.047E-4           0.0202081
+            2.052E-4           0.0202404
+            2.057E-4           0.0202727
+            2.061E-4            0.020305
+            2.067E-4           0.0203373
+            2.072E-4           0.0203696
+            2.077E-4           0.0204019
+            2.082E-4           0.0204341
+            2.087E-4           0.0204664
+            2.092E-4           0.0204986
+            2.097E-4           0.0205308
+            2.102E-4            0.020563
+            2.107E-4           0.0205953
+            2.112E-4           0.0206274
+            2.117E-4           0.0206596
+            2.123E-4           0.0206918
+            2.128E-4           0.0207239
+            2.133E-4            0.020756
+            2.138E-4           0.0207882
+            2.143E-4           0.0208203
+            2.148E-4           0.0208523
+            2.153E-4           0.0208844
+            2.159E-4           0.0209165
+            2.164E-4           0.0209485
+            2.169E-4           0.0209806
+            2.174E-4           0.0210127
+             2.18E-4           0.0210447
+            2.185E-4           0.0210767
+             2.19E-4           0.0211088
+            2.195E-4           0.0211408
+              2.2E-4           0.0211728
+            2.205E-4           0.0212049
+            2.211E-4           0.0212369
+            2.216E-4           0.0212688
+            2.221E-4           0.0213009
+            2.227E-4           0.0213328
+            2.232E-4           0.0213648
+            2.237E-4           0.0213968
+            2.242E-4           0.0214288
+            2.248E-4           0.0214607
+            2.253E-4           0.0214927
+            2.258E-4           0.0215246
+            2.264E-4           0.0215564
+            2.269E-4           0.0215884
+            2.275E-4           0.0216203
+             2.28E-4           0.0216521
+            2.286E-4            0.021684
+            2.291E-4           0.0217159
+            2.296E-4           0.0217477
+            2.302E-4           0.0217794
+            2.307E-4           0.0218113
+            2.313E-4           0.0218431
+            2.318E-4           0.0218748
+            2.324E-4           0.0219067
+             2.33E-4           0.0219384
+            2.335E-4           0.0219701
+            2.341E-4           0.0220019
+            2.346E-4           0.0220336
+            2.352E-4           0.0220653
+            2.357E-4           0.0220971
+            2.363E-4           0.0221287
+            2.369E-4           0.0221604
+            2.375E-4           0.0221921
+            2.381E-4           0.0222237
+            2.386E-4           0.0222553
+            2.392E-4            0.022287
+            2.398E-4           0.0223186
+            2.403E-4           0.0223502
+            2.409E-4           0.0223819
+            2.415E-4           0.0224134
+            2.421E-4            0.022445
+            2.426E-4           0.0224765
+            2.432E-4           0.0225082
+            2.438E-4           0.0225397
+            2.444E-4           0.0225712
+             2.45E-4           0.0226029
+            2.456E-4           0.0226344
+            2.462E-4           0.0226659
+            2.468E-4           0.0226975
+            2.473E-4            0.022729
+            2.479E-4           0.0227605
+            2.485E-4           0.0227921
+            2.491E-4           0.0228235
+            2.497E-4            0.022855
+            2.504E-4           0.0228866
+             2.51E-4            0.022918
+            2.516E-4           0.0229495
+            2.522E-4            0.022981
+            2.527E-4           0.0230124
+            2.533E-4           0.0230438
+            2.539E-4           0.0230753
+            2.545E-4           0.0231067
+            2.552E-4           0.0231381
+            2.558E-4           0.0231695
+            2.564E-4           0.0232009
+             2.57E-4           0.0232322
+            2.576E-4           0.0232636
+            2.582E-4            0.023295
+            2.588E-4           0.0233263
+            2.594E-4           0.0233576
+              2.6E-4            0.023389
+            2.606E-4           0.0234202
+            2.612E-4           0.0234515
+            2.618E-4           0.0234829
+            2.624E-4           0.0235141
+             2.63E-4           0.0235454
+            2.636E-4           0.0235767
+            2.642E-4           0.0236079
+            2.648E-4           0.0236392
+            2.654E-4           0.0236705
+             2.66E-4           0.0237018
+            2.666E-4            0.023733
+            2.672E-4           0.0237644
+            2.678E-4           0.0237956
+            2.684E-4           0.0238269
+             2.69E-4           0.0238582
+            2.696E-4           0.0238895
+            2.702E-4           0.0239207
+            2.708E-4            0.023952
+            2.714E-4           0.0239833
+             2.72E-4           0.0240145
+            2.726E-4           0.0240458
+            2.732E-4           0.0240771
+            2.738E-4           0.0241083
+            2.744E-4           0.0241396
+             2.75E-4           0.0241708
+            2.756E-4            0.024202
+            2.762E-4           0.0242332
+            2.768E-4           0.0242644
+            2.774E-4           0.0242956
+            2.781E-4           0.0243267
+            2.787E-4           0.0243579
+            2.792E-4            0.024389
+            2.798E-4           0.0244201
+            2.804E-4           0.0244513
+             2.81E-4           0.0244824
+            2.816E-4           0.0245135
+            2.822E-4           0.0245446
+            2.828E-4           0.0245756
+            2.835E-4           0.0246067
+            2.841E-4           0.0246378
+            2.847E-4           0.0246688
+            2.852E-4           0.0246997
+            2.858E-4           0.0247308
+            2.864E-4           0.0247617
+             2.87E-4           0.0247927
+            2.877E-4           0.0248236
+            2.883E-4           0.0248546
+            2.889E-4           0.0248855
+            2.895E-4           0.0249164
+            2.901E-4           0.0249474
+            2.907E-4           0.0249783
+            2.913E-4           0.0250092
+            2.919E-4           0.0250402
+            2.925E-4           0.0250711
+            2.932E-4           0.0251019
+            2.938E-4           0.0251329
+            2.944E-4           0.0251637
+            2.951E-4           0.0251946
+            2.957E-4           0.0252255
+            2.963E-4           0.0252563
+            2.969E-4           0.0252871
+            2.975E-4            0.025318
+            2.982E-4           0.0253488
+            2.988E-4           0.0253796
+            2.994E-4           0.0254104
+            3.001E-4           0.0254412
+            3.007E-4           0.0254719
+            3.013E-4           0.0255028
+             3.02E-4           0.0255335
+            3.026E-4           0.0255642
+            3.032E-4           0.0255949
+            3.039E-4           0.0256257
+            3.045E-4           0.0256564
+            3.052E-4           0.0256871
+            3.058E-4           0.0257178
+            3.065E-4           0.0257485
+            3.071E-4           0.0257792
+            3.077E-4           0.0258099
+            3.084E-4           0.0258405
+             3.09E-4           0.0258711
+            3.097E-4           0.0259018
+            3.103E-4           0.0259324
+             3.11E-4            0.025963
+            3.117E-4           0.0259937
+            3.123E-4           0.0260242
+             3.13E-4           0.0260548
+            3.136E-4           0.0260855
+            3.142E-4            0.026116
+            3.149E-4           0.0261465
+            3.156E-4           0.0261771
+            3.162E-4           0.0262077
+            3.169E-4           0.0262382
+            3.176E-4           0.0262688
+            3.182E-4           0.0262994
+            3.189E-4           0.0263299
+            3.195E-4           0.0263604
+            3.202E-4            0.026391
+            3.208E-4           0.0264214
+            3.215E-4           0.0264519
+            3.221E-4           0.0264824
+            3.228E-4           0.0265129
+            3.235E-4           0.0265433
+            3.241E-4           0.0265738
+            3.248E-4           0.0266042
+            3.254E-4           0.0266346
+            3.261E-4           0.0266651
+            3.267E-4           0.0266956
+            3.274E-4           0.0267259
+             3.28E-4           0.0267564
+            3.287E-4           0.0267868
+            3.294E-4           0.0268172
+              3.3E-4           0.0268476
+            3.307E-4            0.026878
+            3.313E-4           0.0269083
+             3.32E-4           0.0269387
+            3.326E-4           0.0269689
+            3.333E-4           0.0269992
+             3.34E-4           0.0270295
+            3.346E-4           0.0270597
+            3.353E-4           0.0270899
+            3.359E-4             0.02712
+            3.366E-4           0.0271503
+            3.372E-4           0.0271804
+            3.379E-4           0.0272105
+            3.385E-4           0.0272407
+            3.392E-4           0.0272708
+            3.399E-4           0.0273009
+            3.405E-4            0.027331
+            3.412E-4           0.0273611
+            3.418E-4           0.0273912
+            3.425E-4           0.0274213
+            3.431E-4           0.0274513
+            3.438E-4           0.0274813
+            3.445E-4           0.0275114
+            3.451E-4           0.0275414
+            3.458E-4           0.0275713
+            3.465E-4           0.0276014
+            3.472E-4           0.0276313
+            3.478E-4           0.0276612
+            3.485E-4           0.0276912
+            3.491E-4           0.0277211
+            3.498E-4            0.027751
+            3.505E-4           0.0277809
+            3.511E-4           0.0278108
+            3.518E-4           0.0278406
+            3.525E-4           0.0278705
+            3.532E-4           0.0279004
+            3.539E-4           0.0279301
+            3.545E-4           0.0279599
+            3.552E-4           0.0279897
+            3.559E-4           0.0280194
+            3.566E-4           0.0280491
+            3.573E-4           0.0280789
+             3.58E-4           0.0281086
+            3.587E-4           0.0281382
+            3.594E-4           0.0281679
+              3.6E-4           0.0281975
+            3.607E-4           0.0282271
+            3.614E-4           0.0282567
+            3.621E-4           0.0282863
+            3.628E-4           0.0283158
+            3.635E-4           0.0283454
+            3.642E-4           0.0283749
+            3.649E-4           0.0284044
+            3.656E-4            0.028434
+            3.663E-4           0.0284634
+             3.67E-4           0.0284928
+            3.677E-4           0.0285223
+            3.684E-4           0.0285517
+            3.691E-4           0.0285811
+            3.698E-4           0.0286105
+            3.706E-4             0.02864
+            3.713E-4           0.0286693
+             3.72E-4           0.0286987
+            3.727E-4           0.0287281
+            3.734E-4           0.0287575
+            3.741E-4           0.0287868
+            3.748E-4           0.0288162
+            3.755E-4           0.0288455
+            3.763E-4           0.0288748
+             3.77E-4           0.0289041
+            3.777E-4           0.0289334
+            3.784E-4           0.0289627
+            3.792E-4           0.0289921
+            3.799E-4           0.0290214
+            3.806E-4           0.0290506
+            3.813E-4             0.02908
+            3.821E-4           0.0291092
+            3.828E-4           0.0291385
+            3.836E-4           0.0291678
+            3.843E-4            0.029197
+             3.85E-4           0.0292262
+            3.858E-4           0.0292555
+            3.865E-4           0.0292846
+            3.872E-4           0.0293138
+            3.879E-4           0.0293429
+            3.887E-4           0.0293722
+            3.895E-4           0.0294013
+            3.902E-4           0.0294305
+             3.91E-4           0.0294597
+            3.917E-4           0.0294889
+            3.924E-4            0.029518
+            3.932E-4           0.0295472
+            3.939E-4           0.0295763
+            3.947E-4           0.0296055
+            3.954E-4           0.0296346
+            3.962E-4           0.0296637
+             3.97E-4           0.0296928
+            3.977E-4           0.0297219
+            3.985E-4           0.0297509
+            3.992E-4           0.0297799
+               4.E-4           0.0298091
+            4.008E-4           0.0298381
+            4.015E-4            0.029867
+            4.023E-4           0.0298961
+            4.031E-4           0.0299251
+            4.039E-4            0.029954
+            4.047E-4            0.029983
+            4.054E-4           0.0300119
+            4.062E-4           0.0300408
+            4.069E-4           0.0300697
+            4.077E-4           0.0300987
+            4.085E-4           0.0301275
+            4.093E-4           0.0301564
+            4.101E-4           0.0301853
+            4.109E-4           0.0302142
+            4.117E-4            0.030243
+            4.125E-4           0.0302719
+            4.132E-4           0.0303007
+             4.14E-4           0.0303295
+            4.148E-4           0.0303583
+            4.156E-4           0.0303871
+            4.165E-4           0.0304159
+            4.173E-4           0.0304447
+            4.181E-4           0.0304734
+            4.189E-4           0.0305021
+            4.197E-4           0.0305309
+            4.205E-4           0.0305596
+            4.212E-4           0.0305883
+            4.221E-4            0.030617
+            4.229E-4           0.0306457
+            4.237E-4           0.0306744
+            4.246E-4           0.0307031
+            4.254E-4           0.0307318
+            4.262E-4           0.0307604
+             4.27E-4           0.0307891
+            4.278E-4           0.0308178
+            4.286E-4           0.0308464
+            4.295E-4           0.0308749
+            4.303E-4           0.0309036
+            4.312E-4           0.0309322
+            4.321E-4           0.0309607
+            4.329E-4           0.0309893
+            4.337E-4           0.0310178
+            4.346E-4           0.0310464
+            4.354E-4           0.0310749
+            4.362E-4           0.0311034
+            4.371E-4           0.0311319
+            4.379E-4           0.0311605
+            4.388E-4            0.031189
+            4.397E-4           0.0312175
+            4.406E-4           0.0312461
+            4.414E-4           0.0312746
+            4.423E-4           0.0313031
+            4.431E-4           0.0313317
+             4.44E-4           0.0313601
+            4.448E-4           0.0313886
+            4.457E-4           0.0314171
+            4.466E-4           0.0314456
+            4.475E-4            0.031474
+            4.484E-4           0.0315025
+            4.493E-4            0.031531
+            4.501E-4           0.0315594
+             4.51E-4           0.0315878
+            4.519E-4           0.0316162
+            4.528E-4           0.0316446
+            4.537E-4            0.031673
+            4.546E-4           0.0317015
+            4.556E-4           0.0317298
+            4.565E-4           0.0317582
+            4.573E-4           0.0317866
+            4.582E-4            0.031815
+            4.591E-4           0.0318434
+              4.6E-4           0.0318718
+            4.609E-4           0.0319001
+            4.619E-4           0.0319284
+            4.628E-4           0.0319568
+            4.638E-4           0.0319851
+            4.647E-4           0.0320134
+            4.656E-4           0.0320417
+            4.665E-4           0.0320699
+            4.674E-4           0.0320982
+            4.683E-4           0.0321264
+            4.693E-4           0.0321546
+            4.703E-4           0.0321828
+            4.712E-4            0.032211
+            4.722E-4           0.0322393
+            4.731E-4           0.0322674
+            4.741E-4           0.0322956
+             4.75E-4           0.0323238
+            4.759E-4           0.0323519
+            4.768E-4             0.03238
+            4.778E-4           0.0324082
+            4.788E-4           0.0324363
+            4.798E-4           0.0324643
+            4.808E-4           0.0324924
+            4.817E-4           0.0325205
+            4.827E-4           0.0325485
+            4.836E-4           0.0325765
+            4.846E-4           0.0326045
+            4.855E-4           0.0326324
+            4.865E-4           0.0326605
+            4.875E-4           0.0326884
+            4.885E-4           0.0327163
+            4.895E-4           0.0327443
+            4.905E-4           0.0327722
+            4.915E-4              0.0328
+            4.924E-4           0.0328279
+            4.934E-4           0.0328558
+            4.944E-4           0.0328836
+            4.954E-4           0.0329114
+            4.964E-4           0.0329393
+            4.974E-4            0.032967
+            4.985E-4           0.0329948
+            4.995E-4           0.0330226
+            5.004E-4           0.0330502
+            5.014E-4           0.0330779
+            5.024E-4           0.0331056
+            5.034E-4           0.0331332
+            5.044E-4           0.0331607
+            5.055E-4           0.0331883
+            5.065E-4           0.0332158
+            5.075E-4           0.0332433
+            5.086E-4           0.0332709
+            5.096E-4           0.0332983
+            5.106E-4           0.0333257
+            5.116E-4           0.0333532
+            5.126E-4           0.0333806
+            5.136E-4           0.0334079
+            5.147E-4           0.0334353
+            5.157E-4           0.0334627
+            5.167E-4           0.0334899
+            5.178E-4           0.0335173
+            5.188E-4           0.0335445
+            5.198E-4           0.0335716
+            5.208E-4           0.0335988
+            5.219E-4            0.033626
+            5.229E-4           0.0336531
+             5.24E-4           0.0336802
+             5.25E-4           0.0337074
+            5.261E-4           0.0337344
+            5.271E-4           0.0337614
+            5.281E-4           0.0337885
+            5.291E-4           0.0338155
+            5.302E-4           0.0338425
+            5.312E-4           0.0338695
+            5.323E-4           0.0338964
+            5.334E-4           0.0339233
+            5.345E-4           0.0339503
+            5.355E-4           0.0339771
+            5.365E-4            0.034004
+            5.375E-4           0.0340309
+            5.386E-4           0.0340576
+            5.396E-4           0.0340844
+            5.407E-4           0.0341112
+            5.418E-4           0.0341379
+            5.429E-4           0.0341646
+            5.439E-4           0.0341914
+             5.45E-4            0.034218
+             5.46E-4           0.0342446
+             5.47E-4           0.0342712
+            5.481E-4           0.0342978
+            5.491E-4           0.0343244
+            5.502E-4           0.0343509
+            5.513E-4           0.0343775
+            5.524E-4            0.034404
+            5.535E-4           0.0344304
+            5.545E-4            0.034457
+            5.556E-4           0.0344834
+            5.566E-4           0.0345098
+            5.577E-4           0.0345362
+            5.588E-4           0.0345625
+            5.598E-4           0.0345888
+             5.61E-4           0.0346152
+            5.621E-4           0.0346414
+            5.632E-4           0.0346676
+            5.642E-4           0.0346939
+            5.653E-4             0.03472
+            5.663E-4           0.0347461
+            5.674E-4           0.0347722
+            5.685E-4           0.0347983
+            5.696E-4           0.0348243
+            5.707E-4           0.0348504
+            5.719E-4           0.0348763
+             5.73E-4           0.0349023
+             5.74E-4           0.0349282
+            5.751E-4           0.0349541
+            5.762E-4             0.03498
+            5.773E-4           0.0350058
+            5.784E-4           0.0350317
+            5.795E-4           0.0350574
+            5.807E-4           0.0350832
+            5.818E-4           0.0351089
+            5.829E-4           0.0351346
+             5.84E-4           0.0351602
+            5.851E-4           0.0351859
+            5.862E-4           0.0352115
+            5.873E-4            0.035237
+            5.885E-4           0.0352626
+            5.897E-4           0.0352881
+            5.908E-4           0.0353135
+             5.92E-4            0.035339
+            5.931E-4           0.0353644
+            5.942E-4           0.0353897
+            5.953E-4           0.0354151
+            5.964E-4           0.0354404
+            5.976E-4           0.0354656
+            5.987E-4           0.0354909
+            5.999E-4           0.0355161
+            6.011E-4           0.0355413
+            6.023E-4           0.0355664
+            6.034E-4           0.0355916
+            6.046E-4           0.0356166
+            6.057E-4           0.0356416
+            6.068E-4           0.0356667
+             6.08E-4           0.0356916
+             6.09E-4           0.0357179
+              6.1E-4           0.0357441
+            6.111E-4           0.0357703
+            6.121E-4           0.0357965
+            6.131E-4           0.0358227
+             6.14E-4           0.0358488
+             6.15E-4           0.0358749
+             6.16E-4           0.0359011
+             6.17E-4           0.0359272
+             6.18E-4           0.0359532
+            6.191E-4           0.0359794
+            6.201E-4           0.0360054
+            6.211E-4           0.0360314
+            6.221E-4           0.0360575
+            6.231E-4           0.0360835
+            6.241E-4           0.0361094
+            6.251E-4           0.0361354
+            6.262E-4           0.0361613
+            6.272E-4           0.0361872
+            6.283E-4           0.0362131
+            6.293E-4            0.036239
+            6.303E-4           0.0362648
+            6.314E-4           0.0362906
+            6.323E-4           0.0363164
+            6.333E-4           0.0363421
+            6.344E-4           0.0363678
+            6.354E-4           0.0363936
+            6.365E-4           0.0364192
+            6.375E-4           0.0364448
+            6.386E-4           0.0364705
+            6.397E-4           0.0364961
+            6.407E-4           0.0365216
+            6.417E-4           0.0365472
+            6.427E-4           0.0365727
+            6.437E-4           0.0365982
+            6.448E-4           0.0366238
+            6.459E-4           0.0366492
+             6.47E-4           0.0366745
+            6.481E-4              0.0367
+            6.491E-4           0.0367253
+            6.502E-4           0.0367506
+            6.512E-4           0.0367759
+            6.522E-4           0.0368011
+            6.533E-4           0.0368263
+            6.544E-4           0.0368515
+            6.555E-4           0.0368767
+            6.566E-4           0.0369019
+            6.577E-4            0.036927
+            6.588E-4           0.0369522
+            6.598E-4           0.0369772
+            6.609E-4           0.0370023
+            6.619E-4           0.0370274
+             6.63E-4           0.0370525
+            6.641E-4           0.0370775
+            6.652E-4           0.0371025
+            6.664E-4           0.0371274
+            6.675E-4           0.0371523
+            6.686E-4           0.0371773
+            6.697E-4           0.0372021
+            6.708E-4           0.0372269
+            6.719E-4           0.0372517
+             6.73E-4           0.0372764
+            6.741E-4           0.0373011
+            6.753E-4           0.0373258
+            6.764E-4           0.0373504
+            6.776E-4            0.037375
+            6.787E-4           0.0373996
+            6.798E-4           0.0374241
+            6.809E-4           0.0374486
+             6.82E-4            0.037473
+            6.832E-4           0.0374975
+            6.844E-4           0.0375218
+            6.856E-4           0.0375462
+            6.867E-4           0.0375705
+            6.879E-4           0.0375948
+            6.891E-4            0.037619
+            6.902E-4           0.0376432
+            6.913E-4           0.0376673
+            6.925E-4           0.0376914
+            6.937E-4           0.0377155
+            6.949E-4           0.0377394
+            6.961E-4           0.0377634
+            6.973E-4           0.0377873
+            6.985E-4           0.0378111
+            6.997E-4           0.0378361
+            7.008E-4           0.0378613
+             7.02E-4           0.0378863
+            7.031E-4           0.0379114
+            7.044E-4           0.0379364
+            7.056E-4           0.0379614
+            7.068E-4           0.0379864
+            7.081E-4           0.0380114
+            7.093E-4           0.0380363
+            7.105E-4           0.0380612
+            7.116E-4           0.0380861
+            7.128E-4            0.038111
+             7.14E-4           0.0381358
+            7.153E-4           0.0381605
+            7.165E-4           0.0381853
+            7.178E-4           0.0382101
+            7.191E-4           0.0382348
+            7.203E-4           0.0382595
+            7.215E-4           0.0382841
+            7.227E-4           0.0383088
+            7.239E-4           0.0383334
+            7.252E-4            0.038358
+            7.265E-4           0.0383826
+            7.278E-4           0.0384072
+             7.29E-4           0.0384317
+            7.303E-4           0.0384562
+            7.316E-4           0.0384808
+            7.328E-4           0.0385052
+            7.341E-4           0.0385297
+            7.353E-4           0.0385541
+            7.366E-4           0.0385785
+            7.379E-4           0.0386029
+            7.392E-4           0.0386273
+            7.405E-4           0.0386516
+            7.418E-4           0.0386759
+            7.431E-4           0.0387002
+            7.444E-4           0.0387245
+            7.457E-4           0.0387502
+             7.47E-4            0.038776
+            7.484E-4           0.0388017
+            7.498E-4           0.0388274
+            7.513E-4           0.0388531
+            7.527E-4           0.0388789
+            7.541E-4           0.0389045
+            7.555E-4           0.0389302
+            7.569E-4           0.0389559
+            7.582E-4           0.0389815
+            7.596E-4           0.0390071
+             7.61E-4           0.0390328
+            7.625E-4           0.0390585
+             7.64E-4           0.0390841
+            7.655E-4           0.0391098
+            7.669E-4           0.0391354
+            7.683E-4            0.039161
+            7.697E-4           0.0391866
+            7.711E-4           0.0392121
+            7.725E-4           0.0392377
+             7.74E-4           0.0392632
+            7.755E-4           0.0392887
+             7.77E-4           0.0393142
+            7.785E-4           0.0393397
+              7.8E-4           0.0393652
+            7.814E-4           0.0393907
+            7.829E-4           0.0394161
+            7.843E-4           0.0394416
+            7.858E-4            0.039467
+            7.873E-4           0.0394923
+            7.888E-4           0.0395177
+            7.903E-4            0.039543
+            7.919E-4           0.0395683
+            7.934E-4           0.0395937
+            7.948E-4           0.0396189
+            7.963E-4           0.0396441
+            7.978E-4           0.0396694
+            7.992E-4           0.0396945
+            8.008E-4           0.0397197
+            8.023E-4           0.0397449
+            8.039E-4           0.0397699
+            8.054E-4            0.039795
+             8.07E-4           0.0398201
+            8.084E-4           0.0398451
+            8.099E-4           0.0398701
+            8.114E-4           0.0398952
+            8.129E-4           0.0399201
+            8.145E-4           0.0399451
+            8.161E-4             0.03997
+            8.177E-4            0.039995
+            8.192E-4           0.0400199
+            8.208E-4           0.0400448
+            8.223E-4           0.0400697
+            8.238E-4           0.0400945
+            8.253E-4           0.0401193
+            8.269E-4           0.0401442
+            8.285E-4           0.0401689
+            8.301E-4           0.0401937
+            8.317E-4           0.0402184
+            8.332E-4           0.0402431
+            8.348E-4           0.0402678
+            8.363E-4           0.0402925
+            8.378E-4           0.0403171
+            8.394E-4           0.0403417
+            8.409E-4           0.0403663
+            8.425E-4           0.0403908
+            8.441E-4           0.0404153
+            8.458E-4           0.0404399
+            8.473E-4           0.0404644
+            8.489E-4           0.0404888
+            8.504E-4           0.0405133
+            8.519E-4           0.0405377
+            8.535E-4            0.040562
+             8.55E-4           0.0405864
+            8.567E-4           0.0406107
+            8.583E-4            0.040635
+            8.599E-4           0.0406593
+            8.615E-4           0.0406836
+             8.63E-4           0.0407078
+            8.646E-4           0.0407319
+            8.661E-4           0.0407562
+            8.676E-4           0.0407803
+            8.692E-4           0.0408044
+            8.708E-4           0.0408286
+            8.725E-4           0.0408526
+            8.741E-4           0.0408767
+            8.757E-4           0.0409008
+            8.772E-4           0.0409248
+            8.788E-4           0.0409488
+            8.803E-4           0.0409729
+            8.819E-4           0.0409969
+            8.834E-4           0.0410208
+            8.851E-4           0.0410448
+            8.867E-4           0.0410687
+            8.883E-4           0.0410925
+            8.899E-4           0.0411164
+            8.915E-4           0.0411402
+             8.93E-4            0.041164
+            8.946E-4           0.0411877
+            8.961E-4           0.0412115
+            8.977E-4           0.0412351
+            8.993E-4           0.0412588
+             9.01E-4           0.0412825
+            9.026E-4            0.041306
+            9.041E-4           0.0413296
+            9.057E-4           0.0413532
+            9.073E-4           0.0413767
+            9.089E-4           0.0414002
+            9.105E-4           0.0414237
+            9.121E-4           0.0414471
+            9.137E-4           0.0414705
+            9.154E-4           0.0414939
+             9.17E-4           0.0415173
+            9.186E-4           0.0415406
+            9.202E-4            0.041564
+            9.217E-4           0.0415872
+            9.233E-4           0.0416105
+             9.25E-4           0.0416338
+            9.266E-4            0.041657
+            9.283E-4           0.0416801
+            9.299E-4           0.0417034
+            9.316E-4           0.0417265
+            9.332E-4           0.0417496
+            9.348E-4           0.0417727
+            9.364E-4           0.0417958
+             9.38E-4           0.0418189
+            9.397E-4            0.041842
+            9.414E-4            0.041865
+             9.43E-4            0.041888
+            9.447E-4            0.041911
+            9.464E-4            0.041934
+             9.48E-4            0.041957
+            9.496E-4           0.0419799
+            9.513E-4           0.0420028
+            9.529E-4           0.0420257
+            9.546E-4           0.0420485
+            9.563E-4           0.0420714
+             9.58E-4           0.0420942
+            9.597E-4            0.042117
+            9.614E-4           0.0421398
+            9.631E-4           0.0421626
+            9.647E-4           0.0421853
+            9.664E-4            0.042208
+            9.681E-4           0.0422306
+            9.698E-4           0.0422533
+            9.715E-4           0.0422759
+            9.732E-4           0.0422985
+             9.75E-4            0.042321
+            9.767E-4           0.0423436
+            9.784E-4           0.0423661
+              9.8E-4           0.0423886
+            9.817E-4           0.0424111
+            9.834E-4           0.0424336
+            9.851E-4           0.0424561
+            9.869E-4           0.0424785
+            9.886E-4            0.042501
+            9.904E-4           0.0425233
+            9.921E-4           0.0425457
+            9.938E-4            0.042568
+            9.955E-4           0.0425903
+            9.972E-4           0.0426126
+            9.989E-4           0.0426349
            0.0010007           0.0426571
            0.0010024           0.0426793
            0.0010042           0.0427015
@@ -13131,21 +13199,21 @@ Tibia Cortical Burstein Reilly Tension
            0.0227683               0.135
 *DEFINE_CURVE_TITLE
 LX-Knee-Ligament-MCL_high-Kunitomi-et-al.2017
-    702110         0        1.   0.00025&MCL_l_off        0.         0         0
+    702110         0        1.    2.5E-4&MCL_l_off        0.         0         0
                 -10.                  0.
                   0.                  0.
-             2.31884          99.5866013
-           3.2463801         168.2610016
-           4.4927502         261.9140015
-           6.2318802         449.4570007
-           7.2463799         555.7219849
-             8.31884         668.2390137
-             10.1159         893.3809814
-          12.2028999        1174.8599854
+             2.31884             99.5866
+             3.24638             168.261
+             4.49275             261.914
+             6.23188             449.457
+             7.24638             555.722
+             8.31884             668.239
+             10.1159             893.381
+             12.2029             1174.86
                  15.               1500.
 *DEFINE_CURVE_TITLE
 LX-Knee-Ligament-LCL_high-Kunitomi-et-al.2017
-    702120         0        1.   0.00025&LCL_l_off        0.         0         0
+    702120         0        1.    2.5E-4&LCL_l_off        0.         0         0
                 -10.                  0.
                   0.                  0.
             0.667669             29.1898
@@ -13349,19 +13417,19 @@ LX-Knee-Ligament-p_PCL_high-Kunitomi-et-al.2017
     702142         0        1.     0.001&PCL_l_off        0.         0         0
                 -10.                  0.
                   0.                  0.
-            0.469897          24.6835003
-            0.751836           36.075901
-             1.12775           47.468399
-           1.5271699          68.3544006
-             1.87959           93.038002
-           2.3494899          115.822998
-             2.71366         142.4049988
-           3.1483099         170.8860016
-             3.67695         201.2660065
-           3.9706299         222.1519928
-           4.2290702         237.3419952
-           4.5462599         258.2279968
-           4.8164501         269.6199951
+            0.469897             24.6835
+            0.751836             36.0759
+             1.12775             47.4684
+             1.52717             68.3544
+             1.87959              93.038
+             2.34949             115.823
+             2.71366             142.405
+             3.14831             170.886
+             3.67695             201.266
+             3.97063             222.152
+             4.22907             237.342
+             4.54626             258.228
+             4.81645              269.62
                  10.                550.
                  15.                775.
 *DEFINE_CURVE_TITLE
@@ -13718,7 +13786,7 @@ DEFINE_CURVE_2004110
                   0.                  0.
            0.0700948          9.40351E-6
             0.144786          5.70439E-5
-            0.224074         0.000301793
+            0.224074          3.01793E-4
             0.307957          0.00128636
             0.396438          0.00239748
             0.489515          0.00340151
@@ -13778,8 +13846,8 @@ DEFINE_CURVE_2004111
             0.694215          3.26225E-6
             0.838843          1.47787E-5
             0.991736          6.71543E-5
-             1.15289         0.000305994
-             1.32231         0.000882294
+             1.15289          3.05994E-4
+             1.32231          8.82294E-4
                  1.5          0.00141939
              1.68595          0.00190978
              1.88017          0.00225167
@@ -13825,9 +13893,9 @@ DEFINE_CURVE_2004121
    2004121         0        1.        1.        0.        0.         0          
                   0.                  0.
            0.0481661          8.58176E-5
-           0.0985467         0.000230078
-            0.151142         0.000476134
-            0.205952         0.000899409
+           0.0985467          2.30078E-4
+            0.151142          4.76134E-4
+            0.205952          8.99409E-4
             0.262976          0.00163131
             0.322215          0.00290103
             0.383668          0.00510881
@@ -13882,7 +13950,7 @@ DEFINE_CURVE_2004122
            0.0375459          1.15539E-6
            0.0568286          8.53677E-6
             0.076451          6.22288E-5
-           0.0964132         0.000452913
+           0.0964132          4.52913E-4
             0.116715          0.00294844
             0.137357          0.00664677
             0.158338           0.0102263
@@ -13932,8 +14000,8 @@ DEFINE_CURVE_2004122
 DEFINE_CURVE_2004125
    2004125         0        1.        1.        0.        0.         0          
                   0.                  0.
-           0.0360247          0.00016082
-           0.0733025         0.000894768
+           0.0360247           1.6082E-4
+           0.0733025          8.94768E-4
             0.111833          0.00286267
             0.151617          0.00479537
             0.192654          0.00661182
@@ -13986,7 +14054,7 @@ DEFINE_CURVE_2004125
 DEFINE_CURVE_2004126
    2004126         0        1.        1.        0.        0.         0          
                   0.                  0.
-           0.0677237         0.000486391
+           0.0677237          4.86391E-4
             0.139747          0.00330642
             0.216071          0.00729225
             0.296694            0.010864
@@ -14041,7 +14109,7 @@ DEFINE_CURVE_2004127
    2004127         0        1.        1.        0.        0.         0          
                   0.                  0.
            0.0117643           1.8558E-5
-           0.0236654         0.000176213
+           0.0236654          1.76213E-4
            0.0357033          0.00151732
             0.047878          0.00607663
            0.0601895           0.0106712
@@ -14095,7 +14163,7 @@ DEFINE_CURVE_2104072
    2104072         0        1.        1.        0.        0.         0          
                   0.                  0.
            0.0165278          9.71121E-5
-           0.0333244         0.000429197
+           0.0333244          4.29197E-4
            0.0503897           0.0010172
            0.0677237          0.00186818
            0.0853265          0.00298395
@@ -14138,7 +14206,7 @@ DEFINE_CURVE_2104073
    2104073         0        1.        1.        0.        0.         0          
                   0.                  0.
            0.0165278          9.71121E-5
-           0.0333244         0.000429197
+           0.0333244          4.29197E-4
            0.0503897           0.0010172
            0.0677237          0.00186818
            0.0853265          0.00298395
@@ -14181,7 +14249,7 @@ DEFINE_CURVE_2104074
    2104074         0        1.        1.        0.        0.         0          
                   0.                  0.
            0.0165278          9.71121E-5
-           0.0333244         0.000429197
+           0.0333244          4.29197E-4
            0.0503897           0.0010172
            0.0677237          0.00186818
            0.0853265          0.00298395
@@ -14224,7 +14292,7 @@ DEFINE_CURVE_2104075
    2104075         0        1.        1.        0.        0.         0          
                   0.                  0.
            0.0165278          9.71121E-5
-           0.0333244         0.000429197
+           0.0333244          4.29197E-4
            0.0503897           0.0010172
            0.0677237          0.00186818
            0.0853265          0.00298395
@@ -14267,7 +14335,7 @@ DEFINE_CURVE_2104076
    2104076         0        1.        1.        0.        0.         0          
                   0.                  0.
            0.0165278          9.71121E-5
-           0.0333244         0.000429197
+           0.0333244          4.29197E-4
            0.0503897           0.0010172
            0.0677237          0.00186818
            0.0853265          0.00298395
@@ -14310,7 +14378,7 @@ DEFINE_CURVE_2104077
    2104077         0        1.        1.        0.        0.         0          
                   0.                  0.
            0.0165278          9.71121E-5
-           0.0333244         0.000429197
+           0.0333244          4.29197E-4
            0.0503897           0.0010172
            0.0677237          0.00186818
            0.0853265          0.00298395
@@ -14352,7 +14420,7 @@ DEFINE_CURVE_2104077
 DEFINE_CURVE_2104082
    2104082         0        1.        1.        0.        0.         0          
                   0.                  0.
-           0.0165278         0.000309063
+           0.0165278          3.09063E-4
            0.0333244          0.00136594
            0.0503897          0.00323731
            0.0677237          0.00586444
@@ -14391,7 +14459,7 @@ DEFINE_CURVE_2104082
 DEFINE_CURVE_2104083
    2104083         0        1.        1.        0.        0.         0          
                   0.                  0.
-           0.0165278         0.000309063
+           0.0165278          3.09063E-4
            0.0333244          0.00136594
            0.0503897          0.00323731
            0.0677237          0.00586444
@@ -14430,7 +14498,7 @@ DEFINE_CURVE_2104083
 DEFINE_CURVE_2104084
    2104084         0        1.        1.        0.        0.         0          
                   0.                  0.
-           0.0165278         0.000309063
+           0.0165278          3.09063E-4
            0.0333244          0.00136594
            0.0503897          0.00323731
            0.0677237          0.00586444
@@ -14469,7 +14537,7 @@ DEFINE_CURVE_2104084
 DEFINE_CURVE_2104085
    2104085         0        1.        1.        0.        0.         0          
                   0.                  0.
-           0.0165278         0.000309063
+           0.0165278          3.09063E-4
            0.0333244          0.00136594
            0.0503897          0.00323731
            0.0677237          0.00586444
@@ -14508,7 +14576,7 @@ DEFINE_CURVE_2104085
 DEFINE_CURVE_2104086
    2104086         0        1.        1.        0.        0.         0          
                   0.                  0.
-           0.0165278         0.000309063
+           0.0165278          3.09063E-4
            0.0333244          0.00136594
            0.0503897          0.00323731
            0.0677237          0.00586444
@@ -14547,7 +14615,7 @@ DEFINE_CURVE_2104086
 DEFINE_CURVE_2104087
    2104087         0        1.        1.        0.        0.         0          
                   0.                  0.
-           0.0165278         0.000309063
+           0.0165278          3.09063E-4
            0.0333244          0.00136594
            0.0503897          0.00323731
            0.0677237          0.00586444
@@ -14594,14 +14662,14 @@ DEFINE_CURVE_2104092
             0.294896          2.81542E-5
             0.350662          4.85967E-5
             0.408318          7.77095E-5
-            0.467864         0.000117239
-            0.529301         0.000168967
-            0.592628           0.0002347
-            0.657845         0.000316262
-            0.724953         0.000415483
-            0.793951         0.000534196
-            0.864839         0.000674234
-            0.937618         0.000837424
+            0.467864          1.17239E-4
+            0.529301          1.68967E-4
+            0.592628            2.347E-4
+            0.657845          3.16262E-4
+            0.724953          4.15483E-4
+            0.793951          5.34196E-4
+            0.864839          6.74234E-4
+            0.937618          8.37424E-4
              1.01229          0.00102559
              1.08885          0.00124054
               1.1673          0.00148408
@@ -14636,14 +14704,14 @@ DEFINE_CURVE_2104093
             0.205078          2.98937E-5
             0.242676          5.20099E-5
              0.28125          8.37912E-5
-            0.320801         0.000127309
-            0.361328         0.000184709
-            0.402832         0.000258194
-            0.445313         0.000350014
-             0.48877         0.000462451
-            0.533203         0.000597815
-            0.578613         0.000758435
-               0.625         0.000946653
+            0.320801          1.27309E-4
+            0.361328          1.84709E-4
+            0.402832          2.58194E-4
+            0.445313          3.50014E-4
+             0.48877          4.62451E-4
+            0.533203          5.97815E-4
+            0.578613          7.58435E-4
+               0.625          9.46653E-4
             0.672363          0.00116482
             0.720703          0.00141529
              0.77002          0.00170043
@@ -14678,14 +14746,14 @@ DEFINE_CURVE_2104094
             0.364561          2.99556E-5
             0.434965          5.14357E-5
             0.508125          8.18488E-5
-            0.584041         0.000122923
-            0.662712         0.000176406
-            0.744139         0.000244057
-            0.828322          0.00032764
-             0.91526         0.000428915
-             1.00495         0.000549635
-              1.0974         0.000691545
-             1.19261         0.000856378
+            0.584041          1.22923E-4
+            0.662712          1.76406E-4
+            0.744139          2.44057E-4
+            0.828322           3.2764E-4
+             0.91526          4.28915E-4
+             1.00495          5.49635E-4
+              1.0974          6.91545E-4
+             1.19261          8.56378E-4
              1.29057          0.00104586
              1.39128          0.00126168
              1.49475          0.00150555
@@ -14720,15 +14788,15 @@ DEFINE_CURVE_2104095
             0.349944          2.68551E-5
             0.417241          4.61602E-5
             0.487101          7.35252E-5
-            0.559526         0.000110521
-            0.634514         0.000158742
-            0.712065         0.000219791
-            0.792181         0.000295281
-             0.87486         0.000386819
-            0.960103         0.000496011
-             1.04791         0.000624457
-             1.13828         0.000773744
-             1.23121         0.000945451
+            0.559526          1.10521E-4
+            0.634514          1.58742E-4
+            0.712065          2.19791E-4
+            0.792181          2.95281E-4
+             0.87486          3.86819E-4
+            0.960103          4.96011E-4
+             1.04791          6.24457E-4
+             1.13828          7.73744E-4
+             1.23121          9.45451E-4
              1.32671          0.00114115
              1.42477          0.00136238
               1.5254          0.00159971
@@ -14763,15 +14831,15 @@ DEFINE_CURVE_2104096
             0.723855          3.91933E-5
             0.853278          6.15872E-5
             0.989204          9.14306E-5
-             1.13163         0.000129823
-             1.28057         0.000177853
-               1.436         0.000236598
-             1.59794         0.000307119
-             1.76639         0.000390466
-             1.94134         0.000487672
-             2.12279         0.000599758
-             2.31074          0.00072773
-              2.5052         0.000872581
+             1.13163          1.29823E-4
+             1.28057          1.77853E-4
+               1.436          2.36598E-4
+             1.59794          3.07119E-4
+             1.76639          3.90466E-4
+             1.94134          4.87672E-4
+             2.12279          5.99758E-4
+             2.31074           7.2773E-4
+              2.5052          8.72581E-4
              2.70617          0.00103529
              2.91363          0.00120852
               3.1276          0.00136822
@@ -14803,14 +14871,14 @@ DEFINE_CURVE_2104097
             0.331863          1.98391E-5
             0.408318          3.76903E-5
             0.488133           6.4525E-5
-            0.571309         0.000102397
-            0.657845         0.000153392
-            0.747742         0.000219614
-               0.841         0.000303169
-            0.937618         0.000406163
-              1.0376         0.000530691
-             1.14094         0.000678834
-             1.24764         0.000852659
+            0.571309          1.02397E-4
+            0.657845          1.53392E-4
+            0.747742          2.19614E-4
+               0.841          3.03169E-4
+            0.937618          4.06163E-4
+              1.0376          5.30691E-4
+             1.14094          6.78834E-4
+             1.24764          8.52659E-4
               1.3577          0.00105422
              1.47112          0.00128554
               1.5879          0.00154863
@@ -14840,11 +14908,11 @@ DEFINE_CURVE_2104112
                   0.                  0.
            0.0739796          1.96921E-5
             0.153061          8.38906E-5
-            0.237245         0.000191412
-            0.326531         0.000338853
-            0.420918         0.000522616
-            0.520408         0.000739331
-               0.625         0.000988674
+            0.237245          1.91412E-4
+            0.326531          3.38853E-4
+            0.420918          5.22616E-4
+            0.520408          7.39331E-4
+               0.625          9.88674E-4
             0.734694          0.00122102
              0.84949          0.00142712
             0.969388          0.00160823
@@ -14879,11 +14947,11 @@ DEFINE_CURVE_2104113
                   0.                  0.
            0.0792495          1.98923E-5
             0.164326          8.44067E-5
-             0.25523         0.000191916
-            0.351961         0.000338695
-            0.454519         0.000520929
-            0.562904         0.000735116
-            0.677117         0.000980837
+             0.25523          1.91916E-4
+            0.351961          3.38695E-4
+            0.454519          5.20929E-4
+            0.562904          7.35116E-4
+            0.677117          9.80837E-4
             0.797156          0.00120888
             0.923023          0.00141031
              1.05472           0.0015866
@@ -14918,11 +14986,11 @@ DEFINE_CURVE_2104114
                   0.                  0.
            0.0679536          1.88615E-5
             0.140235          8.07257E-5
-            0.216846         0.000184949
-            0.297784         0.000328617
-            0.383051         0.000508501
-            0.472645         0.000721506
-            0.566569         0.000967446
+            0.216846          1.84949E-4
+            0.297784          3.28617E-4
+            0.383051          5.08501E-4
+            0.472645          7.21506E-4
+            0.566569          9.67446E-4
              0.66482          0.00119774
               0.7674          0.00140307
             0.874307           0.0015844
@@ -14957,11 +15025,11 @@ DEFINE_CURVE_2104115
                   0.                  0.
            0.0899227          1.75791E-5
             0.187277          7.40081E-5
-            0.292063         0.000167128
-            0.404281         0.000293187
-             0.52393         0.000448552
-            0.651011         0.000630001
-            0.785523         0.000837036
+            0.292063          1.67128E-4
+            0.404281          2.93187E-4
+             0.52393          4.48552E-4
+            0.651011          6.30001E-4
+            0.785523          8.37036E-4
             0.927467          0.00102771
              1.07684          0.00119483
              1.23365          0.00133995
@@ -14996,11 +15064,11 @@ DEFINE_CURVE_2104116
                   0.                  0.
            0.0670433          1.88766E-5
             0.138303          8.08478E-5
-             0.21378         0.000185346
-            0.293473         0.000329509
-            0.377382         0.000510141
-            0.465509         0.000724168
-            0.557851         0.000971424
+             0.21378          1.85346E-4
+            0.293473          3.29509E-4
+            0.377382          5.10141E-4
+            0.465509          7.24168E-4
+            0.557851          9.71424E-4
             0.654411          0.00120313
             0.755186          0.00140988
             0.860179          0.00159261
@@ -15035,12 +15103,12 @@ DEFINE_CURVE_2104117
                   0.                  0.
            0.0928395           1.5824E-5
              0.19358          6.64794E-5
-            0.302222         0.000149855
-            0.418765         0.000262472
-             0.54321         0.000401007
-            0.675556         0.000562534
-            0.815802         0.000746584
-            0.963951         0.000915762
+            0.302222          1.49855E-4
+            0.418765          2.62472E-4
+             0.54321          4.01007E-4
+            0.675556          5.62534E-4
+            0.815802          7.46584E-4
+            0.963951          9.15762E-4
                 1.12          0.00106373
              1.28395          0.00119198
               1.4558          0.00129492
@@ -15072,8 +15140,8 @@ DEFINE_CURVE_2104117
 DEFINE_CURVE_2204072
    2204072         0        1.        1.        0.        0.         0          
                   0.                  0.
-           0.0165278         0.000164941
-           0.0333244         0.000667087
+           0.0165278          1.64941E-4
+           0.0333244          6.67087E-4
            0.0503897          0.00150105
            0.0677237          0.00265712
            0.0853265           0.0041246
@@ -15115,8 +15183,8 @@ DEFINE_CURVE_2204072
 DEFINE_CURVE_2204073
    2204073         0        1.        1.        0.        0.         0          
                   0.                  0.
-           0.0165278         0.000164941
-           0.0333244         0.000667087
+           0.0165278          1.64941E-4
+           0.0333244          6.67087E-4
            0.0503897          0.00150105
            0.0677237          0.00265712
            0.0853265           0.0041246
@@ -15158,8 +15226,8 @@ DEFINE_CURVE_2204073
 DEFINE_CURVE_2204074
    2204074         0        1.        1.        0.        0.         0          
                   0.                  0.
-           0.0165278         0.000164941
-           0.0333244         0.000667087
+           0.0165278          1.64941E-4
+           0.0333244          6.67087E-4
            0.0503897          0.00150105
            0.0677237          0.00265712
            0.0853265           0.0041246
@@ -15201,8 +15269,8 @@ DEFINE_CURVE_2204074
 DEFINE_CURVE_2204075
    2204075         0        1.        1.        0.        0.         0          
                   0.                  0.
-           0.0165278         0.000164941
-           0.0333244         0.000667087
+           0.0165278          1.64941E-4
+           0.0333244          6.67087E-4
            0.0503897          0.00150105
            0.0677237          0.00265712
            0.0853265           0.0041246
@@ -15244,8 +15312,8 @@ DEFINE_CURVE_2204075
 DEFINE_CURVE_2204076
    2204076         0        1.        1.        0.        0.         0          
                   0.                  0.
-           0.0165278         0.000164941
-           0.0333244         0.000667087
+           0.0165278          1.64941E-4
+           0.0333244          6.67087E-4
            0.0503897          0.00150105
            0.0677237          0.00265712
            0.0853265           0.0041246
@@ -15287,8 +15355,8 @@ DEFINE_CURVE_2204076
 DEFINE_CURVE_2204077
    2204077         0        1.        1.        0.        0.         0          
                   0.                  0.
-           0.0165278         0.000164941
-           0.0333244         0.000667087
+           0.0165278          1.64941E-4
+           0.0333244          6.67087E-4
            0.0503897          0.00150105
            0.0677237          0.00265712
            0.0853265           0.0041246
@@ -15330,7 +15398,7 @@ DEFINE_CURVE_2204077
 DEFINE_CURVE_2204082
    2204082         0        1.        1.        0.        0.         0          
                   0.                  0.
-           0.0165278         0.000791063
+           0.0165278          7.91063E-4
            0.0333244          0.00346722
            0.0503897          0.00807872
            0.0677237           0.0127959
@@ -15369,7 +15437,7 @@ DEFINE_CURVE_2204082
 DEFINE_CURVE_2204083
    2204083         0        1.        1.        0.        0.         0          
                   0.                  0.
-           0.0165278         0.000791063
+           0.0165278          7.91063E-4
            0.0333244          0.00346722
            0.0503897          0.00807872
            0.0677237           0.0127959
@@ -15408,7 +15476,7 @@ DEFINE_CURVE_2204083
 DEFINE_CURVE_2204084
    2204084         0        1.        1.        0.        0.         0          
                   0.                  0.
-           0.0165278         0.000791063
+           0.0165278          7.91063E-4
            0.0333244          0.00346722
            0.0503897          0.00807872
            0.0677237           0.0127959
@@ -15447,7 +15515,7 @@ DEFINE_CURVE_2204084
 DEFINE_CURVE_2204085
    2204085         0        1.        1.        0.        0.         0          
                   0.                  0.
-           0.0165278         0.000791063
+           0.0165278          7.91063E-4
            0.0333244          0.00346722
            0.0503897          0.00807872
            0.0677237           0.0127959
@@ -15486,7 +15554,7 @@ DEFINE_CURVE_2204085
 DEFINE_CURVE_2204086
    2204086         0        1.        1.        0.        0.         0          
                   0.                  0.
-           0.0165278         0.000791063
+           0.0165278          7.91063E-4
            0.0333244          0.00346722
            0.0503897          0.00807872
            0.0677237           0.0127959
@@ -15525,7 +15593,7 @@ DEFINE_CURVE_2204086
 DEFINE_CURVE_2204087
    2204087         0        1.        1.        0.        0.         0          
                   0.                  0.
-           0.0165278         0.000791063
+           0.0165278          7.91063E-4
            0.0333244          0.00346722
            0.0503897          0.00807872
            0.0677237           0.0127959
@@ -15568,12 +15636,12 @@ DEFINE_CURVE_2204092
            0.0907372          1.44026E-5
             0.138941           4.2388E-5
             0.189036          9.02731E-5
-            0.241021         0.000161116
-            0.294896         0.000257253
-            0.350662          0.00038049
-            0.408318         0.000532235
-            0.467864         0.000713584
-            0.529301         0.000925393
+            0.241021          1.61116E-4
+            0.294896          2.57253E-4
+            0.350662           3.8049E-4
+            0.408318          5.32235E-4
+            0.467864          7.13584E-4
+            0.529301          9.25393E-4
             0.592628          0.00116833
             0.657845          0.00144289
             0.724953          0.00174948
@@ -15610,11 +15678,11 @@ DEFINE_CURVE_2204093
            0.0644531          1.47341E-5
            0.0981445          4.38097E-5
             0.132813          9.41981E-5
-            0.168457         0.000169636
-            0.205078         0.000273147
-            0.242676         0.000407214
-             0.28125         0.000573888
-            0.320801         0.000774878
+            0.168457          1.69636E-4
+            0.205078          2.73147E-4
+            0.242676          4.07214E-4
+             0.28125          5.73888E-4
+            0.320801          7.74878E-4
             0.361328          0.00101161
             0.402832          0.00128528
             0.445313          0.00159688
@@ -15652,12 +15720,12 @@ DEFINE_CURVE_2204094
             0.110498          1.57207E-5
              0.16988          4.59358E-5
             0.232018          9.71841E-5
-            0.296912         0.000172395
-            0.364561         0.000273712
-            0.434965         0.000402718
-            0.508125         0.000560585
-            0.584041          0.00074818
-            0.662712         0.000966135
+            0.296912          1.72395E-4
+            0.364561          2.73712E-4
+            0.434965          4.02718E-4
+            0.508125          5.60585E-4
+            0.584041           7.4818E-4
+            0.662712          9.66135E-4
             0.744139           0.0012149
             0.828322           0.0014948
              0.91526          0.00180604
@@ -15694,12 +15762,12 @@ DEFINE_CURVE_2204095
             0.106393          1.40212E-5
             0.163435          4.10297E-5
             0.223041          8.69204E-5
-            0.285211         0.000154378
-            0.349944         0.000245383
-            0.417241         0.000361414
-            0.487101         0.000503576
-            0.559526         0.000672698
-            0.634514         0.000869394
+            0.285211          1.54378E-4
+            0.349944          2.45383E-4
+            0.417241          3.61414E-4
+            0.487101          5.03576E-4
+            0.559526          6.72698E-4
+            0.634514          8.69394E-4
             0.712065          0.00109411
             0.792181          0.00134717
              0.87486          0.00162878
@@ -15736,13 +15804,13 @@ DEFINE_CURVE_2204096
             0.174298          1.30407E-5
             0.271202          3.73233E-5
              0.37461           7.7511E-5
-            0.484521         0.000135217
-            0.600937         0.000211459
-            0.723855         0.000306865
-            0.853278         0.000421813
-            0.989204         0.000556501
-             1.13163         0.000711012
-             1.28057         0.000885343
+            0.484521          1.35217E-4
+            0.600937          2.11459E-4
+            0.723855          3.06865E-4
+            0.853278          4.21813E-4
+            0.989204          5.56501E-4
+             1.13163          7.11012E-4
+             1.28057          8.85343E-4
                1.436          0.00107944
              1.59794          0.00129319
              1.76639          0.00152647
@@ -15777,12 +15845,12 @@ DEFINE_CURVE_2204097
            0.0596513          3.12814E-6
             0.122663          2.00752E-5
             0.189036          5.84121E-5
-            0.258769         0.000123105
-            0.331863          0.00021761
-            0.408318         0.000344387
-            0.488133         0.000505201
-            0.571309         0.000701318
-            0.657845         0.000933635
+            0.258769          1.23105E-4
+            0.331863           2.1761E-4
+            0.408318          3.44387E-4
+            0.488133          5.05201E-4
+            0.571309          7.01318E-4
+            0.657845          9.33635E-4
             0.747742          0.00120278
                0.841          0.00150916
             0.937618          0.00185305
@@ -15816,9 +15884,9 @@ DEFINE_CURVE_2204097
 DEFINE_CURVE_2204112
    2204112         0        1.        1.        0.        0.         0          
                   0.                  0.
-           0.0739796         0.000106944
-            0.153061         0.000424495
-            0.237245         0.000917625
+           0.0739796          1.06944E-4
+            0.153061          4.24495E-4
+            0.237245          9.17625E-4
             0.326531          0.00138159
             0.420918          0.00179672
             0.520408          0.00216142
@@ -15855,9 +15923,9 @@ DEFINE_CURVE_2204112
 DEFINE_CURVE_2204113
    2204113         0        1.        1.        0.        0.         0          
                   0.                  0.
-           0.0792495         0.000108031
-            0.164326         0.000427107
-             0.25523         0.000920045
+           0.0792495          1.08031E-4
+            0.164326          4.27107E-4
+             0.25523          9.20045E-4
             0.351961          0.00138095
             0.454519          0.00179092
             0.562904           0.0021491
@@ -15894,9 +15962,9 @@ DEFINE_CURVE_2204113
 DEFINE_CURVE_2204114
    2204114         0        1.        1.        0.        0.         0          
                   0.                  0.
-           0.0679536         0.000102433
-            0.140235          0.00040848
-            0.216846         0.000886646
+           0.0679536          1.02433E-4
+            0.140235           4.0848E-4
+            0.216846          8.86646E-4
             0.297784          0.00133986
             0.383051          0.00174819
             0.472645          0.00210931
@@ -15934,8 +16002,8 @@ DEFINE_CURVE_2204115
    2204115         0        1.        1.        0.        0.         0          
                   0.                  0.
            0.0899227          9.54687E-5
-            0.187277         0.000374489
-            0.292063          0.00080121
+            0.187277          3.74489E-4
+            0.292063           8.0121E-4
             0.404281           0.0011954
              0.52393          0.00154209
             0.651011          0.00184179
@@ -15972,9 +16040,9 @@ DEFINE_CURVE_2204115
 DEFINE_CURVE_2204116
    2204116         0        1.        1.        0.        0.         0          
                   0.                  0.
-           0.0670433         0.000102515
-            0.138303         0.000409098
-             0.21378         0.000888548
+           0.0670433          1.02515E-4
+            0.138303          4.09098E-4
+             0.21378          8.88548E-4
             0.293473          0.00134349
             0.377382          0.00175383
             0.465509          0.00211709
@@ -16012,8 +16080,8 @@ DEFINE_CURVE_2204117
    2204117         0        1.        1.        0.        0.         0          
                   0.                  0.
            0.0928395          8.59369E-5
-             0.19358         0.000336392
-            0.302222         0.000718404
+             0.19358          3.36392E-4
+            0.302222          7.18404E-4
             0.418765          0.00107017
              0.54321          0.00137864
             0.675556          0.00164456
@@ -16051,7 +16119,7 @@ DEFINE_CURVE_2304072
    2304072         0        1.        1.        0.        0.         0          
                   0.                  0.
            0.0165278          4.33069E-5
-           0.0333244         0.000394107
+           0.0333244          3.94107E-4
            0.0503897          0.00142512
            0.0677237          0.00353223
            0.0853265          0.00710271
@@ -16094,7 +16162,7 @@ DEFINE_CURVE_2304073
    2304073         0        1.        1.        0.        0.         0          
                   0.                  0.
            0.0165278          4.33069E-5
-           0.0333244         0.000394107
+           0.0333244          3.94107E-4
            0.0503897          0.00142512
            0.0677237          0.00353223
            0.0853265          0.00710271
@@ -16137,7 +16205,7 @@ DEFINE_CURVE_2304074
    2304074         0        1.        1.        0.        0.         0          
                   0.                  0.
            0.0165278          4.33069E-5
-           0.0333244         0.000394107
+           0.0333244          3.94107E-4
            0.0503897          0.00142512
            0.0677237          0.00353223
            0.0853265          0.00710271
@@ -16180,7 +16248,7 @@ DEFINE_CURVE_2304075
    2304075         0        1.        1.        0.        0.         0          
                   0.                  0.
            0.0165278          4.33069E-5
-           0.0333244         0.000394107
+           0.0333244          3.94107E-4
            0.0503897          0.00142512
            0.0677237          0.00353223
            0.0853265          0.00710271
@@ -16223,7 +16291,7 @@ DEFINE_CURVE_2304076
    2304076         0        1.        1.        0.        0.         0          
                   0.                  0.
            0.0165278          4.33069E-5
-           0.0333244         0.000394107
+           0.0333244          3.94107E-4
            0.0503897          0.00142512
            0.0677237          0.00353223
            0.0853265          0.00710271
@@ -16266,7 +16334,7 @@ DEFINE_CURVE_2304077
    2304077         0        1.        1.        0.        0.         0          
                   0.                  0.
            0.0165278          4.33069E-5
-           0.0333244         0.000394107
+           0.0333244          3.94107E-4
            0.0503897          0.00142512
            0.0677237          0.00353223
            0.0853265          0.00710271
@@ -16312,12 +16380,12 @@ DEFINE_CURVE_2304092
            0.0907372          1.26555E-5
             0.138941          3.82874E-5
             0.189036           8.3151E-5
-            0.241021         0.000150674
-            0.294896         0.000243581
-            0.350662         0.000364065
-            0.408318         0.000513904
-            0.467864         0.000694548
-            0.529301         0.000907183
+            0.241021          1.50674E-4
+            0.294896          2.43581E-4
+            0.350662          3.64065E-4
+            0.408318          5.13904E-4
+            0.467864          6.94548E-4
+            0.529301          9.07183E-4
             0.592628          0.00115278
             0.657845          0.00143214
             0.724953          0.00174592
@@ -16354,12 +16422,12 @@ DEFINE_CURVE_2304093
            0.0644531          1.29468E-5
            0.0981445          3.95716E-5
             0.132813          8.67663E-5
-            0.168457         0.000158641
-            0.205078         0.000258631
-            0.242676         0.000389635
-             0.28125         0.000554123
-            0.320801         0.000754207
-            0.361328         0.000991703
+            0.168457          1.58641E-4
+            0.205078          2.58631E-4
+            0.242676          3.89635E-4
+             0.28125          5.54123E-4
+            0.320801          7.54207E-4
+            0.361328          9.91703E-4
             0.402832          0.00126818
             0.445313          0.00158498
              0.48877          0.00194329
@@ -16396,12 +16464,12 @@ DEFINE_CURVE_2304094
             0.110498          1.38137E-5
              0.16988           4.1492E-5
             0.232018          8.95167E-5
-            0.296912         0.000161222
-            0.364561         0.000259166
-            0.434965         0.000385333
-            0.508125         0.000541278
-            0.584041         0.000728221
-            0.662712         0.000947123
+            0.296912          1.61222E-4
+            0.364561          2.59166E-4
+            0.434965          3.85333E-4
+            0.508125          5.41278E-4
+            0.584041          7.28221E-4
+            0.662712          9.47123E-4
             0.744139          0.00119874
             0.828322          0.00148367
              0.91526          0.00180237
@@ -16438,12 +16506,12 @@ DEFINE_CURVE_2304095
             0.106393          1.23203E-5
             0.163435          3.70605E-5
             0.223041          8.00628E-5
-            0.285211         0.000144372
-            0.349944         0.000232342
-            0.417241         0.000345812
-            0.487101         0.000486233
-            0.559526         0.000654753
-            0.634514         0.000852286
+            0.285211          1.44372E-4
+            0.349944          2.32342E-4
+            0.417241          3.45812E-4
+            0.487101          4.86233E-4
+            0.559526          6.54753E-4
+            0.634514          8.52286E-4
             0.712065          0.00107955
             0.792181          0.00133713
              0.87486          0.00162547
@@ -16480,13 +16548,13 @@ DEFINE_CURVE_2304096
             0.174298          1.14589E-5
             0.271202          3.37127E-5
              0.37461          7.13957E-5
-            0.484521         0.000126454
-            0.600937          0.00020022
-            0.723855         0.000293618
-            0.853278         0.000407285
-            0.989204         0.000541656
-             1.13163         0.000697021
-             1.28057         0.000873565
+            0.484521          1.26454E-4
+            0.600937           2.0022E-4
+            0.723855          2.93618E-4
+            0.853278          4.07285E-4
+            0.989204          5.41656E-4
+             1.13163          6.97021E-4
+             1.28057          8.73565E-4
                1.436          0.00107139
              1.59794          0.00129056
              1.76639          0.00152431
@@ -16521,12 +16589,12 @@ DEFINE_CURVE_2304097
            0.0596513          2.62214E-6
             0.122663            1.764E-5
             0.189036          5.27613E-5
-            0.258769         0.000113392
-            0.331863         0.000203506
-            0.408318         0.000326084
-            0.488133         0.000483393
-            0.571309         0.000677164
-            0.657845         0.000908729
+            0.258769          1.13392E-4
+            0.331863          2.03506E-4
+            0.408318          3.26084E-4
+            0.488133          4.83393E-4
+            0.571309          6.77164E-4
+            0.657845          9.08729E-4
             0.747742          0.00117911
                0.841          0.00148908
             0.937618          0.00183925
@@ -16564,11 +16632,11 @@ DEFINE_CURVE_2404070
             0.115594          1.80872E-5
             0.177895          3.72033E-5
             0.243198          6.98856E-5
-            0.311503         0.000126107
-            0.382811         0.000223206
-            0.457121          0.00039136
-            0.534434         0.000670391
-            0.614749         0.000963902
+            0.311503          1.26107E-4
+            0.382811          2.23206E-4
+            0.457121           3.9136E-4
+            0.534434          6.70391E-4
+            0.614749          9.63902E-4
             0.698067          0.00123663
             0.784387          0.00149072
              0.87371            0.001728
@@ -16615,10 +16683,10 @@ DEFINE_CURVE_2404072
    2404072         0        1.        1.        0.        0.         0          
                   0.                  0.
            0.0248925           2.3194E-5
-           0.0503897          0.00010172
-           0.0764915         0.000239297
-            0.103198         0.000436363
-            0.130509         0.000692209
+           0.0503897           1.0172E-4
+           0.0764915          2.39297E-4
+            0.103198          4.36363E-4
+            0.130509          6.92209E-4
             0.158425          0.00100303
             0.186946          0.00133429
             0.216071          0.00165193
@@ -16645,10 +16713,10 @@ DEFINE_CURVE_2404073
    2404073         0        1.        1.        0.        0.         0          
                   0.                  0.
            0.0248925           2.3194E-5
-           0.0503897          0.00010172
-           0.0764915         0.000239297
-            0.103198         0.000436363
-            0.130509         0.000692209
+           0.0503897           1.0172E-4
+           0.0764915          2.39297E-4
+            0.103198          4.36363E-4
+            0.130509          6.92209E-4
             0.158425          0.00100303
             0.186946          0.00133429
             0.216071          0.00165193
@@ -16675,10 +16743,10 @@ DEFINE_CURVE_2404074
    2404074         0        1.        1.        0.        0.         0          
                   0.                  0.
            0.0248925           2.3194E-5
-           0.0503897          0.00010172
-           0.0764915         0.000239297
-            0.103198         0.000436363
-            0.130509         0.000692209
+           0.0503897           1.0172E-4
+           0.0764915          2.39297E-4
+            0.103198          4.36363E-4
+            0.130509          6.92209E-4
             0.158425          0.00100303
             0.186946          0.00133429
             0.216071          0.00165193
@@ -16705,10 +16773,10 @@ DEFINE_CURVE_2404075
    2404075         0        1.        1.        0.        0.         0          
                   0.                  0.
            0.0248925           2.3194E-5
-           0.0503897          0.00010172
-           0.0764915         0.000239297
-            0.103198         0.000436363
-            0.130509         0.000692209
+           0.0503897           1.0172E-4
+           0.0764915          2.39297E-4
+            0.103198          4.36363E-4
+            0.130509          6.92209E-4
             0.158425          0.00100303
             0.186946          0.00133429
             0.216071          0.00165193
@@ -16735,10 +16803,10 @@ DEFINE_CURVE_2404076
    2404076         0        1.        1.        0.        0.         0          
                   0.                  0.
            0.0248925           2.3194E-5
-           0.0503897          0.00010172
-           0.0764915         0.000239297
-            0.103198         0.000436363
-            0.130509         0.000692209
+           0.0503897           1.0172E-4
+           0.0764915          2.39297E-4
+            0.103198          4.36363E-4
+            0.130509          6.92209E-4
             0.158425          0.00100303
             0.186946          0.00133429
             0.216071          0.00165193
@@ -16765,10 +16833,10 @@ DEFINE_CURVE_2404077
    2404077         0        1.        1.        0.        0.         0          
                   0.                  0.
            0.0248925           2.3194E-5
-           0.0503897          0.00010172
-           0.0764915         0.000239297
-            0.103198         0.000436363
-            0.130509         0.000692209
+           0.0503897           1.0172E-4
+           0.0764915          2.39297E-4
+            0.103198          4.36363E-4
+            0.130509          6.92209E-4
             0.158425          0.00100303
             0.186946          0.00133429
             0.216071          0.00165193
@@ -16795,8 +16863,8 @@ DEFINE_CURVE_2404082
    2404082         0        1.        1.        0.        0.         0          
                   0.                  0.
            0.0248925          7.38159E-5
-           0.0503897         0.000323731
-           0.0764915         0.000759887
+           0.0503897          3.23731E-4
+           0.0764915          7.59887E-4
             0.103198          0.00126468
             0.130509          0.00171469
             0.158425          0.00205021
@@ -16822,8 +16890,8 @@ DEFINE_CURVE_2404083
    2404083         0        1.        1.        0.        0.         0          
                   0.                  0.
            0.0248925          7.38159E-5
-           0.0503897         0.000323731
-           0.0764915         0.000759887
+           0.0503897          3.23731E-4
+           0.0764915          7.59887E-4
             0.103198          0.00126468
             0.130509          0.00171469
             0.158425          0.00205021
@@ -16849,8 +16917,8 @@ DEFINE_CURVE_2404084
    2404084         0        1.        1.        0.        0.         0          
                   0.                  0.
            0.0248925          7.38159E-5
-           0.0503897         0.000323731
-           0.0764915         0.000759887
+           0.0503897          3.23731E-4
+           0.0764915          7.59887E-4
             0.103198          0.00126468
             0.130509          0.00171469
             0.158425          0.00205021
@@ -16876,8 +16944,8 @@ DEFINE_CURVE_2404085
    2404085         0        1.        1.        0.        0.         0          
                   0.                  0.
            0.0248925          7.38159E-5
-           0.0503897         0.000323731
-           0.0764915         0.000759887
+           0.0503897          3.23731E-4
+           0.0764915          7.59887E-4
             0.103198          0.00126468
             0.130509          0.00171469
             0.158425          0.00205021
@@ -16903,8 +16971,8 @@ DEFINE_CURVE_2404086
    2404086         0        1.        1.        0.        0.         0          
                   0.                  0.
            0.0248925          7.38159E-5
-           0.0503897         0.000323731
-           0.0764915         0.000759887
+           0.0503897          3.23731E-4
+           0.0764915          7.59887E-4
             0.103198          0.00126468
             0.130509          0.00171469
             0.158425          0.00205021
@@ -16930,8 +16998,8 @@ DEFINE_CURVE_2404087
    2404087         0        1.        1.        0.        0.         0          
                   0.                  0.
            0.0248925          7.38159E-5
-           0.0503897         0.000323731
-           0.0764915         0.000759887
+           0.0503897          3.23731E-4
+           0.0764915          7.59887E-4
             0.103198          0.00126468
             0.130509          0.00171469
             0.158425          0.00205021
@@ -16962,50 +17030,50 @@ DEFINE_CURVE_2404090
             0.146103          1.50746E-5
              0.18555          3.16985E-5
             0.226167          6.57303E-5
-            0.267952         0.000133767
-            0.310907         0.000213712
-             0.35503         0.000289476
-            0.400321          0.00036138
-            0.446782          0.00041705
-            0.494412         0.000433008
-             0.54321          0.00043944
-            0.593177         0.000440784
-            0.644313         0.000439185
-            0.696618           0.0004358
-            0.750091         0.000431299
-            0.804734         0.000426097
-            0.860545         0.000420459
-            0.917525         0.000414192
-            0.975674         0.000405949
-             1.03499         0.000398028
-             1.09548          0.00039041
-             1.15713         0.000383079
-             1.21996         0.000376017
-             1.28395         0.000369212
-             1.34911         0.000362648
-             1.41544         0.000356313
-             1.48294         0.000350196
-             1.55161         0.000344286
-             1.62145         0.000338572
-             1.69245         0.000333044
-             1.76463         0.000327694
-             1.83797         0.000322513
-             1.91248         0.000317493
-             1.98817         0.000312627
-             2.06502         0.000307908
-             2.14303          0.00030333
-             2.22222         0.000298886
-             2.30258         0.000294569
-              2.3841         0.000290376
-              2.4668         0.000286301
-             2.55066         0.000282338
-             2.63569         0.000278484
-             2.72189         0.000274733
-             2.80926         0.000271082
-              2.8978         0.000267527
-             2.98751         0.000264064
-             3.07838         0.000260689
-             3.17043           0.0002574
+            0.267952          1.33767E-4
+            0.310907          2.13712E-4
+             0.35503          2.89476E-4
+            0.400321           3.6138E-4
+            0.446782           4.1705E-4
+            0.494412          4.33008E-4
+             0.54321           4.3944E-4
+            0.593177          4.40784E-4
+            0.644313          4.39185E-4
+            0.696618            4.358E-4
+            0.750091          4.31299E-4
+            0.804734          4.26097E-4
+            0.860545          4.20459E-4
+            0.917525          4.14192E-4
+            0.975674          4.05949E-4
+             1.03499          3.98028E-4
+             1.09548           3.9041E-4
+             1.15713          3.83079E-4
+             1.21996          3.76017E-4
+             1.28395          3.69212E-4
+             1.34911          3.62648E-4
+             1.41544          3.56313E-4
+             1.48294          3.50196E-4
+             1.55161          3.44286E-4
+             1.62145          3.38572E-4
+             1.69245          3.33044E-4
+             1.76463          3.27694E-4
+             1.83797          3.22513E-4
+             1.91248          3.17493E-4
+             1.98817          3.12627E-4
+             2.06502          3.07908E-4
+             2.14303           3.0333E-4
+             2.22222          2.98886E-4
+             2.30258          2.94569E-4
+              2.3841          2.90376E-4
+              2.4668          2.86301E-4
+             2.55066          2.82338E-4
+             2.63569          2.78484E-4
+             2.72189          2.74733E-4
+             2.80926          2.71082E-4
+              2.8978          2.67527E-4
+             2.98751          2.64064E-4
+             3.07838          2.60689E-4
+             3.17043            2.574E-4
 *DEFINE_CURVE_TITLE
 DEFINE_CURVE_2404091
    2404091         0        1.        1.        0.        0.         0          
@@ -17075,20 +17143,20 @@ DEFINE_CURVE_2404092
             0.759216          4.72288E-5
             0.864839          6.74234E-5
             0.974716          9.28271E-5
-             1.08885         0.000124054
-             1.20723         0.000161897
-             1.32987         0.000199143
-             1.45676         0.000230957
-              1.5879         0.000251912
-              1.7233         0.000262051
-             1.86295         0.000262331
-             2.00685         0.000255275
-             2.15501          0.00024805
-             2.30742         0.000241223
-             2.46408         0.000234762
-               2.625         0.000228638
-             2.79017         0.000222825
-             2.95959           0.0002173
+             1.08885          1.24054E-4
+             1.20723          1.61897E-4
+             1.32987          1.99143E-4
+             1.45676          2.30957E-4
+              1.5879          2.51912E-4
+              1.7233          2.62051E-4
+             1.86295          2.62331E-4
+             2.00685          2.55275E-4
+             2.15501           2.4805E-4
+             2.30742          2.41223E-4
+             2.46408          2.34762E-4
+               2.625          2.28638E-4
+             2.79017          2.22825E-4
+             2.95959            2.173E-4
 *DEFINE_CURVE_TITLE
 DEFINE_CURVE_2404093
    2404093         0        1.        1.        0.        0.         0          
@@ -17103,21 +17171,21 @@ DEFINE_CURVE_2404093
             0.445313          3.50014E-5
             0.510864          5.27122E-5
             0.578613          7.58435E-5
-             0.64856         0.000105185
-            0.720703         0.000141529
-            0.795044         0.000185884
-            0.871582         0.000230019
-            0.950317         0.000268267
-             1.03125         0.000294158
-             1.11438         0.000307526
-             1.19971         0.000309307
-             1.28723         0.000302331
-             1.37695         0.000295016
-             1.46887         0.000288047
-             1.56299           0.0002814
-              1.6593         0.000275053
-             1.75781         0.000268985
-             1.85852          0.00026318
+             0.64856          1.05185E-4
+            0.720703          1.41529E-4
+            0.795044          1.85884E-4
+            0.871582          2.30019E-4
+            0.950317          2.68267E-4
+             1.03125          2.94158E-4
+             1.11438          3.07526E-4
+             1.19971          3.09307E-4
+             1.28723          3.02331E-4
+             1.37695          2.95016E-4
+             1.46887          2.88047E-4
+             1.56299            2.814E-4
+              1.6593          2.75053E-4
+             1.75781          2.68985E-4
+             1.85852           2.6318E-4
 *DEFINE_CURVE_TITLE
 DEFINE_CURVE_2404094
    2404094         0        1.        1.        0.        0.         0          
@@ -17133,20 +17201,20 @@ DEFINE_CURVE_2404094
             0.959762          4.86735E-5
               1.0974          6.91545E-5
              1.24124          9.47929E-5
-             1.39128         0.000126168
-             1.54752         0.000164038
-             1.70996         0.000201075
-              1.8786         0.000232442
-             2.05344         0.000252765
-             2.23448         0.000262194
-             2.42172         0.000261779
-             2.61517         0.000254102
-             2.81481         0.000246332
-             3.02065         0.000239022
-             3.23269         0.000232134
-             3.45093         0.000225631
-             3.67537         0.000219483
-             3.90601         0.000213662
+             1.39128          1.26168E-4
+             1.54752          1.64038E-4
+             1.70996          2.01075E-4
+              1.8786          2.32442E-4
+             2.05344          2.52765E-4
+             2.23448          2.62194E-4
+             2.42172          2.61779E-4
+             2.61517          2.54102E-4
+             2.81481          2.46332E-4
+             3.02065          2.39022E-4
+             3.23269          2.32134E-4
+             3.45093          2.25631E-4
+             3.67537          2.19483E-4
+             3.90601          2.13662E-4
 *DEFINE_CURVE_TITLE
 DEFINE_CURVE_2404095
    2404095         0        1.        1.        0.        0.         0          
@@ -17162,20 +17230,20 @@ DEFINE_CURVE_2404095
             0.917161          4.39108E-5
              1.04791          6.24457E-5
              1.18443          8.56697E-5
-             1.32671         0.000114115
-             1.47476         0.000148474
-             1.62859         0.000182118
-             1.78817         0.000210658
-             1.95353         0.000229209
-             2.12466         0.000237888
-             2.30155          0.00023763
-             2.48422         0.000230771
-             2.67265         0.000223813
-             2.86685         0.000217263
-             3.06682         0.000211084
-             3.27255         0.000205248
-             3.48406         0.000199726
-             3.70133         0.000194493
+             1.32671          1.14115E-4
+             1.47476          1.48474E-4
+             1.62859          1.82118E-4
+             1.78817          2.10658E-4
+             1.95353          2.29209E-4
+             2.12466          2.37888E-4
+             2.30155           2.3763E-4
+             2.48422          2.30771E-4
+             2.67265          2.23813E-4
+             2.86685          2.17263E-4
+             3.06682          2.11084E-4
+             3.27255          2.05248E-4
+             3.48406          1.99726E-4
+             3.70133          1.94493E-4
 *DEFINE_CURVE_TITLE
 DEFINE_CURVE_2404096
    2404096         0        1.        1.        0.        0.         0          
@@ -17192,19 +17260,19 @@ DEFINE_CURVE_2404096
              1.94134          4.87672E-5
              2.21595          6.61696E-5
               2.5052          8.72581E-5
-             2.80909         0.000112492
-              3.1276         0.000136822
-             3.46075         0.000157037
-             3.80853          0.00016964
-             4.17095         0.000174893
-               4.548         0.000173624
-             4.93968          0.00016764
-             5.34599         0.000161709
-             5.76694         0.000156184
-             6.20252         0.000151023
-             6.65274         0.000146193
-             7.11759         0.000141662
-             7.59707         0.000137404
+             2.80909          1.12492E-4
+              3.1276          1.36822E-4
+             3.46075          1.57037E-4
+             3.80853           1.6964E-4
+             4.17095          1.74893E-4
+               4.548          1.73624E-4
+             4.93968           1.6764E-4
+             5.34599          1.61709E-4
+             5.76694          1.56184E-4
+             6.20252          1.51023E-4
+             6.65274          1.46193E-4
+             7.11759          1.41662E-4
+             7.59707          1.37404E-4
 *DEFINE_CURVE_TITLE
 DEFINE_CURVE_2404097
    2404097         0        1.        1.        0.        0.         0          
@@ -17219,21 +17287,21 @@ DEFINE_CURVE_2404097
             0.937618          4.06163E-5
              1.08885          6.01681E-5
              1.24764          8.52659E-5
-             1.41399         0.000116603
-              1.5879         0.000154863
-             1.76938         0.000200947
-             1.95841         0.000245865
-             2.15501         0.000283737
-             2.35917         0.000308059
-             2.57089         0.000319082
-             2.79017          0.00031814
-             3.01701         0.000308415
-             3.25142         0.000298624
-             3.49338         0.000289436
-             3.74291         0.000280796
-                  4.         0.000272657
-             4.26465         0.000264976
-             4.53686         0.000257717
+             1.41399          1.16603E-4
+              1.5879          1.54863E-4
+             1.76938          2.00947E-4
+             1.95841          2.45865E-4
+             2.15501          2.83737E-4
+             2.35917          3.08059E-4
+             2.57089          3.19082E-4
+             2.79017           3.1814E-4
+             3.01701          3.08415E-4
+             3.25142          2.98624E-4
+             3.49338          2.89436E-4
+             3.74291          2.80796E-4
+                  4.          2.72657E-4
+             4.26465          2.64976E-4
+             4.53686          2.57717E-4
 *DEFINE_CURVE_TITLE
 DEFINE_CURVE_2404102
    2404102         0        1.        1.        0.        0.         0          
@@ -17245,33 +17313,33 @@ DEFINE_CURVE_2404102
              0.15543          4.79445E-5
             0.189036          6.79521E-5
             0.223482          9.09602E-5
-            0.258769         0.000116787
-            0.294896         0.000145264
-            0.331863         0.000176234
-             0.36967         0.000207799
-            0.408318         0.000238103
-            0.447805         0.000263724
-            0.488133         0.000284695
-            0.529301          0.00030075
-            0.571309         0.000312465
-            0.614157         0.000320374
-            0.657845         0.000324967
-            0.702373           0.0003267
-            0.747742         0.000325995
-            0.793951         0.000323243
-               0.841         0.000318808
-            0.888889         0.000313028
-            0.937618         0.000313916
-            0.987188          0.00030864
-              1.0376         0.000303538
-             1.08885         0.000298603
-             1.14094         0.000293825
-             1.19387         0.000289198
-             1.24764         0.000284714
-             1.30225         0.000280367
-              1.3577         0.000276151
-             1.41399          0.00027206
-             1.66762         0.000255648
+            0.258769          1.16787E-4
+            0.294896          1.45264E-4
+            0.331863          1.76234E-4
+             0.36967          2.07799E-4
+            0.408318          2.38103E-4
+            0.447805          2.63724E-4
+            0.488133          2.84695E-4
+            0.529301           3.0075E-4
+            0.571309          3.12465E-4
+            0.614157          3.20374E-4
+            0.657845          3.24967E-4
+            0.702373            3.267E-4
+            0.747742          3.25995E-4
+            0.793951          3.23243E-4
+               0.841          3.18808E-4
+            0.888889          3.13028E-4
+            0.937618          3.13916E-4
+            0.987188           3.0864E-4
+              1.0376          3.03538E-4
+             1.08885          2.98603E-4
+             1.14094          2.93825E-4
+             1.19387          2.89198E-4
+             1.24764          2.84714E-4
+             1.30225          2.80367E-4
+              1.3577          2.76151E-4
+             1.41399           2.7206E-4
+             1.66762          2.55648E-4
 *DEFINE_CURVE_TITLE
 DEFINE_CURVE_2404103
    2404103         0        1.        1.        0.        0.         0          
@@ -17282,34 +17350,34 @@ DEFINE_CURVE_2404103
             0.128284           3.6315E-5
             0.162642          5.58715E-5
             0.197914          7.91135E-5
-            0.234101         0.000105807
-            0.271202         0.000135735
-            0.309218         0.000168697
-            0.348148         0.000204506
-            0.387993         0.000240959
-            0.428753         0.000275906
-            0.470427          0.00030539
-            0.513015         0.000329464
-            0.556519         0.000347829
-            0.600937         0.000361165
-            0.646269         0.000370096
-            0.692516         0.000375198
-            0.739678         0.000377001
-            0.787754         0.000375998
-            0.836744         0.000372642
-             0.88665         0.000367357
-             0.93747         0.000360533
-            0.989204         0.000361398
-             1.04185         0.000355174
-             1.09542         0.000349161
-             1.14989         0.000343348
-             1.20529         0.000337725
-             1.26159         0.000332284
-             1.31882         0.000327015
-             1.37695         0.000321911
-               1.436         0.000316964
-             1.49597         0.000312166
-             1.76639         0.000292951
+            0.234101          1.05807E-4
+            0.271202          1.35735E-4
+            0.309218          1.68697E-4
+            0.348148          2.04506E-4
+            0.387993          2.40959E-4
+            0.428753          2.75906E-4
+            0.470427           3.0539E-4
+            0.513015          3.29464E-4
+            0.556519          3.47829E-4
+            0.600937          3.61165E-4
+            0.646269          3.70096E-4
+            0.692516          3.75198E-4
+            0.739678          3.77001E-4
+            0.787754          3.75998E-4
+            0.836744          3.72642E-4
+             0.88665          3.67357E-4
+             0.93747          3.60533E-4
+            0.989204          3.61398E-4
+             1.04185          3.55174E-4
+             1.09542          3.49161E-4
+             1.14989          3.43348E-4
+             1.20529          3.37725E-4
+             1.26159          3.32284E-4
+             1.31882          3.27015E-4
+             1.37695          3.21911E-4
+               1.436          3.16964E-4
+             1.49597          3.12166E-4
+             1.76639          2.92951E-4
 *DEFINE_CURVE_TITLE
 DEFINE_CURVE_2404104
    2404104         0        1.        1.        0.        0.         0          
@@ -17320,34 +17388,34 @@ DEFINE_CURVE_2404104
             0.210066          3.71003E-5
             0.268325          5.63535E-5
              0.32888          7.88441E-5
-            0.391731         0.000104265
-            0.456879         0.000132346
-            0.524324         0.000162849
-            0.594065         0.000195562
-            0.666104         0.000228372
-            0.740438         0.000259291
-             0.81707         0.000284705
-            0.895998         0.000304815
-            0.977222         0.000319481
-             1.06074         0.000329446
-             1.14656         0.000335376
-             1.23468         0.000337867
-             1.32509         0.000337457
-              1.4178         0.000334629
-              1.5128         0.000329822
-              1.6101         0.000323432
-              1.7097         0.000315821
-             1.81159         0.000315043
-             1.91578         0.000308174
-             2.02227         0.000301599
-             2.13106         0.000295298
-             2.24214         0.000289255
-             2.35552         0.000283455
-             2.47119         0.000277882
-             2.58916         0.000272524
-             2.70943         0.000267369
-             2.83199         0.000262406
-             3.38964         0.000242868
+            0.391731          1.04265E-4
+            0.456879          1.32346E-4
+            0.524324          1.62849E-4
+            0.594065          1.95562E-4
+            0.666104          2.28372E-4
+            0.740438          2.59291E-4
+             0.81707          2.84705E-4
+            0.895998          3.04815E-4
+            0.977222          3.19481E-4
+             1.06074          3.29446E-4
+             1.14656          3.35376E-4
+             1.23468          3.37867E-4
+             1.32509          3.37457E-4
+              1.4178          3.34629E-4
+              1.5128          3.29822E-4
+              1.6101          3.23432E-4
+              1.7097          3.15821E-4
+             1.81159          3.15043E-4
+             1.91578          3.08174E-4
+             2.02227          3.01599E-4
+             2.13106          2.95298E-4
+             2.24214          2.89255E-4
+             2.35552          2.83455E-4
+             2.47119          2.77882E-4
+             2.58916          2.72524E-4
+             2.70943          2.67369E-4
+             2.83199          2.62406E-4
+             3.38964          2.42868E-4
 *DEFINE_CURVE_TITLE
 DEFINE_CURVE_2404105
    2404105         0        1.        1.        0.        0.         0          
@@ -17360,32 +17428,32 @@ DEFINE_CURVE_2404105
             0.406065          5.40756E-5
             0.485392          7.11243E-5
             0.568047          8.98279E-5
-            0.654031         0.000110017
-            0.743343         0.000131546
-            0.835984         0.000152995
-            0.931953         0.000173052
-             1.03125          0.00018934
-             1.13388         0.000202039
-             1.23983         0.000211096
-             1.34911         0.000217037
-             1.46172         0.000220327
-             1.57766         0.000221378
-             1.69693         0.000220556
-             1.81953         0.000218188
-             1.94545         0.000214569
-              2.0747          0.00020996
-             2.20729         0.000204601
-              2.3432         0.000203699
-             2.48243         0.000198887
-               2.625         0.000194297
-             2.77089         0.000189915
-             2.92012         0.000185726
-             3.07267         0.000181717
-             3.22855         0.000177878
-             3.38776         0.000174198
-              3.5503         0.000170667
-             3.71616         0.000167276
-             4.47337         0.000154016
+            0.654031          1.10017E-4
+            0.743343          1.31546E-4
+            0.835984          1.52995E-4
+            0.931953          1.73052E-4
+             1.03125           1.8934E-4
+             1.13388          2.02039E-4
+             1.23983          2.11096E-4
+             1.34911          2.17037E-4
+             1.46172          2.20327E-4
+             1.57766          2.21378E-4
+             1.69693          2.20556E-4
+             1.81953          2.18188E-4
+             1.94545          2.14569E-4
+              2.0747           2.0996E-4
+             2.20729          2.04601E-4
+              2.3432          2.03699E-4
+             2.48243          1.98887E-4
+               2.625          1.94297E-4
+             2.77089          1.89915E-4
+             2.92012          1.85726E-4
+             3.07267          1.81717E-4
+             3.22855          1.77878E-4
+             3.38776          1.74198E-4
+              3.5503          1.70667E-4
+             3.71616          1.67276E-4
+             4.47337          1.54016E-4
 *DEFINE_CURVE_TITLE
 DEFINE_CURVE_2404106
    2404106         0        1.        1.        0.        0.         0          
@@ -17397,33 +17465,33 @@ DEFINE_CURVE_2404106
             0.409681          4.59427E-5
              0.50622          6.34799E-5
             0.607626          8.29904E-5
-            0.713899         0.000104236
-            0.825041         0.000127015
-            0.941049         0.000151159
-             1.06193         0.000175045
-             1.18767         0.000197196
-             1.31828          0.00021495
-             1.45376         0.000228566
-              1.5941         0.000238033
-             1.73932         0.000243983
-              1.8894          0.00024697
-             2.04435         0.000247477
-             2.20416          0.00024593
-             2.36885         0.000242705
-              2.5384         0.000238136
-             2.71282          0.00023252
-              2.8921         0.000226121
-             3.07626         0.000224688
-             3.26528         0.000218975
-             3.45917         0.000213546
-             3.65792          0.00020838
-             3.86155         0.000203457
-             4.07004         0.000198762
-              4.2834         0.000194279
-             4.50162         0.000189993
-             4.72472         0.000185893
-             4.95268         0.000181965
-             5.99676         0.000166704
+            0.713899          1.04236E-4
+            0.825041          1.27015E-4
+            0.941049          1.51159E-4
+             1.06193          1.75045E-4
+             1.18767          1.97196E-4
+             1.31828           2.1495E-4
+             1.45376          2.28566E-4
+              1.5941          2.38033E-4
+             1.73932          2.43983E-4
+              1.8894           2.4697E-4
+             2.04435          2.47477E-4
+             2.20416           2.4593E-4
+             2.36885          2.42705E-4
+              2.5384          2.38136E-4
+             2.71282           2.3252E-4
+              2.8921          2.26121E-4
+             3.07626          2.24688E-4
+             3.26528          2.18975E-4
+             3.45917          2.13546E-4
+             3.65792           2.0838E-4
+             3.86155          2.03457E-4
+             4.07004          1.98762E-4
+              4.2834          1.94279E-4
+             4.50162          1.89993E-4
+             4.72472          1.85893E-4
+             4.95268          1.81965E-4
+             5.99676          1.66704E-4
 *DEFINE_CURVE_TITLE
 DEFINE_CURVE_2404107
    2404107         0        1.        1.        0.        0.         0          
@@ -17436,32 +17504,32 @@ DEFINE_CURVE_2404107
             0.415225          5.81087E-5
              0.49654          7.63834E-5
             0.581315          9.64171E-5
-             0.66955         0.000118028
-            0.761246         0.000141058
-            0.856401         0.000163986
-            0.955017         0.000185409
-             1.05709         0.000202783
-             1.16263         0.000216307
-             1.27163         0.000225929
-             1.38408         0.000232215
-                 1.5         0.000235666
-             1.61938         0.000236724
-             1.74221         0.000235783
-             1.86851         0.000233194
-             1.99827         0.000229271
-             2.13149         0.000224297
-             2.26817         0.000218525
-              2.4083         0.000217518
-              2.5519         0.000212339
-             2.69896         0.000207401
-             2.84948         0.000202688
-             3.00346         0.000198183
-              3.1609         0.000193875
-              3.3218          0.00018975
-             3.48616         0.000185797
-             3.65398         0.000182005
-             3.82526         0.000178365
-             4.60746          0.00016414
+             0.66955          1.18028E-4
+            0.761246          1.41058E-4
+            0.856401          1.63986E-4
+            0.955017          1.85409E-4
+             1.05709          2.02783E-4
+             1.16263          2.16307E-4
+             1.27163          2.25929E-4
+             1.38408          2.32215E-4
+                 1.5          2.35666E-4
+             1.61938          2.36724E-4
+             1.74221          2.35783E-4
+             1.86851          2.33194E-4
+             1.99827          2.29271E-4
+             2.13149          2.24297E-4
+             2.26817          2.18525E-4
+              2.4083          2.17518E-4
+              2.5519          2.12339E-4
+             2.69896          2.07401E-4
+             2.84948          2.02688E-4
+             3.00346          1.98183E-4
+              3.1609          1.93875E-4
+              3.3218           1.8975E-4
+             3.48616          1.85797E-4
+             3.65398          1.82005E-4
+             3.82526          1.78365E-4
+             4.60746           1.6414E-4
 *DEFINE_CURVE_TITLE
 DEFINE_CURVE_2404110
    2404110         0        1.        1.        0.        0.         0          
@@ -17469,53 +17537,53 @@ DEFINE_CURVE_2404110
            0.0700948          9.40351E-7
             0.144786          5.70439E-6
             0.224074          3.01793E-5
-            0.307957         0.000128636
-            0.396438         0.000239748
-            0.489515         0.000340151
-            0.587188         0.000431321
-            0.689457         0.000514477
-            0.796323         0.000555637
-            0.907785         0.000570191
-             1.02384         0.000574771
-              1.1445         0.000571517
-             1.26975         0.000550922
-              1.3996         0.000531759
-             1.53404         0.000513885
-             1.67308         0.000497173
-             1.81672         0.000481514
-             1.96495         0.000466811
-             2.11778          0.00045298
-             2.27521         0.000439945
-             2.43723         0.000427638
-             2.60385         0.000416002
-             2.77506         0.000404982
-             2.95088         0.000394531
-             3.13128         0.000384606
-             3.31629         0.000375167
-             3.50589         0.000366181
-             3.70009         0.000357616
-             3.89888         0.000349442
-             4.10227         0.000341633
-             4.31026         0.000334166
-             4.52284         0.000327018
-             4.74002         0.000320169
-             4.96179         0.000313601
-             5.18816         0.000307298
-             5.41913         0.000301243
-              5.6547         0.000295422
-             5.89486         0.000289821
-             6.13962         0.000284429
-             6.38897         0.000279234
-             6.64292         0.000274226
-             6.90147         0.000269393
-             7.16461         0.000264729
-             7.43235         0.000260222
-             7.70468         0.000255867
-             7.98161         0.000251656
-             8.26314          0.00024758
-             8.54927         0.000243635
-             8.83999         0.000239813
-             9.13531         0.000236109
+            0.307957          1.28636E-4
+            0.396438          2.39748E-4
+            0.489515          3.40151E-4
+            0.587188          4.31321E-4
+            0.689457          5.14477E-4
+            0.796323          5.55637E-4
+            0.907785          5.70191E-4
+             1.02384          5.74771E-4
+              1.1445          5.71517E-4
+             1.26975          5.50922E-4
+              1.3996          5.31759E-4
+             1.53404          5.13885E-4
+             1.67308          4.97173E-4
+             1.81672          4.81514E-4
+             1.96495          4.66811E-4
+             2.11778           4.5298E-4
+             2.27521          4.39945E-4
+             2.43723          4.27638E-4
+             2.60385          4.16002E-4
+             2.77506          4.04982E-4
+             2.95088          3.94531E-4
+             3.13128          3.84606E-4
+             3.31629          3.75167E-4
+             3.50589          3.66181E-4
+             3.70009          3.57616E-4
+             3.89888          3.49442E-4
+             4.10227          3.41633E-4
+             4.31026          3.34166E-4
+             4.52284          3.27018E-4
+             4.74002          3.20169E-4
+             4.96179          3.13601E-4
+             5.18816          3.07298E-4
+             5.41913          3.01243E-4
+              5.6547          2.95422E-4
+             5.89486          2.89821E-4
+             6.13962          2.84429E-4
+             6.38897          2.79234E-4
+             6.64292          2.74226E-4
+             6.90147          2.69393E-4
+             7.16461          2.64729E-4
+             7.43235          2.60222E-4
+             7.70468          2.55867E-4
+             7.98161          2.51656E-4
+             8.26314           2.4758E-4
+             8.54927          2.43635E-4
+             8.83999          2.39813E-4
+             9.13531          2.36109E-4
 *DEFINE_CURVE_TITLE
 DEFINE_CURVE_2404111
    2404111         0        1.        1.        0.        0.         0          
@@ -17530,46 +17598,46 @@ DEFINE_CURVE_2404111
             0.991736          6.71543E-6
              1.15289          3.05994E-5
              1.32231          8.82294E-5
-                 1.5         0.000141939
-             1.68595         0.000190978
-             1.88017         0.000225167
-             2.08264          0.00023247
-             2.29339         0.000233105
-              2.5124         0.000230688
-             2.73967         0.000226763
-             2.97521         0.000222085
-             3.21901         0.000217054
-             3.47107         0.000211854
-              3.7314         0.000205233
-                  4.         0.000199014
-             4.27686         0.000193161
-             4.56198         0.000187642
-             4.85537         0.000182429
-             5.15702         0.000177499
-             5.46694         0.000172828
-             5.78512         0.000168396
-             6.11157         0.000164187
-             6.44628         0.000160182
-             6.78926         0.000156368
-              7.1405         0.000152732
-                 7.5          0.00014926
-             7.86777         0.000145944
-              8.2438         0.000142771
-              8.6281         0.000139733
-             9.02066         0.000136822
-             9.42149          0.00013403
-             9.83058         0.000131349
-             10.2479         0.000128774
-             10.6736         0.000126297
-             11.1074         0.000123914
-             11.5496          0.00012162
-                 12.         0.000119408
-             12.4587         0.000117276
-             12.9256         0.000115219
-             13.4008         0.000113232
-             13.8843         0.000111313
-              14.376         0.000109458
-              14.876         0.000107663
+                 1.5          1.41939E-4
+             1.68595          1.90978E-4
+             1.88017          2.25167E-4
+             2.08264           2.3247E-4
+             2.29339          2.33105E-4
+              2.5124          2.30688E-4
+             2.73967          2.26763E-4
+             2.97521          2.22085E-4
+             3.21901          2.17054E-4
+             3.47107          2.11854E-4
+              3.7314          2.05233E-4
+                  4.          1.99014E-4
+             4.27686          1.93161E-4
+             4.56198          1.87642E-4
+             4.85537          1.82429E-4
+             5.15702          1.77499E-4
+             5.46694          1.72828E-4
+             5.78512          1.68396E-4
+             6.11157          1.64187E-4
+             6.44628          1.60182E-4
+             6.78926          1.56368E-4
+              7.1405          1.52732E-4
+                 7.5           1.4926E-4
+             7.86777          1.45944E-4
+              8.2438          1.42771E-4
+              8.6281          1.39733E-4
+             9.02066          1.36822E-4
+             9.42149           1.3403E-4
+             9.83058          1.31349E-4
+             10.2479          1.28774E-4
+             10.6736          1.26297E-4
+             11.1074          1.23914E-4
+             11.5496           1.2162E-4
+                 12.          1.19408E-4
+             12.4587          1.17276E-4
+             12.9256          1.15219E-4
+             13.4008          1.13232E-4
+             13.8843          1.11313E-4
+              14.376          1.09458E-4
+              14.876          1.07663E-4
 *DEFINE_CURVE_TITLE
 DEFINE_CURVE_2404112
    2404112         0        1.        1.        0.        0.         0          
@@ -17578,25 +17646,25 @@ DEFINE_CURVE_2404112
             0.237245          1.91412E-5
             0.373087          4.26412E-5
             0.520408          7.39331E-5
-            0.679209         0.000110755
-             0.84949         0.000142712
-             1.03125         0.000168609
-             1.22449         0.000187462
-             1.42921         0.000200386
-             1.64541         0.000208266
-             1.87309         0.000211812
-             2.11224         0.000211602
-             2.36288          0.00020811
-               2.625         0.000201431
-              2.8986         0.000193153
-             3.18367         0.000185529
-             3.48023         0.000178483
-             3.78827         0.000171953
-             4.10778         0.000165885
-             4.43878         0.000160229
-             4.78125         0.000154947
-              5.1352         0.000150002
-             5.50064         0.000145363
+            0.679209          1.10755E-4
+             0.84949          1.42712E-4
+             1.03125          1.68609E-4
+             1.22449          1.87462E-4
+             1.42921          2.00386E-4
+             1.64541          2.08266E-4
+             1.87309          2.11812E-4
+             2.11224          2.11602E-4
+             2.36288           2.0811E-4
+               2.625          2.01431E-4
+              2.8986          1.93153E-4
+             3.18367          1.85529E-4
+             3.48023          1.78483E-4
+             3.78827          1.71953E-4
+             4.10778          1.65885E-4
+             4.43878          1.60229E-4
+             4.78125          1.54947E-4
+              5.1352          1.50002E-4
+             5.50064          1.45363E-4
 *DEFINE_CURVE_TITLE
 DEFINE_CURVE_2404113
    2404113         0        1.        1.        0.        0.         0          
@@ -17605,25 +17673,25 @@ DEFINE_CURVE_2404113
              0.25523          1.91916E-5
             0.402512          4.25608E-5
             0.562904          7.35116E-5
-            0.736408         0.000109762
-            0.923023         0.000141031
-             1.12275          0.00016621
-             1.33559         0.000184389
-             1.56153         0.000196716
-             1.80059         0.000204094
-             2.05276         0.000207242
-             2.31805         0.000206742
-             2.59644         0.000203067
-             2.88794         0.000196318
-             3.19256         0.000188047
-             3.51028         0.000180444
-             3.84112         0.000173432
-             4.18507         0.000166944
-             4.54213         0.000160925
-              4.9123         0.000155324
-             5.29558           0.0001501
-             5.69198         0.000145216
-             6.10148          0.00014064
+            0.736408          1.09762E-4
+            0.923023          1.41031E-4
+             1.12275           1.6621E-4
+             1.33559          1.84389E-4
+             1.56153          1.96716E-4
+             1.80059          2.04094E-4
+             2.05276          2.07242E-4
+             2.31805          2.06742E-4
+             2.59644          2.03067E-4
+             2.88794          1.96318E-4
+             3.19256          1.88047E-4
+             3.51028          1.80444E-4
+             3.84112          1.73432E-4
+             4.18507          1.66944E-4
+             4.54213          1.60925E-4
+              4.9123          1.55324E-4
+             5.29558            1.501E-4
+             5.69198          1.45216E-4
+             6.10148           1.4064E-4
 *DEFINE_CURVE_TITLE
 DEFINE_CURVE_2404114
    2404114         0        1.        1.        0.        0.         0          
@@ -17632,25 +17700,25 @@ DEFINE_CURVE_2404114
             0.216846          1.84949E-5
             0.339876          4.14231E-5
             0.472645          7.21506E-5
-            0.615153         0.000108513
-              0.7674         0.000140307
-            0.929385         0.000166273
-             1.10111         0.000185364
-             1.28257         0.000198621
-             1.47377         0.000206879
-             1.67471         0.000210813
-             1.88539         0.000210978
-              2.1058         0.000207833
-             2.33596         0.000201462
-             2.57585         0.000193446
-             2.82548         0.000186044
-             3.08486         0.000179187
-             3.35396         0.000172818
-             3.63281         0.000166886
-              3.9214         0.000161348
-             4.21972         0.000156166
-             4.52779         0.000151306
-             4.84559         0.000146739
+            0.615153          1.08513E-4
+              0.7674          1.40307E-4
+            0.929385          1.66273E-4
+             1.10111          1.85364E-4
+             1.28257          1.98621E-4
+             1.47377          2.06879E-4
+             1.67471          2.10813E-4
+             1.88539          2.10978E-4
+              2.1058          2.07833E-4
+             2.33596          2.01462E-4
+             2.57585          1.93446E-4
+             2.82548          1.86044E-4
+             3.08486          1.79187E-4
+             3.35396          1.72818E-4
+             3.63281          1.66886E-4
+              3.9214          1.61348E-4
+             4.21972          1.56166E-4
+             4.52779          1.51306E-4
+             4.84559          1.46739E-4
 *DEFINE_CURVE_TITLE
 DEFINE_CURVE_2404115
    2404115         0        1.        1.        0.        0.         0          
@@ -17660,24 +17728,24 @@ DEFINE_CURVE_2404115
             0.463176          3.67418E-5
             0.651011          6.30001E-5
             0.855566          9.34871E-5
-             1.07684         0.000119483
-             1.31484         0.000140165
-             1.56956         0.000154867
-               1.841         0.000164631
-             2.12916         0.000170262
-             2.43404         0.000172396
-             2.75565         0.000171539
-             3.09397         0.000168098
-             3.44902         0.000162167
-             3.82079         0.000155033
-             4.20927         0.000148501
-             4.61448         0.000142497
-             5.03641          0.00013696
-             5.47507         0.000131836
-             5.93044         0.000127083
-             6.40253          0.00012266
-             6.89135         0.000118535
-             7.39689         0.000114678
+             1.07684          1.19483E-4
+             1.31484          1.40165E-4
+             1.56956          1.54867E-4
+               1.841          1.64631E-4
+             2.12916          1.70262E-4
+             2.43404          1.72396E-4
+             2.75565          1.71539E-4
+             3.09397          1.68098E-4
+             3.44902          1.62167E-4
+             3.82079          1.55033E-4
+             4.20927          1.48501E-4
+             4.61448          1.42497E-4
+             5.03641           1.3696E-4
+             5.47507          1.31836E-4
+             5.93044          1.27083E-4
+             6.40253           1.2266E-4
+             6.89135          1.18535E-4
+             7.39689          1.14678E-4
 *DEFINE_CURVE_TITLE
 DEFINE_CURVE_2404116
    2404116         0        1.        1.        0.        0.         0          
@@ -17686,25 +17754,25 @@ DEFINE_CURVE_2404116
              0.21378          1.85346E-5
               0.3349          4.15463E-5
             0.465509          7.24168E-5
-            0.605604         0.000108981
-            0.755186         0.000140988
-            0.914256          0.00016716
-             1.08281         0.000186432
-             1.26086         0.000199842
-             1.44839         0.000208222
-             1.64541         0.000212248
-             1.85191         0.000212475
-             2.06791         0.000209361
-             2.29339         0.000202991
-             2.52836         0.000194957
-             2.77281         0.000187535
-             3.02675         0.000180657
-             3.29018         0.000174266
-              3.5631         0.000168312
-             3.84551         0.000162751
-              4.1374         0.000157546
-             4.43878         0.000152663
-             4.74964         0.000148074
+            0.605604          1.08981E-4
+            0.755186          1.40988E-4
+            0.914256           1.6716E-4
+             1.08281          1.86432E-4
+             1.26086          1.99842E-4
+             1.44839          2.08222E-4
+             1.64541          2.12248E-4
+             1.85191          2.12475E-4
+             2.06791          2.09361E-4
+             2.29339          2.02991E-4
+             2.52836          1.94957E-4
+             2.77281          1.87535E-4
+             3.02675          1.80657E-4
+             3.29018          1.74266E-4
+              3.5631          1.68312E-4
+             3.84551          1.62751E-4
+              4.1374          1.57546E-4
+             4.43878          1.52663E-4
+             4.74964          1.48074E-4
 *DEFINE_CURVE_TITLE
 DEFINE_CURVE_2404117
    2404117         0        1.        1.        0.        0.         0          
@@ -17714,24 +17782,24 @@ DEFINE_CURVE_2404117
                 0.48          3.28693E-5
             0.675556          5.62534E-5
             0.888889          8.33429E-5
-                1.12         0.000106373
-             1.36889          0.00012464
-             1.63556         0.000137573
-                1.92         0.000146115
-             2.22222         0.000150993
-             2.54222         0.000152776
-                2.88         0.000151919
-             3.23556         0.000148786
-             3.60889         0.000143461
-                  4.         0.000137085
-             4.40889         0.000131252
-             4.83556         0.000125895
-                5.28         0.000120957
-             5.74222         0.000116393
-             6.22222         0.000112161
-                6.72         0.000108225
-             7.23556         0.000104556
-             7.76889         0.000101128
+                1.12          1.06373E-4
+             1.36889           1.2464E-4
+             1.63556          1.37573E-4
+                1.92          1.46115E-4
+             2.22222          1.50993E-4
+             2.54222          1.52776E-4
+                2.88          1.51919E-4
+             3.23556          1.48786E-4
+             3.60889          1.43461E-4
+                  4.          1.37085E-4
+             4.40889          1.31252E-4
+             4.83556          1.25895E-4
+                5.28          1.20957E-4
+             5.74222          1.16393E-4
+             6.22222          1.12161E-4
+                6.72          1.08225E-4
+             7.23556          1.04556E-4
+             7.76889          1.01128E-4
 *DEFINE_CURVE_TITLE
 DEFINE_CURVE_2404121
    2404121         0        1.        1.        0.        0.         0          
@@ -17740,10 +17808,10 @@ DEFINE_CURVE_2404121
            0.0985467          2.30078E-5
             0.151142          4.76134E-5
             0.205952          8.99409E-5
-            0.262976         0.000163131
-            0.322215         0.000290103
-            0.383668         0.000510881
-            0.447336         0.000878684
+            0.262976          1.63131E-4
+            0.322215          2.90103E-4
+            0.383668          5.10881E-4
+            0.447336          8.78684E-4
             0.513218          0.00126816
             0.581315          0.00163272
             0.651626          0.00197466
@@ -17795,8 +17863,8 @@ DEFINE_CURVE_2404122
            0.0568286          8.53677E-7
             0.076451          6.22288E-6
            0.0964132          4.52913E-5
-            0.116715         0.000294844
-            0.137357         0.000664677
+            0.116715          2.94844E-4
+            0.137357          6.64677E-4
             0.158338          0.00102263
              0.17966          0.00136926
             0.201321           0.0017051
@@ -17846,61 +17914,61 @@ DEFINE_CURVE_2404125
                   0.                  0.
            0.0360247           1.6082E-5
            0.0733025          8.94768E-5
-            0.111833         0.000286267
-            0.151617         0.000479537
-            0.192654         0.000661182
-            0.234944         0.000750491
-            0.278487         0.000785848
-            0.323283         0.000803893
-            0.369332         0.000811509
-            0.416634         0.000810525
-            0.465189         0.000789874
-            0.514997          0.00077025
-            0.566058         0.000751577
-            0.618373         0.000733788
-             0.67194         0.000716822
-             0.72676         0.000700623
-            0.782833          0.00068514
-             0.84016         0.000670326
-            0.898739         0.000656139
-            0.958572          0.00064254
-             1.01966         0.000629494
-               1.082         0.000616966
-             1.14559         0.000604928
-             1.21043         0.000593351
-             1.27653         0.000582208
-             1.34388         0.000571476
-             1.41248         0.000561132
-             1.48234         0.000551157
-             1.55345          0.00054153
-             1.62581         0.000532233
-             1.69943          0.00052325
-              1.7743         0.000514565
-             1.85042         0.000506164
-             1.92779         0.000498033
-             2.00642         0.000490159
-              2.0863          0.00048253
-             2.16744         0.000475135
-             2.24982         0.000467963
-             2.33346         0.000461005
-             2.41836          0.00045425
-              2.5045          0.00044769
-              2.5919         0.000441318
-             2.68055         0.000435124
-             2.77046         0.000429101
-             2.86162         0.000423243
-             2.95403         0.000417543
-             3.04769         0.000411994
-             3.14261         0.000406591
-             3.23878         0.000401328
-              3.3362         0.000396199
+            0.111833          2.86267E-4
+            0.151617          4.79537E-4
+            0.192654          6.61182E-4
+            0.234944          7.50491E-4
+            0.278487          7.85848E-4
+            0.323283          8.03893E-4
+            0.369332          8.11509E-4
+            0.416634          8.10525E-4
+            0.465189          7.89874E-4
+            0.514997           7.7025E-4
+            0.566058          7.51577E-4
+            0.618373          7.33788E-4
+             0.67194          7.16822E-4
+             0.72676          7.00623E-4
+            0.782833           6.8514E-4
+             0.84016          6.70326E-4
+            0.898739          6.56139E-4
+            0.958572           6.4254E-4
+             1.01966          6.29494E-4
+               1.082          6.16966E-4
+             1.14559          6.04928E-4
+             1.21043          5.93351E-4
+             1.27653          5.82208E-4
+             1.34388          5.71476E-4
+             1.41248          5.61132E-4
+             1.48234          5.51157E-4
+             1.55345           5.4153E-4
+             1.62581          5.32233E-4
+             1.69943           5.2325E-4
+              1.7743          5.14565E-4
+             1.85042          5.06164E-4
+             1.92779          4.98033E-4
+             2.00642          4.90159E-4
+              2.0863           4.8253E-4
+             2.16744          4.75135E-4
+             2.24982          4.67963E-4
+             2.33346          4.61005E-4
+             2.41836           4.5425E-4
+              2.5045           4.4769E-4
+              2.5919          4.41318E-4
+             2.68055          4.35124E-4
+             2.77046          4.29101E-4
+             2.86162          4.23243E-4
+             2.95403          4.17543E-4
+             3.04769          4.11994E-4
+             3.14261          4.06591E-4
+             3.23878          4.01328E-4
+              3.3362          3.96199E-4
 *DEFINE_CURVE_TITLE
 DEFINE_CURVE_2404126
    2404126         0        1.        1.        0.        0.         0          
                   0.                  0.
            0.0677237          4.86391E-5
-            0.139747         0.000330642
-            0.216071         0.000729225
+            0.139747          3.30642E-4
+            0.216071          7.29225E-4
             0.296694           0.0010864
             0.381618          0.00120667
             0.470841          0.00124815
@@ -17911,51 +17979,51 @@ DEFINE_CURVE_2404126
             0.981457          0.00110027
              1.09648          0.00105989
               1.2158          0.00102237
-             1.33942         0.000987418
-             1.46735         0.000954776
-             1.59957         0.000924223
-             1.73609         0.000895565
-             1.87691          0.00086863
-             2.02204         0.000843269
-             2.17146         0.000819346
-             2.32518         0.000796744
-              2.4832         0.000775355
-             2.64553         0.000755084
-             2.81215         0.000735846
-             2.98307         0.000717564
-             3.15829         0.000700169
-             3.33781         0.000683597
-             3.52163         0.000667791
-             3.70976           0.0006527
-             3.90218         0.000638275
-              4.0989         0.000624475
-             4.29992         0.000611258
-             4.50524          0.00059859
-             4.71486         0.000586436
-             4.92878         0.000574765
-               5.147          0.00056355
-             5.36952         0.000552765
-             5.59635         0.000542384
-             5.82747         0.000532386
-             6.06289          0.00052275
-             6.30261         0.000513457
-             6.54663         0.000504488
-             6.79495         0.000495828
-             7.04757         0.000487459
-             7.30449         0.000479369
-             7.56571         0.000471542
-             7.83123         0.000463967
-             8.10105         0.000456632
-             8.37517         0.000449525
-             8.65359         0.000442635
+             1.33942          9.87418E-4
+             1.46735          9.54776E-4
+             1.59957          9.24223E-4
+             1.73609          8.95565E-4
+             1.87691           8.6863E-4
+             2.02204          8.43269E-4
+             2.17146          8.19346E-4
+             2.32518          7.96744E-4
+              2.4832          7.75355E-4
+             2.64553          7.55084E-4
+             2.81215          7.35846E-4
+             2.98307          7.17564E-4
+             3.15829          7.00169E-4
+             3.33781          6.83597E-4
+             3.52163          6.67791E-4
+             3.70976            6.527E-4
+             3.90218          6.38275E-4
+              4.0989          6.24475E-4
+             4.29992          6.11258E-4
+             4.50524           5.9859E-4
+             4.71486          5.86436E-4
+             4.92878          5.74765E-4
+               5.147           5.6355E-4
+             5.36952          5.52765E-4
+             5.59635          5.42384E-4
+             5.82747          5.32386E-4
+             6.06289           5.2275E-4
+             6.30261          5.13457E-4
+             6.54663          5.04488E-4
+             6.79495          4.95828E-4
+             7.04757          4.87459E-4
+             7.30449          4.79369E-4
+             7.56571          4.71542E-4
+             7.83123          4.63967E-4
+             8.10105          4.56632E-4
+             8.37517          4.49525E-4
+             8.65359          4.42635E-4
 *DEFINE_CURVE_TITLE
 DEFINE_CURVE_2404127
    2404127         0        1.        1.        0.        0.         0          
                   0.                  0.
            0.0117643           1.8558E-6
            0.0236654          1.76213E-5
-           0.0357033         0.000151732
-            0.047878         0.000607663
+           0.0357033          1.51732E-4
+            0.047878          6.07663E-4
            0.0601895          0.00106712
            0.0726377          0.00151654
            0.0852228          0.00195624
@@ -18010,7 +18078,7 @@ DEFINE_CURVE_2404128
            0.0375459          1.15539E-6
            0.0568286          8.53677E-6
             0.076451          6.22288E-5
-           0.0964132         0.000452913
+           0.0964132          4.52913E-4
             0.116715          0.00294844
             0.137357          0.00664677
             0.158338           0.0102263
@@ -18853,8 +18921,8 @@ $ANSA_COLOR;404001;MAT9 MAT_NULL;.721568644046783;.878431379795074;.560784339904
 $785;1.;
 $ANSA_COLOR;405100;MAT77 MAT_OGDEN_RUBBER;.901960790157318;.933333337306976;.423
 $529416322708;1.;
-$ANSA_COLOR;405101;MAT129 MAT_LUNG_TISSUE;.745098054409027;0.18823529779911;.396
-$078437566757;1.;
+$ANSA_COLOR;405101;MAT57 MAT_LOW_DENSITY_FOAM;.745098054409027;0.18823529779911;
+$.396078437566757;1.;
 $ANSA_COLOR;406003;MAT9 MAT_NULL;.921568632125854;.807843148708344;.019607843831
 $182;1.;
 $ANSA_COLOR;453015;MAT20 MAT_RIGID;.901960790157318;.298039227724075;.8901960849
@@ -18967,8 +19035,8 @@ $ANSA_COLOR;704111;MAT20 MAT_RIGID;.717647075653076;.074509806931019;0.478431373
 $83461;1.;
 $ANSA_COLOR;704113;MAT20 MAT_RIGID;.549019634723663;.011764706112444;.4666666686
 $53488;1.;
-$ANSA_COLOR;705001;MAT77 MAT_OGDEN_RUBBER;.729411780834198;.537254929542542;.266
-$666680574417;1.;
+$ANSA_COLOR;705001;MAT77 MAT_OGDEN_RUBBER;.815686285495758;.352941185235977;0.65
+$490198135376;1.;
 $ANSA_COLOR;705101;MAT34 MAT_FABRIC;.992156863212585;.745098054409027;.235294118
 $523598;1.;
 $ANSA_COLOR;705102;MAT77 MAT_OGDEN_RUBBER;.666666686534882;0.10196078568697;.482
@@ -18987,8 +19055,8 @@ $ANSA_COLOR;710013;MAT9 MAT_NULL;.690196096897125;.603921592235565;.298039227724
 $075;1.;
 $ANSA_COLOR;710014;MAT9 MAT_NULL;.992156863212585;.619607865810394;.286274522542
 $953;1.;
-$ANSA_COLOR;710401;MAT24 MAT_PIECEWISE_LINEAR_PLASTICITY;.800000011920929;.28235
-$2954149246;.941176474094391;1.;
+$ANSA_COLOR;710401;MAT20 MAT_RIGID;.800000011920929;.282352954149246;.9411764740
+$94391;1.;
 $ANSA_COLOR;710402;MAT20 MAT_RIGID;.807843148708344;.149019613862038;.8588235378
 $26538;1.;
 $ANSA_COLOR;716003;MAT9 MAT_NULL;.509803950786591;.494117647409439;.886274516582

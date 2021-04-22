@@ -1,17 +1,21 @@
 $
-$ANSA_VERSION;20.1.0;
+$ANSA_VERSION;21.1.0;
 $
 $
-$ file created by  A N S A  Sun Dec 20 14:55:47 2020
+$ file created by  A N S A  Tue Apr 13 12:03:47 2021
 $
 $ output from :
 $
-$ //129.27.213.85/vsi-p/010_RD/17_EU_VIRTUAL/020_Workpackage/WP2_HBM/T2_2_Seated
-$  OS-HBM 50F, OS-HBM 50M, Active-HBM and validation/2_2_1_Upgrading the OS-HBM 
-$ 50F/vivaplus-50F_v0-2-1-m.ansa
+$ C:/Users/iraeus/Documents/Projects/VIRTUAL/ViVA+/Final_assembly/vivaplus-50F_v
+$ 0-2-2d.ansa
 $
-$ANSA_USER_ATTRIBUTES;vivaplus-20-Neck.k;INCLUDE;DM/IO Index;TEXT;5;DM/Status;TE
-$XT;WIP;
+$ Settings :
+$
+$ Output format : R12
+$
+$ Output : All
+$
+$ANSA_USER_ATTRIBUTES;vivaplus-20-Neck.k;INCLUDE;DM/Status;TEXT;WIP;
 $
 $
 $
@@ -860,7 +864,7 @@ NE-Vertebra-Articular-Process-C7-Inferior-Null-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
     201174         5     0.833        1.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
-      0.06      0.06      0.06      0.06        0.                  0.          
+      0.25      0.25      0.25      0.25        0.                  0.          
 *PART
 NE-ligaments-C2-C3-ALL-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
@@ -1200,7 +1204,7 @@ NE-ligaments-C7-T1-CL-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
     201573    201573    213071                             0         0          
 $       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
-        0.        0.        0.        0.       0.1        0.        0.
+        0.        0.        0.        0.       0.5        0.        0.
 *SECTION_SHELL_TITLE
 NE-ligaments-C7-T1-CL-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -1776,9 +1780,11 @@ $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SHELL_TITLE
 NE_Skin
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    203002         9   0.83333        1.        1.         0         0
+    203002         9   0.83333        1.        1.         0         1
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
         1.        1.        1.        1.        0.                  0.          
+$       B1|       B2|
+        0.       90.
 *PART
 NE_Soft_Tissue_Interior
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
@@ -2126,7 +2132,7 @@ TX-Vertebra-Articular-Process-T1-Superior-Null-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
     401212         5     0.833        1.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
-      0.06      0.06      0.06      0.06        0.                  0.          
+      0.25      0.25      0.25      0.25        0.                  0.          
 $ANSA_COLOR;200101;SECTION_SHELL;.682352960109711;.749019622802734;.474509805440
 $903;1.;
 $ANSA_COLOR;200510;SECTION_SHELL;.749019622802734;.352941185235977;.352941185235

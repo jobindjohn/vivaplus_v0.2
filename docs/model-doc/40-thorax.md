@@ -27,18 +27,20 @@
 
 #### Vertebrae
 
-The thoracic vertebrae are defined as rigid elements. The elements of the cortical and trabecular bone are constrained together with `*CONSTRAINED_RIGID_BODY`
+The thoracic vertebrae are defined as rigid elements. The elements of the cortical and trabecular bone are constrained together with `*CONSTRAINED_RIGID_BODY`.
 
 
 #### Intervertebral Joints
 
-??? info "Future Model Development"
+<!-- ??? info "Future Model Development"
     A new thoracic Spine model with detailed vertebrae and intervertebral soft tissue
-    definitions is planned.
+    definitions is planned. -->
 
-## Ribcage
 
-The ribcage is modelled based on generic model by Iraeus et al. [@Iraeus2019]
+The intervertebral joints are modeled as zero-length discrete beam elements (MAT119). 
+## Ribs
+
+The ribcage is modelled based on the generic model by Iraeus et al. [@Iraeus2019]
 
 ### Ribcage Model Components
 
@@ -55,15 +57,15 @@ Strain rate dependent skin material properties based on [@Ottenio2015]
 
 
 ## Thoracic Cavity
-
-To mimic the stiffness of the human lung, which is the main volume in the thoracic cavity, material parameters published in [@Gayzik2010] established for lungs of rats were applied. No appropiate macroscopic material data for humans was found so far. 
-<!-- (TODO?) -->
-Mat_Lung_Tissue was applied based on [@Vawter1980]. As alternative material parameter those published in the original paper [@Vawter1980] could be applied:
-C/delta = 25cmH20(2.45 kPa), alpha = 0.183, (beta = -0.291, C1/delta = 0.1966 cmH20 (19.3 Pa), and C2 = 2.71.)
-
-Based on [@Polio2018] the young modulus for the Null material was set to 1kPA = 1E-9GPa
-
-The material was not stable in the current model, which is why the liver material is used in the current preliminary version of the model.
+The lungs are modeled using MAT_LOW_DENSITY_FOAM with material parameters from  Rater [@Rater2013]. 
+#To mimic the stiffness of the human lung, which is the main volume in the thoracic cavity, material parameters published in [@Gayzik2010] established for lungs of rats were applied. No appropiate macroscopic material data for humans was found so far. 
+#<!-- (TODO?) -->
+#Mat_Lung_Tissue was applied based on [@Vawter1980]. As alternative material parameter those published in the original paper [@Vawter1980] could be applied:
+#C/delta = 25cmH20(2.45 kPa), alpha = 0.183, (beta = -0.291, C1/delta = 0.1966 cmH20 (19.3 Pa), and C2 = 2.71.)
+#
+#Based on [@Polio2018] the young modulus for the Null material was set to 1kPA = 1E-9GPa
+#
+#The material was not stable in the current model, which is why the liver material is used in the current preliminary version of the model.
 
 
 ## Soft tissue
@@ -72,13 +74,13 @@ The outer soft tissue in the thorax (PIDs 406002 and 456002), pelvis (PIDs 60600
 
 
 <!-- TODO
-- [ ] change to compressible material and add sliding contact for thoracic cavity soft tissue -->
+- [ ] add sliding contact for thoracic cavity soft tissue -->
 
 ## Contacts in the Thorax
 
 The main contact for the thorax and pelvis interior is a CONTACT_AUTOMATIC_SINGLE_SURFACE (CID 400001). The interaction between the thoracic cavity soft tissue and the rib cage is also handled by this contact. 
 
-To connect the outer soft tissue in the thorax to the ribcage and abdomen, a CONTACT_AUTOMATIC_SURFACE_TO_SURFACE_TIEBREAK with OPTION=4 is used (CID 403710). This contact takes load in tension and compression, but allows tangential sliging in order to mimic the vacuum in the body that prevents the internal organs from separating.
+To connect the outer soft tissue in the thorax to the ribcage and abdomen, a CONTACT_AUTOMATIC_SURFACE_TO_SURFACE_TIEBREAK with OPTION=4 is used (CID 403710). This contact takes load in tension and compression, but allows tangential sliding in order to mimic the vacuum in the body that prevents the internal organs from separating.
 
 A CONTACT_TIED_NODES_TO_SURFACE (CID 403505) between the thorax outer soft tissue and the sternum is used to model the muscle attachment to the sternum.
 
