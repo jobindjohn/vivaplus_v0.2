@@ -9,11 +9,13 @@ Welcome to the online documentation of the VIVA+ Human Body Models!
 Here you will find information on getting started with the VIVA+ models, documentation of model implementations, and guides to make contributions to the models.
 
 # **Getting started**
-### **Models (_beta_)** (v0.2.1)
+
+### **Models (_in beta_)** (v0.2.2)
 
 #### Vehicle Occupant
 
 - Average female (**50F**)
+- Average male (**50F**)
 
 #### Vulnerable Road Users (VRU)
 
@@ -45,11 +47,11 @@ git clone git@virtual.openvt.eu:fem/viva/plus.git
 
 How can you contribute?
 
--  **Report issues** you encounter when running the model
+-  **Report issues/errors** in the model
 - Join the **users' community**: learn, find help and give help! [![project chat](https://img.shields.io/badge/zulip-join_chat-brightgreen.svg)](https://vivaplus.zulipchat.com)
-- Run extended **model validation** cases
+- Run **model validation** cases
 - Would you like to try a different **material model** for a component?
-- Introduce **new features** in the model!
+- Propose **new features** for the model!
 - Translate the model to **other Finite Element (FE) solvers**
 - Translate the documentation into **other languages**
 
