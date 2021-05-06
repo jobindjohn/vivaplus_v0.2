@@ -4,6 +4,8 @@ The VIVA+ model line-up consists of average female and male models of vehicle oc
 
 The baseline model is the average female (50F). All the other models are are derivatives of this model. The derivatives are defined with separate meshes and model parameters.
 
+ ![ViVA+ Model family](images/Vivaplus0.2.2.PNG)
+
 ## Model parameters
 
 The model parameters are defined in the main key files (`vivaplus-50F.key`/`vivaplus-50M.key` for the occupant models and  `vivaplus-50F-standing.key` for standing model). 
