@@ -1,4 +1,23 @@
-# Contribute to VIVA+
+# Contributing
+
+## Contributors
+
+### VIVA+ Development Team
+
+- Johan Iraeus
+- Jobin John
+- Corina Klug
+- Erik Svenning
+- Matej Kranjec
+
+### ViVA Model (Head and Spine) 
+
+- Jonas Östh
+- Karin Brolin
+- Manuel Mendoza-Vazquez
+
+## Contribute to VIVA+
+
 
 Some ways you can contribute to VIVA+ models
 - Model Features
@@ -12,21 +31,7 @@ Some ways you can contribute to VIVA+ models
 Will be updated soon
 ```
 
-## Contributors
 
-### VIVA+ Development Team
-
-- Johan Iraues
-- Jobin John
-- Corina Klug
-- Erik Svenning
-- Matej Kranjec
-
-### Past Developers
-
-- Jonas Östh
-- Karin Brolin
-- Manuel Mendoza-Vazquez
 
 
 ## Git style guide
