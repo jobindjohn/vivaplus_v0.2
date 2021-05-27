@@ -2,16 +2,16 @@ $
 $ANSA_VERSION;21.1.0;
 $
 $
-$ file created by  A N S A  Wed Apr 14 13:57:20 2021
+$ file created by  A N S A  Thu May 27 17:16:26 2021
 $
 $ output from :
 $
-$ C:/Users/iraeus/Documents/Projects/VIRTUAL/ViVA+/Final_assembly/vivaplus-50F_v
-$ 0-2-2d.ansa
+$ C:/Users/jobinj/Box/vivaplus-share/VIVA-Plus-Meshing-Shared-Folder/vivaplus-50
+$ F_v0-2-2e.ansa
 $
 $ Settings :
 $
-$ Output format : R11.2
+$ Output format : 971R9
 $
 $ Output : All
 $
@@ -1704,6 +1704,21 @@ $   PENMAX|   THKOPT|   SHLTHK|    SNLOG|     ISYM|    I2D3D|   SLDTHK|   SLDSTF
         0.         0         0         0         0         0        0.        0.
 $     IGAP|   IGNORE|   DPRFAC|   DTSTIF|         |         |   FLANGL|  CID_RCF|
          1         1        0.        0.                            0.          
+*CONTACT_AUTOMATIC_SURFACE_TO_SURFACE_ID
+$       ID|                                                                 NAME|
+700010    LX_Patella_Surface_to_Surface                                         
+$     SSID|     MSID|     STYP|   MSTYPE|   SBOXID|   MBOXID|      SPR|      MPR|
+    700012    700011         2         2                             0         0
+$       FS|       FD|       DC|       VC|      VDC|   PENCHK|       BT|       DT|
+       0.1       0.1        0.        0.       20.         0                    
+$      SFS|      SFM|      SST|      MST|     SFST|     SFMT|      FSF|      VSF|
+        1.        1.                            1.        1.        1.        1.
+$     SOFT|   SOFSCL|   LCIDAB|   MAXPAR|    SBOPT|    DEPTH|    BSORT|   FRCFRQ|
+         2       0.1               1.025        3.         5         0         0
+$   PENMAX|   THKOPT|   SHLTHK|    SNLOG|     ISYM|    I2D3D|   SLDTHK|   SLDSTF|
+        0.                             0         0         0        0.        0.
+$     IGAP|   IGNORE|   DPRFAC|   DTSTIF|         |         |   FLANGL|  CID_RCF|
+         1         2        0.        0.                            0.          
 *SET_NODE_LIST_TITLE
 N_Soft_Tissues_2_Skull
     103003        0.        0.        0.        0.
@@ -45347,8 +45362,8 @@ SET_NODES_Pelv_cav_tied
 *SET_PART_LIST_TITLE
 SET_Pelvis_contact
     600004                                        
-    601011    601021    601031    601041    601051    652020    602020    651011
-    651021    651031    651041    651051              
+    601011    601021    601031    601041    601051    602020    651011    651021
+    651031    651041    651051    652020
 *SET_PART_LIST
     601030                                        
     601031    603110    651031    653110
@@ -45358,6 +45373,15 @@ LX_Single_Surface_Shells
     601031    603110    651031    653110    701114    701184    701414    701434
     704113    705114    705134    705184    751114    751184    751414    751434
     754113    755114    755134    755184
+*SET_PART_LIST_TITLE
+LX_Femur_Tibia_Skin
+    700011                                        
+    701184    701414    705121    705131    705141    751184    751414    755121
+    755131    755141
+*SET_PART_LIST_TITLE
+LX_Patella_Contact
+    700012                                        
+    701301    751301
 *SET_PART_LIST
     701110                                        
     701114    751114
