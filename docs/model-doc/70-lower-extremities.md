@@ -9,27 +9,27 @@ bibliography: [../../viva-refs.bib]
     This section is being updated
 
 ??? note "Lower Extremity Components Identifier Overview"
-    |        Component Group | Identifier Range (Start) |
-    |-----------------------:|:-------------------------|
-    |                  Bones | 701000                   |
-    |  Knee joint structures | 702000                   |
-    | Ankle joint structures | 703000                   |
-    |        Feet structures | 704000                   |
-    |       Leg soft tissues | 705000                   |
+    |         Component Group | Identifier Range (Start) |
+    |------------------------:|:-------------------------|
+    |                   Bones | 701000                   |
+    |   Knee joint structures | 702000                   |
+    |         Feet structures | 704000                   |
+    |        Leg soft tissues | 705000                   |
+    | Tibiofibular structures | 706000                   |
 
 ## Bones
 
 ### Femur
 
-The femur crossection was optimised to meet the target values of Klein et al. (2015)[@Klein2015].
+The femur cross section was optimised to meet the target values of Klein et al. (2015)[@Klein2015].
 The following target values were used (applying the regression model described in the paper and using age, stature and BMI of the 50F VIVA + models (50 years, 161.6 cm, 24 kg/m$^2$)
 An elliptic inner shape was assumed, which is in line with medical images. However, if a proper inner geometry becomes available, this should be updated. The maximum difference to the reference is 3.3%.
 
 
-| Bone crossectional area [mm$^2$]  | L1  | L2  | L3  | L4  | L5  |
-|-----------------------------------|-----|-----|-----|-----|-----|
-| Target from Klein et. al. for 50F | 361 | 310 | 303 | 255 | 199 |
-| Measured values in VIVA+ 50F      | 372 | 306 | 300 | 252 | 193 |
+| Bone cross sectional area [mm$^2$]  | L1  | L2  | L3  | L4  | L5  |
+|-------------------------------------|-----|-----|-----|-----|-----|
+|  Target from Klein et al. for 50F   | 361 | 310 | 303 | 255 | 199 |
+|  Measured values in VIVA+ 50F       | 372 | 306 | 300 | 252 | 193 |
 
 
 ??? note "Femur Mesh Quality"
@@ -42,20 +42,43 @@ An elliptic inner shape was assumed, which is in line with medical images. Howev
     | Internal Angle | >160$^{\circ}$ | 0                    | >140$^{\circ}$ | 1.95                 |
     |                | <20$^{\circ}$  | 0                    | <30$^{\circ}$  | 0.07                 |
 
-Cortical bone properties are based on Mirzaali et al. (2016)[@Mirzaali2016]. Subject with diagnosed osteopherosis were excluded.
+Cortical bone properties are based on Mirzaali et al. (2016)[@Mirzaali2016]. Subjects with diagnosed osteoporosis were excluded.
 Trabecular bone properties are based on Ding et al. (1997)[@Ding1997]
 
 <!-- (TODO: double check with other parameters!) -->
 
 ### Tibia
-Trabecular bone properties are based on Ding et al. (1997)[@Ding1997] 
+Trabecular bone properties are based on Ding et al. (1997)[@Ding1997].
+
+
+??? note "Tibia Mesh Quality"
+    | Criteria       | limit          | % of failed elements | limit          | % of failed elements |
+    |:---------------|----------------|----------------------|----------------|----------------------|
+    | Aspect Ratio   | < 10           | TODO                 | 3              | TODO                 |
+    | Skewness       | > 60$^{\circ}$ | TODO                 | >45$^{\circ}$  | TODO                 |
+    | Warping        | < 15           | TODO                 | <10            | TODO                 |
+    | Jacobian       | <0.3           | TODO                 | >0.7           | TODO                 |
+    | Internal Angle | >160$^{\circ}$ | TODO                 | >140$^{\circ}$ | TODO                 |
+    |                | <20$^{\circ}$  | TODO                 | <30$^{\circ}$  | TODO                 |
 
 <!-- (TODO: double check with other parameters!) -->
 
 ### Fibula
-Bone crossection properties are reported in Matsuura et al. (1999)[@Matsuura1999]
+Bone cross section properties are reported in Matsuura et al. (1999)[@Matsuura1999]. Bone wall thickness ranges from 2 to 4 mm.
 
-Thickness ranges from 2 to 4 mm.
+
+??? note "Fibula Mesh Quality"
+    | Criteria       | limit          | % of failed elements | limit          | % of failed elements |
+    |:---------------|----------------|----------------------|----------------|----------------------|
+    | Aspect Ratio   | < 10           | TODO                 | 3              | TODO                 |
+    | Skewness       | > 60$^{\circ}$ | TODO                 | >45$^{\circ}$  | TODO                 |
+    | Warping        | < 15           | TODO                 | <10            | TODO                 |
+    | Jacobian       | <0.3           | TODO                 | >0.7           | TODO                 |
+    | Internal Angle | >160$^{\circ}$ | TODO                 | >140$^{\circ}$ | TODO                 |
+    |                | <20$^{\circ}$  | TODO                 | <30$^{\circ}$  | TODO                 |
+
+### Patella
+The patella is currently modelled as rigid.
 
 ### Connection between Fibula and Tibia
 Crural Interosseous membrane 
@@ -64,55 +87,50 @@ https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs002
 
 https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00276-013-1199-9/MediaObjects/276_2013_1199_Fig4_HTML.jpg?as=webp
 
-140 beams were created oriented as described in Elamrani et al. (2013)[@Elamrani2013]: "Fibers of the anterior layer made an angle of 13° (SD 2.6) with the axis of fibula. Those of the posterior layer made an angle of 24.2° (SD 2.48) with the axis of fibula."
-The average thickness is 0.54 mm.
+140 beams were created oriented as described in Elamrani et al. (2013)[@Elamrani2013]: "Fibers of the anterior layer made an angle of 13° (SD 2.6) with the axis of fibula. Those of the posterior layer made an angle of 24.2° (SD 2.48) with the axis of fibula." The average thickness of the membrane is 0.54 mm.
 
-Stiffness of anterior tibiofibular ligament based on Hoefnagels et al. (2007)[@Hoefnagels2007]: 162 +/- 64 N/mm
+Stiffness of anterior tibiofibular ligament is based on Hoefnagels et al. (2007)[@Hoefnagels2007]: 162 +/- 64 N/mm.
 
-Stiffness in fiber direction is assumed based on Minns and Hunter (1976)[@Minns1976] 
-For the 2 mm x 20 mm sample an ultimate stress of  920 ±/- 205 Kgf/cm$^2$  = 0.09022118 GPa is reported at 7.7 %
+Stiffness in fiber direction is assumed based on Minns and Hunter (1976)[@Minns1976]. For the 2 mm x 20 mm sample an ultimate stress of  920 ±/- 205 Kgf/cm$^2$  = 0.09022118 GPa is reported at 7.7 %.
 
-Assuming linear stiffness up to the ultimate stress, a young modulus of 1.17 GPa can be assumed for a sample with a crossection of 2x0.54=~1mm$^2$.
+Assuming linear stiffness up to the ultimate stress, a young modulus of 1.17 GPa can be assumed for a sample with a cross section of 2 x 0.54 = ~1mm$^2$.
 
-For the ligaments connecting the proximal end, a higher stiffness was assumed. It was set to 5 GPa as first trial. 
+For the ligaments connecting the proximal end, a higher stiffness was assumed. It is currently set to 5 GPa. 
 
 <!-- (TODO: Check for reference) -->
 
 ## Joints
 ### Knee Joint Materials
 
-#### Ligaments:  
+#### Ligaments  
 
-The major knee ligaments in the version 0.1 & 0.2 are based on van Dommelen et al. (2005)[@Dommelen2005] and Kunitomi et al. (2017)[@Kunitomi2017] and are modelled as discrete springs. Material properties for the patellar ligament are derived from Muller et al. (2004)[@Muller2004]. 
-<!-- TOLE Dodaj v bibtex !!!!
-Kunitomi, Yamamoto, Kato, Antona‐Makoshi, Konosu, Dokko, Yasuki (2017). The Development of the Lower Extremity of a Human FE Model and the Influence of Anatomical Detailed Modelling in Vehicle‐to‐Pedestrian Impacts.  IRC-17-62 http://www.ircobi.org/wordpress/downloads/irc17/pdf-files/62.pdf
+The major knee ligaments are modeled as discrete beam elements.
 
-Muller et al. (2004). Comparative analysis of the mechanical properties of the patellar ligament and calcaneus tendon. Acta ortop. bras. \[online\], vol.12, n.3, pp.134-140. https://doi.org/10.1590/S1413-78522004000300001](https://doi.org/10.1590/S1413-78522004000300001
- -->
+??? note "Number of beams for each modeled knee ligament"
+    | Ligament  | no. of beams  |
+    |-----------|---------------|
+    |    MCL    |       4       |
+    |    LCL    |       4       |
+    |   aACL    |       1       |
+    |   pACL    |       1       |
+    |   aPCL    |       1       |
+    |   pACL    |       1       |
+    |    PL     |       4       |
+
+In the Viva+ model version v0.2.2 knee ligament material properties are based on van Dommelen et al. (2005)[@Dommelen2005] and Kunitomi et al. (2017)[@Kunitomi2017] and are modelled as discrete springs. Material properties for the patellar ligament are derived from Muller et al. (2004)[@Mueller2004]. 
 
 <!-- - [ ] TODO: Model ligaments as solids  -->
 
 #### Knee Cartilage
 
-Cartilage thickness is based on Faber et al. (2001)[@Faber2001] and Eckstein et al. (2001)[@Eckstein2001]
-
-The material properties are based on Robinson et al. (2016)[@Robinson2016]
-
-Both cartilage and meniscus are modelled as linear elastic homogeneous materials, due to instant loading conditions as in Peña et al. (2006)[@Pena2006]
-
-The imput parameters for both cartilage and meniscus were determined from the review Joao et al. (2018)[Joao!] 
-
-João, M. R. S. T., Moez, C., Abdelwahed, B., & Zahra, T. (2018). _FEM Analysis of the Human Knee Joint: A Review_. Springer.     10.1007/978-3-319-74158-1
+Cartilage thickness is based on Faber et al. (2001)[@Faber2001] and Eckstein et al. (2001)[@Eckstein2001]. The material properties are based on Robinson et al. (2016)[@Robinson2016].
 
 #### Meniscus
-The material parameters are based on Peña et al. (2005) [@Pena2005]
+The material parameters are based on Peña et al. (2005) [@Pena2005]. An Ogden material model is applied using an alpha of 1 and therefore neo-hookean modelling with a modulus of 59 MPa. The imput parameters for meniscus were determined from the review by Joao in Trad et al. (2018)[@Trad2018].
 
-An Ogden material model is applied using an alpha of 1 and therefore neo-hookean modelling with a modulus of 59 MPa
+Both cartilage and meniscus are modelled as linear elastic homogeneous materials, due to instant loading conditions as in Peña et al. (2006)[@Pena2006].  
 
 <!-- - [ ] TODO: enhance material properties and calibrate to published curves  -->
-
-#### Patella
-The patella is currently modelled as rigid.
 
 ### Knee Joint geometry
 Attachment points on femur:
