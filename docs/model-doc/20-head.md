@@ -28,6 +28,6 @@ Six discrete mass elements, alinged along the principal axes (crossing at the he
 
 
 
-#References
+## References
 \bibliography
 
