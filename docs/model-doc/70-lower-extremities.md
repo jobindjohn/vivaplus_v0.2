@@ -80,25 +80,6 @@ Bone cross section properties are reported in Matsuura et al. (1999)[@Matsuura19
 ### Patella
 The patella is currently modelled as rigid.
 
-### Connection between Fibula and Tibia
-Crural Interosseous membrane 
-
-https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00276-013-1199-9/MediaObjects/276_2013_1199_Fig3_HTML.jpg?as=webp
-
-https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00276-013-1199-9/MediaObjects/276_2013_1199_Fig4_HTML.jpg?as=webp
-
-140 beams were created oriented as described in Elamrani et al. (2013)[@Elamrani2013]: "Fibers of the anterior layer made an angle of 13° (SD 2.6) with the axis of fibula. Those of the posterior layer made an angle of 24.2° (SD 2.48) with the axis of fibula." The average thickness of the membrane is 0.54 mm.
-
-Stiffness of anterior tibiofibular ligament is based on Hoefnagels et al. (2007)[@Hoefnagels2007]: 162 +/- 64 N/mm.
-
-Stiffness in fiber direction is assumed based on Minns and Hunter (1976)[@Minns1976]. For the 2 mm x 20 mm sample an ultimate stress of  920 ±/- 205 Kgf/cm$^2$  = 0.09022118 GPa is reported at 7.7 %.
-
-Assuming linear stiffness up to the ultimate stress, a young modulus of 1.17 GPa can be assumed for a sample with a cross section of 2 x 0.54 = ~1mm$^2$.
-
-For the ligaments connecting the proximal end, a higher stiffness was assumed. It is currently set to 5 GPa. 
-
-<!-- (TODO: Check for reference) -->
-
 ## Joints
 ### Knee Joint Materials
 
@@ -121,6 +102,7 @@ In the Viva+ model version v0.2.2 knee ligament material properties are based on
 
 <!-- - [ ] TODO: Model ligaments as solids  -->
 
+
 #### Knee Cartilage
 
 Cartilage thickness is based on Faber et al. (2001)[@Faber2001] and Eckstein et al. (2001)[@Eckstein2001]. The material properties are based on Robinson et al. (2016)[@Robinson2016].
@@ -132,32 +114,41 @@ Both cartilage and meniscus are modelled as linear elastic homogeneous materials
 
 <!-- - [ ] TODO: enhance material properties and calibrate to published curves  -->
 
+### Connection between Fibula and Tibia
+Crural Interosseous membrane ([Anterior view](https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00276-013-1199-9/MediaObjects/276_2013_1199_Fig4_HTML.jpg?as=webp), [Posterior view](https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00276-013-1199-9/MediaObjects/276_2013_1199_Fig3_HTML.jpg?as=webp))
+
+140 beams were created oriented as described in Elamrani et al. (2013)[@Elamrani2013]: "Fibers of the anterior layer made an angle of 13° (SD 2.6) with the axis of fibula. Those of the posterior layer made an angle of 24.2° (SD 2.48) with the axis of fibula." The average thickness of the membrane is 0.54 mm.
+
+Stiffness of anterior tibiofibular ligament is based on Hoefnagels et al. (2007)[@Hoefnagels2007]: 162 +/- 64 N/mm.
+
+Stiffness in fiber direction is assumed based on Minns and Hunter (1976)[@Minns1976]. For the 2 mm x 20 mm sample an ultimate stress of  920 ±/- 205 Kgf/cm$^2$  = 0.09022118 GPa is reported at 7.7 %.
+
+Assuming linear stiffness up to the ultimate stress, a young modulus of 1.17 GPa can be assumed for a sample with a cross section of 2 x 0.54 = ~1mm$^2$.
+
+For the ligaments connecting the proximal end, a higher stiffness was assumed. It is currently set to 5 GPa. 
+
 ### Knee Joint geometry
 Attachment points on femur:
 
-Blumensaat’s line (roof of femoral intercondylar ): based on Iriuchishima et al. (2015)[@Iriuchishima2015] 
+Blumensaat’s line (roof of femoral intercondylar ): based on Iriuchishima et al. (2015)[@Iriuchishima2015]. Ligaments were attached to the bones based on the anatomic landmarks described in the review of Bedi et al. (2018)[@Bedi2018]. Furthermore, the OpenKnee model was used as reference.
 
-Ligaments were attached to the bones based on the anatomic landmarks described in the review of Bedi et al. (2018)[@Bedi2018]
+??? note "Ligament dimensions anteroposterior"
 
-Furthermore, the OpenKnee model was used as reference.
-
-Ligament dimensions anteroposterior
-
-| **Ligament**             | **Length <br/>[mm]** | **Width <br/>[mm]**                    | **Thickness <br/>[mm]**            | **CrossectionArea <br/>[mm$^2$]** | **Sources** |
-|--------------------------|----------------------|----------------------------------------|------------------------------------|-----------------------------------|-------------|
-| ACL                      | f:30.25, m:32.9      | f: 9.9, m: 12.2                        | 4.78-4.89                          | f:37.08, m:50.36                  | [1-5]       |
-| ACL (tibial insertion)   | -                    | f: 13.2, m: 13.5 (medio-lateral)       | f:18.7, m: 20  (anteroposterior)   | f: 118.85, m:142.5                | [3,4]         |
-| ACL (femoral Insertion)  | -                    | f: 6.3, m: 6.8 (anteroposterior)       | f: 12.4, m: 14.4 (proximal-distal) | f: 81.45, m:98.9                  | [3,4]         |
-| PCL                      | 32-38                | 8-19.5 (mean=13.75)                    | 3.85-6.63                          | 64.05                             | [5,6]         |
-| PCL (tibial insertion)   | -                    | 9.58                                   | 9.12                               | 147.67                            | [5-7]         |
-| PCL (femoral insertion)  | -                    | 5.35                                   | 20.69                              | 148.2                             | [5-7]         |
-| MCL                      | 87.5                 | 10.9 (prox), 17.7 (mid), 10.7 (distal) | 2.1                                | ??                                | [8-11]        |
-| MCL (femoral ins)        | -                    | 11.5 (anteroposterior)                 | 9.2 (proximal-dis)                 | 75.5                              | [8,9,12]      |
-| MCL (tibial ins sMCL)    | -                    | 12.2  (anteroposterior)                | 23.87 (proximal-dis)               | 307.7                             | [8,9,12]      |
-| MCL (tibial ins.- dist.) | -                    | 18                                     | 5                                  | 63.4                              | 8]           |
-| LCL                      | f: 57.3, m:61.3      | 5.13                                   | 2.4                                | ??                                | [13-15]       |
-| LCL (femoral ins)        | -                    | 9.7 (anteroposterior)                  | 11.2                               | 52.1                              | [13,14,16,17] |
-| LCL (tibial ins)         | -                    | 7.97  (anteroposterior)                | 11.9                               | 38.6                              | [13,14,16,17] |
+    | **Ligament**             | **Length <br/>[mm]** | **Width <br/>[mm]**                    | **Thickness <br/>[mm]**            | **CrossectionArea <br/>[mm$^2$]** | **Sources** |
+    |--------------------------|----------------------|----------------------------------------|------------------------------------|-----------------------------------|-------------|
+    | ACL                      | f:30.25, m:32.9      | f: 9.9, m: 12.2                        | 4.78-4.89                          | f:37.08, m:50.36                  | [1-5]       |
+    | ACL (tibial insertion)   | -                    | f: 13.2, m: 13.5 (medio-lateral)       | f:18.7, m: 20  (anteroposterior)   | f: 118.85, m:142.5                | [3,4]         |
+    | ACL (femoral Insertion)  | -                    | f: 6.3, m: 6.8 (anteroposterior)       | f: 12.4, m: 14.4 (proximal-distal) | f: 81.45, m:98.9                  | [3,4]         |
+    | PCL                      | 32-38                | 8-19.5 (mean=13.75)                    | 3.85-6.63                          | 64.05                             | [5,6]         |
+    | PCL (tibial insertion)   | -                    | 9.58                                   | 9.12                               | 147.67                            | [5-7]         |
+    | PCL (femoral insertion)  | -                    | 5.35                                   | 20.69                              | 148.2                             | [5-7]         |
+    | MCL                      | 87.5                 | 10.9 (prox), 17.7 (mid), 10.7 (distal) | 2.1                                | ??                                | [8-11]        |
+    | MCL (femoral ins)        | -                    | 11.5 (anteroposterior)                 | 9.2 (proximal-dis)                 | 75.5                              | [8,9,12]      |
+    | MCL (tibial ins sMCL)    | -                    | 12.2  (anteroposterior)                | 23.87 (proximal-dis)               | 307.7                             | [8,9,12]      |
+    | MCL (tibial ins.- dist.) | -                    | 18                                     | 5                                  | 63.4                              | 8]           |
+    | LCL                      | f: 57.3, m:61.3      | 5.13                                   | 2.4                                | ??                                | [13-15]       |
+    | LCL (femoral ins)        | -                    | 9.7 (anteroposterior)                  | 11.2                               | 52.1                              | [13,14,16,17] |
+    | LCL (tibial ins)         | -                    | 7.97  (anteroposterior)                | 11.9                               | 38.6                              | [13,14,16,17] |
 
 <!-- 
 DODAJ V BIBTEX !!!S
