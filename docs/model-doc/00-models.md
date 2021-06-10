@@ -12,11 +12,11 @@ The baseline model is the average female (50F). All the other models are derivat
  The seated average female model is the base model, where all updates and enhancements are carried out. The geometry of the average female is based on several statistical shape models for the outer body shape[@reed2013elderly], the ribcage[@wang2016parametric], the
  femur[@klein2015], the tibia and pelvis[@klein2015use]. 
 
- ![ViVA+ Model family](images\Viva_model_workflow.png)
+ ![VIVA+ Development Workflow](images\Viva_model_workflow.png)
 
  Two additional models, called derivative models, are created by morphing the nodes of the base model. These two models represent a standing average female and a seated average male. The model family can be seen in the figure below.
 
- ![ViVA+ Model family](images/Vivaplus0.2.2.PNG)
+ ![VIVA+ Model family](images/Vivaplus0.2.2.PNG#center)
 
  The benefit with this workflow is that all model enhancements and bug fixes, performed on the base model, will be carried over to the whole model family. However, as males and females differ in more aspects than purely geometrical (that are addressed by mesh morphing), model parameters are included to change other properties, see next section.
 
