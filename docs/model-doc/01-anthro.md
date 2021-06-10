@@ -15,7 +15,13 @@ The anthropometry of VIVA+ average male and female models is given below.
 
 These metrics correspond to the target specified for average dummies from the anthropometric study by Schneider et al. (1983)[@Schneider1983], which is the basis for most of dummies and computational models in use today. The target average recommended by Schneider et al. corresponded to the average data of the U.S. population from the National Health and Nutrition Examination Survey 1971-74. Populations around the world have seen a gradual change since then, primarily exhibiting an increasing trend in body mass [@Ogden2004] [@NCDRisC2016] [@NCDRisC2016a]. The VIVA+ baseline models, however, correspond to the anthropometry of widely used dummies and other computational models for purposes of comparison/similarity.
 
-<!--- 
+The target age of 50 years was chosen as it corresponds to the average age of the European adult (>= 18 years) population.
+
+![Average Age of European Adult Population](..\model-doc\images\age_european_population_eurostat.jpg)
+
+
+The data for this analysis was taken from [eurostat](https://ec.europa.eu/eurostat/databrowser/view/DEMO_PJAN__custom_1019506/default/table?lang=en).
+
 
 ## Mass distribution
 
@@ -55,6 +61,8 @@ A comparison with the EvaRID model (Carlsson et al., 2012) is shown below. An un
 | Total Mass                 |                  62.7 kg                  |           61.05 kg           |
 
 ## Miscellaneous
+
+<!-- 
 
 ### Global Trends in Anthropometry
 

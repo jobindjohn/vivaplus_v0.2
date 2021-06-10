@@ -26,7 +26,7 @@ An overview of the spinal column is given in this section. Modeling details of s
 | **Pelvic Tilt** ($^\circ$)                | 69.9  |          65.17±8.24          |
 | **C7-SVA** (Sagittal Vertical Axis) (mm)  | -69.5 |        –107.58±22.74         |
 
-**Standing Model** FIXME
+<!-- **Standing Model** FIXME
 
 | Metric                                    | 50F | Nishida et al.[@Nishida2020] |
 |-------------------------------------------|:---:|:----------------------------:|
@@ -39,7 +39,7 @@ An overview of the spinal column is given in this section. Modeling details of s
 | **Sacral Slope** ($^\circ$)               |     |          32.6±8.32           |
 | **Pelvic Tilt** ($^\circ$)                |     |          14.4±7.27           |
 | **Pelvic Incidence** ($^\circ$)           |     |          47.0±9.25           |
-| **C7-SVA** (Sagittal Vertical Axis) (mm)  |     |          –0.8±26.27          |
+| **C7-SVA** (Sagittal Vertical Axis) (mm)  |     |          –0.8±26.27          | -->
 
 
 * **Cervical Lordosis** : angle between inferior endplates of C2 and C7
