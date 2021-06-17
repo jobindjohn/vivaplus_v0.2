@@ -88,20 +88,35 @@ The patella is currently modelled as rigid.
 The major knee ligaments are modeled as discrete beam elements.
 
 ??? note "Number of beams for each modeled knee ligament"
-    | Ligament  | no. of beams  |
-    |-----------|---------------|
-    |    MCL    |       4       |
-    |    LCL    |       4       |
-    |   aACL    |       1       |
-    |   pACL    |       1       |
-    |   aPCL    |       1       |
-    |   pACL    |       1       |
-    |    PL     |       4       |
+    | **Ligament** | **Number of elements** |
+    |:------------:|:----------------------:|
+    |     MCL      |           4            |
+    |     LCL      |           4            |
+    |     aACL     |           1            |
+    |     pACL     |           1            |
+    |     aPCL     |           1            |
+    |     pACL     |           1            |
+    |      PL      |           4            |
 
 In the Viva+ model version v0.2.2 knee ligament material properties are based on van Dommelen et al. (2005)[@Dommelen2005] and Kunitomi et al. (2017)[@Kunitomi2017] and are modelled as discrete springs. Material properties for the patellar ligament are derived from Muller et al. (2004)[@Mueller2004]. 
 
 <!-- - [ ] TODO: Model ligaments as solids  -->
+##### Ligament pretension
 
+All knee ligaments are beeing pretensioned at the start of the simulation based on the value of pretension strain from Adouni et al. (2020)[@Adouni2020] for the standing human.
+
+The amout of ligament pretension is calculated as a difference between relaxed length of the ligaments (zero strain) and the distance between the ligament attachment nodes at the start of the simulation. The ligament pretensioning is performed in the first timestep of the simulation (or in maximum of 1 ms) using a ramp up function.
+
+??? note "Ligament pretension of Viva+ models"
+    | **Ligament** | **Initial strain [mm]** |
+    |:------------:|:-----------------------:|
+    |     MCL      |          3.3 %          |
+    |     LCL      |          3.0 %          |
+    |     aACL     |          4.9 %          |
+    |     pACL     |          4.9 %          |
+    |     aPCL     |          3.0 %          |
+    |     pACL     |          3.0 %          |
+    |      PL      |          1.8 %          |
 
 #### Knee Cartilage
 
@@ -134,41 +149,21 @@ Blumensaat’s line (roof of femoral intercondylar ): based on Iriuchishima et a
 
 ??? note "Ligament dimensions anteroposterior"
 
-    | **Ligament**             | **Length <br/>[mm]** | **Width <br/>[mm]**                    | **Thickness <br/>[mm]**            | **CrossectionArea <br/>[mm$^2$]** | **Sources** |
-    |--------------------------|----------------------|----------------------------------------|------------------------------------|-----------------------------------|-------------|
-    | ACL                      | f:30.25, m:32.9      | f: 9.9, m: 12.2                        | 4.78-4.89                          | f:37.08, m:50.36                  | [1-5]       |
-    | ACL (tibial insertion)   | -                    | f: 13.2, m: 13.5 (medio-lateral)       | f:18.7, m: 20  (anteroposterior)   | f: 118.85, m:142.5                | [3,4]         |
-    | ACL (femoral Insertion)  | -                    | f: 6.3, m: 6.8 (anteroposterior)       | f: 12.4, m: 14.4 (proximal-distal) | f: 81.45, m:98.9                  | [3,4]         |
-    | PCL                      | 32-38                | 8-19.5 (mean=13.75)                    | 3.85-6.63                          | 64.05                             | [5,6]         |
-    | PCL (tibial insertion)   | -                    | 9.58                                   | 9.12                               | 147.67                            | [5-7]         |
-    | PCL (femoral insertion)  | -                    | 5.35                                   | 20.69                              | 148.2                             | [5-7]         |
-    | MCL                      | 87.5                 | 10.9 (prox), 17.7 (mid), 10.7 (distal) | 2.1                                | ??                                | [8-11]        |
-    | MCL (femoral ins)        | -                    | 11.5 (anteroposterior)                 | 9.2 (proximal-dis)                 | 75.5                              | [8,9,12]      |
-    | MCL (tibial ins sMCL)    | -                    | 12.2  (anteroposterior)                | 23.87 (proximal-dis)               | 307.7                             | [8,9,12]      |
-    | MCL (tibial ins.- dist.) | -                    | 18                                     | 5                                  | 63.4                              | 8]           |
-    | LCL                      | f: 57.3, m:61.3      | 5.13                                   | 2.4                                | ??                                | [13-15]       |
-    | LCL (femoral ins)        | -                    | 9.7 (anteroposterior)                  | 11.2                               | 52.1                              | [13,14,16,17] |
-    | LCL (tibial ins)         | -                    | 7.97  (anteroposterior)                | 11.9                               | 38.6                              | [13,14,16,17] |
-
-<!-- 
-DODAJ V BIBTEX !!!S
-[1] A.F. Anderson, D.C. Dome, S. Gautam, M.H. Awh, G.W. Rennirt, Correlation of anthropometric measurements, strength, anterior cruciate ligament size, and intercondylar notch characteristics to sex differences in anterior cruciate ligament tear rates, Am J Sports Med 29(1) (2001) 58-66.
-[2] N. Chandrashekar, J. Slauterbeck, J. Hashemi, Sex-based differences in the anthropometric characteristics of the anterior cruciate ligament and its relation to intercondylar notch geometry: a cadaveric study, Am J Sports Med 33(10) (2005) 1492-1498.
-[3] S.G. Cone, D. Howe, M.B. Fisher, Size and Shape of the Human Anterior Cruciate Ligament and the Impact of Sex and Skeletal Growth: A Systematic Review, JBJS Rev 7(6) (2019) e8-e8.
-[4] L. Stijak, V. Radonjić, V. Nikolić, Z. Blagojević, M. Aksić, B. Filipović, Correlation between the morphometric parameters of the anterior cruciate ligament and the intercondylar width: gender and age differences, Knee Surg Sports Traumatol Arthrosc 17(7) (2009) 812-817.
-[5] E. Triantafyllidi, N.K. Paschos, A. Goussia, N.-M. Barkoula, D.A. Exarchos, T.E. Matikas, V. Malamou-Mitsi, A.D. Georgoulis, The shape and the thickness of the anterior cruciate ligament along its length in relation to the posterior cruciate ligament: a cadaveric study, Arthroscopy 29(12) (2013) 1963-1973.
-[6] S.L. Logterman, F.B. Wydra, R.M. Frank, Posterior Cruciate Ligament: Anatomy and Biomechanics, Curr Rev Musculoskelet Med 11(3) (2018) 510-514.
-[7] M. Takahashi, T. Matsubara, M. Doi, D. Suzuki, A. Nagano, Anatomical study of the femoral and tibial insertions of the anterolateral and posteromedial bundles of human posterior cruciate ligament, Knee Surg Sports Traumatol Arthrosc 14(11) (2006) 1055-1059.
-[8] F. Liu, B. Yue, H.R. Gadikota, M. Kozanek, W. Liu, T.J. Gill, H.E. Rubash, G. Li, Morphology of the medial collateral ligament of the knee, J Orthop Surg Res 5 (2010) 69-69.
-[9] N. Otake, H. Chen, X. Yao, S. Shoumura, Morphologic Study of the Lateral and Medial Collateral Ligaments of the Human Knee, Okajimas Folia Anatomica Japonica 83(4) (2007) 115-122.
-[10] S.E. Park, L.E. DeFrate, J.F. Suggs, T.J. Gill, H.E. Rubash, G. Li, Erratum to "The change in length of the medial and lateral collateral ligaments during in vivo knee flexion", Knee 13(1) (2006) 77-82.
-[11] W.T. Wilson, A.H. Deakin, A.P. Payne, F. Picard, S.C. Wearing, Comparative analysis of the structural properties of the collateral ligaments of the human knee, J Orthop Sports Phys Ther 42(4) (2012) 345-351.
-[12] M.I. Kennedy, S. Claes, F.A.F. Fuso, B.T. Williams, M.T. Goldsmith, T.L. Turnbull, C.A. Wijdicks, R.F. LaPrade, The Anterolateral Ligament: An Anatomic, Radiographic, and Biomechanical Analysis, Am J Sports Med 43(7) (2015) 1606-1615.
-[13] M. Espregueira, M.V. da Silva, Anatomy of the lateral collateral ligament: a cadaver and histological study, Knee Surg Sports Traumatol Arthrosc 14(3) (2006) 221-228.
-[14] B.R. Meister, S.P. Michael, R.A. Moyer, J.D. Kelly, C.D. Schneck, Anatomy and Kinematics of the Lateral Collateral Ligament of the Knee, Am J Sports Med 28(6) (2000) 869-878.
-[15] S. Tschauner, E. Sorantin, G. Singer, R. Eberl, A.-M. Weinberg, P. Schmidt, T. Kraus, The origin points of the knee collateral ligaments: an MRI study on paediatric patients during growth, Knee Surg Sports Traumatol Arthrosc 24(1) (2016) 18-25.
-[16] J.M. Brinkman, P.J.A. Schwering, L. Blankevoort, J.G. Kooloos, J. Luites, A.B. Wymenga, The insertion geometry of the posterolateral corner of the knee, J Bone Joint Surg Br 87(10) (2005) 1364-1368.
-[17] Y.-B. Song, K. Watanabe, E. Hogan, A.V. D'Antoni, A.C. Dilandro, N. Apaydin, M. Loukas, M.M. Shoja, R.S. Tubbs, The fibular collateral ligament of the knee: a detailed review, Clin Anat 27(5) (2014) 789-797. -->
+    | **Ligament**             | **Length <br/>[mm]** |         **Width <br/>[mm]**          |      **Thickness <br/>[mm]**       | **CrossectionArea <br/>[mm$^2$]** |                                     **Sources**                                      |
+    |--------------------------|:--------------------:|:------------------------------------:|:----------------------------------:|:---------------------------------:|:------------------------------------------------------------------------------------:|
+    | ACL                      |   f:30.25, m:32.9    |           f: 9.9, m: 12.2            |             4.78-4.89              |         f:37.08, m:50.36          | [@Anderson2001 ' @Chandrashekar2005 ' @Cone2019 ' @Stijak2009 ' @Triantafyllidi2013] |
+    | ACL (tibial insertion)   |          -           |   f: 13.2, m: 13.5 (medio-lateral)   |  f:18.7, m: 20  (anteroposterior)  |        f: 118.85, m:142.5         |                              [@Cone2019 ' @Stijak2009]                               |
+    | ACL (femoral Insertion)  |          -           |   f: 6.3, m: 6.8 (anteroposterior)   | f: 12.4, m: 14.4 (proximal-distal) |         f: 81.45, m:98.9          |                              [@Cone2019 ' @Stijak2009]                               |
+    | PCL                      |        32-38         |         8-19.5 (mean=13.75)          |             3.85-6.63              |               64.05               |                        [@Triantafyllidi2013 ' @Logterman2018]                        |
+    | PCL (tibial insertion)   |          -           |                 9.58                 |                9.12                |              147.67               |               [@Triantafyllidi2013 ' @Logterman2018 ' @Takahashi2006]                |
+    | PCL (femoral insertion)  |          -           |                 5.35                 |               20.69                |               148.2               |               [@Triantafyllidi2013 ' @Logterman2018 ' @Takahashi2006]                |
+    | MCL                      |         87.5         | 10.9 (prox), 17.7 (mid), 10.7 (dist) |                2.1                 |                ??                 |                  [@Liu2010 ' @Otake2007 ' @Park2006 ' @Wilson2012]                   |
+    | MCL (femoral ins)        |          -           |        11.5 (anteroposterior)        |       9.2 (proximal-distal)        |               75.5                |                        [@Liu2010 ' @Otake2007 ' @Kennedy2015]                        |
+    | MCL (tibial ins sMCL)    |          -           |       12.2  (anteroposterior)        |      23.87 (proximal-distal)       |               307.7               |                        [@Liu2010 ' @Otake2007 ' @Kennedy2015]                        |
+    | MCL (tibial ins.- dist.) |          -           |                  18                  |                 5                  |               63.4                |                                      [@Liu2010]                                      |
+    | LCL                      |   f: 57.3, m:61.3    |                 5.13                 |                2.4                 |                 -                 |                  [@Espregueira2006 ' @Meister2000 ' @Tschauner2016]                  |
+    | LCL (femoral ins)        |          -           |        9.7 (anteroposterior)         |                11.2                |               52.1                |            [@Espregueira2006 ' @Meister2000 ' @Brinkman2005 ' @Song2014]             |
+    | LCL (tibial ins)         |          -           |       7.97  (anteroposterior)        |                11.9                |               38.6                |            [@Espregueira2006 ' @Meister2000 ' @Brinkman2005 ' @Song2014]             |
 
 
 #### Lateral Collateral Ligament (LCL)
@@ -184,15 +179,13 @@ Based on LaPrade et al. (2003)[@LaPrade2003]: "As the fibular collateral ligamen
 
 #### Medial Collateral Ligament (MCL)
 
-Based on Wijdicks et al. (2009)[REFERENCE] - values in table 5 will be used.
+Based on Wijdicks et al. (2009)[@Wijdicks2009] - values in table 5 will be used.
 
-Additionally, pictures from Prince et al. (2015)[@Prince2015] were used.
-
-https://ars.els-cdn.com/content/image/1-s2.0-S2212628715001401-gr1.jpg
+Additionally, [pictures](https://ars.els-cdn.com/content/image/1-s2.0-S2212628715001401-gr1.jpg) from Prince et al. (2015)[@Prince2015] were used.
 
 ##### Femur attachment
 
-https://ars.els-cdn.com/content/image/1-s2.0-S2212628715001401-gr5.jpg
+[MCL attachment](https://ars.els-cdn.com/content/image/1-s2.0-S2212628715001401-gr1.jpg) and [sMCL attachment](https://ars.els-cdn.com/content/image/1-s2.0-S2212628715001401-gr5.jpg)
 
 "Line 1 is an extension of the posterior femoral cortex, and line 2 is drawn perpendicular to line 1, intersecting the most posterior aspect of the Blumensaat line"
 "The femoral attachment of the sMCL was found to be, on average, 8.6 mm anterior to the posterior femoral cortex line and 11.0 mm distal to the intersection of the posterior femoral cortex line (line 1) and the line intersecting the posterior aspect of the Blumensaat line (line 2)"
@@ -211,19 +204,14 @@ The distance between the attachment point in the baseline seated VIVA+ model is 
 ##### Femur Insertion:
 ACL attachment point on femur is determined based on the radiographic quadrant mehtod: "distance t (representing the total sagittal diameter of the lateral condyle measured along Blumensaat's line), distance h (representing the maximum intercondylar notch height), distance a (representing the distance of point K from the most dorsal subchondral contour of the lateral femoral condyle), and distance b (representing the distance of point K from Blumensaat's line). Distance a is a partial distance of t and distance b is a partial distance of h, and distances a and b are expressed as length ratios of t and h. The center of the femoral insertion of the ACL was located at 24.8% of the distance t measured from the most posterior contour of the lateral femoral condyle and at 28.5% of the height h measured from Blumensaat's line. Based on these results, the ACL can be found just inferior to the most superoposterior quadrant, which means in anatomic terms it is localized from the dorsal border of the condyle at approximately a quarter of the whole sagittal diameter of the condyle and from the roof of the notch at approximately a quarter of the notch height. "
 
-According to Yahagi et al. (2017)[@Yahagi2017], who are proposing a method which is applicable also for cases where the Blumensaat's line is not a straight line, the hill is excluded to derive the Blumensaat line (grid 1)
-
-https://media.springernature.com/lw785/springer-static/image/art%3A10.1007%2Fs00167-017-4501-2/MediaObjects/167_2017_4501_Fig2_HTML.gif
+According to Yahagi et al. (2017)[@Yahagi2017], who are proposing a method which is applicable also for cases where the Blumensaat's line is not a straight line, the hill is excluded to derive the Blumensaat line (grid 1) ([ACL footprint](https://media.springernature.com/lw785/springer-static/image/art%3A10.1007%2Fs00167-017-4501-2/MediaObjects/167_2017_4501_Fig2_HTML.gif)).
 
 "In small hill type knees, the ACL center was placed as follows: Grid (1) 37.5 ± 6% in the shallow–deep, 50.2 ± 8.3% in the high–low directions. [..]
 In large hill type knees, the ACL center was placed as follows: Grid (1) 37.1 ± 5.6% in the shallow–deep, 50.4 ± 5.8% in the high–low directions"
 
 Method to derive both bundle attachments as in Pietrini et al. (2011)[@Pietrini2011]:
-
-https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00167-010-1372-1/MediaObjects/167_2010_1372_Fig4_HTML.gif?as=webp
-
-https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00167-010-1372-1/MediaObjects/167_2010_1372_Fig5_HTML.gif?as=webp
-
+ [Femoral head](https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00167-010-1372-1/MediaObjects/167_2010_1372_Fig4_HTML.gif?as=webp),
+ [Tibial plateau](https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00167-010-1372-1/MediaObjects/167_2010_1372_Fig5_HTML.gif?as=webp).
 
 ##### Tibia insertion:
 Stӓubli and Rauschning (1994)[@Staeubli1994]: 43.3% of the anterior-to-posterior distance across the tibia as measured at the level of the posterior tibial margin at the posterior intercondylar area.In their study,the anteriormost fibers inserted at 27.5% across the plateau.
@@ -239,11 +227,10 @@ The distance between the attachment point in the baseline seated VIVA+ model is 
 #### Meniscus
 The average thickness of the medial meniscus is 2.55 mm according to Bloecker et al. (2011)[@Bloecker2011] (40 male and 62 female knees were measured in MRI) For males it should be 2.8 mm.
 
-Data based on:
+Data based on Bloecker et al. (2011)[@Bloecker2011]:
+ [Table 1](https://bmcmusculoskeletdisord.biomedcentral.com/articles/10.1186/1471-2474-12-248/tables/1) and
+ [Table 2](https://bmcmusculoskeletdisord.biomedcentral.com/articles/10.1186/1471-2474-12-248/tables/2).
 
-https://bmcmusculoskeletdisord.biomedcentral.com/articles/10.1186/1471-2474-12-248/tables/1
-
-https://bmcmusculoskeletdisord.biomedcentral.com/articles/10.1186/1471-2474-12-248/tables/2
 
 |                 | **Mean avg. thickness <br/>[mm]** | **Mean max. thickness <br/>[mm]** | **Mean avg. width <br/>[mm]** | **Mean max. width <br/>[mm]** |
 |-----------------|--------------------------|--------------------------|----------------------|----------------------|
@@ -300,7 +287,7 @@ They report a proximal width of 27.5 mm and a tickness of 3 mm while for the dis
 
 ####  Quadriceps muscle
 
-For the muscles the material model »S15_MAT_SPRING_MUSCLE« has been used, which is defined for discrete beam elements with the possibility of activation. The model is described in LS-Dyna manual [@x], by Hill et al. (1938) [@Hill1938] and Winters et al. (1990) [@Winters1990]. Some parameters were also used from Audu et al. (1985)[@Audu1985], Horst et al. (2002)[@Horst2002], Mukherjee et al. (2007)[@Mukherjee2007] and Arnold et al. (2009)[@Arnold2009].
+For the muscles the material model »S15_MAT_SPRING_MUSCLE« has been used, which is defined for discrete beam elements with the possibility of activation. The model is described in LS-Dyna manual [@LS-DynaII], by Hill et al. (1938) [@Hill1938] and Winters et al. (1990) [@Winters1990]. Some parameters were also used from Audu et al. (1985)[@Audu1985], Horst et al. (2002)[@Horst2002], Mukherjee et al. (2007)[@Mukherjee2007] and Arnold et al. (2009)[@Arnold2009].
 
 The main imput parametres are:
 
@@ -308,22 +295,16 @@ The main imput parametres are:
  - maximum shortening velocity (VMAX) [@Arnold2009]$^,$[@Horst2002]
  - function of activation (𝑓A) (if used) [@Mukherjee2007]
  - peak isometric force (FMAX) [@Winters1990]$^,$[@Arnold2009]
- - functions for : active tension vs. length function (𝑓𝑇𝐿) [x]
- - active tension vs. velocity function (𝑓𝑇V) [x]$^,$[@Audu1985]
- - force vs. length function for parallel elastic element (𝑓PE) [x]
+ - functions for : active tension vs. length function (𝑓𝑇𝐿) [@LS-DynaII]
+ - active tension vs. velocity function (𝑓𝑇V) [@LS-DynaII]$^,$[@Audu1985]
+ - force vs. length function for parallel elastic element (𝑓PE) [@LS-DynaII]
  - 
 The the initial model configuration only one discrete element was used for the combination of four heads of quadriceps muscle. The input parameters for all four heads were summed up and used for the single discrete element.
 
-[x]	LS-Dyna: User's manual, April 2003
-
 ### Ankle Joint
 
-Simplified kinematic revolute joint between tibia, fibula and talus - rotational axis from lateral to medial malleolus - from Mansfield et al. (2019)[@Mansfield2019] 
-
-https://ars.els-cdn.com/content/image/3-s2.0-B9780323544986000114-f11-03-9780323544986.jpg
-
-<!--
-REFFERENCE! Mansfield, P.J. and Neumann, D.A. (2019), “Chapter 11 - Structure and Function of the Ankle and Foot”, in Mansfield, P.J. and Neumann, D.A. (Eds.), Essentials of kinesiology for the physical therapist assistant, Third edition, Mosby, St. Louis, pp. 311–350. -->
+Simplified kinematic revolute joint for ankle is defined in the model between tibia-fibula and talus - rotational axis from lateral to medial malleolus - from Mansfield et al. (2019)[@Mansfield2019]
+ [Ankle landmarks](https://ars.els-cdn.com/content/image/3-s2.0-B9780323544986000114-f11-03-9780323544986.jpg).
 
 ## Contact Definitions
 
@@ -333,7 +314,6 @@ REFFERENCE! Mansfield, P.J. and Neumann, D.A. (2019), “Chapter 11 - Structure 
     |----------------|------------|------------------------------|
     | Knee_Internal  | 705130     | Automatic Surface to Surface |
     | Ankle_Internal | 705180     | Automatic Single Surface     |
-
 
 ## Future Model Improvements
 
@@ -346,9 +326,3 @@ Grant et al. (2020)[@Grant2020]: Development and validation of statistical shape
 ## References
 
 \bibliography
-
-<!-- 
-Viano, D.C. (1989), “Biomechanical Responses and Injuries in Blunt Lateral Impact”, 33rd Stapp Car Crash Conference Proceedings, 4.10.1989, SAE International.
- -->
-
-
