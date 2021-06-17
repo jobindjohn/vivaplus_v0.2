@@ -7,6 +7,19 @@ and this project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.ht
 
 # beta  versions
 
+## 0.2.3 - 2021-06-17
+
+### Added
+
+- Define new contact for Patella (Knees)
+- New positioned model: 50F_Pedestrian_TB024
+- Added shoes for 50F
+
+### Changed
+
+- Updated documentation
+- Fixed *DATABASE_HISTORY_NODE_LOCAL_ID definitions in *reference_points.k 
+
 ## 0.2.2 - 2021-04-13
 
 ### Added
