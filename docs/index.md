@@ -10,7 +10,7 @@ Here you will find information on getting started with the VIVA+ models, documen
 
 # **Getting started**
 
-### **Models (_in beta_)** (v0.2.2)
+### **Models (_in beta_)** (v0.2.3)
 
 #### Vehicle Occupant
 
