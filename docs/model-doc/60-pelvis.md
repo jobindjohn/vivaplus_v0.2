@@ -94,7 +94,7 @@ Stiffness (k) in direction:
 The area of the joint was measured as 1424 mm^2 (1104-1913m^2). In the VIVA+ 50 F model it is slightly lower than the smallest measured area, being 1050 mm^2 on anterior and 1062 mm^2 posterior side. 
 The average thickness of the outer face is 4.4 mm. 
 
-E=k * thickness/A
+$E = k * thickness/A$
 
 leading to the Young's modulus
 
