@@ -2,16 +2,16 @@ $
 $ANSA_VERSION;21.1.0;
 $
 $
-$ file created by  A N S A  Tue Apr 13 12:03:45 2021
+$ file created by  A N S A  Thu May 27 17:19:03 2021
 $
 $ output from :
 $
-$ C:/Users/iraeus/Documents/Projects/VIRTUAL/ViVA+/Final_assembly/vivaplus-50F_v
-$ 0-2-2d.ansa
+$ C:/Users/jobinj/Box/vivaplus-share/VIVA-Plus-Meshing-Shared-Folder/vivaplus-50
+$ F_v0-2-2e.ansa
 $
 $ Settings :
 $
-$ Output format : R12
+$ Output format : 971R9
 $
 $ Output : All
 $
@@ -55,10 +55,6 @@ Thorax flesh
 Scapula-and-Clavicula
     616002                                        
     301101    301102    301201    301202    351101    351102    351201    351202
-*SET_SHELL_GENERAL_TITLE
-Patella
-    716002                                        
-PART          701301    751301
 *SET_PART_LIST_TITLE
 Upper_leg_flesh
     716003                                        
@@ -66,7 +62,7 @@ Upper_leg_flesh
 *SET_SHELL_ADD_TITLE
 Whole-Body-Contact-sans-neck-interface-shells
     903001                                        
-    716002    903002    903003
+    903002    903003
 *SET_SHELL_GENERAL_TITLE
 ME_C_Whole_body_skin
     903002                                        

@@ -520,72 +520,6 @@ $#     id1                                                               heading
    8140010R_Femur_O
 *DATABASE_HISTORY_NODE_ID
 $#     id1                                                               heading
-   8260000L_Humerus_GH
-*DATABASE_HISTORY_NODE_ID
-$#     id1                                                               heading
-   8160000R_Humerus_GH
-*DATABASE_HISTORY_NODE_LOCAL_ID
-$#      id       cid       ref   
-   8381129   8381129         1
-$#                                                             heading       
-8381239, 8381239,1.0,C2_C3_MP
-*DATABASE_HISTORY_NODE_LOCAL_ID
-$#      id       cid       ref   
-   8381349   8381349         1
-$#                                                             heading       
-8381459, 8381459,1.0,C4_C5_MP
-*DATABASE_HISTORY_NODE_LOCAL_ID
-$#      id       cid       ref   
-   8381569   8381569         1
-$#                                                             heading       
-8381679, 8381679,1.0,C6_C7_MP
-*DATABASE_HISTORY_NODE_LOCAL_ID
-$#      id       cid       ref   
-   8381789   8381789         1
-$#                                                             heading       
-8382129, 8382129,1.0,T1_T2_MP
-*DATABASE_HISTORY_NODE_LOCAL_ID
-$#      id       cid       ref   
-   8382239   8382239         1
-$#                                                             heading       
-8382349, 8382349,1.0,T3_T4_MP
-*DATABASE_HISTORY_NODE_LOCAL_ID
-$#      id       cid       ref   
-   8382459   8382459         1
-$#                                                             heading       
-8382569, 8382569,1.0,T5_T6_MP
-*DATABASE_HISTORY_NODE_LOCAL_ID
-$#      id       cid       ref   
-   8382679   8382679         1
-$#                                                             heading       
-8382789, 8382789,1.0,T7_T8_MP
-*DATABASE_HISTORY_NODE_LOCAL_ID
-$#      id       cid       ref   
-   8382899   8382899         1
-$#                                                             heading       
-8382099, 8382099,1.0,T9_T10_MP
-*DATABASE_HISTORY_NODE_LOCAL_ID
-$#      id       cid       ref   
-   8382109   8382109         1
-$#                                                             heading       
-8382219, 8382219,1.0,T11_T12_MP
-*DATABASE_HISTORY_NODE_LOCAL_ID
-$#      id       cid       ref   
-   8382329   8382329         1
-$#                                                             heading       
-8383129, 8383129,1.0,L1_L2_MP
-*DATABASE_HISTORY_NODE_LOCAL_ID
-$#      id       cid       ref   
-   8383239   8383239         1
-$#                                                             heading       
-8383349, 8383349,1.0,L3_L4_MP
-*DATABASE_HISTORY_NODE_LOCAL_ID
-$#      id       cid       ref   
-   8383459   8383459         1
-$#                                                             heading       
-8190000, 8390000,1.0,Head_COG_Loc
-*DATABASE_HISTORY_NODE_ID
-$#     id1                                                               heading
    8381010C1_COG
 *DATABASE_HISTORY_NODE_ID
 $#     id1                                                               heading
@@ -641,6 +575,103 @@ $#     id1                                                               heading
 *DATABASE_HISTORY_NODE_ID
 $#     id1                                                               heading
    8382120T12_COG
+*DATABASE_HISTORY_NODE_LOCAL_ID
+$#      id       cid       ref   
+   8381129   8381129         1
+$#                                                             heading       
+C1_C2_MP
+$#      id       cid       ref   
+   8381239   8381239         1
+$#                                                             heading       
+C2_C3_MP
+$#      id       cid       ref   
+   8381349   8381349         1
+$#                                                             heading       
+C3_C4_MP
+$#      id       cid       ref   
+   8381459   8381459         1
+$#                                                             heading       
+C4_C5_MP
+$#      id       cid       ref   
+   8381569   8381569         1
+$#                                                             heading       
+C5_C6_MP
+$#      id       cid       ref   
+   8381679   8381679         1
+$#                                                             heading       
+C6_C7_MP
+$#      id       cid       ref   
+   8381789   8381789         1
+$#                                                             heading       
+C7_T1_MP
+$#      id       cid       ref   
+   8382129   8382129         1
+$#                                                             heading       
+T1_T2_MP
+$#      id       cid       ref   
+   8382239   8382239         1
+$#                                                             heading       
+T2_T3_MP
+$#      id       cid       ref   
+   8382349   8382349         1
+$#                                                             heading       
+T3_T4_MP
+$#      id       cid       ref   
+   8382459   8382459         1
+$#                                                             heading       
+T4_T5_MP
+$#      id       cid       ref   
+   8382569   8382569         1
+$#                                                             heading       
+T5_T6_MP
+$#      id       cid       ref   
+   8382679   8382679         1
+$#                                                             heading       
+T6_T7_MP
+$#      id       cid       ref   
+   8382789   8382789         1
+$#                                                             heading       
+T7_T8_MP
+$#      id       cid       ref   
+   8382899   8382899         1
+$#                                                             heading       
+T8_T9_MP
+$#      id       cid       ref   
+   8382099   8382099         1
+$#                                                             heading       
+T9_T10_MP
+$#      id       cid       ref   
+   8382109   8382109         1
+$#                                                             heading       
+T10_T11_MP
+$#      id       cid       ref   
+   8382219   8382219         1
+$#                                                             heading       
+T11_T12_MP
+$#      id       cid       ref   
+   8382329   8382329         1
+$#                                                             heading       
+T12_L1_MP
+$#      id       cid       ref   
+   8383129   8383129         1
+$#                                                             heading       
+L1_L2_MP
+$#      id       cid       ref   
+   8383239   8383239         1
+$#                                                             heading       
+L2_L3_MP
+$#      id       cid       ref   
+   8383349   8383349         1
+$#                                                             heading       
+L3_L4_MP
+$#      id       cid       ref   
+   8383459   8383459         1
+$#                                                             heading       
+L4_L5_MP
+$#      id       cid       ref   
+   8190000   8390000         1
+$#                                                             heading       
+Head_COG_Loc
 *DEFINE_COORDINATE_NODES_TITLE
 Right_ankle_joint
 $#     cid        n1        n2        n3      flag       dir   
