@@ -9,13 +9,13 @@ bibliography: [../../viva-refs.bib]
     This section is being updated
 
 ??? note "Lower Extremity Components Identifier Overview"
-    |         Component Group | Identifier Range (Start) |
-    |------------------------:|:-------------------------|
-    |                   Bones | 701000                   |
-    |   Knee joint structures | 702000                   |
-    |         Feet structures | 704000                   |
-    |        Leg soft tissues | 705000                   |
-    | Tibiofibular structures | 706000                   |
+    |     **Component Group** | **Identifier Range (Start)** |
+    |------------------------:|:-----------------------------|
+    |                   Bones | 701000                       |
+    |   Knee joint structures | 702000                       |
+    |         Feet structures | 704000                       |
+    |        Leg soft tissues | 705000                       |
+    | Tibiofibular structures | 706000                       |
 
 ## Bones
 
@@ -25,22 +25,22 @@ The femur cross section was optimised to meet the target values of Klein et al. 
 The following target values were used (applying the regression model described in the paper and using age, stature and BMI of the 50F VIVA + models (50 years, 161.6 cm, 24 kg/m$^2$)
 An elliptic inner shape was assumed, which is in line with medical images. However, if a proper inner geometry becomes available, this should be updated. The maximum difference to the reference is 3.3%.
 
-
-| Bone cross sectional area [mm$^2$]  | L1  | L2  | L3  | L4  | L5  |
-|-------------------------------------|-----|-----|-----|-----|-----|
-|  Target from Klein et al. for 50F   | 361 | 310 | 303 | 255 | 199 |
-|  Measured values in VIVA+ 50F       | 372 | 306 | 300 | 252 | 193 |
+??? note "Bone corss sectional area"
+    | **Bone cross sectional area [mm$^2$]** | **L1** | **L2** | **L3** | **L4** | **L5** |
+    |----------------------------------------|--------|--------|--------|--------|--------|
+    | Target from Klein et al. for 50F       | 361    | 310    | 303    | 255    | 199    |
+    | Measured values in VIVA+ 50F           | 372    | 306    | 300    | 252    | 193    |
 
 
 ??? note "Femur Mesh Quality"
-    | Criteria       | limit          | % of failed elements | limit          | % of failed elements |
-    |:---------------|----------------|----------------------|----------------|----------------------|
-    | Aspect Ratio   | < 10           | 0                    | 3              | 3.59                 |
-    | Skewness       | > 60$^{\circ}$ | 0                    | >45$^{\circ}$  | 2.71                 |
-    | Warping        | < 15           | 0                    | <10            | 0.26                 |
-    | Jacobian       | <0.3           | 0                    | >0.7           | 0.57                 |
-    | Internal Angle | >160$^{\circ}$ | 0                    | >140$^{\circ}$ | 1.95                 |
-    |                | <20$^{\circ}$  | 0                    | <30$^{\circ}$  | 0.07                 |
+    | **Criteria**   | **limit**      | **% of failed elements** | **limit**      | **% of failed elements** |
+    |:---------------|----------------|--------------------------|----------------|--------------------------|
+    | Aspect Ratio   | < 10           | 0                        | 3              | 3.59                     |
+    | Skewness       | > 60$^{\circ}$ | 0                        | >45$^{\circ}$  | 2.71                     |
+    | Warping        | < 15           | 0                        | <10            | 0.26                     |
+    | Jacobian       | <0.3           | 0                        | >0.7           | 0.57                     |
+    | Internal Angle | >160$^{\circ}$ | 0                        | >140$^{\circ}$ | 1.95                     |
+    |                | <20$^{\circ}$  | 0                        | <30$^{\circ}$  | 0.07                     |
 
 Cortical bone properties are based on Mirzaali et al. (2016)[@Mirzaali2016]. Subjects with diagnosed osteoporosis were excluded.
 Trabecular bone properties are based on Ding et al. (1997)[@Ding1997]
@@ -52,14 +52,14 @@ Trabecular bone properties are based on Ding et al. (1997)[@Ding1997].
 
 
 ??? note "Tibia Mesh Quality"
-    | Criteria       | limit          | % of failed elements | limit          | % of failed elements |
-    |:---------------|----------------|----------------------|----------------|----------------------|
-    | Aspect Ratio   | < 10           | TODO                 | 3              | TODO                 |
-    | Skewness       | > 60$^{\circ}$ | TODO                 | >45$^{\circ}$  | TODO                 |
-    | Warping        | < 15           | TODO                 | <10            | TODO                 |
-    | Jacobian       | <0.3           | TODO                 | >0.7           | TODO                 |
-    | Internal Angle | >160$^{\circ}$ | TODO                 | >140$^{\circ}$ | TODO                 |
-    |                | <20$^{\circ}$  | TODO                 | <30$^{\circ}$  | TODO                 |
+    | **Criteria**   | **limit**      | ** % of failed elements** | **limit**      | **% of failed elements** |
+    |:---------------|----------------|---------------------------|----------------|--------------------------|
+    | Aspect Ratio   | < 10           | TODO                      | 3              | TODO                     |
+    | Skewness       | > 60$^{\circ}$ | TODO                      | >45$^{\circ}$  | TODO                     |
+    | Warping        | < 15           | TODO                      | <10            | TODO                     |
+    | Jacobian       | <0.3           | TODO                      | >0.7           | TODO                     |
+    | Internal Angle | >160$^{\circ}$ | TODO                      | >140$^{\circ}$ | TODO                     |
+    |                | <20$^{\circ}$  | TODO                      | <30$^{\circ}$  | TODO                     |
 
 <!-- (TODO: double check with other parameters!) -->
 
@@ -68,14 +68,14 @@ Bone cross section properties are reported in Matsuura et al. (1999)[@Matsuura19
 
 
 ??? note "Fibula Mesh Quality"
-    | Criteria       | limit          | % of failed elements | limit          | % of failed elements |
-    |:---------------|----------------|----------------------|----------------|----------------------|
-    | Aspect Ratio   | < 10           | TODO                 | 3              | TODO                 |
-    | Skewness       | > 60$^{\circ}$ | TODO                 | >45$^{\circ}$  | TODO                 |
-    | Warping        | < 15           | TODO                 | <10            | TODO                 |
-    | Jacobian       | <0.3           | TODO                 | >0.7           | TODO                 |
-    | Internal Angle | >160$^{\circ}$ | TODO                 | >140$^{\circ}$ | TODO                 |
-    |                | <20$^{\circ}$  | TODO                 | <30$^{\circ}$  | TODO                 |
+    | **Criteria**   | **limit**      | ** % of failed elements** | **limit**      | **% of failed elements** |
+    |:---------------|----------------|---------------------------|----------------|--------------------------|
+    | Aspect Ratio   | < 10           | TODO                      | 3              | TODO                     |
+    | Skewness       | > 60$^{\circ}$ | TODO                      | >45$^{\circ}$  | TODO                     |
+    | Warping        | < 15           | TODO                      | <10            | TODO                     |
+    | Jacobian       | <0.3           | TODO                      | >0.7           | TODO                     |
+    | Internal Angle | >160$^{\circ}$ | TODO                      | >140$^{\circ}$ | TODO                     |
+    |                | <20$^{\circ}$  | TODO                      | <30$^{\circ}$  | TODO                     |
 
 ### Patella
 The patella is currently modelled as rigid.
@@ -148,22 +148,21 @@ Attachment points on femur:
 Blumensaat’s line (roof of femoral intercondylar ): based on Iriuchishima et al. (2015)[@Iriuchishima2015]. Ligaments were attached to the bones based on the anatomic landmarks described in the review of Bedi et al. (2018)[@Bedi2018]. Furthermore, the OpenKnee model was used as reference.
 
 ??? note "Ligament dimensions anteroposterior"
-
-    | **Ligament**             | **Length <br/>[mm]** |         **Width <br/>[mm]**          |      **Thickness <br/>[mm]**       | **CrossectionArea <br/>[mm$^2$]** |                                     **Sources**                                      |
-    |--------------------------|:--------------------:|:------------------------------------:|:----------------------------------:|:---------------------------------:|:------------------------------------------------------------------------------------:|
-    | ACL                      |   f:30.25, m:32.9    |           f: 9.9, m: 12.2            |             4.78-4.89              |         f:37.08, m:50.36          | [@Anderson2001 ' @Chandrashekar2005 ' @Cone2019 ' @Stijak2009 ' @Triantafyllidi2013] |
-    | ACL (tibial insertion)   |          -           |   f: 13.2, m: 13.5 (medio-lateral)   |  f:18.7, m: 20  (anteroposterior)  |        f: 118.85, m:142.5         |                              [@Cone2019 ' @Stijak2009]                               |
-    | ACL (femoral Insertion)  |          -           |   f: 6.3, m: 6.8 (anteroposterior)   | f: 12.4, m: 14.4 (proximal-distal) |         f: 81.45, m:98.9          |                              [@Cone2019 ' @Stijak2009]                               |
-    | PCL                      |        32-38         |         8-19.5 (mean=13.75)          |             3.85-6.63              |               64.05               |                        [@Triantafyllidi2013 ' @Logterman2018]                        |
-    | PCL (tibial insertion)   |          -           |                 9.58                 |                9.12                |              147.67               |               [@Triantafyllidi2013 ' @Logterman2018 ' @Takahashi2006]                |
-    | PCL (femoral insertion)  |          -           |                 5.35                 |               20.69                |               148.2               |               [@Triantafyllidi2013 ' @Logterman2018 ' @Takahashi2006]                |
-    | MCL                      |         87.5         | 10.9 (prox), 17.7 (mid), 10.7 (dist) |                2.1                 |                ??                 |                  [@Liu2010 ' @Otake2007 ' @Park2006 ' @Wilson2012]                   |
-    | MCL (femoral ins)        |          -           |        11.5 (anteroposterior)        |       9.2 (proximal-distal)        |               75.5                |                        [@Liu2010 ' @Otake2007 ' @Kennedy2015]                        |
-    | MCL (tibial ins sMCL)    |          -           |       12.2  (anteroposterior)        |      23.87 (proximal-distal)       |               307.7               |                        [@Liu2010 ' @Otake2007 ' @Kennedy2015]                        |
-    | MCL (tibial ins.- dist.) |          -           |                  18                  |                 5                  |               63.4                |                                      [@Liu2010]                                      |
-    | LCL                      |   f: 57.3, m:61.3    |                 5.13                 |                2.4                 |                 -                 |                  [@Espregueira2006 ' @Meister2000 ' @Tschauner2016]                  |
-    | LCL (femoral ins)        |          -           |        9.7 (anteroposterior)         |                11.2                |               52.1                |            [@Espregueira2006 ' @Meister2000 ' @Brinkman2005 ' @Song2014]             |
-    | LCL (tibial ins)         |          -           |       7.97  (anteroposterior)        |                11.9                |               38.6                |            [@Espregueira2006 ' @Meister2000 ' @Brinkman2005 ' @Song2014]             |
+    | **Ligament**             | **Length <br/>[mm]** |         **Width <br/>[mm]**          |      **Thickness <br/>[mm]**       | **CrossectionArea <br/>[mm$^2$]** |                                        **Sources**                                         |
+    |--------------------------|:--------------------:|:------------------------------------:|:----------------------------------:|:---------------------------------:|:------------------------------------------------------------------------------------------:|
+    | ACL                      |   f:30.25, m:32.9    |           f: 9.9, m: 12.2            |             4.78-4.89              |         f:37.08, m:50.36          | [@Anderson2001]$^,$[@Chandrashekar2005]$^,$[@Cone2019]'[@Stijak2009]'[@Triantafyllidi2013] |
+    | ACL (tibial insertion)   |          -           |   f: 13.2, m: 13.5 (medio-lateral)   |  f:18.7, m: 20  (anteroposterior)  |        f: 118.85, m:142.5         |                                [@Cone2019]$^,$[@Stijak2009]                                |
+    | ACL (femoral Insertion)  |          -           |   f: 6.3, m: 6.8 (anteroposterior)   | f: 12.4, m: 14.4 (proximal-distal) |         f: 81.45, m:98.9          |                                [@Cone2019]$^,$[@Stijak2009]                                |
+    | PCL                      |        32-38         |         8-19.5 (mean=13.75)          |             3.85-6.63              |               64.05               |                         [@Triantafyllidi2013]$^,$[@Logterman2018]                          |
+    | PCL (tibial insertion)   |          -           |                 9.58                 |                9.12                |              147.67               |               [@Triantafyllidi2013]$^,$[@Logterman2018]$^,$[@Takahashi2006]                |
+    | PCL (femoral insertion)  |          -           |                 5.35                 |               20.69                |               148.2               |               [@Triantafyllidi2013]$^,$[@Logterman2018]$^,$[@Takahashi2006]                |
+    | MCL                      |         87.5         | 10.9 (prox), 17.7 (mid), 10.7 (dist) |                2.1                 |                ??                 |                 [@Liu2010]$^,$[@Otake2007]$^,$[@Park2006]$^,$[@Wilson2012]                 |
+    | MCL (femoral ins)        |          -           |        11.5 (anteroposterior)        |       9.2 (proximal-distal)        |               75.5                |                        [@Liu2010]$^,$[@Otake2007]$^,$[@Kennedy2015]                        |
+    | MCL (tibial ins sMCL)    |          -           |       12.2  (anteroposterior)        |      23.87 (proximal-distal)       |               307.7               |                        [@Liu2010]$^,$[@Otake2007]$^,$[@Kennedy2015]                        |
+    | MCL (tibial ins.- dist.) |          -           |                  18                  |                 5                  |               63.4                |                                         [@Liu2010]                                         |
+    | LCL                      |   f: 57.3, m:61.3    |                 5.13                 |                2.4                 |                 -                 |               [@EspregueiraMendes2005]$^,$[@Meister2000]$^,$[@Tschauner2016]               |
+    | LCL (femoral ins)        |          -           |        9.7 (anteroposterior)         |                11.2                |               52.1                |        [@EspregueiraMendes2005]$^,$[@Meister2000]$^,$[@Brinkman2005]$^,$[@Song2013]        |
+    | LCL (tibial ins)         |          -           |       7.97  (anteroposterior)        |                11.9                |               38.6                |        [@EspregueiraMendes2005]$^,$[@Meister2000]$^,$[@Brinkman2005]$^,$[@Song2013]        |
 
 
 #### Lateral Collateral Ligament (LCL)
@@ -173,7 +172,6 @@ LaPrade et al. (2003)[@LaPrade2003]: "The average cross-sectional area of the fi
 ##### Femur Attachment
 According to Kamath et al. (2010)[@Kamath2010], the femoral LCL insertion(black dot) is 58%±4.7% across the width of the lateral femoral condyle along the Blumensaat line and 2.3±2.3 mm distal to this point.
 
-
 ##### Fibula attachement
 Based on LaPrade et al. (2003)[@LaPrade2003]: "As the fibular collateral ligament coursed distally and attached on the lateral aspect of the fibular head, its average attachment was 8.2 mm (range, 6.8 to 9.7) posterior to the anterior margin of the fibular head and 28.4 mm (range, 25.1 to 30.6) distal to the tip of the fibular styloid process (Table 1). The average cross-sectional area of the attachment on the fibular head was 0.43 cm$^2$ (range, 0.39 to 0.50). The fibular collateral ligament attachment was, on average, 38% (range, 28% to 46%) of the total width of the fibular head (anterior to posterior) from the anterior edge of the fibular head. The majority of the distal attachment was found in a bony depression that extended to approximately the distal one-third of the lateral aspect of the fibular head (Figs. 1 and 2). The remaining fibers extended further distally along with the peroneus longus fascia.25,26 The average total length of the fibular collateral ligament between its attachment sites was 69.6 mm (range, 62.6 to 73.5)."
 
@@ -181,7 +179,7 @@ Based on LaPrade et al. (2003)[@LaPrade2003]: "As the fibular collateral ligamen
 
 Based on Wijdicks et al. (2009)[@Wijdicks2009] - values in table 5 will be used.
 
-Additionally, [pictures](https://ars.els-cdn.com/content/image/1-s2.0-S2212628715001401-gr1.jpg) from Prince et al. (2015)[@Prince2015] were used.
+Additionally, [figure](https://ars.els-cdn.com/content/image/1-s2.0-S2212628715001401-gr1.jpg) from Prince et al. (2015)[@Prince2015] was used.
 
 ##### Femur attachment
 
@@ -210,6 +208,7 @@ According to Yahagi et al. (2017)[@Yahagi2017], who are proposing a method which
 In large hill type knees, the ACL center was placed as follows: Grid (1) 37.1 ± 5.6% in the shallow–deep, 50.4 ± 5.8% in the high–low directions"
 
 Method to derive both bundle attachments as in Pietrini et al. (2011)[@Pietrini2011]:
+
  [Femoral head](https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00167-010-1372-1/MediaObjects/167_2010_1372_Fig4_HTML.gif?as=webp),
  [Tibial plateau](https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00167-010-1372-1/MediaObjects/167_2010_1372_Fig5_HTML.gif?as=webp).
 
@@ -231,45 +230,39 @@ Data based on Bloecker et al. (2011)[@Bloecker2011]:
  [Table 1](https://bmcmusculoskeletdisord.biomedcentral.com/articles/10.1186/1471-2474-12-248/tables/1) and
  [Table 2](https://bmcmusculoskeletdisord.biomedcentral.com/articles/10.1186/1471-2474-12-248/tables/2).
 
-
-|                 | **Mean avg. thickness <br/>[mm]** | **Mean max. thickness <br/>[mm]** | **Mean avg. width <br/>[mm]** | **Mean max. width <br/>[mm]** |
-|-----------------|--------------------------|--------------------------|----------------------|----------------------|
-| Females Medial  | 2.55                     | 7.15                     | 9.11                 | 16.9                 |
-| Females Lateral | 2.51                     | 6.75                     | 8.6                  | 18.8                 |
-| Males Medial    | 2.8                      | 7.71                     | 9.93                 | 12.5                 |
-| Males Lateral   | 2.67                     | 7.23                     | 10.1                 | 14.2                 |
+??? note "Meniscus width and thickness"
+    |                 | **Mean avg. thickness <br/>[mm]** | **Mean max. thickness <br/>[mm]** | **Mean avg. width <br/>[mm]** | **Mean max. width <br/>[mm]** |
+    |-----------------|:---------------------------------:|:---------------------------------:|:-----------------------------:|:-----------------------------:|
+    | Females Medial  |               2.55                |               7.15                |             9.11              |             16.9              |
+    | Females Lateral |               2.51                |               6.75                |              8.6              |             18.8              |
+    | Males Medial    |                2.8                |               7.71                |             9.93              |             12.5              |
+    | Males Lateral   |               2.67                |               7.23                |             10.1              |             14.2              |
 
 
 #### Knee Cartilage
 
-Cartilage:
-
-Male vs. Female, young healthy individuals, MRI based data on Faber et al. (2001)[@Faber2001]
-
-| **Location**    | **Female mean Thickness <br/>[mm]** | **Male mean Thickness <br/>[mm]** | **Female maximal Thickness <br/>[mm]** | **Male maximal Thickness <br/>[mm]** | **Female Area <br/>[mm$^2$]** | **Male Area <br/>[mm$^2$]** |
-|-----------------|-------------------------------------|-----------------------------------|----------------------------------------|--------------------------------------|-------------------------------|-----------------------------|
-| Patella         | 2.2±0.43                            | 2.39±0.42                         | 4.51±1.08                              | 5.26±0.99                            | 1047±123                      | 1289±158                    |
-| Femur (total)   | 1.79±0.22                           | 1.88±0.29                         |                                        |                                      | 5478±655                      | 6554±391                    |
-| Trochlea        | 2.01±0.25                           | 2.05±0.32                         | 4.2±0.48                               | 4.51±0.72                            |                               |                             |
-| Medial condyle  | 1.69±0.24                           | 1.86±0.31                         | 3.73±0.67                              | 3.89±0.85                            |                               |                             |
-| Lateral condyle | 1.65±0.33                           | 1.73±0.32                         | 3.29±0.64                              | 3.69±0.47                            |                               |                             |
-| Tibia medial    | 1.2±0.19                            | 1.36±0.15                         | 2.9±0.92                               | 3.43±0.86                            | 811±122                       | 1078±235                    |
-| Tibia lateral   | 1.61±0.25                           | 1.7±0.27                          | 3.96±0.51                              | 4.54±0.91                            | 881±98                        | 1175±147                    |
-| Knee total      | 1.86±0.24                           | 2.01±0.31                         |                                        |                                      | 8218±795                      | 10096±498                   |
+??? note "Male vs. Female cartilage thickness, young healthy individuals, MRI based data on Faber et al. (2001)[@Faber2001]"
+    | **Location**    | **Female mean Thickness <br/>[mm]** | **Male mean Thickness <br/>[mm]** | **Female maximal Thickness <br/>[mm]** | **Male maximal Thickness <br/>[mm]** | **Female Area <br/>[mm$^2$]** | **Male Area <br/>[mm$^2$]** |
+    |-----------------|:-----------------------------------:|:---------------------------------:|:--------------------------------------:|:------------------------------------:|:-----------------------------:|:---------------------------:|
+    | Patella         |              2.2±0.43               |             2.39±0.42             |               4.51±1.08                |              5.26±0.99               |           1047±123            |          1289±158           |
+    | Femur (total)   |              1.79±0.22              |             1.88±0.29             |                   -                    |                  -                   |           5478±655            |          6554±391           |
+    | Trochlea        |              2.01±0.25              |             2.05±0.32             |                4.2±0.48                |              4.51±0.72               |               -               |              -              |
+    | Medial condyle  |              1.69±0.24              |             1.86±0.31             |               3.73±0.67                |              3.89±0.85               |               -               |              -              |
+    | Lateral condyle |              1.65±0.33              |             1.73±0.32             |               3.29±0.64                |              3.69±0.47               |               -               |              -              |
+    | Tibia medial    |              1.2±0.19               |             1.36±0.15             |                2.9±0.92                |              3.43±0.86               |            811±122            |          1078±235           |
+    | Tibia lateral   |              1.61±0.25              |             1.7±0.27              |               3.96±0.51                |              4.54±0.91               |            881±98             |          1175±147           |
+    | Knee total      |              1.86±0.24              |             2.01±0.31             |                   -                    |                  -                   |           8218±795            |          10096±498          |
 
 
-Cartilage: Gender specific dimensions by Eckstein et al. (2001)[@Eckstein2001]
+??? note "Cartilage: Gender specific dimensions by Eckstein et al. (2001)[@Eckstein2001]"
+    | **Location**  | **Female Thickness <br/>[mm]** | **Male Thickness <br/>[mm]** | **Female Area <br/>[mm$^2$]** | **Male Area <br/>[mm$^2$]** |
+    |---------------|:------------------------------:|:----------------------------:|:-----------------------------:|:---------------------------:|
+    | Patella       |              2.5               |             2.6              |             1100              |            1400             |
+    | Femur (total) |              1.6               |             1.75             |             5000              |            6500             |
+    | Tibia medial  |              1.45              |             1.55             |              900              |            1150             |
+    | Tibia lateral |              1.75              |              2               |              900              |            1150             |
 
-| **Location**  | **Female Thickness <br/>[mm]** | **Male Thickness <br/>[mm]** | **Female Area <br/>[mm$^2$]** | **Male Area <br/>[mm$^2$]** |
-|---------------|--------------------------------|------------------------------|-------------------------------|-----------------------------|
-| Patella       | 2.5                            | 2.6                          | 1100                          | 1400                        |
-| Femur (total) | 1.6                            | 1.75                         | 5000                          | 6500                        |
-| Tibia medial  | 1.45                           | 1.55                         | 900                           | 1150                        |
-| Tibia lateral | 1.75                           | 2                            | 900                           | 1150                        |
-
-
-
-#### Patella ligament
+#### Patellar ligament
 
 The attachment point on the tibia is 36 mm below the most distal edge of the patella.
 
@@ -277,13 +270,13 @@ This is in line with Yoo et al. (2007)[@Yoo2007], where an average value of 38 m
 
 They report a proximal width of 27.5 mm and a tickness of 3 mm while for the distal tendon a tickness of 4.6 mm and a width of 21.5 mm is reported.
 
-|                                      | **Distal length <br/>[mm]** | **Distal width <br/>[mm]**        | **Distal thickness <br/>[mm]** | **Proximal width <br/>[mm]**       | **Proximal thickness <br/>[mm]** |
-|--------------------------------------|-----------------------------|-----------------------------------|--------------------------------|------------------------------------|----------------------------------|
-| Female (Yoo et al. (2007)[@Yoo2007]) | 38                          | 21.5                              | 4.6                            | 27.5                               | 3                                |
-| VIVA+50F                             | 36                          | 23.4 at patella; 25 at distal end | 4.6                            | 26 at patella; 21 at most proximal | 3                                |
-| Male (Yoo et al. (2007)[@Yoo2007])   |                             |                                   |                                |                                    |                                  |
-| VIVA+50M                             |                             |                                   |                                |                                    |                                  |
-
+??? note "Patellar ligament dimensions"
+    |                                      | **Distal length <br/>[mm]** |    **Distal width <br/>[mm]**     | **Distal thickness <br/>[mm]** |    **Proximal width <br/>[mm]**    | **Proximal thickness <br/>[mm]** |
+    |--------------------------------------|:---------------------------:|:---------------------------------:|:------------------------------:|:----------------------------------:|:--------------------------------:|
+    | Female (Yoo et al. (2007)[@Yoo2007]) |             38              |               21.5                |              4.6               |                27.5                |                3                 |
+    | VIVA+50F                             |             36              | 23.4 at patella; 25 at distal end |              4.6               | 26 at patella; 21 at most proximal |                3                 |
+    | Male (Yoo et al. (2007)[@Yoo2007])   |                             |                                   |                                |                                    |                                  |
+    | VIVA+50M                             |                             |                                   |                                |                                    |                                  |
 
 ####  Quadriceps muscle
 
@@ -303,7 +296,8 @@ The the initial model configuration only one discrete element was used for the c
 
 ### Ankle Joint
 
-Simplified kinematic revolute joint for ankle is defined in the model between tibia-fibula and talus - rotational axis from lateral to medial malleolus - from Mansfield et al. (2019)[@Mansfield2019]
+Simplified kinematic revolute joint for ankle is defined in the model between tibia-fibula and talus - rotational axis from lateral to medial malleolus - from Mansfield et al. (2018)[@Mansfield2018]
+
  [Ankle landmarks](https://ars.els-cdn.com/content/image/3-s2.0-B9780323544986000114-f11-03-9780323544986.jpg).
 
 ## Contact Definitions
