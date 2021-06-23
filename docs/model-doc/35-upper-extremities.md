@@ -1,6 +1,7 @@
 ---
 bibliography: [../../viva-refs.bib]
 ---
+
 # Shoulder and Upper Extremity
 
 !!! warning "This section of the documentation is under development"
@@ -137,8 +138,9 @@ For the VIRTUAL version of the VIVA+ models, joints of the upper extremities wil
 - Humerus und ulna are connected with a revolute joint (axis through medial and lateral epicondyle of humerus)
 - Humerus and radius are connected with a spherical joint (center of rotation on tip of Radius). 
 - The radius and ulna are connected with a spherical joint on the distal end (center of rotation on ulnar styloid)
-
-!!! note "Future Development" 
+ 
+<!-- 
+??? note "Future Development" 
         
     ### Gender Differences
 
@@ -149,5 +151,7 @@ For the VIRTUAL version of the VIVA+ models, joints of the upper extremities wil
     ### Changes due to aging
 
     Paper: High-Resolution Tomography-Based Quantification of **Cortical Porosity and Cortical Thickness at the Surgical Neck** of the Humerus During Aging [@Helfen2017]
+     -->
 
-    \bibliography
+
+\bibliography
