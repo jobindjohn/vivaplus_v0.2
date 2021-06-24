@@ -49,3 +49,9 @@ viva-plus
 ![LGPLv3)](docs/images/lgplv3.png)
 
 The models are licensed under [GNU Lesser General Public License, v3](https://www.gnu.org/licenses/lgpl-3.0-standalone.html)
+
+
+## Acknowledgement
+
+![VIRTUAL Funding](docs/images/VIRTUAL_EUFunding.png)
+See [projectvirtual.eu](https://projectvirtual.eu/) for more details.
