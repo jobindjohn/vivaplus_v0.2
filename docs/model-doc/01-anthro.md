@@ -25,7 +25,7 @@ The data for this analysis was taken from [eurostat](https://ec.europa.eu/eurost
 
 ## Mass distribution
 
-For the male, data from Dempster et al., 1967 [@Dempster1967] was used. In this study, the mass in percent for the different body regions (Table 6) as well as the density per body region is presented. Furthermore, Schneider et al. 1983 [@Schneider1983] was used for additional comparison. They have assumed an uniform density throughout the whole body and estimated the mass based on volume distribuions calculated from regression models. 
+For the male, data from Dempster et al., 1967 [@Dempster1967] was used. In this study, the mass in percent for the different body regions (Table 6) as well as the density per body region is presented. Furthermore, Schneider et al. 1983 [@Schneider1983] was used for additional comparison. They have assumed a uniform density throughout the whole body and estimated the mass based on volume distribuions calculated from regression models. 
 For the head mass and head moments of inertia, refer to [Head Documentation](../20-head)
 
 
@@ -41,10 +41,10 @@ For the head mass and head moments of inertia, refer to [Head Documentation](../
 | Lower Leg             |                 3 kg / 4%                 |                          4.6%                          |                            3.6 kg / 4.7%                            |
 | **Total Mass**            |                 **76.75 kg**                  |                           -                            |                               76.6 kg                               |
 
-To reach this target mass distribution, the desity of the soft tissue was set to 1.1E-6 kg/mm^3, except the lower extremities (705112, 705142, 705192, 755112, 755142, 755192), where the density was set to 1.24E-6 kg/mm^3.
+To reach this target mass distribution, the density of the soft tissue was set to 1.1E-6 kg/mm^3, except the lower extremities (705112, 705142, 705192, 755112, 755142, 755192), where the density was set to 1.24E-6 kg/mm^3.
 
-For the female, unfortunately no comparable dataset is available. It was decided to use a smimilar approach as for the male (use overall flesh density to achieve targeted mass and increase density for the lower extremities, as it was assumed that the lack of mass in the male for the lower extremities was caused by a higher ratio of muscles and simplifications in the leg model causingsveral voids).
-A comparison with the EvaRID model (Carlsson et al., 2012) is shown below. An uniform density throughout the whole body and estimated the mass based on volume distribuions calculated from regression models from Young et al., 1983. In Schneider et al. 1983 only mass distributions for the 5th percentile female are included. The mass distribution within the trunk is determined by the representative average geometries from the VIVA+ model. The grouping for this body parts is not alligned with the EvaRID dummy, but armonised with the male, so that the two shown tables are comparable. 
+For the female, unfortunately no comparable dataset is available. It was decided to use a similar approach as for the male (use overall flesh density to achieve targeted mass and increase density for the lower extremities, as it was assumed that the lack of mass in the male for the lower extremities was caused by a higher ratio of muscles and simplifications in the leg model causing several voids).
+A comparison with the EvaRID model (Carlsson et al., 2012) is shown below. For this comparison, a uniform density throughout the whole body was assumed and we estimated the mass based on volume distribuions calculated from regression models from Young et al., 1983. In Schneider et al. 1983 only mass distributions for the 5th percentile female are included. The mass distribution within the trunk is determined by the representative average geometries from the VIVA+ model. The grouping for these body parts is not aligned with the EvaRID dummy, but harmonised with the male, so that the two tables are comparable. 
 
 
 | Body Region                | VIVA + 50F <br/>`kg`   / `% of body mass` | EvaRID <br/>`% of body mass` |
