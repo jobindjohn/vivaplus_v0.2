@@ -4,6 +4,8 @@
     
     This section is being updated
 
+A preliminary version of the pelvis was developed within VIRTUAL https://projectvirtual.eu/ and is currently further enanced witin SAFEUP https://www.safe-up.eu/. 
+
 ## Bones
 
 ### Pelvis
@@ -14,9 +16,10 @@ We have derived an average curve from all curves that were presented in the pape
 
 The trabecular bone is modelled as linear elastic material using the parameters descibed in Dalstra et al. (1993)[@Dalstra1993]. The material parameters will be altered in the future - the yield stress is a "dummy value" only and the young modulus should be increased. 
 
-TODO:
+Work in progress:
 
-- [ ] Increase Young Modulus of trabecular bone
+- [ ] The material model of the trabecular bone will be recailbrated
+- [ ] The cortical thickness of the cortical pelvis bone will be set to average nodal thicknesses based on data from Harris et al (2012) 
 
 <!-- Notes: From Fleps et al. (2018): "Acetabular cartilage was modelled based on the study of Burgin et al. [28] using a hyperelastic material model without viscoelastic effect (LS Dyna, MAT_077, v = 0.495, rho = 0.795 g/cm3, C10 = 0.352 MPa, C01 = 0.306 MPa, C11 = 0.052 MPa). Hyperelastic material parameters for fibrous cartilage at the pubic symphysis were based on the study from Li et al. [29] (LS Dyna, MAT_027, v = 0.495, rho = 0.795 g/cm3, C10 = 0.1 MPa, C01 = 0.45 MPa). The same parameters were also used for the cartilage in the sacroiliac joint for lack of better published information."
 Pelvic ligaments were modelled with tension only cable elements with material properties according to Hammer et al. [31] (LS Dyna, MAT_071, E = 395 MPa). Cross sections that were based on subject specific insertion site length and an average ligament thickness of 1mm. -->
@@ -110,12 +113,9 @@ leading to the Young's modulus
 As the appropiate stiffness will be mainly important in lateral impacts and only validation loadcases for this impact direction are available, a linear elastic material is chosen for the baseline model using a young modulus of 1.612 N/mm^2
 The density is set to the same one as for the PS disk. 
 
-TODO: 
+Work in progress: 
 
-- [ ] The sacroilliac should be recalibrated using the experiments of [@Guillemot.1998] as male and female pelvic bones were tested. For the quaistatic tests, a pelvic bone of  one female (S7) with an age of 63 years a height of 160 cm and a weight of 55 kg.  For the dynamic tests, 6 out of the 12 tested pelvic bones were from females with an age between 65 and 81.
-
-
-- [ ] For the male, [@Salzar2009] can be also used: The quasi-static tests were done with a testing machine at a constant 4mm/s. The dynamic tests were done with a drop tower, consisting of a 76.6 kg weight dropped along a linear bearing rail onto a transfer beam, Figure 2 3. Between the weight and the beam was a 19 mm viscoelastic material Sorbothane (Sorbothane, Inc., Kent, OH)
+- [ ] The material parameters of the sacriliajoint are optimised to match experimets of Miller et al (1987) [@Miller1987] for ine directions
 
 
 The sacroiliac joint is connected with the ilium using a tied contact.
@@ -123,9 +123,9 @@ The sacroiliac joint is connected with the ilium using a tied contact.
 ### Pubic Symphysis
 Material parameters for the PS were taken from Li et al. (2006)[@Li2006] based on Dakin et al (2000)[@Dakin2000].
 
-TODO: 
+Work in progress: 
 
-- [ ] PS should be recalibrated - Dakin experiments should be simulated.
+- [ ] PS is recalibrated using target curves from Li et al. (2006)[@Li2006] 
 
 
 
