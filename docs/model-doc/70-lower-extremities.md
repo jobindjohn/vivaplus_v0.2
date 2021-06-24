@@ -25,22 +25,32 @@ The femur cross section was optimised to meet the target values of Klein et al. 
 The following target values were used (applying the regression model described in the paper and using age, stature and BMI of the 50F VIVA + models (50 years, 161.6 cm, 24 kg/m$^2$)
 An elliptic inner shape was assumed, which is in line with medical images. However, if a proper inner geometry becomes available, this should be updated. The maximum difference to the reference is 3.3%.
 
-??? note "Bone corss sectional area"
+??? note "Femur cross sectional area"
     | **Bone cross sectional area [mm$^2$]** | **L1** | **L2** | **L3** | **L4** | **L5** |
     |----------------------------------------|--------|--------|--------|--------|--------|
     | Target from Klein et al. for 50F       | 361    | 310    | 303    | 255    | 199    |
     | Measured values in VIVA+ 50F           | 372    | 306    | 300    | 252    | 193    |
 
 
-??? note "Femur Mesh Quality"
+??? note "Femur Solid Mesh Quality"
     | **Criteria**   | **limit**      | **% of failed elements** | **limit**      | **% of failed elements** |
     |:---------------|----------------|--------------------------|----------------|--------------------------|
-    | Aspect Ratio   | < 10           | 0                        | 3              | 3.59                     |
-    | Skewness       | > 60$^{\circ}$ | 0                        | >45$^{\circ}$  | 2.71                     |
-    | Warping        | < 15           | 0                        | <10            | 0.26                     |
-    | Jacobian       | <0.3           | 0                        | >0.7           | 0.57                     |
-    | Internal Angle | >160$^{\circ}$ | 0                        | >140$^{\circ}$ | 1.95                     |
-    |                | <20$^{\circ}$  | 0                        | <30$^{\circ}$  | 0.07                     |
+    | Aspect Ratio   | < 10           | 0                        | 3              | 6.84                     |
+    | Skewness       | > 60$^{\circ}$ | 0.04                     | >45$^{\circ}$  | 3.26                     |
+    | Warping        | < 15           | 0.09                     | <10            | 0.67                     |
+    | Jacobian       | <0.3           | 0                        | >0.7           | 1.56                     |
+    | Internal Angle | >160$^{\circ}$ | 0.05                     | >140$^{\circ}$ | 2.71                     |
+    |                | <20$^{\circ}$  | 0                        | <30$^{\circ}$  | 0.14                     |
+
+??? note "Femur Shell Mesh Quality"
+    | **Criteria**   | **limit**      | **% of failed elements** | **limit**      | **% of failed elements** |
+    |:---------------|----------------|--------------------------|----------------|--------------------------|
+    | Aspect Ratio   | < 10           | 0                        | 3              | 1.38                     |
+    | Skewness       | > 60$^{\circ}$ | 0                        | >30$^{\circ}$  | 10.6                     |
+    | Warping        | < 15           | 0                        | <7             | 1.77                     |
+    | Jacobian       | <0.3           | 0                        | >0.7           | 0.22                     |
+    | Internal Angle | >160$^{\circ}$ | 0                        | >135$^{\circ}$ | 2.76                     |
+    |                | <20$^{\circ}$  | 0                        | <45$^{\circ}$  | 2.46                     |
 
 Cortical bone properties are based on Mirzaali et al. (2016)[@Mirzaali2016]. Subjects with diagnosed osteoporosis were excluded.
 Trabecular bone properties are based on Ding et al. (1997)[@Ding1997]
@@ -54,12 +64,12 @@ Trabecular bone properties are based on Ding et al. (1997)[@Ding1997].
 ??? note "Tibia Mesh Quality"
     | **Criteria**   | **limit**      | ** % of failed elements** | **limit**      | **% of failed elements** |
     |:---------------|----------------|---------------------------|----------------|--------------------------|
-    | Aspect Ratio   | < 10           | TODO                      | 3              | TODO                     |
-    | Skewness       | > 60$^{\circ}$ | TODO                      | >45$^{\circ}$  | TODO                     |
-    | Warping        | < 15           | TODO                      | <10            | TODO                     |
-    | Jacobian       | <0.3           | TODO                      | >0.7           | TODO                     |
-    | Internal Angle | >160$^{\circ}$ | TODO                      | >140$^{\circ}$ | TODO                     |
-    |                | <20$^{\circ}$  | TODO                      | <30$^{\circ}$  | TODO                     |
+    | Aspect Ratio   | < 10           | 0                         | 3              | 3.28                     |
+    | Skewness       | > 60$^{\circ}$ | 0.53                      | >45$^{\circ}$  | 3.08                     |
+    | Warping        | < 15           | 0.31                      | <10            | 0.79                     |
+    | Jacobian       | <0.3           | 0                         | >0.7           | 1.12                     |
+    | Internal Angle | >160$^{\circ}$ | 0.24                      | >140$^{\circ}$ | 3.85                     |
+    |                | <20$^{\circ}$  | 0.07                      | <30$^{\circ}$  | 0.89                     |
 
 <!-- (TODO: double check with other parameters!) -->
 
@@ -70,15 +80,35 @@ Bone cross section properties are reported in Matsuura et al. (1999)[@Matsuura19
 ??? note "Fibula Mesh Quality"
     | **Criteria**   | **limit**      | ** % of failed elements** | **limit**      | **% of failed elements** |
     |:---------------|----------------|---------------------------|----------------|--------------------------|
-    | Aspect Ratio   | < 10           | TODO                      | 3              | TODO                     |
-    | Skewness       | > 60$^{\circ}$ | TODO                      | >45$^{\circ}$  | TODO                     |
-    | Warping        | < 15           | TODO                      | <10            | TODO                     |
-    | Jacobian       | <0.3           | TODO                      | >0.7           | TODO                     |
-    | Internal Angle | >160$^{\circ}$ | TODO                      | >140$^{\circ}$ | TODO                     |
-    |                | <20$^{\circ}$  | TODO                      | <30$^{\circ}$  | TODO                     |
+    | Aspect Ratio   | < 10           | 0                         | 3              | 39.1                     |
+    | Skewness       | > 60$^{\circ}$ | 0.47                      | >45$^{\circ}$  | 4.35                     |
+    | Warping        | < 15           | 0                         | <10            | 0.11                     |
+    | Jacobian       | <0.3           | 0                         | >0.7           | 0.70                     |
+    | Internal Angle | >160$^{\circ}$ | 0.13                      | >140$^{\circ}$ | 6.22                     |
+    |                | <20$^{\circ}$  | 0.04                      | <30$^{\circ}$  | 0.74                     |
 
 ### Patella
 The patella is currently modelled as rigid.
+
+??? note "Patella Solid Mesh Quality"
+    | **Criteria**   | **limit**      | **% of failed elements** | **limit**      | **% of failed elements** |
+    |:---------------|----------------|--------------------------|----------------|--------------------------|
+    | Aspect Ratio   | < 10           | 0                        | 3              | 0                        |
+    | Skewness       | > 60$^{\circ}$ | 0                        | >45$^{\circ}$  | 3.70                     |
+    | Warping        | < 15           | 0                        | <10            | 3.70                     |
+    | Jacobian       | <0.3           | 0                        | >0.7           | 29.6                     |
+    | Internal Angle | >160$^{\circ}$ | 0.62                     | >140$^{\circ}$ | 14.8                     |
+    |                | <20$^{\circ}$  | 0                        | <30$^{\circ}$  | 0                        |
+
+??? note "Patella Shell Mesh Quality"
+    | **Criteria**   | **limit**      | **% of failed elements** | **limit**      | **% of failed elements** |
+    |:---------------|----------------|--------------------------|----------------|--------------------------|
+    | Aspect Ratio   | < 10           | 0                        | 3              | 0                        |
+    | Skewness       | > 60$^{\circ}$ | 0                        | >30$^{\circ}$  | 7.22                     |
+    | Warping        | < 15           | 0                        | <7             | 1.67                     |
+    | Jacobian       | <0.3           | 0                        | >0.7           | 0                        |
+    | Internal Angle | >160$^{\circ}$ | 0                        | >135$^{\circ}$ | 4.44                     |
+    |                | <20$^{\circ}$  | 0                        | <45$^{\circ}$  | 3.33                     |
 
 ## Joints
 ### Knee Joint Materials
@@ -123,7 +153,7 @@ The amout of ligament pretension is calculated as a difference between relaxed l
 Cartilage thickness is based on Faber et al. (2001)[@Faber2001] and Eckstein et al. (2001)[@Eckstein2001]. The material properties are based on Robinson et al. (2016)[@Robinson2016].
 
 #### Meniscus
-The material parameters are based on Peña et al. (2005) [@Pena2005]. An Ogden material model is applied using an alpha of 1 and therefore neo-hookean modelling with a modulus of 59 MPa. The imput parameters for meniscus were determined from the review by Joao in Trad et al. (2018)[@Trad2018].
+The material parameters are based on Peña et al. (2005) [@Pena2005]. An Ogden material model is applied using an alpha of 1 and therefore using neo-hookean modelling with a modulus of 59 MPa. The imput parameters for meniscus were determined from the review by Joao in Trad et al. (2018)[@Trad2018].
 
 Both cartilage and meniscus are modelled as linear elastic homogeneous materials, due to instant loading conditions as in Peña et al. (2006)[@Pena2006].  
 
@@ -134,15 +164,15 @@ Crural Interosseous membrane ([Anterior view](https://media.springernature.com/f
 
 140 beams were created oriented as described in Elamrani et al. (2013)[@Elamrani2013]: "Fibers of the anterior layer made an angle of 13° (SD 2.6) with the axis of fibula. Those of the posterior layer made an angle of 24.2° (SD 2.48) with the axis of fibula." The average thickness of the membrane is 0.54 mm.
 
-Stiffness of anterior tibiofibular ligament is based on Hoefnagels et al. (2007)[@Hoefnagels2007]: 162 +/- 64 N/mm.
+Stiffness of anterior tibiofibular ligament is based on Hoefnagels et al. (2007)[@Hoefnagels2007]: 162 ± 64 N/mm.
 
-Stiffness in fiber direction is assumed based on Minns and Hunter (1976)[@Minns1976]. For the 2 mm x 20 mm sample an ultimate stress of  920 ±/- 205 Kgf/cm$^2$  = 0.09022118 GPa is reported at 7.7 %.
+Stiffness in fiber direction is assumed based on Minns and Hunter (1976)[@Minns1976]. For the 2 mm x 20 mm sample an ultimate stress of  920 ± 205 Kgf/cm$^2$  = 0.09022118 GPa is reported at 7.7 %.
 
 Assuming linear stiffness up to the ultimate stress, a young modulus of 1.17 GPa can be assumed for a sample with a cross section of 2 x 0.54 = ~1mm$^2$.
 
 For the ligaments connecting the proximal end, a higher stiffness was assumed. It is currently set to 5 GPa. 
 
-### Knee Joint geometry
+### Knee joint geometry
 Attachment points on femur:
 
 Blumensaat’s line (roof of femoral intercondylar ): based on Iriuchishima et al. (2015)[@Iriuchishima2015]. Ligaments were attached to the bones based on the anatomic landmarks described in the review of Bedi et al. (2018)[@Bedi2018]. Furthermore, the OpenKnee model was used as reference.
@@ -156,7 +186,7 @@ Blumensaat’s line (roof of femoral intercondylar ): based on Iriuchishima et a
     | PCL                      |        32-38         |         8-19.5 (mean=13.75)          |             3.85-6.63              |               64.05               |                         [@Triantafyllidi2013]$^,$[@Logterman2018]                          |
     | PCL (tibial insertion)   |          -           |                 9.58                 |                9.12                |              147.67               |               [@Triantafyllidi2013]$^,$[@Logterman2018]$^,$[@Takahashi2006]                |
     | PCL (femoral insertion)  |          -           |                 5.35                 |               20.69                |               148.2               |               [@Triantafyllidi2013]$^,$[@Logterman2018]$^,$[@Takahashi2006]                |
-    | MCL                      |         87.5         | 10.9 (prox), 17.7 (mid), 10.7 (dist) |                2.1                 |                ??                 |                 [@Liu2010]$^,$[@Otake2007]$^,$[@Park2006]$^,$[@Wilson2012]                 |
+    | MCL                      |         87.5         | 10.9 (prox), 17.7 (mid), 10.7 (dist) |                2.1                 |                -                  |                 [@Liu2010]$^,$[@Otake2007]$^,$[@Park2006]$^,$[@Wilson2012]                 |
     | MCL (femoral ins)        |          -           |        11.5 (anteroposterior)        |       9.2 (proximal-distal)        |               75.5                |                        [@Liu2010]$^,$[@Otake2007]$^,$[@Kennedy2015]                        |
     | MCL (tibial ins sMCL)    |          -           |       12.2  (anteroposterior)        |      23.87 (proximal-distal)       |               307.7               |                        [@Liu2010]$^,$[@Otake2007]$^,$[@Kennedy2015]                        |
     | MCL (tibial ins.- dist.) |          -           |                  18                  |                 5                  |               63.4                |                                         [@Liu2010]                                         |
@@ -167,40 +197,40 @@ Blumensaat’s line (roof of femoral intercondylar ): based on Iriuchishima et a
 
 #### Lateral Collateral Ligament (LCL)
 
-LaPrade et al. (2003)[@LaPrade2003]: "The average cross-sectional area of the fibular collateral ligament attachment site on the femur was 0.48 cm$^2$ (range, 0.43 to 0.52).
+LaPrade et al. (2003)[@LaPrade2003]: "The average cross-sectional area of the fibular collateral ligament attachment site on the femur was 0.48 cm$^2$ (range from 0.43 to 0.52).
 
-##### Femur Attachment
-According to Kamath et al. (2010)[@Kamath2010], the femoral LCL insertion(black dot) is 58%±4.7% across the width of the lateral femoral condyle along the Blumensaat line and 2.3±2.3 mm distal to this point.
+##### Femoral attachment
+According to Kamath et al. (2010)[@Kamath2010], the femoral LCL insertion(black dot) is 58 ± 4.7 % across the width of the lateral femoral condyle along the Blumensaat line and 2.3 ± 2.3 mm distal to this point.
 
-##### Fibula attachement
-Based on LaPrade et al. (2003)[@LaPrade2003]: "As the fibular collateral ligament coursed distally and attached on the lateral aspect of the fibular head, its average attachment was 8.2 mm (range, 6.8 to 9.7) posterior to the anterior margin of the fibular head and 28.4 mm (range, 25.1 to 30.6) distal to the tip of the fibular styloid process (Table 1). The average cross-sectional area of the attachment on the fibular head was 0.43 cm$^2$ (range, 0.39 to 0.50). The fibular collateral ligament attachment was, on average, 38% (range, 28% to 46%) of the total width of the fibular head (anterior to posterior) from the anterior edge of the fibular head. The majority of the distal attachment was found in a bony depression that extended to approximately the distal one-third of the lateral aspect of the fibular head (Figs. 1 and 2). The remaining fibers extended further distally along with the peroneus longus fascia.25,26 The average total length of the fibular collateral ligament between its attachment sites was 69.6 mm (range, 62.6 to 73.5)."
+##### Fibular attachement
+Based on LaPrade et al. (2003)[@LaPrade2003]: "As the fibular collateral ligament coursed distally and attached on the lateral aspect of the fibular head, its average attachment was 8.2 mm (range, 6.8 to 9.7) posterior to the anterior margin of the fibular head and 28.4 mm (range, 25.1 to 30.6) distal to the tip of the fibular styloid process (Table 1). The average cross-sectional area of the attachment on the fibular head was 0.43 cm$^2$ (range, 0.39 to 0.50). The fibular collateral ligament attachment was, on average, 38 % (range, 28 % to 46 %) of the total width of the fibular head (anterior to posterior) from the anterior edge of the fibular head. The majority of the distal attachment was found in a bony depression that extended to approximately the distal one-third of the lateral aspect of the fibular head (Figs. 1 and 2). The remaining fibers extended further distally along with the peroneus longus fascia.25,26 The average total length of the fibular collateral ligament between its attachment sites was 69.6 mm (range, 62.6 to 73.5)."
 
 #### Medial Collateral Ligament (MCL)
 
-Based on Wijdicks et al. (2009)[@Wijdicks2009] - values in table 5 will be used.
+Based on Wijdicks et al. (2009)[@Wijdicks2009] - values from table 5 will be used.
 
 Additionally, [figure](https://ars.els-cdn.com/content/image/1-s2.0-S2212628715001401-gr1.jpg) from Prince et al. (2015)[@Prince2015] was used.
 
-##### Femur attachment
+##### Femoral attachment
 
 [MCL attachment](https://ars.els-cdn.com/content/image/1-s2.0-S2212628715001401-gr1.jpg) and [sMCL attachment](https://ars.els-cdn.com/content/image/1-s2.0-S2212628715001401-gr5.jpg)
 
 "Line 1 is an extension of the posterior femoral cortex, and line 2 is drawn perpendicular to line 1, intersecting the most posterior aspect of the Blumensaat line"
-"The femoral attachment of the sMCL was found to be, on average, 8.6 mm anterior to the posterior femoral cortex line and 11.0 mm distal to the intersection of the posterior femoral cortex line (line 1) and the line intersecting the posterior aspect of the Blumensaat line (line 2)"
+"The femoral attachment of the sMCL was found to be, on average, 8.6 mm anterior to the posterior femoral cortex line and 11.0 mm distal to the intersection of the posterior femoral cortex line (line 1) and the line intersecting the posterior aspect of the Blumensaat line (line 2)." [@Prince2015]
 
-##### Tibia attachment
+##### Tibial attachment
 
 "On the lateral tibial radiographs, the proximal and distal
-tibial attachments of the superficial medial collateral ligament were 15.9 ± 5.2 and 66.1 ± 3.6 mm distal to the tibial
-inclination, respectively"
+tibial attachments of the superficial medial collateral ligament were 15.9 ± 5.2 mm and 66.1 ± 3.6 mm distal to the tibial
+inclination, respectively." [@Prince2015]
 
-#### Anterior cruciate Ligament (ACL)
+#### Anterior Cruciate Ligament (ACL)
 Harner et al. (1999)[@Harner1999] (from Bedi et al. (2018)[@Bedi2018]) "The ACL is formed by 2 main bundles, the anteromedial (AM) and posterolateral (PL) bundles, which are named for their tibial insertions and provide the primary restraint against anterior tibial translation and secondary restraint against internal tibial rotation, respectively. It is 31±2 mm long with a mean diameter of 10±2 mm, although it fans out at the insertions to approximately 3.5 times the midsubstance width 7."
 
 The distance between the attachment point in the baseline seated VIVA+ model is 31 mm.
 
-##### Femur Insertion:
-ACL attachment point on femur is determined based on the radiographic quadrant mehtod: "distance t (representing the total sagittal diameter of the lateral condyle measured along Blumensaat's line), distance h (representing the maximum intercondylar notch height), distance a (representing the distance of point K from the most dorsal subchondral contour of the lateral femoral condyle), and distance b (representing the distance of point K from Blumensaat's line). Distance a is a partial distance of t and distance b is a partial distance of h, and distances a and b are expressed as length ratios of t and h. The center of the femoral insertion of the ACL was located at 24.8% of the distance t measured from the most posterior contour of the lateral femoral condyle and at 28.5% of the height h measured from Blumensaat's line. Based on these results, the ACL can be found just inferior to the most superoposterior quadrant, which means in anatomic terms it is localized from the dorsal border of the condyle at approximately a quarter of the whole sagittal diameter of the condyle and from the roof of the notch at approximately a quarter of the notch height. "
+##### Femoral insertion
+ACL attachment point on femur is determined based on the radiographic quadrant mehtod: "distance t (representing the total sagittal diameter of the lateral condyle measured along Blumensaat's line), distance h (representing the maximum intercondylar notch height), distance a (representing the distance of point K from the most dorsal subchondral contour of the lateral femoral condyle), and distance b (representing the distance of point K from Blumensaat's line). Distance a is a partial distance of t and distance b is a partial distance of h, and distances a and b are expressed as length ratios of t and h. The center of the femoral insertion of the ACL was located at 24.8 % of the distance t measured from the most posterior contour of the lateral femoral condyle and at 28.5% of the height h measured from Blumensaat's line. Based on these results, the ACL can be found just inferior to the most superoposterior quadrant, which means in anatomic terms it is localized from the dorsal border of the condyle at approximately a quarter of the whole sagittal diameter of the condyle and from the roof of the notch at approximately a quarter of the notch height."
 
 According to Yahagi et al. (2017)[@Yahagi2017], who are proposing a method which is applicable also for cases where the Blumensaat's line is not a straight line, the hill is excluded to derive the Blumensaat line (grid 1) ([ACL footprint](https://media.springernature.com/lw785/springer-static/image/art%3A10.1007%2Fs00167-017-4501-2/MediaObjects/167_2017_4501_Fig2_HTML.gif)).
 
@@ -212,12 +242,12 @@ Method to derive both bundle attachments as in Pietrini et al. (2011)[@Pietrini2
  [Femoral head](https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00167-010-1372-1/MediaObjects/167_2010_1372_Fig4_HTML.gif?as=webp),
  [Tibial plateau](https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00167-010-1372-1/MediaObjects/167_2010_1372_Fig5_HTML.gif?as=webp).
 
-##### Tibia insertion:
+##### Tibial insertion
 Stӓubli and Rauschning (1994)[@Staeubli1994]: 43.3% of the anterior-to-posterior distance across the tibia as measured at the level of the posterior tibial margin at the posterior intercondylar area.In their study,the anteriormost fibers inserted at 27.5% across the plateau.
 
-Frank et al. (2010)[@Frank2010]: "The average AP diameter of the tibia was measured to be 50 ± 4 mm (range 40–64 mm). Female knees averaged 47 ± 3 mm compared to 52 ± 4 mm in men. The anterior-most position of the ACL attachment on the tibia was, on average, 14 ± 3 mm (range 8–26 mm) from the anterior edge of the tibia, or 28 ± 5% the total depth of the tibia. In women, the anterior-most position of the insertion was, on average, 13 ± 2 mm (28 ± 5%) compared to 15 ± 3 mm (28 ± 5%) in men. The posterior-most position of the ACL attachment on the tibia was located, on average, 31 ± 4 mm (range 23–40) from the anterior edge of the tibia, or 63 ± 6% the depth of the tibia. In women, the posterior-most position was, on average, 29 ± 3 mm (62 ± 5%) contrasted to 33 ± 4 mm (64 ± 5%) in men. Finally, the central portion of the ACL attachment on the tibia was located, on average, 23 ± 3 mm (range 16–30 mm). This center position corresponds to a point 46 ± 4% of the total tibial AP diameter as described. In women, this position was located at 21 ± 2 mm (45 ± 4%) compared to 24 ± 3 mm (46 ± 4%) in men. It was determined that the ACL takes up an average 36 ± 6% of the sagittal depth of the tibia and that the tibial insertion of the ACL is located between 28 and 63% of the total depth of the tibia in the anterior–posterior (sagittal) plane."
+Frank et al. (2010)[@Frank2010]: "The average AP diameter of the tibia was measured to be 50 ± 4 mm (range 40–64 mm). Female knees averaged 47 ± 3 mm compared to 52 ± 4 mm in men. The anterior-most position of the ACL attachment on the tibia was, on average, 14 ± 3 mm (range 8–26 mm) from the anterior edge of the tibia, or 28 ± 5 % the total depth of the tibia. In women, the anterior-most position of the insertion was, on average, 13 ± 2 mm (28 ± 5 %) compared to 15 ± 3 mm (28 ± 5%) in men. The posterior-most position of the ACL attachment on the tibia was located, on average, 31 ± 4 mm (range 23–40) from the anterior edge of the tibia, or 63 ± 6% the depth of the tibia. In women, the posterior-most position was, on average, 29 ± 3 mm (62 ± 5%) contrasted to 33 ± 4 mm (64 ± 5 %) in men. Finally, the central portion of the ACL attachment on the tibia was located, on average, 23 ± 3 mm (range 16–30 mm). This center position corresponds to a point 46 ± 4 % of the total tibial AP diameter as described. In women, this position was located at 21 ± 2 mm (45 ± 4 %) compared to 24 ± 3 mm (46 ± 4 %) in men. It was determined that the ACL takes up an average 36 ± 6 % of the sagittal depth of the tibia and that the tibial insertion of the ACL is located between 28 and 63 % of the total depth of the tibia in the anterior–posterior (sagittal) plane."
 
-#### Posterior cruciate Ligament (PCL)
+#### Posterior Cruciate Ligament (PCL)
 
 Positionining of the bundles is based on relative values provided in table 1, 2 and 3 of the Johannsen et al. (2012)[@Johannsen2012] publication.
 
@@ -234,8 +264,8 @@ Data based on Bloecker et al. (2011)[@Bloecker2011]:
     |                 | **Mean avg. thickness <br/>[mm]** | **Mean max. thickness <br/>[mm]** | **Mean avg. width <br/>[mm]** | **Mean max. width <br/>[mm]** |
     |-----------------|:---------------------------------:|:---------------------------------:|:-----------------------------:|:-----------------------------:|
     | Females Medial  |               2.55                |               7.15                |             9.11              |             16.9              |
-    | Females Lateral |               2.51                |               6.75                |              8.6              |             18.8              |
-    | Males Medial    |                2.8                |               7.71                |             9.93              |             12.5              |
+    | Females Lateral |               2.51                |               6.75                |             8.60              |             18.8              |
+    | Males Medial    |               2.80                |               7.71                |             9.93              |             12.5              |
     | Males Lateral   |               2.67                |               7.23                |             10.1              |             14.2              |
 
 
@@ -257,12 +287,12 @@ Data based on Bloecker et al. (2011)[@Bloecker2011]:
 ??? note "Cartilage: Gender specific dimensions by Eckstein et al. (2001)[@Eckstein2001]"
     | **Location**  | **Female Thickness <br/>[mm]** | **Male Thickness <br/>[mm]** | **Female Area <br/>[mm$^2$]** | **Male Area <br/>[mm$^2$]** |
     |---------------|:------------------------------:|:----------------------------:|:-----------------------------:|:---------------------------:|
-    | Patella       |              2.5               |             2.6              |             1100              |            1400             |
-    | Femur (total) |              1.6               |             1.75             |             5000              |            6500             |
+    | Patella       |              2.50              |             2.60             |             1100              |            1400             |
+    | Femur (total) |              1.60              |             1.75             |             5000              |            6500             |
     | Tibia medial  |              1.45              |             1.55             |              900              |            1150             |
-    | Tibia lateral |              1.75              |              2               |              900              |            1150             |
+    | Tibia lateral |              1.75              |             2.00             |              900              |            1150             |
 
-#### Patellar ligament
+#### Patellar Ligament (PL)
 
 The attachment point on the tibia is 36 mm below the most distal edge of the patella.
 
@@ -294,22 +324,26 @@ The main imput parametres are:
  - 
 The the initial model configuration only one discrete element was used for the combination of four heads of quadriceps muscle. The input parameters for all four heads were summed up and used for the single discrete element.
 
-### Ankle Joint
+### Ankle joint
 
 Simplified kinematic revolute joint for ankle is defined in the model between tibia-fibula and talus - rotational axis from lateral to medial malleolus - from Mansfield et al. (2018)[@Mansfield2018]
 
  [Ankle landmarks](https://ars.els-cdn.com/content/image/3-s2.0-B9780323544986000114-f11-03-9780323544986.jpg).
 
-## Contact Definitions
+## Contact definitions
+
+The contact definition for lower extremity joints is defined using a single "Automatic Single Surface" joint definition. It includes structures that can come in contact at the rotation of the joints (bone ends, cartilage, ligaments, capsules). In the internal knee joint contact the patella is excluded from the contact definition. For the contact between Femoral condyle, Tibial plateau, patella and outer skin an additional "Automatic Surface to Surface" contact was defined to get the correct kinematics of the patella and to prevent the protrusion of the patella through the skin.
 
 ??? note "Contact between bones and soft tissues"
-
     | Contact        | Contact ID | Contact Type                 |
-    |----------------|------------|------------------------------|
-    | Knee_Internal  | 705130     | Automatic Surface to Surface |
-    | Ankle_Internal | 705180     | Automatic Single Surface     |
+    |----------------|:----------:|------------------------------|
+    | Hip_Internal   |   700000   | Automatic Single Surface     |
+    | Knee_Internal  |   700000   | Automatic Single Surface     |
+    | Knee_External  |   700010   | Automatic Surface To Surface |
+    | Ankle_Internal |   700000   | Automatic Single Surface     |
+    
 
-## Future Model Improvements
+## Future model improvements
 
 Average shapes of the bones based on statistical geometry.
 
