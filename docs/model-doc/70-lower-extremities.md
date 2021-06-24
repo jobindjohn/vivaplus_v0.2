@@ -26,6 +26,7 @@ The following target values were used (applying the regression model described i
 An elliptic inner shape was assumed, which is in line with medical images. However, if a proper inner geometry becomes available, this should be updated. The maximum difference to the reference is 3.3%.
 
 ??? note "Femur cross sectional area"
+
     | **Bone cross sectional area [mm$^2$]** | **L1** | **L2** | **L3** | **L4** | **L5** |
     |----------------------------------------|--------|--------|--------|--------|--------|
     | Target from Klein et al. for 50F       | 361    | 310    | 303    | 255    | 199    |
@@ -33,6 +34,7 @@ An elliptic inner shape was assumed, which is in line with medical images. Howev
 
 
 ??? note "Femur Solid Mesh Quality"
+
     | **Criteria**   | **limit**      | **% of failed elements** | **limit**      | **% of failed elements** |
     |:---------------|----------------|--------------------------|----------------|--------------------------|
     | Aspect Ratio   | < 10           | 0                        | 3              | 6.84                     |
@@ -43,6 +45,7 @@ An elliptic inner shape was assumed, which is in line with medical images. Howev
     |                | <20$^{\circ}$  | 0                        | <30$^{\circ}$  | 0.14                     |
 
 ??? note "Femur Shell Mesh Quality"
+
     | **Criteria**   | **limit**      | **% of failed elements** | **limit**      | **% of failed elements** |
     |:---------------|----------------|--------------------------|----------------|--------------------------|
     | Aspect Ratio   | < 10           | 0                        | 3              | 1.38                     |
@@ -58,6 +61,7 @@ Trabecular bone properties are based on Ding et al. (1997)[@Ding1997]
 <!-- (TODO: double check with other parameters!) -->
 
 ### Tibia
+
 Trabecular bone properties are based on Ding et al. (1997)[@Ding1997].
 
 
@@ -74,6 +78,7 @@ Trabecular bone properties are based on Ding et al. (1997)[@Ding1997].
 <!-- (TODO: double check with other parameters!) -->
 
 ### Fibula
+
 Bone cross section properties are reported in Matsuura et al. (1999)[@Matsuura1999]. Bone wall thickness ranges from 2 to 4 mm.
 
 
@@ -88,6 +93,7 @@ Bone cross section properties are reported in Matsuura et al. (1999)[@Matsuura19
     |                | <20$^{\circ}$  | 0.04                      | <30$^{\circ}$  | 0.74                     |
 
 ### Patella
+
 The patella is currently modelled as rigid.
 
 ??? note "Patella Solid Mesh Quality"
@@ -128,14 +134,14 @@ The major knee ligaments are modeled as discrete beam elements.
     |     pACL     |           1            |
     |      PL      |           4            |
 
-In the Viva+ model version v0.2.2 knee ligament material properties are based on van Dommelen et al. (2005)[@Dommelen2005] and Kunitomi et al. (2017)[@Kunitomi2017] and are modelled as discrete springs. Material properties for the patellar ligament are derived from Muller et al. (2004)[@Mueller2004]. 
+The knee ligament material properties are based on van Dommelen et al. (2005)[@Dommelen2005] and Kunitomi et al. (2017)[@Kunitomi2017] and are modelled as discrete springs. Material properties for the patellar ligament are derived from Muller et al. (2004)[@Mueller2004]. 
 
 <!-- - [ ] TODO: Model ligaments as solids  -->
 ##### Ligament pretension
 
-All knee ligaments are beeing pretensioned at the start of the simulation based on the value of pretension strain from Adouni et al. (2020)[@Adouni2020] for the standing human.
+All knee ligaments are being pretensioned at the start of the simulation based on the value of pretension strain from Adouni et al. (2020)[@Adouni2020] for the standing human.
 
-The amout of ligament pretension is calculated as a difference between relaxed length of the ligaments (zero strain) and the distance between the ligament attachment nodes at the start of the simulation. The ligament pretensioning is performed in the first timestep of the simulation (or in maximum of 1 ms) using a ramp up function.
+The amout of ligament pretension is calculated as a difference between relaxed length of the ligaments (zero strain) and the distance between the ligament attachment nodes at the start of the simulation. The ligament pretensioning is performed in the first time step of the simulation (or in maximum of 1 ms) using a ramp up function.
 
 ??? note "Ligament pretension of Viva+ models"
     | **Ligament** | **Initial strain [mm]** |
@@ -153,13 +159,15 @@ The amout of ligament pretension is calculated as a difference between relaxed l
 Cartilage thickness is based on Faber et al. (2001)[@Faber2001] and Eckstein et al. (2001)[@Eckstein2001]. The material properties are based on Robinson et al. (2016)[@Robinson2016].
 
 #### Meniscus
-The material parameters are based on Peña et al. (2005) [@Pena2005]. An Ogden material model is applied using an alpha of 1 and therefore using neo-hookean modelling with a modulus of 59 MPa. The imput parameters for meniscus were determined from the review by Joao in Trad et al. (2018)[@Trad2018].
+
+The material parameters are based on Peña et al. (2005) [@Pena2005]. An Ogden material model is applied using an alpha of 1 and therefore using Neo-Hookean modelling with a modulus of 59 MPa. The input parameters for meniscus were determined from the review by Joao in Trad et al. (2018)[@Trad2018].
 
 Both cartilage and meniscus are modelled as linear elastic homogeneous materials, due to instant loading conditions as in Peña et al. (2006)[@Pena2006].  
 
 <!-- - [ ] TODO: enhance material properties and calibrate to published curves  -->
 
 ### Connection between Fibula and Tibia
+
 Crural Interosseous membrane ([Anterior view](https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00276-013-1199-9/MediaObjects/276_2013_1199_Fig4_HTML.jpg?as=webp), [Posterior view](https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00276-013-1199-9/MediaObjects/276_2013_1199_Fig3_HTML.jpg?as=webp))
 
 140 beams were created oriented as described in Elamrani et al. (2013)[@Elamrani2013]: "Fibers of the anterior layer made an angle of 13° (SD 2.6) with the axis of fibula. Those of the posterior layer made an angle of 24.2° (SD 2.48) with the axis of fibula." The average thickness of the membrane is 0.54 mm.
@@ -173,9 +181,10 @@ Assuming linear stiffness up to the ultimate stress, a young modulus of 1.17 GPa
 For the ligaments connecting the proximal end, a higher stiffness was assumed. It is currently set to 5 GPa. 
 
 ### Knee joint geometry
+
 Attachment points on femur:
 
-Blumensaat’s line (roof of femoral intercondylar ): based on Iriuchishima et al. (2015)[@Iriuchishima2015]. Ligaments were attached to the bones based on the anatomic landmarks described in the review of Bedi et al. (2018)[@Bedi2018]. Furthermore, the OpenKnee model was used as reference.
+Blumensaat’s line (roof of femoral intercondylar): based on Iriuchishima et al. (2015)[@Iriuchishima2015]. Ligaments were attached to the bones based on the anatomic landmarks described in the review of Bedi et al. (2018)[@Bedi2018]. Furthermore, the OpenKnee model was used as reference.
 
 ??? note "Ligament dimensions anteroposterior"
     | **Ligament**             | **Length <br/>[mm]** |         **Width <br/>[mm]**          |      **Thickness <br/>[mm]**       | **CrossectionArea <br/>[mm$^2$]** |                                        **Sources**                                         |
@@ -200,9 +209,11 @@ Blumensaat’s line (roof of femoral intercondylar ): based on Iriuchishima et a
 LaPrade et al. (2003)[@LaPrade2003]: "The average cross-sectional area of the fibular collateral ligament attachment site on the femur was 0.48 cm$^2$ (range from 0.43 to 0.52).
 
 ##### Femoral attachment
+
 According to Kamath et al. (2010)[@Kamath2010], the femoral LCL insertion(black dot) is 58 ± 4.7 % across the width of the lateral femoral condyle along the Blumensaat line and 2.3 ± 2.3 mm distal to this point.
 
 ##### Fibular attachement
+
 Based on LaPrade et al. (2003)[@LaPrade2003]: "As the fibular collateral ligament coursed distally and attached on the lateral aspect of the fibular head, its average attachment was 8.2 mm (range, 6.8 to 9.7) posterior to the anterior margin of the fibular head and 28.4 mm (range, 25.1 to 30.6) distal to the tip of the fibular styloid process (Table 1). The average cross-sectional area of the attachment on the fibular head was 0.43 cm$^2$ (range, 0.39 to 0.50). The fibular collateral ligament attachment was, on average, 38 % (range, 28 % to 46 %) of the total width of the fibular head (anterior to posterior) from the anterior edge of the fibular head. The majority of the distal attachment was found in a bony depression that extended to approximately the distal one-third of the lateral aspect of the fibular head (Figs. 1 and 2). The remaining fibers extended further distally along with the peroneus longus fascia.25,26 The average total length of the fibular collateral ligament between its attachment sites was 69.6 mm (range, 62.6 to 73.5)."
 
 #### Medial Collateral Ligament (MCL)
@@ -230,6 +241,7 @@ Harner et al. (1999)[@Harner1999] (from Bedi et al. (2018)[@Bedi2018]) "The ACL 
 The distance between the attachment point in the baseline seated VIVA+ model is 31 mm.
 
 ##### Femoral insertion
+
 ACL attachment point on femur is determined based on the radiographic quadrant mehtod: "distance t (representing the total sagittal diameter of the lateral condyle measured along Blumensaat's line), distance h (representing the maximum intercondylar notch height), distance a (representing the distance of point K from the most dorsal subchondral contour of the lateral femoral condyle), and distance b (representing the distance of point K from Blumensaat's line). Distance a is a partial distance of t and distance b is a partial distance of h, and distances a and b are expressed as length ratios of t and h. The center of the femoral insertion of the ACL was located at 24.8 % of the distance t measured from the most posterior contour of the lateral femoral condyle and at 28.5% of the height h measured from Blumensaat's line. Based on these results, the ACL can be found just inferior to the most superoposterior quadrant, which means in anatomic terms it is localized from the dorsal border of the condyle at approximately a quarter of the whole sagittal diameter of the condyle and from the roof of the notch at approximately a quarter of the notch height."
 
 According to Yahagi et al. (2017)[@Yahagi2017], who are proposing a method which is applicable also for cases where the Blumensaat's line is not a straight line, the hill is excluded to derive the Blumensaat line (grid 1) ([ACL footprint](https://media.springernature.com/lw785/springer-static/image/art%3A10.1007%2Fs00167-017-4501-2/MediaObjects/167_2017_4501_Fig2_HTML.gif)).
@@ -243,6 +255,7 @@ Method to derive both bundle attachments as in Pietrini et al. (2011)[@Pietrini2
  [Tibial plateau](https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00167-010-1372-1/MediaObjects/167_2010_1372_Fig5_HTML.gif?as=webp).
 
 ##### Tibial insertion
+
 Stӓubli and Rauschning (1994)[@Staeubli1994]: 43.3% of the anterior-to-posterior distance across the tibia as measured at the level of the posterior tibial margin at the posterior intercondylar area.In their study,the anteriormost fibers inserted at 27.5% across the plateau.
 
 Frank et al. (2010)[@Frank2010]: "The average AP diameter of the tibia was measured to be 50 ± 4 mm (range 40–64 mm). Female knees averaged 47 ± 3 mm compared to 52 ± 4 mm in men. The anterior-most position of the ACL attachment on the tibia was, on average, 14 ± 3 mm (range 8–26 mm) from the anterior edge of the tibia, or 28 ± 5 % the total depth of the tibia. In women, the anterior-most position of the insertion was, on average, 13 ± 2 mm (28 ± 5 %) compared to 15 ± 3 mm (28 ± 5%) in men. The posterior-most position of the ACL attachment on the tibia was located, on average, 31 ± 4 mm (range 23–40) from the anterior edge of the tibia, or 63 ± 6% the depth of the tibia. In women, the posterior-most position was, on average, 29 ± 3 mm (62 ± 5%) contrasted to 33 ± 4 mm (64 ± 5 %) in men. Finally, the central portion of the ACL attachment on the tibia was located, on average, 23 ± 3 mm (range 16–30 mm). This center position corresponds to a point 46 ± 4 % of the total tibial AP diameter as described. In women, this position was located at 21 ± 2 mm (45 ± 4 %) compared to 24 ± 3 mm (46 ± 4 %) in men. It was determined that the ACL takes up an average 36 ± 6 % of the sagittal depth of the tibia and that the tibial insertion of the ACL is located between 28 and 63 % of the total depth of the tibia in the anterior–posterior (sagittal) plane."
@@ -254,6 +267,7 @@ Positionining of the bundles is based on relative values provided in table 1, 2 
 The distance between the attachment point in the baseline seated VIVA+ model is 36 mm.
 
 #### Meniscus
+
 The average thickness of the medial meniscus is 2.55 mm according to Bloecker et al. (2011)[@Bloecker2011] (40 male and 62 female knees were measured in MRI) For males it should be 2.8 mm.
 
 Data based on Bloecker et al. (2011)[@Bloecker2011]:

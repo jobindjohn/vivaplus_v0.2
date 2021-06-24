@@ -98,6 +98,8 @@ Open `http://127.0.0.1:8000/` in the browser to see the live documentation home 
 ## Guidelines for formatting
 
 - To format equations or math expressions:  enclose them within `$` character (for example, `$F = m.a$` will be rendered as $F = m.a$)
+- To use subscripts or subscripts: use `_` of `^` within `$` characters (for example, `mm$^2$` will be rendered as mm$^2$)
+
 ## Adding References
 
 [mkdocs-bibtex](https://github.com/shyamd/mkdocs-bibtex/) extension is used to add citations from a Bibtex file. 
