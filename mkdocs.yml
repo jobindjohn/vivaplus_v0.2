@@ -19,8 +19,9 @@ nav:
         #- FAQ: getting-started/FAQ
     - Model Documentation:
         - VIVA+ Models: 'model-doc/00-models.md'
-        - Anthropometry: model-doc/01-anthro.md
-        - Model Data Structure: 'model-doc/10-model-data-structure.md'
+        - Publications: 'model-doc/01-publications.md'
+        - Anthropometry: model-doc/05-anthro.md
+        - Model Data Structure: 'model-doc/06-model-data-structure.md'
         - Head: model-doc/20-head.md
         - Spinal Column: model-doc/25-spine.md
         - Neck: 'model-doc/30-neck.md'
