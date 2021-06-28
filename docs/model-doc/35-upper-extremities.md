@@ -1,3 +1,7 @@
+---
+bibliography: [../../viva-refs.bib]
+---
+
 # Shoulder and Upper Extremity
 
 !!! warning "This section of the documentation is under development"
@@ -33,7 +37,7 @@ The clavicle and scapula are modeled as rigid bones.
 
 ### Humerus
 
-For all cortical bones `MAT_124` is applied as it allows to distinguish between tension and compression and model strain-rate dependency.
+For all cortical bones `MAT_PLASTICITY_COMPRESSION_TENSION` is applied as it allows to distinguish between tension and compression and model strain-rate dependency.
 
 The humerus material characteristics are based on Vandenbulcke et al. 2012[@Vandenbulcke2012]. As no anisotropic material model is applied at the current stage, and transversal loading is of higher interest in the considered loading scenarios (no steering wheel), the parameters representative for transverse loading were selected. The bone density was corrected with the factor 1E-3 as there seems to be an error in the original paper (1.9g/mm^2 is out of range compared to other publications) and would lead to a to heavy bone. 
 
@@ -107,19 +111,21 @@ Paper: Three-dimensional distribution of trabecular bone density and cortical th
                     30 600 0 | Wrist
                     30 650 0 | Hand
 
-### Skin
+<!-- ### Skin
 
 Skin material properties for the whole upper extremities are based on Flynn et al. 2010[@Flynn2010] using an Ogden material model (without strain rate dependency).
 The material properties provided for the posterior side of the upper arm were selected. In future trials the other region-specific material parameters can be tried out. 
 Prony series coefficients provided in the paper are also applied 
 
-<!-- (TODO: Check if variables are consistent within simplified example) -->
+<!-- (TODO: Check if variables are consistent within simplified example)
 
 ### Fat
 
 For the soft tissue, the material form the original VIVA model remained, which are based on a fat tissue model from 
 
-<!-- ### Muscle -->
+### Muscle 
+
+-->
 
 ## Joints
 
@@ -132,8 +138,9 @@ For the VIRTUAL version of the VIVA+ models, joints of the upper extremities wil
 - Humerus und ulna are connected with a revolute joint (axis through medial and lateral epicondyle of humerus)
 - Humerus and radius are connected with a spherical joint (center of rotation on tip of Radius). 
 - The radius and ulna are connected with a spherical joint on the distal end (center of rotation on ulnar styloid)
-
-!!! note "Future Development" 
+ 
+<!-- 
+??? note "Future Development" 
         
     ### Gender Differences
 
@@ -144,5 +151,7 @@ For the VIRTUAL version of the VIVA+ models, joints of the upper extremities wil
     ### Changes due to aging
 
     Paper: High-Resolution Tomography-Based Quantification of **Cortical Porosity and Cortical Thickness at the Surgical Neck** of the Humerus During Aging [@Helfen2017]
+     -->
 
-    \bibliography
+
+\bibliography

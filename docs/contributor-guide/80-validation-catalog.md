@@ -76,7 +76,7 @@ Copy the template folder `0000-validation-template` and rename the folder as `NN
 
 ## Postprocessing your simulations
 
-VIVA+ validations are recorded as Jupyter notebooks. Rename the serial number and notebook from the template you just copied to the same as your folder name. Postprocessing for the validation catalog is done using Python-based [Dynasaur](../user-guide/60-postprocess-dynasaur.md) library.
+VIVA+ validations are recorded as Jupyter notebooks. Rename the serial number and notebook from the template you just copied to the same as your folder name. Postprocessing for the validation catalog is done using Python-based [Dynasaur](../user-guide/50-postprocess-dynasaur.md) library.
 
 ??? Question "If you do not have Anaconda/Miniconda Installations"
 

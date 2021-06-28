@@ -1,6 +1,10 @@
 # Control Card Guidelines
+
 The unit system of the model is **mm, kg, ms** and therefore **kN, GPa,...**
 
+An example for control settings is available in the `utils` folders.
+
+<!-- 
 ## Checklist before running simulations
 
 * [x] Lorem ipsum dolor sit amet, consectetur adipiscing elit
@@ -12,4 +16,4 @@ The unit system of the model is **mm, kg, ms** and therefore **kN, GPa,...**
     * [x] Sed egestas felis quis elit dapibus, ac aliquet turpis mattis
     * [ ] Praesent sed risus massa
 * [ ] Aenean pretium efficitur erat, donec pharetra, ligula non scelerisque
-* [ ] Nulla vel eros venenatis, imperdiet enim id, faucibus nisi
+* [ ] Nulla vel eros venenatis, imperdiet enim id, faucibus nisi -->

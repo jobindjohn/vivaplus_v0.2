@@ -14,7 +14,7 @@ Contributing to the documentation is as easy as writing in text files. The VIVA+
 If the changes you would like make are small (like fixing typos, adding details to existing section), then all you need to do is add the content in the mardown files and send a merge request. However, if you are adding a new section or would like to see how MkDocs renders the documentation as HTML pages, then you will need to install [MkDocs locally](../70-documentation-guidelines/#install-mkdocs).
 
 
-!!! tip "Quick Introduction to Basic Markdown" 
+??? tip "Quick Introduction to Basic Markdown" 
         
         **Headings and paragraphs**
         ```
@@ -57,19 +57,11 @@ If the changes you would like make are small (like fixing typos, adding details 
         <quick url or email link>
         ```
 
-### Install MkDocs
+## Install MkDocs
 
 [MkDocs](https://www.mkdocs.org/#getting-started) is a python library and easiest way to get started is using the Anaconda installation. When you have Python installed, install MkDocs using `pip`.
 
 `pip install mkdocs`
-
-??? Note "If you don't have pip installed"
-
-    `python get-pip.py`
-
-    Or if you need to upgrade
-
-    `pip install --upgrade pip`
 
 Also, install the mkdocs extensions used by VIVA+ documentation:
 
@@ -78,6 +70,13 @@ pip install mkdocs-material
 pip install mkdocs-bibtex
 pip install pymdown-extensions
 ```
+??? Note "If you don't have pip installed"
+
+    `python get-pip.py`
+
+    Or if you need to upgrade
+
+    `pip install --upgrade pip`
 
 ??? info "MkDocs Extensions in VIVA+ documentation"
 
@@ -95,6 +94,11 @@ You can preview your documentation as you work on it by starting the built-in de
 
 Open `http://127.0.0.1:8000/` in the browser to see the live documentation home page
 
+
+## Guidelines for formatting
+
+- To format equations or math expressions:  enclose them within `$` character (for example, `$F = m.a$` will be rendered as $F = m.a$)
+- To use subscripts or subscripts: use `_` of `^` within `$` characters (for example, `mm$^2$` will be rendered as mm$^2$)
 
 ## Adding References
 

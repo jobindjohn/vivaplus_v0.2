@@ -4,7 +4,7 @@
     
     This section is being updated
     
-The neck model is derived from the ViVA model[@Oesth2016]. The validation details for this model can be found at Östh et al.[@Oesth2017], [@Oesth2017b]
+The neck model is derived from the ViVA model[@Oesth2016]. The details on the model development and validation can be found at Östh et al.[@Oesth2017], [@Oesth2017b]
 
 <!-- ## Cervical Spine
 
