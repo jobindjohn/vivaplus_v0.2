@@ -93,4 +93,6 @@ Given below are visualizations showing the change in anthropometry across the wo
 <iframe src="https://ourworldindata.org/grapher/median-age" style="width: 100%; height: 600px; border: 0px none;"></iframe> 
 -->
 
+## References
+
 \bibliography

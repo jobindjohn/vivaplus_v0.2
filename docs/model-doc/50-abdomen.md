@@ -25,4 +25,6 @@ Alternatively, data published by [@Untaroiu2015] or [@Umale2013] could be used a
 
 A `CONTACT_TIED_NODES_TO_SURFACE` (CID 600001) is used to connect the pelvic cavity soft tissue to the pelvis. The purpose of this contact is to prevent unphysical relative motion between the abdominal soft tissue and the pelvis.
 
+## References
+
 \bibliography

@@ -8,3 +8,16 @@ img[src*='#center'] {
     display: block; 
     margin: auto; 
 }
+
+[data-md-color-scheme="viva"] {
+    /* Primary color shades */
+    --md-primary-fg-color:        #ebb000;
+    --md-primary-fg-color--light: #ffc51a;
+    --md-primary-fg-color--dark:  #e6ac00;
+    /* Accent color shades */
+    --md-accent-fg-color:          #0040ff;
+
+    --md-typeset-a-color:  #b38600;
+
+
+  }

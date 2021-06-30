@@ -153,5 +153,6 @@ For the VIRTUAL version of the VIVA+ models, joints of the upper extremities wil
     Paper: High-Resolution Tomography-Based Quantification of **Cortical Porosity and Cortical Thickness at the Surgical Neck** of the Humerus During Aging [@Helfen2017]
      -->
 
+## References
 
 \bibliography

@@ -92,4 +92,6 @@ To connect the outer soft tissue in the thorax to the ribcage and abdomen, a `*C
 
 A `*CONTACT_TIED_NODES_TO_SURFACE` (CID 403505) between the thorax outer soft tissue and the sternum is used to model the muscle attachment to the sternum.
 
+## References
+
 \bibliography
