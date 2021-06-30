@@ -62,6 +62,4 @@ $#    lcid      sidr       sfa       sfo      offa      offo    dattyp
 $#                a1                  o1
             0.000000            0.0003000               
          2000.000000            0.0003000
-*DATABASE_HISTORY_BEAM_SET
-    205000
 *END
