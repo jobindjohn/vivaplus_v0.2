@@ -162,6 +162,7 @@
                 "name": "NIC_curve",
                 "part_of": "NECK",
                 "y": {
+                    "label": "NIC",
                     "function": {
                         "name": "NIC",
                         "param": {
@@ -220,6 +221,7 @@
                     }
                 },
                 "x": {
+                    "label": "time",
                     "type": "NODE",
                     "ID": "Head_COG",
                     "array": [

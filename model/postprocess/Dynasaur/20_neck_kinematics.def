@@ -1,0 +1,14 @@
+[
+    {
+        "DATA VISUALIZATION": [
+            {"name": "C1_COG_ry", "part_of": "Bone", "x": {"type": "NODE", "ID": "C1_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C1_COG", "array": ["(0, ry_displacement)"]}},
+            {"name": "C2_COG_ry", "part_of": "Bone", "x": {"type": "NODE", "ID": "C2_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C2_COG", "array": ["(0, ry_displacement)"]}},
+            {"name": "C3_COG_ry", "part_of": "Bone", "x": {"type": "NODE", "ID": "C3_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C3_COG", "array": ["(0, ry_displacement)"]}},
+            {"name": "C4_COG_ry", "part_of": "Bone", "x": {"type": "NODE", "ID": "C4_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C4_COG", "array": ["(0, ry_displacement)"]}},
+            {"name": "C5_COG_ry", "part_of": "Bone", "x": {"type": "NODE", "ID": "C5_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C5_COG", "array": ["(0, ry_displacement)"]}},
+            {"name": "C6_COG_ry", "part_of": "Bone", "x": {"type": "NODE", "ID": "C6_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C6_COG", "array": ["(0, ry_displacement)"]}},
+            {"name": "C7_COG_ry", "part_of": "Bone", "x": {"type": "NODE", "ID": "C7_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C7_COG", "array": ["(0, ry_displacement)"]}},
+            {"name": "T1_COG_ry", "part_of": "Bone", "x": {"type": "NODE", "ID": "T1_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T1_COG", "array": ["(0, ry_displacement)"]}}
+        ]
+    }
+]

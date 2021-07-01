@@ -3,13 +3,6 @@
         "TITLE": "VIVAplus50F"
     },
     {
-        "UNIT": {
-            "time": "ms",
-            "length": "mm",
-            "weight": "kg"
-        }
-    },
-    {
         "DATA VISUALIZATION": [
             {"name": "L_Patella_COG_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "L_Patella_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "L_Patella_COG", "array": ["(0, x_coordinate)"]}},
             {"name": "R_Patella_COG_x", "part_of": "Bone", "x": {"type": "NODE", "ID": "R_Patella_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "R_Patella_COG", "array": ["(0, x_coordinate)"]}},
@@ -661,41 +654,13 @@
             {"name": "Head_COG_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "Head_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "Head_COG", "array": ["(0, z_coordinate)"]}},
             {"name": "Head_COG_Loc_z", "part_of": "Bone", "x": {"type": "NODE", "ID": "Head_COG_Loc", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "Head_COG_Loc", "array": ["(0, z_coordinate)"]}},
 
-            {"name": "C1_COG_ry", "part_of": "Bone", "x": {"type": "NODE", "ID": "C1_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C1_COG", "array": ["(0, ry_displacement)"]}},
-            {"name": "C2_COG_ry", "part_of": "Bone", "x": {"type": "NODE", "ID": "C2_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C2_COG", "array": ["(0, ry_displacement)"]}},
-            {"name": "C3_COG_ry", "part_of": "Bone", "x": {"type": "NODE", "ID": "C3_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C3_COG", "array": ["(0, ry_displacement)"]}},
-            {"name": "C4_COG_ry", "part_of": "Bone", "x": {"type": "NODE", "ID": "C4_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C4_COG", "array": ["(0, ry_displacement)"]}},
-            {"name": "C5_COG_ry", "part_of": "Bone", "x": {"type": "NODE", "ID": "C5_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C5_COG", "array": ["(0, ry_displacement)"]}},
-            {"name": "C6_COG_ry", "part_of": "Bone", "x": {"type": "NODE", "ID": "C6_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C6_COG", "array": ["(0, ry_displacement)"]}},
-            {"name": "C7_COG_ry", "part_of": "Bone", "x": {"type": "NODE", "ID": "C7_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C7_COG", "array": ["(0, ry_displacement)"]}},
-            {"name": "T1_COG_ry", "part_of": "Bone", "x": {"type": "NODE", "ID": "T1_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T1_COG", "array": ["(0, ry_displacement)"]}},
-            
-            {"name": "Head_COG_ry", "part_of": "Bone", "x": {"type": "NODE", "ID": "Head_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "Head_COG", "array": ["(0, ry_displacement)"]}},
-            {"name": "Head_COG_ax", "part_of": "Bone", "x": {"type": "NODE", "ID": "Head_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "Head_COG", "array": ["(0, x_acceleration)"]}},
-            {"name": "Head_COG_ay", "part_of": "Bone", "x": {"type": "NODE", "ID": "Head_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "Head_COG", "array": ["(0, y_acceleration)"]}},
-            {"name": "Head_COG_az", "part_of": "Bone", "x": {"type": "NODE", "ID": "Head_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "Head_COG", "array": ["(0, z_acceleration)"]}},
-            {"name": "Head_COG_ares", "part_of": "Bone", "x": {"type": "NODE", "ID": "Head_COG", "array": ["(0, time)"]}, "y": {"function": {"name": "res", "param": {"data_vector": {"type": "NODE","ID": "Head_COG","array": ["(0, x_acceleration)", "(0, y_acceleration)", "(0, z_acceleration)"]}}}}},
-            
-            {"name": "Head_COG_vx", "part_of": "Bone", "x": {"type": "NODE", "ID": "Head_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "Head_COG", "array": ["(0, x_velocity)"]}},
-            {"name": "Head_COG_vy", "part_of": "Bone", "x": {"type": "NODE", "ID": "Head_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "Head_COG", "array": ["(0, y_velocity)"]}},
-            {"name": "Head_COG_vz", "part_of": "Bone", "x": {"type": "NODE", "ID": "Head_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "Head_COG", "array": ["(0, z_velocity)"]}},
-            {"name": "Head_COG_vres", "part_of": "Bone", "x": {"type": "NODE", "ID": "Head_COG", "array": ["(0, time)"]}, "y": {"function": {"name": "res", "param": {"data_vector": {"type": "NODE","ID": "Head_COG","array": ["(0, x_velocity)", "(0, y_velocity)", "(0, z_velocity)"]}}}}},
-            
+                     
             {"name": "C1_COG_ax", "part_of": "Bone", "x": {"type": "NODE", "ID": "C1_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C1_COG", "array": ["(0, x_acceleration)"]}},
             {"name": "C1_COG_ay", "part_of": "Bone", "x": {"type": "NODE", "ID": "C1_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C1_COG", "array": ["(0, y_acceleration)"]}},
             {"name": "C1_COG_az", "part_of": "Bone", "x": {"type": "NODE", "ID": "C1_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "C1_COG", "array": ["(0, z_acceleration)"]}},
-            {"name": "C1_COG_ares", "part_of": "Bone", "x": {"type": "NODE", "ID": "C1_COG", "array": ["(0, time)"]}, "y": {"function": {"name": "res", "param": {"data_vector": {"type": "NODE","ID": "C1_COG","array": ["(0, x_acceleration)", "(0, y_acceleration)", "(0, z_acceleration)"]}}}}},
+            {"name": "C1_COG_ares", "part_of": "Bone", "x": {"type": "NODE", "ID": "C1_COG", "array": ["(0, time)"]}, "y": {"function": {"name": "res", "param": {"data_vector": {"type": "NODE","ID": "C1_COG","array": ["(0, x_acceleration)", "(0, y_acceleration)", "(0, z_acceleration)"]}}}}}
             
-            {"name": "T1_COG_ax", "part_of": "Bone", "x": {"type": "NODE", "ID": "T1_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T1_COG", "array": ["(0, x_acceleration)"]}},
-            {"name": "T1_COG_ay", "part_of": "Bone", "x": {"type": "NODE", "ID": "T1_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T1_COG", "array": ["(0, y_acceleration)"]}},
-            {"name": "T1_COG_az", "part_of": "Bone", "x": {"type": "NODE", "ID": "T1_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T1_COG", "array": ["(0, z_acceleration)"]}},
-            {"name": "T1_COG_ares", "part_of": "Bone", "x": {"type": "NODE", "ID": "T1_COG", "array": ["(0, time)"]}, "y": {"function": {"name": "res", "param": {"data_vector": {"type": "NODE","ID": "T1_COG","array": ["(0, x_acceleration)", "(0, y_acceleration)", "(0, z_acceleration)"]}}}}},
-            
-            {"name": "T1_COG_vx", "part_of": "Bone", "x": {"type": "NODE", "ID": "T1_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T1_COG", "array": ["(0, x_velocity)"]}},
-            {"name": "T1_COG_vy", "part_of": "Bone", "x": {"type": "NODE", "ID": "T1_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T1_COG", "array": ["(0, y_velocity)"]}},
-            {"name": "T1_COG_vz", "part_of": "Bone", "x": {"type": "NODE", "ID": "T1_COG", "array": ["(0, time)"]}, "y": {"type": "NODE", "ID": "T1_COG", "array": ["(0, z_velocity)"]}},
-            {"name": "T1_COG_vres", "part_of": "Bone", "x": {"type": "NODE", "ID": "T1_COG", "array": ["(0, time)"]}, "y": {"function": {"name": "res", "param": {"data_vector": {"type": "NODE","ID": "T1_COG","array": ["(0, x_velocity)", "(0, y_velocity)", "(0, z_velocity)"]}}}}}
-            
+                       
         ]
     }
 ]

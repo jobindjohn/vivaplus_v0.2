@@ -123,11 +123,13 @@
 				"name": "Added_Mass",
 				"part_of": "MODEL",
 				"y": {
+					"label": "mass",
 					"type": "ENERGY_GLOBAL",
 					"ID": "Model",
 					"array": ["(0, added_mass)"]
 				},
 				"x": {
+					"label": "time",
 					"type": "ENERGY_GLOBAL",
 					"ID": "Model",
 					"array": ["(0, time)"]
@@ -137,11 +139,13 @@
 				"name": "Total_Energy",
 				"part_of": "MODEL",
 				"y": {
+					"label": "energy",
 					"type": "ENERGY_GLOBAL",
 					"ID": "Model",
 					"array": ["(0, total_energy)"]
 				},
 				"x": {
+					"label": "time",
 					"type": "ENERGY_GLOBAL",
 					"ID": "Model",
 					"array": ["(0, time)"]
@@ -151,11 +155,13 @@
 				"name": "Internal_Energy",
 				"part_of": "MODEL",
 				"y": {
+					"label": "energy",
 					"type": "ENERGY_GLOBAL",
 					"ID": "Model",
 					"array": ["(0, internal_energy)"]
 				},
 				"x": {
+					"label": "Time",
 					"type": "ENERGY_GLOBAL",
 					"ID": "Model",
 					"array": ["(0, time)"]
@@ -165,11 +171,13 @@
 				"name": "Kinetic_Energy",
 				"part_of": "MODEL",
 				"y": {
+					"label": "energy",
 					"type": "ENERGY_GLOBAL",
 					"ID": "Model",
 					"array": ["(0, kinetic_energy)"]
 				},
 				"x": {
+					"label": "Time",
 					"type": "ENERGY_GLOBAL",
 					"ID": "Model",
 					"array": ["(0, time)"]
@@ -179,11 +187,13 @@
 				"name": "Hourglass_Energy",
 				"part_of": "MODEL",
 				"y": {
+					"label": "energy",
 					"type": "ENERGY_GLOBAL",
 					"ID": "Model",
 					"array": ["(0, hourglass_energy)"]
 				},
 				"x": {
+					"label": "Time",
 					"type": "ENERGY_GLOBAL",
 					"ID": "Model",
 					"array": ["(0, time)"]
