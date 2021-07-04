@@ -129,5 +129,6 @@ Work in progress:
 
 
 
-# References
+## References
+
 \bibliography

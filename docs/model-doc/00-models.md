@@ -69,4 +69,5 @@ Intial VIVA models [ViVA Open Human Body Model](https://www.chalmers.se/en/proje
 \bibliography-->
 
 ## References
+
 \bibliography

@@ -53,4 +53,6 @@ An overview of the spinal column is given in this section. Modeling details of s
 * **Pelvic Tilt** (PT) : angle between line connecting hip joint axis (centroid of femur head) and mid sacral endplate and vertical line
 * **Pelvic Incidence** (PI) : line joining midpoint of the hip joint axis and mid sacral endplate and the line orthogonal to the S1 endplate
 
+## References
+
 \bibliography

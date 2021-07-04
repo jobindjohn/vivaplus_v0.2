@@ -15,7 +15,7 @@ Here you will find information on getting started with the VIVA+ models, documen
 #### Vehicle Occupant
 
 - Average female (**50F**)
-- Average male (**50F**)
+- Average male (**50M**)
 
 #### Vulnerable Road Users (VRU)
 
