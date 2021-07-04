@@ -57,7 +57,7 @@ theme:
     name: 'material'
     palette:
         scheme: 'viva' # See extra.css
-     #   primary: 'orange'
+        primary: 'amber'
      #   accent: 'indigo'
     features:
       - tabs

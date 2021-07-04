@@ -11,7 +11,7 @@
 #### Vehicle Occupant
 
 - Average female (**50F**)
-- Average male (**50F**)
+- Average male (**50M**)
 
 #### Vulnerable Road Users (VRU)
 

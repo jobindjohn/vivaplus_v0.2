@@ -17,7 +17,7 @@ These metrics correspond to the target specified for average dummies from the an
 
 The target age of 50 years was chosen as it corresponds to the average age of the European adult (>= 18 years) population.
 
-![Average Age of European Adult Population](..\model-doc\images\age_european_population_eurostat.jpg)
+![Average Age of European Adult Population](../model-doc/images/age_european_population_eurostat.jpg)
 
 
 The data for this analysis was taken from [eurostat](https://ec.europa.eu/eurostat/databrowser/view/DEMO_PJAN__custom_1019506/default/table?lang=en).
