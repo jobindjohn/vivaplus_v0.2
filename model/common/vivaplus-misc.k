@@ -2,16 +2,16 @@ $
 $ANSA_VERSION;21.1.0;
 $
 $
-$ file created by  A N S A  Wed Apr 14 11:53:23 2021
+$ file created by  A N S A  Thu Jul  8 15:45:39 2021
 $
 $ output from :
 $
-$ C:/Users/iraeus/Documents/Projects/VIRTUAL/ViVA+/Final_assembly/vivaplus-50F_v
-$ 0-2-2d.ansa
+$ C:/Users/jobinj/Box/vivaplus-share/VIVA-Plus-Meshing-Shared-Folder/vivaplus-50
+$ F_v0-2-4.ansa
 $
 $ Settings :
 $
-$ Output format : R12
+$ Output format : 971R9
 $
 $ Output : All
 $
@@ -154,10 +154,10 @@ $300766;1.;
 *SENSOR_DEFINE_ELEMENT
     700064DISC-ELE     7267638          DLEN      BOT       
 *HOURGLASS_TITLE
-default
-         1         1       0.1         0       1.5      0.06       0.1       0.1
 HG for Shelltype 16 (cortical bones)
        999         8                                                            
+hourglass solids IHQ=5
+     10001         5       0.1         0       1.5      0.06       0.1       0.1
 FBM_Flesh_3D
     119991         5       0.5         0        0.        0.        0.       0.1
 Head_control_scalp_facial_tissue
@@ -216,22 +216,14 @@ LX_R_ST_Upper_Thigh
     756022         5       0.1         0       1.5      0.06       0.1       0.1
 FBM_Flesh_3D
    1990002         3       0.2         0        0.        0.        0.        0.
+Hourglass_control_TX-Ribcage-Cartilage-Exterior
+   4111000         3       0.1         0       1.5      0.06       0.1       0.1
+Hourglass_Control-TX-Ribcage-Cortical
+   4192001         8        0.         0        0.        0.        0.        0.
+Hourglass_Control_TX-Ribcage-Sternum
+   4192421         8        0.         0        0.        0.        0.        0.
 Thorax_control(internal-soft-tissues)
    5100033         3       0.1         0        0.        0.        0.        0.
-Default hourglass solids IHQ=5
-  41110000         5       0.1         0       1.5      0.06       0.1       0.1
-Default hourglass shells HIQ=3
-  41110001         3       0.1         0       1.5      0.06       0.1       0.1
-Anonymous HOURGLASS Card
-  41920010         8        0.         0        0.        0.        0.        0.
-Anonymous HOURGLASS Card
-  41924210         8        0.         0        0.        0.        0.        0.
-Anonymous HOURGLASS Card
-  41970110         5       0.1         0       1.5      0.06       0.1       0.1
-Anonymous HOURGLASS Card
-  41970120         5       0.1         0       1.5      0.06       0.1       0.1
-Anonymous HOURGLASS Card
-  41970130         5       0.1         0       1.5      0.06       0.1       0.1
 *HOURGLASS
    2000000         5       0.1         0       1.5      0.06       0.1       0.1
    3000000         5       0.1         0       1.5      0.06       0.1       0.1

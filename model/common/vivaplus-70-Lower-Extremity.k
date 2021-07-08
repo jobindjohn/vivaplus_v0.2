@@ -2,16 +2,16 @@ $
 $ANSA_VERSION;21.1.0;
 $
 $
-$ file created by  A N S A  Tue Apr 13 12:04:15 2021
+$ file created by  A N S A  Thu Jul  8 15:49:44 2021
 $
 $ output from :
 $
-$ C:/Users/iraeus/Documents/Projects/VIRTUAL/ViVA+/Final_assembly/vivaplus-50F_v
-$ 0-2-2d.ansa
+$ C:/Users/jobinj/Box/vivaplus-share/VIVA-Plus-Meshing-Shared-Folder/vivaplus-50
+$ F_v0-2-4.ansa
 $
 $ Settings :
 $
-$ Output format : R12
+$ Output format : 971R9
 $
 $ Output : All
 $
@@ -36,7 +36,7 @@ $    SECID|   ELFORM|
 *PART
 LX-Bone-Femur-head-Trabecular-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    701112    701112    701102            41110000         0         0          
+    701112    701112    701102               10001         0         0          
 *SECTION_SOLID_TITLE
 LX-Bone-Femur-head-Trabecular-L
 $    SECID|   ELFORM|
@@ -62,7 +62,7 @@ $    SECID|   ELFORM|
 *PART
 LX-Bone-Femur-neck-Trabecular-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    701122    701122    701102            41110000         0         0          
+    701122    701122    701102               10001         0         0          
 *SECTION_SOLID_TITLE
 LX-Bone-Femur-neck-Trabecular-L
 $    SECID|   ELFORM|
@@ -78,7 +78,7 @@ $    SECID|   ELFORM|
 *PART
 LX-Bone-Femur-greater-trochanter-Trabecular-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    701132    701132    701102            41110000         0         0          
+    701132    701132    701102               10001         0         0          
 *SECTION_SOLID_TITLE
 LX-Bone-Femur-greater-trochanter-Trabecular-L
 $    SECID|   ELFORM|
@@ -94,7 +94,7 @@ $    SECID|   ELFORM|
 *PART
 LX-Bone-Femur-lesser-trochanter-Trabecular-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    701142    701142    701102            41110000         0         0          
+    701142    701142    701102               10001         0         0          
 *SECTION_SOLID_TITLE
 LX-Bone-Femur-lesser-trochanter-Trabecular-L
 $    SECID|   ELFORM|
@@ -110,7 +110,7 @@ $    SECID|   ELFORM|
 *PART
 LX-Bone-Femur-shaft-proximal-Trabecular-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    701152    701152    701102            41110000         0         0          
+    701152    701152    701102               10001         0         0          
 *SECTION_SOLID_TITLE
 LX-Bone-Femur-shaft-proximal-Trabecular-L
 $    SECID|   ELFORM|
@@ -134,7 +134,7 @@ $    SECID|   ELFORM|
 *PART
 LX-Bone-Femur-shaft-distal-Trabecular-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    701172    701172    701102            41110000         0         0          
+    701172    701172    701102               10001         0         0          
 *SECTION_SOLID_TITLE
 LX-Bone-Femur-shaft-distal-Trabecular-L
 $    SECID|   ELFORM|
@@ -150,7 +150,7 @@ $    SECID|   ELFORM|
 *PART
 LX-Bone-Femur-distal-medial-condyle-Trabecular-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    701182    701182    701102            41110000         0         0          
+    701182    701182    701102               10001         0         0          
 *SECTION_SOLID_TITLE
 LX-Bone-Femur-distal-medial-condyle-Trabecular-L
 $    SECID|   ELFORM|
@@ -176,7 +176,7 @@ $    SECID|   ELFORM|
 *PART
 LX-Bone-Femur-distal-intercondylar-fossa-Trabecular-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    701192    701192    701102            41110000         0         0          
+    701192    701192    701102               10001         0         0          
 *SECTION_SOLID_TITLE
 LX-Bone-Femur-distal-intercondylar-fossa-Trabecular-L
 $    SECID|   ELFORM|
@@ -192,7 +192,7 @@ $    SECID|   ELFORM|
 *PART
 LX-Bone-Femur-distal-lateral-condyle-Trabecular-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    701202    701202    701102            41110000         0         0          
+    701202    701202    701102               10001         0         0          
 *SECTION_SOLID_TITLE
 LX-Bone-Femur-distal-lateral-condyle-Trabecular-L
 $    SECID|   ELFORM|
@@ -210,7 +210,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 LX-Bone-Patella-Trabecular-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    701302    701302    710402            41110000         0         0          
+    701302    701302    710402               10001         0         0          
 *SECTION_SOLID_TITLE
 LX-Bone-Patella-Trabecular-L
 $    SECID|   ELFORM|
@@ -218,7 +218,7 @@ $    SECID|   ELFORM|
 *PART
 LX-Bone-Tibia-proximal-Trabecular-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    701412    701412    701402            41110000         0         0          
+    701412    701412    701402               10001         0         0          
 *SECTION_SOLID_TITLE
 LX-Bone-Tibia-proximal-Trabecular-L
 $    SECID|   ELFORM|
@@ -226,7 +226,7 @@ $    SECID|   ELFORM|
 *PART
 LX-Bone-Tibia-proximal-Rigid-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    701413    701413    701413            41110000         0         0          
+    701413    701413    701413               10001         0         0          
 *SECTION_SOLID_TITLE
 LX-Bone-Tibia-proximal-Rigid-L
 $    SECID|   ELFORM|
@@ -260,7 +260,7 @@ $    SECID|   ELFORM|
 *PART
 LX-Bone-Tibia-distal-Trabecular-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    701432    701432    701402            41110000         0         0          
+    701432    701432    701402               10001         0         0          
 *SECTION_SOLID_TITLE
 LX-Bone-Tibia-distal-Trabecular-L
 $    SECID|   ELFORM|
@@ -268,7 +268,7 @@ $    SECID|   ELFORM|
 *PART
 LX-Bone-Tibia-distal-Rigid-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    701433    701433    701413            41110000         0         0          
+    701433    701433    701413               10001         0         0          
 *SECTION_SOLID_TITLE
 LX-Bone-Tibia-distal-Rigid-L
 $    SECID|   ELFORM|
@@ -570,7 +570,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 LX-Soft-Foot-Tissue-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    705192    705192    705001            41110000         0         0          
+    705192    705192    705001               10001         0         0          
 *SECTION_SOLID_TITLE
 LX-Soft-Foot-Tissue-L
 $    SECID|   ELFORM|
@@ -616,7 +616,7 @@ $    SECID|   ELFORM|
 *PART
 LX-Bone-Femur-head-Trabecular-R
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    751112    751112    701102            41110000         0         0          
+    751112    751112    701102               10001         0         0          
 *SECTION_SOLID_TITLE
 LX-Bone-Femur-head-Trabecular-R
 $    SECID|   ELFORM|
@@ -642,7 +642,7 @@ $    SECID|   ELFORM|
 *PART
 LX-Bone-Femur-neck-Trabecular-R
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    751122    751122    701102            41110000         0         0          
+    751122    751122    701102               10001         0         0          
 *SECTION_SOLID_TITLE
 LX-Bone-Femur-neck-Trabecular-R
 $    SECID|   ELFORM|
@@ -658,7 +658,7 @@ $    SECID|   ELFORM|
 *PART
 LX-Bone-Femur-greater-trochanter-Trabecular-R
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    751132    751132    701102            41110000         0         0          
+    751132    751132    701102               10001         0         0          
 *SECTION_SOLID_TITLE
 LX-Bone-Femur-greater-trochanter-Trabecular-R
 $    SECID|   ELFORM|
@@ -674,7 +674,7 @@ $    SECID|   ELFORM|
 *PART
 LX-Bone-Femur-lesser-trochanter-Trabecular-R
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    751142    751142    701102            41110000         0         0          
+    751142    751142    701102               10001         0         0          
 *SECTION_SOLID_TITLE
 LX-Bone-Femur-lesser-trochanter-Trabecular-R
 $    SECID|   ELFORM|
@@ -690,7 +690,7 @@ $    SECID|   ELFORM|
 *PART
 LX-Bone-Femur-shaft-proximal-Trabecular-R
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    751152    751152    701102            41110000         0         0          
+    751152    751152    701102               10001         0         0          
 *SECTION_SOLID_TITLE
 LX-Bone-Femur-shaft-proximal-Trabecular-R
 $    SECID|   ELFORM|
@@ -714,7 +714,7 @@ $    SECID|   ELFORM|
 *PART
 LX-Bone-Femur-shaft-distal-Trabecular-R
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    751172    751172    701102            41110000         0         0          
+    751172    751172    701102               10001         0         0          
 *SECTION_SOLID_TITLE
 LX-Bone-Femur-shaft-distal-Trabecular-R
 $    SECID|   ELFORM|
@@ -730,7 +730,7 @@ $    SECID|   ELFORM|
 *PART
 LX-Bone-Femur-distal-medial-condyle-Trabecular-R
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    751182    751182    701102            41110000         0         0          
+    751182    751182    701102               10001         0         0          
 *SECTION_SOLID_TITLE
 LX-Bone-Femur-distal-medial-condyle-Trabecular-R
 $    SECID|   ELFORM|
@@ -756,7 +756,7 @@ $    SECID|   ELFORM|
 *PART
 LX-Bone-Femur-distal-intercondylar-fossa-Trabecular-R
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    751192    751192    701102            41110000         0         0          
+    751192    751192    701102               10001         0         0          
 *SECTION_SOLID_TITLE
 LX-Bone-Femur-distal-intercondylar-fossa-Trabecular-R
 $    SECID|   ELFORM|
@@ -772,7 +772,7 @@ $    SECID|   ELFORM|
 *PART
 LX-Bone-Femur-distal-lateral-condyle-Trabecular-R
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    751202    751202    701102            41110000         0         0          
+    751202    751202    701102               10001         0         0          
 *SECTION_SOLID_TITLE
 LX-Bone-Femur-distal-lateral-condyle-Trabecular-R
 $    SECID|   ELFORM|
@@ -790,7 +790,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 LX-Bone-Patella-Trabecular-R
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    751302    751302    710402            41110000         0         0          
+    751302    751302    710402               10001         0         0          
 *SECTION_SOLID_TITLE
 LX-Bone-Patella-Trabecular-R
 $    SECID|   ELFORM|
@@ -798,7 +798,7 @@ $    SECID|   ELFORM|
 *PART
 LX-Bone-Tibia-proximal-Trabecular-R
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    751412    751412    701402            41110000         0         0          
+    751412    751412    701402               10001         0         0          
 *SECTION_SOLID_TITLE
 LX-Bone-Tibia-proximal-Trabecular-R
 $    SECID|   ELFORM|
@@ -806,7 +806,7 @@ $    SECID|   ELFORM|
 *PART
 LX-Bone-Tibia-proximal-Rigid-R
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    751413    751413    701413            41110000         0         0          
+    751413    751413    701413               10001         0         0          
 *SECTION_SOLID_TITLE
 LX-Bone-Tibia-proximal-Rigid-R
 $    SECID|   ELFORM|
@@ -840,7 +840,7 @@ $    SECID|   ELFORM|
 *PART
 LX-Bone-Tibia-distal-Trabecular-R
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    751432    751432    701402            41110000         0         0          
+    751432    751432    701402               10001         0         0          
 *SECTION_SOLID_TITLE
 LX-Bone-Tibia-distal-Trabecular-R
 $    SECID|   ELFORM|
@@ -848,7 +848,7 @@ $    SECID|   ELFORM|
 *PART
 LX-Bone-Tibia-distal-Rigid-R
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    751433    751433    701413            41110000         0         0          
+    751433    751433    701413               10001         0         0          
 *SECTION_SOLID_TITLE
 LX-Bone-Tibia-distal-Rigid-R
 $    SECID|   ELFORM|
@@ -1150,7 +1150,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 LX-Soft-Foot-Tissue-R
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    755192    755192    705001            41110000         0         0          
+    755192    755192    705001               10001         0         0          
 *SECTION_SOLID_TITLE
 LX-Soft-Foot-Tissue-R
 $    SECID|   ELFORM|

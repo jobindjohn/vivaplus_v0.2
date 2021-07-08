@@ -2,16 +2,16 @@ $
 $ANSA_VERSION;21.1.0;
 $
 $
-$ file created by  A N S A  Tue Apr 13 12:04:14 2021
+$ file created by  A N S A  Thu Jul  8 15:48:08 2021
 $
 $ output from :
 $
-$ C:/Users/iraeus/Documents/Projects/VIRTUAL/ViVA+/Final_assembly/vivaplus-50F_v
-$ 0-2-2d.ansa
+$ C:/Users/jobinj/Box/vivaplus-share/VIVA-Plus-Meshing-Shared-Folder/vivaplus-50
+$ F_v0-2-4.ansa
 $
 $ Settings :
 $
-$ Output format : R12
+$ Output format : 971R9
 $
 $ Output : All
 $
@@ -40,7 +40,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 UX-Bone-Clavicle-Trabecular-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    301102    301102    301102            41110000         0         0          
+    301102    301102    301102               10001         0         0          
 *SECTION_SOLID_TITLE
 UX-Bone-Clavicle-Trabecular-L
 $    SECID|   ELFORM|
@@ -84,7 +84,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 UX-Bone-Scapula-Trabecular-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    301202    301202    610412            41110000         0         0          
+    301202    301202    610412               10001         0         0          
 *SECTION_SOLID_TITLE
 UX-Bone-Scapula-Trabecular-L
 $    SECID|   ELFORM|
@@ -132,7 +132,7 @@ $    SECID|   ELFORM|
 *PART
 UX-Bone-Humerus-proximal-Trabecular-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    301312    301312    301302            41110000         0         0          
+    301312    301312    301302               10001         0         0          
 *SECTION_SOLID_TITLE
 UX-Bone-Humerus-proximal-Trabecular-L
 $    SECID|   ELFORM|
@@ -140,7 +140,7 @@ $    SECID|   ELFORM|
 *PART
 UX-Bone-Humerus-proximal-Rigid-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    301313    301313    301313            41110000         0         0          
+    301313    301313    301313               10001         0         0          
 *SECTION_SOLID_TITLE
 UX-Bone-Humerus-proximal-Rigid-L
 $    SECID|   ELFORM|
@@ -168,7 +168,7 @@ $    SECID|   ELFORM|
 *PART
 UX-Bone-Humerus-distal-Trabecular-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    301332    301332    301302            41110000         0         0          
+    301332    301332    301302               10001         0         0          
 *SECTION_SOLID_TITLE
 UX-Bone-Humerus-distal-Trabecular-L
 $    SECID|   ELFORM|
@@ -176,7 +176,7 @@ $    SECID|   ELFORM|
 *PART
 UX-Bone-Humerus-distal-Rigid-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    301333    301333    301313            41110000         0         0          
+    301333    301333    301313               10001         0         0          
 *SECTION_SOLID_TITLE
 UX-Bone-Humerus-distal-Rigid-L
 $    SECID|   ELFORM|
@@ -208,7 +208,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 UX-Bone-Ulna-proximal-Trabecular-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    301412    301412    301402            41110000         0         0          
+    301412    301412    301402               10001         0         0          
 *SECTION_SOLID_TITLE
 UX-Bone-Ulna-proximal-Trabecular-L
 $    SECID|   ELFORM|
@@ -276,7 +276,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 UX-Bone-Radius-proximal-Trabecular-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    301512    301512    301502            41110000         0         0          
+    301512    301512    301502               10001         0         0          
 *SECTION_SOLID_TITLE
 UX-Bone-Radius-proximal-Trabecular-L
 $    SECID|   ELFORM|
@@ -432,7 +432,7 @@ $       B1|       B2|
 *PART
 UX-Soft-Hand-Tissue-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    305162    305162    305162            41110000         0         0          
+    305162    305162    305162               10001         0         0          
 *SECTION_SOLID_TITLE
 UX-Soft-Hand-Tissue-L
 $    SECID|   ELFORM|
@@ -452,7 +452,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 UX-Bone-Clavicle-Trabecular-R
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    351102    351102    301102            41110000         0         0          
+    351102    351102    301102               10001         0         0          
 *SECTION_SOLID_TITLE
 UX-Bone-Clavicle-Trabecular-R
 $    SECID|   ELFORM|
@@ -496,7 +496,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 UX-Bone-Scapula-Trabecular-R
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    351202    351202    301201            41110000         0         0          
+    351202    351202    301201               10001         0         0          
 *SECTION_SOLID_TITLE
 UX-Bone-Scapula-Trabecular-R
 $    SECID|   ELFORM|
@@ -544,7 +544,7 @@ $    SECID|   ELFORM|
 *PART
 UX-Bone-Humerus-proximal-Trabecular-R
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    351312    351312    301302            41110000         0         0          
+    351312    351312    301302               10001         0         0          
 *SECTION_SOLID_TITLE
 UX-Bone-Humerus-proximal-Trabecular-R
 $    SECID|   ELFORM|
@@ -552,7 +552,7 @@ $    SECID|   ELFORM|
 *PART
 UX-Bone-Humerus-proximal-Rigid-R
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    351313    351313    301313            41110000         0         0          
+    351313    351313    301313               10001         0         0          
 *SECTION_SOLID_TITLE
 UX-Bone-Humerus-proximal-Rigid-R
 $    SECID|   ELFORM|
@@ -580,7 +580,7 @@ $    SECID|   ELFORM|
 *PART
 UX-Bone-Humerus-distal-Trabecular-R
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    351332    351332    301302            41110000         0         0          
+    351332    351332    301302               10001         0         0          
 *SECTION_SOLID_TITLE
 UX-Bone-Humerus-distal-Trabecular-R
 $    SECID|   ELFORM|
@@ -588,7 +588,7 @@ $    SECID|   ELFORM|
 *PART
 UX-Bone-Humerus-distal-Rigid-R
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    351333    351333    301313            41110000         0         0          
+    351333    351333    301313               10001         0         0          
 *SECTION_SOLID_TITLE
 UX-Bone-Humerus-distal-Rigid-R
 $    SECID|   ELFORM|
@@ -620,7 +620,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 UX-Bone-Ulna-proximal-Trabecular-R
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    351412    351412    301402            41110000         0         0          
+    351412    351412    301402               10001         0         0          
 *SECTION_SOLID_TITLE
 UX-Bone-Ulna-proximal-Trabecular-R
 $    SECID|   ELFORM|
@@ -688,7 +688,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 UX-Bone-Radius-proximal-Trabecular-R
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    351512    351512    301502            41110000         0         0          
+    351512    351512    301502               10001         0         0          
 *SECTION_SOLID_TITLE
 UX-Bone-Radius-proximal-Trabecular-R
 $    SECID|   ELFORM|
@@ -844,7 +844,7 @@ $       B1|       B2|
 *PART
 UX-Soft-Hand-Tissue-R
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    355162    355162    305162            41110000         0         0          
+    355162    355162    305162               10001         0         0          
 *SECTION_SOLID_TITLE
 UX-Soft-Hand-Tissue-R
 $    SECID|   ELFORM|
