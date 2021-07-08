@@ -26,8 +26,6 @@ $
 $ANSA_COLOR;vivaplus-50F-seated-reference_points.k;INCLUDE;0.65490198135376;.372
 $549027204514;.796078443527222;1.;
 *KEYWORD
-*TITLE
-LS-DYNA keyword deck by LS-PrePost
 *NODE
  8110010         615.947        -118.846        -231.246       0       0
  8110011        615.2866       -113.0466        -259.841       0       0
