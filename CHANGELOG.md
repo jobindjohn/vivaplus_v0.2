@@ -7,6 +7,16 @@ and this project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.ht
 
 # beta  versions
 
+## 0.2.4 - 2021-07-09
+
+### Added
+
+- Added `*DATABASE_HISTORY_SETS` in `vivaplus-91-outputs-elements.k` include for strain-based calculations
+### Changed
+
+- Renumbered IDs of `*HOURGLASS` and `*ELEMENT_SEATBELT_ACCELEROMETER` falling outside VIVA+ range
+- Moved `*DATABASE_HISTORY_NODE` shared by base 50F and derivative models to new include `vivaplus-90-outputs.k`
+
 ## 0.2.3 - 2021-06-17
 
 ### Added

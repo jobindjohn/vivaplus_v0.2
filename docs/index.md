@@ -10,7 +10,7 @@ Welcome to the online documentation of the VIVA+ Human Body Models!
 
 Here you will find information on getting started with the VIVA+ models, documentation of model implementations, and guides to make contributions to the models.
 
-### **Models** (_beta_ v0.2.2)
+### **Models** (_beta_ v0.2.4)
 
 #### Vehicle Occupant
 
