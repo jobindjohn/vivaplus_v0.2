@@ -2,7 +2,7 @@
 
 Human body finite element (FE) models for Virtual Testing
 
-Current beta version is `0.2.3`, released on 2021-06-18. 
+Current beta version is `0.2.4` released on 2021-07-09 
 
 The VIVA+ models are under active development, with frequent beta releases. Find details of recent updates in the [CHANGELOG](CHANGELOG.md)
 

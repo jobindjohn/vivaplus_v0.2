@@ -2,16 +2,16 @@ $
 $ANSA_VERSION;21.1.0;
 $
 $
-$ file created by  A N S A  Tue Apr 13 12:04:15 2021
+$ file created by  A N S A  Thu Jul  8 15:49:41 2021
 $
 $ output from :
 $
-$ C:/Users/iraeus/Documents/Projects/VIRTUAL/ViVA+/Final_assembly/vivaplus-50F_v
-$ 0-2-2d.ansa
+$ C:/Users/jobinj/Box/vivaplus-share/VIVA-Plus-Meshing-Shared-Folder/vivaplus-50
+$ F_v0-2-4.ansa
 $
 $ Settings :
 $
-$ Output format : R12
+$ Output format : 971R9
 $
 $ Output : All
 $
@@ -38,7 +38,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 PE-Pelvic-Pubis-Trabecular-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    601012    601012    601002            41110000         0         0          
+    601012    601012    601002               10001         0         0          
 *SECTION_SOLID_TITLE
 PE-Pelvic-Pubis-Trabecular-L
 $    SECID|   ELFORM|
@@ -56,7 +56,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 PE-Pelvic-Ischium-Trabecular-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    601022    601022    601002            41110000         0         0          
+    601022    601022    601002               10001         0         0          
 *SECTION_SOLID_TITLE
 PE-Pelvic-Ischium-Trabecular-L
 $    SECID|   ELFORM|
@@ -74,7 +74,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 PE-Pelvic-Acetabulum-Trabecular-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    601032    601032    601002            41110000         0         0          
+    601032    601032    601002               10001         0         0          
 *SECTION_SOLID_TITLE
 PE-Pelvic-Acetabulum-Trabecular-L
 $    SECID|   ELFORM|
@@ -92,7 +92,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 PE-Pelvic-Ilium-Trabecular-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    601042    601042    601002            41110000         0         0          
+    601042    601042    601002               10001         0         0          
 *SECTION_SOLID_TITLE
 PE-Pelvic-Ilium-Trabecular-L
 $    SECID|   ELFORM|
@@ -110,7 +110,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 PE-Pelvic-Sacrum-Trabecular-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    601052    601052    601002            41110000         0         0          
+    601052    601052    601002               10001         0         0          
 *SECTION_SOLID_TITLE
 PE-Pelvic-Sacrum-Trabecular-L
 $    SECID|   ELFORM|
@@ -128,7 +128,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 PE-Pelvis-joints-Pubic-symphysis-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    602010    602010    602010            41110000         0         0          
+    602010    602010    602010               10001         0         0          
 *SECTION_SOLID_TITLE
 PE-Pelvis-joints-Pubic-symphysis-L
 $    SECID|   ELFORM|
@@ -136,7 +136,7 @@ $    SECID|   ELFORM|
 *PART
 PE-Pelvis-joints-SI-joint-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    602020    602020    602020            41110000         0         0          
+    602020    602020    602020               10001         0         0          
 *SECTION_SOLID_TITLE
 PE-Pelvis-joints-SI-joint-L
 $    SECID|   ELFORM|
@@ -222,7 +222,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 PE-Pelvic-Pubis-Trabecular-R
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    651012    651012    601002            41110000         0         0          
+    651012    651012    601002               10001         0         0          
 *SECTION_SOLID_TITLE
 PE-Pelvic-Pubis-Trabecular-R
 $    SECID|   ELFORM|
@@ -240,7 +240,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 PE-Pelvic-Ischium-Trabecular-R
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    651022    651022    601002            41110000         0         0          
+    651022    651022    601002               10001         0         0          
 *SECTION_SOLID_TITLE
 PE-Pelvic-Ischium-Trabecular-R
 $    SECID|   ELFORM|
@@ -258,7 +258,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 PE-Pelvic-Acetabulum-Trabecular-R
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    651032    651032    601002            41110000         0         0          
+    651032    651032    601002               10001         0         0          
 *SECTION_SOLID_TITLE
 PE-Pelvic-Acetabulum-Trabecular-R
 $    SECID|   ELFORM|
@@ -276,7 +276,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 PE-Pelvic-Ilium-Trabecular-R
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    651042    651042    601002            41110000         0         0          
+    651042    651042    601002               10001         0         0          
 *SECTION_SOLID_TITLE
 PE-Pelvic-Ilium-Trabecular-R
 $    SECID|   ELFORM|
@@ -294,7 +294,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 PE-Pelvic-Sacrum-Trabecular-R
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    651052    651052    601002            41110000         0         0          
+    651052    651052    601002               10001         0         0          
 *SECTION_SOLID_TITLE
 PE-Pelvic-Sacrum-Trabecular-R
 $    SECID|   ELFORM|
@@ -302,7 +302,7 @@ $    SECID|   ELFORM|
 *PART
 PE-Pelvis-joints-Pubic-symphysis-R
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    652010    652010    602010            41110000         0         0          
+    652010    652010    602010               10001         0         0          
 *SECTION_SOLID_TITLE
 PE-Pelvis-joints-Pubic-symphysis-R
 $    SECID|   ELFORM|
@@ -310,7 +310,7 @@ $    SECID|   ELFORM|
 *PART
 PE-Pelvis-joints-SI-joint-R
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    652020    652020    602020            41110000         0         0          
+    652020    652020    602020               10001         0         0          
 *SECTION_SOLID_TITLE
 PE-Pelvis-joints-SI-joint-R
 $    SECID|   ELFORM|

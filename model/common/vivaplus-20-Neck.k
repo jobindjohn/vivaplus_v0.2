@@ -2,16 +2,16 @@ $
 $ANSA_VERSION;21.1.0;
 $
 $
-$ file created by  A N S A  Tue Apr 13 12:03:47 2021
+$ file created by  A N S A  Thu Jul  8 15:47:14 2021
 $
 $ output from :
 $
-$ C:/Users/iraeus/Documents/Projects/VIRTUAL/ViVA+/Final_assembly/vivaplus-50F_v
-$ 0-2-2d.ansa
+$ C:/Users/jobinj/Box/vivaplus-share/VIVA-Plus-Meshing-Shared-Folder/vivaplus-50
+$ F_v0-2-4.ansa
 $
 $ Settings :
 $
-$ Output format : R12
+$ Output format : 971R9
 $
 $ Output : All
 $
@@ -1240,7 +1240,7 @@ $       B1|       B2|
 *PART
 NE-IVD-C2-C3-Annulus-ground-M
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    202021    202021    203022            41110000         0         0          
+    202021    202021    203022               10001         0         0          
 *SECTION_SOLID_TITLE
 NE-IVD-C2-C3-Annulus-ground-M
 $    SECID|   ELFORM|
@@ -1248,7 +1248,7 @@ $    SECID|   ELFORM|
 *PART
 NE-IVD-C2-C3-Nucleus-M
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    202022    202022    203021            41110000         0         0          
+    202022    202022    203021               10001         0         0          
 *SECTION_SOLID_TITLE
 NE-IVD-C2-C3-Nucleus-M
 $    SECID|   ELFORM|
@@ -1256,7 +1256,7 @@ $    SECID|   ELFORM|
 *PART
 NE-IVD-C3-C4-Annulus-ground-M
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    202031    202031    203032            41110000         0         0          
+    202031    202031    203032               10001         0         0          
 *SECTION_SOLID_TITLE
 NE-IVD-C3-C4-Annulus-ground-M
 $    SECID|   ELFORM|
@@ -1264,7 +1264,7 @@ $    SECID|   ELFORM|
 *PART
 NE-IVD-C3-C4-Nucleus-M
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    202032    202032    203031            41110000         0         0          
+    202032    202032    203031               10001         0         0          
 *SECTION_SOLID_TITLE
 NE-IVD-C3-C4-Nucleus-M
 $    SECID|   ELFORM|
@@ -1272,7 +1272,7 @@ $    SECID|   ELFORM|
 *PART
 NE-IVD-C4-C5-Annulus-ground-M
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    202041    202041    203042            41110000         0         0          
+    202041    202041    203042               10001         0         0          
 *SECTION_SOLID_TITLE
 NE-IVD-C4-C5-Annulus-ground-M
 $    SECID|   ELFORM|
@@ -1280,7 +1280,7 @@ $    SECID|   ELFORM|
 *PART
 NE-IVD-C4-C5-Nucleus-M
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    202042    202042    203041            41110000         0         0          
+    202042    202042    203041               10001         0         0          
 *SECTION_SOLID_TITLE
 NE-IVD-C4-C5-Nucleus-M
 $    SECID|   ELFORM|
@@ -1288,7 +1288,7 @@ $    SECID|   ELFORM|
 *PART
 NE-IVD-C5-C6-Annulus-ground-M
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    202051    202051    203052            41110000         0         0          
+    202051    202051    203052               10001         0         0          
 *SECTION_SOLID_TITLE
 NE-IVD-C5-C6-Annulus-ground-M
 $    SECID|   ELFORM|
@@ -1296,7 +1296,7 @@ $    SECID|   ELFORM|
 *PART
 NE-IVD-C5-C6-Nucleus-M
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    202052    202052    203051            41110000         0         0          
+    202052    202052    203051               10001         0         0          
 *SECTION_SOLID_TITLE
 NE-IVD-C5-C6-Nucleus-M
 $    SECID|   ELFORM|
@@ -1304,7 +1304,7 @@ $    SECID|   ELFORM|
 *PART
 NE-IVD-C6-C7-Annulus-ground-M
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    202061    202061    203062            41110000         0         0          
+    202061    202061    203062               10001         0         0          
 *SECTION_SOLID_TITLE
 NE-IVD-C6-C7-Annulus-ground-M
 $    SECID|   ELFORM|
@@ -1312,7 +1312,7 @@ $    SECID|   ELFORM|
 *PART
 NE-IVD-C6-C7-Nucleus-M
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    202062    202062    203061            41110000         0         0          
+    202062    202062    203061               10001         0         0          
 *SECTION_SOLID_TITLE
 NE-IVD-C6-C7-Nucleus-M
 $    SECID|   ELFORM|
@@ -1320,7 +1320,7 @@ $    SECID|   ELFORM|
 *PART
 NE-IVD-C7-T1-Annulus-ground-M
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    202071    202071    203072            41110000         0         0          
+    202071    202071    203072               10001         0         0          
 *SECTION_SOLID_TITLE
 NE-IVD-C7-T1-Annulus-ground-M
 $    SECID|   ELFORM|
@@ -1328,7 +1328,7 @@ $    SECID|   ELFORM|
 *PART
 NE-IVD-C7-T1-Nucleus-M
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    202072    202072    203071            41110000         0         0          
+    202072    202072    203071               10001         0         0          
 *SECTION_SOLID_TITLE
 NE-IVD-C7-T1-Nucleus-M
 $    SECID|   ELFORM|
