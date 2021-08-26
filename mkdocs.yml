@@ -6,7 +6,7 @@ site_author: VIVA+ Team
 
 # Repository
 repo_name: openvt/vivaplus
-repo_url: https://virtual.openvt.eu/fe_models/viva/plus
+repo_url: https://virtual.openvt.eu/fem/viva/vivaplus
 
 # Copyright
 copyright: Copyright &copy; 2019-2020 viva+ team
@@ -56,9 +56,17 @@ nav:
 theme:
     name: 'material'
     palette:
-        scheme: 'viva' # See extra.css
-        primary: 'amber'
+        - scheme: 'viva' # See extra.css
+          primary: 'amber'
      #   accent: 'indigo'
+        #   toggle:
+        #     icon: material/lightbulb-outline
+        #     name: Switch to dark mode
+        # - scheme: slate
+        #   primary: 'amber'
+        #   toggle:
+        #     icon: material/lightbulb
+        #     name: Switch to light mode
     features:
       - tabs
     icon: #'images/VIRTUAL.png'
@@ -96,6 +104,7 @@ plugins:
 #          - "viva-refs-1.bib"
       cite_style: "pandoc"
 #  - mknotebooks # pip install mknotebooks
+  - git-revision-date
 
 extra_javascript:
   - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
