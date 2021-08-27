@@ -9,7 +9,7 @@ The baseline model is the average female (50F). All the other models are derivat
 
 ## Model workflow
  
- The seated average female model is the base model, where all updates and enhancements are carried out. The geometry of the average female is based on several statistical shape models for the outer body shape[@reed2013elderly], the ribcage[@wang2016parametric], the
+ The seated average female model is the base model, where all updates and enhancements are carried out[@John2021]. The geometry of the average female is based on several statistical shape models for the outer body shape[@reed2013elderly], the ribcage[@wang2016parametric], the
  femur[@klein2015], the tibia and pelvis[@klein2015use]. 
 
  ![VIVA+ Development Workflow](images\Viva_model_workflow.png)
