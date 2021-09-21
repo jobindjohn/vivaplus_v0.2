@@ -82,16 +82,16 @@ $141174;.701960802078247;1.;
    7124649       123        1.
    7124021       123        1.
 *CONSTRAINED_JOINT_REVOLUTE_ID
-   9000010Humeroulnar                                                           
-   3102553   9100009   3102550   9100008                            0.        0.
+   9000010Humeroulnar_right                                                           
+   3182701   9100009   3182736   9100008                            0.        0.
 *CONSTRAINED_JOINT_REVOLUTE_ID
-   9000030Ankle_Joint_correct                                                   
+   9000030Ankle_Joint                                                   
    7100025   9100013   7260205   9100012                            0.        0.
 *CONSTRAINED_JOINT_REVOLUTE_ID
-   9000040Humeroulnar                                                           
-   3102585   9000080   3102575   9000070                            0.        0.
+   9000040Humeroulnar_left                                                           
+   3145292   9000080   3144318   9000070                            0.        0.
 *CONSTRAINED_JOINT_REVOLUTE_ID
-   9000060Ankle_Joint_correct                                                   
+   9000060Ankle_Joint                                                   
    7100031   9000120   7100035   9000110                            0.        0.
 *CONSTRAINED_JOINT_SPHERICAL_ID
    3137534Glenohumeral-Joint                                                    
