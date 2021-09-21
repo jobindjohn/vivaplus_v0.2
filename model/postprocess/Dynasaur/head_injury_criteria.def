@@ -56,7 +56,34 @@
                     }
                 }
             }
-        }
+        },
+        
+        				{
+					"name": "DAMAGE",
+					"type_of_criteria": "injury",
+					"part_of": "Head",
+						"function": {
+							"name": "DAMAGE", 
+								"param": {
+									"ra_x": {"type": "NODE", "ID": "Head_COG", "array": ["(0, rx_acceleration)"]},
+									"ra_y": {"type": "NODE", "ID": "Head_COG", "array": ["(0, ry_acceleration)"]},
+									"ra_z": {"type": "NODE", "ID": "Head_COG", "array": ["(0, rz_acceleration)"]},
+									"time": {"type": "NODE", "ID": "Head_COG", "array": ["(0, time)"]},
+									"mx": 1,
+									"my": 1,
+									"mz": 1,
+									"kxx": 32142,
+									"kyy": 23493,
+									"kzz": 16935,
+									"kxy": 0,
+									"kyz": 0,
+									"kxz": 1636.3,
+									"a0": 0,
+									"a1": 0.0059148,
+									"beta": 2.9903
+									}
+						}
+				}
 
         ]
     }
