@@ -12,11 +12,7 @@
 							"type": "ENERGY_GLOBAL",
 							"ID": "Model",
 							"array": ["(0, hourglass_energy)"]
-						},
-						"time": {
-							"type": "ENERGY_GLOBAL",
-							"ID": "Model",
-							"array": ["(0, time)"]
+						
 						}
 					}
 				}
@@ -32,12 +28,8 @@
 							"type": "ENERGY_GLOBAL",
 							"ID": "Model",
 							"array": ["(0, internal_energy)"]
-						},
-						"time": {
-							"type": "ENERGY_GLOBAL",
-							"ID": "Model",
-							"array": ["(0, time)"]
 						}
+						
 					}
 				}
 			},
@@ -52,11 +44,6 @@
 							"type": "ENERGY_GLOBAL",
 							"ID": "Model",
 							"array": ["(0, added_mass)"]
-						},
-						"time": {
-							"type": "ENERGY_GLOBAL",
-							"ID": "Model",
-							"array": ["(0, time)"]
 						}
 					}
 				}
@@ -72,11 +59,6 @@
 							"type": "ENERGY_GLOBAL",
 							"ID": "Model",
 							"array": ["(0, percent_increase)"]
-						},
-						"time": {
-							"type": "ENERGY_GLOBAL",
-							"ID": "Model",
-							"array": ["(0, time)"]
 						}
 					}
 				}
@@ -90,7 +72,7 @@
 					"param": {
 						"data_vector": {
 							"function": {
-								"name": "divide",
+								"name": "div",
 								"param": {
 									"data_vector_1": {
 										"type": "ENERGY_GLOBAL",
@@ -104,11 +86,6 @@
 									}
 								}
 							}
-						},
-						"time": {
-							"type": "ENERGY_GLOBAL",
-							"ID": "Model",
-							"array": ["(0, time)"]
 						}
 					}
 				}
