@@ -20,6 +20,41 @@ $
 $ANSA_COLOR;vivaplus-90-outputs.k;INCLUDE;.729411780834198;.290196090936661;.372
 $549027204514;1.;
 *KEYWORD
+*PARAMETER
+$#    name       val
+$ Output frequency for energies
+RDT_Energy         1
+$ Output frequency for forces
+R DT_Force         1
+$ Output frequency for nodal outputs (accelerations, displacements,...)
+R DT_NodeH       0.1
+$ This can cause large file sizes - exclude or set very high if you do not need them.
+$ elements to be outputted are defined in vivaplus-91
+R DT_Elem        0.2
+*DATABASE_ELOUT
+$#      dt    binary      lcur     ioopt
+&DT_Elem           2
+$
+$
+*DATABASE_GLSTAT
+$#      dt    binary      lcur     ioopt
+&DT_Energy         2
+$
+*DATABASE_MATSUM
+$#      dt    binary      lcur     ioopt
+&DT_Energy         2
+$
+*DATABASE_RBDOUT
+$#      dt    binary      lcur     ioopt
+&DT_Force          2
+$
+*DATABASE_NODOUT
+$#      dt    binary      lcur     ioopt
+&DT_NodeH          2
+$
+*DATABASE_RCFORC
+$#      dt    binary      lcur     ioopt
+&DT_Force          2
 $ANSA_ID;1;
 *DATABASE_HISTORY_NODE_ID
    8230000L_Patella_COG                                                         
