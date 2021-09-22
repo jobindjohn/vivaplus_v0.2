@@ -20,6 +20,41 @@ $
 $ANSA_COLOR;vivaplus-90-outputs.k;INCLUDE;.729411780834198;.290196090936661;.372
 $549027204514;1.;
 *KEYWORD
+*PARAMETER
+$#    name       val
+$ Output frequency for energies
+RDT_Energy         1
+$ Output frequency for forces
+R DT_Force         1
+$ Output frequency for nodal outputs (accelerations, displacements,...)
+R DT_NodeH       0.1
+$ This can cause large file sizes - exclude or set very high if you do not need them.
+$ elements to be outputted are defined in vivaplus-91
+R DT_Elem        0.2
+*DATABASE_ELOUT
+$#      dt    binary      lcur     ioopt
+&DT_Elem           2
+$
+$
+*DATABASE_GLSTAT
+$#      dt    binary      lcur     ioopt
+&DT_Energy         2
+$
+*DATABASE_MATSUM
+$#      dt    binary      lcur     ioopt
+&DT_Energy         2
+$
+*DATABASE_RBDOUT
+$#      dt    binary      lcur     ioopt
+&DT_Force          2
+$
+*DATABASE_NODOUT
+$#      dt    binary      lcur     ioopt
+&DT_NodeH          2
+$
+*DATABASE_RCFORC
+$#      dt    binary      lcur     ioopt
+&DT_Force          2
 $ANSA_ID;1;
 *DATABASE_HISTORY_NODE_ID
    8230000L_Patella_COG                                                         
@@ -514,12 +549,6 @@ $ANSA_ID;164;
    8983459L4_L5_MP_y_off                                                        
 $ANSA_ID;165;
 *DATABASE_HISTORY_NODE_ID
-   8390001Head_COG_x_off                                                        
-$ANSA_ID;166;
-*DATABASE_HISTORY_NODE_ID
-   8390002Head_COG_y_off                                                        
-$ANSA_ID;167;
-*DATABASE_HISTORY_NODE_ID
    8300000REF_MP_acetabulum_centers                                             
 $ANSA_ID;168;
 *DATABASE_HISTORY_NODE_ID
@@ -529,7 +558,7 @@ $ANSA_ID;169;
    8240000L_Acetabulum_O                                                        
 $ANSA_ID;170;
 *DATABASE_HISTORY_NODE_ID
-   8390000Head_COG                                                              
+   1121904Head_COG                                                              
 $ANSA_ID;171;
 *DATABASE_HISTORY_NODE_ID
    8240010L_Femur_O                                                             
@@ -589,9 +618,7 @@ L2_L3_MP
    8383349   8383349         1         0
 L3_L4_MP                                                              
    8383459   8383459         1         0
-L4_L5_MP                                                              
-   8190000   8390000         1         0
-Head_COG_Loc                                                          
+L4_L5_MP                                                                                                                      
 $ANSA_ID;188;
 *DATABASE_HISTORY_NODE_ID
    8381010C1_COG                                                                

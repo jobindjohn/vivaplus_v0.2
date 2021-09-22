@@ -6,6 +6,17 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 # beta  versions
+## 0.2.5 - 2021-09-22
+### Added
+
+- standard *DATABASE cards and included parameters to define output frequency in output files
+
+### Changed
+
+- Corrected outputs for head accelerometer and adjusted in Dynasaur scripts
+- Adjusted head stiffness to achieve more realistic HIC values when impacting rigid surfaces
+- Adjusted axis of rotation for elbow joints
+- Included recommended control cards into model directory
 
 ## 0.2.4 - 2021-07-09
 

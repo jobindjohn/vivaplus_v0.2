@@ -25,14 +25,13 @@ $
 $ANSA_COLOR;vivaplus-materials.k;INCLUDE;.800000011920929;0.91372549533844;.2941
 $17659330368;1.;
 *KEYWORD
-*MAT_RIGID_TITLE
-HE_C_Skull-rigid
+*MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE
+Skull_deformable
 $      MID|       RO|        E|       PR|        N|   COUPLE|        M| ALIAS_RE|
-    100001     2.E-6      17.1       0.3        0.        0.        0.          
-$      CMO|     CON1|     CON2|
-       0.0        0.        0.
-$       A1|       A2|       A3|       V1|       V2|       V3|
-        0.        0.        0.        0.        0.        0.
+    100001     2.E-6       50.       0.3        1.        0.     1.E20        0.
+        0.        0.                            0.
+        0.        0.        0.        0.        0.        0.        0.        0.
+        0.        0.        0.        0.        0.        0.        0.        0.
 *MAT_RIGID_TITLE
 HE_C_Mandiblel rigid
 $      MID|       RO|        E|       PR|        N|   COUPLE|        M| ALIAS_RE|
@@ -58,13 +57,17 @@ $      CMO|     CON1|     CON2|
 $       A1|       A2|       A3|       V1|       V2|       V3|
         0.        0.        0.        0.        0.        0.
 *MAT_OGDEN_RUBBER_TITLE
-Scalp_Hyperelsatic-Trotta-et-al-2019
+Hybrid_III_Scalp_Rubber_Wood-et-al-2010
 $      MID|       RO|       PR|        N|       NV|        G|     SIGF|      REF|
-    103001  1.133E-6    0.4999         0                                      0.
-$      MU1|      MU2|      MU3|      MU4|      MU5|      MU6|      MU7|      MU8|
-   0.00148                                                                      
-$   ALPHA1|   ALPHA2|   ALPHA3|   ALPHA4|   ALPHA5|   ALPHA6|   ALPHA7|   ALPHA8|
-       8.1                                                                      
+    103001    8.9E-7    0.4999         0         2        0.        0.          
+  0.000318 -0.000401        0.        0.        0.        0.        0.        0.
+     1.492    -3.316        0.        0.        0.        0.        0.        0.
+  0.000235       0.1          
+  0.000172      0.01
+    8.7E-5     0.001
+    6.5E-5    0.0001
+    2.8E-5     1.E-5
+  0.000414    1.E-12                                                                   
 *MAT_OGDEN_RUBBER_TITLE
 HE_C_Oral_Cavity_Engelbrektsson-2011
 $      MID|       RO|       PR|        N|       NV|        G|     SIGF|      REF|

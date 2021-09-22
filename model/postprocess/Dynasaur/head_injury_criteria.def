@@ -1,11 +1,10 @@
-[
-    {
-        "CRITERIA": [
-        
+[{
+    "CRITERIA": [
+
         {
             "name": "HIC15",
             "type_of_criteria": "injury",
-            "part_of": "Head",
+            "part_of": "HEAD",
             "function": {
                 "name": "max",
                 "param": {
@@ -16,34 +15,26 @@
                                 "time": {
                                     "type": "NODE",
                                     "ID": "Head_COG",
-                                    "array": [
-                                        "(0, time)"
-                                    ]
+                                    "array": ["(0, time)"]
                                 },
                                 "a_res": {
                                     "function": {
-                                        "name": "cfc",
+                                        "name": "res",
                                         "param": {
-                                            "cfc": 1000,
-                                            "time": {
-                                                "type": "NODE",
-                                                "ID": "Head_COG",
-                                                "array": [
-                                                    "(0, time)"
-                                                ]
-                                            },
-                                            "sampled_array": {
+                                            "data_vector": {
                                                 "function": {
-                                                    "name": "res",
+                                                    "name": "cfc",
                                                     "param": {
-                                                        "data_vector": {
+                                                        "cfc": 1000,
+                                                        "time": {
                                                             "type": "NODE",
                                                             "ID": "Head_COG",
-                                                            "array": [
-                                                                "(0, x_acceleration)",
-                                                                "(0, y_acceleration)",
-                                                                "(0, z_acceleration)"
-                                                            ]
+                                                            "array": ["(0, time)"]
+                                                        },
+                                                        "sampled_array": {
+                                                            "type": "NODE",
+                                                            "ID": "Head_COG",
+                                                            "array": ["(0, x_acceleration)", "(0, y_acceleration)", "(0, z_acceleration)"]
                                                         }
                                                     }
                                                 }
@@ -56,9 +47,37 @@
                     }
                 }
             }
-        }
+        },
+        
+        				{
+					"name": "DAMAGE",
+					"type_of_criteria": "injury",
+					"part_of": "Head",
+						"function": {
+							"name": "DAMAGE", 
+								"param": {
+									"ra_x": {"type": "NODE", "ID": "Head_COG", "array": ["(0, rx_acceleration)"]},
+									"ra_y": {"type": "NODE", "ID": "Head_COG", "array": ["(0, ry_acceleration)"]},
+									"ra_z": {"type": "NODE", "ID": "Head_COG", "array": ["(0, rz_acceleration)"]},
+									"time": {"type": "NODE", "ID": "Head_COG", "array": ["(0, time)"]},
+									"mx": 1,
+									"my": 1,
+									"mz": 1,
+									"kxx": 32142,
+									"kyy": 23493,
+									"kzz": 16935,
+									"kxy": 0,
+									"kyz": 0,
+									"kxz": 1636.3,
+									"a0": 0,
+									"a1": 0.0059148,
+									"beta": 2.9903
+									}
+						}
+				}
 
-        ]
-    }
-    
+
+    ]
+}
+
 ]
