@@ -9,7 +9,10 @@ bibliography: [../../viva-refs.bib]
 
 ## Bones
 
-The skull, mandible and teeth were modelled as 1 mm shells, with material model `MAT_RIGID` and properties according to data for cortical bone [@Reilly1975], density 2.e-6, Young's modulus 17.1 GPa, and poisson ratio 0.3.
+The skull, mandible and teeth were modelled as 1 mm shells, originally with material model `MAT_RIGID` and properties according to data for cortical bone [@Reilly1975], density 2.e-6, Young's modulus 17.1 GPa, and poisson ratio 0.3.
+However, ist was identified that this has led to too high HIC values when impacting rigid surfaces.
+Therefore, the material was changed to a deformable material, which was calibrated using the drop tests published by Loyd et al., 2014 [@Loyd2014]. 
+As a preliminary fix, the nodes that were originally commected to the full skull (accelerometer and added masss), are now connected to the mandible. This should be updated in the future. 
 
 ## Soft tissues
 
@@ -21,11 +24,12 @@ The eyelids were modelled using 1 mm thick, fully integrated shells, using mater
 
 ### Scalp
 
-The scalp was modelled using solid elements with material model `MAT_OGDEN_RUBBER` using material properties based on [@Trotta2019]. For the current implementation the ogden parameters corresponding to the highest strain rate (15-100) was used with ogden material parameters according to; μ=1.48 MPa and α=8.1. A poisson's ratio of 0.4999 was used and density was taken from [@Trotta2020]
+The scalp was modelled using solid elements with material model `MAT_OGDEN_RUBBER` based on Wood et al., 2010 [@Wood2010]
 
 ### Oral cavity
 
 The oral cavity was modelled using solid elements with material model `MAT_OGDEN_RUBBER`, with material parameters according to [@Engelbrektsson2011]
+
 ## Adjustment of mass and inertia
 
 Six discrete mass elements, alinged along the principal axes (crossing at the head CoG), were used to adjust the total mass and principal inertias of the head. Using the sex parameter different masses were assigned for 50F and 50M. The mass and inertia properties were taken from [@Yoganandan2009], with original data from [@Plaga2005].
