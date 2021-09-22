@@ -8,12 +8,15 @@ and this project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.ht
 # beta  versions
 ## 0.2.5 - 2021-09-22
 ### Added
+
 - standard *DATABASE cards and included parameters to define output frequency in output files
+
 ### Changed
-- Corrected outputs for head accelerometer and adjusted in dynasaur scripts
+
+- Corrected outputs for head accelerometer and adjusted in Dynasaur scripts
 - Adjusted head stiffness to achieve more realistic HIC values when impacting rigid surfaces
-- Adjusted axis of rotation for ellbow joints
-- Included recommended control cars into model directory
+- Adjusted axis of rotation for elbow joints
+- Included recommended control cards into model directory
 
 ## 0.2.4 - 2021-07-09
 
