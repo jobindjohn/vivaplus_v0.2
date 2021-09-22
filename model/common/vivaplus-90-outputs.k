@@ -31,9 +31,9 @@ R DT_NodeH       0.1
 $ This can cause large file sizes - exclude or set very high if you do not need them.
 $ elements to be outputted are defined in vivaplus-91
 R DT_Elem        0.2
-*DATABASE_ELOUT
-$#      dt    binary      lcur     ioopt
-&DT_Elem           2
+$*DATABASE_ELOUT
+$$#      dt    binary      lcur     ioopt
+$&DT_Elem           2
 $
 $
 *DATABASE_GLSTAT
