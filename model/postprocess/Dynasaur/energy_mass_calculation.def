@@ -64,7 +64,7 @@
 				}
 			},
             {
-				"name": "Hourglass/Internal-Energy_Max",
+				"name": "Hourglass/Total-Energy_Max",
 				"type_of_criteria": "energy",
 				"part_of": "MODEL",
 				"function": {
@@ -82,7 +82,7 @@
 									"data_vector_2": {
 										"type": "ENERGY_GLOBAL",
 										"ID": "Model",
-										"array": ["(0, internal_energy)"]
+										"array": ["(0, total_energy)"]
 									}
 								}
 							}
@@ -138,7 +138,7 @@
 					"array": ["(0, internal_energy)"]
 				},
 				"x": {
-					"label": "Time",
+					"label": "time",
 					"type": "ENERGY_GLOBAL",
 					"ID": "Model",
 					"array": ["(0, time)"]
@@ -154,7 +154,7 @@
 					"array": ["(0, kinetic_energy)"]
 				},
 				"x": {
-					"label": "Time",
+					"label": "time",
 					"type": "ENERGY_GLOBAL",
 					"ID": "Model",
 					"array": ["(0, time)"]
@@ -170,7 +170,7 @@
 					"array": ["(0, hourglass_energy)"]
 				},
 				"x": {
-					"label": "Time",
+					"label": "time",
 					"type": "ENERGY_GLOBAL",
 					"ID": "Model",
 					"array": ["(0, time)"]
