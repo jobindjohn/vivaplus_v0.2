@@ -30,6 +30,7 @@ nav:
         - Abdomen: 'model-doc/50-abdomen.md'
         - Pelvis: 'model-doc/60-pelvis.md'
         - Lower Extremities: 'model-doc/70-lower-extremities.md'
+        - Model Outputs: 'model-doc/80-model-outputs.md'
         # - Control Card Guidelines: 'model-doc/80-control-card-guidelines.md'
         - Injury assessment: 'model-doc/85-Postprocessing.md'
     - User Guide:
@@ -90,8 +91,9 @@ markdown_extensions:
   - pymdownx.tabbed
   - pymdownx.tasklist:
       custom_checkbox: true
-#  - pymdownx.emoji:
-#      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
   - admonition
   - toc:
       permalink: true
