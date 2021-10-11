@@ -2,14 +2,14 @@
 
 ## Database Cards
 
-A set of database cards is predefined in the model (in file vivaplus-90+outputs.k). The output frequency can be adjusted in the .key file using the respective parameters. 
+A set of database cards is predefined in the model (in include `vivaplus-90-outputs.k`). The output frequency can be adjusted in the .key file using the respective parameters. 
 
 
 ## Recommended Criteria
 
 ### Lower Extremities
 
-#### Tibia :white_circle::red_circle::white_circle:
+#### Tibia :white_circle::yellow_circle::white_circle:
 
 A strain-based model specific injury risk curve is currently developed and will be available at the end of the project. Maximum principal strains of the cortical bone are used as output. 
 
@@ -60,6 +60,6 @@ The response of the VIVA+ model was compared to response of Human and Hybrid III
 Head rotations will be validated for pedestrian loadcase.Outputs from the seatbelt accelerometer, positioned at the head CoG should be used. 
 
 
-## Metdata for Dynasaur
+## Metadata for Dynasaur
 
-The .def files including the object IDs and calculation procedures is available in the viva+ model repo: \model\postprocess\Dynasaur.
+The .def files including the object IDs and calculation procedures is available in the viva+ model repo: `/model/postprocess/Dynasaur`.
