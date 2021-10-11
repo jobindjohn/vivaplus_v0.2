@@ -31,7 +31,7 @@ nav:
         - Pelvis: 'model-doc/60-pelvis.md'
         - Lower Extremities: 'model-doc/70-lower-extremities.md'
         # - Control Card Guidelines: 'model-doc/80-control-card-guidelines.md'
-        # - Postprocessing simulations: 'model-doc/85-Postprocessing.md'
+        - Injury assessment: 'model-doc/85-Postprocessing.md'
     - User Guide:
     #    - User guide: user-guide/01-getting-started.md
     #    - Setting up a simulation: user-guide/10-setting-up.md
