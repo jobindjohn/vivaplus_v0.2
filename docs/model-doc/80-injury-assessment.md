@@ -7,33 +7,15 @@ A set of database cards is predefined in the model (in include `vivaplus-90-outp
 
 ## Recommended Criteria
 
-### Lower Extremities
+### Head:
 
-#### Tibia :white_circle::yellow_circle::white_circle:
+#### HIC :green_circle::white_circle::white_circle:
 
-A strain-based model specific injury risk curve is currently developed and will be available at the end of the project. Maximum principal strains of the cortical bone are used as output. 
+The response of the VIVA+ model was compared to response of Human and Hybrid III dummy heads. Outputs from the seatbelt accelerometer, positioned at the head CoG should be used. 
 
-#### Knee :white_circle::white_circle::red_circle:
+#### DAMAGE :white_circle::yellow_circle::white_circle:
 
-Risk curve are currently missing – they have to be defined until the end of the project and will be based on total elongation. 
-https://www.biorxiv.org/content/10.1101/2021.07.30.454445v1 
-
-#### Femur :green_circle::white_circle::white_circle:
-
-Strain-based model specific injury risk curve are ready to use for shaft and proximal femur and have been calibrated specifically fot the VIVA+ model.Maximum principal strains of the cortical bone are used as output. 
-
-http://www.ircobi.org/wordpress/downloads/irc21/pdf-files/2138.pdf
-
-#### Pelvis :white_circle::white_circle::red_circle:
-
-The pelvic bone will be further refined outside of VIRTUAL
-A preliminary injury criterion will be used in VIRTUAL, which should be used for qualitative evaluations only. 
-
-### Thorax 
-
-#### Ribs fracture risk :white_circle::yellow_circle::white_circle:
-
-The strain-based probabilistic risk assessment based on Maximum principal strains of the cortical bones is ready to use, but not validated now (will be done until project end).
+Head rotations will be validated for pedestrian loadcase.Outputs from the seatbelt accelerometer, positioned at the head CoG should be used. 
 
 ### Neck 
 
@@ -49,15 +31,43 @@ The strain-based probabilistic risk assessment based on Maximum principal strain
 
 **Neck cross-section**: A crossection is added to analyse forces and moments: The outputs are not validated and not comparable to dummies! This is not a recommended output to be used. 
 
-### Head:
+### Thorax 
 
-#### HIC :green_circle::white_circle::white_circle:
+#### Ribs fracture risk :white_circle::yellow_circle::white_circle:
 
-The response of the VIVA+ model was compared to response of Human and Hybrid III dummy heads. Outputs from the seatbelt accelerometer, positioned at the head CoG should be used. 
+The strain-based probabilistic risk assessment based on Maximum principal strains of the cortical bones is ready to use, but not validated now (will be done until project end).
 
-#### DAMAGE :white_circle::yellow_circle::white_circle:
+#### Pelvis :white_circle::white_circle::red_circle:
 
-Head rotations will be validated for pedestrian loadcase.Outputs from the seatbelt accelerometer, positioned at the head CoG should be used. 
+The pelvic bone will be further refined outside of VIRTUAL
+A preliminary injury criterion will be used in VIRTUAL, which should be used for qualitative evaluations only. 
+
+### Lower Extremities
+
+#### Femur :green_circle::white_circle::white_circle:
+
+Strain-based model specific injury risk curve are ready to use for shaft and proximal femur and have been calibrated specifically fot the VIVA+ model.Maximum principal strains of the cortical bone are used as output. 
+
+http://www.ircobi.org/wordpress/downloads/irc21/pdf-files/2138.pdf
+
+#### Tibia :white_circle::yellow_circle::white_circle:
+
+A strain-based model specific injury risk curve is currently developed and will be available at the end of the project. Maximum principal strains of the cortical bone are used as output. 
+
+#### Knee :white_circle::white_circle::red_circle:
+
+Risk curve are currently missing – they have to be defined until the end of the project and will be based on total elongation. 
+https://www.biorxiv.org/content/10.1101/2021.07.30.454445v1 
+
+
+
+
+
+
+
+
+
+
 
 
 ## Metadata for Dynasaur
