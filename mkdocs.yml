@@ -18,20 +18,20 @@ nav:
         #- VIVA+ Models overview: getting-started/10-model-overview.md
         #- FAQ: getting-started/FAQ
     - Model Documentation:
-        - VIVA+ Models: 'model/00-models.md'
+        - VIVA+ Models: 'model/intro.md'
         - Validation: 'model/validation.md'
         - Injury assessment: 'model/injury-assessment.md'
         - Publications: 'model/publications.md'
-        - Anthropometry: model/05-anthro.md
-        - Model Data Structure: 'model/06-model-data-structure.md'
-        - Head: model/20-head.md
-        - Spinal Column: model/25-spine.md
-        - Neck: 'model/30-neck.md'
-        - Upper Extremities: model/35-upper-extremities.md
-        - Thorax: model/40-thorax.md
-        - Abdomen: 'model/50-abdomen.md'
-        - Pelvis: 'model/60-pelvis.md'
-        - Lower Extremities: 'model/70-lower-extremities.md'
+        - Anthropometry: model/anthro.md
+        - Model Data Structure: 'model/data-structure.md'
+        - Head: model/body-region/head.md
+        - Spinal Column: model/body-region/spine.md
+        - Neck: 'model/body-region/neck.md'
+        - Upper Extremities: model/body-region/upper-extremities.md
+        - Thorax: model/body-region/thorax.md
+        - Abdomen: 'model/body-region/abdomen.md'
+        - Pelvis: 'model/body-region/pelvis.md'
+        - Lower Extremities: 'model/body-region/lower-extremities.md'
     - User Guide:
     #    - User guide: user-guide/01-getting-started.md
     #    - Setting up a simulation: user-guide/10-setting-up.md
