@@ -8,3 +8,4 @@ dependencies:
     - pymdown-extensions
     - mkdocs-bibtex
     - mkdocs-git-revision-date-plugin
+    - mkdocs-video
