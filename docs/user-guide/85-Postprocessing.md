@@ -1,5 +1,8 @@
-# Postprocessing simulations
+# Outputs
 
+
+
+<!-- 
 FIXME
 
 - Tips: Ten simple rules for writing and sharing computational analyses
@@ -11,3 +14,5 @@ in [Jupyter Notebooks](https://journals.plos.org/ploscompbiol/article?id=10.1371
 ## Jupyter notebooks and git
 
 - [nbdime](https://github.com/jupyter/nbdime) for diffing and merging Jupyter notebooks
+
+-->
