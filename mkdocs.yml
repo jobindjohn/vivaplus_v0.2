@@ -18,25 +18,25 @@ nav:
         #- VIVA+ Models overview: getting-started/10-model-overview.md
         #- FAQ: getting-started/FAQ
     - Model Documentation:
-        - VIVA+ Models: 'model-doc/00-models.md'
-        - Validation: 'model-doc/validation.md'
-        - Injury assessment: 'model-doc/injury-assessment.md'
-        - Publications: 'model-doc/publications.md'
-        - Anthropometry: model-doc/05-anthro.md
-        - Model Data Structure: 'model-doc/06-model-data-structure.md'
-        - Head: model-doc/20-head.md
-        - Spinal Column: model-doc/25-spine.md
-        - Neck: 'model-doc/30-neck.md'
-        - Upper Extremities: model-doc/35-upper-extremities.md
-        - Thorax: model-doc/40-thorax.md
-        - Abdomen: 'model-doc/50-abdomen.md'
-        - Pelvis: 'model-doc/60-pelvis.md'
-        - Lower Extremities: 'model-doc/70-lower-extremities.md'
+        - VIVA+ Models: 'model/00-models.md'
+        - Validation: 'model/validation.md'
+        - Injury assessment: 'model/injury-assessment.md'
+        - Publications: 'model/publications.md'
+        - Anthropometry: model/05-anthro.md
+        - Model Data Structure: 'model/06-model-data-structure.md'
+        - Head: model/20-head.md
+        - Spinal Column: model/25-spine.md
+        - Neck: 'model/30-neck.md'
+        - Upper Extremities: model/35-upper-extremities.md
+        - Thorax: model/40-thorax.md
+        - Abdomen: 'model/50-abdomen.md'
+        - Pelvis: 'model/60-pelvis.md'
+        - Lower Extremities: 'model/70-lower-extremities.md'
     - User Guide:
     #    - User guide: user-guide/01-getting-started.md
     #    - Setting up a simulation: user-guide/10-setting-up.md
     #    - Model validation: user-guide/20-model-validation.md
-        # - Control Card Guidelines: 'model-doc/80-control-card-guidelines.md'
+        # - Control Card Guidelines: 'model/80-control-card-guidelines.md'
         - Postprocessing with Dynasaur: user-guide/50-postprocess-dynasaur.md
         - Jupyter and Python: user-guide/60-Python-Jupyter.md
         - Positioning with PIPER: user-guide/70-positioning-with-PIPER.md
