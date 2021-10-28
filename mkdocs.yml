@@ -20,7 +20,8 @@ nav:
     - Model Documentation:
         - VIVA+ Models: 'model-doc/00-models.md'
         - Validation: 'model-doc/validation.md'
-        - Publications: 'model-doc/01-publications.md'
+        - Injury assessment: 'model-doc/injury-assessment.md'
+        - Publications: 'model-doc/publications.md'
         - Anthropometry: model-doc/05-anthro.md
         - Model Data Structure: 'model-doc/06-model-data-structure.md'
         - Head: model-doc/20-head.md
@@ -31,7 +32,6 @@ nav:
         - Abdomen: 'model-doc/50-abdomen.md'
         - Pelvis: 'model-doc/60-pelvis.md'
         - Lower Extremities: 'model-doc/70-lower-extremities.md'
-        - Injury assessment: 'model-doc/80-injury-assessment.md'
     - User Guide:
     #    - User guide: user-guide/01-getting-started.md
     #    - Setting up a simulation: user-guide/10-setting-up.md
