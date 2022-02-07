@@ -1,13 +1,12 @@
 ---
 bibliography: [../../viva-refs.bib]
 ---
-
 # Shoulder and Upper Extremity
 
 !!! warning "This section of the documentation is under development"
     
     This section is being updated
-    
+
 ## Identifiers
 
 
@@ -31,9 +30,45 @@ bibliography: [../../viva-refs.bib]
         30 240 0 – 30 280 0 | Metacarpal Bones
         30 290 0 – 30 320 0 | Phalanges
 
-### Clavicle and Scapula
+### Clavicle and Scapula 
 
 The clavicle and scapula are modeled as rigid bones. 
+
+### Humerus
+
+Thr cortical thickness increases from proximal to distal end of the diaphysis (humeral shaft). The cortical thickness remains almost a constant (exhibits a plateau) in the distal half of the diaphysis [@Drew2019]. The mean cortical thicknesses from Drew et al. is implemented in the `50F` model [@Drew2019]. This cortical thickness compares to other studies on humerus also [@Haapasalo1996].
+
+### Radius and Ulna
+
+Measured from distal to the proximal end, Hsu et al. [@Hsu1993] found that
+the cortical thickness in the radius increased in the 10% to 30% region and then remain more or less constant from 30% to 90% of the radial length.
+On the other hand, Ulna shows a different trend. The cortical thickness in ulna is constant in the 10% - 35% region, then increases over 35% - 55%, after which it remains constant over 55% - 90% of the length. 
+This provided sufficient approximation for thickness variation of the cortical bone.
+
+The cortical thickness was defined as follows basd on Hsu et al. [@Hsu1993]
+
+| Percentage of <br/> radial length <br/> `measured from distal to proximal` | Radius (mm) | Cortical (mm) |
+|:--------------------------------------------------------------------------:|-------------|---------------|
+|                                    10%                                     | 2.0         | 1.7           |
+|                                    35%                                     | 2.8         | 2.1           |
+|                                    65%                                     | 2.8         | 3.0           |
+|                                    90%                                     | 2.3         | 3.0           |
+
+
+<!-- !!! tip "Note for future implementation: Influence of age"
+
+    Effect of aging on the radius-ulna geometry [@Bouxsein1994]: The cortical area does not seem to change, but the total cross-sectional area increased with age. -->
+
+### Material Modeling
+
+For all cortical bones MAT_124 is applied as it allows to distinguish between tension and compression and model strain-rate dependency.
+
+The humerus material charateristics are based on [@Vandenbulcke2012] As no anisotropic material model is applied at the current stage, and transversal loading is of higher interest in the considered loading scenarios (no steering wheel), the parameters representative for transverse loading were selected.
+
+Bone density was corrected with the factor 1E-3 as there seems to be an error in the original paper - 1.9 g/mm$^2$ is out of range compared to other publications and would lead to a to heavy bone. 
+<!-- 
+TODO: Implement strain rate dependency and plasticity (compression and tension).
+ -->
 
 ### Humerus
 
@@ -72,11 +107,7 @@ Tension parameters described in the same publication:
     Maximum stress σ max = 90 MPa
 
     Maximum strain ∊ max = 0.015
--->
-
-### Radius and Ulna
-
-Both bones were modelled elastic with the same material properties as the humerus. 
+ -->
 
 ### Carpals, Metacarpals, and Phalanges
 
@@ -86,6 +117,11 @@ Both bones were modelled elastic with the same material properties as the humeru
 The geometry for the bones in the VIVA 50F wrist and hand is from the [PIPER Reference Model](https://gitlab.inria.fr/piper/misc_models/-/tree/master/registration_reference_model/22_REF_LTE635_Assembly). It corresponds to anthropometry of female with height 1610mm, mass 57kg, and age 56 years.
 
 
+#### Material Modeling
+
+Both bones were modelled elastic with the same material properties as the humerus for now. 
+
+<!-- 
 <!-- TODO:
 #### To be implemented later on 
 
@@ -113,7 +149,9 @@ Paper: Three-dimensional distribution of trabecular bone density and cortical th
 
 <!-- ### Skin
 
-Skin material properties for the whole upper extremities are based on Flynn et al. 2010[@Flynn2010] using an Ogden material model (without strain rate dependency).
+
+Skin material properties for the whole upper extremities are based on [@Flynn2010] using an Ogden material model (without strain rate dependency).
+
 The material properties provided for the posterior side of the upper arm were selected. In future trials the other region-specific material parameters can be tried out. 
 Prony series coefficients provided in the paper are also applied 
 

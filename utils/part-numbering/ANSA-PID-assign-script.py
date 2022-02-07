@@ -5,12 +5,12 @@ import csv
 from ansa import *
 
 def main():
-	path0="C:/viva-plus/assets/part-numbering/"
+	path0="C:/openvt/vivaplus/utils/part-numbering/"
 	
 	body_region = 'TX'
 		#body_region_dir="200000-neck/"
 	#file="202100-neck-ivd-annulus-fibers"
-	file="403500-Thorax-Ribcage-Sternum"
+	file="404000-TX-Intercostal-Muscle"
 	
 	if body_region == 'HE':
 		body_region_dir = '100000-HE'

@@ -6,6 +6,18 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 # beta  versions
+
+## 0.3.0 - 2021
+
+### Added
+
+### Changed
+
+- New mesh pattern for foot, with rigid Tarsal/Metatarsal blob with soft tissue around it
+
+### Removed
+
+
 ## 0.2.5 - 2021-09-22
 ### Added
 
