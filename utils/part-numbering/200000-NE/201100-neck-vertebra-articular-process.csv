@@ -1,0 +1,18 @@
+﻿Body Region,Sagittal Aspect,Component,,,Sub-Comp,Part Name
+2,,,,,,NE
+,0,,,,,L
+,5,,,,,R
+,,1,,,,Vertebra
+,,,1,,,Articular-Process
+,,,,0,,OC
+,,,,1,,C1
+,,,,2,,C2
+,,,,3,,C3
+,,,,4,,C4
+,,,,5,,C5
+,,,,6,,C6
+,,,,7,,C7
+,,,,,1,Superior-Cartilage
+,,,,,2,Superior-Null
+,,,,,3,Inferior-Cartilage
+,,,,,4,Inferior-Null

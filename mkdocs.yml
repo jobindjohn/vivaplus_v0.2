@@ -1,0 +1,115 @@
+# Project information
+site_name: VIVA+ Human Body Models
+site_url: https://vivaplus.readthedocs.io/en/latest/
+site_description: VIVA+  documentation
+site_author: VIVA+ Team
+
+# Repository
+repo_name: openvt/vivaplus
+repo_url: https://virtual.openvt.eu/fem/viva/vivaplus
+
+# Copyright
+copyright: Copyright &copy; 2019-2020 viva+ team
+
+# Page tree
+nav:
+    - index.md
+        # - Getting started: index.md
+        #- VIVA+ Models overview: getting-started/10-model-overview.md
+        #- FAQ: getting-started/FAQ
+    - Model Documentation:
+        - VIVA+ Models: 'model/intro.md'
+        - Validation: 'model/validation.md'
+        - Injury assessment: 'model/injury-assessment.md'
+        - Publications: 'model/publications.md'
+        - Anthropometry: model/anthro.md
+        - Model Data Structure: 'model/data-structure.md'
+        - Head: model/body-region/head.md
+        - Spinal Column: model/body-region/spine.md
+        - Neck: 'model/body-region/neck.md'
+        - Upper Extremities: model/body-region/upper-extremities.md
+        - Thorax: model/body-region/thorax.md
+        - Abdomen: 'model/body-region/abdomen.md'
+        - Pelvis: 'model/body-region/pelvis.md'
+        - Lower Extremities: 'model/body-region/lower-extremities.md'
+    - User Guide:
+    #    - User guide: user-guide/01-getting-started.md
+    #    - Setting up a simulation: user-guide/10-setting-up.md
+    #    - Model validation: user-guide/20-model-validation.md
+        # - Control Card Guidelines: 'model/80-control-card-guidelines.md'
+        - Postprocessing with Dynasaur: user-guide/50-postprocess-dynasaur.md
+        - Jupyter and Python: user-guide/60-Python-Jupyter.md
+        - Positioning with PIPER: user-guide/70-positioning-with-PIPER.md
+    #    - LS-Dyna Quick Reference: user-guide/80-lsdyna-ref.md
+    - Contributor Handbook:
+        - 'How to Contribute': 'contributor-guide/00-contribute-to-VIVA.md'
+        - 'VIVA+ Git Workflow': 'contributor-guide/20-viva-git-workflow.md'
+        # - 'Git Basics': 'contributor-guide/22-git-basics.md'
+        #- 'More Git Functions': contributor-guide/25-more-git-functions.md
+        - 'Git Resources': contributor-guide/29-git-resources.md
+        #- 'Merging your contributions': 'contributor-guide/50-merge-guidelines.md'
+        #- 'Making model releases': 'contributor-guide/60-model-release.md'
+        - 'Documentation Guidelines': 'contributor-guide/70-documentation-guidelines.md'
+        - 'Validation Catalog': 'contributor-guide/80-validation-catalog.md'
+        #- 'Toolkit': 'contributor-guide/95-toolkit.md'
+
+# Configuration
+theme:
+    name: 'material'
+    palette:
+        - scheme: 'viva' # See extra.css
+          primary: 'amber'
+     #   accent: 'indigo'
+        #   toggle:
+        #     icon: material/lightbulb-outline
+        #     name: Switch to dark mode
+        # - scheme: slate
+        #   primary: 'amber'
+        #   toggle:
+        #     icon: material/lightbulb
+        #     name: Switch to light mode
+    features:
+      - tabs
+    icon: #'images/VIRTUAL.png'
+        #logo: fontawesome/brands/git-alt
+        logo: fontawesome/solid/walking
+        repo: fontawesome/brands/git-alt
+        # Find more at https://material.io/resources/icons/
+    font:
+        text: Heeba
+        code: Roboto Mono
+    favicon: 'images/favicon.ico'
+
+# Extensions
+markdown_extensions:
+  - footnotes
+  - attr_list
+  - pymdownx.arithmatex
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.magiclink
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - admonition
+  - toc:
+      permalink: true
+
+# Plugins
+plugins:
+  - search
+  - bibtex:
+      bib_file: "viva-refs.bib"
+#          - "viva-refs-1.bib"
+      cite_style: "pandoc"
+#  - mknotebooks # pip install mknotebooks
+  - git-revision-date
+  - mkdocs-video
+extra_javascript:
+  - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
+
+extra_css:
+  - css/extra.css

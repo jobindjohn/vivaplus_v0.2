@@ -1,0 +1,21 @@
+[
+    {
+        "DATA VISUALIZATION": [
+            {"name": "T1_COG_ax", "part_of": "Bone", "x": {"label": "time", "type": "NODE", "ID": "T1_COG", "array": ["(0, time)"]}, "y": {"label": "acceleration", "type": "NODE", "ID": "T1_COG", "array": ["(0, x_acceleration)"]}},
+            {"name": "T1_COG_ay", "part_of": "Bone", "x": {"label": "time", "type": "NODE", "ID": "T1_COG", "array": ["(0, time)"]}, "y": {"label": "acceleration", "type": "NODE", "ID": "T1_COG", "array": ["(0, y_acceleration)"]}},
+            {"name": "T1_COG_az", "part_of": "Bone", "x": {"label": "time", "type": "NODE", "ID": "T1_COG", "array": ["(0, time)"]}, "y": {"label": "acceleration", "type": "NODE", "ID": "T1_COG", "array": ["(0, z_acceleration)"]}},
+            {"name": "T1_COG_ares", "part_of": "Bone", "x": {"label": "time", "type": "NODE", "ID": "T1_COG", "array": ["(0, time)"]}, "y": {"label": "acceleration", "function": {"name": "res", "param": {"data_vector": {"type": "NODE","ID": "T1_COG","array": ["(0, x_acceleration)", "(0, y_acceleration)", "(0, z_acceleration)"]}}}}},
+
+            {"name": "T1_COG_x", "part_of": "Bone", "x": {"label": "time", "type": "NODE", "ID": "T1_COG", "array": ["(0, time)"]}, "y": {"label": "displacement", "type": "NODE", "ID": "T1_COG", "array": ["(0, x_displacement)"]}},
+            {"name": "T1_COG_y", "part_of": "Bone", "x": {"label": "time", "type": "NODE", "ID": "T1_COG", "array": ["(0, time)"]}, "y": {"label": "displacement", "type": "NODE", "ID": "T1_COG", "array": ["(0, y_displacement)"]}},
+            {"name": "T1_COG_z", "part_of": "Bone", "x": {"label": "time", "type": "NODE", "ID": "T1_COG", "array": ["(0, time)"]}, "y": {"label": "displacement", "type": "NODE", "ID": "T1_COG", "array": ["(0, z_displacement)"]}},
+            {"name": "T1_COG_res", "part_of": "Bone", "x": {"label": "time", "type": "NODE", "ID": "T1_COG", "array": ["(0, time)"]}, "y": {"label": "displacement", "function": {"name": "res", "param": {"data_vector": {"type": "NODE","ID": "T1_COG","array": ["(0, x_displacement)", "(0, y_displacement)", "(0, z_displacement)"]}}}}},
+            
+            {"name": "T1_COG_ry", "part_of": "Bone",
+            "x": { "label": "time","type": "NODE", "ID": "T1_COG", "array": ["(0, time)"]},
+            "y": { "label": "rotation","type": "NODE", "ID": "T1_COG", "array": ["(0, ry_displacement"]}}
+
+
+        ]
+    }
+]

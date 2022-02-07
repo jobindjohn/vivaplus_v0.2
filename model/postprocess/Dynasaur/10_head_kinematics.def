@@ -1,0 +1,27 @@
+[
+    {
+        "DATA VISUALIZATION": [
+            
+            {"name": "Head_COG_ry", "part_of": "Head", "x": {"label": "time", "type": "NODE", "ID": "Head_COG", "array": ["(0, time)"]}, "y": {"label": "rotationy","type": "NODE", "ID": "Head_COG", "array": ["(0, ry_displacement)"]}},
+
+            {"name": "Head_COG_ax", "part_of": "Head", "x": {"label": "time", "type": "NODE", "ID": "Head_COG", "array": ["(0, time)"]}, "y": {"label": "acceleration","type": "NODE", "ID": "Head_COG", "array": ["(0, x_acceleration)"]}},
+            {"name": "Head_COG_ay", "part_of": "Head", "x": {"label": "time", "type": "NODE", "ID": "Head_COG", "array": ["(0, time)"]}, "y": {"label": "acceleration", "type": "NODE", "ID": "Head_COG", "array": ["(0, y_acceleration)"]}},
+            {"name": "Head_COG_az", "part_of": "Head", "x": {"label": "time", "type": "NODE", "ID": "Head_COG", "array": ["(0, time)"]}, "y": {"label": "acceleration", "type": "NODE", "ID": "Head_COG", "array": ["(0, z_acceleration)"]}},
+            {"name": "Head_COG_ares", "part_of": "Head", "x": {"label": "time","type": "NODE", "ID": "Head_COG", "array": ["(0, time)"]}, "y": {"label": "acceleration", "function": {"name": "res", "param": {"data_vector": {"type": "NODE","ID": "Head_COG","array": ["(0, x_acceleration)", "(0, y_acceleration)", "(0, z_acceleration)"]}}}}},
+            
+            {"name": "Head_COG_dx", "part_of": "Head",
+                "x": { "label": "time","type": "NODE", "ID": "Head_COG", "array": ["(0, time)"]},
+                "y": { "label": "displacement","type": "NODE", "ID": "Head_COG", "array": ["(0, x_displacement"]}},
+            {"name": "Head_COG_dz", "part_of": "Head",
+                "x": { "label": "time","type": "NODE", "ID": "Head_COG", "array": ["(0, time)"]},
+                "y": { "label": "displacement","type": "NODE", "ID": "Head_COG", "array": ["(0, z_displacement"]}},
+            
+            {"name": "Head_COG_Loc_ares_CFC1000","part_of": "Head",
+                "x": {"label": "time","type": "NODE","ID": "Head_COG","array": ["(0, time)"]},
+                "y": {"label": "acceleration","function": {"name": "res","param": {"data_vector": {"function": {"name": "cfc","param": {"cfc": 1000,
+                        "time": {"type": "NODE","ID": "Head_COG","array": ["(0, time)"]},
+                        "sampled_array": {"type": "NODE","ID": "Head_COG","array": ["(0, x_acceleration)", "(0, y_acceleration)", "(0, z_acceleration)"] } 
+                        }}}}}}}
+        ]
+    }
+]

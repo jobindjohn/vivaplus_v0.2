@@ -1,0 +1,10 @@
+Body Region,Sagittal Aspect,Component,,,"Sub-Comp
+/Material",Part Name,Comment
+7,,,,,,LX,
+,0,,,,,L,
+,5,,,,,R,
+,,2,,,,Knee,
+,,,2,,,Cartilage,
+,,,,1,,Femoral,
+,,,,2,,Tibial,
+,,,,3,,Patellar,
