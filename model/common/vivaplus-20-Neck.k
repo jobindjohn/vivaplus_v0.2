@@ -1,13 +1,13 @@
 $
-$ANSA_VERSION;21.1.0;
+$ANSA_VERSION;22.0.0;
 $
 $
-$ file created by  A N S A  Thu Jul  8 15:47:14 2021
+$ file created by  A N S A  Mon Feb  7 12:25:48 2022
 $
 $ output from :
 $
-$ C:/Users/jobinj/Box/vivaplus-share/VIVA-Plus-Meshing-Shared-Folder/vivaplus-50
-$ F_v0-2-4.ansa
+$ C:/Users/jobinj/Box/vivaplus-share/VIVA-Plus-Meshing-Shared-Folder/v0_3/vivapl
+$ us-50F_v030_211214.ansa
 $
 $ Settings :
 $
@@ -15,7 +15,8 @@ $ Output format : 971R9
 $
 $ Output : All
 $
-$ANSA_USER_ATTRIBUTES;vivaplus-20-Neck.k;INCLUDE;DM/Status;TEXT;WIP;
+$ANSA_USER_ATTRIBUTES;vivaplus-20-Neck.k;INCLUDE;DM/Status;TEXT;WIP;DM/IO Index;
+$TEXT;;
 $
 $
 $
@@ -26,11 +27,11 @@ $ANSA_COLOR;vivaplus-20-Neck.k;INCLUDE;.603921592235565;0.52549022436142;.168627
 $455830574;1.;
 *KEYWORD
 *PART
-NE_Hyoid
+NE-Hyoid
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
     200101    200101    200101                             0         0          
 *SECTION_SHELL_TITLE
-NE_Hyoid
+NE-Hyoid
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
     200101         2        1.        2.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
@@ -38,7 +39,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 NE-ligament-OC-C1-AAOM-C
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    200510    200510    203009                             0         0          
+    200510    200510    200510                             0         0          
 *SECTION_SHELL_TITLE
 NE-ligament-OC-C1-AAOM-C
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -50,7 +51,7 @@ $       B1|       B2|
 *PART
 NE-ligament-OC-C1-Apical-C
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    200520    200520    203014                             0         0          
+    200520    200520    200520                             0         0          
 *SECTION_SHELL_TITLE
 NE-ligament-OC-C1-Apical-C
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -62,7 +63,7 @@ $       B1|       B2|
 *PART
 NE-ligament-OC-C1-Cruciform-C
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    200530    200530    203013                             0         0          
+    200530    200530    200530                             0         0          
 *SECTION_SHELL_TITLE
 NE-ligament-OC-C1-Cruciform-C
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -74,7 +75,7 @@ $       B1|       B2|
 *PART
 NE-ligament-OC-C1-Tectoria-C
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    200540    200540    203015                             0         0          
+    200540    200540    200540                             0         0          
 *SECTION_SHELL_TITLE
 NE-ligament-OC-C1-Tectoria-C
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -86,7 +87,7 @@ $       B1|       B2|
 *PART
 NE-ligament-OC-C1-Alar-C
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    200550    200550    213019                             0         0          
+    200550    200550    200550                             0         0          
 *SECTION_SHELL_TITLE
 NE-ligament-OC-C1-Alar-C
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -98,7 +99,7 @@ $       B1|       B2|
 *PART_CONTACT
 NE-ligament-OC-C1-AOCJ-CL-C
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    200560    200560    213014                             0         0          
+    200560    200560    200560                             0         0          
 $       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
         0.        0.        0.        0.       0.1        0.        0.
 *SECTION_SHELL_TITLE
@@ -112,7 +113,7 @@ $       B1|       B2|
 *PART
 NE-ligament-OC-C1-PAOM-C
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    200570    200570    203008                             0         0          
+    200570    200570    200570                             0         0          
 *SECTION_SHELL_TITLE
 NE-ligament-OC-C1-PAOM-C
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -124,7 +125,7 @@ $       B1|       B2|
 *PART
 NE-ligament-OC-C1-Transverse-C
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    200580    200580    203016                             0         0          
+    200580    200580    200580                             0         0          
 *SECTION_SHELL_TITLE
 NE-ligament-OC-C1-Transverse-C
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -146,7 +147,7 @@ $      VOL|     INER|      CID|       CA|   OFFSET|    RRCON|    SRCON|    TRCON
 *PART
 NE-ligament-C1-C2-ALL-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    200710    200710    203011                             0         0          
+    200710    200710    200710                             0         0          
 *SECTION_SHELL_TITLE
 NE-ligament-C1-C2-ALL-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -158,7 +159,7 @@ $       B1|       B2|
 *PART
 NE-ligament-C1-C2-AAAM-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    200720    200720    203012                             0         0          
+    200720    200720    200720                             0         0          
 *SECTION_SHELL_TITLE
 NE-ligament-C1-C2-AAAM-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -170,7 +171,7 @@ $       B1|       B2|
 *PART_CONTACT
 NE-ligament-C1-C2-CL-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    200730    200730    213015                             0         0          
+    200730    200730    200730                             0         0          
 $       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
         0.        0.        0.        0.       0.1        0.        0.
 *SECTION_SHELL_TITLE
@@ -184,7 +185,7 @@ $       B1|       B2|
 *PART
 NE-ligament-C1-C2-IL-Cruciform-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    200740    200740    203018                             0         0          
+    200740    200740    200740                             0         0          
 *SECTION_SHELL_TITLE
 NE-ligament-C1-C2-IL-Cruciform-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -196,7 +197,7 @@ $       B1|       B2|
 *PART
 NE-ligament-C1-C2-Transverse-Center-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    200750    200750    203019                             0         0          
+    200750    200750    200750                             0         0          
 *SECTION_SHELL_TITLE
 NE-ligament-C1-C2-Transverse-Center-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -208,7 +209,7 @@ $       B1|       B2|
 *PART
 NE-ligament-C1-C2-PAAM-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    200760    200760    203017                             0         0          
+    200760    200760    200760                             0         0          
 *SECTION_SHELL_TITLE
 NE-ligament-C1-C2-PAAM-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -240,7 +241,7 @@ $    SECID|   ELFORM|
 *PART_CONTACT
 NE-Vertebra-C2-Cortical-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    201021    201021    200021                             0         0          
+    201021    201021    200011                             0         0          
 $       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
         0.        0.        0.        0.        0.       0.5        0.
 *SECTION_SHELL_TITLE
@@ -252,7 +253,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 NE-Vertebra-C2-Trabecular-M
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    201022    201022    200022                             0         0          
+    201022    201022    200012                             0         0          
 *SECTION_SOLID_TITLE
 NE-Vertebra-C2-Trabecular-M
 $    SECID|   ELFORM|
@@ -260,7 +261,7 @@ $    SECID|   ELFORM|
 *PART
 NE-Vertebra-C2-Endplate-inferior-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    201025    201025    200024                             0         0          
+    201025    201025    200031                             0         0          
 *SECTION_SHELL_TITLE
 NE-Vertebra-C2-Endplate-inferior-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -270,7 +271,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 NE-Vertebra-C2-Endplate-inferior-null-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    201026    201026    203020                             0         0          
+    201026    201026    203029                             0         0          
 *SECTION_SHELL_TITLE
 NE-Vertebra-C2-Endplate-inferior-null-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -280,7 +281,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART_CONTACT
 NE-Vertebra-C3-Cortical-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    201031    201031    200031                             0         0          
+    201031    201031    200011                             0         0          
 $       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
         0.        0.        0.        0.        0.       0.5        0.
 *SECTION_SHELL_TITLE
@@ -292,7 +293,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 NE-Vertebra-C3-Trabecular-M
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    201032    201032    200032                             0         0          
+    201032    201032    200012                             0         0          
 *SECTION_SOLID_TITLE
 NE-Vertebra-C3-Trabecular-M
 $    SECID|   ELFORM|
@@ -300,7 +301,7 @@ $    SECID|   ELFORM|
 *PART
 NE-Vertebra-C3-Endplate-superior-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    201033    201033    200023                             0         0          
+    201033    201033    200021                             0         0          
 *SECTION_SHELL_TITLE
 NE-Vertebra-C3-Endplate-superior-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -310,7 +311,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 NE-Vertebra-C3-Endplate-superior-null-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    201034    201034    203029                             0         0          
+    201034    201034    203039                             0         0          
 *SECTION_SHELL_TITLE
 NE-Vertebra-C3-Endplate-superior-null-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -320,7 +321,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 NE-Vertebra-C3-Endplate-inferior-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    201035    201035    200034                             0         0          
+    201035    201035    200031                             0         0          
 *SECTION_SHELL_TITLE
 NE-Vertebra-C3-Endplate-inferior-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -330,7 +331,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 NE-Vertebra-C3-Endplate-inferior-null-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    201036    201036    203030                             0         0          
+    201036    201036    203029                             0         0          
 *SECTION_SHELL_TITLE
 NE-Vertebra-C3-Endplate-inferior-null-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -340,7 +341,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART_CONTACT
 NE-Vertebra-C4-Cortical-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    201041    201041    200041                             0         0          
+    201041    201041    200011                             0         0          
 $       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
         0.        0.        0.        0.        0.       0.5        0.
 *SECTION_SHELL_TITLE
@@ -352,7 +353,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 NE-Vertebra-C4-Trabecular-M
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    201042    201042    200042                             0         0          
+    201042    201042    200012                             0         0          
 *SECTION_SOLID_TITLE
 NE-Vertebra-C4-Trabecular-M
 $    SECID|   ELFORM|
@@ -360,7 +361,7 @@ $    SECID|   ELFORM|
 *PART
 NE-Vertebra-C4-Endplate-superior-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    201043    201043    200033                             0         0          
+    201043    201043    200021                             0         0          
 *SECTION_SHELL_TITLE
 NE-Vertebra-C4-Endplate-superior-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -380,7 +381,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 NE-Vertebra-C4-Endplate-inferior-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    201045    201045    200044                             0         0          
+    201045    201045    200031                             0         0          
 *SECTION_SHELL_TITLE
 NE-Vertebra-C4-Endplate-inferior-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -390,7 +391,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 NE-Vertebra-C4-Endplate-inferior-null-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    201046    201046    203040                             0         0          
+    201046    201046    203029                             0         0          
 *SECTION_SHELL_TITLE
 NE-Vertebra-C4-Endplate-inferior-null-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -400,7 +401,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART_CONTACT
 NE-Vertebra-C5-Cortical-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    201051    201051    200051                             0         0          
+    201051    201051    200011                             0         0          
 $       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
         0.        0.        0.        0.        0.       0.3        0.
 *SECTION_SHELL_TITLE
@@ -412,7 +413,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 NE-Vertebra-C5-Trabecular-M
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    201052    201052    200052                             0         0          
+    201052    201052    200012                             0         0          
 *SECTION_SOLID_TITLE
 NE-Vertebra-C5-Trabecular-M
 $    SECID|   ELFORM|
@@ -420,7 +421,7 @@ $    SECID|   ELFORM|
 *PART
 NE-Vertebra-C5-Endplate-superior-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    201053    201053    200043                             0         0          
+    201053    201053    200021                             0         0          
 *SECTION_SHELL_TITLE
 NE-Vertebra-C5-Endplate-superior-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -430,7 +431,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 NE-Vertebra-C5-Endplate-superior-null-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    201054    201054    203049                             0         0          
+    201054    201054    203039                             0         0          
 *SECTION_SHELL_TITLE
 NE-Vertebra-C5-Endplate-superior-null-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -440,7 +441,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 NE-Vertebra-C5-Endplate-inferior-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    201055    201055    200054                             0         0          
+    201055    201055    200031                             0         0          
 *SECTION_SHELL_TITLE
 NE-Vertebra-C5-Endplate-inferior-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -450,7 +451,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 NE-Vertebra-C5-Endplate-inferior-null-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    201056    201056    203050                             0         0          
+    201056    201056    203029                             0         0          
 *SECTION_SHELL_TITLE
 NE-Vertebra-C5-Endplate-inferior-null-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -460,7 +461,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART_CONTACT
 NE-Vertebra-C6-Cortical-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    201061    201061    200061                             0         0          
+    201061    201061    200011                             0         0          
 $       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
         0.        0.        0.        0.        0.       0.4        0.
 *SECTION_SHELL_TITLE
@@ -472,7 +473,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 NE-Vertebra-C6-Trabecular-M
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    201062    201062    200062                             0         0          
+    201062    201062    200012                             0         0          
 *SECTION_SOLID_TITLE
 NE-Vertebra-C6-Trabecular-M
 $    SECID|   ELFORM|
@@ -480,7 +481,7 @@ $    SECID|   ELFORM|
 *PART
 NE-Vertebra-C6-Endplate-superior-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    201063    201063    200053                             0         0          
+    201063    201063    200021                             0         0          
 *SECTION_SHELL_TITLE
 NE-Vertebra-C6-Endplate-superior-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -490,7 +491,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 NE-Vertebra-C6-Endplate-superior-null-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    201064    201064    203059                             0         0          
+    201064    201064    203039                             0         0          
 *SECTION_SHELL_TITLE
 NE-Vertebra-C6-Endplate-superior-null-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -500,7 +501,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 NE-Vertebra-C6-Endplate-inferior-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    201065    201065    200064                             0         0          
+    201065    201065    200031                             0         0          
 *SECTION_SHELL_TITLE
 NE-Vertebra-C6-Endplate-inferior-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -510,7 +511,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 NE-Vertebra-C6-Endplate-inferior-null-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    201066    201066    203060                             0         0          
+    201066    201066    203029                             0         0          
 *SECTION_SHELL_TITLE
 NE-Vertebra-C6-Endplate-inferior-null-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -520,7 +521,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART_CONTACT
 NE-Vertebra-C7-Cortical-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    201071    201071    200071                             0         0          
+    201071    201071    200011                             0         0          
 $       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
         0.        0.        0.        0.        0.       0.4        0.
 *SECTION_SHELL_TITLE
@@ -532,7 +533,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 NE-Vertebra-C7-Trabecular-M
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    201072    201072    200072                             0         0          
+    201072    201072    200012                             0         0          
 *SECTION_SOLID_TITLE
 NE-Vertebra-C7-Trabecular-M
 $    SECID|   ELFORM|
@@ -540,7 +541,7 @@ $    SECID|   ELFORM|
 *PART
 NE-Vertebra-C7-Endplate-superior-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    201073    201073    200063                             0         0          
+    201073    201073    200021                             0         0          
 *SECTION_SHELL_TITLE
 NE-Vertebra-C7-Endplate-superior-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -550,7 +551,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 NE-Vertebra-C7-Endplate-superior-null-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    201074    201074    203069                             0         0          
+    201074    201074    203039                             0         0          
 *SECTION_SHELL_TITLE
 NE-Vertebra-C7-Endplate-superior-null-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -560,7 +561,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 NE-Vertebra-C7-Endplate-inferior-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    201075    201075    200074                             0         0          
+    201075    201075    200031                             0         0          
 *SECTION_SHELL_TITLE
 NE-Vertebra-C7-Endplate-inferior-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -570,7 +571,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 NE-Vertebra-C7-Endplate-inferior-null-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    201076    201076    203070                             0         0          
+    201076    201076    203029                             0         0          
 *SECTION_SHELL_TITLE
 NE-Vertebra-C7-Endplate-inferior-null-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -590,7 +591,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 NE-Vertebra-Articular-Process-C1-Superior-Cartilage-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    201111    201111    213013             2000000         0         0          
+    201111    201111    213010              900001         0         0          
 *SECTION_SOLID_TITLE
 NE-Vertebra-Articular-Process-C1-Superior-Cartilage-L
 $    SECID|   ELFORM|
@@ -610,7 +611,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 NE-Vertebra-Articular-Process-C1-Inferior-Cartilage-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    201113    201113    213016             2000000         0         0          
+    201113    201113    213010              900001         0         0          
 *SECTION_SOLID_TITLE
 NE-Vertebra-Articular-Process-C1-Inferior-Cartilage-L
 $    SECID|   ELFORM|
@@ -618,7 +619,7 @@ $    SECID|   ELFORM|
 *PART_CONTACT
 NE-Vertebra-Articular-Process-C1-Inferior-Null-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    201114    201114    213017                             0         0          
+    201114    201114    213011                             0         0          
 $       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
         0.        0.        0.        0.       0.1        0.        0.
 *SECTION_SHELL_TITLE
@@ -630,7 +631,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 NE-Vertebra-Articular-Process-C2-Superior-Cartilage-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    201121    201121    213010             2000000         0         0          
+    201121    201121    213010              900001         0         0          
 *SECTION_SOLID_TITLE
 NE-Vertebra-Articular-Process-C2-Superior-Cartilage-L
 $    SECID|   ELFORM|
@@ -638,7 +639,7 @@ $    SECID|   ELFORM|
 *PART_CONTACT
 NE-Vertebra-Articular-Process-C2-Superior-Null-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    201122    201122    213018                             0         0          
+    201122    201122    213012                             0         0          
 $       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
         0.        0.        0.        0.       0.1        0.        0.
 *SECTION_SHELL_TITLE
@@ -650,7 +651,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 NE-Vertebra-Articular-Process-C2-Inferior-Cartilage-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    201123    201123    213022             2000000         0         0          
+    201123    201123    213010              900001         0         0          
 *SECTION_SOLID_TITLE
 NE-Vertebra-Articular-Process-C2-Inferior-Cartilage-L
 $    SECID|   ELFORM|
@@ -658,7 +659,7 @@ $    SECID|   ELFORM|
 *PART_CONTACT
 NE-Vertebra-Articular-Process-C2-Inferior-Null-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    201124    201124    213024                             0         0          
+    201124    201124    213011                             0         0          
 $       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
         0.        0.        0.        0.       0.1        0.        0.
 *SECTION_SHELL_TITLE
@@ -670,7 +671,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 NE-Vertebra-Articular-Process-C3-Superior-Cartilage-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    201131    201131    213023             2000000         0         0          
+    201131    201131    213010              900001         0         0          
 *SECTION_SOLID_TITLE
 NE-Vertebra-Articular-Process-C3-Superior-Cartilage-L
 $    SECID|   ELFORM|
@@ -678,7 +679,7 @@ $    SECID|   ELFORM|
 *PART_CONTACT
 NE-Vertebra-Articular-Process-C3-Superior-Null-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    201132    201132    213025                             0         0          
+    201132    201132    213012                             0         0          
 $       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
         0.        0.        0.        0.       0.1        0.        0.
 *SECTION_SHELL_TITLE
@@ -690,7 +691,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 NE-Vertebra-Articular-Process-C3-Inferior-Cartilage-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    201133    201133    213032             2000000         0         0          
+    201133    201133    213010              900001         0         0          
 *SECTION_SOLID_TITLE
 NE-Vertebra-Articular-Process-C3-Inferior-Cartilage-L
 $    SECID|   ELFORM|
@@ -698,7 +699,7 @@ $    SECID|   ELFORM|
 *PART_CONTACT
 NE-Vertebra-Articular-Process-C3-Inferior-Null-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    201134    201134    213034                             0         0          
+    201134    201134    213011                             0         0          
 $       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
         0.        0.        0.        0.       0.1        0.        0.
 *SECTION_SHELL_TITLE
@@ -710,7 +711,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 NE-Vertebra-Articular-Process-C4-Superior-Cartilage-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    201141    201141    213033             2000000         0         0          
+    201141    201141    213010              900001         0         0          
 *SECTION_SOLID_TITLE
 NE-Vertebra-Articular-Process-C4-Superior-Cartilage-L
 $    SECID|   ELFORM|
@@ -718,7 +719,7 @@ $    SECID|   ELFORM|
 *PART_CONTACT
 NE-Vertebra-Articular-Process-C4-Superior-Null-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    201142    201142    213035                             0         0          
+    201142    201142    213012                             0         0          
 $       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
         0.        0.        0.        0.       0.1        0.        0.
 *SECTION_SHELL_TITLE
@@ -730,7 +731,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 NE-Vertebra-Articular-Process-C4-Inferior-Cartilage-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    201143    201143    213042             2000000         0         0          
+    201143    201143    213010              900001         0         0          
 *SECTION_SOLID_TITLE
 NE-Vertebra-Articular-Process-C4-Inferior-Cartilage-L
 $    SECID|   ELFORM|
@@ -738,7 +739,7 @@ $    SECID|   ELFORM|
 *PART_CONTACT
 NE-Vertebra-Articular-Process-C4-Inferior-Null-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    201144    201144    213044                             0         0          
+    201144    201144    213011                             0         0          
 $       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
         0.        0.        0.        0.       0.1        0.        0.
 *SECTION_SHELL_TITLE
@@ -750,7 +751,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 NE-Vertebra-Articular-Process-C5-Superior-Cartilage-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    201151    201151    213043             2000000         0         0          
+    201151    201151    213010              900001         0         0          
 *SECTION_SOLID_TITLE
 NE-Vertebra-Articular-Process-C5-Superior-Cartilage-L
 $    SECID|   ELFORM|
@@ -758,7 +759,7 @@ $    SECID|   ELFORM|
 *PART_CONTACT
 NE-Vertebra-Articular-Process-C5-Superior-Null-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    201152    201152    213045                             0         0          
+    201152    201152    213012                             0         0          
 $       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
         0.        0.        0.        0.       0.1        0.        0.
 *SECTION_SHELL_TITLE
@@ -770,7 +771,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 NE-Vertebra-Articular-Process-C5-Inferior-Cartilage-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    201153    201153    213052             2000000         0         0          
+    201153    201153    213010              900001         0         0          
 *SECTION_SOLID_TITLE
 NE-Vertebra-Articular-Process-C5-Inferior-Cartilage-L
 $    SECID|   ELFORM|
@@ -778,7 +779,7 @@ $    SECID|   ELFORM|
 *PART_CONTACT
 NE-Vertebra-Articular-Process-C5-Inferior-Null-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    201154    201154    213054                             0         0          
+    201154    201154    213011                             0         0          
 $       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
         0.        0.        0.        0.       0.1        0.        0.
 *SECTION_SHELL_TITLE
@@ -790,7 +791,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 NE-Vertebra-Articular-Process-C6-Superior-Cartilage-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    201161    201161    213053             2000000         0         0          
+    201161    201161    213010              900001         0         0          
 *SECTION_SOLID_TITLE
 NE-Vertebra-Articular-Process-C6-Superior-Cartilage-L
 $    SECID|   ELFORM|
@@ -798,7 +799,7 @@ $    SECID|   ELFORM|
 *PART_CONTACT
 NE-Vertebra-Articular-Process-C6-Superior-Null-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    201162    201162    213055                             0         0          
+    201162    201162    213012                             0         0          
 $       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
         0.        0.        0.        0.       0.1        0.        0.
 *SECTION_SHELL_TITLE
@@ -810,7 +811,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 NE-Vertebra-Articular-Process-C6-Inferior-Cartilage-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    201163    201163    213062             2000000         0         0          
+    201163    201163    213010              900001         0         0          
 *SECTION_SOLID_TITLE
 NE-Vertebra-Articular-Process-C6-Inferior-Cartilage-L
 $    SECID|   ELFORM|
@@ -818,7 +819,7 @@ $    SECID|   ELFORM|
 *PART_CONTACT
 NE-Vertebra-Articular-Process-C6-Inferior-Null-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    201164    201164    213064                             0         0          
+    201164    201164    213011                             0         0          
 $       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
         0.        0.        0.        0.       0.1        0.        0.
 *SECTION_SHELL_TITLE
@@ -830,7 +831,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 NE-Vertebra-Articular-Process-C7-Superior-Cartilage-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    201171    201171    213063             2000000         0         0          
+    201171    201171    213010              900001         0         0          
 *SECTION_SOLID_TITLE
 NE-Vertebra-Articular-Process-C7-Superior-Cartilage-L
 $    SECID|   ELFORM|
@@ -838,7 +839,7 @@ $    SECID|   ELFORM|
 *PART_CONTACT
 NE-Vertebra-Articular-Process-C7-Superior-Null-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    201172    201172    213065                             0         0          
+    201172    201172    213012                             0         0          
 $       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
         0.        0.        0.        0.       0.1        0.        0.
 *SECTION_SHELL_TITLE
@@ -850,7 +851,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 NE-Vertebra-Articular-Process-C7-Inferior-Cartilage-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    201173    201173    213072             2000000         0         0          
+    201173    201173    213010              900001         0         0          
 *SECTION_SOLID_TITLE
 NE-Vertebra-Articular-Process-C7-Inferior-Cartilage-L
 $    SECID|   ELFORM|
@@ -858,7 +859,7 @@ $    SECID|   ELFORM|
 *PART
 NE-Vertebra-Articular-Process-C7-Inferior-Null-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    201174    201174    213074                             0         0          
+    201174    201174    213011                             0         0          
 *SECTION_SHELL_TITLE
 NE-Vertebra-Articular-Process-C7-Inferior-Null-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -868,7 +869,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 NE-ligaments-C2-C3-ALL-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    201521    201521    213028                             0         0          
+    201521    201521    201521                             0         0          
 *SECTION_SHELL_TITLE
 NE-ligaments-C2-C3-ALL-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -880,7 +881,7 @@ $       B1|       B2|
 *PART
 NE-ligaments-C2-C3-PLL-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    201522    201522    213027                             0         0          
+    201522    201522    201522                             0         0          
 *SECTION_SHELL_TITLE
 NE-ligaments-C2-C3-PLL-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -892,7 +893,7 @@ $       B1|       B2|
 *PART_CONTACT
 NE-ligaments-C2-C3-CL-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    201523    201523    213021                             0         0          
+    201523    201523    201523                             0         0          
 $       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
         0.        0.        0.        0.       0.1        0.        0.
 *SECTION_SHELL_TITLE
@@ -906,7 +907,7 @@ $       B1|       B2|
 *PART
 NE-ligaments-C2-C3-LF-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    201524    201524    213026                             0         0          
+    201524    201524    201524                             0         0          
 *SECTION_SHELL_TITLE
 NE-ligaments-C2-C3-LF-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -918,7 +919,7 @@ $       B1|       B2|
 *PART
 NE-ligaments-C2-C3-ISL-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    201525    201525    213029                             0         0          
+    201525    201525    201525                             0         0          
 *SECTION_SHELL_TITLE
 NE-ligaments-C2-C3-ISL-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -930,7 +931,7 @@ $       B1|       B2|
 *PART
 NE-ligaments-C3-C4-ALL-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    201531    201531    213038                             0         0          
+    201531    201531    201531                             0         0          
 *SECTION_SHELL_TITLE
 NE-ligaments-C3-C4-ALL-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -942,7 +943,7 @@ $       B1|       B2|
 *PART
 NE-ligaments-C3-C4-PLL-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    201532    201532    213037                             0         0          
+    201532    201532    201532                             0         0          
 *SECTION_SHELL_TITLE
 NE-ligaments-C3-C4-PLL-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -954,7 +955,7 @@ $       B1|       B2|
 *PART_CONTACT
 NE-ligaments-C3-C4-CL-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    201533    201533    213031                             0         0          
+    201533    201533    201533                             0         0          
 $       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
         0.        0.        0.        0.       0.1        0.        0.
 *SECTION_SHELL_TITLE
@@ -968,7 +969,7 @@ $       B1|       B2|
 *PART
 NE-ligaments-C3-C4-LF-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    201534    201534    213036                             0         0          
+    201534    201534    201534                             0         0          
 *SECTION_SHELL_TITLE
 NE-ligaments-C3-C4-LF-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -980,7 +981,7 @@ $       B1|       B2|
 *PART
 NE-ligaments-C3-C4-ISL-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    201535    201535    213039                             0         0          
+    201535    201535    201535                             0         0          
 *SECTION_SHELL_TITLE
 NE-ligaments-C3-C4-ISL-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -992,7 +993,7 @@ $       B1|       B2|
 *PART
 NE-ligaments-C4-C5-ALL-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    201541    201541    213048                             0         0          
+    201541    201541    201541                             0         0          
 *SECTION_SHELL_TITLE
 NE-ligaments-C4-C5-ALL-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -1004,7 +1005,7 @@ $       B1|       B2|
 *PART
 NE-ligaments-C4-C5-PLL-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    201542    201542    213047                             0         0          
+    201542    201542    201542                             0         0          
 *SECTION_SHELL_TITLE
 NE-ligaments-C4-C5-PLL-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -1016,7 +1017,7 @@ $       B1|       B2|
 *PART_CONTACT
 NE-ligaments-C4-C5-CL-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    201543    201543    213041                             0         0          
+    201543    201543    201543                             0         0          
 $       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
         0.        0.        0.        0.       0.1        0.        0.
 *SECTION_SHELL_TITLE
@@ -1030,7 +1031,7 @@ $       B1|       B2|
 *PART
 NE-ligaments-C4-C5-LF-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    201544    201544    213046                             0         0          
+    201544    201544    201544                             0         0          
 *SECTION_SHELL_TITLE
 NE-ligaments-C4-C5-LF-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -1042,7 +1043,7 @@ $       B1|       B2|
 *PART
 NE-ligaments-C4-C5-ISL-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    201545    201545    213049                             0         0          
+    201545    201545    201545                             0         0          
 *SECTION_SHELL_TITLE
 NE-ligaments-C4-C5-ISL-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -1054,7 +1055,7 @@ $       B1|       B2|
 *PART
 NE-ligaments-C5-C6-ALL-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    201551    201551    213058                             0         0          
+    201551    201551    201551                             0         0          
 *SECTION_SHELL_TITLE
 NE-ligaments-C5-C6-ALL-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -1066,7 +1067,7 @@ $       B1|       B2|
 *PART
 NE-ligaments-C5-C6-PLL-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    201552    201552    213057                             0         0          
+    201552    201552    201552                             0         0          
 *SECTION_SHELL_TITLE
 NE-ligaments-C5-C6-PLL-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -1078,7 +1079,7 @@ $       B1|       B2|
 *PART_CONTACT
 NE-ligaments-C5-C6-CL-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    201553    201553    213051                             0         0          
+    201553    201553    201553                             0         0          
 $       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
         0.        0.        0.        0.       0.1        0.        0.
 *SECTION_SHELL_TITLE
@@ -1092,7 +1093,7 @@ $       B1|       B2|
 *PART
 NE-ligaments-C5-C6-LF-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    201554    201554    213056                             0         0          
+    201554    201554    201554                             0         0          
 *SECTION_SHELL_TITLE
 NE-ligaments-C5-C6-LF-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -1104,7 +1105,7 @@ $       B1|       B2|
 *PART
 NE-ligaments-C5-C6-ISL-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    201555    201555    213059                             0         0          
+    201555    201555    201555                             0         0          
 *SECTION_SHELL_TITLE
 NE-ligaments-C5-C6-ISL-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -1116,7 +1117,7 @@ $       B1|       B2|
 *PART
 NE-ligaments-C6-C7-ALL-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    201561    201561    213068                             0         0          
+    201561    201561    201561                             0         0          
 *SECTION_SHELL_TITLE
 NE-ligaments-C6-C7-ALL-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -1128,7 +1129,7 @@ $       B1|       B2|
 *PART
 NE-ligaments-C6-C7-PLL-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    201562    201562    213067                             0         0          
+    201562    201562    201562                             0         0          
 *SECTION_SHELL_TITLE
 NE-ligaments-C6-C7-PLL-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -1140,7 +1141,7 @@ $       B1|       B2|
 *PART_CONTACT
 NE-ligaments-C6-C7-CL-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    201563    201563    213061                             0         0          
+    201563    201563    201563                             0         0          
 $       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
         0.        0.        0.        0.       0.1        0.        0.
 *SECTION_SHELL_TITLE
@@ -1154,7 +1155,7 @@ $       B1|       B2|
 *PART
 NE-ligaments-C6-C7-LF-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    201564    201564    213066                             0         0          
+    201564    201564    201564                             0         0          
 *SECTION_SHELL_TITLE
 NE-ligaments-C6-C7-LF-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -1166,7 +1167,7 @@ $       B1|       B2|
 *PART
 NE-ligaments-C6-C7-ISL-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    201565    201565    213069                             0         0          
+    201565    201565    201565                             0         0          
 *SECTION_SHELL_TITLE
 NE-ligaments-C6-C7-ISL-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -1178,7 +1179,7 @@ $       B1|       B2|
 *PART
 NE-ligaments-C7-T1-ALL-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    201571    201571    213078                             0         0          
+    201571    201571    201571                             0         0          
 *SECTION_SHELL_TITLE
 NE-ligaments-C7-T1-ALL-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -1190,7 +1191,7 @@ $       B1|       B2|
 *PART
 NE-ligaments-C7-T1-PLL-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    201572    201572    213077                             0         0          
+    201572    201572    201572                             0         0          
 *SECTION_SHELL_TITLE
 NE-ligaments-C7-T1-PLL-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -1202,7 +1203,7 @@ $       B1|       B2|
 *PART_CONTACT
 NE-ligaments-C7-T1-CL-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    201573    201573    213071                             0         0          
+    201573    201573    201573                             0         0          
 $       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
         0.        0.        0.        0.       0.5        0.        0.
 *SECTION_SHELL_TITLE
@@ -1216,7 +1217,7 @@ $       B1|       B2|
 *PART
 NE-ligaments-C7-T1-LF-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    201574    201574    213076                             0         0          
+    201574    201574    201574                             0         0          
 *SECTION_SHELL_TITLE
 NE-ligaments-C7-T1-LF-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -1228,7 +1229,7 @@ $       B1|       B2|
 *PART
 NE-ligaments-C7-T1-ISL-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    201575    201575    213079                             0         0          
+    201575    201575    201575                             0         0          
 *SECTION_SHELL_TITLE
 NE-ligaments-C7-T1-ISL-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -1240,7 +1241,7 @@ $       B1|       B2|
 *PART
 NE-IVD-C2-C3-Annulus-ground-M
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    202021    202021    203022               10001         0         0          
+    202021    202021    203022              900001         0         0          
 *SECTION_SOLID_TITLE
 NE-IVD-C2-C3-Annulus-ground-M
 $    SECID|   ELFORM|
@@ -1248,7 +1249,7 @@ $    SECID|   ELFORM|
 *PART
 NE-IVD-C2-C3-Nucleus-M
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    202022    202022    203021               10001         0         0          
+    202022    202022    202022              900001         0         0          
 *SECTION_SOLID_TITLE
 NE-IVD-C2-C3-Nucleus-M
 $    SECID|   ELFORM|
@@ -1256,7 +1257,7 @@ $    SECID|   ELFORM|
 *PART
 NE-IVD-C3-C4-Annulus-ground-M
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    202031    202031    203032               10001         0         0          
+    202031    202031    203022              900001         0         0          
 *SECTION_SOLID_TITLE
 NE-IVD-C3-C4-Annulus-ground-M
 $    SECID|   ELFORM|
@@ -1264,7 +1265,7 @@ $    SECID|   ELFORM|
 *PART
 NE-IVD-C3-C4-Nucleus-M
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    202032    202032    203031               10001         0         0          
+    202032    202032    202022              900001         0         0          
 *SECTION_SOLID_TITLE
 NE-IVD-C3-C4-Nucleus-M
 $    SECID|   ELFORM|
@@ -1272,7 +1273,7 @@ $    SECID|   ELFORM|
 *PART
 NE-IVD-C4-C5-Annulus-ground-M
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    202041    202041    203042               10001         0         0          
+    202041    202041    203022              900001         0         0          
 *SECTION_SOLID_TITLE
 NE-IVD-C4-C5-Annulus-ground-M
 $    SECID|   ELFORM|
@@ -1280,7 +1281,7 @@ $    SECID|   ELFORM|
 *PART
 NE-IVD-C4-C5-Nucleus-M
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    202042    202042    203041               10001         0         0          
+    202042    202042    202022              900001         0         0          
 *SECTION_SOLID_TITLE
 NE-IVD-C4-C5-Nucleus-M
 $    SECID|   ELFORM|
@@ -1288,7 +1289,7 @@ $    SECID|   ELFORM|
 *PART
 NE-IVD-C5-C6-Annulus-ground-M
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    202051    202051    203052               10001         0         0          
+    202051    202051    203022              900001         0         0          
 *SECTION_SOLID_TITLE
 NE-IVD-C5-C6-Annulus-ground-M
 $    SECID|   ELFORM|
@@ -1296,7 +1297,7 @@ $    SECID|   ELFORM|
 *PART
 NE-IVD-C5-C6-Nucleus-M
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    202052    202052    203051               10001         0         0          
+    202052    202052    202022              900001         0         0          
 *SECTION_SOLID_TITLE
 NE-IVD-C5-C6-Nucleus-M
 $    SECID|   ELFORM|
@@ -1304,7 +1305,7 @@ $    SECID|   ELFORM|
 *PART
 NE-IVD-C6-C7-Annulus-ground-M
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    202061    202061    203062               10001         0         0          
+    202061    202061    203022              900001         0         0          
 *SECTION_SOLID_TITLE
 NE-IVD-C6-C7-Annulus-ground-M
 $    SECID|   ELFORM|
@@ -1312,7 +1313,7 @@ $    SECID|   ELFORM|
 *PART
 NE-IVD-C6-C7-Nucleus-M
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    202062    202062    203061               10001         0         0          
+    202062    202062    202022              900001         0         0          
 *SECTION_SOLID_TITLE
 NE-IVD-C6-C7-Nucleus-M
 $    SECID|   ELFORM|
@@ -1320,7 +1321,7 @@ $    SECID|   ELFORM|
 *PART
 NE-IVD-C7-T1-Annulus-ground-M
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    202071    202071    203072               10001         0         0          
+    202071    202071    203022              900001         0         0          
 *SECTION_SOLID_TITLE
 NE-IVD-C7-T1-Annulus-ground-M
 $    SECID|   ELFORM|
@@ -1328,7 +1329,7 @@ $    SECID|   ELFORM|
 *PART
 NE-IVD-C7-T1-Nucleus-M
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    202072    202072    203071               10001         0         0          
+    202072    202072    202022              900001         0         0          
 *SECTION_SOLID_TITLE
 NE-IVD-C7-T1-Nucleus-M
 $    SECID|   ELFORM|
@@ -1408,7 +1409,7 @@ $       B1|       B2|
 *PART
 NE-IVD-Annulus-fiber-C3-C4-1a-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    202131    202131    203033                             0         0          
+    202131    202131    203023                             0         0          
 *SECTION_SHELL_TITLE
 NE-IVD-Annulus-fiber-C3-C4-1a-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -1420,7 +1421,7 @@ $       B1|       B2|
 *PART
 NE-IVD-Annulus-fiber-C3-C4-1b-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    202132    202132    203034                             0         0          
+    202132    202132    203024                             0         0          
 *SECTION_SHELL_TITLE
 NE-IVD-Annulus-fiber-C3-C4-1b-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -1432,7 +1433,7 @@ $       B1|       B2|
 *PART
 NE-IVD-Annulus-fiber-C3-C4-2a-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    202133    202133    203035                             0         0          
+    202133    202133    203025                             0         0          
 *SECTION_SHELL_TITLE
 NE-IVD-Annulus-fiber-C3-C4-2a-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -1444,7 +1445,7 @@ $       B1|       B2|
 *PART
 NE-IVD-Annulus-fiber-C3-C4-2b-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    202134    202134    203036                             0         0          
+    202134    202134    203026                             0         0          
 *SECTION_SHELL_TITLE
 NE-IVD-Annulus-fiber-C3-C4-2b-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -1456,7 +1457,7 @@ $       B1|       B2|
 *PART
 NE-IVD-Annulus-fiber-C3-C4-3a-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    202135    202135    203037                             0         0          
+    202135    202135    203027                             0         0          
 *SECTION_SHELL_TITLE
 NE-IVD-Annulus-fiber-C3-C4-3a-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -1468,7 +1469,7 @@ $       B1|       B2|
 *PART
 NE-IVD-Annulus-fiber-C3-C4-3b-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    202136    202136    203038                             0         0          
+    202136    202136    203028                             0         0          
 *SECTION_SHELL_TITLE
 NE-IVD-Annulus-fiber-C3-C4-3b-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -1480,7 +1481,7 @@ $       B1|       B2|
 *PART
 NE-IVD-Annulus-fiber-C4-C5-1a-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    202141    202141    203043                             0         0          
+    202141    202141    203023                             0         0          
 *SECTION_SHELL_TITLE
 NE-IVD-Annulus-fiber-C4-C5-1a-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -1492,7 +1493,7 @@ $       B1|       B2|
 *PART
 NE-IVD-Annulus-fiber-C4-C5-1b-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    202142    202142    203044                             0         0          
+    202142    202142    203024                             0         0          
 *SECTION_SHELL_TITLE
 NE-IVD-Annulus-fiber-C4-C5-1b-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -1504,7 +1505,7 @@ $       B1|       B2|
 *PART
 NE-IVD-Annulus-fiber-C4-C5-2a-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    202143    202143    203045                             0         0          
+    202143    202143    203025                             0         0          
 *SECTION_SHELL_TITLE
 NE-IVD-Annulus-fiber-C4-C5-2a-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -1516,7 +1517,7 @@ $       B1|       B2|
 *PART
 NE-IVD-Annulus-fiber-C4-C5-2b-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    202144    202144    203046                             0         0          
+    202144    202144    203026                             0         0          
 *SECTION_SHELL_TITLE
 NE-IVD-Annulus-fiber-C4-C5-2b-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -1528,7 +1529,7 @@ $       B1|       B2|
 *PART
 NE-IVD-Annulus-fiber-C4-C5-3a-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    202145    202145    203047                             0         0          
+    202145    202145    203027                             0         0          
 *SECTION_SHELL_TITLE
 NE-IVD-Annulus-fiber-C4-C5-3a-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -1540,7 +1541,7 @@ $       B1|       B2|
 *PART
 NE-IVD-Annulus-fiber-C4-C5-3b-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    202146    202146    203048                             0         0          
+    202146    202146    203028                             0         0          
 *SECTION_SHELL_TITLE
 NE-IVD-Annulus-fiber-C4-C5-3b-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -1552,7 +1553,7 @@ $       B1|       B2|
 *PART
 NE-IVD-Annulus-fiber-C5-C6-1a-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    202151    202151    203053                             0         0          
+    202151    202151    203023                             0         0          
 *SECTION_SHELL_TITLE
 NE-IVD-Annulus-fiber-C5-C6-1a-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -1564,7 +1565,7 @@ $       B1|       B2|
 *PART
 NE-IVD-Annulus-fiber-C5-C6-1b-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    202152    202152    203054                             0         0          
+    202152    202152    203024                             0         0          
 *SECTION_SHELL_TITLE
 NE-IVD-Annulus-fiber-C5-C6-1b-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -1576,7 +1577,7 @@ $       B1|       B2|
 *PART
 NE-IVD-Annulus-fiber-C5-C6-2a-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    202153    202153    203055                             0         0          
+    202153    202153    203025                             0         0          
 *SECTION_SHELL_TITLE
 NE-IVD-Annulus-fiber-C5-C6-2a-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -1588,7 +1589,7 @@ $       B1|       B2|
 *PART
 NE-IVD-Annulus-fiber-C5-C6-2b-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    202154    202154    203056                             0         0          
+    202154    202154    203026                             0         0          
 *SECTION_SHELL_TITLE
 NE-IVD-Annulus-fiber-C5-C6-2b-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -1600,7 +1601,7 @@ $       B1|       B2|
 *PART
 NE-IVD-Annulus-fiber-C5-C6-3a-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    202155    202155    203057                             0         0          
+    202155    202155    203027                             0         0          
 *SECTION_SHELL_TITLE
 NE-IVD-Annulus-fiber-C5-C6-3a-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -1612,7 +1613,7 @@ $       B1|       B2|
 *PART
 NE-IVD-Annulus-fiber-C5-C6-3b-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    202156    202156    203058                             0         0          
+    202156    202156    203028                             0         0          
 *SECTION_SHELL_TITLE
 NE-IVD-Annulus-fiber-C5-C6-3b-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -1624,7 +1625,7 @@ $       B1|       B2|
 *PART
 NE-IVD-Annulus-fiber-C6-C7-1a-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    202161    202161    203063                             0         0          
+    202161    202161    203023                             0         0          
 *SECTION_SHELL_TITLE
 NE-IVD-Annulus-fiber-C6-C7-1a-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -1636,7 +1637,7 @@ $       B1|       B2|
 *PART
 NE-IVD-Annulus-fiber-C6-C7-1b-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    202162    202162    203064                             0         0          
+    202162    202162    203024                             0         0          
 *SECTION_SHELL_TITLE
 NE-IVD-Annulus-fiber-C6-C7-1b-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -1648,7 +1649,7 @@ $       B1|       B2|
 *PART
 NE-IVD-Annulus-fiber-C6-C7-2a-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    202163    202163    203065                             0         0          
+    202163    202163    203025                             0         0          
 *SECTION_SHELL_TITLE
 NE-IVD-Annulus-fiber-C6-C7-2a-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -1660,7 +1661,7 @@ $       B1|       B2|
 *PART
 NE-IVD-Annulus-fiber-C6-C7-2b-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    202164    202164    203066                             0         0          
+    202164    202164    203026                             0         0          
 *SECTION_SHELL_TITLE
 NE-IVD-Annulus-fiber-C6-C7-2b-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -1672,7 +1673,7 @@ $       B1|       B2|
 *PART
 NE-IVD-Annulus-fiber-C6-C7-3a-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    202165    202165    203067                             0         0          
+    202165    202165    203027                             0         0          
 *SECTION_SHELL_TITLE
 NE-IVD-Annulus-fiber-C6-C7-3a-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -1684,7 +1685,7 @@ $       B1|       B2|
 *PART
 NE-IVD-Annulus-fiber-C6-C7-3b-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    202166    202166    203068                             0         0          
+    202166    202166    203028                             0         0          
 *SECTION_SHELL_TITLE
 NE-IVD-Annulus-fiber-C6-C7-3b-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -1696,7 +1697,7 @@ $       B1|       B2|
 *PART
 NE-IVD-Annulus-fiber-C7-T1-1a-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    202171    202171    203073                             0         0          
+    202171    202171    203023                             0         0          
 *SECTION_SHELL_TITLE
 NE-IVD-Annulus-fiber-C7-T1-1a-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -1708,7 +1709,7 @@ $       B1|       B2|
 *PART
 NE-IVD-Annulus-fiber-C7-T1-1b-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    202172    202172    203074                             0         0          
+    202172    202172    203024                             0         0          
 *SECTION_SHELL_TITLE
 NE-IVD-Annulus-fiber-C7-T1-1b-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -1720,7 +1721,7 @@ $       B1|       B2|
 *PART
 NE-IVD-Annulus-fiber-C7-T1-2a-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    202173    202173    203075                             0         0          
+    202173    202173    203025                             0         0          
 *SECTION_SHELL_TITLE
 NE-IVD-Annulus-fiber-C7-T1-2a-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -1732,7 +1733,7 @@ $       B1|       B2|
 *PART
 NE-IVD-Annulus-fiber-C7-T1-2b-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    202174    202174    203076                             0         0          
+    202174    202174    203026                             0         0          
 *SECTION_SHELL_TITLE
 NE-IVD-Annulus-fiber-C7-T1-2b-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -1744,7 +1745,7 @@ $       B1|       B2|
 *PART
 NE-IVD-Annulus-fiber-C7-T1-3a-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    202175    202175    203077                             0         0          
+    202175    202175    203027                             0         0          
 *SECTION_SHELL_TITLE
 NE-IVD-Annulus-fiber-C7-T1-3a-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -1756,7 +1757,7 @@ $       B1|       B2|
 *PART
 NE-IVD-Annulus-fiber-C7-T1-3b-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    202176    202176    203078                             0         0          
+    202176    202176    203028                             0         0          
 *SECTION_SHELL_TITLE
 NE-IVD-Annulus-fiber-C7-T1-3b-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -1768,7 +1769,7 @@ $       B1|       B2|
 *PART
 NE_Neck_Soft_Tissues
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    203001    203001    405100             2000000         0         0          
+    203001    203001    405100              900001         0         0          
 *SECTION_SOLID_TITLE
 NE_Neck_Soft_Tissues
 $    SECID|   ELFORM|
@@ -1776,7 +1777,7 @@ $    SECID|   ELFORM|
 *PART
 NE_Skin
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    203002    203002    906001                             0         0          
+    203002    203002    100000                             0         0          
 *SECTION_SHELL_TITLE
 NE_Skin
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -1788,7 +1789,7 @@ $       B1|       B2|
 *PART
 NE_Soft_Tissue_Interior
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    203003    203003    203003                             0         0          
+    203003    203003    203009                             0         0          
 *SECTION_SHELL_TITLE
 NE_Soft_Tissue_Interior
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -1828,7 +1829,7 @@ $      TS1|      TS2|      TT1|      TT2|    NSLOC|    NTLOC|
 *PART_CONTACT
 NE-ligament-OC-C1-AOCJ-CL-R
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    250560    250560    213014                             0         0          
+    250560    250560    200560                             0         0          
 $       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
         0.        0.        0.        0.       0.1        0.        0.
 *SECTION_SHELL_TITLE
@@ -1842,7 +1843,7 @@ $       B1|       B2|
 *PART_CONTACT
 NE-ligament-C1-C2-CL-R
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    250730    250730    213015                             0         0          
+    250730    250730    200730                             0         0          
 $       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
         0.        0.        0.        0.       0.1        0.        0.
 *SECTION_SHELL_TITLE
@@ -1854,261 +1855,9 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 $       B1|       B2|
         0.       90.
 *PART
-NE-Vertebra-Articular-Process-C1-Superior-Cartilage-R
-$      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    251111    251111    213013             2000000         0         0          
-*SECTION_SOLID_TITLE
-NE-Vertebra-Articular-Process-C1-Superior-Cartilage-R
-$    SECID|   ELFORM|
-    251111         1
-*PART
-NE-Vertebra-Articular-Process-C1-Superior-Null-R
-$      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    251112    251112    213012                             0         0          
-*SECTION_SHELL_TITLE
-NE-Vertebra-Articular-Process-C1-Superior-Null-R
-$    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    251112         5     0.833        1.        1.         0         0
-$       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
-      0.25      0.25      0.25      0.25        0.                  0.          
-*PART
-NE-Vertebra-Articular-Process-C1-Inferior-Cartilage-R
-$      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    251113    251113    213016             2000000         0         0          
-*SECTION_SOLID_TITLE
-NE-Vertebra-Articular-Process-C1-Inferior-Cartilage-R
-$    SECID|   ELFORM|
-    251113         1
-*PART
-NE-Vertebra-Articular-Process-C1-Inferior-Null-R
-$      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    251114    251114    213017                             0         0          
-*SECTION_SHELL_TITLE
-NE-Vertebra-Articular-Process-C1-Inferior-Null-R
-$    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    251114         5     0.833        1.        1.         0         0
-$       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
-      0.25      0.25      0.25      0.25        0.                  0.          
-*PART
-NE-Vertebra-Articular-Process-C2-Superior-Cartilage-R
-$      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    251121    251121    213010             2000000         0         0          
-*SECTION_SOLID_TITLE
-NE-Vertebra-Articular-Process-C2-Superior-Cartilage-R
-$    SECID|   ELFORM|
-    251121         1
-*PART
-NE-Vertebra-Articular-Process-C2-Superior-Null-R
-$      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    251122    251122    213018                             0         0          
-*SECTION_SHELL_TITLE
-NE-Vertebra-Articular-Process-C2-Superior-Null-R
-$    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    251122         5     0.833        1.        1.         0         0
-$       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
-      0.25      0.25      0.25      0.25        0.                  0.          
-*PART
-NE-Vertebra-Articular-Process-C2-Inferior-Cartilage-R
-$      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    251123    251123    213022             2000000         0         0          
-*SECTION_SOLID_TITLE
-NE-Vertebra-Articular-Process-C2-Inferior-Cartilage-R
-$    SECID|   ELFORM|
-    251123         1
-*PART
-NE-Vertebra-Articular-Process-C2-Inferior-Null-R
-$      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    251124    251124    213024                             0         0          
-*SECTION_SHELL_TITLE
-NE-Vertebra-Articular-Process-C2-Inferior-Null-R
-$    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    251124         5     0.833        1.        1.         0         0
-$       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
-      0.25      0.25      0.25      0.25        0.                  0.          
-*PART
-NE-Vertebra-Articular-Process-C3-Superior-Cartilage-R
-$      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    251131    251131    213023             2000000         0         0          
-*SECTION_SOLID_TITLE
-NE-Vertebra-Articular-Process-C3-Superior-Cartilage-R
-$    SECID|   ELFORM|
-    251131         1
-*PART
-NE-Vertebra-Articular-Process-C3-Superior-Null-R
-$      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    251132    251132    213025                             0         0          
-*SECTION_SHELL_TITLE
-NE-Vertebra-Articular-Process-C3-Superior-Null-R
-$    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    251132         5     0.833        1.        1.         0         0
-$       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
-      0.25      0.25      0.25      0.25        0.                  0.          
-*PART
-NE-Vertebra-Articular-Process-C3-Inferior-Cartilage-R
-$      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    251133    251133    213032             2000000         0         0          
-*SECTION_SOLID_TITLE
-NE-Vertebra-Articular-Process-C3-Inferior-Cartilage-R
-$    SECID|   ELFORM|
-    251133         1
-*PART
-NE-Vertebra-Articular-Process-C3-Inferior-Null-R
-$      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    251134    251134    213034                             0         0          
-*SECTION_SHELL_TITLE
-NE-Vertebra-Articular-Process-C3-Inferior-Null-R
-$    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    251134         5     0.833        1.        1.         0         0
-$       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
-      0.25      0.25      0.25      0.25        0.                  0.          
-*PART
-NE-Vertebra-Articular-Process-C4-Superior-Cartilage-R
-$      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    251141    251141    213033             2000000         0         0          
-*SECTION_SOLID_TITLE
-NE-Vertebra-Articular-Process-C4-Superior-Cartilage-R
-$    SECID|   ELFORM|
-    251141         1
-*PART
-NE-Vertebra-Articular-Process-C4-Superior-Null-R
-$      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    251142    251142    213035                             0         0          
-*SECTION_SHELL_TITLE
-NE-Vertebra-Articular-Process-C4-Superior-Null-R
-$    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    251142         5     0.833        1.        1.         0         0
-$       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
-      0.25      0.25      0.25      0.25        0.                  0.          
-*PART
-NE-Vertebra-Articular-Process-C4-Inferior-Cartilage-R
-$      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    251143    251143    213042             2000000         0         0          
-*SECTION_SOLID_TITLE
-NE-Vertebra-Articular-Process-C4-Inferior-Cartilage-R
-$    SECID|   ELFORM|
-    251143         1
-*PART
-NE-Vertebra-Articular-Process-C4-Inferior-Null-R
-$      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    251144    251144    213044                             0         0          
-*SECTION_SHELL_TITLE
-NE-Vertebra-Articular-Process-C4-Inferior-Null-R
-$    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    251144         5     0.833        1.        1.         0         0
-$       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
-      0.25      0.25      0.25      0.25        0.                  0.          
-*PART
-NE-Vertebra-Articular-Process-C5-Superior-Cartilage-R
-$      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    251151    251151    213043             2000000         0         0          
-*SECTION_SOLID_TITLE
-NE-Vertebra-Articular-Process-C5-Superior-Cartilage-R
-$    SECID|   ELFORM|
-    251151         1
-*PART
-NE-Vertebra-Articular-Process-C5-Superior-Null-R
-$      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    251152    251152    213045                             0         0          
-*SECTION_SHELL_TITLE
-NE-Vertebra-Articular-Process-C5-Superior-Null-R
-$    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    251152         5     0.833        1.        1.         0         0
-$       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
-      0.25      0.25      0.25      0.25        0.                  0.          
-*PART
-NE-Vertebra-Articular-Process-C5-Inferior-Cartilage-R
-$      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    251153    251153    213052             2000000         0         0          
-*SECTION_SOLID_TITLE
-NE-Vertebra-Articular-Process-C5-Inferior-Cartilage-R
-$    SECID|   ELFORM|
-    251153         1
-*PART
-NE-Vertebra-Articular-Process-C5-Inferior-Null-R
-$      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    251154    251154    213054                             0         0          
-*SECTION_SHELL_TITLE
-NE-Vertebra-Articular-Process-C5-Inferior-Null-R
-$    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    251154         5     0.833        1.        1.         0         0
-$       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
-      0.25      0.25      0.25      0.25        0.                  0.          
-*PART
-NE-Vertebra-Articular-Process-C6-Superior-Cartilage-R
-$      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    251161    251161    213053             2000000         0         0          
-*SECTION_SOLID_TITLE
-NE-Vertebra-Articular-Process-C6-Superior-Cartilage-R
-$    SECID|   ELFORM|
-    251161         1
-*PART
-NE-Vertebra-Articular-Process-C6-Superior-Null-R
-$      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    251162    251162    213055                             0         0          
-*SECTION_SHELL_TITLE
-NE-Vertebra-Articular-Process-C6-Superior-Null-R
-$    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    251162         5     0.833        1.        1.         0         0
-$       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
-      0.25      0.25      0.25      0.25        0.                  0.          
-*PART
-NE-Vertebra-Articular-Process-C6-Inferior-Cartilage-R
-$      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    251163    251163    213062             2000000         0         0          
-*SECTION_SOLID_TITLE
-NE-Vertebra-Articular-Process-C6-Inferior-Cartilage-R
-$    SECID|   ELFORM|
-    251163         1
-*PART
-NE-Vertebra-Articular-Process-C6-Inferior-Null-R
-$      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    251164    251164    213064                             0         0          
-*SECTION_SHELL_TITLE
-NE-Vertebra-Articular-Process-C6-Inferior-Null-R
-$    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    251164         5     0.833        1.        1.         0         0
-$       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
-      0.25      0.25      0.25      0.25        0.                  0.          
-*PART
-NE-Vertebra-Articular-Process-C7-Superior-Cartilage-R
-$      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    251171    251171    213063             2000000         0         0          
-*SECTION_SOLID_TITLE
-NE-Vertebra-Articular-Process-C7-Superior-Cartilage-R
-$    SECID|   ELFORM|
-    251171         1
-*PART
-NE-Vertebra-Articular-Process-C7-Superior-Null-R
-$      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    251172    251172    213065                             0         0          
-*SECTION_SHELL_TITLE
-NE-Vertebra-Articular-Process-C7-Superior-Null-R
-$    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    251172         5     0.833        1.        1.         0         0
-$       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
-      0.25      0.25      0.25      0.25        0.                  0.          
-*PART
-NE-Vertebra-Articular-Process-C7-Inferior-Cartilage-R
-$      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    251173    251173    213072             2000000         0         0          
-*SECTION_SOLID_TITLE
-NE-Vertebra-Articular-Process-C7-Inferior-Cartilage-R
-$    SECID|   ELFORM|
-    251173         1
-*PART
-NE-Vertebra-Articular-Process-C7-Inferior-Null-R
-$      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    251174    251174    213074                             0         0          
-*SECTION_SHELL_TITLE
-NE-Vertebra-Articular-Process-C7-Inferior-Null-R
-$    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    251174         5     0.833        1.        1.         0         0
-$       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
-      0.06      0.06      0.06      0.06        0.                  0.          
-*PART
 TX-Spine-T1-Endplate-superior-null-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    401014    401014    203079                             0         0          
+    401014    401014    203039                             0         0          
 *SECTION_SHELL_TITLE
 TX-Spine-T1-Endplate-superior-null-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -2118,7 +1867,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 TX-Vertebra-Articular-Process-T1-Superior-Cartilage-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    401211    401211    213073             2000000         0         0          
+    401211    401211    213073              900001         0         0          
 *SECTION_SOLID_TITLE
 TX-Vertebra-Articular-Process-T1-Superior-Cartilage-L
 $    SECID|   ELFORM|
@@ -2126,7 +1875,7 @@ $    SECID|   ELFORM|
 *PART
 TX-Vertebra-Articular-Process-T1-Superior-Null-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    401212    401212    213075                             0         0          
+    401212    401212    401019                             0         0          
 *SECTION_SHELL_TITLE
 TX-Vertebra-Articular-Process-T1-Superior-Null-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -2467,62 +2216,6 @@ $ANSA_COLOR;250560;SECTION_SHELL;.901960790157318;.498039215803146;.921568632125
 $854;1.;
 $ANSA_COLOR;250730;SECTION_SHELL;.882352948188782;.886274516582489;.152941182255
 $745;1.;
-$ANSA_COLOR;251111;SECTION_SOLID;.705882370471954;.211764708161354;.294117659330
-$368;1.;
-$ANSA_COLOR;251112;SECTION_SHELL;.717647075653076;.078431375324726;.215686276555
-$061;1.;
-$ANSA_COLOR;251113;SECTION_SOLID;.725490212440491;.945098042488098;.133333340287
-$209;1.;
-$ANSA_COLOR;251114;SECTION_SHELL;.733333349227905;.811764717102051;.050980392843
-$485;1.;
-$ANSA_COLOR;251121;SECTION_SOLID;.796078443527222;.882352948188782;.486274510622
-$025;1.;
-$ANSA_COLOR;251122;SECTION_SHELL;.803921580314636;.749019622802734;.403921574354
-$172;1.;
-$ANSA_COLOR;251123;SECTION_SOLID;.811764717102051;.615686297416687;.325490206480
-$026;1.;
-$ANSA_COLOR;251124;SECTION_SHELL;.819607853889465;.482352942228317;.243137255311
-$012;1.;
-$ANSA_COLOR;251131;SECTION_SOLID;.882352948188782;.549019634723663;.674509823322
-$296;1.;
-$ANSA_COLOR;251132;SECTION_SHELL;.890196084976196;.419607847929001;.596078455448
-$151;1.;
-$ANSA_COLOR;251133;SECTION_SOLID;.898039221763611;.286274522542953;.513725519180
-$298;1.;
-$ANSA_COLOR;251134;SECTION_SHELL;.909803926944733;.152941182255745;.431372553110
-$123;1.;
-$ANSA_COLOR;251141;SECTION_SOLID;.968627452850342;.219607844948769;.866666674613
-$953;1.;
-$ANSA_COLOR;251142;SECTION_SHELL;.976470589637756;.086274512112141;0.78431373834
-$61;1.;
-$ANSA_COLOR;251143;SECTION_SOLID;.988235294818878;.952941179275513;.701960802078
-$247;1.;
-$ANSA_COLOR;251144;SECTION_SHELL;.996078431606293;.823529422283173;.623529434204
-$102;1.;
-$ANSA_COLOR;251151;SECTION_SOLID;.556862771511078;.890196084976196;.054901961237
-$192;1.;
-$ANSA_COLOR;251152;SECTION_SHELL;.564705908298492;.756862759590149;.976470589637
-$756;1.;
-$ANSA_COLOR;251153;SECTION_SOLID;.572549045085907;.623529434204102;.894117653369
-$904;1.;
-$ANSA_COLOR;251154;SECTION_SHELL;.584313750267029;.490196079015732;.811764717102
-$051;1.;
-$ANSA_COLOR;251161;SECTION_SOLID;.643137276172638;.560784339904785;0.24705882370
-$472;1.;
-$ANSA_COLOR;251162;SECTION_SHELL;.650980412960052;.427450984716415;.164705887436
-$867;1.;
-$ANSA_COLOR;251163;SECTION_SOLID;.662745118141174;.294117659330368;.082352943718
-$433;1.;
-$ANSA_COLOR;251164;SECTION_SHELL;.670588254928589;.160784319043159;.003921568859
-$369;1.;
-$ANSA_COLOR;251171;SECTION_SOLID;.729411780834198;0.23137255012989;0.43529412150
-$383;1.;
-$ANSA_COLOR;251172;SECTION_SHELL;0.74117648601532;.098039217293262;.356862753629
-$684;1.;
-$ANSA_COLOR;251173;SECTION_SOLID;.749019622802734;.964705884456635;.274509817361
-$832;1.;
-$ANSA_COLOR;251174;SECTION_SHELL;.756862759590149;.831372559070587;.192156866192
-$818;1.;
 $ANSA_COLOR;401014;SECTION_SHELL;.501960813999176;.494117647409439;.003921568859
 $369;1.;
 $ANSA_COLOR;401211;SECTION_SOLID;.721568644046783;.294117659330368;.047058824449
@@ -2532,4 +2225,17 @@ $342;1.;
 $ANSA_USER_ATTRIBUTES;SECTION_SHELL;User/cad_material;TEXT;RW;YES;;;
 $ANSA_USER_ATTRIBUTES;SECTION_SHELL;User/cad_thickness;TEXT;RW;YES;;;
 $ANSA_USER_ATTRIBUTES;SECTION_SOLID;User/cad_material;TEXT;RW;YES;;;
+$ANSA_PART;GROUP;ID;2166;MID;900000;NAME;VIVA_OpenHBM_LGPL_F50_Head_spine_2_morp
+$hed_14.key;PID_OFFSET;0;COLOR;238;154;73;50;IS_COLOR_ACTIVE;1;PART_TYPE;Undefin
+$ed;ATTRIBUTES;2;DM/File Type;ANSA;DM/Status;WIP;CONTAINS;ANSAPART;1886;
+$ANSA_PART;PART;ID;1886;NAME;NO PID ELMNTs;STUDY_VERSION;0;PID_OFFSET;0;COLOR;13
+$4;94;2;0;IS_COLOR_ACTIVE;1;PART_TYPE;Undefined;ATTRIBUTES;2;DM/File Type;ANSA;D
+$M/Status;WIP;CONTAINS;SEGMENT;1-652,655-660,663-665,667,669-699,701-709,711-725
+$,728-742,744,746-841,843-844,846-902,904,906-946,949-954,956,958-960,962,964-10
+$04,1007-1030,1032,1038-1118,1120-1228,1230-2110,2112-2129,2131,2133-2187,2189-2
+$192,2195-2236,2238-2258,2260-2499,2501-2509,2511-3302,3305-3369,3372-3374,3376,
+$3378-3387,3389,3391-3447,3449-3457,3459-3473,3476-3500,3502-3503,3505-3561,3563
+$,3565-3660,3662,3664-3666,3668,3670-3806,3810,3812-3856,3858-3884,3886-4694,469
+$6-4701,4703-4715,4717-4718,4720-4755,4757-4767,4769-4806,4808-4811,4813-4820,48
+$22-4846,4848-4865,4867,4869-4950,4953-4994,4996-5016,5018-6146;
 *END

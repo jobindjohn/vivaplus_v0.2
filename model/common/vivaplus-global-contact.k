@@ -1,13 +1,13 @@
 $
-$ANSA_VERSION;21.1.0;
+$ANSA_VERSION;22.0.0;
 $
 $
-$ file created by  A N S A  Thu May 27 17:19:03 2021
+$ file created by  A N S A  Mon Feb  7 12:25:44 2022
 $
 $ output from :
 $
-$ C:/Users/jobinj/Box/vivaplus-share/VIVA-Plus-Meshing-Shared-Folder/vivaplus-50
-$ F_v0-2-2e.ansa
+$ C:/Users/jobinj/Box/vivaplus-share/VIVA-Plus-Meshing-Shared-Folder/v0_3/vivapl
+$ us-50F_v030_211214.ansa
 $
 $ Settings :
 $
@@ -15,7 +15,8 @@ $ Output format : 971R9
 $
 $ Output : All
 $
-$ANSA_USER_ATTRIBUTES;vivaplus-global-contact.k;INCLUDE;DM/Status;TEXT;WIP;
+$ANSA_USER_ATTRIBUTES;vivaplus-global-contact.k;INCLUDE;DM/Status;TEXT;WIP;DM/IO
+$ Index;TEXT;;
 $
 $
 $
@@ -31,7 +32,7 @@ $       ID|                                                                 NAME
 $     SSID|     MSID|     STYP|   MSTYPE|   SBOXID|   MBOXID|      SPR|      MPR|
     903001                   1                   0         0         0         0
 $       FS|       FD|       DC|       VC|      VDC|   PENCHK|       BT|       DT|
-       0.2       0.2        0.        0.       20.         0        0.     1.E20
+       0.3       0.3        0.        0.       20.         0        0.     1.E20
 $      SFS|      SFM|      SST|      MST|     SFST|     SFMT|      FSF|      VSF|
         1.        1.                            1.        1.        1.        1.
 $     SOFT|   SOFSCL|   LCIDAB|   MAXPAR|    SBOPT|    DEPTH|    BSORT|   FRCFRQ|
@@ -41,37 +42,25 @@ $   PENMAX|   THKOPT|   SHLTHK|    SNLOG|     ISYM|    I2D3D|   SLDTHK|   SLDSTF
 $     IGAP|   IGNORE|   DPRFAC|   DTSTIF|         |         |   FLANGL|  CID_RCF|
          1         1        0.        0.                            0.         0
 *SET_SHELL_GENERAL_TITLE
-Whole_body_skin
-      1000                                        
-PART          103002    203002    305111    305121    305131    305141    305161
-PART          355111    355121    355131    355141    355161    406001    456001
-PART          506001    556001    606001    656001    705111    705121    705131
-PART          705141    705191    755111    755121    755131    755141    755191
-*SET_PART_LIST_TITLE
-Thorax flesh
-    416003                                        
-    406002    456002
-*SET_PART_LIST_TITLE
-Scapula-and-Clavicula
-    616002                                        
-    301101    301102    301201    301202    351101    351102    351201    351202
-*SET_PART_LIST_TITLE
-Upper_leg_flesh
-    716003                                        
-    705112    755112
+00-Whole_body_skin
+    100000                                        
+PART          103002    103005    203002    305121    305131    305141    305161
+PART          355121    355131    355141    355161    406001    456001    506001
+PART          556001    606001    656001    705111    705121    705131    705141
+PART          705191    755111    755121    755131    755141    755191
 *SET_SHELL_ADD_TITLE
-Whole-Body-Contact-sans-neck-interface-shells
+00-Whole-Body-Contact-sans-neck-interface-shells
     903001                                        
     903002    903003
 *SET_SHELL_GENERAL_TITLE
-ME_C_Whole_body_skin
+00_Whole_body_skin
     903002                                        
-PART          103002    103005    305111    305121    305131    305141    305161
-PART          355111    355121    355131    355141    355161    406001    456001
-PART          506001    556001    606001    656001    705111    705121    705131
-PART          705141    705191    755111    755121    755131    755141    755191
-*SET_SHELL_LIST_TITLE
-Neck-Surface
+PART          103002    103005    305121    305131    305141    305161    355121
+PART          355131    355141    355161    406001    456001    506001    556001
+PART          606001    656001    705111    705121    705131    705141    705191
+PART          755111    755121    755131    755141    755191
+*SET_SHELL_TITLE
+NE-Neck-Surface
     903003                                        
    2184457   2184458   2184459   2184460   2184461   2184462   2184463   2184464
    2184465   2184466   2184467   2184468   2184469   2184470   2184471   2184472

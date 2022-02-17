@@ -1,13 +1,13 @@
 $
-$ANSA_VERSION;21.1.0;
+$ANSA_VERSION;22.0.0;
 $
 $
-$ file created by  A N S A  Thu Jul  8 15:49:12 2021
+$ file created by  A N S A  Mon Feb  7 12:26:15 2022
 $
 $ output from :
 $
-$ C:/Users/jobinj/Box/vivaplus-share/VIVA-Plus-Meshing-Shared-Folder/vivaplus-50
-$ F_v0-2-4.ansa
+$ C:/Users/jobinj/Box/vivaplus-share/VIVA-Plus-Meshing-Shared-Folder/v0_3/vivapl
+$ us-50F_v030_211214.ansa
 $
 $ Settings :
 $
@@ -15,7 +15,8 @@ $ Output format : 971R9
 $
 $ Output : All
 $
-$ANSA_USER_ATTRIBUTES;vivaplus-40-Thorax.k;INCLUDE;DM/Status;TEXT;WIP;
+$ANSA_USER_ATTRIBUTES;vivaplus-40-Thorax.k;INCLUDE;DM/Status;TEXT;WIP;DM/IO Inde
+$x;TEXT;;
 $
 $
 $
@@ -25,10 +26,30 @@ $
 $ANSA_COLOR;vivaplus-40-Thorax.k;INCLUDE;.996078431606293;0.;.400000005960464;1.
 $;
 *KEYWORD
+*PART
+UX-Muscle_subscapularis_nulls-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
+    305202    305202    305202                             0         0          
+*SECTION_SHELL_TITLE
+UX-Muscle_subscapularis_nulls-L
+$    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
+    305202         2     0.833        2.        1.         0         0
+$       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
+       0.5       0.5       0.5       0.5                            0.          
+*PART
+UX-Muscle_subscapularis_nulls-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
+    355202    355202    305202                             0         0          
+*SECTION_SHELL_TITLE
+UX-Muscle_subscapularis_nulls-R
+$    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
+    355202         2     0.833        2.        1.         0         0
+$       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
+       0.5       0.5       0.5       0.5                            0.          
 *PART_CONTACT
 TX-Spine-T1-Cortical-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    401011    401011    300011                             0         0          
+    401011    401011    400011                             0         0          
 $       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
         0.        0.        0.        0.        0.       0.4        0.
 *SECTION_SHELL_TITLE
@@ -40,7 +61,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 TX-Spine-T1-Trabecular-M
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    401012    401012    300012                             0         0          
+    401012    401012    400012                             0         0          
 *SECTION_SOLID_TITLE
 TX-Spine-T1-Trabecular-M
 $    SECID|   ELFORM|
@@ -48,7 +69,7 @@ $    SECID|   ELFORM|
 *PART
 TX-Spine-T1-Endplate-superior-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    401013    401013    200073                             0         0          
+    401013    401013    200021                             0         0          
 *SECTION_SHELL_TITLE
 TX-Spine-T1-Endplate-superior-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -58,7 +79,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 TX-Spine-T2-Cortical-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    401021    401021    300021                             0         0          
+    401021    401021    400011                             0         0          
 *SECTION_SHELL_TITLE
 TX-Spine-T2-Cortical-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -68,7 +89,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 TX-Spine-T2-Trabecular-M
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    401022    401022    300022                             0         0          
+    401022    401022    400012                             0         0          
 *SECTION_SOLID_TITLE
 TX-Spine-T2-Trabecular-M
 $    SECID|   ELFORM|
@@ -76,7 +97,7 @@ $    SECID|   ELFORM|
 *PART
 TX-Spine-T3-Cortical-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    401031    401031    300031                             0         0          
+    401031    401031    400011                             0         0          
 *SECTION_SHELL_TITLE
 TX-Spine-T3-Cortical-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -86,7 +107,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 TX-Spine-T3-Trabecular-M
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    401032    401032    300032                             0         0          
+    401032    401032    400012                             0         0          
 *SECTION_SOLID_TITLE
 TX-Spine-T3-Trabecular-M
 $    SECID|   ELFORM|
@@ -94,7 +115,7 @@ $    SECID|   ELFORM|
 *PART
 TX-Spine-T4-Cortical-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    401041    401041    300041                             0         0          
+    401041    401041    400011                             0         0          
 *SECTION_SHELL_TITLE
 TX-Spine-T4-Cortical-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -104,7 +125,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 TX-Spine-T4-Trabecular-M
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    401042    401042    300042                             0         0          
+    401042    401042    400012                             0         0          
 *SECTION_SOLID_TITLE
 TX-Spine-T4-Trabecular-M
 $    SECID|   ELFORM|
@@ -112,7 +133,7 @@ $    SECID|   ELFORM|
 *PART
 TX-Spine-T5-Cortical-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    401051    401051    300051                             0         0          
+    401051    401051    400011                             0         0          
 *SECTION_SHELL_TITLE
 TX-Spine-T5-Cortical-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -122,7 +143,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 TX-Spine-T5-Trabecular-M
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    401052    401052    300052                             0         0          
+    401052    401052    400012                             0         0          
 *SECTION_SOLID_TITLE
 TX-Spine-T5-Trabecular-M
 $    SECID|   ELFORM|
@@ -130,7 +151,7 @@ $    SECID|   ELFORM|
 *PART
 TX-Spine-T6-Cortical-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    401061    401061    300061                             0         0          
+    401061    401061    400011                             0         0          
 *SECTION_SHELL_TITLE
 TX-Spine-T6-Cortical-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -140,7 +161,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 TX-Spine-T6-Trabecular-M
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    401062    401062    300062                             0         0          
+    401062    401062    400012                             0         0          
 *SECTION_SOLID_TITLE
 TX-Spine-T6-Trabecular-M
 $    SECID|   ELFORM|
@@ -148,7 +169,7 @@ $    SECID|   ELFORM|
 *PART
 TX-Spine-T7-Cortical-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    401071    401071    300071                             0         0          
+    401071    401071    400011                             0         0          
 *SECTION_SHELL_TITLE
 TX-Spine-T7-Cortical-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -158,7 +179,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 TX-Spine-T7-Trabecular-M
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    401072    401072    300072                             0         0          
+    401072    401072    400012                             0         0          
 *SECTION_SOLID_TITLE
 TX-Spine-T7-Trabecular-M
 $    SECID|   ELFORM|
@@ -166,7 +187,7 @@ $    SECID|   ELFORM|
 *PART
 TX-Spine-T8-Cortical-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    401081    401081    300081                             0         0          
+    401081    401081    400011                             0         0          
 *SECTION_SHELL_TITLE
 TX-Spine-T8-Cortical-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -176,7 +197,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 TX-Spine-T8-Trabecular-M
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    401082    401082    300082                             0         0          
+    401082    401082    400012                             0         0          
 *SECTION_SOLID_TITLE
 TX-Spine-T8-Trabecular-M
 $    SECID|   ELFORM|
@@ -184,7 +205,7 @@ $    SECID|   ELFORM|
 *PART
 TX-Spine-T9-Cortical-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    401091    401091    300091                             0         0          
+    401091    401091    400011                             0         0          
 *SECTION_SHELL_TITLE
 TX-Spine-T9-Cortical-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -194,7 +215,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 TX-Spine-T9-Trabecular-M
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    401092    401092    300092                             0         0          
+    401092    401092    400012                             0         0          
 *SECTION_SOLID_TITLE
 TX-Spine-T9-Trabecular-M
 $    SECID|   ELFORM|
@@ -202,7 +223,7 @@ $    SECID|   ELFORM|
 *PART
 TX-Spine-T10-Cortical-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    401101    401101    300101                             0         0          
+    401101    401101    400011                             0         0          
 *SECTION_SHELL_TITLE
 TX-Spine-T10-Cortical-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -212,7 +233,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 TX-Spine-T10-Trabecular-M
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    401102    401102    300102                             0         0          
+    401102    401102    400012                             0         0          
 *SECTION_SOLID_TITLE
 TX-Spine-T10-Trabecular-M
 $    SECID|   ELFORM|
@@ -220,7 +241,7 @@ $    SECID|   ELFORM|
 *PART
 TX-Spine-T11-Cortical-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    401111    401111    300111                             0         0          
+    401111    401111    400011                             0         0          
 *SECTION_SHELL_TITLE
 TX-Spine-T11-Cortical-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -230,7 +251,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 TX-Spine-T11-Trabecular-M
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    401112    401112    300112                             0         0          
+    401112    401112    400012                             0         0          
 *SECTION_SOLID_TITLE
 TX-Spine-T11-Trabecular-M
 $    SECID|   ELFORM|
@@ -238,7 +259,7 @@ $    SECID|   ELFORM|
 *PART
 TX-Spine-T12-Cortical-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    401121    401121    300121                             0         0          
+    401121    401121    400011                             0         0          
 *SECTION_SHELL_TITLE
 TX-Spine-T12-Cortical-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -248,7 +269,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 TX-Spine-T12-Trabecular-M
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    401122    401122    300122                             0         0          
+    401122    401122    400012                             0         0          
 *SECTION_SOLID_TITLE
 TX-Spine-T12-Trabecular-M
 $    SECID|   ELFORM|
@@ -262,7 +283,7 @@ TX-IVD-T1-T2-Joint-M
 $    SECID|   ELFORM|     SHRF|  QR/IRID|      CST|    SCOOR|      NSM|
     402010         6                                      0.          
 $      VOL|     INER|      CID|       CA|   OFFSET|    RRCON|    SRCON|    TRCON|
-     8000.        1.   3500001        0.        0.        0.        0.        0.
+     8000.        1.    400001        0.        0.        0.        0.        0.
 *PART
 TX-IVD-T2-T3-Joint-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
@@ -272,7 +293,7 @@ TX-IVD-T2-T3-Joint-M
 $    SECID|   ELFORM|     SHRF|  QR/IRID|      CST|    SCOOR|      NSM|
     402020         6                                      0.          
 $      VOL|     INER|      CID|       CA|   OFFSET|    RRCON|    SRCON|    TRCON|
-     8000.        1.   3500002        0.        0.        0.        0.        0.
+     8000.        1.    400002        0.        0.        0.        0.        0.
 *PART
 TX-IVD-T3-T4-Joint-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
@@ -282,7 +303,7 @@ TX-IVD-T3-T4-Joint-M
 $    SECID|   ELFORM|     SHRF|  QR/IRID|      CST|    SCOOR|      NSM|
     402030         6                                      0.          
 $      VOL|     INER|      CID|       CA|   OFFSET|    RRCON|    SRCON|    TRCON|
-     8000.        1.   3500003        0.        0.        0.        0.        0.
+     8000.        1.    400003        0.        0.        0.        0.        0.
 *PART
 TX-IVD-T4-T5-Joint-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
@@ -292,7 +313,7 @@ TX-IVD-T4-T5-Joint-M
 $    SECID|   ELFORM|     SHRF|  QR/IRID|      CST|    SCOOR|      NSM|
     402040         6                                      0.          
 $      VOL|     INER|      CID|       CA|   OFFSET|    RRCON|    SRCON|    TRCON|
-     8000.        1.   3500004        0.        0.        0.        0.        0.
+     8000.        1.    400004        0.        0.        0.        0.        0.
 *PART
 TX-IVD-T5-T6-Joint-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
@@ -302,7 +323,7 @@ TX-IVD-T5-T6-Joint-M
 $    SECID|   ELFORM|     SHRF|  QR/IRID|      CST|    SCOOR|      NSM|
     402050         6                                      0.          
 $      VOL|     INER|      CID|       CA|   OFFSET|    RRCON|    SRCON|    TRCON|
-     8000.        1.   3500005        0.        0.        0.        0.        0.
+     8000.        1.    400005        0.        0.        0.        0.        0.
 *PART
 TX-IVD-T6-T7-Joint-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
@@ -312,7 +333,7 @@ TX-IVD-T6-T7-Joint-M
 $    SECID|   ELFORM|     SHRF|  QR/IRID|      CST|    SCOOR|      NSM|
     402060         6                                      0.          
 $      VOL|     INER|      CID|       CA|   OFFSET|    RRCON|    SRCON|    TRCON|
-     8000.        1.   3500006        0.        0.        0.        0.        0.
+     8000.        1.    400006        0.        0.        0.        0.        0.
 *PART
 TX-IVD-T7-T8-Joint-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
@@ -322,7 +343,7 @@ TX-IVD-T7-T8-Joint-M
 $    SECID|   ELFORM|     SHRF|  QR/IRID|      CST|    SCOOR|      NSM|
     402070         6                                      0.          
 $      VOL|     INER|      CID|       CA|   OFFSET|    RRCON|    SRCON|    TRCON|
-     8000.        1.   3500007        0.        0.        0.        0.        0.
+     8000.        1.    400007        0.        0.        0.        0.        0.
 *PART
 TX-IVD-T8-T9-Joint-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
@@ -332,7 +353,7 @@ TX-IVD-T8-T9-Joint-M
 $    SECID|   ELFORM|     SHRF|  QR/IRID|      CST|    SCOOR|      NSM|
     402080         6                                      0.          
 $      VOL|     INER|      CID|       CA|   OFFSET|    RRCON|    SRCON|    TRCON|
-     8000.        1.   3500008        0.        0.        0.        0.        0.
+     8000.        1.    400008        0.        0.        0.        0.        0.
 *PART
 TX-IVD-T9-T10-Joint-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
@@ -342,7 +363,7 @@ TX-IVD-T9-T10-Joint-M
 $    SECID|   ELFORM|     SHRF|  QR/IRID|      CST|    SCOOR|      NSM|
     402090         6                                      0.          
 $      VOL|     INER|      CID|       CA|   OFFSET|    RRCON|    SRCON|    TRCON|
-     8000.        1.   3500009        0.        0.        0.        0.        0.
+     8000.        1.    400009        0.        0.        0.        0.        0.
 *PART
 TX-IVD-T10-T11-Joint-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
@@ -352,7 +373,7 @@ TX-IVD-T10-T11-Joint-M
 $    SECID|   ELFORM|     SHRF|  QR/IRID|      CST|    SCOOR|      NSM|
     402100         6                                      0.          
 $      VOL|     INER|      CID|       CA|   OFFSET|    RRCON|    SRCON|    TRCON|
-     8000.        1.   3500010        0.        0.        0.        0.        0.
+     8000.        1.    400010        0.        0.        0.        0.        0.
 *PART
 TX-IVD-T11-T11-Joint-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
@@ -362,7 +383,7 @@ TX-IVD-T11-T11-Joint-M
 $    SECID|   ELFORM|     SHRF|  QR/IRID|      CST|    SCOOR|      NSM|
     402110         6                                      0.          
 $      VOL|     INER|      CID|       CA|   OFFSET|    RRCON|    SRCON|    TRCON|
-     8000.        1.   3500011        0.        0.        0.        0.        0.
+     8000.        1.    400011        0.        0.        0.        0.        0.
 *PART
 TX-IVD-T12-L1-Joint-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
@@ -372,29 +393,33 @@ TX-IVD-T12-L1-Joint-M
 $    SECID|   ELFORM|     SHRF|  QR/IRID|      CST|    SCOOR|      NSM|
     402120         6                                      0.          
 $      VOL|     INER|      CID|       CA|   OFFSET|    RRCON|    SRCON|    TRCON|
-     8000.        1.   3500012        0.        0.        0.        0.        0.
+     8000.        1.    400012        0.        0.        0.        0.        0.
 *PART
 TX-Ribcage-R1-Trabecular-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    403013    403013    403003               10001         0         0          
+    403013    403013    403003              900001         0         0          
 *SECTION_SOLID_TITLE
 TX-Ribcage-R1-Trabecular-L
 $    SECID|   ELFORM|
     403013         1
-*PART
+*PART_CONTACT
 TX-Ribcage-R1-Cortical-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    403014    403014    403004             4192001         0         0          
+    403014    403014    403004              900003         0         0          
+$       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
+                                               0.5                    
 *SECTION_SHELL_TITLE
 TX-Ribcage-R1-Cortical-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
     403014        16        0.        5.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
        0.7       0.7       0.7       0.7        0.                  0.          
-*PART
+*PART_CONTACT
 TX-Ribcage-R1-Cortical-Posterior-End-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    403015    403015    403015                 999         0         0          
+    403015    403015    403015              900003         0         0          
+$       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
+                                               0.5                    
 *SECTION_SHELL_TITLE
 TX-Ribcage-R1-Cortical-Posterior-End-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -404,25 +429,29 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 TX-Ribcage-R2-Trabecular-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    403023    403023    403003               10001         0         0          
+    403023    403023    403003              900001         0         0          
 *SECTION_SOLID_TITLE
 TX-Ribcage-R2-Trabecular-L
 $    SECID|   ELFORM|
     403023         1
-*PART
+*PART_CONTACT
 TX-Ribcage-R2-Cortical-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    403024    403024    403004             4192001         0         0          
+    403024    403024    403004              900003         0         0          
+$       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
+                                               0.5                    
 *SECTION_SHELL_TITLE
 TX-Ribcage-R2-Cortical-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
     403024        16        0.        5.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
        0.7       0.7       0.7       0.7        0.                  0.          
-*PART
+*PART_CONTACT
 TX-Ribcage-R2-Cortical-Posterior-End-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    403025    403025    403025                 999         0         0          
+    403025    403025    403015              900003         0         0          
+$       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
+                                               0.5                    
 *SECTION_SHELL_TITLE
 TX-Ribcage-R2-Cortical-Posterior-End-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -432,25 +461,29 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 TX-Ribcage-R3-Trabecular-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    403033    403033    403003               10001         0         0          
+    403033    403033    403003              900001         0         0          
 *SECTION_SOLID_TITLE
 TX-Ribcage-R3-Trabecular-L
 $    SECID|   ELFORM|
     403033         1
-*PART
+*PART_CONTACT
 TX-Ribcage-R3-Cortical-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    403034    403034    403004             4192001         0         0          
+    403034    403034    403004              900003         0         0          
+$       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
+                                               0.5                    
 *SECTION_SHELL_TITLE
 TX-Ribcage-R3-Cortical-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
     403034        16        0.        5.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
        0.7       0.7       0.7       0.7        0.                  0.          
-*PART
+*PART_CONTACT
 TX-Ribcage-R3-Cortical-Posterior-End-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    403035    403035    403035                 999         0         0          
+    403035    403035    403015              900003         0         0          
+$       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
+                                               0.5                    
 *SECTION_SHELL_TITLE
 TX-Ribcage-R3-Cortical-Posterior-End-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -460,25 +493,29 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 TX-Ribcage-R4-Trabecular-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    403043    403043    403003               10001         0         0          
+    403043    403043    403003              900001         0         0          
 *SECTION_SOLID_TITLE
 TX-Ribcage-R4-Trabecular-L
 $    SECID|   ELFORM|
     403043         1
-*PART
+*PART_CONTACT
 TX-Ribcage-R4-Cortical-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    403044    403044    403004             4192001         0         0          
+    403044    403044    403004              900003         0         0          
+$       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
+                                               0.5                    
 *SECTION_SHELL_TITLE
 TX-Ribcage-R4-Cortical-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
     403044        16        0.        5.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
        0.7       0.7       0.7       0.7        0.                  0.          
-*PART
+*PART_CONTACT
 TX-Ribcage-R4-Cortical-Posterior-End-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    403045    403045    403045                 999         0         0          
+    403045    403045    403015              900003         0         0          
+$       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
+                                               0.5                    
 *SECTION_SHELL_TITLE
 TX-Ribcage-R4-Cortical-Posterior-End-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -488,25 +525,29 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 TX-Ribcage-R5-Trabecular-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    403053    403053    403003               10001         0         0          
+    403053    403053    403003              900001         0         0          
 *SECTION_SOLID_TITLE
 TX-Ribcage-R5-Trabecular-L
 $    SECID|   ELFORM|
     403053         1
-*PART
+*PART_CONTACT
 TX-Ribcage-R5-Cortical-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    403054    403054    403004             4192001         0         0          
+    403054    403054    403004              900003         0         0          
+$       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
+                                               0.5                    
 *SECTION_SHELL_TITLE
 TX-Ribcage-R5-Cortical-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
     403054        16        0.        5.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
        0.7       0.7       0.7       0.7        0.                  0.          
-*PART
+*PART_CONTACT
 TX-Ribcage-R5-Cortical-Posterior-End-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    403055    403055    403055                 999         0         0          
+    403055    403055    403015              900003         0         0          
+$       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
+                                               0.5                    
 *SECTION_SHELL_TITLE
 TX-Ribcage-R5-Cortical-Posterior-End-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -516,25 +557,29 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 TX-Ribcage-R6-Trabecular-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    403063    403063    403003               10001         0         0          
+    403063    403063    403003              900001         0         0          
 *SECTION_SOLID_TITLE
 TX-Ribcage-R6-Trabecular-L
 $    SECID|   ELFORM|
     403063         1
-*PART
+*PART_CONTACT
 TX-Ribcage-R6-Cortical-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    403064    403064    403004             4192001         0         0          
+    403064    403064    403004              900003         0         0          
+$       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
+                                               0.5                    
 *SECTION_SHELL_TITLE
 TX-Ribcage-R6-Cortical-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
     403064        16        0.        5.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
        0.7       0.7       0.7       0.7        0.                  0.          
-*PART
+*PART_CONTACT
 TX-Ribcage-R6-Cortical-Posterior-End-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    403065    403065    403065                 999         0         0          
+    403065    403065    403015              900003         0         0          
+$       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
+                                               0.5                    
 *SECTION_SHELL_TITLE
 TX-Ribcage-R6-Cortical-Posterior-End-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -544,25 +589,29 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 TX-Ribcage-R7-Trabecular-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    403073    403073    403003               10001         0         0          
+    403073    403073    403003              900001         0         0          
 *SECTION_SOLID_TITLE
 TX-Ribcage-R7-Trabecular-L
 $    SECID|   ELFORM|
     403073         1
-*PART
+*PART_CONTACT
 TX-Ribcage-R7-Cortical-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    403074    403074    403004             4192001         0         0          
+    403074    403074    403004              900003         0         0          
+$       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
+                                               0.5                    
 *SECTION_SHELL_TITLE
 TX-Ribcage-R7-Cortical-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
     403074        16        0.        5.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
        0.7       0.7       0.7       0.7        0.                  0.          
-*PART
+*PART_CONTACT
 TX-Ribcage-R7-Cortical-Posterior-End-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    403075    403075    403075                 999         0         0          
+    403075    403075    403015              900003         0         0          
+$       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
+                                               0.5                    
 *SECTION_SHELL_TITLE
 TX-Ribcage-R7-Cortical-Posterior-End-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -572,25 +621,29 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 TX-Ribcage-R8-Trabecular-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    403083    403083    403003               10001         0         0          
+    403083    403083    403003              900001         0         0          
 *SECTION_SOLID_TITLE
 TX-Ribcage-R8-Trabecular-L
 $    SECID|   ELFORM|
     403083         1
-*PART
+*PART_CONTACT
 TX-Ribcage-R8-Cortical-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    403084    403084    403004             4192001         0         0          
+    403084    403084    403004              900003         0         0          
+$       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
+                                               0.5                    
 *SECTION_SHELL_TITLE
 TX-Ribcage-R8-Cortical-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
     403084        16        0.        5.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
        0.7       0.7       0.7       0.7        0.                  0.          
-*PART
+*PART_CONTACT
 TX-Ribcage-R8-Cortical-Posterior-End-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    403085    403085    403085                 999         0         0          
+    403085    403085    403015              900003         0         0          
+$       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
+                                               0.5                    
 *SECTION_SHELL_TITLE
 TX-Ribcage-R8-Cortical-Posterior-End-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -600,25 +653,29 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 TX-Ribcage-R9-Trabecular-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    403093    403093    403003               10001         0         0          
+    403093    403093    403003              900001         0         0          
 *SECTION_SOLID_TITLE
 TX-Ribcage-R9-Trabecular-L
 $    SECID|   ELFORM|
     403093         1
-*PART
+*PART_CONTACT
 TX-Ribcage-R9-Cortical-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    403094    403094    403004             4192001         0         0          
+    403094    403094    403004              900003         0         0          
+$       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
+                                               0.5                    
 *SECTION_SHELL_TITLE
 TX-Ribcage-R9-Cortical-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
     403094        16        0.        5.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
        0.7       0.7       0.7       0.7        0.                  0.          
-*PART
+*PART_CONTACT
 TX-Ribcage-R9-Cortical-Posterior-End-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    403095    403095    403095                 999         0         0          
+    403095    403095    403015              900003         0         0          
+$       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
+                                               0.5                    
 *SECTION_SHELL_TITLE
 TX-Ribcage-R9-Cortical-Posterior-End-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -628,25 +685,29 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 TX-Ribcage-R10-Trabecular-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    403103    403103    403003               10001         0         0          
+    403103    403103    403003              900001         0         0          
 *SECTION_SOLID_TITLE
 TX-Ribcage-R10-Trabecular-L
 $    SECID|   ELFORM|
     403103         1
-*PART
+*PART_CONTACT
 TX-Ribcage-R10-Cortical-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    403104    403104    403004             4192001         0         0          
+    403104    403104    403004              900003         0         0          
+$       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
+                                               0.5                    
 *SECTION_SHELL_TITLE
 TX-Ribcage-R10-Cortical-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
     403104        16        0.        5.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
        0.7       0.7       0.7       0.7        0.                  0.          
-*PART
+*PART_CONTACT
 TX-Ribcage-R10-Cortical-Posterior-End-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    403105    403105    403105                 999         0         0          
+    403105    403105    403015              900003         0         0          
+$       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
+                                               0.5                    
 *SECTION_SHELL_TITLE
 TX-Ribcage-R10-Cortical-Posterior-End-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -656,25 +717,29 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 TX-Ribcage-R11-Trabecular-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    403113    403113    403003               10001         0         0          
+    403113    403113    403003              900001         0         0          
 *SECTION_SOLID_TITLE
 TX-Ribcage-R11-Trabecular-L
 $    SECID|   ELFORM|
     403113         1
-*PART
+*PART_CONTACT
 TX-Ribcage-R11-Cortical-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    403114    403114    403004             4192001         0         0          
+    403114    403114    403004              900003         0         0          
+$       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
+                                               0.5                    
 *SECTION_SHELL_TITLE
 TX-Ribcage-R11-Cortical-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
     403114        16        0.        5.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
        0.7       0.7       0.7       0.7        0.                  0.          
-*PART
+*PART_CONTACT
 TX-Ribcage-R11-Cortical-Posterior-End-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    403115    403115    403115                 999         0         0          
+    403115    403115    403015              900003         0         0          
+$       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
+                                               0.5                    
 *SECTION_SHELL_TITLE
 TX-Ribcage-R11-Cortical-Posterior-End-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -684,25 +749,29 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 TX-Ribcage-R12-Trabecular-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    403123    403123    403003               10001         0         0          
+    403123    403123    403003              900001         0         0          
 *SECTION_SOLID_TITLE
 TX-Ribcage-R12-Trabecular-L
 $    SECID|   ELFORM|
     403123         1
-*PART
+*PART_CONTACT
 TX-Ribcage-R12-Cortical-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    403124    403124    403004             4192001         0         0          
+    403124    403124    403004              900003         0         0          
+$       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
+                                               0.5                    
 *SECTION_SHELL_TITLE
 TX-Ribcage-R12-Cortical-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
     403124        16        0.        5.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
        0.7       0.7       0.7       0.7        0.                  0.          
-*PART
+*PART_CONTACT
 TX-Ribcage-R12-Cortical-Posterior-End-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    403125    403125    403125                 999         0         0          
+    403125    403125    403015              900003         0         0          
+$       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
+                                               0.5                    
 *SECTION_SHELL_TITLE
 TX-Ribcage-R12-Cortical-Posterior-End-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -712,7 +781,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 TX-Ribcage-Sternum--Cortical-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    403501    403501    301001             4192421         0         0          
+    403501    403501    401001              900003         0         0          
 *SECTION_SHELL_TITLE
 TX-Ribcage-Sternum--Cortical-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -722,7 +791,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 TX-Ribcage-Sternum--Trabecular-M
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    403502    403502    301002               10001         0         0          
+    403502    403502    401002              900001         0         0          
 *SECTION_SOLID_TITLE
 TX-Ribcage-Sternum--Trabecular-M
 $    SECID|   ELFORM|
@@ -730,7 +799,7 @@ $    SECID|   ELFORM|
 *PART
 TX-Ribcage-Sternum--Rigid-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    403503    403503    301003             4192421         0         0          
+    403503    403503    401003              900003         0         0          
 *SECTION_SHELL_TITLE
 TX-Ribcage-Sternum--Rigid-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -740,7 +809,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 TX-Ribcage-Cartilage-Exterior-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    403601    403601    353111             4111000         0         0          
+    403601    403601    403111              900002         0         0          
 *SECTION_SHELL_TITLE
 TX-Ribcage-Cartilage-Exterior-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -750,69 +819,299 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 TX-Ribcage-Cartilage-Solid-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    403602    403602    353111              353112         0         0          
+    403602    403602    403111              403602         0         0          
 *SECTION_SOLID_TITLE
 TX-Ribcage-Cartilage-Solid-L
 $    SECID|   ELFORM|
     403602         1
 *PART
-TX-Ribcage-external_nulls-L
-$      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    403710    403710    406003                             0         0          
-*SECTION_SHELL_TITLE
-TX-Ribcage-external_nulls-L
-$    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    403710         2   0.83333        2.        1.         0         0
-$       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
-        1.        1.        1.        1.        0.                  0.          
-*PART
-TX-Ribcage-internal_nulls-L
-$      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    403720    403720    406003                             0         0          
-*SECTION_SHELL_TITLE
-TX-Ribcage-internal_nulls-L
-$    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    403720         2   0.83333        2.        1.         0         0
-$       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
-        1.        1.        1.        1.        0.                  0.          
-*PART
-TX-Intercostal-muscle-External-T1-T12-L
+TX-Intercostal-External-T1-T12-Muscle-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    404000    404000    354111              354111         0         0          
+    404001    404001    404111              900001         0         0          
 *SECTION_SOLID_TITLE
-TX-Intercostal-muscle-External-T1-T12-L
+TX-Intercostal-External-T1-T12-Muscle-L
 $    SECID|   ELFORM|
-    404000         1
+    404001         1
 *PART
-TX-Intercotal-muscle-External-T1-T12-L-Nulls
+TX-Intercostal-External-T1-T12-Null-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    404001    404001    404001                             0         0          
+    404009    404009    404119                             0         0          
 *SECTION_SHELL_TITLE
-TX-Intercotal-muscle-External-T1-T12-L-Nulls
+TX-Intercostal-External-T1-T12-Null-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    404001         2        1.        2.        1.         0         0
+    404009         2        1.        2.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
         1.        1.        1.        1.                            0.          
 *PART
-TX-Intercostal-muscle-Internal-T1-T12-L
-$      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    404200    404200    354111              354112         0         0          
-*SECTION_SOLID_TITLE
-TX-Intercostal-muscle-Internal-T1-T12-L
-$    SECID|   ELFORM|
-    404200         1
+TX-Intercostal-External-T1-T12-Null_edge-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
+    404010    404010    404119                             0         0          
+*SECTION_SHELL_TITLE
+TX-Intercostal-External-T1-T12-Null_edge-L
+$    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
+    404010         2        1.        2.        1.         0         0
+$       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
+        1.        1.        1.        1.                            0.          
 *PART
-TX-Intercostal-muscle-Intermost-T1-T12-L
+TX-Intercostal-Internal-T1-T12-Muscle-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    404400    404400    354111              354113         0         0          
+    404201    404201    404111              900001         0         0          
 *SECTION_SOLID_TITLE
-TX-Intercostal-muscle-Intermost-T1-T12-L
+TX-Intercostal-Internal-T1-T12-Muscle-L
 $    SECID|   ELFORM|
-    404400         1
+    404201         1
+*PART
+TX-Intercostal-Innermost-T1-T12-Muscle-L
+$      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
+    404401    404401    404111              900001         0         0          
+*SECTION_SOLID_TITLE
+TX-Intercostal-Innermost-T1-T12-Muscle-L
+$    SECID|   ELFORM|
+    404401         1
+*PART
+TX-Intercostal-Innermost-T1-T12-Null-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
+    404409    404409    404119                             0         0          
+*SECTION_SHELL_TITLE
+TX-Intercostal-Innermost-T1-T12-Null-L
+$    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
+    404409         2        1.        2.        1.         0         0
+$       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
+       0.5       0.5       0.5       0.5                            0.          
+*PART
+TX-Muscle-Rhomboideus-Major-T1-Scap-L PSCA (Garner 2001)
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
+    404501    404501    404501                             0                    
+*SECTION_BEAM_TITLE
+TX-Muscle-Rhomboideus-Major-T1-Scap-L PSCA (Garner 2001)
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
+    404501         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
+      207.        0.        0.
+*PART
+TX-Muscle-Rhomboideus-Major-T2-Scap-L  PSCA (Garner 2001)
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
+    404502    404502    404501                             0                    
+*SECTION_BEAM_TITLE
+TX-Muscle-Rhomboideus-Major-T2-Scap-L  PSCA (Garner 2001)
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
+    404502         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
+      207.        0.        0.
+*PART
+TX-Muscle-Rhomboideus-Major-T3-Scap-L  PSCA (Garner 2001)
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
+    404503    404503    404501                             0                    
+*SECTION_BEAM_TITLE
+TX-Muscle-Rhomboideus-Major-T3-Scap-L  PSCA (Garner 2001)
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
+    404503         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
+      124.        0.        0.
+*PART
+TX-Muscle-Rhomboideus-Major-T4-Scap-L  PSCA (Garner 2001)
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
+    404504    404504    404501                             0                    
+*SECTION_BEAM_TITLE
+TX-Muscle-Rhomboideus-Major-T4-Scap-L  PSCA (Garner 2001)
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
+    404504         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
+      124.        0.        0.
+*PART
+TX-Muscle-Trapezius-Ascend-T1-Scap-L-PSCA (Garner 2001)
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
+    404601    404601    404601                             0                    
+*SECTION_BEAM_TITLE
+TX-Muscle-Trapezius-Ascend-T1-Scap-L-PSCA (Garner 2001)
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
+    404601         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
+      345.        0.        0.
+*PART
+TX-Muscle-Trapezius-Ascend-T2-Scap-L-PSCA (Garner 2001)
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
+    404602    404602    404601                             0                    
+*SECTION_BEAM_TITLE
+TX-Muscle-Trapezius-Ascend-T2-Scap-L-PSCA (Garner 2001)
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
+    404602         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
+      113.        0.        0.
+*PART
+TX-Muscle-Trapezius-Ascend-T3-Scap-L-PSCA (Garner 2001)
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
+    404603    404603    404601                             0                    
+*SECTION_BEAM_TITLE
+TX-Muscle-Trapezius-Ascend-T3-Scap-L-PSCA (Garner 2001)
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
+    404603         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
+      113.        0.        0.
+*PART
+TX-Muscle-Trapezius-Ascend-T4-Scap-L-PSCA (Garner 2001)
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
+    404604    404604    404601                             0                    
+*SECTION_BEAM_TITLE
+TX-Muscle-Trapezius-Ascend-T4-Scap-L-PSCA (Garner 2001)
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
+    404604         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
+      113.        0.        0.
+*PART
+TX-Muscle-Trapezius-Ascend-T5-Scap-L-PSCA (Garner 2001)
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
+    404605    404605    404601                             0                    
+*SECTION_BEAM_TITLE
+TX-Muscle-Trapezius-Ascend-T5-Scap-L-PSCA (Garner 2001)
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
+    404605         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
+      113.        0.        0.
+*PART
+TX-Muscle-Trapezius-Ascend-T6-Scap-L-PSCA (Garner 2001)
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
+    404606    404606    404601                             0                    
+*SECTION_BEAM_TITLE
+TX-Muscle-Trapezius-Ascend-T6-Scap-L-PSCA (Garner 2001)
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
+    404606         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
+      113.        0.        0.
+*PART
+TX-Muscle-Trapezius-Ascend-T7-Scap-L-PSCA (Garner 2001)
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
+    404607    404607    404601                             0                    
+*SECTION_BEAM_TITLE
+TX-Muscle-Trapezius-Ascend-T7-Scap-L-PSCA (Garner 2001)
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
+    404607         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
+      113.        0.        0.
+*PART
+TX-Muscle-Trapezius-Ascend-T8-Scap-L-PSCA (Garner 2001)
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
+    404608    404608    404601                             0                    
+*SECTION_BEAM_TITLE
+TX-Muscle-Trapezius-Ascend-T8-Scap-L-PSCA (Garner 2001)
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
+    404608         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
+      113.        0.        0.
+*PART
+TX-Muscle-Trapezius-Ascend-T9-Scap-L-PSCA (Garner 2001)
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
+    404609    404609    404601                             0                    
+*SECTION_BEAM_TITLE
+TX-Muscle-Trapezius-Ascend-T9-Scap-L-PSCA (Garner 2001)
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
+    404609         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
+      113.        0.        0.
+*PART
+TX-Muscle-Trapezius-Ascend-T10-Scap-L-PSCA (Garner 2001)
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
+    404610    404610    404601                             0                    
+*SECTION_BEAM_TITLE
+TX-Muscle-Trapezius-Ascend-T10-Scap-L-PSCA (Garner 2001)
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
+    404610         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
+      113.        0.        0.
+*PART
+TX-Muscle-Trapezius-Ascend-T11-Scap-L-PSCA (Garner 2001)
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
+    404611    404611    404601                             0                    
+*SECTION_BEAM_TITLE
+TX-Muscle-Trapezius-Ascend-T11-Scap-L-PSCA (Garner 2001)
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
+    404611         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
+      113.        0.        0.
+*PART
+TX-Muscle-Trapezius-Ascend-T12-Scap-L-PSCA (Garner 2001)
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
+    404612    404612    404601                             0                    
+*SECTION_BEAM_TITLE
+TX-Muscle-Trapezius-Ascend-T12-Scap-L-PSCA (Garner 2001)
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
+    404612         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
+      113.        0.        0.
+*PART
+TX-Muscle-Serratus-Anterior-Rib2-Scap-L-PSCA (Garner 2001)
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
+    404702    404702    404701                             0                    
+*SECTION_BEAM_TITLE
+TX-Muscle-Serratus-Anterior-Rib2-Scap-L-PSCA (Garner 2001)
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
+    404702         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
+      293.        0.        0.
+*PART
+TX-Muscle-Serratus-Anterior-Rib3-Scap-L-PSCA (Garner 2001)
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
+    404703    404703    404701                             0                    
+*SECTION_BEAM_TITLE
+TX-Muscle-Serratus-Anterior-Rib3-Scap-L-PSCA (Garner 2001)
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
+    404703         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
+      293.        0.        0.
+*PART
+TX-Muscle-Serratus-Anterior-Rib4-Scap-L-PSCA (Garner 2001)
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
+    404704    404704    404701                             0                    
+*SECTION_BEAM_TITLE
+TX-Muscle-Serratus-Anterior-Rib4-Scap-L-PSCA (Garner 2001)
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
+    404704         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
+      293.        0.        0.
+*PART
+TX-Muscle-Serratus-Anterior-Rib5-Scap-L-PSCA (Garner 2001)
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
+    404705    404705    404701                             0                    
+*SECTION_BEAM_TITLE
+TX-Muscle-Serratus-Anterior-Rib5-Scap-L-PSCA (Garner 2001)
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
+    404705         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
+      293.        0.        0.
+*PART
+TX-Muscle-Serratus-Anterior-Rib6-Scap-L-PSCA (Garner 2001)
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
+    404706    404706    404701                             0                    
+*SECTION_BEAM_TITLE
+TX-Muscle-Serratus-Anterior-Rib6-Scap-L-PSCA (Garner 2001)
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
+    404706         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
+      293.        0.        0.
+*PART
+TX-Muscle-Serratus-Anterior-Rib7-Scap-L-PSCA (Garner 2001)
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
+    404707    404707    404701                             0                    
+*SECTION_BEAM_TITLE
+TX-Muscle-Serratus-Anterior-Rib7-Scap-L-PSCA (Garner 2001)
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
+    404707         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
+      293.        0.        0.
+*PART
+TX-Muscle-Serratus-Anterior-Rib8-Scap-L-PSCA (Garner 2001)
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
+    404708    404708    404701                             0                    
+*SECTION_BEAM_TITLE
+TX-Muscle-Serratus-Anterior-Rib8-Scap-L-PSCA (Garner 2001)
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
+    404708         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
+      293.        0.        0.
 *PART
 TX-Thoracic_Cavity-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    405001    405001    405101              305001         0         0          
+    405001    405001    405101              900001         0         0          
 *SECTION_SOLID_TITLE
 TX-Thoracic_Cavity-L
 $    SECID|   ELFORM|
@@ -820,7 +1119,7 @@ $    SECID|   ELFORM|
 *PART
 TX-Thoracic_Cavity-nulls-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    405003    405003    305003                             0         0          
+    405003    405003    405009                             0         0          
 *SECTION_SHELL_TITLE
 TX-Thoracic_Cavity-nulls-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -828,57 +1127,59 @@ $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
        0.5       0.5       0.5       0.5        0.                  0.          
 *PART
-TX-Skin-L
-$      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    406001    406001    906001                             0         0          
-*SECTION_SHELL_TITLE
-TX-Skin-L
-$    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    406001         9   0.83333        1.        1.         0         1
-$       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
-        1.        1.        1.        1.        0.                  0.          
-$       B1|       B2|
-        0.       90.
-*PART
 TX-Soft_Tissues-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    406002    406002    405100              306002         0         0          
+    406002    406002    405100              900001         0         0          
 *SECTION_SOLID_TITLE
 TX-Soft_Tissues-L
 $    SECID|   ELFORM|
     406002         1
 *PART
-TX-Internal_nulls-L
+TX-Torso-Soft-Internal_nulls-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    406003    406003    406003                             0         0          
+    406003    406003    406009                             0         0          
 *SECTION_SHELL_TITLE
-TX-Internal_nulls-L
+TX-Torso-Soft-Internal_nulls-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
     406003         2   0.83333        2.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
         1.        1.        1.        1.        0.                  0.          
 *PART
+TX-Torso-Soft-Internal_nulls-for-single-surface-contact
+$      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
+    406013    406013    406009                             0         0          
+*SECTION_SHELL_TITLE
+TX-Torso-Soft-Internal_nulls-for-single-surface-contact
+$    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
+    406013         2   0.83333        2.        1.         0         0
+$       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
+        1.        1.        1.        1.        0.                  0.          
+*PART
 TX-Ribcage-R1-Trabecular-R
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    453013    453013    403003               10001         0         0          
+    453013    453013    403003              900001         0         0          
 *SECTION_SOLID_TITLE
 TX-Ribcage-R1-Trabecular-R
 $    SECID|   ELFORM|
     453013         1
-*PART
+*PART_CONTACT
 TX-Ribcage-R1-Cortical-R
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    453014    453014    403004             4192001         0         0          
+    453014    453014    403004              900003         0         0          
+$       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
+                                               0.5                    
 *SECTION_SHELL_TITLE
 TX-Ribcage-R1-Cortical-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
     453014        16        0.        5.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
        0.7       0.7       0.7       0.7        0.                  0.          
-*PART
+*PART_CONTACT
 TX-Ribcage-R1-Cortical-Posterior-End-R
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    453015    453015    453015                 999         0         0          
+    453015    453015    403015              900003         0         0          
+$       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
+                                               0.5                    
 *SECTION_SHELL_TITLE
 TX-Ribcage-R1-Cortical-Posterior-End-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -888,25 +1189,29 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 TX-Ribcage-R2-Trabecular-R
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    453023    453023    403003               10001         0         0          
+    453023    453023    403003              900001         0         0          
 *SECTION_SOLID_TITLE
 TX-Ribcage-R2-Trabecular-R
 $    SECID|   ELFORM|
     453023         1
-*PART
+*PART_CONTACT
 TX-Ribcage-R2-Cortical-R
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    453024    453024    403004             4192001         0         0          
+    453024    453024    403004              900003         0         0          
+$       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
+                                               0.5                    
 *SECTION_SHELL_TITLE
 TX-Ribcage-R2-Cortical-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
     453024        16        0.        5.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
        0.7       0.7       0.7       0.7        0.                  0.          
-*PART
+*PART_CONTACT
 TX-Ribcage-R2-Cortical-Posterior-End-R
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    453025    453025    453025                 999         0         0          
+    453025    453025    403015              900003         0         0          
+$       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
+                                               0.5                    
 *SECTION_SHELL_TITLE
 TX-Ribcage-R2-Cortical-Posterior-End-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -916,25 +1221,29 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 TX-Ribcage-R3-Trabecular-R
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    453033    453033    403003               10001         0         0          
+    453033    453033    403003              900001         0         0          
 *SECTION_SOLID_TITLE
 TX-Ribcage-R3-Trabecular-R
 $    SECID|   ELFORM|
     453033         1
-*PART
+*PART_CONTACT
 TX-Ribcage-R3-Cortical-R
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    453034    453034    403004             4192001         0         0          
+    453034    453034    403004              900003         0         0          
+$       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
+                                               0.5                    
 *SECTION_SHELL_TITLE
 TX-Ribcage-R3-Cortical-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
     453034        16        0.        5.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
        0.7       0.7       0.7       0.7        0.                  0.          
-*PART
+*PART_CONTACT
 TX-Ribcage-R3-Cortical-Posterior-End-R
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    453035    453035    453035                 999         0         0          
+    453035    453035    403015              900003         0         0          
+$       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
+                                               0.5                    
 *SECTION_SHELL_TITLE
 TX-Ribcage-R3-Cortical-Posterior-End-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -944,25 +1253,29 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 TX-Ribcage-R4-Trabecular-R
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    453043    453043    403003               10001         0         0          
+    453043    453043    403003              900001         0         0          
 *SECTION_SOLID_TITLE
 TX-Ribcage-R4-Trabecular-R
 $    SECID|   ELFORM|
     453043         1
-*PART
+*PART_CONTACT
 TX-Ribcage-R4-Cortical-R
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    453044    453044    403004             4192001         0         0          
+    453044    453044    403004              900003         0         0          
+$       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
+                                               0.5                    
 *SECTION_SHELL_TITLE
 TX-Ribcage-R4-Cortical-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
     453044        16        0.        5.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
        0.7       0.7       0.7       0.7        0.                  0.          
-*PART
+*PART_CONTACT
 TX-Ribcage-R4-Cortical-Posterior-End-R
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    453045    453045    453045                 999         0         0          
+    453045    453045    403015              900003         0         0          
+$       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
+                                               0.5                    
 *SECTION_SHELL_TITLE
 TX-Ribcage-R4-Cortical-Posterior-End-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -972,25 +1285,29 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 TX-Ribcage-R5-Trabecular-R
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    453053    453053    403003               10001         0         0          
+    453053    453053    403003              900001         0         0          
 *SECTION_SOLID_TITLE
 TX-Ribcage-R5-Trabecular-R
 $    SECID|   ELFORM|
     453053         1
-*PART
+*PART_CONTACT
 TX-Ribcage-R5-Cortical-R
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    453054    453054    403004             4192001         0         0          
+    453054    453054    403004              900003         0         0          
+$       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
+                                               0.5                    
 *SECTION_SHELL_TITLE
 TX-Ribcage-R5-Cortical-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
     453054        16        0.        5.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
        0.7       0.7       0.7       0.7        0.                  0.          
-*PART
+*PART_CONTACT
 TX-Ribcage-R5-Cortical-Posterior-End-R
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    453055    453055    453055                 999         0         0          
+    453055    453055    403015              900003         0         0          
+$       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
+                                               0.5                    
 *SECTION_SHELL_TITLE
 TX-Ribcage-R5-Cortical-Posterior-End-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -1000,25 +1317,29 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 TX-Ribcage-R6-Trabecular-R
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    453063    453063    403003               10001         0         0          
+    453063    453063    403003              900001         0         0          
 *SECTION_SOLID_TITLE
 TX-Ribcage-R6-Trabecular-R
 $    SECID|   ELFORM|
     453063         1
-*PART
+*PART_CONTACT
 TX-Ribcage-R6-Cortical-R
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    453064    453064    403004             4192001         0         0          
+    453064    453064    403004              900003         0         0          
+$       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
+                                               0.5                    
 *SECTION_SHELL_TITLE
 TX-Ribcage-R6-Cortical-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
     453064        16        0.        5.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
        0.7       0.7       0.7       0.7        0.                  0.          
-*PART
+*PART_CONTACT
 TX-Ribcage-R6-Cortical-Posterior-End-R
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    453065    453065    453065                 999         0         0          
+    453065    453065    403015              900003         0         0          
+$       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
+                                               0.5                    
 *SECTION_SHELL_TITLE
 TX-Ribcage-R6-Cortical-Posterior-End-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -1028,25 +1349,29 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 TX-Ribcage-R7-Trabecular-R
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    453073    453073    403003               10001         0         0          
+    453073    453073    403003              900001         0         0          
 *SECTION_SOLID_TITLE
 TX-Ribcage-R7-Trabecular-R
 $    SECID|   ELFORM|
     453073         1
-*PART
+*PART_CONTACT
 TX-Ribcage-R7-Cortical-R
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    453074    453074    403004             4192001         0         0          
+    453074    453074    403004              900003         0         0          
+$       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
+                                               0.5                    
 *SECTION_SHELL_TITLE
 TX-Ribcage-R7-Cortical-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
     453074        16        0.        5.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
        0.7       0.7       0.7       0.7        0.                  0.          
-*PART
+*PART_CONTACT
 TX-Ribcage-R7-Cortical-Posterior-End-R
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    453075    453075    453075                 999         0         0          
+    453075    453075    403015              900003         0         0          
+$       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
+                                               0.5                    
 *SECTION_SHELL_TITLE
 TX-Ribcage-R7-Cortical-Posterior-End-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -1056,25 +1381,29 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 TX-Ribcage-R8-Trabecular-R
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    453083    453083    403003               10001         0         0          
+    453083    453083    403003              900001         0         0          
 *SECTION_SOLID_TITLE
 TX-Ribcage-R8-Trabecular-R
 $    SECID|   ELFORM|
     453083         1
-*PART
+*PART_CONTACT
 TX-Ribcage-R8-Cortical-R
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    453084    453084    403004             4192001         0         0          
+    453084    453084    403004              900003         0         0          
+$       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
+                                               0.5                    
 *SECTION_SHELL_TITLE
 TX-Ribcage-R8-Cortical-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
     453084        16        0.        5.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
        0.7       0.7       0.7       0.7        0.                  0.          
-*PART
+*PART_CONTACT
 TX-Ribcage-R8-Cortical-Posterior-End-R
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    453085    453085    453085                 999         0         0          
+    453085    453085    403015              900003         0         0          
+$       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
+                                               0.5                    
 *SECTION_SHELL_TITLE
 TX-Ribcage-R8-Cortical-Posterior-End-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -1084,25 +1413,29 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 TX-Ribcage-R9-Trabecular-R
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    453093    453093    403003               10001         0         0          
+    453093    453093    403003              900001         0         0          
 *SECTION_SOLID_TITLE
 TX-Ribcage-R9-Trabecular-R
 $    SECID|   ELFORM|
     453093         1
-*PART
+*PART_CONTACT
 TX-Ribcage-R9-Cortical-R
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    453094    453094    403004             4192001         0         0          
+    453094    453094    403004              900003         0         0          
+$       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
+                                               0.5                    
 *SECTION_SHELL_TITLE
 TX-Ribcage-R9-Cortical-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
     453094        16        0.        5.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
        0.7       0.7       0.7       0.7        0.                  0.          
-*PART
+*PART_CONTACT
 TX-Ribcage-R9-Cortical-Posterior-End-R
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    453095    453095    453095                 999         0         0          
+    453095    453095    403015              900003         0         0          
+$       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
+                                               0.5                    
 *SECTION_SHELL_TITLE
 TX-Ribcage-R9-Cortical-Posterior-End-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -1112,25 +1445,29 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 TX-Ribcage-R10-Trabecular-R
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    453103    453103    403003               10001         0         0          
+    453103    453103    403003              900001         0         0          
 *SECTION_SOLID_TITLE
 TX-Ribcage-R10-Trabecular-R
 $    SECID|   ELFORM|
     453103         1
-*PART
+*PART_CONTACT
 TX-Ribcage-R10-Cortical-R
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    453104    453104    403004             4192001         0         0          
+    453104    453104    403004              900003         0         0          
+$       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
+                                               0.5                    
 *SECTION_SHELL_TITLE
 TX-Ribcage-R10-Cortical-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
     453104        16        0.        5.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
        0.7       0.7       0.7       0.7        0.                  0.          
-*PART
+*PART_CONTACT
 TX-Ribcage-R10-Cortical-Posterior-End-R
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    453105    453105    453105                 999         0         0          
+    453105    453105    403015              900003         0         0          
+$       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
+                                               0.5                    
 *SECTION_SHELL_TITLE
 TX-Ribcage-R10-Cortical-Posterior-End-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -1140,25 +1477,29 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 TX-Ribcage-R11-Trabecular-R
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    453113    453113    403003               10001         0         0          
+    453113    453113    403003              900001         0         0          
 *SECTION_SOLID_TITLE
 TX-Ribcage-R11-Trabecular-R
 $    SECID|   ELFORM|
     453113         1
-*PART
+*PART_CONTACT
 TX-Ribcage-R11-Cortical-R
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    453114    453114    403004             4192001         0         0          
+    453114    453114    403004              900003         0         0          
+$       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
+                                               0.5                    
 *SECTION_SHELL_TITLE
 TX-Ribcage-R11-Cortical-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
     453114        16        0.        5.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
        0.7       0.7       0.7       0.7        0.                  0.          
-*PART
+*PART_CONTACT
 TX-Ribcage-R11-Cortical-Posterior-End-R
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    453115    453115    453115                 999         0         0          
+    453115    453115    403015              900003         0         0          
+$       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
+                                               0.5                    
 *SECTION_SHELL_TITLE
 TX-Ribcage-R11-Cortical-Posterior-End-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -1168,25 +1509,29 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 TX-Ribcage-R12-Trabecular-R
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    453123    453123    403003               10001         0         0          
+    453123    453123    403003              900001         0         0          
 *SECTION_SOLID_TITLE
 TX-Ribcage-R12-Trabecular-R
 $    SECID|   ELFORM|
     453123         1
-*PART
+*PART_CONTACT
 TX-Ribcage-R12-Cortical-R
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    453124    453124    403004             4192001         0         0          
+    453124    453124    403004              900003         0         0          
+$       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
+                                               0.5                    
 *SECTION_SHELL_TITLE
 TX-Ribcage-R12-Cortical-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
     453124        16        0.        5.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
        0.7       0.7       0.7       0.7        0.                  0.          
-*PART
+*PART_CONTACT
 TX-Ribcage-R12-Cortical-Posterior-End-R
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    453125    453125    453125                 999         0         0          
+    453125    453125    403015              900003         0         0          
+$       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
+                                               0.5                    
 *SECTION_SHELL_TITLE
 TX-Ribcage-R12-Cortical-Posterior-End-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -1196,7 +1541,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 TX-Ribcage-Sternum--Rigid-R
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    453503    453503    301003             4192421         0         0          
+    453503    453503    401003              900003         0         0          
 *SECTION_SHELL_TITLE
 TX-Ribcage-Sternum--Rigid-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -1206,7 +1551,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 TX-Ribcage-Cartilage-Exterior-R
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    453601    453601    353111             4111000         0         0          
+    453601    453601    403111              900002         0         0          
 *SECTION_SHELL_TITLE
 TX-Ribcage-Cartilage-Exterior-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -1216,69 +1561,299 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 TX-Ribcage-Cartilage-Solid-R
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    453602    453602    353111              353112         0         0          
+    453602    453602    403111              403602         0         0          
 *SECTION_SOLID_TITLE
 TX-Ribcage-Cartilage-Solid-R
 $    SECID|   ELFORM|
     453602         1
 *PART
-TX-Ribcage-external_nulls-R
-$      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    453710    453710    406003                             0         0          
-*SECTION_SHELL_TITLE
-TX-Ribcage-external_nulls-R
-$    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    453710         2   0.83333        2.        1.         0         0
-$       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
-        1.        1.        1.        1.        0.                  0.          
-*PART
-TX-Ribcage-internal_nulls-R
-$      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    453720    453720    406003                             0         0          
-*SECTION_SHELL_TITLE
-TX-Ribcage-internal_nulls-R
-$    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    453720         2   0.83333        2.        1.         0         0
-$       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
-        1.        1.        1.        1.        0.                  0.          
-*PART
-TX-Intercostal-muscle-External-T1-T12-R
+TX-Intercostal-External-T1-T12-Muscle-R
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    454000    454000    354111              354111         0         0          
+    454001    454001    404111              900001         0         0          
 *SECTION_SOLID_TITLE
-TX-Intercostal-muscle-External-T1-T12-R
+TX-Intercostal-External-T1-T12-Muscle-R
 $    SECID|   ELFORM|
-    454000         1
+    454001         1
 *PART
-TX-Intercotal-muscle-External-T1-T12-R-Nulls
+TX-Intercostal-External-T1-T12-Null-R
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    454001    454001    454001                             0         0          
+    454009    454009    404119                             0         0          
 *SECTION_SHELL_TITLE
-TX-Intercotal-muscle-External-T1-T12-R-Nulls
+TX-Intercostal-External-T1-T12-Null-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    454001         2        1.        2.        1.         0         0
+    454009         2        1.        2.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
         1.        1.        1.        1.                            0.          
 *PART
-TX-Intercostal-muscle-Internal-T1-T12-R
+TX-Intercostal-External-T1-T12-Null_edge-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
+    454010    454010    404119                             0         0          
+*SECTION_SHELL_TITLE
+TX-Intercostal-External-T1-T12-Null_edge-R
+$    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
+    454010         2        1.        2.        1.         0         0
+$       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
+        1.        1.        1.        1.                            0.          
+*PART
+TX-Intercostal-Internal-T1-T12-Muscle-R
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    454200    454200    354111              354112         0         0          
+    454201    454201    404111              900001         0         0          
 *SECTION_SOLID_TITLE
-TX-Intercostal-muscle-Internal-T1-T12-R
+TX-Intercostal-Internal-T1-T12-Muscle-R
 $    SECID|   ELFORM|
-    454200         1
+    454201         1
 *PART
 TX-Intercostal-muscle-Intermost-T1-T12-R
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    454400    454400    354111              354113         0         0          
+    454400    454400    404111              900001         0         0          
 *SECTION_SOLID_TITLE
 TX-Intercostal-muscle-Intermost-T1-T12-R
 $    SECID|   ELFORM|
     454400         1
 *PART
+TX-Intercostal-Innermost-T1-T12-Null-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
+    454409    454409    404119                             0         0          
+*SECTION_SHELL_TITLE
+TX-Intercostal-Innermost-T1-T12-Null-R
+$    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
+    454409         2        1.        2.        1.         0         0
+$       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
+       0.5       0.5       0.5       0.5                            0.          
+*PART
+TX-Muscle-Rhomboideus-Major-T1-Scap-R PSCA (Garner 2001)
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
+    454501    454501    404501                             0                    
+*SECTION_BEAM_TITLE
+TX-Muscle-Rhomboideus-Major-T1-Scap-R PSCA (Garner 2001)
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
+    454501         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
+      207.        0.        0.
+*PART
+TX-Muscle-Rhomboideus-Major-T2-Scap-R  PSCA (Garner 2001)
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
+    454502    454502    404501                             0                    
+*SECTION_BEAM_TITLE
+TX-Muscle-Rhomboideus-Major-T2-Scap-R  PSCA (Garner 2001)
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
+    454502         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
+      207.        0.        0.
+*PART
+TX-Muscle-Rhomboideus-Major-T3-Scap-R  PSCA (Garner 2001)
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
+    454503    454503    404501                             0                    
+*SECTION_BEAM_TITLE
+TX-Muscle-Rhomboideus-Major-T3-Scap-R  PSCA (Garner 2001)
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
+    454503         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
+      124.        0.        0.
+*PART
+TX-Muscle-Rhomboideus-Major-T4-Scap-R  PSCA (Garner 2001)
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
+    454504    454504    404501                             0                    
+*SECTION_BEAM_TITLE
+TX-Muscle-Rhomboideus-Major-T4-Scap-R  PSCA (Garner 2001)
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
+    454504         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
+      124.        0.        0.
+*PART
+TX-Muscle-Trapezius-Ascend-T1-Scap-R-PSCA (Garner 2001)
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
+    454601    454601    404601                             0                    
+*SECTION_BEAM_TITLE
+TX-Muscle-Trapezius-Ascend-T1-Scap-R-PSCA (Garner 2001)
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
+    454601         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
+      345.        0.        0.
+*PART
+TX-Muscle-Trapezius-Ascend-T2-Scap-R-PSCA (Garner 2001)
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
+    454602    454602    404601                             0                    
+*SECTION_BEAM_TITLE
+TX-Muscle-Trapezius-Ascend-T2-Scap-R-PSCA (Garner 2001)
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
+    454602         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
+      113.        0.        0.
+*PART
+TX-Muscle-Trapezius-Ascend-T3-Scap-R-PSCA (Garner 2001)
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
+    454603    454603    404601                             0                    
+*SECTION_BEAM_TITLE
+TX-Muscle-Trapezius-Ascend-T3-Scap-R-PSCA (Garner 2001)
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
+    454603         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
+      113.        0.        0.
+*PART
+TX-Muscle-Trapezius-Ascend-T4-Scap-R-PSCA (Garner 2001)
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
+    454604    454604    404601                             0                    
+*SECTION_BEAM_TITLE
+TX-Muscle-Trapezius-Ascend-T4-Scap-R-PSCA (Garner 2001)
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
+    454604         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
+      113.        0.        0.
+*PART
+TX-Muscle-Trapezius-Ascend-T5-Scap-R-PSCA (Garner 2001)
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
+    454605    454605    404601                             0                    
+*SECTION_BEAM_TITLE
+TX-Muscle-Trapezius-Ascend-T5-Scap-R-PSCA (Garner 2001)
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
+    454605         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
+      113.        0.        0.
+*PART
+TX-Muscle-Trapezius-Ascend-T6-Scap-R-PSCA (Garner 2001)
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
+    454606    454606    404601                             0                    
+*SECTION_BEAM_TITLE
+TX-Muscle-Trapezius-Ascend-T6-Scap-R-PSCA (Garner 2001)
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
+    454606         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
+      113.        0.        0.
+*PART
+TX-Muscle-Trapezius-Ascend-T7-Scap-R-PSCA (Garner 2001)
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
+    454607    454607    404601                             0                    
+*SECTION_BEAM_TITLE
+TX-Muscle-Trapezius-Ascend-T7-Scap-R-PSCA (Garner 2001)
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
+    454607         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
+      113.        0.        0.
+*PART
+TX-Muscle-Trapezius-Ascend-T8-Scap-R-PSCA (Garner 2001)
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
+    454608    454608    404601                             0                    
+*SECTION_BEAM_TITLE
+TX-Muscle-Trapezius-Ascend-T8-Scap-R-PSCA (Garner 2001)
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
+    454608         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
+      113.        0.        0.
+*PART
+TX-Muscle-Trapezius-Ascend-T9-Scap-R-PSCA (Garner 2001)
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
+    454609    454609    404601                             0                    
+*SECTION_BEAM_TITLE
+TX-Muscle-Trapezius-Ascend-T9-Scap-R-PSCA (Garner 2001)
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
+    454609         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
+      113.        0.        0.
+*PART
+TX-Muscle-Trapezius-Ascend-T10-Scap-R-PSCA (Garner 2001)
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
+    454610    454610    404601                             0                    
+*SECTION_BEAM_TITLE
+TX-Muscle-Trapezius-Ascend-T10-Scap-R-PSCA (Garner 2001)
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
+    454610         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
+      113.        0.        0.
+*PART
+TX-Muscle-Trapezius-Ascend-T11-Scap-R-PSCA (Garner 2001)
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
+    454611    454611    404601                             0                    
+*SECTION_BEAM_TITLE
+TX-Muscle-Trapezius-Ascend-T11-Scap-R-PSCA (Garner 2001)
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
+    454611         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
+      113.        0.        0.
+*PART
+TX-Muscle-Trapezius-Ascend-T12-Scap-R-PSCA (Garner 2001)
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
+    454612    454612    404601                             0                    
+*SECTION_BEAM_TITLE
+TX-Muscle-Trapezius-Ascend-T12-Scap-R-PSCA (Garner 2001)
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
+    454612         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
+      113.        0.        0.
+*PART
+TX-Muscle-Serratus-Anterior-Rib2-Scap-R-PSCA (Garner 2001)
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
+    454702    454702    404701                             0                    
+*SECTION_BEAM_TITLE
+TX-Muscle-Serratus-Anterior-Rib2-Scap-R-PSCA (Garner 2001)
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
+    454702         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
+      293.        0.        0.
+*PART
+TX-Muscle-Serratus-Anterior-Rib3-Scap-R-PSCA (Garner 2001)
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
+    454703    454703    404701                             0                    
+*SECTION_BEAM_TITLE
+TX-Muscle-Serratus-Anterior-Rib3-Scap-R-PSCA (Garner 2001)
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
+    454703         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
+      293.        0.        0.
+*PART
+TX-Muscle-Serratus-Anterior-Rib4-Scap-R-PSCA (Garner 2001)
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
+    454704    454704    404701                             0                    
+*SECTION_BEAM_TITLE
+TX-Muscle-Serratus-Anterior-Rib4-Scap-R-PSCA (Garner 2001)
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
+    454704         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
+      293.        0.        0.
+*PART
+TX-Muscle-Serratus-Anterior-Rib5-Scap-R-PSCA (Garner 2001)
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
+    454705    454705    404701                             0                    
+*SECTION_BEAM_TITLE
+TX-Muscle-Serratus-Anterior-Rib5-Scap-R-PSCA (Garner 2001)
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
+    454705         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
+      293.        0.        0.
+*PART
+TX-Muscle-Serratus-Anterior-Rib6-Scap-R-PSCA (Garner 2001)
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
+    454706    454706    404701                             0                    
+*SECTION_BEAM_TITLE
+TX-Muscle-Serratus-Anterior-Rib6-Scap-R-PSCA (Garner 2001)
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
+    454706         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
+      293.        0.        0.
+*PART
+TX-Muscle-Serratus-Anterior-Rib7-Scap-R-PSCA (Garner 2001)
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
+    454707    454707    404701                             0                    
+*SECTION_BEAM_TITLE
+TX-Muscle-Serratus-Anterior-Rib7-Scap-R-PSCA (Garner 2001)
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
+    454707         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
+      293.        0.        0.
+*PART
+TX-Muscle-Serratus-Anterior-Rib8-Scap-R-PSCA (Garner 2001)
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
+    454708    454708    404701                             0                    
+*SECTION_BEAM_TITLE
+TX-Muscle-Serratus-Anterior-Rib8-Scap-R-PSCA (Garner 2001)
+$    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
+    454708         3                  0.        0.                  0.
+$        A|    RAMPT|   STRESS|
+      293.        0.        0.
+*PART
 TX-Thoracic_Cavity-R
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    455001    455001    405101              305001         0         0          
+    455001    455001    405101              900001         0         0          
 *SECTION_SOLID_TITLE
 TX-Thoracic_Cavity-R
 $    SECID|   ELFORM|
@@ -1286,7 +1861,7 @@ $    SECID|   ELFORM|
 *PART
 TX-Thoracic_Cavity-nulls-R
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    455003    455003    305003                             0         0          
+    455003    455003    405009                             0         0          
 *SECTION_SHELL_TITLE
 TX-Thoracic_Cavity-nulls-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -1294,35 +1869,45 @@ $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
        0.5       0.5       0.5       0.5        0.                  0.          
 *PART
-TX-Skin-R
-$      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    456001    456001    906001                             0         0          
-*SECTION_SHELL_TITLE
-TX-Skin-R
-$    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    456001         9   0.83333        1.        1.         0         1
-$       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
-        1.        1.        1.        1.        0.                  0.          
-$       B1|       B2|
-        0.       90.
-*PART
-TX-Soft-Tissues-R
+TX-Soft_Tissues-R
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    456002    456002    405100              306002         0         0          
+    456002    456002    405100              900001         0         0          
 *SECTION_SOLID_TITLE
-TX-Soft-Tissues-R
+TX-Soft_Tissues-R
 $    SECID|   ELFORM|
     456002         1
 *PART
-TX-internal_nulls-R
+TX-Torso-Soft-Internal_nulls-R
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    456003    456003    406003                             0         0          
+    456003    456003    406009                             0         0          
 *SECTION_SHELL_TITLE
-TX-internal_nulls-R
+TX-Torso-Soft-Internal_nulls-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
     456003         2   0.83333        2.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
         1.        1.        1.        1.        0.                  0.          
+*PART
+TX-Torso-Soft-Internal_nulls-for-single-surface-contact
+$      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
+    456013    456013    406009                             0         0          
+*SECTION_SHELL_TITLE
+TX-Torso-Soft-Internal_nulls-for-single-surface-contact
+$    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
+    456013         2   0.83333        2.        1.         0         0
+$       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
+        1.        1.        1.        1.        0.                  0.          
+$ANSA_ID;1;
+*DAMPING_PART_STIFFNESS_SET
+    903004      0.05
+*SET_PART_TITLE
+Set for damping
+    903004                                        
+    214002    603110    606004    653110    656004    706110    706120    706210
+    756110    756120    756210
+$ANSA_COLOR;305202;SECTION_SHELL;.772549033164978;.192156866192818;.643137276172
+$638;1.;
+$ANSA_COLOR;355202;SECTION_SHELL;.725490212440491;.403921574354172;.047058824449
+$778;1.;
 $ANSA_COLOR;401011;SECTION_SHELL;.541176497936249;.368627458810806;.623529434204
 $102;1.;
 $ANSA_COLOR;401012;SECTION_SOLID;.815686285495758;.372549027204514;0.61176472902
@@ -1479,26 +2064,74 @@ $ANSA_COLOR;403601;SECTION_SHELL;.658823549747467;.047058824449778;.945098042488
 $098;1.;
 $ANSA_COLOR;403602;SECTION_SOLID;.572549045085907;.376470595598221;.752941191196
 $442;1.;
-$ANSA_COLOR;403710;SECTION_SHELL;.905882358551025;.772549033164978;.200000002980
-$232;1.;
-$ANSA_COLOR;403720;SECTION_SHELL;.850980401039124;.890196084976196;.658823549747
-$467;1.;
-$ANSA_COLOR;404000;SECTION_SOLID;.976470589637756;.858823537826538;.513725519180
-$298;1.;
-$ANSA_COLOR;404001;SECTION_SHELL;.517647087574005;.639215707778931;.380392163991
+$ANSA_COLOR;404001;SECTION_SOLID;.933333337306976;.862745106220245;.509803950786
+$591;1.;
+$ANSA_COLOR;404009;SECTION_SHELL;.517647087574005;.639215707778931;.380392163991
 $928;1.;
-$ANSA_COLOR;404200;SECTION_SOLID;.564705908298492;.529411792755127;.701960802078
-$247;1.;
-$ANSA_COLOR;404400;SECTION_SOLID;.650980412960052;.200000002980232;.890196084976
-$196;1.;
+$ANSA_COLOR;404010;SECTION_SHELL;.580392181873322;.482352942228317;.647058844566
+$345;1.;
+$ANSA_COLOR;404201;SECTION_SOLID;.933333337306976;.862745106220245;.509803950786
+$591;1.;
+$ANSA_COLOR;404401;SECTION_SOLID;.933333337306976;.862745106220245;.509803950786
+$591;1.;
+$ANSA_COLOR;404409;SECTION_SHELL;.615686297416687;.090196080505848;.050980392843
+$485;1.;
+$ANSA_COLOR;404501;SECTION_BEAM_ELFORM_3;.764705896377563;.811764717102051;0.525
+$49022436142;1.;
+$ANSA_COLOR;404502;SECTION_BEAM_ELFORM_3;.662745118141174;.878431379795074;.6470
+$58844566345;1.;
+$ANSA_COLOR;404503;SECTION_BEAM_ELFORM_3;.627451002597809;.447058826684952;.7372
+$54917621613;1.;
+$ANSA_COLOR;404504;SECTION_BEAM_ELFORM_3;.545098066329956;.592156887054443;.0745
+$09806931019;1.;
+$ANSA_COLOR;404601;SECTION_BEAM_ELFORM_3;.588235318660736;.282352954149246;.1490
+$19613862038;1.;
+$ANSA_COLOR;404602;SECTION_BEAM_ELFORM_3;.709803938865662;.823529422283173;.8901
+$96084976196;1.;
+$ANSA_COLOR;404603;SECTION_BEAM_ELFORM_3;0.7843137383461;.949019610881805;0.8705
+$8824300766;1.;
+$ANSA_COLOR;404604;SECTION_BEAM_ELFORM_3;.815686285495758;.647058844566345;.0980
+$39217293262;1.;
+$ANSA_COLOR;404605;SECTION_BEAM_ELFORM_3;.803921580314636;.925490200519562;0.568
+$6274766922;1.;
+$ANSA_COLOR;404606;SECTION_BEAM_ELFORM_3;.745098054409027;.780392169952393;.2823
+$52954149246;1.;
+$ANSA_COLOR;404607;SECTION_BEAM_ELFORM_3;.643137276172638;.215686276555061;.2431
+$37255311012;1.;
+$ANSA_COLOR;404608;SECTION_BEAM_ELFORM_3;.498039215803146;.227450981736183;.4470
+$58826684952;1.;
+$ANSA_COLOR;404609;SECTION_BEAM_ELFORM_3;.807843148708344;.815686285495758;.8941
+$17653369904;1.;
+$ANSA_COLOR;404610;SECTION_BEAM_ELFORM_3;.572549045085907;.984313726425171;.5882
+$35318660736;1.;
+$ANSA_COLOR;404611;SECTION_BEAM_ELFORM_3;.792156875133514;.725490212440491;0.525
+$49022436142;1.;
+$ANSA_COLOR;404612;SECTION_BEAM_ELFORM_3;.968627452850342;.050980392843485;.7058
+$82370471954;1.;
+$ANSA_COLOR;404702;SECTION_BEAM_ELFORM_3;.933333337306976;.615686297416687;.8000
+$00011920929;1.;
+$ANSA_COLOR;404703;SECTION_BEAM_ELFORM_3;.686274528503418;.427450984716415;.8039
+$21580314636;1.;
+$ANSA_COLOR;404704;SECTION_BEAM_ELFORM_3;.898039221763611;.815686285495758;.0509
+$80392843485;1.;
+$ANSA_COLOR;404705;SECTION_BEAM_ELFORM_3;.560784339904785;0.7843137383461;.54509
+$8066329956;1.;
+$ANSA_COLOR;404706;SECTION_BEAM_ELFORM_3;.682352960109711;.329411774873734;.2823
+$52954149246;1.;
+$ANSA_COLOR;404707;SECTION_BEAM_ELFORM_3;.925490200519562;0.7843137383461;.59607
+$8455448151;1.;
+$ANSA_COLOR;404708;SECTION_BEAM_ELFORM_3;0.95686274766922;.486274510622025;.8235
+$29422283173;1.;
 $ANSA_COLOR;405001;SECTION_SOLID;.858823537826538;.619607865810394;0.87058824300
 $766;1.;
 $ANSA_COLOR;405003;SECTION_SHELL;.905882358551025;.439215689897537;.058823529630
-$899;1.;
-$ANSA_COLOR;406001;SECTION_SHELL;1.;.894117653369904;.768627464771271;0.5;
-$ANSA_COLOR;406002;SECTION_SOLID;.592156887054443;.482352942228317;.803921580314
-$636;1.;
-$ANSA_COLOR;406003;SECTION_SHELL;1.;.894117653369904;.768627464771271;1.;
+$899;0.5;
+$ANSA_COLOR;406002;SECTION_SOLID;.576470613479614;.439215689897537;.858823537826
+$538;0.5;
+$ANSA_COLOR;406003;SECTION_SHELL;.968627452850342;.749019622802734;.482352942228
+$317;0.5;
+$ANSA_COLOR;406013;SECTION_SHELL;.803921580314636;.200000002980232;.200000002980
+$232;.699999988079071;
 $ANSA_COLOR;453013;SECTION_SOLID;.603921592235565;.894117653369904;.007843137718
 $737;1.;
 $ANSA_COLOR;453014;SECTION_SHELL;.592156887054443;.168627455830574;0.47843137383
@@ -1575,26 +2208,74 @@ $ANSA_COLOR;453601;SECTION_SHELL;.901960790157318;.447058826684952;.635294139385
 $223;1.;
 $ANSA_COLOR;453602;SECTION_SOLID;.831372559070587;.945098042488098;.658823549747
 $467;1.;
-$ANSA_COLOR;453710;SECTION_SHELL;.749019622802734;.427450984716415;.713725507259
-$369;1.;
-$ANSA_COLOR;453720;SECTION_SHELL;.674509823322296;.619607865810394;.023529412224
-$889;1.;
-$ANSA_COLOR;454000;SECTION_SOLID;.729411780834198;.223529413342476;.972549021244
-$049;1.;
-$ANSA_COLOR;454001;SECTION_SHELL;.733333349227905;.235294118523598;0.24705882370
+$ANSA_COLOR;454001;SECTION_SOLID;.933333337306976;.862745106220245;.509803950786
+$591;1.;
+$ANSA_COLOR;454009;SECTION_SHELL;.733333349227905;.235294118523598;0.24705882370
 $472;1.;
-$ANSA_COLOR;454200;SECTION_SOLID;.839215695858002;.411764711141586;.023529412224
-$889;1.;
-$ANSA_COLOR;454400;SECTION_SOLID;.901960790157318;.176470592617989;.313725501298
-$904;1.;
-$ANSA_COLOR;455001;SECTION_SOLID;.647058844566345;.050980392843485;.019607843831
-$182;1.;
-$ANSA_COLOR;455003;SECTION_SHELL;0.82745099067688;.792156875133514;.592156887054
-$443;1.;
-$ANSA_COLOR;456001;SECTION_SHELL;1.;.894117653369904;.768627464771271;0.5;
-$ANSA_COLOR;456002;SECTION_SOLID;.764705896377563;.549019634723663;0.78431373834
-$61;1.;
-$ANSA_COLOR;456003;SECTION_SHELL;1.;.894117653369904;.768627464771271;1.;
+$ANSA_COLOR;454010;SECTION_SHELL;.858823537826538;.423529416322708;.419607847929
+$001;1.;
+$ANSA_COLOR;454201;SECTION_SOLID;.933333337306976;.862745106220245;.509803950786
+$591;1.;
+$ANSA_COLOR;454400;SECTION_SOLID;.933333337306976;.862745106220245;.509803950786
+$591;1.;
+$ANSA_COLOR;454409;SECTION_SHELL;.627451002597809;.811764717102051;.580392181873
+$322;1.;
+$ANSA_COLOR;454501;SECTION_BEAM_ELFORM_3;0.82745099067688;.266666680574417;.5294
+$11792755127;1.;
+$ANSA_COLOR;454502;SECTION_BEAM_ELFORM_3;.945098042488098;.764705896377563;.2941
+$17659330368;1.;
+$ANSA_COLOR;454503;SECTION_BEAM_ELFORM_3;.909803926944733;.121568627655506;.1921
+$56866192818;1.;
+$ANSA_COLOR;454504;SECTION_BEAM_ELFORM_3;.941176474094391;.552941203117371;.0980
+$39217293262;1.;
+$ANSA_COLOR;454601;SECTION_BEAM_ELFORM_3;.749019622802734;.725490212440491;.1568
+$62750649452;1.;
+$ANSA_COLOR;454602;SECTION_BEAM_ELFORM_3;.905882358551025;.066666670143604;.6431
+$37276172638;1.;
+$ANSA_COLOR;454603;SECTION_BEAM_ELFORM_3;.521568655967712;.988235294818878;.3725
+$49027204514;1.;
+$ANSA_COLOR;454604;SECTION_BEAM_ELFORM_3;.721568644046783;.286274522542953;.6745
+$09823322296;1.;
+$ANSA_COLOR;454605;SECTION_BEAM_ELFORM_3;.952941179275513;.384313732385635;.3019
+$60796117783;1.;
+$ANSA_COLOR;454606;SECTION_BEAM_ELFORM_3;.933333337306976;.564705908298492;.2509
+$80406999588;1.;
+$ANSA_COLOR;454607;SECTION_BEAM_ELFORM_3;.878431379795074;.152941182255745;.6470
+$58844566345;1.;
+$ANSA_COLOR;454608;SECTION_BEAM_ELFORM_3;.780392169952393;.317647069692612;.2862
+$74522542953;1.;
+$ANSA_COLOR;454609;SECTION_BEAM_ELFORM_3;.639215707778931;.062745101749897;.1725
+$49024224281;1.;
+$ANSA_COLOR;454610;SECTION_BEAM_ELFORM_3;.588235318660736;.490196079015732;.3450
+$98048448563;1.;
+$ANSA_COLOR;454611;SECTION_BEAM_ELFORM_3;0.61176472902298;0.5686274766922;.56470
+$5908298492;1.;
+$ANSA_COLOR;454612;SECTION_BEAM_ELFORM_3;.592156887054443;.223529413342476;.0274
+$50980618596;1.;
+$ANSA_COLOR;454702;SECTION_BEAM_ELFORM_3;.823529422283173;.164705887436867;.0078
+$43137718737;1.;
+$ANSA_COLOR;454703;SECTION_BEAM_ELFORM_3;.537254929542542;.286274522542953;.9372
+$54905700684;1.;
+$ANSA_COLOR;454704;SECTION_BEAM_ELFORM_3;.705882370471954;.988235294818878;.1098
+$03922474384;1.;
+$ANSA_COLOR;454705;SECTION_BEAM_ELFORM_3;.529411792755127;.454901963472366;.7333
+$33349227905;1.;
+$ANSA_COLOR;454706;SECTION_BEAM_ELFORM_3;.917647063732147;.266666680574417;.6862
+$74528503418;1.;
+$ANSA_COLOR;454707;SECTION_BEAM_ELFORM_3;.764705896377563;0.65490198135376;.8823
+$52948188782;1.;
+$ANSA_COLOR;454708;SECTION_BEAM_ELFORM_3;.564705908298492;.623529434204102;.3215
+$68638086319;1.;
+$ANSA_COLOR;455001;SECTION_SOLID;.521568655967712;.321568638086319;.513725519180
+$298;1.;
+$ANSA_COLOR;455003;SECTION_SHELL;.803921580314636;0.;.803921580314636;0.5;
+$ANSA_COLOR;456002;SECTION_SOLID;.764705896377563;.725490212440491;.278431385755
+$539;1.;
+$ANSA_COLOR;456003;SECTION_SHELL;.945098042488098;.301960796117783;.627451002597
+$809;0.5;
+$ANSA_COLOR;456013;SECTION_SHELL;.513725519180298;.490196079015732;.309803932905
+$197;1.;
+$ANSA_NAME_COMMENT;1;DAMPING_PART_STIFFNESS;Damping part stiffness;;NO;NO;NO;
 $ANSA_USER_ATTRIBUTES;SECTION_SHELL;User/cad_material;TEXT;RW;YES;;;
 $ANSA_USER_ATTRIBUTES;SECTION_SHELL;User/cad_thickness;TEXT;RW;YES;;;
 $ANSA_USER_ATTRIBUTES;SECTION_SOLID;User/cad_material;TEXT;RW;YES;;;

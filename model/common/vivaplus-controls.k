@@ -1,21 +1,22 @@
 $
-$ANSA_VERSION;21.1.0;
+$ANSA_VERSION;22.0.0;
 $
 $
-$ file created by  A N S A  Tue Apr 13 12:03:44 2021
+$ file created by  A N S A  Mon Feb  7 12:25:43 2022
 $
 $ output from :
 $
-$ C:/Users/iraeus/Documents/Projects/VIRTUAL/ViVA+/Final_assembly/vivaplus-50F_v
-$ 0-2-2d.ansa
+$ C:/Users/jobinj/Box/vivaplus-share/VIVA-Plus-Meshing-Shared-Folder/v0_3/vivapl
+$ us-50F_v030_211214.ansa
 $
 $ Settings :
 $
-$ Output format : R12
+$ Output format : 971R9
 $
 $ Output : All
 $
-$ANSA_USER_ATTRIBUTES;vivaplus-controls.k;INCLUDE;DM/Status;TEXT;WIP;
+$ANSA_USER_ATTRIBUTES;vivaplus-controls.k;INCLUDE;DM/Status;TEXT;WIP;DM/IO Index
+$;TEXT;;
 $
 $
 $
@@ -25,14 +26,4 @@ $
 $ANSA_COLOR;vivaplus-controls.k;INCLUDE;.733333349227905;.200000002980232;.54901
 $9634723663;1.;
 *KEYWORD
-$ANSA_ID;9000000;
-*DATABASE_HISTORY_BEAM_SET
-    205000
-$ANSA_NAME_COMMENT;9000000;DATABASE_HISTORY_BEAM_SET;DATABASE_HISTORY_BEAM_SET;;
-$NO;NO;NO;
-$ANSA_PART;GROUP;ID;2164;NAME;Joints.key;PID_OFFSET;0;COLOR;129;14;142;0;IS_COLO
-$R_ACTIVE;1;ATTRIBUTES;2;DM/File Type;ANSA;DM/Status;WIP;CONTAINS;ANSAPART;1002;
-$ANSA_PART;PART;ID;1002;NAME;?;STUDY_VERSION;0;PID_OFFSET;0;COLOR;133;201;100;0;
-$IS_COLOR_ACTIVE;1;ATTRIBUTES;2;DM/File Type;ANSA;DM/Status;WIP;CONTAINS;DATABAS
-$E_HISTORY_BEAM_SET;9000000;
 *END
