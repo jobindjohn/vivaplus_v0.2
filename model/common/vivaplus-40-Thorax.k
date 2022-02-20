@@ -2,12 +2,12 @@ $
 $ANSA_VERSION;22.0.0;
 $
 $
-$ file created by  A N S A  Mon Feb  7 12:26:15 2022
+$ file created by  A N S A  Fri Feb 18 16:05:05 2022
 $
 $ output from :
 $
 $ C:/Users/jobinj/Box/vivaplus-share/VIVA-Plus-Meshing-Shared-Folder/v0_3/vivapl
-$ us-50F_v030_211214.ansa
+$ us-50F_v030_220218.ansa
 $
 $ Settings :
 $
@@ -26,26 +26,6 @@ $
 $ANSA_COLOR;vivaplus-40-Thorax.k;INCLUDE;.996078431606293;0.;.400000005960464;1.
 $;
 *KEYWORD
-*PART
-UX-Muscle_subscapularis_nulls-L
-$      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    305202    305202    305202                             0         0          
-*SECTION_SHELL_TITLE
-UX-Muscle_subscapularis_nulls-L
-$    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    305202         2     0.833        2.        1.         0         0
-$       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
-       0.5       0.5       0.5       0.5                            0.          
-*PART
-UX-Muscle_subscapularis_nulls-R
-$      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    355202    355202    305202                             0         0          
-*SECTION_SHELL_TITLE
-UX-Muscle_subscapularis_nulls-R
-$    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    355202         2     0.833        2.        1.         0         0
-$       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
-       0.5       0.5       0.5       0.5                            0.          
 *PART_CONTACT
 TX-Spine-T1-Cortical-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
@@ -375,11 +355,11 @@ $    SECID|   ELFORM|     SHRF|  QR/IRID|      CST|    SCOOR|      NSM|
 $      VOL|     INER|      CID|       CA|   OFFSET|    RRCON|    SRCON|    TRCON|
      8000.        1.    400010        0.        0.        0.        0.        0.
 *PART
-TX-IVD-T11-T11-Joint-M
+TX-IVD-T11-T12-Joint-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     402110    402110    402110                             0                    
 *SECTION_BEAM_TITLE
-TX-IVD-T11-T11-Joint-M
+TX-IVD-T11-T12-Joint-M
 $    SECID|   ELFORM|     SHRF|  QR/IRID|      CST|    SCOOR|      NSM|
     402110         6                                      0.          
 $      VOL|     INER|      CID|       CA|   OFFSET|    RRCON|    SRCON|    TRCON|
@@ -779,29 +759,29 @@ $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
        0.7       0.7       0.7       0.7        0.                  0.          
 *PART
-TX-Ribcage-Sternum--Cortical-M
+TX-Ribcage-Sternum-Cortical-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
     403501    403501    401001              900003         0         0          
 *SECTION_SHELL_TITLE
-TX-Ribcage-Sternum--Cortical-M
+TX-Ribcage-Sternum-Cortical-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
     403501        16        0.        5.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
         1.        1.        1.        1.        0.                  0.          
 *PART
-TX-Ribcage-Sternum--Trabecular-M
+TX-Ribcage-Sternum-Trabecular-M
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
     403502    403502    401002              900001         0         0          
 *SECTION_SOLID_TITLE
-TX-Ribcage-Sternum--Trabecular-M
+TX-Ribcage-Sternum-Trabecular-M
 $    SECID|   ELFORM|
     403502         1
 *PART
-TX-Ribcage-Sternum--Rigid-L
+TX-Ribcage-Sternum-Rigid-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
     403503    403503    401003              900003         0         0          
 *SECTION_SHELL_TITLE
-TX-Ribcage-Sternum--Rigid-L
+TX-Ribcage-Sternum-Rigid-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
     403503        16        0.        5.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
@@ -839,19 +819,19 @@ $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SHELL_TITLE
 TX-Intercostal-External-T1-T12-Null-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    404009         2        1.        2.        1.         0         0
+    404009         2        1.        1.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
         1.        1.        1.        1.                            0.          
 *PART
-TX-Intercostal-External-T1-T12-Null_edge-L
+TX-Intercostal-T1-T12-Null_edge-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
     404010    404010    404119                             0         0          
 *SECTION_SHELL_TITLE
-TX-Intercostal-External-T1-T12-Null_edge-L
+TX-Intercostal-T1-T12-Null_edge-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    404010         2        1.        2.        1.         0         0
+    404010         2        1.        1.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
-        1.        1.        1.        1.                            0.          
+       0.5       0.5       0.5       0.5                            0.          
 *PART
 TX-Intercostal-Internal-T1-T12-Muscle-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
@@ -875,235 +855,235 @@ $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SHELL_TITLE
 TX-Intercostal-Innermost-T1-T12-Null-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    404409         2        1.        2.        1.         0         0
+    404409         2        1.        1.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
        0.5       0.5       0.5       0.5                            0.          
 *PART
-TX-Muscle-Rhomboideus-Major-T1-Scap-L PSCA (Garner 2001)
+TX-Muscle-Rhomboideus-Major-T1-Scap-L-PCSA (Garner 2001)
 $      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     404501    404501    404501                             0                    
 *SECTION_BEAM_TITLE
-TX-Muscle-Rhomboideus-Major-T1-Scap-L PSCA (Garner 2001)
+TX-Muscle-Rhomboideus-Major-T1-Scap-L-PCSA (Garner 2001)
 $    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     404501         3                  0.        0.                  0.
 $        A|    RAMPT|   STRESS|
       207.        0.        0.
 *PART
-TX-Muscle-Rhomboideus-Major-T2-Scap-L  PSCA (Garner 2001)
+TX-Muscle-Rhomboideus-Major-T2-Scap-L-PCSA (Garner 2001)
 $      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     404502    404502    404501                             0                    
 *SECTION_BEAM_TITLE
-TX-Muscle-Rhomboideus-Major-T2-Scap-L  PSCA (Garner 2001)
+TX-Muscle-Rhomboideus-Major-T2-Scap-L-PCSA (Garner 2001)
 $    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     404502         3                  0.        0.                  0.
 $        A|    RAMPT|   STRESS|
       207.        0.        0.
 *PART
-TX-Muscle-Rhomboideus-Major-T3-Scap-L  PSCA (Garner 2001)
+TX-Muscle-Rhomboideus-Major-T3-Scap-L-PCSA (Garner 2001)
 $      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     404503    404503    404501                             0                    
 *SECTION_BEAM_TITLE
-TX-Muscle-Rhomboideus-Major-T3-Scap-L  PSCA (Garner 2001)
+TX-Muscle-Rhomboideus-Major-T3-Scap-L-PCSA (Garner 2001)
 $    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     404503         3                  0.        0.                  0.
 $        A|    RAMPT|   STRESS|
       124.        0.        0.
 *PART
-TX-Muscle-Rhomboideus-Major-T4-Scap-L  PSCA (Garner 2001)
+TX-Muscle-Rhomboideus-Major-T4-Scap-L-PCSA (Garner 2001)
 $      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     404504    404504    404501                             0                    
 *SECTION_BEAM_TITLE
-TX-Muscle-Rhomboideus-Major-T4-Scap-L  PSCA (Garner 2001)
+TX-Muscle-Rhomboideus-Major-T4-Scap-L-PCSA (Garner 2001)
 $    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     404504         3                  0.        0.                  0.
 $        A|    RAMPT|   STRESS|
       124.        0.        0.
 *PART
-TX-Muscle-Trapezius-Ascend-T1-Scap-L-PSCA (Garner 2001)
+TX-Muscle-Trapezius-Ascend-T1-Scap-L-PCSA (Garner 2001)
 $      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     404601    404601    404601                             0                    
 *SECTION_BEAM_TITLE
-TX-Muscle-Trapezius-Ascend-T1-Scap-L-PSCA (Garner 2001)
+TX-Muscle-Trapezius-Ascend-T1-Scap-L-PCSA (Garner 2001)
 $    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     404601         3                  0.        0.                  0.
 $        A|    RAMPT|   STRESS|
       345.        0.        0.
 *PART
-TX-Muscle-Trapezius-Ascend-T2-Scap-L-PSCA (Garner 2001)
+TX-Muscle-Trapezius-Ascend-T2-Scap-L-PCSA (Garner 2001)
 $      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     404602    404602    404601                             0                    
 *SECTION_BEAM_TITLE
-TX-Muscle-Trapezius-Ascend-T2-Scap-L-PSCA (Garner 2001)
+TX-Muscle-Trapezius-Ascend-T2-Scap-L-PCSA (Garner 2001)
 $    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     404602         3                  0.        0.                  0.
 $        A|    RAMPT|   STRESS|
       113.        0.        0.
 *PART
-TX-Muscle-Trapezius-Ascend-T3-Scap-L-PSCA (Garner 2001)
+TX-Muscle-Trapezius-Ascend-T3-Scap-L-PCSA (Garner 2001)
 $      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     404603    404603    404601                             0                    
 *SECTION_BEAM_TITLE
-TX-Muscle-Trapezius-Ascend-T3-Scap-L-PSCA (Garner 2001)
+TX-Muscle-Trapezius-Ascend-T3-Scap-L-PCSA (Garner 2001)
 $    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     404603         3                  0.        0.                  0.
 $        A|    RAMPT|   STRESS|
       113.        0.        0.
 *PART
-TX-Muscle-Trapezius-Ascend-T4-Scap-L-PSCA (Garner 2001)
+TX-Muscle-Trapezius-Ascend-T4-Scap-L-PCSA (Garner 2001)
 $      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     404604    404604    404601                             0                    
 *SECTION_BEAM_TITLE
-TX-Muscle-Trapezius-Ascend-T4-Scap-L-PSCA (Garner 2001)
+TX-Muscle-Trapezius-Ascend-T4-Scap-L-PCSA (Garner 2001)
 $    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     404604         3                  0.        0.                  0.
 $        A|    RAMPT|   STRESS|
       113.        0.        0.
 *PART
-TX-Muscle-Trapezius-Ascend-T5-Scap-L-PSCA (Garner 2001)
+TX-Muscle-Trapezius-Ascend-T5-Scap-L-PCSA (Garner 2001)
 $      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     404605    404605    404601                             0                    
 *SECTION_BEAM_TITLE
-TX-Muscle-Trapezius-Ascend-T5-Scap-L-PSCA (Garner 2001)
+TX-Muscle-Trapezius-Ascend-T5-Scap-L-PCSA (Garner 2001)
 $    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     404605         3                  0.        0.                  0.
 $        A|    RAMPT|   STRESS|
       113.        0.        0.
 *PART
-TX-Muscle-Trapezius-Ascend-T6-Scap-L-PSCA (Garner 2001)
+TX-Muscle-Trapezius-Ascend-T6-Scap-L-PCSA (Garner 2001)
 $      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     404606    404606    404601                             0                    
 *SECTION_BEAM_TITLE
-TX-Muscle-Trapezius-Ascend-T6-Scap-L-PSCA (Garner 2001)
+TX-Muscle-Trapezius-Ascend-T6-Scap-L-PCSA (Garner 2001)
 $    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     404606         3                  0.        0.                  0.
 $        A|    RAMPT|   STRESS|
       113.        0.        0.
 *PART
-TX-Muscle-Trapezius-Ascend-T7-Scap-L-PSCA (Garner 2001)
+TX-Muscle-Trapezius-Ascend-T7-Scap-L-PCSA (Garner 2001)
 $      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     404607    404607    404601                             0                    
 *SECTION_BEAM_TITLE
-TX-Muscle-Trapezius-Ascend-T7-Scap-L-PSCA (Garner 2001)
+TX-Muscle-Trapezius-Ascend-T7-Scap-L-PCSA (Garner 2001)
 $    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     404607         3                  0.        0.                  0.
 $        A|    RAMPT|   STRESS|
       113.        0.        0.
 *PART
-TX-Muscle-Trapezius-Ascend-T8-Scap-L-PSCA (Garner 2001)
+TX-Muscle-Trapezius-Ascend-T8-Scap-L-PCSA (Garner 2001)
 $      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     404608    404608    404601                             0                    
 *SECTION_BEAM_TITLE
-TX-Muscle-Trapezius-Ascend-T8-Scap-L-PSCA (Garner 2001)
+TX-Muscle-Trapezius-Ascend-T8-Scap-L-PCSA (Garner 2001)
 $    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     404608         3                  0.        0.                  0.
 $        A|    RAMPT|   STRESS|
       113.        0.        0.
 *PART
-TX-Muscle-Trapezius-Ascend-T9-Scap-L-PSCA (Garner 2001)
+TX-Muscle-Trapezius-Ascend-T9-Scap-L-PCSA (Garner 2001)
 $      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     404609    404609    404601                             0                    
 *SECTION_BEAM_TITLE
-TX-Muscle-Trapezius-Ascend-T9-Scap-L-PSCA (Garner 2001)
+TX-Muscle-Trapezius-Ascend-T9-Scap-L-PCSA (Garner 2001)
 $    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     404609         3                  0.        0.                  0.
 $        A|    RAMPT|   STRESS|
       113.        0.        0.
 *PART
-TX-Muscle-Trapezius-Ascend-T10-Scap-L-PSCA (Garner 2001)
+TX-Muscle-Trapezius-Ascend-T10-Scap-L-PCSA (Garner 2001)
 $      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     404610    404610    404601                             0                    
 *SECTION_BEAM_TITLE
-TX-Muscle-Trapezius-Ascend-T10-Scap-L-PSCA (Garner 2001)
+TX-Muscle-Trapezius-Ascend-T10-Scap-L-PCSA (Garner 2001)
 $    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     404610         3                  0.        0.                  0.
 $        A|    RAMPT|   STRESS|
       113.        0.        0.
 *PART
-TX-Muscle-Trapezius-Ascend-T11-Scap-L-PSCA (Garner 2001)
+TX-Muscle-Trapezius-Ascend-T11-Scap-L-PCSA (Garner 2001)
 $      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     404611    404611    404601                             0                    
 *SECTION_BEAM_TITLE
-TX-Muscle-Trapezius-Ascend-T11-Scap-L-PSCA (Garner 2001)
+TX-Muscle-Trapezius-Ascend-T11-Scap-L-PCSA (Garner 2001)
 $    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     404611         3                  0.        0.                  0.
 $        A|    RAMPT|   STRESS|
       113.        0.        0.
 *PART
-TX-Muscle-Trapezius-Ascend-T12-Scap-L-PSCA (Garner 2001)
+TX-Muscle-Trapezius-Ascend-T12-Scap-L-PCSA (Garner 2001)
 $      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     404612    404612    404601                             0                    
 *SECTION_BEAM_TITLE
-TX-Muscle-Trapezius-Ascend-T12-Scap-L-PSCA (Garner 2001)
+TX-Muscle-Trapezius-Ascend-T12-Scap-L-PCSA (Garner 2001)
 $    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     404612         3                  0.        0.                  0.
 $        A|    RAMPT|   STRESS|
       113.        0.        0.
 *PART
-TX-Muscle-Serratus-Anterior-Rib2-Scap-L-PSCA (Garner 2001)
+TX-Muscle-Serratus-Anterior-Rib2-Scap-L-PCSA (Garner 2001)
 $      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     404702    404702    404701                             0                    
 *SECTION_BEAM_TITLE
-TX-Muscle-Serratus-Anterior-Rib2-Scap-L-PSCA (Garner 2001)
+TX-Muscle-Serratus-Anterior-Rib2-Scap-L-PCSA (Garner 2001)
 $    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     404702         3                  0.        0.                  0.
 $        A|    RAMPT|   STRESS|
       293.        0.        0.
 *PART
-TX-Muscle-Serratus-Anterior-Rib3-Scap-L-PSCA (Garner 2001)
+TX-Muscle-Serratus-Anterior-Rib3-Scap-L-PCSA (Garner 2001)
 $      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     404703    404703    404701                             0                    
 *SECTION_BEAM_TITLE
-TX-Muscle-Serratus-Anterior-Rib3-Scap-L-PSCA (Garner 2001)
+TX-Muscle-Serratus-Anterior-Rib3-Scap-L-PCSA (Garner 2001)
 $    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     404703         3                  0.        0.                  0.
 $        A|    RAMPT|   STRESS|
       293.        0.        0.
 *PART
-TX-Muscle-Serratus-Anterior-Rib4-Scap-L-PSCA (Garner 2001)
+TX-Muscle-Serratus-Anterior-Rib4-Scap-L-PCSA (Garner 2001)
 $      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     404704    404704    404701                             0                    
 *SECTION_BEAM_TITLE
-TX-Muscle-Serratus-Anterior-Rib4-Scap-L-PSCA (Garner 2001)
+TX-Muscle-Serratus-Anterior-Rib4-Scap-L-PCSA (Garner 2001)
 $    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     404704         3                  0.        0.                  0.
 $        A|    RAMPT|   STRESS|
       293.        0.        0.
 *PART
-TX-Muscle-Serratus-Anterior-Rib5-Scap-L-PSCA (Garner 2001)
+TX-Muscle-Serratus-Anterior-Rib5-Scap-L-PCSA (Garner 2001)
 $      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     404705    404705    404701                             0                    
 *SECTION_BEAM_TITLE
-TX-Muscle-Serratus-Anterior-Rib5-Scap-L-PSCA (Garner 2001)
+TX-Muscle-Serratus-Anterior-Rib5-Scap-L-PCSA (Garner 2001)
 $    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     404705         3                  0.        0.                  0.
 $        A|    RAMPT|   STRESS|
       293.        0.        0.
 *PART
-TX-Muscle-Serratus-Anterior-Rib6-Scap-L-PSCA (Garner 2001)
+TX-Muscle-Serratus-Anterior-Rib6-Scap-L-PCSA (Garner 2001)
 $      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     404706    404706    404701                             0                    
 *SECTION_BEAM_TITLE
-TX-Muscle-Serratus-Anterior-Rib6-Scap-L-PSCA (Garner 2001)
+TX-Muscle-Serratus-Anterior-Rib6-Scap-L-PCSA (Garner 2001)
 $    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     404706         3                  0.        0.                  0.
 $        A|    RAMPT|   STRESS|
       293.        0.        0.
 *PART
-TX-Muscle-Serratus-Anterior-Rib7-Scap-L-PSCA (Garner 2001)
+TX-Muscle-Serratus-Anterior-Rib7-Scap-L-PCSA (Garner 2001)
 $      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     404707    404707    404701                             0                    
 *SECTION_BEAM_TITLE
-TX-Muscle-Serratus-Anterior-Rib7-Scap-L-PSCA (Garner 2001)
+TX-Muscle-Serratus-Anterior-Rib7-Scap-L-PCSA (Garner 2001)
 $    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     404707         3                  0.        0.                  0.
 $        A|    RAMPT|   STRESS|
       293.        0.        0.
 *PART
-TX-Muscle-Serratus-Anterior-Rib8-Scap-L-PSCA (Garner 2001)
+TX-Muscle-Serratus-Anterior-Rib8-Scap-L-PCSA (Garner 2001)
 $      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     404708    404708    404701                             0                    
 *SECTION_BEAM_TITLE
-TX-Muscle-Serratus-Anterior-Rib8-Scap-L-PSCA (Garner 2001)
+TX-Muscle-Serratus-Anterior-Rib8-Scap-L-PCSA (Garner 2001)
 $    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     404708         3                  0.        0.                  0.
 $        A|    RAMPT|   STRESS|
@@ -1123,9 +1103,21 @@ $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SHELL_TITLE
 TX-Thoracic_Cavity-nulls-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    405003         2     0.833        2.        1.         0         0
+    405003         2     0.833        1.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
        0.5       0.5       0.5       0.5        0.                  0.          
+*PART
+TX-Soft-Skin-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
+    406001    406001    100000                             0         0          
+*SECTION_SHELL_TITLE
+TX-Soft-Skin-L
+$    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
+    406001         9   0.83333        1.        1.         0         1
+$       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
+        1.        1.        1.        1.        0.                  0.          
+$       B1|       B2|
+        0.       90.
 *PART
 TX-Soft_Tissues-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
@@ -1141,7 +1133,7 @@ $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SHELL_TITLE
 TX-Torso-Soft-Internal_nulls-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    406003         2   0.83333        2.        1.         0         0
+    406003         2   0.83333        1.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
         1.        1.        1.        1.        0.                  0.          
 *PART
@@ -1151,7 +1143,7 @@ $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SHELL_TITLE
 TX-Torso-Soft-Internal_nulls-for-single-surface-contact
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    406013         2   0.83333        2.        1.         0         0
+    406013         2   0.83333        1.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
         1.        1.        1.        1.        0.                  0.          
 *PART
@@ -1581,19 +1573,19 @@ $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SHELL_TITLE
 TX-Intercostal-External-T1-T12-Null-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    454009         2        1.        2.        1.         0         0
+    454009         2        1.        1.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
         1.        1.        1.        1.                            0.          
 *PART
-TX-Intercostal-External-T1-T12-Null_edge-R
+TX-Intercostal-T1-T12-Null_edge-R
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
     454010    454010    404119                             0         0          
 *SECTION_SHELL_TITLE
-TX-Intercostal-External-T1-T12-Null_edge-R
+TX-Intercostal-T1-T12-Null_edge-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    454010         2        1.        2.        1.         0         0
+    454010         2        1.        1.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
-        1.        1.        1.        1.                            0.          
+       0.5       0.5       0.5       0.5                            0.          
 *PART
 TX-Intercostal-Internal-T1-T12-Muscle-R
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
@@ -1617,235 +1609,235 @@ $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SHELL_TITLE
 TX-Intercostal-Innermost-T1-T12-Null-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    454409         2        1.        2.        1.         0         0
+    454409         2        1.        1.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
        0.5       0.5       0.5       0.5                            0.          
 *PART
-TX-Muscle-Rhomboideus-Major-T1-Scap-R PSCA (Garner 2001)
+TX-Muscle-Rhomboideus-Major-T1-Scap-R-PCSA (Garner 2001)
 $      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     454501    454501    404501                             0                    
 *SECTION_BEAM_TITLE
-TX-Muscle-Rhomboideus-Major-T1-Scap-R PSCA (Garner 2001)
+TX-Muscle-Rhomboideus-Major-T1-Scap-R-PCSA (Garner 2001)
 $    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     454501         3                  0.        0.                  0.
 $        A|    RAMPT|   STRESS|
       207.        0.        0.
 *PART
-TX-Muscle-Rhomboideus-Major-T2-Scap-R  PSCA (Garner 2001)
+TX-Muscle-Rhomboideus-Major-T2-Scap-R-PCSA (Garner 2001)
 $      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     454502    454502    404501                             0                    
 *SECTION_BEAM_TITLE
-TX-Muscle-Rhomboideus-Major-T2-Scap-R  PSCA (Garner 2001)
+TX-Muscle-Rhomboideus-Major-T2-Scap-R-PCSA (Garner 2001)
 $    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     454502         3                  0.        0.                  0.
 $        A|    RAMPT|   STRESS|
       207.        0.        0.
 *PART
-TX-Muscle-Rhomboideus-Major-T3-Scap-R  PSCA (Garner 2001)
+TX-Muscle-Rhomboideus-Major-T3-Scap-R-PCSA (Garner 2001)
 $      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     454503    454503    404501                             0                    
 *SECTION_BEAM_TITLE
-TX-Muscle-Rhomboideus-Major-T3-Scap-R  PSCA (Garner 2001)
+TX-Muscle-Rhomboideus-Major-T3-Scap-R-PCSA (Garner 2001)
 $    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     454503         3                  0.        0.                  0.
 $        A|    RAMPT|   STRESS|
       124.        0.        0.
 *PART
-TX-Muscle-Rhomboideus-Major-T4-Scap-R  PSCA (Garner 2001)
+TX-Muscle-Rhomboideus-Major-T4-Scap-R-PCSA (Garner 2001)
 $      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     454504    454504    404501                             0                    
 *SECTION_BEAM_TITLE
-TX-Muscle-Rhomboideus-Major-T4-Scap-R  PSCA (Garner 2001)
+TX-Muscle-Rhomboideus-Major-T4-Scap-R-PCSA (Garner 2001)
 $    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     454504         3                  0.        0.                  0.
 $        A|    RAMPT|   STRESS|
       124.        0.        0.
 *PART
-TX-Muscle-Trapezius-Ascend-T1-Scap-R-PSCA (Garner 2001)
+TX-Muscle-Trapezius-Ascend-T1-Scap-R-PCSA (Garner 2001)
 $      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     454601    454601    404601                             0                    
 *SECTION_BEAM_TITLE
-TX-Muscle-Trapezius-Ascend-T1-Scap-R-PSCA (Garner 2001)
+TX-Muscle-Trapezius-Ascend-T1-Scap-R-PCSA (Garner 2001)
 $    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     454601         3                  0.        0.                  0.
 $        A|    RAMPT|   STRESS|
       345.        0.        0.
 *PART
-TX-Muscle-Trapezius-Ascend-T2-Scap-R-PSCA (Garner 2001)
+TX-Muscle-Trapezius-Ascend-T2-Scap-R-PCSA (Garner 2001)'
 $      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     454602    454602    404601                             0                    
 *SECTION_BEAM_TITLE
-TX-Muscle-Trapezius-Ascend-T2-Scap-R-PSCA (Garner 2001)
+TX-Muscle-Trapezius-Ascend-T2-Scap-R-PCSA (Garner 2001)'
 $    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     454602         3                  0.        0.                  0.
 $        A|    RAMPT|   STRESS|
       113.        0.        0.
 *PART
-TX-Muscle-Trapezius-Ascend-T3-Scap-R-PSCA (Garner 2001)
+TX-Muscle-Trapezius-Ascend-T3-Scap-R-PCSA (Garner 2001)
 $      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     454603    454603    404601                             0                    
 *SECTION_BEAM_TITLE
-TX-Muscle-Trapezius-Ascend-T3-Scap-R-PSCA (Garner 2001)
+TX-Muscle-Trapezius-Ascend-T3-Scap-R-PCSA (Garner 2001)
 $    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     454603         3                  0.        0.                  0.
 $        A|    RAMPT|   STRESS|
       113.        0.        0.
 *PART
-TX-Muscle-Trapezius-Ascend-T4-Scap-R-PSCA (Garner 2001)
+TX-Muscle-Trapezius-Ascend-T4-Scap-R-PCSA (Garner 2001)
 $      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     454604    454604    404601                             0                    
 *SECTION_BEAM_TITLE
-TX-Muscle-Trapezius-Ascend-T4-Scap-R-PSCA (Garner 2001)
+TX-Muscle-Trapezius-Ascend-T4-Scap-R-PCSA (Garner 2001)
 $    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     454604         3                  0.        0.                  0.
 $        A|    RAMPT|   STRESS|
       113.        0.        0.
 *PART
-TX-Muscle-Trapezius-Ascend-T5-Scap-R-PSCA (Garner 2001)
+TX-Muscle-Trapezius-Ascend-T5-Scap-R-PCSA (Garner 2001)
 $      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     454605    454605    404601                             0                    
 *SECTION_BEAM_TITLE
-TX-Muscle-Trapezius-Ascend-T5-Scap-R-PSCA (Garner 2001)
+TX-Muscle-Trapezius-Ascend-T5-Scap-R-PCSA (Garner 2001)
 $    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     454605         3                  0.        0.                  0.
 $        A|    RAMPT|   STRESS|
       113.        0.        0.
 *PART
-TX-Muscle-Trapezius-Ascend-T6-Scap-R-PSCA (Garner 2001)
+TX-Muscle-Trapezius-Ascend-T6-Scap-R-PCSA (Garner 2001)
 $      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     454606    454606    404601                             0                    
 *SECTION_BEAM_TITLE
-TX-Muscle-Trapezius-Ascend-T6-Scap-R-PSCA (Garner 2001)
+TX-Muscle-Trapezius-Ascend-T6-Scap-R-PCSA (Garner 2001)
 $    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     454606         3                  0.        0.                  0.
 $        A|    RAMPT|   STRESS|
       113.        0.        0.
 *PART
-TX-Muscle-Trapezius-Ascend-T7-Scap-R-PSCA (Garner 2001)
+TX-Muscle-Trapezius-Ascend-T7-Scap-R-PCSA (Garner 2001)
 $      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     454607    454607    404601                             0                    
 *SECTION_BEAM_TITLE
-TX-Muscle-Trapezius-Ascend-T7-Scap-R-PSCA (Garner 2001)
+TX-Muscle-Trapezius-Ascend-T7-Scap-R-PCSA (Garner 2001)
 $    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     454607         3                  0.        0.                  0.
 $        A|    RAMPT|   STRESS|
       113.        0.        0.
 *PART
-TX-Muscle-Trapezius-Ascend-T8-Scap-R-PSCA (Garner 2001)
+TX-Muscle-Trapezius-Ascend-T8-Scap-R-PCSA (Garner 2001)
 $      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     454608    454608    404601                             0                    
 *SECTION_BEAM_TITLE
-TX-Muscle-Trapezius-Ascend-T8-Scap-R-PSCA (Garner 2001)
+TX-Muscle-Trapezius-Ascend-T8-Scap-R-PCSA (Garner 2001)
 $    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     454608         3                  0.        0.                  0.
 $        A|    RAMPT|   STRESS|
       113.        0.        0.
 *PART
-TX-Muscle-Trapezius-Ascend-T9-Scap-R-PSCA (Garner 2001)
+TX-Muscle-Trapezius-Ascend-T9-Scap-R-PCSA (Garner 2001)
 $      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     454609    454609    404601                             0                    
 *SECTION_BEAM_TITLE
-TX-Muscle-Trapezius-Ascend-T9-Scap-R-PSCA (Garner 2001)
+TX-Muscle-Trapezius-Ascend-T9-Scap-R-PCSA (Garner 2001)
 $    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     454609         3                  0.        0.                  0.
 $        A|    RAMPT|   STRESS|
       113.        0.        0.
 *PART
-TX-Muscle-Trapezius-Ascend-T10-Scap-R-PSCA (Garner 2001)
+TX-Muscle-Trapezius-Ascend-T10-Scap-R-PCSA (Garner 2001)
 $      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     454610    454610    404601                             0                    
 *SECTION_BEAM_TITLE
-TX-Muscle-Trapezius-Ascend-T10-Scap-R-PSCA (Garner 2001)
+TX-Muscle-Trapezius-Ascend-T10-Scap-R-PCSA (Garner 2001)
 $    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     454610         3                  0.        0.                  0.
 $        A|    RAMPT|   STRESS|
       113.        0.        0.
 *PART
-TX-Muscle-Trapezius-Ascend-T11-Scap-R-PSCA (Garner 2001)
+TX-Muscle-Trapezius-Ascend-T11-Scap-R-PCSA (Garner 2001)
 $      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     454611    454611    404601                             0                    
 *SECTION_BEAM_TITLE
-TX-Muscle-Trapezius-Ascend-T11-Scap-R-PSCA (Garner 2001)
+TX-Muscle-Trapezius-Ascend-T11-Scap-R-PCSA (Garner 2001)
 $    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     454611         3                  0.        0.                  0.
 $        A|    RAMPT|   STRESS|
       113.        0.        0.
 *PART
-TX-Muscle-Trapezius-Ascend-T12-Scap-R-PSCA (Garner 2001)
+TX-Muscle-Trapezius-Ascend-T12-Scap-R-PCSA (Garner 2001)
 $      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     454612    454612    404601                             0                    
 *SECTION_BEAM_TITLE
-TX-Muscle-Trapezius-Ascend-T12-Scap-R-PSCA (Garner 2001)
+TX-Muscle-Trapezius-Ascend-T12-Scap-R-PCSA (Garner 2001)
 $    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     454612         3                  0.        0.                  0.
 $        A|    RAMPT|   STRESS|
       113.        0.        0.
 *PART
-TX-Muscle-Serratus-Anterior-Rib2-Scap-R-PSCA (Garner 2001)
+TX-Muscle-Serratus-Anterior-Rib2-Scap-R-PCSA (Garner 2001)
 $      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     454702    454702    404701                             0                    
 *SECTION_BEAM_TITLE
-TX-Muscle-Serratus-Anterior-Rib2-Scap-R-PSCA (Garner 2001)
+TX-Muscle-Serratus-Anterior-Rib2-Scap-R-PCSA (Garner 2001)
 $    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     454702         3                  0.        0.                  0.
 $        A|    RAMPT|   STRESS|
       293.        0.        0.
 *PART
-TX-Muscle-Serratus-Anterior-Rib3-Scap-R-PSCA (Garner 2001)
+TX-Muscle-Serratus-Anterior-Rib3-Scap-R-PCSA (Garner 2001)
 $      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     454703    454703    404701                             0                    
 *SECTION_BEAM_TITLE
-TX-Muscle-Serratus-Anterior-Rib3-Scap-R-PSCA (Garner 2001)
+TX-Muscle-Serratus-Anterior-Rib3-Scap-R-PCSA (Garner 2001)
 $    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     454703         3                  0.        0.                  0.
 $        A|    RAMPT|   STRESS|
       293.        0.        0.
 *PART
-TX-Muscle-Serratus-Anterior-Rib4-Scap-R-PSCA (Garner 2001)
+TX-Muscle-Serratus-Anterior-Rib4-Scap-R-PCSA (Garner 2001)
 $      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     454704    454704    404701                             0                    
 *SECTION_BEAM_TITLE
-TX-Muscle-Serratus-Anterior-Rib4-Scap-R-PSCA (Garner 2001)
+TX-Muscle-Serratus-Anterior-Rib4-Scap-R-PCSA (Garner 2001)
 $    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     454704         3                  0.        0.                  0.
 $        A|    RAMPT|   STRESS|
       293.        0.        0.
 *PART
-TX-Muscle-Serratus-Anterior-Rib5-Scap-R-PSCA (Garner 2001)
+TX-Muscle-Serratus-Anterior-Rib5-Scap-R-PCSA (Garner 2001)
 $      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     454705    454705    404701                             0                    
 *SECTION_BEAM_TITLE
-TX-Muscle-Serratus-Anterior-Rib5-Scap-R-PSCA (Garner 2001)
+TX-Muscle-Serratus-Anterior-Rib5-Scap-R-PCSA (Garner 2001)
 $    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     454705         3                  0.        0.                  0.
 $        A|    RAMPT|   STRESS|
       293.        0.        0.
 *PART
-TX-Muscle-Serratus-Anterior-Rib6-Scap-R-PSCA (Garner 2001)
+TX-Muscle-Serratus-Anterior-Rib6-Scap-R-PCSA (Garner 2001)
 $      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     454706    454706    404701                             0                    
 *SECTION_BEAM_TITLE
-TX-Muscle-Serratus-Anterior-Rib6-Scap-R-PSCA (Garner 2001)
+TX-Muscle-Serratus-Anterior-Rib6-Scap-R-PCSA (Garner 2001)
 $    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     454706         3                  0.        0.                  0.
 $        A|    RAMPT|   STRESS|
       293.        0.        0.
 *PART
-TX-Muscle-Serratus-Anterior-Rib7-Scap-R-PSCA (Garner 2001)
+TX-Muscle-Serratus-Anterior-Rib7-Scap-R-PCSA (Garner 2001)
 $      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     454707    454707    404701                             0                    
 *SECTION_BEAM_TITLE
-TX-Muscle-Serratus-Anterior-Rib7-Scap-R-PSCA (Garner 2001)
+TX-Muscle-Serratus-Anterior-Rib7-Scap-R-PCSA (Garner 2001)
 $    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     454707         3                  0.        0.                  0.
 $        A|    RAMPT|   STRESS|
       293.        0.        0.
 *PART
-TX-Muscle-Serratus-Anterior-Rib8-Scap-R-PSCA (Garner 2001)
+TX-Muscle-Serratus-Anterior-Rib8-Scap-R-PCSA (Garner 2001)
 $      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
     454708    454708    404701                             0                    
 *SECTION_BEAM_TITLE
-TX-Muscle-Serratus-Anterior-Rib8-Scap-R-PSCA (Garner 2001)
+TX-Muscle-Serratus-Anterior-Rib8-Scap-R-PCSA (Garner 2001)
 $    SECID|   ELFORM|         |  QR/IRID|      CST|         |      NSM|
     454708         3                  0.        0.                  0.
 $        A|    RAMPT|   STRESS|
@@ -1865,9 +1857,21 @@ $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SHELL_TITLE
 TX-Thoracic_Cavity-nulls-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    455003         2     0.833        2.        1.         0         0
+    455003         2     0.833        1.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
        0.5       0.5       0.5       0.5        0.                  0.          
+*PART
+TX-Soft-Skin-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
+    456001    456001    100000                             0         0          
+*SECTION_SHELL_TITLE
+TX-Soft-Skin-R
+$    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
+    456001         9   0.83333        1.        1.         0         1
+$       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
+        1.        1.        1.        1.        0.                  0.          
+$       B1|       B2|
+        0.      -90.
 *PART
 TX-Soft_Tissues-R
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
@@ -1883,7 +1887,7 @@ $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SHELL_TITLE
 TX-Torso-Soft-Internal_nulls-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    456003         2   0.83333        2.        1.         0         0
+    456003         2   0.83333        1.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
         1.        1.        1.        1.        0.                  0.          
 *PART
@@ -1893,21 +1897,9 @@ $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SHELL_TITLE
 TX-Torso-Soft-Internal_nulls-for-single-surface-contact
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    456013         2   0.83333        2.        1.         0         0
+    456013         2   0.83333        1.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
         1.        1.        1.        1.        0.                  0.          
-$ANSA_ID;1;
-*DAMPING_PART_STIFFNESS_SET
-    903004      0.05
-*SET_PART_TITLE
-Set for damping
-    903004                                        
-    214002    603110    606004    653110    656004    706110    706120    706210
-    756110    756120    756210
-$ANSA_COLOR;305202;SECTION_SHELL;.772549033164978;.192156866192818;.643137276172
-$638;1.;
-$ANSA_COLOR;355202;SECTION_SHELL;.725490212440491;.403921574354172;.047058824449
-$778;1.;
 $ANSA_COLOR;401011;SECTION_SHELL;.541176497936249;.368627458810806;.623529434204
 $102;1.;
 $ANSA_COLOR;401012;SECTION_SOLID;.815686285495758;.372549027204514;0.61176472902
@@ -2126,6 +2118,8 @@ $ANSA_COLOR;405001;SECTION_SOLID;.858823537826538;.619607865810394;0.87058824300
 $766;1.;
 $ANSA_COLOR;405003;SECTION_SHELL;.905882358551025;.439215689897537;.058823529630
 $899;0.5;
+$ANSA_COLOR;406001;SECTION_SHELL;.545098066329956;.545098066329956;0.47843137383
+$461;0.5;
 $ANSA_COLOR;406002;SECTION_SOLID;.576470613479614;.439215689897537;.858823537826
 $538;0.5;
 $ANSA_COLOR;406003;SECTION_SHELL;.968627452850342;.749019622802734;.482352942228
@@ -2269,13 +2263,14 @@ $68638086319;1.;
 $ANSA_COLOR;455001;SECTION_SOLID;.521568655967712;.321568638086319;.513725519180
 $298;1.;
 $ANSA_COLOR;455003;SECTION_SHELL;.803921580314636;0.;.803921580314636;0.5;
+$ANSA_COLOR;456001;SECTION_SHELL;.976470589637756;.003921568859369;.854901969432
+$831;1.;
 $ANSA_COLOR;456002;SECTION_SOLID;.764705896377563;.725490212440491;.278431385755
 $539;1.;
 $ANSA_COLOR;456003;SECTION_SHELL;.945098042488098;.301960796117783;.627451002597
 $809;0.5;
 $ANSA_COLOR;456013;SECTION_SHELL;.513725519180298;.490196079015732;.309803932905
 $197;1.;
-$ANSA_NAME_COMMENT;1;DAMPING_PART_STIFFNESS;Damping part stiffness;;NO;NO;NO;
 $ANSA_USER_ATTRIBUTES;SECTION_SHELL;User/cad_material;TEXT;RW;YES;;;
 $ANSA_USER_ATTRIBUTES;SECTION_SHELL;User/cad_thickness;TEXT;RW;YES;;;
 $ANSA_USER_ATTRIBUTES;SECTION_SOLID;User/cad_material;TEXT;RW;YES;;;

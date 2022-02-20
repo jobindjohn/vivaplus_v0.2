@@ -2,12 +2,12 @@ $
 $ANSA_VERSION;22.0.0;
 $
 $
-$ file created by  A N S A  Mon Feb  7 12:25:48 2022
+$ file created by  A N S A  Fri Feb 18 16:05:05 2022
 $
 $ output from :
 $
 $ C:/Users/jobinj/Box/vivaplus-share/VIVA-Plus-Meshing-Shared-Folder/v0_3/vivapl
-$ us-50F_v030_211214.ansa
+$ us-50F_v030_220218.ansa
 $
 $ Settings :
 $
@@ -275,7 +275,7 @@ $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SHELL_TITLE
 NE-Vertebra-C2-Endplate-inferior-null-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    201026         2   0.83333        2.        1.         0         0
+    201026         2   0.83333        1.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
        0.1       0.1       0.1       0.1        0.                  0.          
 *PART_CONTACT
@@ -315,7 +315,7 @@ $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SHELL_TITLE
 NE-Vertebra-C3-Endplate-superior-null-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    201034         2   0.83333        2.        1.         0         0
+    201034         2   0.83333        1.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
        0.1       0.1       0.1       0.1        0.                  0.          
 *PART
@@ -335,7 +335,7 @@ $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SHELL_TITLE
 NE-Vertebra-C3-Endplate-inferior-null-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    201036         2   0.83333        2.        1.         0         0
+    201036         2   0.83333        1.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
        0.1       0.1       0.1       0.1        0.                  0.          
 *PART_CONTACT
@@ -375,7 +375,7 @@ $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SHELL_TITLE
 NE-Vertebra-C4-Endplate-superior-null-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    201044         2   0.83333        2.        1.         0         0
+    201044         2   0.83333        1.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
        0.1       0.1       0.1       0.1        0.                  0.          
 *PART
@@ -395,7 +395,7 @@ $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SHELL_TITLE
 NE-Vertebra-C4-Endplate-inferior-null-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    201046         2   0.83333        2.        1.         0         0
+    201046         2   0.83333        1.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
        0.1       0.1       0.1       0.1        0.                  0.          
 *PART_CONTACT
@@ -435,7 +435,7 @@ $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SHELL_TITLE
 NE-Vertebra-C5-Endplate-superior-null-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    201054         2   0.83333        2.        1.         0         0
+    201054         2   0.83333        1.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
        0.1       0.1       0.1       0.1        0.                  0.          
 *PART
@@ -455,7 +455,7 @@ $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SHELL_TITLE
 NE-Vertebra-C5-Endplate-inferior-null-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    201056         2   0.83333        2.        1.         0         0
+    201056         2   0.83333        1.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
        0.1       0.1       0.1       0.1        0.                  0.          
 *PART_CONTACT
@@ -495,7 +495,7 @@ $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SHELL_TITLE
 NE-Vertebra-C6-Endplate-superior-null-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    201064         2   0.83333        2.        1.         0         0
+    201064         2   0.83333        1.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
        0.1       0.1       0.1       0.1        0.                  0.          
 *PART
@@ -515,7 +515,7 @@ $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SHELL_TITLE
 NE-Vertebra-C6-Endplate-inferior-null-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    201066         2   0.83333        2.        1.         0         0
+    201066         2   0.83333        1.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
        0.1       0.1       0.1       0.1        0.                  0.          
 *PART_CONTACT
@@ -555,7 +555,7 @@ $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SHELL_TITLE
 NE-Vertebra-C7-Endplate-superior-null-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    201074         2   0.83333        2.        1.         0         0
+    201074         2   0.83333        1.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
        0.1       0.1       0.1       0.1        0.                  0.          
 *PART
@@ -575,295 +575,295 @@ $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SHELL_TITLE
 NE-Vertebra-C7-Endplate-inferior-null-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    201076         2   0.83333        2.        1.         0         0
+    201076         2   0.83333        1.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
        0.1       0.1       0.1       0.1        0.                  0.          
 *PART
-NE-Vertebra-Articular-Process-OC-Inferior-Null-L
+NE-Vertebra-Articular-Process-OC-Inferior-Null
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
     201104    201104    213011                             0         0          
 *SECTION_SHELL_TITLE
-NE-Vertebra-Articular-Process-OC-Inferior-Null-L
+NE-Vertebra-Articular-Process-OC-Inferior-Null
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    201104         5     0.833        1.        1.         0         0
+    201104         2     0.833        1.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
       0.25      0.25      0.25      0.25        0.                  0.          
 *PART
-NE-Vertebra-Articular-Process-C1-Superior-Cartilage-L
+NE-Vertebra-Articular-Process-C1-Superior-Cartilage
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
     201111    201111    213010              900001         0         0          
 *SECTION_SOLID_TITLE
-NE-Vertebra-Articular-Process-C1-Superior-Cartilage-L
+NE-Vertebra-Articular-Process-C1-Superior-Cartilage
 $    SECID|   ELFORM|
     201111         1
 *PART_CONTACT
-NE-Vertebra-Articular-Process-C1-Superior-Null-L
+NE-Vertebra-Articular-Process-C1-Superior-Null
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
     201112    201112    213012                             0         0          
 $       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
         0.        0.        0.        0.       0.1        0.        0.
 *SECTION_SHELL_TITLE
-NE-Vertebra-Articular-Process-C1-Superior-Null-L
+NE-Vertebra-Articular-Process-C1-Superior-Null
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    201112         5     0.833        1.        1.         0         0
+    201112         2     0.833        1.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
       0.25      0.25      0.25      0.25        0.                  0.          
 *PART
-NE-Vertebra-Articular-Process-C1-Inferior-Cartilage-L
+NE-Vertebra-Articular-Process-C1-Inferior-Cartilage
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
     201113    201113    213010              900001         0         0          
 *SECTION_SOLID_TITLE
-NE-Vertebra-Articular-Process-C1-Inferior-Cartilage-L
+NE-Vertebra-Articular-Process-C1-Inferior-Cartilage
 $    SECID|   ELFORM|
     201113         1
 *PART_CONTACT
-NE-Vertebra-Articular-Process-C1-Inferior-Null-L
+NE-Vertebra-Articular-Process-C1-Inferior-Null
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
     201114    201114    213011                             0         0          
 $       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
         0.        0.        0.        0.       0.1        0.        0.
 *SECTION_SHELL_TITLE
-NE-Vertebra-Articular-Process-C1-Inferior-Null-L
+NE-Vertebra-Articular-Process-C1-Inferior-Null
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    201114         5     0.833        1.        1.         0         0
+    201114         2     0.833        1.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
       0.25      0.25      0.25      0.25        0.                  0.          
 *PART
-NE-Vertebra-Articular-Process-C2-Superior-Cartilage-L
+NE-Vertebra-Articular-Process-C2-Superior-Cartilage
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
     201121    201121    213010              900001         0         0          
 *SECTION_SOLID_TITLE
-NE-Vertebra-Articular-Process-C2-Superior-Cartilage-L
+NE-Vertebra-Articular-Process-C2-Superior-Cartilage
 $    SECID|   ELFORM|
     201121         1
 *PART_CONTACT
-NE-Vertebra-Articular-Process-C2-Superior-Null-L
+NE-Vertebra-Articular-Process-C2-Superior-Null
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
     201122    201122    213012                             0         0          
 $       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
         0.        0.        0.        0.       0.1        0.        0.
 *SECTION_SHELL_TITLE
-NE-Vertebra-Articular-Process-C2-Superior-Null-L
+NE-Vertebra-Articular-Process-C2-Superior-Null
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    201122         5     0.833        1.        1.         0         0
+    201122         2     0.833        1.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
       0.25      0.25      0.25      0.25        0.                  0.          
 *PART
-NE-Vertebra-Articular-Process-C2-Inferior-Cartilage-L
+NE-Vertebra-Articular-Process-C2-Inferior-Cartilage
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
     201123    201123    213010              900001         0         0          
 *SECTION_SOLID_TITLE
-NE-Vertebra-Articular-Process-C2-Inferior-Cartilage-L
+NE-Vertebra-Articular-Process-C2-Inferior-Cartilage
 $    SECID|   ELFORM|
     201123         1
 *PART_CONTACT
-NE-Vertebra-Articular-Process-C2-Inferior-Null-L
+NE-Vertebra-Articular-Process-C2-Inferior-Null
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
     201124    201124    213011                             0         0          
 $       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
         0.        0.        0.        0.       0.1        0.        0.
 *SECTION_SHELL_TITLE
-NE-Vertebra-Articular-Process-C2-Inferior-Null-L
+NE-Vertebra-Articular-Process-C2-Inferior-Null
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    201124         5     0.833        1.        1.         0         0
+    201124         2     0.833        1.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
       0.25      0.25      0.25      0.25        0.                  0.          
 *PART
-NE-Vertebra-Articular-Process-C3-Superior-Cartilage-L
+NE-Vertebra-Articular-Process-C3-Superior-Cartilage
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
     201131    201131    213010              900001         0         0          
 *SECTION_SOLID_TITLE
-NE-Vertebra-Articular-Process-C3-Superior-Cartilage-L
+NE-Vertebra-Articular-Process-C3-Superior-Cartilage
 $    SECID|   ELFORM|
     201131         1
 *PART_CONTACT
-NE-Vertebra-Articular-Process-C3-Superior-Null-L
+NE-Vertebra-Articular-Process-C3-Superior-Null
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
     201132    201132    213012                             0         0          
 $       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
         0.        0.        0.        0.       0.1        0.        0.
 *SECTION_SHELL_TITLE
-NE-Vertebra-Articular-Process-C3-Superior-Null-L
+NE-Vertebra-Articular-Process-C3-Superior-Null
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    201132         5     0.833        1.        1.         0         0
+    201132         2     0.833        1.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
       0.25      0.25      0.25      0.25        0.                  0.          
 *PART
-NE-Vertebra-Articular-Process-C3-Inferior-Cartilage-L
+NE-Vertebra-Articular-Process-C3-Inferior-Cartilage
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
     201133    201133    213010              900001         0         0          
 *SECTION_SOLID_TITLE
-NE-Vertebra-Articular-Process-C3-Inferior-Cartilage-L
+NE-Vertebra-Articular-Process-C3-Inferior-Cartilage
 $    SECID|   ELFORM|
     201133         1
 *PART_CONTACT
-NE-Vertebra-Articular-Process-C3-Inferior-Null-L
+NE-Vertebra-Articular-Process-C3-Inferior-Null
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
     201134    201134    213011                             0         0          
 $       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
         0.        0.        0.        0.       0.1        0.        0.
 *SECTION_SHELL_TITLE
-NE-Vertebra-Articular-Process-C3-Inferior-Null-L
+NE-Vertebra-Articular-Process-C3-Inferior-Null
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    201134         5     0.833        1.        1.         0         0
+    201134         2     0.833        1.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
       0.25      0.25      0.25      0.25        0.                  0.          
 *PART
-NE-Vertebra-Articular-Process-C4-Superior-Cartilage-L
+NE-Vertebra-Articular-Process-C4-Superior-Cartilage
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
     201141    201141    213010              900001         0         0          
 *SECTION_SOLID_TITLE
-NE-Vertebra-Articular-Process-C4-Superior-Cartilage-L
+NE-Vertebra-Articular-Process-C4-Superior-Cartilage
 $    SECID|   ELFORM|
     201141         1
 *PART_CONTACT
-NE-Vertebra-Articular-Process-C4-Superior-Null-L
+NE-Vertebra-Articular-Process-C4-Superior-Null
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
     201142    201142    213012                             0         0          
 $       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
         0.        0.        0.        0.       0.1        0.        0.
 *SECTION_SHELL_TITLE
-NE-Vertebra-Articular-Process-C4-Superior-Null-L
+NE-Vertebra-Articular-Process-C4-Superior-Null
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    201142         5     0.833        1.        1.         0         0
+    201142         2     0.833        1.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
       0.25      0.25      0.25      0.25        0.                  0.          
 *PART
-NE-Vertebra-Articular-Process-C4-Inferior-Cartilage-L
+NE-Vertebra-Articular-Process-C4-Inferior-Cartilage
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
     201143    201143    213010              900001         0         0          
 *SECTION_SOLID_TITLE
-NE-Vertebra-Articular-Process-C4-Inferior-Cartilage-L
+NE-Vertebra-Articular-Process-C4-Inferior-Cartilage
 $    SECID|   ELFORM|
     201143         1
 *PART_CONTACT
-NE-Vertebra-Articular-Process-C4-Inferior-Null-L
+NE-Vertebra-Articular-Process-C4-Inferior-Null
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
     201144    201144    213011                             0         0          
 $       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
         0.        0.        0.        0.       0.1        0.        0.
 *SECTION_SHELL_TITLE
-NE-Vertebra-Articular-Process-C4-Inferior-Null-L
+NE-Vertebra-Articular-Process-C4-Inferior-Null
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    201144         5     0.833        1.        1.         0         0
+    201144         2     0.833        1.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
       0.25      0.25      0.25      0.25        0.                  0.          
 *PART
-NE-Vertebra-Articular-Process-C5-Superior-Cartilage-L
+NE-Vertebra-Articular-Process-C5-Superior-Cartilage
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
     201151    201151    213010              900001         0         0          
 *SECTION_SOLID_TITLE
-NE-Vertebra-Articular-Process-C5-Superior-Cartilage-L
+NE-Vertebra-Articular-Process-C5-Superior-Cartilage
 $    SECID|   ELFORM|
     201151         1
 *PART_CONTACT
-NE-Vertebra-Articular-Process-C5-Superior-Null-L
+NE-Vertebra-Articular-Process-C5-Superior-Null
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
     201152    201152    213012                             0         0          
 $       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
         0.        0.        0.        0.       0.1        0.        0.
 *SECTION_SHELL_TITLE
-NE-Vertebra-Articular-Process-C5-Superior-Null-L
+NE-Vertebra-Articular-Process-C5-Superior-Null
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    201152         5     0.833        1.        1.         0         0
+    201152         2     0.833        1.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
       0.25      0.25      0.25      0.25        0.                  0.          
 *PART
-NE-Vertebra-Articular-Process-C5-Inferior-Cartilage-L
+NE-Vertebra-Articular-Process-C5-Inferior-Cartilage
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
     201153    201153    213010              900001         0         0          
 *SECTION_SOLID_TITLE
-NE-Vertebra-Articular-Process-C5-Inferior-Cartilage-L
+NE-Vertebra-Articular-Process-C5-Inferior-Cartilage
 $    SECID|   ELFORM|
     201153         1
 *PART_CONTACT
-NE-Vertebra-Articular-Process-C5-Inferior-Null-L
+NE-Vertebra-Articular-Process-C5-Inferior-Null
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
     201154    201154    213011                             0         0          
 $       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
         0.        0.        0.        0.       0.1        0.        0.
 *SECTION_SHELL_TITLE
-NE-Vertebra-Articular-Process-C5-Inferior-Null-L
+NE-Vertebra-Articular-Process-C5-Inferior-Null
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    201154         5     0.833        1.        1.         0         0
+    201154         2     0.833        1.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
       0.25      0.25      0.25      0.25        0.                  0.          
 *PART
-NE-Vertebra-Articular-Process-C6-Superior-Cartilage-L
+NE-Vertebra-Articular-Process-C6-Superior-Cartilage
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
     201161    201161    213010              900001         0         0          
 *SECTION_SOLID_TITLE
-NE-Vertebra-Articular-Process-C6-Superior-Cartilage-L
+NE-Vertebra-Articular-Process-C6-Superior-Cartilage
 $    SECID|   ELFORM|
     201161         1
 *PART_CONTACT
-NE-Vertebra-Articular-Process-C6-Superior-Null-L
+NE-Vertebra-Articular-Process-C6-Superior-Null
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
     201162    201162    213012                             0         0          
 $       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
         0.        0.        0.        0.       0.1        0.        0.
 *SECTION_SHELL_TITLE
-NE-Vertebra-Articular-Process-C6-Superior-Null-L
+NE-Vertebra-Articular-Process-C6-Superior-Null
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    201162         5     0.833        1.        1.         0         0
+    201162         2     0.833        1.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
       0.25      0.25      0.25      0.25        0.                  0.          
 *PART
-NE-Vertebra-Articular-Process-C6-Inferior-Cartilage-L
+NE-Vertebra-Articular-Process-C6-Inferior-Cartilage
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
     201163    201163    213010              900001         0         0          
 *SECTION_SOLID_TITLE
-NE-Vertebra-Articular-Process-C6-Inferior-Cartilage-L
+NE-Vertebra-Articular-Process-C6-Inferior-Cartilage
 $    SECID|   ELFORM|
     201163         1
 *PART_CONTACT
-NE-Vertebra-Articular-Process-C6-Inferior-Null-L
+NE-Vertebra-Articular-Process-C6-Inferior-Null
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
     201164    201164    213011                             0         0          
 $       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
         0.        0.        0.        0.       0.1        0.        0.
 *SECTION_SHELL_TITLE
-NE-Vertebra-Articular-Process-C6-Inferior-Null-L
+NE-Vertebra-Articular-Process-C6-Inferior-Null
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    201164         5     0.833        1.        1.         0         0
+    201164         2     0.833        1.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
       0.25      0.25      0.25      0.25        0.                  0.          
 *PART
-NE-Vertebra-Articular-Process-C7-Superior-Cartilage-L
+NE-Vertebra-Articular-Process-C7-Superior-Cartilage
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
     201171    201171    213010              900001         0         0          
 *SECTION_SOLID_TITLE
-NE-Vertebra-Articular-Process-C7-Superior-Cartilage-L
+NE-Vertebra-Articular-Process-C7-Superior-Cartilage
 $    SECID|   ELFORM|
     201171         1
 *PART_CONTACT
-NE-Vertebra-Articular-Process-C7-Superior-Null-L
+NE-Vertebra-Articular-Process-C7-Superior-Null
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
     201172    201172    213012                             0         0          
 $       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
         0.        0.        0.        0.       0.1        0.        0.
 *SECTION_SHELL_TITLE
-NE-Vertebra-Articular-Process-C7-Superior-Null-L
+NE-Vertebra-Articular-Process-C7-Superior-Null
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    201172         5     0.833        1.        1.         0         0
+    201172         2     0.833        1.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
       0.25      0.25      0.25      0.25        0.                  0.          
 *PART
-NE-Vertebra-Articular-Process-C7-Inferior-Cartilage-L
+NE-Vertebra-Articular-Process-C7-Inferior-Cartilage
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
     201173    201173    213010              900001         0         0          
 *SECTION_SOLID_TITLE
-NE-Vertebra-Articular-Process-C7-Inferior-Cartilage-L
+NE-Vertebra-Articular-Process-C7-Inferior-Cartilage
 $    SECID|   ELFORM|
     201173         1
 *PART
-NE-Vertebra-Articular-Process-C7-Inferior-Null-L
+NE-Vertebra-Articular-Process-C7-Inferior-Null
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
     201174    201174    213011                             0         0          
 *SECTION_SHELL_TITLE
-NE-Vertebra-Articular-Process-C7-Inferior-Null-L
+NE-Vertebra-Articular-Process-C7-Inferior-Null
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    201174         5     0.833        1.        1.         0         0
+    201174         2     0.833        1.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
       0.25      0.25      0.25      0.25        0.                  0.          
 *PART
@@ -1793,7 +1793,7 @@ $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SHELL_TITLE
 NE_Soft_Tissue_Interior
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    203003         5     0.833        1.        1.         0         0
+    203003         2     0.833        1.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
         1.        1.        1.        1.        0.                  0.          
 *PART
@@ -1803,7 +1803,7 @@ $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SHELL_TITLE
 NE_Trachea
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    203004         5     0.833        1.        1.         0         0
+    203004         2     0.833        1.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
         1.        1.        1.        1.        0.                  0.          
 *PART
@@ -1813,7 +1813,7 @@ $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SHELL_TITLE
 NE_Larynx
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    203005         2   0.83333        2.        1.         0         0
+    203005         2   0.83333        1.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
         2.        2.        2.        2.        0.                  0.          
 *PART
@@ -1861,25 +1861,25 @@ $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SHELL_TITLE
 TX-Spine-T1-Endplate-superior-null-M
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    401014         2   0.83333        2.        1.         0         0
+    401014         2   0.83333        1.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
        0.1       0.1       0.1       0.1        0.                  0.          
 *PART
-TX-Vertebra-Articular-Process-T1-Superior-Cartilage-L
+TX-Vertebra-Articular-Process-T1-Superior-Cartilage
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
     401211    401211    213073              900001         0         0          
 *SECTION_SOLID_TITLE
-TX-Vertebra-Articular-Process-T1-Superior-Cartilage-L
+TX-Vertebra-Articular-Process-T1-Superior-Cartilage
 $    SECID|   ELFORM|
     401211         1
 *PART
-TX-Vertebra-Articular-Process-T1-Superior-Null-L
+TX-Vertebra-Articular-Process-T1-Superior-Null
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
     401212    401212    401019                             0         0          
 *SECTION_SHELL_TITLE
-TX-Vertebra-Articular-Process-T1-Superior-Null-L
+TX-Vertebra-Articular-Process-T1-Superior-Null
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    401212         5     0.833        1.        1.         0         0
+    401212         2     0.833        1.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
       0.25      0.25      0.25      0.25        0.                  0.          
 $ANSA_COLOR;200101;SECTION_SHELL;.682352960109711;.749019622802734;.474509805440

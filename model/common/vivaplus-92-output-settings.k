@@ -2,12 +2,12 @@ $
 $ANSA_VERSION;22.0.0;
 $
 $
-$ file created by  A N S A  Mon Feb  7 12:26:16 2022
+$ file created by  A N S A  Fri Feb 18 16:05:06 2022
 $
 $ output from :
 $
 $ C:/Users/jobinj/Box/vivaplus-share/VIVA-Plus-Meshing-Shared-Folder/v0_3/vivapl
-$ us-50F_v030_211214.ansa
+$ us-50F_v030_220218.ansa
 $
 $ Settings :
 $
@@ -28,10 +28,16 @@ $298;.647058844566345;1.;
 *KEYWORD
 *PARAMETER
 $    PRMR1|     VAL1|
+$ Output frequency for energies
 RDT_Energy        1.
+$ Output frequency for forces
 R DT_Force        1.
+$ Output frequency for nodal outputs (accelerations, displacements,...)
 R DT_NodeH        1.
+$ This can cause large file sizes - exclude or set very high if you do not need them.
+$ elements to be outputted are defined in vivaplus-91
 R DT_Elem         1.
+$
 R NEIPH           0.
 R NEIPS           0.
 R MAXINT          3.

@@ -2,12 +2,12 @@ $
 $ANSA_VERSION;22.0.0;
 $
 $
-$ file created by  A N S A  Mon Feb  7 12:26:15 2022
+$ file created by  A N S A  Fri Feb 18 16:05:05 2022
 $
 $ output from :
 $
 $ C:/Users/jobinj/Box/vivaplus-share/VIVA-Plus-Meshing-Shared-Folder/v0_3/vivapl
-$ us-50F_v030_211214.ansa
+$ us-50F_v030_220218.ansa
 $
 $ Settings :
 $
@@ -3302,24 +3302,6 @@ $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP
     218629     1.E-9        1.        4.    0.0005     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
-*MAT_MUSCLE_TITLE
-TX-Muscle-Rhomboideus-Major-Osth2017
-$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
-    404501     1.E-9        1.        4.    0.0005     0.375        6.        0.
-$      ALM|      SFR|      SVS|      SVR|      SSP|
- -2008020.        1. -2008001. -2008002.        0.
-*MAT_MUSCLE_TITLE
-TX-Muscle-Trapezius-Ascendens-Osth2017
-$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
-    404601     1.E-9        1.        4.    0.0005     0.375        6.        0.
-$      ALM|      SFR|      SVS|      SVR|      SSP|
- -2008020.        1. -2008001. -2008002.        0.
-*MAT_MUSCLE_TITLE
-TX-Muscle-Serratus-Anterior-Osth2017
-$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
-    404701     1.E-9        1.        4.    0.0005     0.375        6.        0.
-$      ALM|      SFR|      SVS|      SVR|      SSP|
- -2008020.        1. -2008001. -2008002.        0.
 *DEFINE_CURVE_TITLE
 DEFINE_CURVE_2008001
    2008001         0        1.        1.        0.        0.         0          
@@ -4228,12 +4210,6 @@ $ANSA_COLOR;218628;MAT156 MAT_MUSCLE;.690196096897125;.596078455448151;.03529411
 $9268656;1.;
 $ANSA_COLOR;218629;MAT156 MAT_MUSCLE;.701960802078247;.466666668653488;0.9568627
 $4766922;1.;
-$ANSA_COLOR;404501;MAT156 MAT_MUSCLE;.854901969432831;0.65490198135376;.03921568
-$7662363;1.;
-$ANSA_COLOR;404601;MAT156 MAT_MUSCLE;.882352948188782;.623529434204102;.58431375
-$0267029;1.;
-$ANSA_COLOR;404701;MAT156 MAT_MUSCLE;.635294139385223;0.43529412150383;.58823531
-$8660736;1.;
 $ANSA_PART;GROUP;ID;28;NAME;vivaplus-constraineds-contacts.k;PID_OFFSET;0;COLOR;
 $134;85;70;0;IS_COLOR_ACTIVE;1;PART_TYPE;Undefined;ATTRIBUTES;2;DM/File Type;ANS
 $A;DM/Status;WIP;CONTAINS;ANSAPART;24;

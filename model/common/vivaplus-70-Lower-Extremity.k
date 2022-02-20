@@ -2,12 +2,12 @@ $
 $ANSA_VERSION;22.0.0;
 $
 $
-$ file created by  A N S A  Mon Feb  7 12:26:16 2022
+$ file created by  A N S A  Fri Feb 18 16:05:06 2022
 $
 $ output from :
 $
 $ C:/Users/jobinj/Box/vivaplus-share/VIVA-Plus-Meshing-Shared-Folder/v0_3/vivapl
-$ us-50F_v030_211214.ansa
+$ us-50F_v030_220218.ansa
 $
 $ Settings :
 $
@@ -26,194 +26,6 @@ $
 $ANSA_COLOR;vivaplus-70-Lower-Extremity.k;INCLUDE;.729411780834198;.309803932905
 $197;.223529413342476;1.;
 *KEYWORD
-*SENSOR_DEFINE_NODE
-    700001   7119216   7185148                    COORD     
-*SENSOR_DEFINE_ELEMENT
-    700002DISC-ELE     7274045          DLEN      BOT       
-*SENSOR_DEFINE_NODE
-    700003   7115378   7185154                    COORD     
-*SENSOR_DEFINE_ELEMENT
-    700004DISC-ELE     7274046          DLEN      BOT       
-*SENSOR_DEFINE_NODE
-    700005   7116360   7249103                    COORD     
-*SENSOR_DEFINE_ELEMENT
-    700006DISC-ELE     7274047          DLEN      BOT       
-*SENSOR_DEFINE_NODE
-    700007   7116362   7249107                    COORD     
-*SENSOR_DEFINE_ELEMENT
-    700008DISC-ELE     7274048          DLEN      BOT       
-*SENSOR_DEFINE_NODE
-    700009   7619216   7685148                    COORD     
-*SENSOR_DEFINE_ELEMENT
-    700010DISC-ELE     7287606          DLEN      BOT       
-*SENSOR_DEFINE_NODE
-    700011   7615378   7685154                    COORD     
-*SENSOR_DEFINE_ELEMENT
-    700012DISC-ELE     7287607          DLEN      BOT       
-*SENSOR_DEFINE_NODE
-    700013   7616360   7749103                    COORD     
-*SENSOR_DEFINE_ELEMENT
-    700014DISC-ELE     7287608          DLEN      BOT       
-*SENSOR_DEFINE_NODE
-    700015   7616362   7749107                    COORD     
-*SENSOR_DEFINE_ELEMENT
-    700016DISC-ELE     7287609          DLEN      BOT       
-*SENSOR_DEFINE_NODE
-    700017   7170572   7131568                    COORD     
-*SENSOR_DEFINE_ELEMENT
-    700018DISC-ELE     7274043          DLEN      BOT       
-*SENSOR_DEFINE_NODE
-    700019   7170572   7131568                    COORD     
-*SENSOR_DEFINE_ELEMENT
-    700020DISC-ELE     7274044          DLEN      BOT       
-*SENSOR_DEFINE_NODE
-    700021   7670572   7631568                    COORD     
-*SENSOR_DEFINE_ELEMENT
-    700022DISC-ELE     7287604          DLEN      BOT       
-*SENSOR_DEFINE_NODE
-    700023   7670572   7631568                    COORD     
-*SENSOR_DEFINE_ELEMENT
-    700024DISC-ELE     7287605          DLEN      BOT       
-*SENSOR_DEFINE_NODE
-    700025   7115089   7196202                    COORD     
-*SENSOR_DEFINE_ELEMENT
-    700026DISC-ELE     7274041          DLEN      BOT       
-*SENSOR_DEFINE_NODE
-    700027   7115089   7196202                    COORD     
-*SENSOR_DEFINE_ELEMENT
-    700028DISC-ELE     7274042          DLEN      BOT       
-*SENSOR_DEFINE_NODE
-    700029   7615089   7696202                    COORD     
-*SENSOR_DEFINE_ELEMENT
-    700030DISC-ELE     7287602          DLEN      BOT       
-*SENSOR_DEFINE_NODE
-    700031   7615089   7696202                    COORD     
-*SENSOR_DEFINE_ELEMENT
-    700032DISC-ELE     7287603          DLEN      BOT       
-*SENSOR_DEFINE_NODE
-    700033   7111907   7209056                    COORD     
-*SENSOR_DEFINE_ELEMENT
-    700034DISC-ELE     7274037          DLEN      BOT       
-*SENSOR_DEFINE_NODE
-    700035   7111903   7209057                    COORD     
-*SENSOR_DEFINE_ELEMENT
-    700036DISC-ELE     7274038          DLEN      BOT       
-*SENSOR_DEFINE_NODE
-    700037   7111899   7176172                    COORD     
-*SENSOR_DEFINE_ELEMENT
-    700038DISC-ELE     7274039          DLEN      BOT       
-*SENSOR_DEFINE_NODE
-    700039   7111999   7196236                    COORD     
-*SENSOR_DEFINE_ELEMENT
-    700040DISC-ELE     7274040          DLEN      BOT       
-*SENSOR_DEFINE_NODE
-    700041   7611907   7709056                    COORD     
-*SENSOR_DEFINE_ELEMENT
-    700042DISC-ELE     7287598          DLEN      BOT       
-*SENSOR_DEFINE_NODE
-    700043   7611903   7709057                    COORD     
-*SENSOR_DEFINE_ELEMENT
-    700044DISC-ELE     7287599          DLEN      BOT       
-*SENSOR_DEFINE_NODE
-    700045   7611899   7676172                    COORD     
-*SENSOR_DEFINE_ELEMENT
-    700046DISC-ELE     7287600          DLEN      BOT       
-*SENSOR_DEFINE_NODE
-    700047   7611999   7696236                    COORD     
-*SENSOR_DEFINE_ELEMENT
-    700048DISC-ELE     7287601          DLEN      BOT       
-*SENSOR_DEFINE_NODE
-    700049   7124554   7191397                    COORD     
-*SENSOR_DEFINE_ELEMENT
-    700050DISC-ELE     7274033          DLEN      BOT       
-*SENSOR_DEFINE_NODE
-    700051   7103375   7203367                    COORD     
-*SENSOR_DEFINE_ELEMENT
-    700052DISC-ELE     7274034          DLEN      BOT       
-*SENSOR_DEFINE_NODE
-    700053   7188056   7172393                    COORD     
-*SENSOR_DEFINE_ELEMENT
-    700054DISC-ELE     7274035          DLEN      BOT       
-*SENSOR_DEFINE_NODE
-    700055   7188055   7172392                    COORD     
-*SENSOR_DEFINE_ELEMENT
-    700056DISC-ELE     7274036          DLEN      BOT       
-*SENSOR_DEFINE_NODE
-    700057   7624554   7691397                    COORD     
-*SENSOR_DEFINE_ELEMENT
-    700058DISC-ELE     7287594          DLEN      BOT       
-*SENSOR_DEFINE_NODE
-    700059   7603375   7703367                    COORD     
-*SENSOR_DEFINE_ELEMENT
-    700060DISC-ELE     7287595          DLEN      BOT       
-*SENSOR_DEFINE_NODE
-    700061   7688056   7672393                    COORD     
-*SENSOR_DEFINE_ELEMENT
-    700062DISC-ELE     7287596          DLEN      BOT       
-*SENSOR_DEFINE_NODE
-    700063   7688055   7672392                    COORD     
-*SENSOR_DEFINE_ELEMENT
-    700064DISC-ELE     7287597          DLEN      BOT       
-*PART
-UX-Bone-Humerus-whole-Null-L
-$      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    301309    301309    301309                             0         0          
-*SECTION_SHELL_TITLE
-UX-Bone-Humerus-whole-Null-L
-$    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    301309         2        1.        2.        1.         0         0
-$       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
-       0.5       0.5       0.5       0.5        0.                  0.          
-*PART
-UX-Bone-Ulna-whole-Null-L
-$      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    301409    301409    301309                             0         0          
-*SECTION_SHELL_TITLE
-UX-Bone-Ulna-whole-Null-L
-$    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    301409         2        1.        2.        1.         0         0
-$       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
-       0.5       0.5       0.5       0.5        0.                  0.          
-*PART
-UX-Bone-Radius-whole-Null-L
-$      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    301509    301509    301309                             0         0          
-*SECTION_SHELL_TITLE
-UX-Bone-Radius-whole-Null-L
-$    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    301509         2        1.        2.        1.         0         0
-$       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
-       0.5       0.5       0.5       0.5        0.                  0.          
-*PART
-UX-Bone-Humerus-whole-Null-R
-$      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    351309    351309    301309                             0         0          
-*SECTION_SHELL_TITLE
-UX-Bone-Humerus-whole-Null-R
-$    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    351309         2        1.        2.        1.         0         0
-$       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
-       0.5       0.5       0.5       0.5        0.                  0.          
-*PART
-UX-Bone-Ulna-whole-Null-R
-$      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    351409    351409    301309                             0         0          
-*SECTION_SHELL_TITLE
-UX-Bone-Ulna-whole-Null-R
-$    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    351409         2        1.        2.        1.         0         0
-$       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
-       0.5       0.5       0.5       0.5        0.                  0.          
-*PART
-UX-Bone-Radius-whole-Null-R
-$      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    351509    351509    301309                             0         0          
-*SECTION_SHELL_TITLE
-UX-Bone-Radius-whole-Null-R
-$    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    351509         2        1.        2.        1.         0         0
-$       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
-       0.5       0.5       0.5       0.5        0.                  0.          
 *PART
 LX-Bone-Femur-head-Cortical-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
@@ -237,7 +49,7 @@ $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SHELL_TITLE
 LX-Bone-Femur-head-Null-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    701114         2        1.        2.        1.         0         0
+    701114         2        1.        1.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
         1.        1.        1.        1.        0.                  0.          
 *PART
@@ -283,7 +95,7 @@ $    SECID|   ELFORM|
 *PART
 LX-Bone-Femur-lesser-trochanter-Trabecular-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    701142    701142    701101              900001         0         0          
+    701142    701142    701102              900001         0         0          
 *SECTION_SOLID_TITLE
 LX-Bone-Femur-lesser-trochanter-Trabecular-L
 $    SECID|   ELFORM|
@@ -351,7 +163,7 @@ $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SHELL_TITLE
 LX-Bone-Femur-distal-medial-condyle-Null-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    701184         2        1.        2.        1.         0         0
+    701184         2        1.        1.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
         1.        1.        1.        1.        0.                  0.          
 *PART
@@ -427,7 +239,7 @@ $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SHELL_TITLE
 LX-Bone-Tibia-proximal-Null-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    701414         2        1.        2.        1.         0         0
+    701414         2        1.        1.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
         1.        1.        1.        1.        0.                  0.          
 *PART
@@ -471,7 +283,7 @@ $       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
 *SECTION_SHELL_TITLE
 LX-Bone-Tibia-distal-Null-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    701434         2        1.        2.        1.         0         0
+    701434         2        1.        1.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
         1.        1.        1.        1.        0.                  0.          
 *PART
@@ -651,6 +463,14 @@ $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
         3.        3.        3.        3.                            0.          
 *PART
+LX-Feet-Tarsal-Rigid-L
+$      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
+    704133    704133    704133                             0         0          
+*SECTION_SOLID_TITLE
+LX-Feet-Tarsal-Rigid-L
+$    SECID|   ELFORM|
+    704133         1
+*PART
 LX-Soft-Thigh-Pelvis-connect-Skin-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
     705111    705111    705101                             0         0          
@@ -677,7 +497,7 @@ $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SHELL_TITLE
 LX-Soft-Thigh-Pelvis-connect-Null-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    705114         2   0.83333        2.        1.         0         0
+    705114         2   0.83333        1.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
         1.        1.        1.        1.        0.                  0.          
 *PART
@@ -711,7 +531,7 @@ $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SHELL_TITLE
 LX-Soft-Knee-Null-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    705134         2   0.83333        2.        1.         0         0
+    705134         2   0.83333        1.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
         1.        1.        1.        1.        0.                  0.          
 *PART
@@ -741,15 +561,13 @@ $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SHELL_TITLE
 LX-Soft-Ankle-Null-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    705184         2   0.83333        2.        1.         0         0
+    705184         2   0.83333        1.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
         1.        1.        1.        1.        0.                  0.          
-*PART_CONTACT
+*PART
 LX-Soft-Foot-Skin-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
     705191    705191    705101                             0         0          
-$       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
-                                               0.9                    
 *SECTION_SHELL_TITLE
 LX-Soft-Foot-Skin-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -767,11 +585,11 @@ LX-Soft-Foot-Tissue-L
 $    SECID|   ELFORM|
     705192         1
 *PART
-LX-Soft-Foot-Rigid-L
+LX-Soft-Foot-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
     705193    705193    705001              900001         0         0          
 *SECTION_SOLID_TITLE
-LX-Soft-Foot-Rigid-L
+LX-Soft-Foot-L
 $    SECID|   ELFORM|
     705193         1
 *PART
@@ -827,7 +645,7 @@ $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SHELL_TITLE
 LX-Bone-Femur-head-Null-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    751114         2        1.        2.        1.         0         0
+    751114         2        1.        1.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
         1.        1.        1.        1.        0.                  0.          
 *PART
@@ -941,7 +759,7 @@ $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SHELL_TITLE
 LX-Bone-Femur-distal-medial-condyle-Null-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    751184         2        1.        2.        1.         0         0
+    751184         2        1.        1.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
         1.        1.        1.        1.        0.                  0.          
 *PART
@@ -1017,7 +835,7 @@ $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SHELL_TITLE
 LX-Bone-Tibia-proximal-Null-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    751414         2        1.        2.        1.         0         0
+    751414         2        1.        1.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
         1.        1.        1.        1.        0.                  0.          
 *PART
@@ -1061,7 +879,7 @@ $       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
 *SECTION_SHELL_TITLE
 LX-Bone-Tibia-distal-Null-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    751434         2        1.        2.        1.         0         0
+    751434         2        1.        1.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
         1.        1.        1.        1.        0.                  0.          
 *PART
@@ -1241,6 +1059,14 @@ $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
         3.        3.        3.        3.                            0.          
 *PART
+LX-Feet-Tarsal-Rigid-R
+$      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
+    754133    754133    704133                             0         0          
+*SECTION_SOLID_TITLE
+LX-Feet-Tarsal-Rigid-R
+$    SECID|   ELFORM|
+    754133         1
+*PART
 LX-Soft-Thigh-Pelvis-connect-Skin-R
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
     755111    755111    705101                             0         0          
@@ -1267,7 +1093,7 @@ $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SHELL_TITLE
 LX-Soft-Thigh-Pelvis-connect-Null-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    755114         2   0.83333        2.        1.         0         0
+    755114         2   0.83333        1.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
         1.        1.        1.        1.        0.                  0.          
 *PART
@@ -1301,7 +1127,7 @@ $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SHELL_TITLE
 LX-Soft-Knee-Null-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    755134         2   0.83333        2.        1.         0         0
+    755134         2   0.83333        1.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
         1.        1.        1.        1.        0.                  0.          
 *PART
@@ -1331,15 +1157,13 @@ $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SHELL_TITLE
 LX-Soft-Ankle-Null-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    755184         2   0.83333        2.        1.         0         0
+    755184         2   0.83333        1.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
         1.        1.        1.        1.        0.                  0.          
-*PART_CONTACT
+*PART
 LX-Soft-Foot-Skin-R
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
     755191    755191    705101                             0         0          
-$       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
-                                               0.9                    
 *SECTION_SHELL_TITLE
 LX-Soft-Foot-Skin-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -1347,7 +1171,7 @@ $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
         1.        1.        1.        1.        0.                  0.          
 $       B1|       B2|
-        0.       90.
+        0.      -90.
 *PART
 LX-Soft-Foot-Tissue-R
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
@@ -1357,11 +1181,11 @@ LX-Soft-Foot-Tissue-R
 $    SECID|   ELFORM|
     755192         1
 *PART
-LX-Soft-Foot-Rigid-R
+LX-Soft-Foot-R
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
     755193    755193    705001              900001         0         0          
 *SECTION_SOLID_TITLE
-LX-Soft-Foot-Rigid-R
+LX-Soft-Foot-R
 $    SECID|   ELFORM|
     755193         1
 *PART
@@ -1530,18 +1354,6 @@ MIN(TIME/2.,1.)
 Dummy curve for knee ligaments during DR
     710101         0                                                  
 0.
-$ANSA_COLOR;301309;SECTION_SHELL;0.69803923368454;.133333340287209;.133333340287
-$209;.400000005960464;
-$ANSA_COLOR;301409;SECTION_SHELL;.964705884456635;.074509806931019;.129411771893
-$501;0.5;
-$ANSA_COLOR;301509;SECTION_SHELL;.847058832645416;.749019622802734;.847058832645
-$416;0.5;
-$ANSA_COLOR;351309;SECTION_SHELL;.788235306739807;.803921580314636;.498039215803
-$146;1.;
-$ANSA_COLOR;351409;SECTION_SHELL;.874509811401367;.282352954149246;.168627455830
-$574;1.;
-$ANSA_COLOR;351509;SECTION_SHELL;0.61176472902298;.635294139385223;.960784316062
-$927;1.;
 $ANSA_COLOR;701111;SECTION_SOLID;1.;.964705884456635;.560784339904785;1.;
 $ANSA_COLOR;701112;SECTION_SOLID;1.;.549019634723663;.411764711141586;1.;
 $ANSA_COLOR;701114;SECTION_SHELL;0.;1.;1.;1.;
@@ -1603,6 +1415,8 @@ $ANSA_COLOR;704111;SECTION_SHELL;.662745118141174;.662745118141174;.662745118141
 $174;1.;
 $ANSA_COLOR;704113;SECTION_SHELL;.662745118141174;.662745118141174;.662745118141
 $174;1.;
+$ANSA_COLOR;704133;SECTION_SOLID;.537254929542542;.321568638086319;.635294139385
+$223;1.;
 $ANSA_COLOR;705111;SECTION_SHELL;1.;.894117653369904;.768627464771271;0.5;
 $ANSA_COLOR;705112;SECTION_SOLID;1.;.937254905700684;.835294127464294;1.;
 $ANSA_COLOR;705114;SECTION_SHELL;1.;.937254905700684;.835294127464294;1.;
@@ -1724,6 +1538,8 @@ $ANSA_COLOR;754111;SECTION_SHELL;.945098042488098;.200000002980232;.533333361148
 $834;1.;
 $ANSA_COLOR;754113;SECTION_SHELL;.988235294818878;.254901975393295;.447058826684
 $952;1.;
+$ANSA_COLOR;754133;SECTION_SOLID;.921568632125854;.015686275437474;.215686276555
+$061;1.;
 $ANSA_COLOR;755111;SECTION_SHELL;.819607853889465;.556862771511078;.274509817361
 $832;1.;
 $ANSA_COLOR;755112;SECTION_SOLID;.635294139385223;.035294119268656;.047058824449
@@ -1757,30 +1573,4 @@ $29412224889;1.;
 $ANSA_USER_ATTRIBUTES;SECTION_SHELL;User/cad_material;TEXT;RW;YES;;;
 $ANSA_USER_ATTRIBUTES;SECTION_SHELL;User/cad_thickness;TEXT;RW;YES;;;
 $ANSA_USER_ATTRIBUTES;SECTION_SOLID;User/cad_material;TEXT;RW;YES;;;
-$ANSA_PART;GROUP;ID;1279;NAME;vivaplus-parts-elements.k;PID_OFFSET;0;COLOR;239;2
-$41;245;0;IS_COLOR_ACTIVE;1;PART_TYPE;Undefined;ATTRIBUTES;2;DM/File Type;ANSA;D
-$M/Status;WIP;CONTAINS;ANSAPART;1826;
-$ANSA_PART;GROUP;ID;2145;NAME;ligaments-simplified-renumbered.k;PID_OFFSET;0;COL
-$OR;226;190;114;0;IS_COLOR_ACTIVE;1;PART_TYPE;Undefined;ATTRIBUTES;2;DM/File Typ
-$e;ANSA;DM/Status;WIP;CONTAINS;ANSAPART;1827;
-$ANSA_PART;GROUP;ID;2171;MID;700000;NAME;Lower-Extremity;PID_OFFSET;0;COLOR;189;
-$236;167;0;IS_COLOR_ACTIVE;1;PART_TYPE;Undefined;ATTRIBUTES;2;DM/File Type;ANSA;
-$DM/Status;WIP;CONTAINS;ANSAGROUP;2145;
-$ANSA_PART;GROUP;ID;2176;NAME;sensor_define_element.k;PID_OFFSET;0;COLOR;195;163
-$;80;0;IS_COLOR_ACTIVE;1;PART_TYPE;Undefined;ATTRIBUTES;2;DM/File Type;ANSA;DM/S
-$tatus;WIP;CONTAINS;ANSAPART;2178;
-$ANSA_PART;PART;ID;1826;NAME;NO PID ELMNTs@2;STUDY_VERSION;0;PID_OFFSET;0;COLOR;
-$181;49;168;0;IS_COLOR_ACTIVE;1;PART_TYPE;Undefined;ATTRIBUTES;2;DM/File Type;AN
-$SA;DM/Status;WIP;CONTAINS;SENSOR_DEFINE_NODE;700001,700003,700005,700007,700017
-$,700019,700025,700027,700033,700035,700037,700039,700049,700051,700053,700055;
-$ANSA_PART;PART;ID;1827;NAME;SPRINGs & DAMPERs & SCALAR MASSs;STUDY_VERSION;0;PI
-$D_OFFSET;0;COLOR;230;122;72;0;IS_COLOR_ACTIVE;1;PART_TYPE;Undefined;ATTRIBUTES;
-$2;DM/File Type;ANSA;DM/Status;WIP;CONTAINS;SENSOR_DEFINE_NODE;700009,700011,700
-$013,700015,700021,700023,700029,700031,700041,700043,700045,700047,700057,70005
-$9,700061,700063;
-$ANSA_PART;PART;ID;2178;NAME;NO PID ELMNTs@4;STUDY_VERSION;0;PID_OFFSET;0;COLOR;
-$199;96;39;0;IS_COLOR_ACTIVE;1;PART_TYPE;Undefined;ATTRIBUTES;2;DM/File Type;ANS
-$A;DM/Status;WIP;CONTAINS;SENSOR_DEFINE_ELEMENT;700002,700004,700006,700008,7000
-$18,700020,700026,700028,700034,700036,700038,700040,700050,700052,700054,700056
-$;
 *END

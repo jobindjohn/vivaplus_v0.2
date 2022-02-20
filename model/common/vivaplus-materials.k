@@ -2,12 +2,12 @@ $
 $ANSA_VERSION;22.0.0;
 $
 $
-$ file created by  A N S A  Mon Feb  7 12:25:47 2022
+$ file created by  A N S A  Fri Feb 18 16:05:04 2022
 $
 $ output from :
 $
 $ C:/Users/jobinj/Box/vivaplus-share/VIVA-Plus-Meshing-Shared-Folder/v0_3/vivapl
-$ us-50F_v030_211214.ansa
+$ us-50F_v030_220218.ansa
 $
 $ Settings :
 $
@@ -26,6 +26,134 @@ $
 $ANSA_COLOR;vivaplus-materials.k;INCLUDE;.800000011920929;0.91372549533844;.2941
 $17659330368;1.;
 *KEYWORD
+*SENSOR_DEFINE_NODE
+    700001   7119216   7185148                    COORD     
+*SENSOR_DEFINE_ELEMENT
+    700002DISC-ELE     7274045          DLEN      BOT       
+*SENSOR_DEFINE_NODE
+    700003   7115378   7185154                    COORD     
+*SENSOR_DEFINE_ELEMENT
+    700004DISC-ELE     7274046          DLEN      BOT       
+*SENSOR_DEFINE_NODE
+    700005   7116360   7249103                    COORD     
+*SENSOR_DEFINE_ELEMENT
+    700006DISC-ELE     7274047          DLEN      BOT       
+*SENSOR_DEFINE_NODE
+    700007   7116362   7249107                    COORD     
+*SENSOR_DEFINE_ELEMENT
+    700008DISC-ELE     7274048          DLEN      BOT       
+*SENSOR_DEFINE_NODE
+    700009   7619216   7685148                    COORD     
+*SENSOR_DEFINE_ELEMENT
+    700010DISC-ELE     7287606          DLEN      BOT       
+*SENSOR_DEFINE_NODE
+    700011   7615378   7685154                    COORD     
+*SENSOR_DEFINE_ELEMENT
+    700012DISC-ELE     7287607          DLEN      BOT       
+*SENSOR_DEFINE_NODE
+    700013   7616360   7749103                    COORD     
+*SENSOR_DEFINE_ELEMENT
+    700014DISC-ELE     7287608          DLEN      BOT       
+*SENSOR_DEFINE_NODE
+    700015   7616362   7749107                    COORD     
+*SENSOR_DEFINE_ELEMENT
+    700016DISC-ELE     7287609          DLEN      BOT       
+*SENSOR_DEFINE_NODE
+    700017   7170572   7131568                    COORD     
+*SENSOR_DEFINE_ELEMENT
+    700018DISC-ELE     7274043          DLEN      BOT       
+*SENSOR_DEFINE_NODE
+    700019   7170572   7131568                    COORD     
+*SENSOR_DEFINE_ELEMENT
+    700020DISC-ELE     7274044          DLEN      BOT       
+*SENSOR_DEFINE_NODE
+    700021   7670572   7631568                    COORD     
+*SENSOR_DEFINE_ELEMENT
+    700022DISC-ELE     7287604          DLEN      BOT       
+*SENSOR_DEFINE_NODE
+    700023   7670572   7631568                    COORD     
+*SENSOR_DEFINE_ELEMENT
+    700024DISC-ELE     7287605          DLEN      BOT       
+*SENSOR_DEFINE_NODE
+    700025   7115089   7196202                    COORD     
+*SENSOR_DEFINE_ELEMENT
+    700026DISC-ELE     7274041          DLEN      BOT       
+*SENSOR_DEFINE_NODE
+    700027   7115089   7196202                    COORD     
+*SENSOR_DEFINE_ELEMENT
+    700028DISC-ELE     7274042          DLEN      BOT       
+*SENSOR_DEFINE_NODE
+    700029   7615089   7696202                    COORD     
+*SENSOR_DEFINE_ELEMENT
+    700030DISC-ELE     7287602          DLEN      BOT       
+*SENSOR_DEFINE_NODE
+    700031   7615089   7696202                    COORD     
+*SENSOR_DEFINE_ELEMENT
+    700032DISC-ELE     7287603          DLEN      BOT       
+*SENSOR_DEFINE_NODE
+    700033   7111907   7209056                    COORD     
+*SENSOR_DEFINE_ELEMENT
+    700034DISC-ELE     7274037          DLEN      BOT       
+*SENSOR_DEFINE_NODE
+    700035   7111903   7209057                    COORD     
+*SENSOR_DEFINE_ELEMENT
+    700036DISC-ELE     7274038          DLEN      BOT       
+*SENSOR_DEFINE_NODE
+    700037   7111899   7176172                    COORD     
+*SENSOR_DEFINE_ELEMENT
+    700038DISC-ELE     7274039          DLEN      BOT       
+*SENSOR_DEFINE_NODE
+    700039   7111999   7196236                    COORD     
+*SENSOR_DEFINE_ELEMENT
+    700040DISC-ELE     7274040          DLEN      BOT       
+*SENSOR_DEFINE_NODE
+    700041   7611907   7709056                    COORD     
+*SENSOR_DEFINE_ELEMENT
+    700042DISC-ELE     7287598          DLEN      BOT       
+*SENSOR_DEFINE_NODE
+    700043   7611903   7709057                    COORD     
+*SENSOR_DEFINE_ELEMENT
+    700044DISC-ELE     7287599          DLEN      BOT       
+*SENSOR_DEFINE_NODE
+    700045   7611899   7676172                    COORD     
+*SENSOR_DEFINE_ELEMENT
+    700046DISC-ELE     7287600          DLEN      BOT       
+*SENSOR_DEFINE_NODE
+    700047   7611999   7696236                    COORD     
+*SENSOR_DEFINE_ELEMENT
+    700048DISC-ELE     7287601          DLEN      BOT       
+*SENSOR_DEFINE_NODE
+    700049   7124554   7191397                    COORD     
+*SENSOR_DEFINE_ELEMENT
+    700050DISC-ELE     7274033          DLEN      BOT       
+*SENSOR_DEFINE_NODE
+    700051   7103375   7203367                    COORD     
+*SENSOR_DEFINE_ELEMENT
+    700052DISC-ELE     7274034          DLEN      BOT       
+*SENSOR_DEFINE_NODE
+    700053   7188056   7172393                    COORD     
+*SENSOR_DEFINE_ELEMENT
+    700054DISC-ELE     7274035          DLEN      BOT       
+*SENSOR_DEFINE_NODE
+    700055   7188055   7172392                    COORD     
+*SENSOR_DEFINE_ELEMENT
+    700056DISC-ELE     7274036          DLEN      BOT       
+*SENSOR_DEFINE_NODE
+    700057   7624554   7691397                    COORD     
+*SENSOR_DEFINE_ELEMENT
+    700058DISC-ELE     7287594          DLEN      BOT       
+*SENSOR_DEFINE_NODE
+    700059   7603375   7703367                    COORD     
+*SENSOR_DEFINE_ELEMENT
+    700060DISC-ELE     7287595          DLEN      BOT       
+*SENSOR_DEFINE_NODE
+    700061   7688056   7672393                    COORD     
+*SENSOR_DEFINE_ELEMENT
+    700062DISC-ELE     7287596          DLEN      BOT       
+*SENSOR_DEFINE_NODE
+    700063   7688055   7672392                    COORD     
+*SENSOR_DEFINE_ELEMENT
+    700064DISC-ELE     7287597          DLEN      BOT       
 *MAT_FABRIC_TITLE
 HE-Skin_Manschot_et_al_1986
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
@@ -39,7 +167,7 @@ $         |   RGBRTH|    A0REF|                             |       X0|       X1
 $                                                           |     BETA|   ISREFG|
                                                                     0.         0
 $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
-    305101    305101         0         0         0         0        0.
+    100000    100000         0         0         0         0        0.
 *MAT_RIGID_TITLE
 HE-Skull-rigid
 $      MID|       RO|        E|       PR|        N|   COUPLE|        M| ALIAS_RE|
@@ -109,7 +237,7 @@ $GI       |GI       |    VFLAG|
 *MAT_FU_CHANG_FOAM_TITLE
 HE-AOJ_Art_Cart_Oesth-et-al-2020
 $      MID|       RO|        E|     KCON|       TC|     FAIL|     DAMP|     TBID|
-    103004     1.E-6      0.01        2.     1.E20       0.0      0.05    213000
+    103004     1.E-6      0.01        2.     1.E20       0.0      0.05    103004
 $   BVFLAG|    SFLAG|    RFLAG|    TFLAG|     PVID|     SRAF|      REF|       HU|
        0.0       0.0       0.0       0.0         0       0.0        0.        0.
 $       D0|       N0|       N1|       N2|       N3|       C0|       C1|       C2|
@@ -173,7 +301,7 @@ $         |   RGBRTH|    A0REF|                             |       X0|       X1
 $                                                           |     BETA|   ISREFG|
                                                                     0.         0
 $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
-    203009    210510         0         0         0         0        0.
+    200510    210510         0         0         0         0        0.
 *MAT_FABRIC_TITLE
 NE_C_SC2-Apical
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
@@ -963,7 +1091,7 @@ $      MID|       RO|       PC|       MU|    TEROD|    CEROD|       YM|       PR
 *MAT_FU_CHANG_FOAM_TITLE
 NE-Vertebra-Articular_Cartilage_Oesth-et-al-2020
 $      MID|       RO|        E|     KCON|       TC|     FAIL|     DAMP|     TBID|
-    213010     1.E-6      0.01        2.     1.E20       0.0      0.05    213000
+    213010     1.E-6      0.01        2.     1.E20       0.0      0.05    103004
 $   BVFLAG|    SFLAG|    RFLAG|    TFLAG|     PVID|     SRAF|      REF|       HU|
        0.0       0.0       0.0       0.0         0       0.0        0.        0.
 $       D0|       N0|       N1|       N2|       N3|       C0|       C1|       C2|
@@ -981,7 +1109,7 @@ $      MID|       RO|       PC|       MU|    TEROD|    CEROD|       YM|       PR
 *MAT_FU_CHANG_FOAM_TITLE
 NE_C_T1-Sup_Facet_Art_Cart_Oesth-et-al-2020
 $      MID|       RO|        E|     KCON|       TC|     FAIL|     DAMP|     TBID|
-    213073     1.E-6      0.01        2.     1.E20       0.0      0.05    213000
+    213073     1.E-6      0.01        2.     1.E20       0.0      0.05    103004
 $   BVFLAG|    SFLAG|    RFLAG|    TFLAG|     PVID|     SRAF|      REF|       HU|
        0.0       0.0       0.0       0.0         0       0.0        0.        0.
 $       D0|       N0|       N1|       N2|       N3|       C0|       C1|       C2|
@@ -1088,14 +1216,6 @@ $      CMO|     CON1|     CON2|
        0.0        0.        0.
 $       A1|       A2|       A3|       V1|       V2|       V3|
         0.        0.        0.        0.        0.        0.
-*MAT_SPRING_NONLINEAR_ELASTIC_TITLE
-UX-Trapezoid-Ligament-Harris_2000
-$      MID|      LCD|      LCR|
-    302001    302001          
-*MAT_SPRING_NONLINEAR_ELASTIC_TITLE
-UX-Conoid-Ligament-Harris_2000
-$      MID|      LCD|      LCR|
-    302002    302002          
 *MAT_OGDEN_RUBBER_TITLE
 UX-Naseri Ogden model - Avg response of compressive stiffness from experiments
 $      MID|       RO|       PR|        N|       NV|        G|     SIGF|      REF|
@@ -1123,7 +1243,7 @@ $         |   RGBRTH|    A0REF|                             |       X0|       X1
 $                                                           |     BETA|   ISREFG|
                                                                     0.         0
 $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
-    305101    305101         0         0         0         0        0.
+    100000    100000         0         0         0         0        0.
 *MAT_NULL_TITLE
 UX-Shoulder_Null
 $      MID|       RO|       PC|       MU|    TEROD|    CEROD|       YM|       PR|
@@ -1162,6 +1282,14 @@ $GI       |GI       |
 UX-Muscle_subscapularis_nulls
 $      MID|       RO|       PC|       MU|    TEROD|    CEROD|       YM|       PR|
     305202     1.E-6        0.        0.        0.        0.        1.       0.3
+*MAT_SPRING_NONLINEAR_ELASTIC_TITLE
+UX-Trapezoid-Ligament-Harris_2000
+$      MID|      LCD|      LCR|
+    306001    306001          
+*MAT_SPRING_NONLINEAR_ELASTIC_TITLE
+UX-Conoid-Ligament-Harris_2000
+$      MID|      LCD|      LCR|
+    306002    306002          
 *MAT_RIGID_TITLE
 TX-Vertebra-Cortical-Rigid
 $      MID|       RO|        E|       PR|        N|   COUPLE|        M| ALIAS_RE|
@@ -1476,6 +1604,24 @@ $   LCUNLD|       HU|    SHAPE|     STOL|    VISCO|   HISOUT|
 TX-Intercostal-External-T1-T12-Muscle-Null
 $      MID|       RO|       PC|       MU|    TEROD|    CEROD|       YM|       PR|
     404119     1.E-6        0.        0.        0.        0.        1.       0.3
+*MAT_MUSCLE_TITLE
+TX-Muscle-Rhomboideus-Major-Osth2017
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
+    404501     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
+ -2008020.        1. -2008001. -2008002.        0.
+*MAT_MUSCLE_TITLE
+TX-Muscle-Trapezius-Ascendens-Osth2017
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
+    404601     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
+ -2008020.        1. -2008001. -2008002.        0.
+*MAT_MUSCLE_TITLE
+TX-Muscle-Serratus-Anterior-Osth2017
+$      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
+    404701     1.E-9        1.        4.    0.0005     0.375        6.        0.
+$      ALM|      SFR|      SVS|      SVR|      SSP|
+ -2008020.        1. -2008001. -2008002.        0.
 *MAT_NULL_TITLE
 TX-Thoracic_Cavity_nulls
 $      MID|       RO|       PC|       MU|    TEROD|    CEROD|       YM|       PR|
@@ -1931,7 +2077,7 @@ $         |   RGBRTH|    A0REF|                             |       X0|       X1
 $                                                           |     BETA|   ISREFG|
                                                                     0.         0
 $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
-    305101    305101         0         0         0         0        0.
+    100000    100000         0         0         0         0        0.
 *MAT_NULL_TITLE
 LX-Soft-Knee-Null
 $      MID|       RO|       PC|       MU|    TEROD|    CEROD|       YM|       PR|
@@ -1985,6 +2131,65 @@ Default hourglass shells HIQ=3
     900002         3       0.1         0       1.5      0.06       0.1       0.1
 Default hourglass for Shelltype 16 (cortical bones)
     900003         8                                                            
+*DEFINE_TABLE_TITLE
+Facet_Art_Cart-MAT83_MAT_FU_CHANG_FOAM
+    103004        1.        0.
+        0.
+        1.
+*DEFINE_CURVE_TITLE
+213000-Facet_Art_Cart-MAT83_MAT_FU_CHANG_FOAM
+   1030041         0        1.        1.        0.        0.         0         0
+                  0.                  0.
+                0.01          7.25082E-5
+                0.02         0.000150274
+                0.03         0.000233678
+                0.04          0.00032313
+                0.05         0.000419068
+                0.06         0.000521962
+                0.07         0.000632316
+                0.08         0.000750673
+                0.09         0.000877611
+                 0.1            0.001014
+                0.15            0.001858
+                 0.2            0.003055
+                0.25            0.004755
+                 0.3            0.007166
+                0.35            0.010588
+                 0.4            0.015445
+                0.45            0.022336
+                 0.5            0.032115
+                 0.6            0.065686
+                 0.7             0.13329
+                 0.8            0.269426
+                 0.9            0.543572
+                0.99            1.021494
+*DEFINE_CURVE_TITLE
+213000-Facet_Art_Cart-MAT83_MAT_FU_CHANG_FOAM
+   1030042         0        1.        1.        0.        0.         0         0
+                  0.                  0.
+                0.01           7.9759E-5
+                0.02         0.000165301
+                0.03         0.000257046
+                0.04         0.000355443
+                0.05         0.000460974
+                0.06         0.000574158
+                0.07         0.000695548
+                0.08          0.00082574
+                0.09         0.000965372
+                 0.1            0.001115
+                0.15            0.002043
+                 0.2            0.003361
+                0.25             0.00523
+                 0.3            0.007883
+                0.35            0.011647
+                 0.4            0.016989
+                0.45             0.02457
+                 0.5            0.035327
+                 0.6            0.072255
+                 0.7            0.146619
+                 0.8            0.296369
+                 0.9            0.597929
+                0.99            1.123643
 *DEFINE_TABLE_2D_TITLE
 DEFINE_TABLE_2D_200710
     200710                    
@@ -2111,65 +2316,6 @@ DEFINE_TABLE_2D_C7T1-LF
     201574                    
            0.0025953             2015741
             0.103812             2015742
-*DEFINE_TABLE_TITLE
-Facet_Art_Cart-MAT83_MAT_FU_CHANG_FOAM
-    213000        1.        0.
-        0.
-        1.
-*DEFINE_CURVE_TITLE
-213000-Facet_Art_Cart-MAT83_MAT_FU_CHANG_FOAM
-    213001         0        1.        1.        0.        0.         0         0
-                  0.                  0.
-                0.01          7.25082E-5
-                0.02         0.000150274
-                0.03         0.000233678
-                0.04          0.00032313
-                0.05         0.000419068
-                0.06         0.000521962
-                0.07         0.000632316
-                0.08         0.000750673
-                0.09         0.000877611
-                 0.1            0.001014
-                0.15            0.001858
-                 0.2            0.003055
-                0.25            0.004755
-                 0.3            0.007166
-                0.35            0.010588
-                 0.4            0.015445
-                0.45            0.022336
-                 0.5            0.032115
-                 0.6            0.065686
-                 0.7             0.13329
-                 0.8            0.269426
-                 0.9            0.543572
-                0.99            1.021494
-*DEFINE_CURVE_TITLE
-213000-Facet_Art_Cart-MAT83_MAT_FU_CHANG_FOAM
-    213002         0        1.        1.        0.        0.         0          
-                  0.                  0.
-                0.01           7.9759E-5
-                0.02         0.000165301
-                0.03         0.000257046
-                0.04         0.000355443
-                0.05         0.000460974
-                0.06         0.000574158
-                0.07         0.000695548
-                0.08          0.00082574
-                0.09         0.000965372
-                 0.1            0.001115
-                0.15            0.002043
-                 0.2            0.003361
-                0.25             0.00523
-                 0.3            0.007883
-                0.35            0.011647
-                 0.4            0.016989
-                0.45             0.02457
-                 0.5            0.035327
-                 0.6            0.072255
-                 0.7            0.146619
-                 0.8            0.296369
-                 0.9            0.597929
-                0.99            1.123643
 *DEFINE_TABLE_TITLE
 LX_Femur_Trabecular_FuChang-Enns-Bray_et_al_2018_27gcm
     701102        1.        0.
@@ -2593,6 +2739,90 @@ Trab_scr_0p27_10000_ext
       0.860680399129      0.228824552102
                 0.87      0.253053302145
                   1.      0.720569440529
+*DEFINE_CURVE_TITLE
+Manschot el at 1986 (across)
+    100000         0        1.        1.        0.        0.         0         0
+                  0.                  0.
+          0.00719045          4.96443E-6
+           0.0135799          9.86691E-6
+           0.0192828          1.47189E-5
+           0.0243949          1.95293E-5
+           0.0289961          2.43052E-5
+           0.0331541          2.90523E-5
+           0.0369256           3.3775E-5
+           0.0403591          3.84772E-5
+           0.0434959          4.31618E-5
+            0.046371          4.78312E-5
+           0.0514536          5.71323E-5
+           0.0558029          6.63931E-5
+           0.0595664          7.56222E-5
+           0.0628569          8.48259E-5
+           0.0657617          9.40087E-5
+           0.0683487         0.000103174
+           0.0847367         0.000194189
+           0.0942015         0.000284367
+            0.101543         0.000373797
+            0.108034         0.000462478
+            0.114128         0.000550409
+             0.12002         0.000637589
+            0.125801         0.000724022
+            0.131523         0.000809714
+            0.378379          0.00377237
+            0.733868          0.00636576
+*DEFINE_CURVE_TITLE
+NE_C_SC1-AAOM
+    200510         0        1.        1.        0.        0.         0         0
+                  0.                  0.
+           0.0562957          6.79164E-5
+            0.115594         0.000180872
+            0.177895         0.000372033
+            0.243198         0.000698856
+            0.311503          0.00126107
+            0.382811          0.00223206
+            0.457121           0.0039136
+            0.534434          0.00670391
+            0.614749          0.00963902
+            0.698067           0.0123663
+            0.784387           0.0149072
+             0.87371             0.01728
+            0.966035            0.019266
+             1.06136           0.0197742
+             1.15969           0.0199288
+             1.26102           0.0198838
+             1.36536           0.0197207
+              1.4727           0.0194856
+             1.58304           0.0191558
+             1.69638            0.018655
+             1.81272           0.0181797
+             1.93207           0.0177281
+             2.05442           0.0172983
+             2.17977           0.0168889
+             2.30813           0.0164984
+             2.43948           0.0161255
+             2.57384           0.0157692
+              2.7112           0.0154282
+             2.85157           0.0151017
+             2.99493           0.0147887
+              3.1413           0.0144884
+             3.29067           0.0142001
+             3.44305            0.013923
+             3.59842           0.0136566
+              3.7568           0.0134001
+             3.91818           0.0131531
+             4.08257            0.012915
+             4.24995           0.0126854
+             4.42034           0.0124638
+             4.59373           0.0122499
+             4.77013           0.0120431
+             4.94952           0.0118432
+             5.13192           0.0116499
+             5.31732           0.0114627
+             5.50572           0.0112815
+             5.69713           0.0111059
+             5.89154           0.0109357
+             6.08895           0.0107706
+             6.28936           0.0106105
+             6.49278            0.010455
 *DEFINE_CURVE_TITLE
 DEFINE_CURVE_200520
     200520         0        1.        1.        0.        0.         0         0
@@ -3180,60 +3410,6 @@ NE_C_SC1-PAOM
              2.98751          0.00264064
              3.07838          0.00260689
              3.17043            0.002574
-*DEFINE_CURVE_TITLE
-NE_C_SC1-AAOM
-    203009         0        1.        1.        0.        0.         0         0
-                  0.                  0.
-           0.0562957          6.79164E-5
-            0.115594         0.000180872
-            0.177895         0.000372033
-            0.243198         0.000698856
-            0.311503          0.00126107
-            0.382811          0.00223206
-            0.457121           0.0039136
-            0.534434          0.00670391
-            0.614749          0.00963902
-            0.698067           0.0123663
-            0.784387           0.0149072
-             0.87371             0.01728
-            0.966035            0.019266
-             1.06136           0.0197742
-             1.15969           0.0199288
-             1.26102           0.0198838
-             1.36536           0.0197207
-              1.4727           0.0194856
-             1.58304           0.0191558
-             1.69638            0.018655
-             1.81272           0.0181797
-             1.93207           0.0177281
-             2.05442           0.0172983
-             2.17977           0.0168889
-             2.30813           0.0164984
-             2.43948           0.0161255
-             2.57384           0.0157692
-              2.7112           0.0154282
-             2.85157           0.0151017
-             2.99493           0.0147887
-              3.1413           0.0144884
-             3.29067           0.0142001
-             3.44305            0.013923
-             3.59842           0.0136566
-              3.7568           0.0134001
-             3.91818           0.0131531
-             4.08257            0.012915
-             4.24995           0.0126854
-             4.42034           0.0124638
-             4.59373           0.0122499
-             4.77013           0.0120431
-             4.94952           0.0118432
-             5.13192           0.0116499
-             5.31732           0.0114627
-             5.50572           0.0112815
-             5.69713           0.0111059
-             5.89154           0.0109357
-             6.08895           0.0107706
-             6.28936           0.0106105
-             6.49278            0.010455
 *DEFINE_CURVE_TITLE
 NE_C_SC1-PAOM
     203017         0        1.        1.        0.        0.         0         0
@@ -5070,7 +5246,7 @@ NE_C_C7T1-ISL
              5.93772          0.00146201
 *DEFINE_CURVE_TITLE
 Trapezoid ligament-Harris et al (2000)
-    302001         0        1.     0.001        0.        0.         0         0
+    306001         0        1.     0.001        0.        0.         0         0
                  -2.                  0.
                   0.                  0.
          0.582750723         4.841798553
@@ -5099,7 +5275,7 @@ Trapezoid ligament-Harris et al (2000)
          11.27091369         529.5418299
 *DEFINE_CURVE_TITLE
 Conoid Ligamnet Harris (2000)
-    302002         0        1.     0.001        0.        0.         0         0
+    306002         0        1.     0.001        0.        0.         0         0
                  -2.                  0.
                   0.                  0.
           0.31442864         3.365297898
@@ -5120,36 +5296,6 @@ Conoid Ligamnet Harris (2000)
          6.463476374         387.9134033
          6.731798457          423.495427
          6.977760366         452.6810436
-*DEFINE_CURVE_TITLE
-Manschot el at 1986 (across)
-    305101         0        1.        1.        0.        0.         0         0
-                  0.                  0.
-          0.00719045          4.96443E-6
-           0.0135799          9.86691E-6
-           0.0192828          1.47189E-5
-           0.0243949          1.95293E-5
-           0.0289961          2.43052E-5
-           0.0331541          2.90523E-5
-           0.0369256           3.3775E-5
-           0.0403591          3.84772E-5
-           0.0434959          4.31618E-5
-            0.046371          4.78312E-5
-           0.0514536          5.71323E-5
-           0.0558029          6.63931E-5
-           0.0595664          7.56222E-5
-           0.0628569          8.48259E-5
-           0.0657617          9.40087E-5
-           0.0683487         0.000103174
-           0.0847367         0.000194189
-           0.0942015         0.000284367
-            0.101543         0.000373797
-            0.108034         0.000462478
-            0.114128         0.000550409
-             0.12002         0.000637589
-            0.125801         0.000724022
-            0.131523         0.000809714
-            0.378379          0.00377237
-            0.733868          0.00636576
 *DEFINE_CURVE_TITLE
 IM test curve for fitting
     354111         0        1.     0.001        0.        0.         0          
@@ -9258,6 +9404,14 @@ DEFINE_CURVE_3501503
             0.314159             18.0612
             0.331613             21.0064
             0.349066              24.268
+$ANSA_ID;1;
+*DAMPING_PART_STIFFNESS_SET
+    903004      0.05
+*SET_PART_TITLE
+Set for damping
+    903004                                        
+    214002    603110    606004    653110    656004    706110    706120    706210
+    756110    756120    756210
 $ANSA_COLOR;100000;MAT34 MAT_FABRIC;.992156863212585;.745098054409027;.235294118
 $523598;1.;
 $ANSA_COLOR;100001;MAT20 MAT_RIGID;.596078455448151;.129411771893501;.3960784375
@@ -9435,10 +9589,6 @@ $ANSA_COLOR;301413;MAT20 MAT_RIGID;.635294139385223;.121568627655506;.2941176593
 $30368;1.;
 $ANSA_COLOR;301503;MAT20 MAT_RIGID;.635294139385223;.121568627655506;.2941176593
 $30368;1.;
-$ANSA_COLOR;302001;MAT203 MAT_SPRING_NONLINEAR_ELASTIC;.807843148708344;.5725490
-$45085907;0.;1.;
-$ANSA_COLOR;302002;MAT203 MAT_SPRING_NONLINEAR_ELASTIC;.878431379795074;.9607843
-$16062927;.301960796117783;1.;
 $ANSA_COLOR;305100;MAT77 MAT_OGDEN_RUBBER;.639215707778931;.498039215803146;.411
 $764711141586;1.;
 $ANSA_COLOR;305101;MAT34 MAT_FABRIC;.992156863212585;.745098054409027;.235294118
@@ -9453,6 +9603,10 @@ $ANSA_COLOR;305201;MAT77 MAT_OGDEN_RUBBER;.847058832645416;.823529422283173;.835
 $294127464294;1.;
 $ANSA_COLOR;305202;MAT9 MAT_NULL;.647058844566345;0.91372549533844;.223529413342
 $476;1.;
+$ANSA_COLOR;306001;MAT203 MAT_SPRING_NONLINEAR_ELASTIC;.807843148708344;.5725490
+$45085907;0.;1.;
+$ANSA_COLOR;306002;MAT203 MAT_SPRING_NONLINEAR_ELASTIC;.878431379795074;.9607843
+$16062927;.301960796117783;1.;
 $ANSA_COLOR;400011;MAT20 MAT_RIGID;0.65490198135376;.901960790157318;.0862745121
 $12141;1.;
 $ANSA_COLOR;400012;MAT20 MAT_RIGID;.933333337306976;.905882358551025;.0745098069
@@ -9501,6 +9655,12 @@ $ANSA_COLOR;404111;MAT181 MAT_SIMPLIFIED_RUBBER/FOAM;.513725519180298;.588235318
 $660736;.705882370471954;1.;
 $ANSA_COLOR;404119;MAT9 MAT_NULL;.721568644046783;.878431379795074;.560784339904
 $785;1.;
+$ANSA_COLOR;404501;MAT156 MAT_MUSCLE;.854901969432831;0.65490198135376;.03921568
+$7662363;1.;
+$ANSA_COLOR;404601;MAT156 MAT_MUSCLE;.882352948188782;.623529434204102;.58431375
+$0267029;1.;
+$ANSA_COLOR;404701;MAT156 MAT_MUSCLE;.635294139385223;0.43529412150383;.58823531
+$8660736;1.;
 $ANSA_COLOR;405009;MAT9 MAT_NULL;.647058844566345;.635294139385223;.631372570991
 $516;1.;
 $ANSA_COLOR;405100;MAT77 MAT_OGDEN_RUBBER;1.;.388235300779343;.278431385755539;1
@@ -9627,7 +9787,8 @@ $ANSA_COLOR;710402;MAT20 MAT_RIGID;.807843148708344;.149019613862038;.8588235378
 $26538;1.;
 $ANSA_COLOR;716009;MAT9 MAT_NULL;.509803950786591;.494117647409439;.886274516582
 $489;1.;
-$ANSA_NAME_COMMENT;213000;DEFINE_TABLE;Facet_Art_Cart-MAT83_MAT_FU_CHANG_FOAM;;N
+$ANSA_NAME_COMMENT;1;DAMPING_PART_STIFFNESS;Damping part stiffness;;NO;NO;NO;
+$ANSA_NAME_COMMENT;103004;DEFINE_TABLE;Facet_Art_Cart-MAT83_MAT_FU_CHANG_FOAM;;N
 $O;NO;NO;
 $ANSA_NAME_COMMENT;701102;DEFINE_TABLE;LX_Femur_Trabecular_FuChang-Enns-Bray_et_
 $al_2018_27gcm;;NO;NO;NO;
@@ -9660,4 +9821,30 @@ $ANSA_NAME_COMMENT;601059;MAT9 MAT_NULL;PE-Pelvic-Cortical-nulls;Tue Apr 14 21:5
 $6:40 2020\;M:/VSI-P/010_RD/17_EU_VIRTUAL/020_Workpackage/WP2_HBM/T2_2_Seated OS
 $-HBM 50F, OS-HBM 50M, Active-HBM and validation/2_2_1_Upgrading the OS-HBM 50F/
 $2020-04-14_Material_DB.key;NO;NO;NO;
+$ANSA_PART;GROUP;ID;1279;NAME;vivaplus-parts-elements.k;PID_OFFSET;0;COLOR;239;2
+$41;245;0;IS_COLOR_ACTIVE;1;PART_TYPE;Undefined;ATTRIBUTES;2;DM/File Type;ANSA;D
+$M/Status;WIP;CONTAINS;ANSAPART;1826;
+$ANSA_PART;GROUP;ID;2145;NAME;ligaments-simplified-renumbered.k;PID_OFFSET;0;COL
+$OR;226;190;114;0;IS_COLOR_ACTIVE;1;PART_TYPE;Undefined;ATTRIBUTES;2;DM/File Typ
+$e;ANSA;DM/Status;WIP;CONTAINS;ANSAPART;1827;
+$ANSA_PART;GROUP;ID;2171;MID;700000;NAME;Lower-Extremity;PID_OFFSET;0;COLOR;189;
+$236;167;0;IS_COLOR_ACTIVE;1;PART_TYPE;Undefined;ATTRIBUTES;2;DM/File Type;ANSA;
+$DM/Status;WIP;CONTAINS;ANSAGROUP;2145;
+$ANSA_PART;GROUP;ID;2176;NAME;sensor_define_element.k;PID_OFFSET;0;COLOR;195;163
+$;80;0;IS_COLOR_ACTIVE;1;PART_TYPE;Undefined;ATTRIBUTES;2;DM/File Type;ANSA;DM/S
+$tatus;WIP;CONTAINS;ANSAPART;2178;
+$ANSA_PART;PART;ID;1826;NAME;NO PID ELMNTs@2;STUDY_VERSION;0;PID_OFFSET;0;COLOR;
+$181;49;168;0;IS_COLOR_ACTIVE;1;PART_TYPE;Undefined;ATTRIBUTES;2;DM/File Type;AN
+$SA;DM/Status;WIP;CONTAINS;SENSOR_DEFINE_NODE;700001,700003,700005,700007,700017
+$,700019,700025,700027,700033,700035,700037,700039,700049,700051,700053,700055;
+$ANSA_PART;PART;ID;1827;NAME;SPRINGs & DAMPERs & SCALAR MASSs;STUDY_VERSION;0;PI
+$D_OFFSET;0;COLOR;230;122;72;0;IS_COLOR_ACTIVE;1;PART_TYPE;Undefined;ATTRIBUTES;
+$2;DM/File Type;ANSA;DM/Status;WIP;CONTAINS;SENSOR_DEFINE_NODE;700009,700011,700
+$013,700015,700021,700023,700029,700031,700041,700043,700045,700047,700057,70005
+$9,700061,700063;
+$ANSA_PART;PART;ID;2178;NAME;NO PID ELMNTs@4;STUDY_VERSION;0;PID_OFFSET;0;COLOR;
+$199;96;39;0;IS_COLOR_ACTIVE;1;PART_TYPE;Undefined;ATTRIBUTES;2;DM/File Type;ANS
+$A;DM/Status;WIP;CONTAINS;SENSOR_DEFINE_ELEMENT;700002,700004,700006,700008,7000
+$18,700020,700026,700028,700034,700036,700038,700040,700050,700052,700054,700056
+$;
 *END

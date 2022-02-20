@@ -2,12 +2,12 @@ $
 $ANSA_VERSION;22.0.0;
 $
 $
-$ file created by  A N S A  Mon Feb  7 12:26:15 2022
+$ file created by  A N S A  Fri Feb 18 16:05:06 2022
 $
 $ output from :
 $
 $ C:/Users/jobinj/Box/vivaplus-share/VIVA-Plus-Meshing-Shared-Folder/v0_3/vivapl
-$ us-50F_v030_211214.ansa
+$ us-50F_v030_220218.ansa
 $
 $ Settings :
 $
@@ -129,11 +129,11 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 PE-Pelvic-Sacrum-Cortical-Nulls-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    601054    601054    601059              900003         0         0          
+    601054    601054    601059                             0         0          
 *SECTION_SHELL_TITLE
 PE-Pelvic-Sacrum-Cortical-Nulls-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    601054        16                  5.        1.         0         0
+    601054         2                  1.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
         1.        1.        1.        1.                            0.          
 *PART
@@ -189,7 +189,7 @@ $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SHELL_TITLE
 PE_Pelvic_Cavity_nulls-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    605003         2     0.833        2.        1.         0         0
+    605003         2     0.833        1.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
        0.5       0.5       0.5       0.5        0.                  0.          
 *PART
@@ -219,7 +219,7 @@ $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SHELL_TITLE
 PE_C_N_Soft_Tissues_Internal_nulls
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    606003         2   0.83333        2.        1.         0         0
+    606003         2   0.83333        1.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
         1.        1.        1.        1.        0.                  0.          
 *PART_CONTACT
@@ -327,11 +327,11 @@ $    SECID|   ELFORM|
 *PART
 PE-Pelvic-Sacrum-Cortical-Nulls-R
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    651054    651054    601059              900003         0         0          
+    651054    651054    601059                             0         0          
 *SECTION_SHELL_TITLE
 PE-Pelvic-Sacrum-Cortical-Nulls-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    651054        16                  5.        1.         0         0
+    651054         2                  1.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
         1.        1.        1.        1.                            0.          
 *PART
@@ -387,7 +387,7 @@ $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SHELL_TITLE
 PE_Pelvic_Cavity_nulls-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    655003         2     0.833        2.        1.         0         0
+    655003         2     0.833        1.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
        0.5       0.5       0.5       0.5        0.                  0.          
 *PART
@@ -417,7 +417,7 @@ $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SHELL_TITLE
 PE_C_N_Soft_Tissues_Internal_nulls-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    656003         2   0.83333        2.        1.         0         0
+    656003         2   0.83333        1.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
         1.        1.        1.        1.        0.                  0.          
 *PART_CONTACT

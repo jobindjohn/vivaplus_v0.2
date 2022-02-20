@@ -2,12 +2,12 @@ $
 $ANSA_VERSION;22.0.0;
 $
 $
-$ file created by  A N S A  Mon Feb  7 12:26:15 2022
+$ file created by  A N S A  Fri Feb 18 16:05:06 2022
 $
 $ output from :
 $
 $ C:/Users/jobinj/Box/vivaplus-share/VIVA-Plus-Meshing-Shared-Folder/v0_3/vivapl
-$ us-50F_v030_211214.ansa
+$ us-50F_v030_220218.ansa
 $
 $ Settings :
 $
@@ -26,30 +26,6 @@ $
 $ANSA_COLOR;vivaplus-50-Abdomen.k;INCLUDE;.917647063732147;.458823531866074;.031
 $372550874949;1.;
 *KEYWORD
-*PART
-TX-Soft-Skin-L
-$      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    406001    406001    100000                             0         0          
-*SECTION_SHELL_TITLE
-TX-Soft-Skin-L
-$    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    406001         9   0.83333        1.        1.         0         1
-$       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
-        1.        1.        1.        1.        0.                  0.          
-$       B1|       B2|
-        0.       90.
-*PART
-TX-Soft-Skin-R
-$      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    456001    456001    100000                             0         0          
-*SECTION_SHELL_TITLE
-TX-Soft-Skin-R
-$    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    456001         9   0.83333        1.        1.         0         1
-$       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
-        1.        1.        1.        1.        0.                  0.          
-$       B1|       B2|
-        0.      -90.
 *PART
 AB-Spine-L1-Cortical-M
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
@@ -199,13 +175,23 @@ AB_Abdominal_Cavity-L
 $    SECID|   ELFORM|
     505001         1
 *PART
-AB-Abdominal_Cavity_sliding-nulls-L
+AB-Abdominal_Cavity-nulls-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
     505009    505009    505009                             0         0          
 *SECTION_SHELL_TITLE
-AB-Abdominal_Cavity_sliding-nulls-L
+AB-Abdominal_Cavity-nulls-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
     505009         2     0.833        1.        1.         0         0
+$       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
+       0.5       0.5       0.5       0.5        0.                  0.          
+*PART
+AB-Abdominal_Cavity_Edge-nulls-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
+    505019    505019    505009                             0         0          
+*SECTION_SHELL_TITLE
+AB-Abdominal_Cavity_Edge-nulls-L
+$    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
+    505019         2     0.833        1.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
        0.5       0.5       0.5       0.5        0.                  0.          
 *PART
@@ -235,7 +221,7 @@ $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SHELL_TITLE
 AB_Abdominal_Muscle_nulls_ext-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    506003         2     0.833        2.        1.         0         0
+    506003         2     0.833        1.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
        0.5       0.5       0.5       0.5        0.                  0.          
 *PART
@@ -245,7 +231,7 @@ $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SHELL_TITLE
 AB_Abdominal_Muscle_nulls_lower_ext-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    506004         2     0.833        2.        1.         0         0
+    506004         2     0.833        1.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
        0.5       0.5       0.5       0.5        0.                  0.          
 *PART
@@ -255,7 +241,7 @@ $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SHELL_TITLE
 AB_Abdominal_Muscle_nulls_int-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    506006         2     0.833        2.        1.         0         0
+    506006         2     0.833        1.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
        0.5       0.5       0.5       0.5        0.                  0.          
 *PART
@@ -265,7 +251,7 @@ $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SHELL_TITLE
 AB_Abdominal_Muscle_nulls_ext-edge-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    506007         2     0.833        2.        1.         0         0
+    506007         2     0.833        1.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
        0.5       0.5       0.5       0.5        0.                  0.          
 *PART
@@ -277,13 +263,23 @@ AB_Abdominal_Cavity-R
 $    SECID|   ELFORM|
     555001         1
 *PART
-AB-Abdominal_Cavity_sliding-nulls-R
+AB-Abdominal_Cavity-nulls-R
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
     555009    555009    505009                             0         0          
 *SECTION_SHELL_TITLE
-AB-Abdominal_Cavity_sliding-nulls-R
+AB-Abdominal_Cavity-nulls-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
     555009         2     0.833        1.        1.         0         0
+$       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
+       0.5       0.5       0.5       0.5        0.                  0.          
+*PART
+AB-Abdominal_Cavity_Edge-nulls-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
+    555019    555019    505009                             0         0          
+*SECTION_SHELL_TITLE
+AB-Abdominal_Cavity_Edge-nulls-R
+$    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
+    555019         2     0.833        1.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
        0.5       0.5       0.5       0.5        0.                  0.          
 *PART
@@ -313,7 +309,7 @@ $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SHELL_TITLE
 AB_Abdominal_Muscle_nulls_ext-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    556003         2     0.833        2.        1.         0         0
+    556003         2     0.833        1.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
        0.5       0.5       0.5       0.5        0.                  0.          
 *PART
@@ -323,7 +319,7 @@ $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SHELL_TITLE
 AB_Abdominal_Muscle_nulls_lower_ext-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    556004         2     0.833        2.        1.         0         0
+    556004         2     0.833        1.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
        0.5       0.5       0.5       0.5        0.                  0.          
 *PART
@@ -333,7 +329,7 @@ $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SHELL_TITLE
 AB_Abdominal_Muscle_nulls_int-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    556006         2     0.833        2.        1.         0         0
+    556006         2     0.833        1.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
        0.5       0.5       0.5       0.5        0.                  0.          
 *PART
@@ -343,13 +339,9 @@ $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID
 *SECTION_SHELL_TITLE
 AB_Abdominal_Muscle_nulls_ext-edge-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    556007         2     0.833        2.        1.         0         0
+    556007         2     0.833        1.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
        0.5       0.5       0.5       0.5        0.                  0.          
-$ANSA_COLOR;406001;SECTION_SHELL;.545098066329956;.545098066329956;0.47843137383
-$461;0.5;
-$ANSA_COLOR;456001;SECTION_SHELL;.976470589637756;.003921568859369;.854901969432
-$831;1.;
 $ANSA_COLOR;501011;SECTION_SHELL;.643137276172638;.772549033164978;.650980412960
 $052;1.;
 $ANSA_COLOR;501012;SECTION_SOLID;.921568632125854;.776470601558685;.639215707778
@@ -384,6 +376,8 @@ $ANSA_COLOR;505001;SECTION_SOLID;.788235306739807;.207843139767647;.105882354080
 $677;1.;
 $ANSA_COLOR;505009;SECTION_SHELL;.682352960109711;.929411768913269;0.74117648601
 $532;0.5;
+$ANSA_COLOR;505019;SECTION_SHELL;0.5686274766922;.058823529630899;.5607843399047
+$85;1.;
 $ANSA_COLOR;506001;SECTION_SHELL;1.;.894117653369904;.768627464771271;0.5;
 $ANSA_COLOR;506002;SECTION_SOLID;.933333337306976;.603921592235565;.286274522542
 $953;0.5;
@@ -399,6 +393,8 @@ $ANSA_COLOR;555001;SECTION_SOLID;.901960790157318;0.82745099067688;.325490206480
 $026;1.;
 $ANSA_COLOR;555009;SECTION_SHELL;.854901969432831;.780392169952393;.984313726425
 $171;0.5;
+$ANSA_COLOR;555019;SECTION_SHELL;.878431379795074;.647058844566345;.007843137718
+$737;1.;
 $ANSA_COLOR;556001;SECTION_SHELL;.709803938865662;.792156875133514;0.18823529779
 $911;1.;
 $ANSA_COLOR;556002;SECTION_SOLID;.901960790157318;0.24705882370472;.713725507259

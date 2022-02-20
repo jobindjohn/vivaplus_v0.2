@@ -27,11 +27,13 @@ and this project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.ht
 - Added nulls shells `PE-Pelvic-Sacrum-Cortical-Nulls` to cover sacrum holes
 - Pelvic floor defined, PID `606004`
 - New file for output definitions `vivaplus-90-outputs-nodes.k`, `vivaplus-elements.k`
+  - Removed the old include `vivaplus-90-outputs.k`
 - New include `vivaplus-92-output-settings.k` with output settings
   - Added Head_COG (seatbelt accelerometer)
 - Added extra nodes connecting T4 down to L1 to the internal blob
 - Added DAMPING_PART_STIFFNESS with 5% damping to all elastic materials
-
+- New contact to tie soft tissue to humerus, 350010
+- Names added `*DEFINE_COORDINATE_NODES`
 
 ### Changed
 
@@ -65,10 +67,12 @@ and this project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.ht
     - `400001` (depenetrated based on new penetrations reported by ANSA)
   - Changed `300001` from `*CONTACT_AUTOMATIC_SURFACE_TO_SURFACE` to `*CONTACT_AUTOMATIC_SINGLE_SURFACE`
   - Soft Tissue around humerus is now tied with `TIED_NODES_TO_SURFACE_OFFSET` (`300010`, `350010`)
+  - 
   - `400010` Between Torso soft tissue and ribcage updated to `TIED_SHELL_EDGE_TO_SURFACE_BEAM_OFFSET` from `AUTOMATIC_SURFACE_TO_SURFACE_TIEBREAK`
     - Deleted segments previously used for this contact
   - `403505` Master updated to shell set that has soft tissue shells against sternum only
   - Changed contact `400001` to `SOFT`=1 and depenetrated based on new penetrations reported by ANSA
+    - Set changed to Part set (Elements that were part of boolean subtraction assigned to new PID 505019: Abdominal_Cavity_Edge-nulls )
   - Removed unused parameter `MAXPAR` for contacts `400010` and `600000`
   - Changed SFS and SFM for contact `400010` to 0.01
   - Changed SFS and SFM for contact `403505` to 0.1
@@ -77,6 +81,9 @@ and this project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.ht
   - Changed SFM for contact `600010` to 0.1
     - Previously numbered `600001`
   - Changed SFS and SFM for contact `700000` to 0.1
+  - Removed optional cards D and E for 
+    - `400002`
+    - `600000`
   - Moved Pelvis parts from `LX_Single_Surface` to `Torso_Single_Surface`
 
 - Modified curve tables 200710, 201524, 201531, 201534, 201541, 201544, 201551, 201554, 201561, 201564, 201571, 201572, and 201574, so curves at different strain rate do not cross
@@ -86,16 +93,26 @@ and this project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.ht
 - Null Materials
   - Changed Young's Modulus to 1GPa for null materials 506019, 701404, 705139, 705189, 710019, 710029, 716003
   - Changed Young's Modulus to 0.01 for null material 203003 
+  - Updated all Null Parts to have the `NIP` = 1 and `ELFORM` = 2 
 - Change 506002, 556002 (AB-Soft-Muscles) MID to (Mohammadkhah, Murphy et al. 2016) Chicken muscle model fitted in tension 
 - Mass Density
   - Updated density of lungs (MID 405101) to 0.5e-6 to get total mass of 62 kg
   - Changed density of lower extremity flesh from 1.12 to 1.0
   - Update joint names and titles to joint stiffness
+  - Updated UX-Bone-*-Rigid and OPTT: to 0.5
+    - Humerus-proximal, Humerus-distal
+- Reassigned PID 701142 to MID 701102 for trabecular properties
+- Renumberd Coordinate system ID from 8382239 to 4091035
+  
 ### Removed
 
 - Deleted unused `*HOURGLASS` IDs
 - Deleted unused PIDs and section IDs related to cervical spine articular process cartilages on right side.
-
+- Deleted includes `vivaplus-global-contact.k` and `vivaplus-misc.k`
+- Removed Hourglass control on `601054`: PE-Pelvic-Sacrum-Cortical-Nulls-L
+- Removed `OPTT` from LX-Soft-Foot-Skin
+- Deleted unused sets
+- Deleted unused include `vivaplus-50F-seated-reference_points.k`
 
 ## 0.2.5 - 2021-09-22
 ### Added

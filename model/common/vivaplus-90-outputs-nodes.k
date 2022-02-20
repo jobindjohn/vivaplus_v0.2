@@ -2,12 +2,12 @@ $
 $ANSA_VERSION;22.0.0;
 $
 $
-$ file created by  A N S A  Mon Feb  7 12:26:16 2022
+$ file created by  A N S A  Fri Feb 18 16:05:06 2022
 $
 $ output from :
 $
 $ C:/Users/jobinj/Box/vivaplus-share/VIVA-Plus-Meshing-Shared-Folder/v0_3/vivapl
-$ us-50F_v030_211214.ansa
+$ us-50F_v030_220218.ansa
 $
 $ Settings :
 $
@@ -269,7 +269,7 @@ $ANSA_ID;4091034;
    4091034TX-T3_center                                                          
 $ANSA_ID;4091035;
 *DATABASE_HISTORY_NODE_LOCAL_ID
-   4091035   8382239         1         0
+   4091035   4091035         1         0
 TX-T2-T3-MP                                                           
 $ANSA_ID;4091036;
 *DATABASE_HISTORY_NODE_ID
