@@ -1,13 +1,13 @@
 $
-$ANSA_VERSION;21.1.0;
+$ANSA_VERSION;22.0.0;
 $
 $
-$ file created by  A N S A  Thu Jul  8 15:48:08 2021
+$ file created by  A N S A  Fri Feb 18 16:05:05 2022
 $
 $ output from :
 $
-$ C:/Users/jobinj/Box/vivaplus-share/VIVA-Plus-Meshing-Shared-Folder/vivaplus-50
-$ F_v0-2-4.ansa
+$ C:/Users/jobinj/Box/vivaplus-share/VIVA-Plus-Meshing-Shared-Folder/v0_3/vivapl
+$ us-50F_v030_220218.ansa
 $
 $ Settings :
 $
@@ -15,7 +15,8 @@ $ Output format : 971R9
 $
 $ Output : All
 $
-$ANSA_USER_ATTRIBUTES;vivaplus-30-Upper-Extremity.k;INCLUDE;DM/Status;TEXT;WIP;
+$ANSA_USER_ATTRIBUTES;vivaplus-30-Upper-Extremity.k;INCLUDE;DM/Status;TEXT;WIP;D
+$M/IO Index;TEXT;;
 $
 $
 $
@@ -28,9 +29,9 @@ $005;.415686279535294;1.;
 *PART_CONTACT
 UX-Bone-Clavicle-Cortical-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    301101    301101    301101              301101         0         0          
+    301101    301101    301101              900003         0         0          
 $       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
-                                               0.1                    
+                                               0.5                    
 *SECTION_SHELL_TITLE
 UX-Bone-Clavicle-Cortical-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -40,7 +41,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 UX-Bone-Clavicle-Trabecular-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    301102    301102    301102               10001         0         0          
+    301102    301102    301102              900001         0         0          
 *SECTION_SOLID_TITLE
 UX-Bone-Clavicle-Trabecular-L
 $    SECID|   ELFORM|
@@ -72,9 +73,9 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART_CONTACT
 UX-Bone-Scapula-Cortical-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    301201    301201    610411              301201         0         0          
+    301201    301201    301202              900003         0         0          
 $       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
-                                               0.1                    
+                                               0.5                    
 *SECTION_SHELL_TITLE
 UX-Bone-Scapula-Cortical-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -84,7 +85,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 UX-Bone-Scapula-Trabecular-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    301202    301202    610412               10001         0         0          
+    301202    301202    301204              900001         0         0          
 *SECTION_SOLID_TITLE
 UX-Bone-Scapula-Trabecular-L
 $    SECID|   ELFORM|
@@ -114,13 +115,15 @@ $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
         4.        4.        4.        4.        0.                  0.          
 *PART
-UX-Bone-Humerus-distal-Cortical-L
-$      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    301301    301301    301301                             0         0          
-*SECTION_SOLID_TITLE
-UX-Bone-Humerus-distal-Cortical-L
-$    SECID|   ELFORM|
-    301301         2
+UX-Bone-Humerus-whole-Null-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
+    301309    301309    301309                             0         0          
+*SECTION_SHELL_TITLE
+UX-Bone-Humerus-whole-Null-L
+$    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
+    301309         2        1.        1.        1.         0         0
+$       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
+       0.5       0.5       0.5       0.5        0.                  0.          
 *PART
 UX-Bone-Humerus-proximal-Cortical-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
@@ -132,31 +135,21 @@ $    SECID|   ELFORM|
 *PART
 UX-Bone-Humerus-proximal-Trabecular-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    301312    301312    301302               10001         0         0          
+    301312    301312    301302              900001         0         0          
 *SECTION_SOLID_TITLE
 UX-Bone-Humerus-proximal-Trabecular-L
 $    SECID|   ELFORM|
     301312         1
 *PART
 UX-Bone-Humerus-proximal-Rigid-L
-$      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    301313    301313    301313               10001         0         0          
-*SECTION_SOLID_TITLE
-UX-Bone-Humerus-proximal-Rigid-L
-$    SECID|   ELFORM|
-    301313         1
-*PART_CONTACT
-UX-Bone-Humerus-proximal-Null-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    301314    301314    301300                             0         0          
-$       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
-                                               0.1                    
+    301313    301313    301313                             0         0          
 *SECTION_SHELL_TITLE
-UX-Bone-Humerus-proximal-Null-L
+UX-Bone-Humerus-proximal-Rigid-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    301314         2        1.        2.        1.         0         0
+    301313         2        1.        2.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
-        1.        1.        1.        1.        0.                  0.          
+       0.5       0.5       0.5       0.5                            0.          
 *PART
 UX-Bone-Humerus-shaft-Cortical-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
@@ -166,49 +159,53 @@ UX-Bone-Humerus-shaft-Cortical-L
 $    SECID|   ELFORM|
     301321         2
 *PART
+UX-Bone-Humerus-distal-Cortical-L
+$      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
+    301331    301331    301301                             0         0          
+*SECTION_SOLID_TITLE
+UX-Bone-Humerus-distal-Cortical-L
+$    SECID|   ELFORM|
+    301331         2
+*PART
 UX-Bone-Humerus-distal-Trabecular-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    301332    301332    301302               10001         0         0          
+    301332    301332    301302              900001         0         0          
 *SECTION_SOLID_TITLE
 UX-Bone-Humerus-distal-Trabecular-L
 $    SECID|   ELFORM|
     301332         1
 *PART
 UX-Bone-Humerus-distal-Rigid-L
-$      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    301333    301333    301313               10001         0         0          
-*SECTION_SOLID_TITLE
+$      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
+    301333    301333    301313                             0         0          
+*SECTION_SHELL_TITLE
 UX-Bone-Humerus-distal-Rigid-L
+$    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
+    301333         2        1.        2.        1.         0         0
+$       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
+       0.5       0.5       0.5       0.5                            0.          
+*PART
+UX-Bone-Ulna-whole-Null-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
+    301409    301409    301309                             0         0          
+*SECTION_SHELL_TITLE
+UX-Bone-Ulna-whole-Null-L
+$    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
+    301409         2        1.        1.        1.         0         0
+$       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
+       0.5       0.5       0.5       0.5        0.                  0.          
+*PART
+UX-Bone-Ulna-proximal-Cortical-L
+$      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
+    301411    301411    301301                             0         0          
+*SECTION_SOLID_TITLE
+UX-Bone-Ulna-proximal-Cortical-L
 $    SECID|   ELFORM|
-    301333         1
-*PART_CONTACT
-UX-Bone-Humerus-distal-Null-L
-$      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    301334    301334    301300                             0         0          
-$       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
-                                               0.1                    
-*SECTION_SHELL_TITLE
-UX-Bone-Humerus-distal-Null-L
-$    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    301334         2        1.        2.        1.         0         0
-$       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
-        1.        1.        1.        1.        0.                  0.          
-*PART_CONTACT
-UX-Bone-Ulna-proximal-Cortical-L
-$      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    301411    301411    301401                 999         0         0          
-$       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
-                                               0.1                    
-*SECTION_SHELL_TITLE
-UX-Bone-Ulna-proximal-Cortical-L
-$    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    301411        16        1.        5.        1.         0         0
-$       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
-      2.48      2.48      2.48      2.48        0.                  0.          
+    301411         2
 *PART
 UX-Bone-Ulna-proximal-Trabecular-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    301412    301412    301402               10001         0         0          
+    301412    301412    301302              900001         0         0          
 *SECTION_SOLID_TITLE
 UX-Bone-Ulna-proximal-Trabecular-L
 $    SECID|   ELFORM|
@@ -218,65 +215,71 @@ UX-Bone-Ulna-proximal-Rigid-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
     301413    301413    301413                             0         0          
 $       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
-                                               0.1                    
+                                               0.5                    
 *SECTION_SHELL_TITLE
 UX-Bone-Ulna-proximal-Rigid-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
     301413         2        1.        2.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
       2.48      2.48      2.48      2.48        0.                  0.          
-*PART_CONTACT
+*PART
 UX-Bone-Ulna-shaft-Cortical-L
-$      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    301421    301421    301401                 999         0         0          
-$       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
-                                               0.1                    
-*SECTION_SHELL_TITLE
+$      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
+    301421    301421    301301                             0         0          
+*SECTION_SOLID_TITLE
 UX-Bone-Ulna-shaft-Cortical-L
-$    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    301421        16        1.        5.        1.         0         0
-$       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
-      2.48      2.48      2.48      2.48        0.                  0.          
-*PART_CONTACT
+$    SECID|   ELFORM|
+    301421         2
+*PART
 UX-Bone-Ulna-distal-Cortical-L
-$      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    301431    301431    301401                 999         0         0          
-$       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
-                                               0.1                    
-*SECTION_SHELL_TITLE
+$      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
+    301431    301431    301301                             0         0          
+*SECTION_SOLID_TITLE
 UX-Bone-Ulna-distal-Cortical-L
-$    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    301431        16        1.        5.        1.         0         0
-$       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
-      2.48      2.48      2.48      2.48        0.                  0.          
+$    SECID|   ELFORM|
+    301431         2
+*PART
+UX-Bone-Ulna-distal-Trabecular-L
+$      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
+    301432    301432    301302              900001         0         0          
+*SECTION_SOLID_TITLE
+UX-Bone-Ulna-distal-Trabecular-L
+$    SECID|   ELFORM|
+    301432         1
 *PART_CONTACT
 UX-Bone-Ulna-distal-Rigid-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
     301433    301433    301413                             0         0          
 $       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
-                                               0.1                    
+                                               0.5                    
 *SECTION_SHELL_TITLE
 UX-Bone-Ulna-distal-Rigid-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
     301433         2        1.        2.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
       2.48      2.48      2.48      2.48        0.                  0.          
-*PART_CONTACT
-UX-Bone-Radius-proximal-Cortical-L
+*PART
+UX-Bone-Radius-whole-Null-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    301511    301511    301501                 999         0         0          
-$       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
-                                               0.1                    
+    301509    301509    301309                             0         0          
 *SECTION_SHELL_TITLE
-UX-Bone-Radius-proximal-Cortical-L
+UX-Bone-Radius-whole-Null-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    301511        16        1.        5.        1.         0         0
+    301509         2        1.        1.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
-      2.48      2.48      2.48      2.48        0.                  0.          
+       0.5       0.5       0.5       0.5        0.                  0.          
+*PART
+UX-Bone-Radius-proximal-Cortical-L
+$      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
+    301511    301511    301301                             0         0          
+*SECTION_SOLID_TITLE
+UX-Bone-Radius-proximal-Cortical-L
+$    SECID|   ELFORM|
+    301511         2
 *PART
 UX-Bone-Radius-proximal-Trabecular-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    301512    301512    301502               10001         0         0          
+    301512    301512    301302              900001         0         0          
 *SECTION_SOLID_TITLE
 UX-Bone-Radius-proximal-Trabecular-L
 $    SECID|   ELFORM|
@@ -286,43 +289,43 @@ UX-Bone-Radius-proximal-Rigid-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
     301513    301513    301503                             0         0          
 $       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
-                                               0.1                    
+                                               0.5                    
 *SECTION_SHELL_TITLE
 UX-Bone-Radius-proximal-Rigid-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
     301513         2        1.        2.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
       2.48      2.48      2.48      2.48        0.                  0.          
-*PART_CONTACT
+*PART
 UX-Bone-Radius-shaft-Cortical-L
-$      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    301521    301521    301501                 999         0         0          
-$       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
-                                               0.1                    
-*SECTION_SHELL_TITLE
+$      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
+    301521    301521    301301                             0         0          
+*SECTION_SOLID_TITLE
 UX-Bone-Radius-shaft-Cortical-L
-$    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    301521        16        1.        5.        1.         0         0
-$       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
-      2.48      2.48      2.48      2.48        0.                  0.          
-*PART_CONTACT
+$    SECID|   ELFORM|
+    301521         2
+*PART
 UX-Bone-Radius-distal-Cortical-L
-$      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    301531    301531    301501                 999         0         0          
-$       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
-                                               0.1                    
-*SECTION_SHELL_TITLE
+$      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
+    301531    301531    301301                             0         0          
+*SECTION_SOLID_TITLE
 UX-Bone-Radius-distal-Cortical-L
-$    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    301531        16        1.        5.        1.         0         0
-$       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
-      2.48      2.48      2.48      2.48        0.                  0.          
+$    SECID|   ELFORM|
+    301531         2
+*PART
+UX-Bone-Radius-distal-Trabecular-L
+$      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
+    301532    301532    301302              900001         0         0          
+*SECTION_SOLID_TITLE
+UX-Bone-Radius-distal-Trabecular-L
+$    SECID|   ELFORM|
+    301532         1
 *PART_CONTACT
 UX-Bone-Radius-distal-Rigid-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
     301533    301533    301503                             0         0          
 $       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
-                                               0.1                    
+                                               0.5                    
 *SECTION_SHELL_TITLE
 UX-Bone-Radius-distal-Rigid-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -330,29 +333,39 @@ $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
       2.48      2.48      2.48      2.48        0.                  0.          
 *PART
-UX-Soft-Shoulder-connect-Skin-L
+UX-Bone-Carpal-Rigid-L
+$      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
+    301603    301603    305163                             0         0          
+*SECTION_SOLID_TITLE
+UX-Bone-Carpal-Rigid-L
+$    SECID|   ELFORM|
+    301603         1
+*PART
+UX-Bone-Phalanges-Cortical-L
+$      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
+    303001    303001    301301                             0         0          
+*SECTION_SOLID_TITLE
+UX-Bone-Phalanges-Cortical-L
+$    SECID|   ELFORM|
+    303001         2
+*PART
+UX-Soft-Torso-connect-Fat-Tissue-L
+$      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
+    305112    305112    405100              900001         0         0          
+*SECTION_SOLID_TITLE
+UX-Soft-Torso-connect-Fat-Tissue-L
+$    SECID|   ELFORM|
+    305112         1
+*PART
+UX-Soft-Inner-surface-Null-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    305111    305111    305101                             0         0          
+    305119    305119    305109                             0         0          
 *SECTION_SHELL_TITLE
-UX-Soft-Shoulder-connect-Skin-L
+UX-Soft-Inner-surface-Null-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    305111         9   0.83333        1.        1.         0         1
+    305119         2   0.83333        1.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
-        1.        1.        1.        1.        0.                  0.          
-$       B1|       B2|
-        0.       90.
-*PART_CONTACT
-UX-Soft-Shoulder-connect-Null-L
-$      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    305114    305114    305104                             0         0          
-$       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
-                                               0.1                    
-*SECTION_SHELL_TITLE
-UX-Soft-Shoulder-connect-Null-L
-$    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    305114         2   0.83333        2.        1.         0         0
-$       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
-        1.        1.        1.        1.        0.                  0.          
+       0.5       0.5       0.5       0.5        0.                  0.          
 *PART
 UX-Soft-UpperArm-Skin-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
@@ -366,11 +379,11 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 $       B1|       B2|
         0.       90.
 *PART
-UX-Soft-UpperArm-Tissue-L
+UX-Soft-UpperArm-Fat-Tissue-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    305122    305122    405100              616002         0         0          
+    305122    305122    305100              900001         0         0          
 *SECTION_SOLID_TITLE
-UX-Soft-UpperArm-Tissue-L
+UX-Soft-UpperArm-Fat-Tissue-L
 $    SECID|   ELFORM|
     305122         1
 *PART
@@ -398,25 +411,13 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 $       B1|       B2|
         0.       90.
 *PART
-UX-Soft-LowerArm-Tissue-L
+UX-Soft-LowerArm-Fat-Tissue-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    305142    305142    405100              616012         0         0          
+    305142    305142    305100              900001         0         0          
 *SECTION_SOLID_TITLE
-UX-Soft-LowerArm-Tissue-L
+UX-Soft-LowerArm-Fat-Tissue-L
 $    SECID|   ELFORM|
     305142         1
-*PART_CONTACT
-UX-Soft-LowerArm-Null-L
-$      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    305144    305144    305104                             0         0          
-$       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
-                                               0.1                    
-*SECTION_SHELL_TITLE
-UX-Soft-LowerArm-Null-L
-$    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    305144         2   0.83333        2.        1.         0         0
-$       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
-        1.        1.        1.        1.        0.                  0.          
 *PART
 UX-Soft-Hand-Skin-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
@@ -430,19 +431,65 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 $       B1|       B2|
         0.       90.
 *PART
-UX-Soft-Hand-Tissue-L
+UX-Soft-Hand-Fat-Tissue-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    305162    305162    305162               10001         0         0          
+    305162    305162    305100              900001         0         0          
 *SECTION_SOLID_TITLE
-UX-Soft-Hand-Tissue-L
+UX-Soft-Hand-Fat-Tissue-L
 $    SECID|   ELFORM|
     305162         1
+*PART
+UX-Soft-Finger-Fat-Tissue-L
+$      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
+    305172    305172    305172              900001         0         0          
+*SECTION_SOLID_TITLE
+UX-Soft-Finger-Fat-Tissue-L
+$    SECID|   ELFORM|
+    305172         1
+*PART
+UX-Soft-Subscapularis-Muscle-L
+$      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
+    305201    305201    506020              900001         0         0          
+*SECTION_SOLID_TITLE
+UX-Soft-Subscapularis-Muscle-L
+$    SECID|   ELFORM|
+    305201         1
+*PART
+UX-Muscle_subscapularis_nulls-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
+    305202    305202    305202                             0         0          
+*SECTION_SHELL_TITLE
+UX-Muscle_subscapularis_nulls-L
+$    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
+    305202         2     0.833        1.        1.         0         0
+$       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
+       0.5       0.5       0.5       0.5                            0.          
+*PART
+UX-Trapezoid-Ligament-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
+    306001    306001    306001                             0                    
+*SECTION_DISCRETE_TITLE
+UX-Trapezoid-Ligament-L
+$    SECID|      DRO|       KD|       V0|       CL|    FDefl|
+    306001         0                                        
+$      CDL|      TDL|
+                    
+*PART
+UX-Conoid-Ligament-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
+    306002    306002    306002                             0                    
+*SECTION_DISCRETE_TITLE
+UX-Conoid-Ligament-L
+$    SECID|      DRO|       KD|       V0|       CL|    FDefl|
+    306002         0                                        
+$      CDL|      TDL|
+                    
 *PART_CONTACT
 UX-Bone-Clavicle-Cortical-R
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    351101    351101    301101                 999         0         0          
+    351101    351101    301101              900003         0         0          
 $       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
-                                               0.1                    
+                                               0.5                    
 *SECTION_SHELL_TITLE
 UX-Bone-Clavicle-Cortical-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -452,7 +499,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 UX-Bone-Clavicle-Trabecular-R
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    351102    351102    301102               10001         0         0          
+    351102    351102    301102              900001         0         0          
 *SECTION_SOLID_TITLE
 UX-Bone-Clavicle-Trabecular-R
 $    SECID|   ELFORM|
@@ -484,9 +531,9 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART_CONTACT
 UX-Bone-Scapula-Cortical-R
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    351201    351201    351201                 999         0         0          
+    351201    351201    301202              900003         0         0          
 $       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
-                                               0.1                    
+                                               0.5                    
 *SECTION_SHELL_TITLE
 UX-Bone-Scapula-Cortical-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -496,7 +543,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART
 UX-Bone-Scapula-Trabecular-R
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    351202    351202    301201               10001         0         0          
+    351202    351202    301204              900001         0         0          
 *SECTION_SOLID_TITLE
 UX-Bone-Scapula-Trabecular-R
 $    SECID|   ELFORM|
@@ -526,13 +573,15 @@ $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
         4.        4.        4.        4.        0.                  0.          
 *PART
-UX-Bone-Humerus-distal-Cortical-R
-$      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    351301    351301    301301                             0         0          
-*SECTION_SOLID_TITLE
-UX-Bone-Humerus-distal-Cortical-R
-$    SECID|   ELFORM|
-    351301         2
+UX-Bone-Humerus-whole-Null-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
+    351309    351309    301309                             0         0          
+*SECTION_SHELL_TITLE
+UX-Bone-Humerus-whole-Null-R
+$    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
+    351309         2        1.        1.        1.         0         0
+$       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
+       0.5       0.5       0.5       0.5        0.                  0.          
 *PART
 UX-Bone-Humerus-proximal-Cortical-R
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
@@ -544,31 +593,21 @@ $    SECID|   ELFORM|
 *PART
 UX-Bone-Humerus-proximal-Trabecular-R
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    351312    351312    301302               10001         0         0          
+    351312    351312    301302              900001         0         0          
 *SECTION_SOLID_TITLE
 UX-Bone-Humerus-proximal-Trabecular-R
 $    SECID|   ELFORM|
     351312         1
 *PART
 UX-Bone-Humerus-proximal-Rigid-R
-$      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    351313    351313    301313               10001         0         0          
-*SECTION_SOLID_TITLE
-UX-Bone-Humerus-proximal-Rigid-R
-$    SECID|   ELFORM|
-    351313         1
-*PART_CONTACT
-UX-Bone-Humerus-proximal-Null-R
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    351314    351314    301300                             0         0          
-$       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
-                                               0.1                    
+    351313    351313    301313                             0         0          
 *SECTION_SHELL_TITLE
-UX-Bone-Humerus-proximal-Null-R
+UX-Bone-Humerus-proximal-Rigid-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    351314         2        1.        2.        1.         0         0
+    351313         2        1.        2.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
-        1.        1.        1.        1.        0.                  0.          
+       0.5       0.5       0.5       0.5                            0.          
 *PART
 UX-Bone-Humerus-shaft-Cortical-R
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
@@ -578,49 +617,53 @@ UX-Bone-Humerus-shaft-Cortical-R
 $    SECID|   ELFORM|
     351321         2
 *PART
+UX-Bone-Humerus-distal-Cortical-R
+$      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
+    351331    351331    301301                             0         0          
+*SECTION_SOLID_TITLE
+UX-Bone-Humerus-distal-Cortical-R
+$    SECID|   ELFORM|
+    351331         2
+*PART
 UX-Bone-Humerus-distal-Trabecular-R
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    351332    351332    301302               10001         0         0          
+    351332    351332    301302              900001         0         0          
 *SECTION_SOLID_TITLE
 UX-Bone-Humerus-distal-Trabecular-R
 $    SECID|   ELFORM|
     351332         1
 *PART
 UX-Bone-Humerus-distal-Rigid-R
-$      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    351333    351333    301313               10001         0         0          
-*SECTION_SOLID_TITLE
+$      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
+    351333    351333    301313                             0         0          
+*SECTION_SHELL_TITLE
 UX-Bone-Humerus-distal-Rigid-R
+$    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
+    351333         2        1.        2.        1.         0         0
+$       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
+       0.5       0.5       0.5       0.5                            0.          
+*PART
+UX-Bone-Ulna-whole-Null-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
+    351409    351409    301309                             0         0          
+*SECTION_SHELL_TITLE
+UX-Bone-Ulna-whole-Null-R
+$    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
+    351409         2        1.        1.        1.         0         0
+$       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
+       0.5       0.5       0.5       0.5        0.                  0.          
+*PART
+UX-Bone-Ulna-proximal-Cortical-R
+$      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
+    351411    351411    301301                             0         0          
+*SECTION_SOLID_TITLE
+UX-Bone-Ulna-proximal-Cortical-R
 $    SECID|   ELFORM|
-    351333         1
-*PART_CONTACT
-UX-Bone-Humerus-distal-Null-R
-$      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    351334    351334    301300                             0         0          
-$       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
-                                               0.1                    
-*SECTION_SHELL_TITLE
-UX-Bone-Humerus-distal-Null-R
-$    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    351334         2        1.        2.        1.         0         0
-$       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
-        1.        1.        1.        1.        0.                  0.          
-*PART_CONTACT
-UX-Bone-Ulna-proximal-Cortical-R
-$      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    351411    351411    301401                 999         0         0          
-$       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
-                                               0.1                    
-*SECTION_SHELL_TITLE
-UX-Bone-Ulna-proximal-Cortical-R
-$    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    351411        16        1.        5.        1.         0         0
-$       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
-      2.48      2.48      2.48      2.48        0.                  0.          
+    351411         2
 *PART
 UX-Bone-Ulna-proximal-Trabecular-R
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    351412    351412    301402               10001         0         0          
+    351412    351412    301302              900001         0         0          
 *SECTION_SOLID_TITLE
 UX-Bone-Ulna-proximal-Trabecular-R
 $    SECID|   ELFORM|
@@ -630,65 +673,71 @@ UX-Bone-Ulna-proximal-Rigid-R
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
     351413    351413    301413                             0         0          
 $       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
-                                               0.1                    
+                                               0.5                    
 *SECTION_SHELL_TITLE
 UX-Bone-Ulna-proximal-Rigid-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
     351413         2        1.        2.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
       2.48      2.48      2.48      2.48        0.                  0.          
-*PART_CONTACT
+*PART
 UX-Bone-Ulna-shaft-Cortical-R
-$      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    351421    351421    301401                 999         0         0          
-$       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
-                                               0.1                    
-*SECTION_SHELL_TITLE
+$      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
+    351421    351421    301301                             0         0          
+*SECTION_SOLID_TITLE
 UX-Bone-Ulna-shaft-Cortical-R
-$    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    351421        16        1.        5.        1.         0         0
-$       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
-      2.48      2.48      2.48      2.48        0.                  0.          
-*PART_CONTACT
+$    SECID|   ELFORM|
+    351421         2
+*PART
 UX-Bone-Ulna-distal-Cortical-R
-$      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    351431    351431    301401                 999         0         0          
-$       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
-                                               0.1                    
-*SECTION_SHELL_TITLE
+$      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
+    351431    351431    301301                             0         0          
+*SECTION_SOLID_TITLE
 UX-Bone-Ulna-distal-Cortical-R
-$    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    351431        16        1.        5.        1.         0         0
-$       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
-      2.48      2.48      2.48      2.48        0.                  0.          
+$    SECID|   ELFORM|
+    351431         2
+*PART
+UX-Bone-Ulna-distal-Trabecular-R
+$      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
+    351432    351432    301302              900001         0         0          
+*SECTION_SOLID_TITLE
+UX-Bone-Ulna-distal-Trabecular-R
+$    SECID|   ELFORM|
+    351432         1
 *PART_CONTACT
 UX-Bone-Ulna-distal-Rigid-R
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
     351433    351433    301413                             0         0          
 $       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
-                                               0.1                    
+                                               0.5                    
 *SECTION_SHELL_TITLE
 UX-Bone-Ulna-distal-Rigid-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
     351433         2        1.        2.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
       2.48      2.48      2.48      2.48        0.                  0.          
-*PART_CONTACT
-UX-Bone-Radius-proximal-Cortical-R
+*PART
+UX-Bone-Radius-whole-Null-R
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    351511    351511    301501                 999         0         0          
-$       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
-                                               0.1                    
+    351509    351509    301309                             0         0          
 *SECTION_SHELL_TITLE
-UX-Bone-Radius-proximal-Cortical-R
+UX-Bone-Radius-whole-Null-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    351511        16        1.        5.        1.         0         0
+    351509         2        1.        1.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
-      2.48      2.48      2.48      2.48        0.                  0.          
+       0.5       0.5       0.5       0.5        0.                  0.          
+*PART
+UX-Bone-Radius-proximal-Cortical-R
+$      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
+    351511    351511    301301                             0         0          
+*SECTION_SOLID_TITLE
+UX-Bone-Radius-proximal-Cortical-R
+$    SECID|   ELFORM|
+    351511         2
 *PART
 UX-Bone-Radius-proximal-Trabecular-R
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    351512    351512    301502               10001         0         0          
+    351512    351512    301302              900001         0         0          
 *SECTION_SOLID_TITLE
 UX-Bone-Radius-proximal-Trabecular-R
 $    SECID|   ELFORM|
@@ -698,43 +747,43 @@ UX-Bone-Radius-proximal-Rigid-R
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
     351513    351513    301503                             0         0          
 $       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
-                                               0.1                    
+                                               0.5                    
 *SECTION_SHELL_TITLE
 UX-Bone-Radius-proximal-Rigid-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
     351513         2        1.        2.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
       2.48      2.48      2.48      2.48        0.                  0.          
-*PART_CONTACT
+*PART
 UX-Bone-Radius-shaft-Cortical-R
-$      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    351521    351521    301501                 999         0         0          
-$       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
-                                               0.1                    
-*SECTION_SHELL_TITLE
+$      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
+    351521    351521    301301                             0         0          
+*SECTION_SOLID_TITLE
 UX-Bone-Radius-shaft-Cortical-R
-$    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    351521        16        1.        5.        1.         0         0
-$       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
-      2.48      2.48      2.48      2.48        0.                  0.          
-*PART_CONTACT
+$    SECID|   ELFORM|
+    351521         2
+*PART
 UX-Bone-Radius-distal-Cortical-R
-$      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    351531    351531    301501                 999         0         0          
-$       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
-                                               0.1                    
-*SECTION_SHELL_TITLE
+$      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
+    351531    351531    301301                             0         0          
+*SECTION_SOLID_TITLE
 UX-Bone-Radius-distal-Cortical-R
-$    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    351531        16        1.        5.        1.         0         0
-$       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
-      2.48      2.48      2.48      2.48        0.                  0.          
+$    SECID|   ELFORM|
+    351531         2
+*PART
+UX-Bone-Radius-distal-Trabecular-R
+$      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
+    351532    351532    301302              900001         0         0          
+*SECTION_SOLID_TITLE
+UX-Bone-Radius-distal-Trabecular-R
+$    SECID|   ELFORM|
+    351532         1
 *PART_CONTACT
 UX-Bone-Radius-distal-Rigid-R
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
     351533    351533    301503                             0         0          
 $       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
-                                               0.1                    
+                                               0.5                    
 *SECTION_SHELL_TITLE
 UX-Bone-Radius-distal-Rigid-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
@@ -742,29 +791,39 @@ $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
       2.48      2.48      2.48      2.48        0.                  0.          
 *PART
-UX-Soft-Shoulder-connect-Skin-R
+UX-Bone-Carpal-Rigid-R
+$      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
+    351603    351603    305163                             0         0          
+*SECTION_SOLID_TITLE
+UX-Bone-Carpal-Rigid-R
+$    SECID|   ELFORM|
+    351603         1
+*PART
+UX-Bone-Phalanges-Cortical-R
+$      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
+    353001    353001    301301                             0         0          
+*SECTION_SOLID_TITLE
+UX-Bone-Phalanges-Cortical-R
+$    SECID|   ELFORM|
+    353001         2
+*PART
+UX-Soft-Torso-connect-Fat-Tissue-R
+$      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
+    355112    355112    405100              900001         0         0          
+*SECTION_SOLID_TITLE
+UX-Soft-Torso-connect-Fat-Tissue-R
+$    SECID|   ELFORM|
+    355112         1
+*PART
+UX-Soft-Inner-surface-Null-R
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    355111    355111    305101                             0         0          
+    355119    355119    305109                             0         0          
 *SECTION_SHELL_TITLE
-UX-Soft-Shoulder-connect-Skin-R
+UX-Soft-Inner-surface-Null-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    355111         9   0.83333        1.        1.         0         1
+    355119         2   0.83333        1.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
-        1.        1.        1.        1.        0.                  0.          
-$       B1|       B2|
-        0.       90.
-*PART_CONTACT
-UX-Soft-Shoulder-connect-Null-R
-$      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    355114    355114    305104                             0         0          
-$       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
-                                               0.1                    
-*SECTION_SHELL_TITLE
-UX-Soft-Shoulder-connect-Null-R
-$    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    355114         2   0.83333        2.        1.         0         0
-$       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
-        1.        1.        1.        1.        0.                  0.          
+       0.5       0.5       0.5       0.5        0.                  0.          
 *PART
 UX-Soft-UpperArm-Skin-R
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
@@ -776,13 +835,13 @@ $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
         1.        1.        1.        1.        0.                  0.          
 $       B1|       B2|
-        0.       90.
+        0.      -90.
 *PART
-UX-Soft-UpperArm-Tissue-R
+UX-Soft-UpperArm-Fat-Tissue-R
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    355122    355122    405100              616002         0         0          
+    355122    355122    305100              900001         0         0          
 *SECTION_SOLID_TITLE
-UX-Soft-UpperArm-Tissue-R
+UX-Soft-UpperArm-Fat-Tissue-R
 $    SECID|   ELFORM|
     355122         1
 *PART
@@ -796,7 +855,7 @@ $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
         1.        1.        1.        1.        0.                  0.          
 $       B1|       B2|
-        0.       90.
+        0.      -90.
 *PART
 UX-Soft-LowerArm-Skin-R
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
@@ -808,27 +867,15 @@ $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
         1.        1.        1.        1.        0.                  0.          
 $       B1|       B2|
-        0.       90.
+        0.      -90.
 *PART
-UX-Soft-LowerArm-Tissue-R
+UX-Soft-LowerArm-Fat-Tissue-R
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    355142    355142    405100              616012         0         0          
+    355142    355142    305100              900001         0         0          
 *SECTION_SOLID_TITLE
-UX-Soft-LowerArm-Tissue-R
+UX-Soft-LowerArm-Fat-Tissue-R
 $    SECID|   ELFORM|
     355142         1
-*PART_CONTACT
-UX-Soft-LowerArm-Null-R
-$      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    355144    355144    305104                             0         0          
-$       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
-                                               0.1                    
-*SECTION_SHELL_TITLE
-UX-Soft-LowerArm-Null-R
-$    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    355144         2   0.83333        2.        1.         0         0
-$       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
-        1.        1.        1.        1.        0.                  0.          
 *PART
 UX-Soft-Hand-Skin-R
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
@@ -840,15 +887,61 @@ $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
         1.        1.        1.        1.        0.                  0.          
 $       B1|       B2|
-        0.       90.
+        0.      -90.
 *PART
-UX-Soft-Hand-Tissue-R
+UX-Soft-Hand-Fat-Tissue-R
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    355162    355162    305162               10001         0         0          
+    355162    355162    305100              900001         0         0          
 *SECTION_SOLID_TITLE
-UX-Soft-Hand-Tissue-R
+UX-Soft-Hand-Fat-Tissue-R
 $    SECID|   ELFORM|
     355162         1
+*PART
+UX-Soft-Finger-Fat-Tissue-R
+$      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
+    355172    355172    305172              900001         0         0          
+*SECTION_SOLID_TITLE
+UX-Soft-Finger-Fat-Tissue-R
+$    SECID|   ELFORM|
+    355172         1
+*PART
+UX-Soft-Subscapularis-Muscle-R
+$      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
+    355201    355201    506020              900001         0         0          
+*SECTION_SOLID_TITLE
+UX-Soft-Subscapularis-Muscle-R
+$    SECID|   ELFORM|
+    355201         1
+*PART
+UX-Muscle_subscapularis_nulls-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
+    355202    355202    305202                             0         0          
+*SECTION_SHELL_TITLE
+UX-Muscle_subscapularis_nulls-R
+$    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
+    355202         2     0.833        1.        1.         0         0
+$       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
+       0.5       0.5       0.5       0.5                            0.          
+*PART
+UX-Trapezoid-Ligament-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
+    356001    356001    306001                             0                    
+*SECTION_DISCRETE_TITLE
+UX-Trapezoid-Ligament-L
+$    SECID|      DRO|       KD|       V0|       CL|    FDefl|
+    356001         0                                        
+$      CDL|      TDL|
+                    
+*PART
+UX-Conoid-Ligament-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
+    356002    356002    306002                             0                    
+*SECTION_DISCRETE_TITLE
+UX-Conoid-Ligament-L
+$    SECID|      DRO|       KD|       V0|       CL|    FDefl|
+    356002         0                                        
+$      CDL|      TDL|
+                    
 $ANSA_COLOR;301101;SECTION_SHELL;.752941191196442;.160784319043159;.239215686917
 $305;1.;
 $ANSA_COLOR;301102;SECTION_SOLID;.764705896377563;.027450980618596;.160784319043
@@ -864,50 +957,60 @@ $227;1.;
 $ANSA_COLOR;301213;SECTION_SHELL;.694117665290833;0.;0.26274511218071;1.;
 $ANSA_COLOR;301223;SECTION_SHELL;.807843148708344;.023529412224889;.090196080505
 $848;1.;
-$ANSA_COLOR;301301;SECTION_SOLID;0.;.650980412960052;.674509823322296;1.;
+$ANSA_COLOR;301309;SECTION_SHELL;0.69803923368454;.133333340287209;.133333340287
+$209;.400000005960464;
 $ANSA_COLOR;301311;SECTION_SOLID;.996078431606293;.823529422283173;.905882358551
 $025;1.;
 $ANSA_COLOR;301312;SECTION_SOLID;.831372559070587;.737254917621613;.239215686917
 $305;1.;
-$ANSA_COLOR;301313;SECTION_SOLID;.513725519180298;.576470613479614;.556862771511
-$078;1.;
-$ANSA_COLOR;301314;SECTION_SHELL;.737254917621613;.070588238537312;.027450980618
-$596;1.;
+$ANSA_COLOR;301313;SECTION_SHELL;.717647075653076;.588235318660736;.694117665290
+$833;1.;
 $ANSA_COLOR;301321;SECTION_SOLID;0.91372549533844;.341176480054855;.658823549747
 $467;1.;
+$ANSA_COLOR;301331;SECTION_SOLID;0.;.650980412960052;.674509823322296;1.;
 $ANSA_COLOR;301332;SECTION_SOLID;.858823537826538;.901960790157318;.745098054409
 $027;1.;
-$ANSA_COLOR;301333;SECTION_SOLID;.682352960109711;.278431385755539;.733333349227
-$905;1.;
-$ANSA_COLOR;301334;SECTION_SHELL;.752941191196442;.003921568859369;.749019622802
-$734;1.;
-$ANSA_COLOR;301411;SECTION_SHELL;.819607853889465;0.18823529779911;.431372553110
-$123;1.;
-$ANSA_COLOR;301412;SECTION_SOLID;.949019610881805;.572549045085907;.937254905700
-$684;1.;
+$ANSA_COLOR;301333;SECTION_SHELL;.701960802078247;.078431375324726;.933333337306
+$976;1.;
+$ANSA_COLOR;301409;SECTION_SHELL;.964705884456635;.074509806931019;.129411771893
+$501;0.5;
+$ANSA_COLOR;301411;SECTION_SOLID;.545098066329956;.909803926944733;.945098042488
+$098;1.;
+$ANSA_COLOR;301412;SECTION_SOLID;1.;.250980406999588;.250980406999588;1.;
 $ANSA_COLOR;301413;SECTION_SHELL;.650980412960052;0.52549022436142;0.95686274766
 $922;1.;
-$ANSA_COLOR;301421;SECTION_SHELL;.937254905700684;.701960802078247;.015686275437
-$474;1.;
-$ANSA_COLOR;301431;SECTION_SHELL;.933333337306976;.909803926944733;.666666686534
-$882;1.;
+$ANSA_COLOR;301421;SECTION_SOLID;0.74117648601532;.945098042488098;.501960813999
+$176;1.;
+$ANSA_COLOR;301431;SECTION_SOLID;.894117653369904;.556862771511078;0.30588236451
+$149;1.;
+$ANSA_COLOR;301432;SECTION_SOLID;.639215707778931;.482352942228317;.560784339904
+$785;1.;
 $ANSA_COLOR;301433;SECTION_SHELL;0.91372549533844;.639215707778931;0.10196078568
 $697;1.;
-$ANSA_COLOR;301511;SECTION_SHELL;.909803926944733;.505882382392883;.882352948188
-$782;1.;
+$ANSA_COLOR;301509;SECTION_SHELL;.847058832645416;.749019622802734;.847058832645
+$416;0.5;
+$ANSA_COLOR;301511;SECTION_SOLID;.541176497936249;.596078455448151;.650980412960
+$052;1.;
 $ANSA_COLOR;301512;SECTION_SOLID;.533333361148834;.239215686917305;.125490203499
 $794;1.;
 $ANSA_COLOR;301513;SECTION_SHELL;0.82745099067688;.266666680574417;.529411792755
 $127;1.;
-$ANSA_COLOR;301521;SECTION_SHELL;0.52549022436142;.372549027204514;.207843139767
-$647;1.;
-$ANSA_COLOR;301531;SECTION_SHELL;.572549045085907;.635294139385223;.596078455448
-$151;1.;
+$ANSA_COLOR;301521;SECTION_SOLID;.772549033164978;0.69803923368454;.278431385755
+$539;1.;
+$ANSA_COLOR;301531;SECTION_SOLID;.960784316062927;.376470595598221;.149019613862
+$038;1.;
+$ANSA_COLOR;301532;SECTION_SOLID;.615686297416687;.439215689897537;.039215687662
+$363;1.;
 $ANSA_COLOR;301533;SECTION_SHELL;.619607865810394;.874509811401367;.278431385755
 $539;1.;
-$ANSA_COLOR;305111;SECTION_SHELL;1.;.894117653369904;.768627464771271;0.5;
-$ANSA_COLOR;305114;SECTION_SHELL;.650980412960052;.960784316062927;.196078434586
-$525;1.;
+$ANSA_COLOR;301603;SECTION_SOLID;.501960813999176;.325490206480026;.968627452850
+$342;1.;
+$ANSA_COLOR;303001;SECTION_SOLID;.764705896377563;.725490212440491;.278431385755
+$539;1.;
+$ANSA_COLOR;305112;SECTION_SOLID;.811764717102051;.933333337306976;.266666680574
+$417;1.;
+$ANSA_COLOR;305119;SECTION_SHELL;.701960802078247;.933333337306976;.227450981736
+$183;0.5;
 $ANSA_COLOR;305121;SECTION_SHELL;1.;.894117653369904;.768627464771271;0.5;
 $ANSA_COLOR;305122;SECTION_SOLID;.619607865810394;.207843139767647;.627451002597
 $809;1.;
@@ -915,84 +1018,115 @@ $ANSA_COLOR;305131;SECTION_SHELL;1.;.894117653369904;.768627464771271;0.5;
 $ANSA_COLOR;305141;SECTION_SHELL;1.;.894117653369904;.768627464771271;0.5;
 $ANSA_COLOR;305142;SECTION_SOLID;.705882370471954;.874509811401367;.819607853889
 $465;1.;
-$ANSA_COLOR;305144;SECTION_SHELL;.901960790157318;.933333337306976;.423529416322
-$708;1.;
 $ANSA_COLOR;305161;SECTION_SHELL;1.;.894117653369904;.768627464771271;0.5;
 $ANSA_COLOR;305162;SECTION_SOLID;.882352948188782;.215686276555061;.200000002980
 $232;1.;
-$ANSA_COLOR;351101;SECTION_SHELL;.560784339904785;.854901969432831;.941176474094
-$391;1.;
-$ANSA_COLOR;351102;SECTION_SOLID;.976470589637756;.427450984716415;.819607853889
-$465;1.;
-$ANSA_COLOR;351113;SECTION_SHELL;0.65490198135376;.537254929542542;0.23137255012
+$ANSA_COLOR;305172;SECTION_SOLID;0.87058824300766;.250980406999588;.047058824449
+$778;1.;
+$ANSA_COLOR;305201;SECTION_SOLID;.764705896377563;.498039215803146;.235294118523
+$598;1.;
+$ANSA_COLOR;305202;SECTION_SHELL;.772549033164978;.192156866192818;.643137276172
+$638;1.;
+$ANSA_COLOR;306001;SECTION_DISCRETE;.952941179275513;.560784339904785;.796078443
+$527222;1.;
+$ANSA_COLOR;306002;SECTION_DISCRETE;.733333349227905;.866666674613953;.407843142
+$747879;1.;
+$ANSA_COLOR;351101;SECTION_SHELL;.886274516582489;.164705887436867;.917647063732
+$147;1.;
+$ANSA_COLOR;351102;SECTION_SOLID;.521568655967712;.113725490868092;.317647069692
+$612;1.;
+$ANSA_COLOR;351113;SECTION_SHELL;0.52549022436142;.054901961237192;.192156866192
+$818;1.;
+$ANSA_COLOR;351123;SECTION_SHELL;.560784339904785;.486274510622025;0.10196078568
+$697;1.;
+$ANSA_COLOR;351201;SECTION_SHELL;.964705884456635;.282352954149246;.325490206480
+$026;1.;
+$ANSA_COLOR;351202;SECTION_SOLID;.945098042488098;.356862753629684;.176470592617
 $989;1.;
-$ANSA_COLOR;351123;SECTION_SHELL;.537254929542542;.498039215803146;.129411771893
-$501;1.;
-$ANSA_COLOR;351201;SECTION_SHELL;.811764717102051;.666666686534882;.925490200519
-$562;1.;
-$ANSA_COLOR;351202;SECTION_SOLID;.819607853889465;.533333361148834;.843137264251
-$709;1.;
-$ANSA_COLOR;351213;SECTION_SHELL;.894117653369904;.243137255311012;.015686275437
-$474;1.;
-$ANSA_COLOR;351223;SECTION_SHELL;.572549045085907;.670588254928589;.294117659330
-$368;1.;
-$ANSA_COLOR;351301;SECTION_SOLID;.635294139385223;.015686275437474;.200000002980
+$ANSA_COLOR;351213;SECTION_SHELL;.576470613479614;.470588237047195;.372549027204
+$514;1.;
+$ANSA_COLOR;351223;SECTION_SHELL;.780392169952393;.866666674613953;.200000002980
 $232;1.;
-$ANSA_COLOR;351311;SECTION_SOLID;.717647075653076;.396078437566757;0.34901961684
-$227;1.;
-$ANSA_COLOR;351312;SECTION_SOLID;.992156863212585;.552941203117371;.890196084976
-$196;1.;
-$ANSA_COLOR;351313;SECTION_SOLID;.772549033164978;0.43529412150383;.533333361148
-$834;1.;
-$ANSA_COLOR;351314;SECTION_SHELL;0.74117648601532;.890196084976196;0.95686274766
-$922;1.;
-$ANSA_COLOR;351321;SECTION_SOLID;.623529434204102;.184313729405403;.996078431606
-$293;1.;
-$ANSA_COLOR;351332;SECTION_SOLID;.760784327983856;.184313729405403;.945098042488
-$098;1.;
-$ANSA_COLOR;351333;SECTION_SOLID;.607843160629272;.780392169952393;.333333343267
+$ANSA_COLOR;351309;SECTION_SHELL;.788235306739807;.803921580314636;.498039215803
+$146;1.;
+$ANSA_COLOR;351311;SECTION_SOLID;.529411792755127;.788235306739807;.874509811401
+$367;1.;
+$ANSA_COLOR;351312;SECTION_SOLID;.780392169952393;.129411771893501;.941176474094
+$391;1.;
+$ANSA_COLOR;351313;SECTION_SHELL;.972549021244049;.905882358551025;.333333343267
 $441;1.;
-$ANSA_COLOR;351334;SECTION_SHELL;.819607853889465;.015686275437474;.937254905700
-$684;1.;
-$ANSA_COLOR;351411;SECTION_SHELL;.745098054409027;.992156863212585;.474509805440
-$903;1.;
-$ANSA_COLOR;351412;SECTION_SOLID;.501960813999176;.117647059261799;.772549033164
-$978;1.;
-$ANSA_COLOR;351413;SECTION_SHELL;.894117653369904;.501960813999176;.760784327983
-$856;1.;
-$ANSA_COLOR;351421;SECTION_SHELL;.619607865810394;0.34901961684227;.215686276555
-$061;1.;
-$ANSA_COLOR;351431;SECTION_SHELL;0.95686274766922;.380392163991928;.725490212440
-$491;1.;
-$ANSA_COLOR;351433;SECTION_SHELL;0.91372549533844;.482352942228317;.454901963472
-$366;1.;
-$ANSA_COLOR;351511;SECTION_SHELL;.694117665290833;.945098042488098;.713725507259
-$369;1.;
-$ANSA_COLOR;351512;SECTION_SOLID;.505882382392883;.074509806931019;.619607865810
+$ANSA_COLOR;351321;SECTION_SOLID;.592156887054443;.501960813999176;.619607865810
 $394;1.;
-$ANSA_COLOR;351513;SECTION_SHELL;.823529422283173;0.47843137383461;.298039227724
-$075;1.;
-$ANSA_COLOR;351521;SECTION_SHELL;.996078431606293;.207843139767647;.701960802078
-$247;1.;
-$ANSA_COLOR;351531;SECTION_SHELL;.992156863212585;.180392161011696;.470588237047
-$195;1.;
-$ANSA_COLOR;351533;SECTION_SHELL;.925490200519562;0.20392157137394;.984313726425
-$171;1.;
-$ANSA_COLOR;355111;SECTION_SHELL;1.;.894117653369904;.768627464771271;0.5;
-$ANSA_COLOR;355114;SECTION_SHELL;.537254929542542;.443137258291245;.580392181873
-$322;1.;
-$ANSA_COLOR;355121;SECTION_SHELL;1.;.894117653369904;.768627464771271;0.5;
-$ANSA_COLOR;355122;SECTION_SOLID;.811764717102051;.498039215803146;.027450980618
-$596;1.;
-$ANSA_COLOR;355131;SECTION_SHELL;1.;.894117653369904;.768627464771271;0.5;
-$ANSA_COLOR;355141;SECTION_SHELL;1.;.894117653369904;.768627464771271;0.5;
-$ANSA_COLOR;355142;SECTION_SOLID;.588235318660736;.019607843831182;.407843142747
-$879;1.;
-$ANSA_COLOR;355144;SECTION_SHELL;.533333361148834;.713725507259369;.901960790157
-$318;1.;
-$ANSA_COLOR;355161;SECTION_SHELL;1.;.894117653369904;.768627464771271;0.5;
-$ANSA_COLOR;355162;SECTION_SOLID;.635294139385223;.329411774873734;.490196079015
-$732;1.;
+$ANSA_COLOR;351331;SECTION_SOLID;.627451002597809;.039215687662363;.623529434204
+$102;1.;
+$ANSA_COLOR;351332;SECTION_SOLID;.588235318660736;.984313726425171;.709803938865
+$662;1.;
+$ANSA_COLOR;351333;SECTION_SHELL;.701960802078247;.847058832645416;.313725501298
+$904;1.;
+$ANSA_COLOR;351409;SECTION_SHELL;.874509811401367;.282352954149246;.168627455830
+$574;1.;
+$ANSA_COLOR;351411;SECTION_SOLID;.749019622802734;0.74117648601532;.007843137718
+$737;1.;
+$ANSA_COLOR;351412;SECTION_SOLID;.811764717102051;.407843142747879;.776470601558
+$685;1.;
+$ANSA_COLOR;351413;SECTION_SHELL;.752941191196442;.003921568859369;.749019622802
+$734;1.;
+$ANSA_COLOR;351421;SECTION_SOLID;.588235318660736;.662745118141174;.839215695858
+$002;1.;
+$ANSA_COLOR;351431;SECTION_SOLID;.992156863212585;.039215687662363;.674509823322
+$296;1.;
+$ANSA_COLOR;351432;SECTION_SOLID;.882352948188782;.058823529630899;.823529422283
+$173;1.;
+$ANSA_COLOR;351433;SECTION_SHELL;.917647063732147;.968627452850342;.243137255311
+$012;1.;
+$ANSA_COLOR;351509;SECTION_SHELL;0.61176472902298;.635294139385223;.960784316062
+$927;1.;
+$ANSA_COLOR;351511;SECTION_SOLID;.498039215803146;.298039227724075;.843137264251
+$709;1.;
+$ANSA_COLOR;351512;SECTION_SOLID;.764705896377563;.090196080505848;.121568627655
+$506;1.;
+$ANSA_COLOR;351513;SECTION_SHELL;.517647087574005;.380392163991928;.639215707778
+$931;1.;
+$ANSA_COLOR;351521;SECTION_SOLID;0.5686274766922;.109803922474384;.1098039224743
+$84;1.;
+$ANSA_COLOR;351531;SECTION_SOLID;.705882370471954;.631372570991516;.545098066329
+$956;1.;
+$ANSA_COLOR;351532;SECTION_SOLID;.537254929542542;.882352948188782;.819607853889
+$465;1.;
+$ANSA_COLOR;351533;SECTION_SHELL;0.87058824300766;.180392161011696;.647058844566
+$345;1.;
+$ANSA_COLOR;351603;SECTION_SOLID;0.95686274766922;.450980395078659;.121568627655
+$506;1.;
+$ANSA_COLOR;353001;SECTION_SOLID;0.7843137383461;.278431385755539;.0117647061124
+$44;1.;
+$ANSA_COLOR;355112;SECTION_SOLID;.603921592235565;.752941191196442;.211764708161
+$354;1.;
+$ANSA_COLOR;355119;SECTION_SHELL;.627451002597809;.321568638086319;.176470592617
+$989;0.5;
+$ANSA_COLOR;355121;SECTION_SHELL;.658823549747467;.584313750267029;0.20392157137
+$394;1.;
+$ANSA_COLOR;355122;SECTION_SOLID;.909803926944733;0.87058824300766;.721568644046
+$783;1.;
+$ANSA_COLOR;355131;SECTION_SHELL;.823529422283173;.921568632125854;.113725490868
+$092;1.;
+$ANSA_COLOR;355141;SECTION_SHELL;.701960802078247;.427450984716415;.925490200519
+$562;1.;
+$ANSA_COLOR;355142;SECTION_SOLID;.725490212440491;.403921574354172;.047058824449
+$778;1.;
+$ANSA_COLOR;355161;SECTION_SHELL;.949019610881805;.878431379795074;.662745118141
+$174;1.;
+$ANSA_COLOR;355162;SECTION_SOLID;.576470613479614;.470588237047195;.372549027204
+$514;1.;
+$ANSA_COLOR;355172;SECTION_SOLID;.615686297416687;.266666680574417;.545098066329
+$956;1.;
+$ANSA_COLOR;355201;SECTION_SOLID;.725490212440491;.333333343267441;.647058844566
+$345;1.;
+$ANSA_COLOR;355202;SECTION_SHELL;.725490212440491;.403921574354172;.047058824449
+$778;1.;
+$ANSA_COLOR;356001;SECTION_DISCRETE;.725490212440491;0.34901961684227;.498039215
+$803146;1.;
+$ANSA_COLOR;356002;SECTION_DISCRETE;.533333361148834;.886274516582489;.396078437
+$566757;1.;
 $ANSA_USER_ATTRIBUTES;SECTION_SHELL;User/cad_material;TEXT;RW;YES;;;
 $ANSA_USER_ATTRIBUTES;SECTION_SHELL;User/cad_thickness;TEXT;RW;YES;;;
 $ANSA_USER_ATTRIBUTES;SECTION_SOLID;User/cad_material;TEXT;RW;YES;;;

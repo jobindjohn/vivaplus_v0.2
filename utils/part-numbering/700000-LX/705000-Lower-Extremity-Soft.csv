@@ -13,7 +13,10 @@
 ,,,,17,,LowerLeg-Interosseous,
 ,,,,18,,Ankle,
 ,,,,19,,Foot,
+,,,,20,,Toe,
 ,,,,,1,Skin,
-,,,,,2,Tissue,
-,,,,,3,Rigid,
-,,,,,4,Null,
+,,,,,2,Soft-Tissue,
+,,,,,3,Muscle-Tissue,
+,,,,,8,Rigid,
+,,,,,9,Null,
+

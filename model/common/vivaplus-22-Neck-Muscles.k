@@ -1,23 +1,31 @@
 $
-$ANSA_VERSION;20.1.0;
+$ANSA_VERSION;22.0.0;
 $
 $
-$ file created by  A N S A  Sun Dec 13 20:26:06 2020
+$ file created by  A N S A  Fri Feb 18 16:05:05 2022
 $
 $ output from :
 $
-$ M:/VSI-P/010_RD/17_EU_VIRTUAL/020_Workpackage/WP2_HBM/T2_2_Seated OS-HBM 50F, 
-$ OS-HBM 50M, Active-HBM and validation/LS-DYNA_Files/2020-12-13/vivaplus-50F_v0
-$ -2-1-j-FixJJ-5.ansa
+$ C:/Users/jobinj/Box/vivaplus-share/VIVA-Plus-Meshing-Shared-Folder/v0_3/vivapl
+$ us-50F_v030_220218.ansa
 $
-$ANSA_USER_ATTRIBUTES;vivaplus-22-Neck-Muscles.k;INCLUDE;DM/IO Index;TEXT;6;DM/S
-$tatus;TEXT;WIP;
+$ Settings :
+$
+$ Output format : 971R9
+$
+$ Output : All
+$
+$ANSA_USER_ATTRIBUTES;vivaplus-22-Neck-Muscles.k;INCLUDE;DM/Status;TEXT;WIP;DM/I
+$O Index;TEXT;;
 $
 $
 $
-*KEYWORD
+$
+$
+$
 $ANSA_COLOR;vivaplus-22-Neck-Muscles.k;INCLUDE;.552941203117371;0.5686274766922;
 $.650980412960052;1.;
+*KEYWORD
 *PART_AVERAGED
 NE-Muscle-Omohyoid-Head-Scap-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|         |     TMID|
@@ -3406,7 +3414,7 @@ DEFINE_CURVE_2008020
                   0.                  0.
               10000.                  0.
 *SET_BEAM_TITLE
-Neck muscles
+NE-Neck-muscles
     205000                                        
    2116298   2116299   2116300   2116301   2116302   2116303   2116304   2116305
    2116306   2116307   2116308   2116309   2116310   2116311   2116312   2116313
@@ -4202,4 +4210,10 @@ $ANSA_COLOR;218628;MAT156 MAT_MUSCLE;.690196096897125;.596078455448151;.03529411
 $9268656;1.;
 $ANSA_COLOR;218629;MAT156 MAT_MUSCLE;.701960802078247;.466666668653488;0.9568627
 $4766922;1.;
+$ANSA_PART;GROUP;ID;28;NAME;vivaplus-constraineds-contacts.k;PID_OFFSET;0;COLOR;
+$134;85;70;0;IS_COLOR_ACTIVE;1;PART_TYPE;Undefined;ATTRIBUTES;2;DM/File Type;ANS
+$A;DM/Status;WIP;CONTAINS;ANSAPART;24;
+$ANSA_PART;PART;ID;24;NAME;NO PID ELMNTs@3;STUDY_VERSION;0;PID_OFFSET;0;COLOR;25
+$2;221;153;0;IS_COLOR_ACTIVE;1;PART_TYPE;Undefined;ATTRIBUTES;2;DM/File Type;ANS
+$A;DM/Status;WIP;CONTAINS;SEGMENT;6997-7330,50157-55768;
 *END

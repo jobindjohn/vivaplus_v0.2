@@ -1,17 +1,22 @@
 $
-$ANSA_VERSION;20.1.0;
+$ANSA_VERSION;22.0.0;
 $
 $
-$ file created by  A N S A  Sun Dec 20 15:55:40 2020
+$ file created by  A N S A  Fri Feb 18 16:05:01 2022
 $
 $ output from :
 $
-$ //129.27.213.85/vsi-p/010_RD/17_EU_VIRTUAL/020_Workpackage/WP2_HBM/T2_2_Seated
-$  OS-HBM 50F, OS-HBM 50M, Active-HBM and validation/2_2_1_Upgrading the OS-HBM 
-$ 50F/vivaplus-50F_v0-2-1-m.ansa
+$ C:/Users/jobinj/Box/vivaplus-share/VIVA-Plus-Meshing-Shared-Folder/v0_3/vivapl
+$ us-50F_v030_220218.ansa
 $
-$ANSA_USER_ATTRIBUTES;vivaplus-joints.k;INCLUDE;DM/IO Index;TEXT;4;DM/Status;TEX
-$T;WIP;
+$ Settings :
+$
+$ Output format : 971R9
+$
+$ Output : All
+$
+$ANSA_USER_ATTRIBUTES;vivaplus-joints.k;INCLUDE;DM/Status;TEXT;WIP;DM/IO Index;T
+$EXT;;
 $
 $
 $
@@ -22,1114 +27,570 @@ $ANSA_COLOR;vivaplus-joints.k;INCLUDE;.713725507259369;.592156887054443;.2666666
 $80574417;1.;
 *KEYWORD
 *CONSTRAINED_JOINT_SPHERICAL_ID
-   1010473sternoclavicular joint                                                
-   1000003   1000002                                                0.        0.
+   3091110UX-Sternoclavicular-L                                                 
+   3091110   4093500                                                0.        0.
 *CONSTRAINED_JOINT_SPHERICAL_ID
-   1010474Acroniumclavicular-Joint                                              
-   1000001   1000000                                                0.        0.
+   3091220UX-Glenohumeral-L                                                     
+   3091220   3091310                                                0.        0.
 *CONSTRAINED_JOINT_SPHERICAL_ID
-   1010475Ulnar-Hand                                                            
-   3152212   9000010                                                0.        0.
+   3091430UX-Ulnar-Carpal-L                                                     
+   3091430   3091602                                                0.        0.
 *CONSTRAINED_JOINT_SPHERICAL_ID
-   1010476Hand-Radius                                                           
-   3152211   1000004                                                0.        0.
+   3091530UX-Radius-Carpal-L                                                    
+   3091530   3091601                                                0.        0.
 *CONSTRAINED_JOINT_SPHERICAL_ID
-   1010477sternoclavicular joint                                                
-   9100017   9100016                                                0.        0.
+   3591110UX-Sternoclavicular-R                                                 
+   4593500   3591110                                                0.        0.
 *CONSTRAINED_JOINT_SPHERICAL_ID
-   1010478Acroniumclavicular-Joint                                              
-   9100015   9100014                                                0.        0.
+   3591430UX-Ulna-Carpal-R                                                      
+   3591430   3591602                                                0.        0.
 *CONSTRAINED_JOINT_SPHERICAL_ID
-   1010479Ulnar-Hand                                                            
-   3190630   9100019                                                0.        0.
+   3591530UX-Radius-Carpal-L                                                    
+   3591530   3591601                                                0.        0.
 *CONSTRAINED_JOINT_SPHERICAL_ID
-   1010480Hand-Radius                                                           
-   3190629   9100018                                                0.        0.
-*CONSTRAINED_JOINT_STIFFNESS_GENERALIZED_TITLE
-UX_Radius-Hand-R
-    301219    351533    355162   9500014   9500026          
-                                                            
-        0.        0.        0.        0.        0.        0.
-        0.        0.        0.        0.        0.        0.
-*CONSTRAINED_JOINT_STIFFNESS_GENERALIZED_TITLE
-UX_Ulna-Hand-R
-    301220    351433    355162   9500013   9500026          
-                                                            
-        0.        0.        0.        0.        0.        0.
-        0.        0.        0.        0.        0.        0.
-*CONSTRAINED_JOINT_STIFFNESS_GENERALIZED_TITLE
-UX_Sternoclavicular-R
-    301221    453503    351113   8150022   8150022          
-                                                            
-        0.        0.        0.        0.        0.        0.
-        0.        0.        0.        0.        0.        0.
-*CONSTRAINED_JOINT_STIFFNESS_GENERALIZED_TITLE
-UX_Shoulder-R
-    301222    351223    351313   9500011   9500012          
-                                                            
-        0.        0.        0.        0.        0.        0.
-        0.        0.        0.        0.        0.        0.
-*CONSTRAINED_JOINT_STIFFNESS_GENERALIZED_TITLE
-UX_Scapulaclavicular-R
-    301223    351213    351123   9500024   9500024          
-                                                            
-        0.        0.        0.        0.        0.        0.
-        0.        0.        0.        0.        0.        0.
+   3637534UX-Glenohumeral-R                                                     
+   3591220   3591310                                                0.        0.
 *CONSTRAINED_JOINT_STIFFNESS_GENERALIZED_TITLE
 UX_Scapulaclavicular-L
-    301224    301213    301123   7500030   7500030          
+    301224    301213    301123   3091120   3091120          
                                                             
         0.        0.        0.        0.        0.        0.
         0.        0.        0.        0.        0.        0.
 *CONSTRAINED_JOINT_STIFFNESS_GENERALIZED_TITLE
 UX_Shoulder-L
-    301225    301223    301313    301223    301313          
+    301225    301223    301313   3190637   3091310          
                                                             
         0.        0.        0.        0.        0.        0.
         0.        0.        0.        0.        0.        0.
 *CONSTRAINED_JOINT_STIFFNESS_GENERALIZED_TITLE
 UX_Sternoclavicular-L
-    301226    403503    301113   8250022   8250022          
+    301226    403503    301113   3091121   3091121          
                                                             
         0.        0.        0.        0.        0.        0.
         0.        0.        0.        0.        0.        0.
 *CONSTRAINED_JOINT_STIFFNESS_GENERALIZED_TITLE
-UX_Ulna-Hand
-    301227    301433    305162    301433   9500007          
+UX-Radius-Hand-L
+    301228    301533    301603   3091600   3112836          
                                                             
         0.        0.        0.        0.        0.        0.
         0.        0.        0.        0.        0.        0.
 *CONSTRAINED_JOINT_STIFFNESS_GENERALIZED_TITLE
-UX_Radius-Hand
-    301228    301533    305162    301530   9500007          
-                                                            
-        0.        0.        0.        0.        0.        0.
-        0.        0.        0.        0.        0.        0.
-*CONSTRAINED_JOINT_STIFFNESS_GENERALIZED
-   3500501    403015    401011   3500501   3500501          
-   3500501   3500502   3500503                              
-        0.        0.        0.        0.        0.        0.
-        0.        0.        0.        0.        0.        0.
-*CONSTRAINED_JOINT_STIFFNESS_GENERALIZED
-   3500502    403025    401021   3500502   3500502          
-   3500501   3500502   3500503                              
-        0.        0.        0.        0.        0.        0.
-        0.        0.        0.        0.        0.        0.
-*CONSTRAINED_JOINT_STIFFNESS_GENERALIZED
-   3500503    403035    401031   3500503   3500503          
-   3500501   3500502   3500503                              
-        0.        0.        0.        0.        0.        0.
-        0.        0.        0.        0.        0.        0.
-*CONSTRAINED_JOINT_STIFFNESS_GENERALIZED
-   3500504    403045    401041   3500504   3500504          
-   3500501   3500502   3500503                              
-        0.        0.        0.        0.        0.        0.
-        0.        0.        0.        0.        0.        0.
-*CONSTRAINED_JOINT_STIFFNESS_GENERALIZED
-   3500505    403055    401051   3500505   3500505          
-   3500501   3500502   3500503                              
-        0.        0.        0.        0.        0.        0.
-        0.        0.        0.        0.        0.        0.
-*CONSTRAINED_JOINT_STIFFNESS_GENERALIZED
-   3500506    403065    401061   3500506   3500506          
-   3500501   3500502   3500503                              
-        0.        0.        0.        0.        0.        0.
-        0.        0.        0.        0.        0.        0.
-*CONSTRAINED_JOINT_STIFFNESS_GENERALIZED
-   3500507    403075    401071   3500507   3500507          
-   3500501   3500502   3500503                              
-        0.        0.        0.        0.        0.        0.
-        0.        0.        0.        0.        0.        0.
-*CONSTRAINED_JOINT_STIFFNESS_GENERALIZED
-   3500508    403085    401081   3500508   3500508          
-   3500501   3500502   3500503                              
-        0.        0.        0.        0.        0.        0.
-        0.        0.        0.        0.        0.        0.
-*CONSTRAINED_JOINT_STIFFNESS_GENERALIZED
-   3500509    403095    401091   3500509   3500509          
-   3500501   3500502   3500503                              
-        0.        0.        0.        0.        0.        0.
-        0.        0.        0.        0.        0.        0.
-*CONSTRAINED_JOINT_STIFFNESS_GENERALIZED
-   3500510    403105    401101   3500510   3500510          
-   3500501   3500502   3500503                              
-        0.        0.        0.        0.        0.        0.
-        0.        0.        0.        0.        0.        0.
-*CONSTRAINED_JOINT_STIFFNESS_GENERALIZED
-   3500511    403115    401111   3500511   3500511          
-   3500501   3500502   3500503                              
-        0.        0.        0.        0.        0.        0.
-        0.        0.        0.        0.        0.        0.
-*CONSTRAINED_JOINT_STIFFNESS_GENERALIZED
-   3500512    403125    401121   3500512   3500512          
-   3500501   3500502   3500503                              
-        0.        0.        0.        0.        0.        0.
-        0.        0.        0.        0.        0.        0.
-*CONSTRAINED_JOINT_STIFFNESS_GENERALIZED
-   3501501    453015    401011   3501501   3501501          
-   3501501   3501502   3501503                              
-        0.        0.        0.        0.        0.        0.
-        0.        0.        0.        0.        0.        0.
-*CONSTRAINED_JOINT_STIFFNESS_GENERALIZED
-   3501502    453025    401021   3501502   3501502          
-   3501501   3501502   3501503                              
-        0.        0.        0.        0.        0.        0.
-        0.        0.        0.        0.        0.        0.
-*CONSTRAINED_JOINT_STIFFNESS_GENERALIZED
-   3501503    453035    401031   3501503   3501503          
-   3501501   3501502   3501503                              
-        0.        0.        0.        0.        0.        0.
-        0.        0.        0.        0.        0.        0.
-*CONSTRAINED_JOINT_STIFFNESS_GENERALIZED
-   3501504    453045    401041   3501504   3501504          
-   3501501   3501502   3501503                              
-        0.        0.        0.        0.        0.        0.
-        0.        0.        0.        0.        0.        0.
-*CONSTRAINED_JOINT_STIFFNESS_GENERALIZED
-   3501505    453055    401051   3501505   3501505          
-   3501501   3501502   3501503                              
-        0.        0.        0.        0.        0.        0.
-        0.        0.        0.        0.        0.        0.
-*CONSTRAINED_JOINT_STIFFNESS_GENERALIZED
-   3501506    453065    401061   3501506   3501506          
-   3501501   3501502   3501503                              
-        0.        0.        0.        0.        0.        0.
-        0.        0.        0.        0.        0.        0.
-*CONSTRAINED_JOINT_STIFFNESS_GENERALIZED
-   3501507    453075    401071   3501507   3501507          
-   3501501   3501502   3501503                              
-        0.        0.        0.        0.        0.        0.
-        0.        0.        0.        0.        0.        0.
-*CONSTRAINED_JOINT_STIFFNESS_GENERALIZED
-   3501508    453085    401081   3501508   3501508          
-   3501501   3501502   3501503                              
-        0.        0.        0.        0.        0.        0.
-        0.        0.        0.        0.        0.        0.
-*CONSTRAINED_JOINT_STIFFNESS_GENERALIZED
-   3501509    453095    401091   3501509   3501509          
-   3501501   3501502   3501503                              
-        0.        0.        0.        0.        0.        0.
-        0.        0.        0.        0.        0.        0.
-*CONSTRAINED_JOINT_STIFFNESS_GENERALIZED
-   3501510    453105    401101   3501510   3501510          
-   3501501   3501502   3501503                              
-        0.        0.        0.        0.        0.        0.
-        0.        0.        0.        0.        0.        0.
-*CONSTRAINED_JOINT_STIFFNESS_GENERALIZED
-   3501511    453115    401111   3501511   3501511          
-   3501501   3501502   3501503                              
-        0.        0.        0.        0.        0.        0.
-        0.        0.        0.        0.        0.        0.
-*CONSTRAINED_JOINT_STIFFNESS_GENERALIZED
-   3501512    453125    401121   3501512   3501512          
-   3501501   3501502   3501503                              
-        0.        0.        0.        0.        0.        0.
-        0.        0.        0.        0.        0.        0.
-*CONSTRAINED_JOINT_STIFFNESS_GENERALIZED_TITLE
-LX_Ankle
-   9000000    701433    704113    701460    701460          
+UX_Scapulaclavicular-R
+    351213    351213    351123   3591210   3591210          
                                                             
         0.        0.        0.        0.        0.        0.
         0.        0.        0.        0.        0.        0.
 *CONSTRAINED_JOINT_STIFFNESS_GENERALIZED_TITLE
-LX_Ankle
-   9000070    751433    754113   9500018   9500018          
+UX_Shoulder-R
+    351223    351223    351313   3690637   3591120          
                                                             
         0.        0.        0.        0.        0.        0.
         0.        0.        0.        0.        0.        0.
-*CONSTRAINED_EXTRA_NODES_NODE
-$ANSA_ID;16;
-    401011   4115013
-$ANSA_ID;17;
-    401011   4115481
-$ANSA_ID;18;
-    401011   4115012
-$ANSA_ID;19;
-    401021   4115011
-$ANSA_ID;20;
-    403015   4115552
-$ANSA_ID;21;
-    403015   4115551
-$ANSA_ID;22;
-    403015   4115550
-$ANSA_ID;23;
-    401011   4115484
-$ANSA_ID;24;
-    453015   4115549
-$ANSA_ID;25;
-    453015   4115548
-$ANSA_ID;26;
-    453015   4115558
-$ANSA_ID;27;
-    401011   4115489
-$ANSA_ID;28;
-    401021   4115488
-$ANSA_ID;29;
-    401021   4115487
-$ANSA_ID;30;
-    401021   4115014
-$ANSA_ID;31;
-    401031   4115486
-$ANSA_ID;32;
-    403025   4115557
-$ANSA_ID;33;
-    403025   4115556
-$ANSA_ID;34;
-    403025   4115555
-$ANSA_ID;35;
-    401021   4115485
-$ANSA_ID;36;
-    453025   4115554
-$ANSA_ID;37;
-    453025   4115553
-$ANSA_ID;38;
-    453025   4115547
-$ANSA_ID;39;
-    401021   4115483
-$ANSA_ID;40;
-    401031   4115482
-$ANSA_ID;41;
-    401031   4115493
-$ANSA_ID;42;
-    401031   4115016
-$ANSA_ID;43;
-    401041   4115494
-$ANSA_ID;44;
-    403035   4115562
-$ANSA_ID;45;
-    403035   4115561
-$ANSA_ID;46;
-    403035   4115564
-$ANSA_ID;47;
-    401031   4115495
-$ANSA_ID;48;
-    453035   4115563
-$ANSA_ID;49;
-    453035   4115566
-$ANSA_ID;50;
-    453035   4115565
-$ANSA_ID;51;
-    401031   4115496
-$ANSA_ID;52;
-    401041   4115492
-$ANSA_ID;53;
-    401041   4115491
-$ANSA_ID;54;
-    401041   4115015
-$ANSA_ID;55;
-    401051   4115490
-$ANSA_ID;56;
-    403045   4115560
-$ANSA_ID;57;
-    403045   4115559
-$ANSA_ID;58;
-    403045   4115567
-$ANSA_ID;59;
-    401041   4115501
-$ANSA_ID;60;
-    453045   4115570
-$ANSA_ID;61;
-    453045   4115569
-$ANSA_ID;62;
-    453045   4115568
-$ANSA_ID;63;
-    401041   4115500
-$ANSA_ID;64;
-    401051   4115499
-$ANSA_ID;65;
-    401051   4115498
-$ANSA_ID;66;
-    401051   4115017
-$ANSA_ID;67;
-    401061   4115497
-$ANSA_ID;68;
-    403055   4115571
-$ANSA_ID;69;
-    403055   4115573
-$ANSA_ID;70;
-    403055   4115572
-$ANSA_ID;71;
-    401051   4115502
-$ANSA_ID;72;
-    453055   4104190
-$ANSA_ID;73;
-    453055   4115520
-$ANSA_ID;74;
-    453055   4115519
-$ANSA_ID;75;
-    401051   4115457
-$ANSA_ID;76;
-    401061   4115456
-$ANSA_ID;77;
-    401061   4115455
-$ANSA_ID;78;
-    401061   4115007
-$ANSA_ID;79;
-    401071   4115454
-$ANSA_ID;80;
-    403065   4115518
-$ANSA_ID;81;
-    403065   4115517
-$ANSA_ID;82;
-    403065   4115516
-$ANSA_ID;83;
-    401061   4115453
-$ANSA_ID;84;
-    453065   4115515
-$ANSA_ID;85;
-    453065   4115508
-$ANSA_ID;86;
-    453065   4115507
-$ANSA_ID;87;
-    401061   4115401
-$ANSA_ID;88;
-    401071   4115400
-$ANSA_ID;89;
-    401071   4115399
-$ANSA_ID;90;
-    401071   4115005
-$ANSA_ID;91;
-    401081   4115398
-$ANSA_ID;92;
-    403075   4115506
-$ANSA_ID;93;
-    403075   4115505
-$ANSA_ID;94;
-    403075   4115504
-$ANSA_ID;95;
-    401071   4115018
-$ANSA_ID;96;
-    453075   4115503
-$ANSA_ID;97;
-    453075   4115534
-$ANSA_ID;98;
-    453075   4115533
-$ANSA_ID;99;
-    401071   4115468
-$ANSA_ID;100;
-    401081   4115467
-$ANSA_ID;101;
-    401081   4115466
-$ANSA_ID;102;
-    401081   4115008
-$ANSA_ID;103;
-    401091   4115465
-$ANSA_ID;104;
-    403085   4115532
-$ANSA_ID;105;
-    403085   4115531
-$ANSA_ID;106;
-    403085   4115530
-$ANSA_ID;107;
-    401081   4115464
-$ANSA_ID;108;
-    453085   4115529
-$ANSA_ID;109;
-    453085   4115528
-$ANSA_ID;110;
-    453085   4115527
-$ANSA_ID;111;
-    401081   4115463
-$ANSA_ID;112;
-    401091   4115462
-$ANSA_ID;113;
-    401091   4115461
-$ANSA_ID;114;
-    401091   4115460
-$ANSA_ID;115;
-    401101   4115459
-$ANSA_ID;116;
-    403095   4115526
-$ANSA_ID;117;
-    403095   4115525
-$ANSA_ID;118;
-    403095   4115524
-$ANSA_ID;119;
-    401091   4115458
-$ANSA_ID;120;
-    453095   4115523
-$ANSA_ID;121;
-    453095   4115522
-$ANSA_ID;122;
-    453095   4115521
-$ANSA_ID;123;
-    401091   4115480
-$ANSA_ID;124;
-    401101   4115479
-$ANSA_ID;125;
-    401101   4115478
-$ANSA_ID;126;
-    401101   4115010
-$ANSA_ID;127;
-    401111   4115477
-$ANSA_ID;128;
-    403105   4115546
-$ANSA_ID;129;
-    403105   4115545
-$ANSA_ID;130;
-    403105   4115544
-$ANSA_ID;131;
-    401101   4115476
-$ANSA_ID;132;
-    453105   4115543
-$ANSA_ID;133;
-    453105   4115542
-$ANSA_ID;134;
-    453105   4115541
-$ANSA_ID;135;
-    401101   4115475
-$ANSA_ID;136;
-    401111   4115474
-$ANSA_ID;137;
-    401111   4115473
-$ANSA_ID;138;
-    401111   4115009
-$ANSA_ID;139;
-    401121   4115472
-$ANSA_ID;140;
-    403115   4115540
-$ANSA_ID;141;
-    403115   4115539
-$ANSA_ID;142;
-    403115   4115538
-$ANSA_ID;143;
-    401111   4115471
-$ANSA_ID;144;
-    453115   4115537
-$ANSA_ID;145;
-    453115   4115536
-$ANSA_ID;146;
-    453115   4115535
-$ANSA_ID;147;
-    401111   4115470
-$ANSA_ID;148;
-    401121   4115469
-$ANSA_ID;149;
-    401121   4115404
-$ANSA_ID;150;
-    401121   4115006
-$ANSA_ID;151;
-    501011   5108926
-$ANSA_ID;152;
-    403125   4115514
-$ANSA_ID;153;
-    403125   4115513
-$ANSA_ID;154;
-    403125   4115512
-$ANSA_ID;155;
-    401121   4115403
-$ANSA_ID;156;
-    453125   4115511
-$ANSA_ID;157;
-    453125   4115510
-$ANSA_ID;158;
-    453125   4115509
-$ANSA_ID;159;
-    401121   4115402
-$ANSA_ID;160;
-    501011   5108925
-$ANSA_ID;161;
-    501011   5108924
-$ANSA_ID;162;
-    501011   5101304
-$ANSA_ID;163;
-    501021   5108923
-$ANSA_ID;164;
-    501021   5108922
-$ANSA_ID;165;
-    501021   5108921
-$ANSA_ID;166;
-    501021   5108920
-$ANSA_ID;167;
-    501031   5108919
-$ANSA_ID;168;
-    501031   5108918
-$ANSA_ID;169;
-    501031   5108917
-$ANSA_ID;170;
-    501031   5101303
-$ANSA_ID;171;
-    501041   5108916
-$ANSA_ID;172;
-    501041   5108915
-$ANSA_ID;173;
-    501041   5108914
-$ANSA_ID;174;
-    501041   5108913
-$ANSA_ID;175;
-    501051   5108929
-$ANSA_ID;176;
-    501051   5108928
-$ANSA_ID;177;
-    501051   5108927
-$ANSA_ID;178;
-    501051   5101305
-$ANSA_ID;7000005;
-    301313   3190643
-$ANSA_ID;7000006;
-    301223   3190642
-$ANSA_ID;7000008;
-    301313   3190641
-$ANSA_ID;7000009;
-    301313   3190640
-$ANSA_ID;7000010;
-    301223   3190639
-$ANSA_ID;7000011;
-    301223   3190638
-$ANSA_ID;7000015;
-    301333   3190636
-$ANSA_ID;7000016;
-    301413   3190635
-$ANSA_ID;7000018;
-    301513   3190634
-$ANSA_ID;7000019;
-    301533   3190683
-$ANSA_ID;7000021;
-    701413   7100019
-$ANSA_ID;7000022;
-    701433   7260205
-$ANSA_ID;7000026;
-    704113   7164517
-$ANSA_ID;7000033;
-    305162   9100019
-$ANSA_ID;7000034;
-    305162   9100018
-$ANSA_ID;7000036;
-    403503   9100017
-$ANSA_ID;7000037;
-    301113   9100016
-$ANSA_ID;7000038;
-    301213   9100015
-$ANSA_ID;7000039;
-    301123   9100014
-$ANSA_ID;9000000;
-    704113   9100013
-$ANSA_ID;9000010;
-    704113   9100012
-$ANSA_ID;9000020;
-    701433   9100011
-$ANSA_ID;9000030;
-    301333   9100010
-$ANSA_ID;9000040;
-    301413   9100009
-$ANSA_ID;9000041;
-    301333   3190632
-$ANSA_ID;9000042;
-    301533   3190633
-$ANSA_ID;9000043;
-    453503   1000003
-$ANSA_ID;9000044;
-    351113   1000002
-$ANSA_ID;9000045;
-    351213   1000001
-$ANSA_ID;9000046;
-    351123   1000000
-$ANSA_ID;9000047;
-    355162   9000010
-$ANSA_ID;9000048;
-    355162   1000004
-$ANSA_ID;9000049;
-    351313   3152225
-$ANSA_ID;9000050;
-    301413   9100008
-$ANSA_ID;9000051;
-    351223   3152224
-$ANSA_ID;9000052;
-    351513   3152216
-$ANSA_ID;9000053;
-    351413   9000080
-$ANSA_ID;9000054;
-    351413   9000070
-$ANSA_ID;9000055;
-    351533   3109445
-$ANSA_ID;9000057;
-    751433   7100035
-$ANSA_ID;9000058;
-    754113   9000120
-$ANSA_ID;9000059;
-    754113   9000110
-$ANSA_ID;9000060;
-    351313   3152223
-$ANSA_ID;9000061;
-    351313   3152222
-$ANSA_ID;9000062;
-    351223   3152221
-$ANSA_ID;9000063;
-    351223   3152220
-$ANSA_ID;9000065;
-    351333   3152218
-$ANSA_ID;9000066;
-    351413   3152217
-$ANSA_ID;9000067;
-    751413   7100013
-$ANSA_ID;9000068;
-    754113   7164516
-$ANSA_ID;9000070;
-    751433   9000100
-$ANSA_ID;9000071;
-    351333   9000090
-$ANSA_ID;9000072;
-    351333   3152214
-$ANSA_ID;9000073;
-    351533   3152215
-$ANSA_ID;9000074;
-    601053   6100136
-$ANSA_ID;9000076;
-    351433   3100000
-$ANSA_ID;9000077;
-    355162   3100001
-$ANSA_ID;9000078;
-    751433   7264519
-$ANSA_ID;9000079;
-    305162   3112836
-$ANSA_ID;9000081;
-    301533   3100002
-$ANSA_ID;9000082;
-    751433   7164518
+*CONSTRAINED_JOINT_STIFFNESS_GENERALIZED_TITLE
+UX-Radius-Hand-R
+    351533    351533    351603   3591600   3612836          
+                                                            
+        0.        0.        0.        0.        0.        0.
+        0.        0.        0.        0.        0.        0.
+*CONSTRAINED_JOINT_STIFFNESS_GENERALIZED_TITLE
+TX-Spine
+    400501    403015    401011    400501    400501          
+   3500501   3500502   3500503                              
+        0.        0.        0.        0.        0.        0.
+        0.        0.        0.        0.        0.        0.
+*CONSTRAINED_JOINT_STIFFNESS_GENERALIZED_TITLE
+TX-Spine
+    400502    403025    401021    400502    400502          
+   3500501   3500502   3500503                              
+        0.        0.        0.        0.        0.        0.
+        0.        0.        0.        0.        0.        0.
+*CONSTRAINED_JOINT_STIFFNESS_GENERALIZED_TITLE
+TX-Spine
+    400503    403035    401031    400503    400503          
+   3500501   3500502   3500503                              
+        0.        0.        0.        0.        0.        0.
+        0.        0.        0.        0.        0.        0.
+*CONSTRAINED_JOINT_STIFFNESS_GENERALIZED_TITLE
+TX-Spine
+    400504    403045    401041    400504    400504          
+   3500501   3500502   3500503                              
+        0.        0.        0.        0.        0.        0.
+        0.        0.        0.        0.        0.        0.
+*CONSTRAINED_JOINT_STIFFNESS_GENERALIZED_TITLE
+TX-Spine
+    400505    403055    401051    400505    400505          
+   3500501   3500502   3500503                              
+        0.        0.        0.        0.        0.        0.
+        0.        0.        0.        0.        0.        0.
+*CONSTRAINED_JOINT_STIFFNESS_GENERALIZED_TITLE
+TX-Spine
+    400506    403065    401061    400506    400506          
+   3500501   3500502   3500503                              
+        0.        0.        0.        0.        0.        0.
+        0.        0.        0.        0.        0.        0.
+*CONSTRAINED_JOINT_STIFFNESS_GENERALIZED_TITLE
+TX-Spine
+    400507    403075    401071    400507    400507          
+   3500501   3500502   3500503                              
+        0.        0.        0.        0.        0.        0.
+        0.        0.        0.        0.        0.        0.
+*CONSTRAINED_JOINT_STIFFNESS_GENERALIZED_TITLE
+TX-Spine
+    400508    403085    401081    400508    400508          
+   3500501   3500502   3500503                              
+        0.        0.        0.        0.        0.        0.
+        0.        0.        0.        0.        0.        0.
+*CONSTRAINED_JOINT_STIFFNESS_GENERALIZED_TITLE
+TX-Spine
+    400509    403095    401091    400509    400509          
+   3500501   3500502   3500503                              
+        0.        0.        0.        0.        0.        0.
+        0.        0.        0.        0.        0.        0.
+*CONSTRAINED_JOINT_STIFFNESS_GENERALIZED_TITLE
+TX-Spine
+    400510    403105    401101    400510    400510          
+   3500501   3500502   3500503                              
+        0.        0.        0.        0.        0.        0.
+        0.        0.        0.        0.        0.        0.
+*CONSTRAINED_JOINT_STIFFNESS_GENERALIZED_TITLE
+TX-Spine
+    400511    403115    401111    400511    400511          
+   3500501   3500502   3500503                              
+        0.        0.        0.        0.        0.        0.
+        0.        0.        0.        0.        0.        0.
+*CONSTRAINED_JOINT_STIFFNESS_GENERALIZED_TITLE
+TX-Spine
+    400512    403125    401121    400512    400512          
+   3500501   3500502   3500503                              
+        0.        0.        0.        0.        0.        0.
+        0.        0.        0.        0.        0.        0.
+*CONSTRAINED_JOINT_STIFFNESS_GENERALIZED_TITLE
+TX-Spine
+    450501    453015    401011    450501    450501          
+   3501501   3501502   3501503                              
+        0.        0.        0.        0.        0.        0.
+        0.        0.        0.        0.        0.        0.
+*CONSTRAINED_JOINT_STIFFNESS_GENERALIZED_TITLE
+TX-Spine
+    450502    453025    401021    450502    450502          
+   3501501   3501502   3501503                              
+        0.        0.        0.        0.        0.        0.
+        0.        0.        0.        0.        0.        0.
+*CONSTRAINED_JOINT_STIFFNESS_GENERALIZED_TITLE
+TX-Spine
+    450503    453035    401031    450503    450503          
+   3501501   3501502   3501503                              
+        0.        0.        0.        0.        0.        0.
+        0.        0.        0.        0.        0.        0.
+*CONSTRAINED_JOINT_STIFFNESS_GENERALIZED_TITLE
+TX-Spine
+    450504    453045    401041    450504    450504          
+   3501501   3501502   3501503                              
+        0.        0.        0.        0.        0.        0.
+        0.        0.        0.        0.        0.        0.
+*CONSTRAINED_JOINT_STIFFNESS_GENERALIZED_TITLE
+TX-Spine
+    450505    453055    401051    450505    450505          
+   3501501   3501502   3501503                              
+        0.        0.        0.        0.        0.        0.
+        0.        0.        0.        0.        0.        0.
+*CONSTRAINED_JOINT_STIFFNESS_GENERALIZED_TITLE
+TX-Spine
+    450506    453065    401061    450506    450506          
+   3501501   3501502   3501503                              
+        0.        0.        0.        0.        0.        0.
+        0.        0.        0.        0.        0.        0.
+*CONSTRAINED_JOINT_STIFFNESS_GENERALIZED_TITLE
+TX-Spine
+    450507    453075    401071    450507    450507          
+   3501501   3501502   3501503                              
+        0.        0.        0.        0.        0.        0.
+        0.        0.        0.        0.        0.        0.
+*CONSTRAINED_JOINT_STIFFNESS_GENERALIZED_TITLE
+TX-Spine
+    450508    453085    401081    450508    450508          
+   3501501   3501502   3501503                              
+        0.        0.        0.        0.        0.        0.
+        0.        0.        0.        0.        0.        0.
+*CONSTRAINED_JOINT_STIFFNESS_GENERALIZED_TITLE
+TX-Spine
+    450509    453095    401091    450509    450509          
+   3501501   3501502   3501503                              
+        0.        0.        0.        0.        0.        0.
+        0.        0.        0.        0.        0.        0.
+*CONSTRAINED_JOINT_STIFFNESS_GENERALIZED_TITLE
+TX-Spine
+    450510    453105    401101    450510    450510          
+   3501501   3501502   3501503                              
+        0.        0.        0.        0.        0.        0.
+        0.        0.        0.        0.        0.        0.
+*CONSTRAINED_JOINT_STIFFNESS_GENERALIZED_TITLE
+TX-Spine
+    450511    453115    401111    450511    450511          
+   3501501   3501502   3501503                              
+        0.        0.        0.        0.        0.        0.
+        0.        0.        0.        0.        0.        0.
+*CONSTRAINED_JOINT_STIFFNESS_GENERALIZED_TITLE
+TX-Spine
+    450512    453125    401121    450512    450512          
+   3501501   3501502   3501503                              
+        0.        0.        0.        0.        0.        0.
+        0.        0.        0.        0.        0.        0.
+*CONSTRAINED_JOINT_STIFFNESS_GENERALIZED_TITLE
+UX_Sternoclavicular-R
+    453503    453503    351113   3591121   3591121          
+                                                            
+        0.        0.        0.        0.        0.        0.
+        0.        0.        0.        0.        0.        0.
+*CONSTRAINED_JOINT_STIFFNESS_GENERALIZED_TITLE
+LX_Ankle-L
+    701433    701433    704113   7094110   7094110          
+                                                            
+        0.        0.        0.        0.        0.        0.
+        0.        0.        0.        0.        0.        0.
+*CONSTRAINED_JOINT_STIFFNESS_GENERALIZED_TITLE
+LX_Ankle-R
+    751433    751433    754113   7594110   7594110          
+                                                            
+        0.        0.        0.        0.        0.        0.
+        0.        0.        0.        0.        0.        0.
 *DEFINE_COORDINATE_NODES_TITLE
-Scapula
-    301223   3190637   3190639   3190638         0Z         
+TX-T1-T2-IVD
+    400001   4115013   4115012   4115481         0X         
 *DEFINE_COORDINATE_NODES_TITLE
-Humerus
-    301313   3190642   3190641   3190640         1X         
+TX-T2-T3-IVD
+    400002   4115488   4115014   4115487         0X         
 *DEFINE_COORDINATE_NODES_TITLE
-Forearm
-    301433   3190630   3190632   3100002         0Y         
+TX-T3-T4-IVD
+    400003   4115482   4115016   4115493         0X         
 *DEFINE_COORDINATE_NODES_TITLE
-Radius
-    301530   3187747   9100010   3190633         0Y         
+TX-T4-T5-IVD
+    400004   4115492   4115015   4115491         0X         
 *DEFINE_COORDINATE_NODES_TITLE
-Tibialfibula
-    701460   7100025   7260205   9100011         0Z         
-*DEFINE_COORDINATE_NODES
-   3500001   4115013   4115012   4115481         0X         
-*DEFINE_COORDINATE_NODES
-   3500002   4115488   4115014   4115487         0X         
-*DEFINE_COORDINATE_NODES
-   3500003   4115482   4115016   4115493         0X         
-*DEFINE_COORDINATE_NODES
-   3500004   4115492   4115015   4115491         0X         
-*DEFINE_COORDINATE_NODES
-   3500005   4115499   4115017   4115498         0X         
-*DEFINE_COORDINATE_NODES
-   3500006   4115456   4115007   4115455         0X         
-*DEFINE_COORDINATE_NODES
-   3500007   4115400   4115005   4115399         0X         
-*DEFINE_COORDINATE_NODES
-   3500008   4115467   4115008   4115466         0X         
-*DEFINE_COORDINATE_NODES
-   3500009   4115462   4115460   4115461         0X         
-*DEFINE_COORDINATE_NODES
-   3500010   4115479   4115010   4115478         0X         
-*DEFINE_COORDINATE_NODES
-   3500011   4115474   4115009   4115473         0X         
-*DEFINE_COORDINATE_NODES
-   3500012   4115469   4115006   4115404         0X         
-*DEFINE_COORDINATE_NODES
-   3500013   5108925   5101304   5108924         0X         
-*DEFINE_COORDINATE_NODES
-   3500014   5108922   5108920   5108921         0X         
-*DEFINE_COORDINATE_NODES
-   3500015   5108918   5101303   5108917         0X         
-*DEFINE_COORDINATE_NODES
-   3500016   5108915   5108913   5108914         0X         
-*DEFINE_COORDINATE_NODES
-   3500017   5108928   5101305   5108927         0X         
-*DEFINE_COORDINATE_NODES
-   3500501   4115552   4115550   4115551         0X         
-*DEFINE_COORDINATE_NODES
-   3500502   4115557   4115555   4115556         0X         
-*DEFINE_COORDINATE_NODES
-   3500503   4115562   4115564   4115561         0X         
-*DEFINE_COORDINATE_NODES
-   3500504   4115560   4115567   4115559         0X         
-*DEFINE_COORDINATE_NODES
-   3500505   4115571   4115572   4115573         0X         
-*DEFINE_COORDINATE_NODES
-   3500506   4115518   4115516   4115517         0X         
-*DEFINE_COORDINATE_NODES
-   3500507   4115506   4115504   4115505         0X         
-*DEFINE_COORDINATE_NODES
-   3500508   4115532   4115530   4115531         0X         
-*DEFINE_COORDINATE_NODES
-   3500509   4115526   4115524   4115525         0X         
-*DEFINE_COORDINATE_NODES
-   3500510   4115546   4115544   4115545         0X         
-*DEFINE_COORDINATE_NODES
-   3500511   4115540   4115538   4115539         0X         
-*DEFINE_COORDINATE_NODES
-   3500512   4115514   4115512   4115513         0X         
-*DEFINE_COORDINATE_NODES
-   3501501   4115549   4115558   4115548         0X         
-*DEFINE_COORDINATE_NODES
-   3501502   4115554   4115547   4115553         0X         
-*DEFINE_COORDINATE_NODES
-   3501503   4115563   4115565   4115566         0X         
-*DEFINE_COORDINATE_NODES
-   3501504   4115570   4115568   4115569         0X         
-*DEFINE_COORDINATE_NODES
-   3501505   4104190   4115519   4115520         0X         
-*DEFINE_COORDINATE_NODES
-   3501506   4115515   4115507   4115508         0X         
-*DEFINE_COORDINATE_NODES
-   3501507   4115503   4115533   4115534         0X         
-*DEFINE_COORDINATE_NODES
-   3501508   4115529   4115527   4115528         0X         
-*DEFINE_COORDINATE_NODES
-   3501509   4115523   4115521   4115522         0X         
-*DEFINE_COORDINATE_NODES
-   3501510   4115543   4115541   4115542         0X         
-*DEFINE_COORDINATE_NODES
-   3501511   4115537   4115535   4115536         0X         
-*DEFINE_COORDINATE_NODES
-   3501512   4115511   4115509   4115510         0X         
+TX-T5-T6-IVD
+    400005   4115499   4115017   4115498         0X         
 *DEFINE_COORDINATE_NODES_TITLE
-Scapulaclavicular Joint
-   7500030   9100014   9100016   3157133         1X         
+TX-T6-T7-IVD
+    400006   4115456   4115007   4115455         0X         
 *DEFINE_COORDINATE_NODES_TITLE
-Hand
-   9500007   3112836   3175832   3190592         0X         
+TX-T7-T8-IVD
+    400007   4115400   4115005   4115399         0X         
 *DEFINE_COORDINATE_NODES_TITLE
-Scapula
-   9500011   3152219   3152221   3152220         0Z         
+TX-T8-T9-IVD
+    400008   4115467   4115008   4115466         0X         
 *DEFINE_COORDINATE_NODES_TITLE
-Humerus
-   9500012   3152224   3152223   3152222         1X         
+TX-T9-T10-IVD
+    400009   4115462   4115460   4115461         0X         
 *DEFINE_COORDINATE_NODES_TITLE
-Forearm
-   9500013   3152212   3152214   3100000         0Y         
+TX-T10-T11-IVD
+    400010   4115479   4115010   4115478         0X         
 *DEFINE_COORDINATE_NODES_TITLE
-Radius
-   9500014   3149329   9000090   3152215         0Y         
+TX-T11-T12-IVD
+    400011   4115474   4115009   4115473         0X         
 *DEFINE_COORDINATE_NODES_TITLE
-Tibialfibula
-   9500018   7100031   7100035   9000100         0Z         
+TX-T12-L1-IVD
+    400012   4115469   4115006   4115404         0X         
 *DEFINE_COORDINATE_NODES_TITLE
-scapulaclavicular
-   9500024   1000000   1000002   3118715         1X         
+AB-L1-L2-IVD
+    400013   5108925   5101304   5108924         0X         
 *DEFINE_COORDINATE_NODES_TITLE
-Hand
-   9500026   3100001   3137414   3152174         0X         
+AB-L2-L3-IVD
+    400014   5108922   5108920   5108921         0X         
+*DEFINE_COORDINATE_NODES_TITLE
+AB-L3-L4-IVD
+    400015   5108918   5101303   5108917         0X         
+*DEFINE_COORDINATE_NODES_TITLE
+AB-L4-L5-IVD
+    400016   5108915   5108913   5108914         0X         
+*DEFINE_COORDINATE_NODES_TITLE
+AB-L5-SI-IVD
+    400017   5108928   5101305   5108927         0X         
+*DEFINE_COORDINATE_NODES_TITLE
+TX-Rib1-L
+    400501   4115552   4115550   4115551         0X         
+*DEFINE_COORDINATE_NODES_TITLE
+TX-Rib2-L
+    400502   4115557   4115555   4115556         0X         
+*DEFINE_COORDINATE_NODES_TITLE
+TX-Rib3-L
+    400503   4115562   4115564   4115561         0X         
+*DEFINE_COORDINATE_NODES_TITLE
+TX-Rib4-L
+    400504   4115560   4115567   4115559         0X         
+*DEFINE_COORDINATE_NODES_TITLE
+TX-Rib5-L
+    400505   4115571   4115572   4115573         0X         
+*DEFINE_COORDINATE_NODES_TITLE
+TX-Rib6-L
+    400506   4115518   4115516   4115517         0X         
+*DEFINE_COORDINATE_NODES_TITLE
+TX-Rib7-L
+    400507   4115506   4115504   4115505         0X         
+*DEFINE_COORDINATE_NODES_TITLE
+TX-Rib8-L
+    400508   4115532   4115530   4115531         0X         
+*DEFINE_COORDINATE_NODES_TITLE
+TX-Rib9-L
+    400509   4115526   4115524   4115525         0X         
+*DEFINE_COORDINATE_NODES_TITLE
+TX-Rib10-L
+    400510   4115546   4115544   4115545         0X         
+*DEFINE_COORDINATE_NODES_TITLE
+TX-Rib11-L
+    400511   4115540   4115538   4115539         0X         
+*DEFINE_COORDINATE_NODES_TITLE
+TX-Rib12-L
+    400512   4115514   4115512   4115513         0X         
+*DEFINE_COORDINATE_NODES_TITLE
+TX-Rib1-R
+    450501   4115549   4115558   4115548         0X         
+*DEFINE_COORDINATE_NODES_TITLE
+TX-Rib2-R
+    450502   4115554   4115547   4115553         0X         
+*DEFINE_COORDINATE_NODES_TITLE
+TX-Rib3-R
+    450503   4115563   4115565   4115566         0X         
+*DEFINE_COORDINATE_NODES_TITLE
+TX-Rib4-R
+    450504   4115570   4115568   4115569         0X         
+*DEFINE_COORDINATE_NODES_TITLE
+TX-Rib5-R
+    450505   4104190   4115519   4115520         0X         
+*DEFINE_COORDINATE_NODES_TITLE
+TX-Rib6-R
+    450506   4115515   4115507   4115508         0X         
+*DEFINE_COORDINATE_NODES_TITLE
+TX-Rib7-R
+    450507   4115503   4115533   4115534         0X         
+*DEFINE_COORDINATE_NODES_TITLE
+TX-Rib8-R
+    450508   4115529   4115527   4115528         0X         
+*DEFINE_COORDINATE_NODES_TITLE
+TX-Rib9-R
+    450509   4115523   4115521   4115522         0X         
+*DEFINE_COORDINATE_NODES_TITLE
+TX-Rib10-R
+    450510   4115543   4115541   4115542         0X         
+*DEFINE_COORDINATE_NODES_TITLE
+TX-Rib11-R
+    450511   4115537   4115535   4115536         0X         
+*DEFINE_COORDINATE_NODES_TITLE
+TX-Rib12-R
+    450512   4115511   4115509   4115510         0X         
+*DEFINE_COORDINATE_NODES_TITLE
+UX-Scapulaclavicular-Joint-L
+   3091120   3091120   3091110   3157133         1X         
+*DEFINE_COORDINATE_NODES_TITLE
+UX-Sternoclavicular-Jnt-PIPER-L
+   3091121   3091121   3091122   3091123         1X         
+*DEFINE_COORDINATE_NODES_TITLE
+UX-Humerus-Glenohumeral-jnt-PIPER
+   3091310   3091310   3091210   3091330         1X         
+*DEFINE_COORDINATE_NODES_TITLE
+UX-Humeroulnar-Jnt-PIPER-L
+   3091411   3091411   3091412   3091310         1X         
+*DEFINE_COORDINATE_NODES_TITLE
+UX-Radiocarpal_Jnt-L
+   3091600   3091600   3091601   3091510         1X         
+*DEFINE_COORDINATE_NODES_TITLE
+UX-Hand
+   3112836   3112836   3175832   3190592         0X         
+*DEFINE_COORDINATE_NODES_TITLE
+UX-Scapula
+   3190637   3190637   3091223   3091221         0Z         
+*DEFINE_COORDINATE_NODES_TITLE
+UX-Scapulaclavicular-Joint-R
+   3591120   3591120   3591110   3657133         1X         
+*DEFINE_COORDINATE_NODES_TITLE
+UX-Sternoclavicular-Jnt-PIPER-R
+   3591121   3591121   3591122   3591123         1X         
+*DEFINE_COORDINATE_NODES_TITLE
+UX-Acromimclavicular-Jnt-R
+   3591210   3591120   3591110   3657133         1X         
+*DEFINE_COORDINATE_NODES_TITLE
+UX-Humerus-Glenohumeral-Jnt-PIPER-R
+   3591310   3591310   3091210   3591330         1X         
+*DEFINE_COORDINATE_NODES_TITLE
+UX_Humeroulnar-Jnt-PIPER-R
+   3591411   3591411   3591412   3591310         1X         
+*DEFINE_COORDINATE_NODES_TITLE
+UX-Radiocarpal-Jnt-R
+   3591600   3591600   3591601   3591510         1X         
+*DEFINE_COORDINATE_NODES_TITLE
+UX-Hand
+   3612836   3612836   3675832   3690592         0X         
+*DEFINE_COORDINATE_NODES_TITLE
+UX-Scapula
+   3690637   3690637   3591223   3591221         0Z         
+*DEFINE_COORDINATE_NODES_TITLE
+TX-T1-T2
+   4091025   4091025   4091013   4091026         1X         
+*DEFINE_COORDINATE_NODES_TITLE
+TX-T2-T3
+   4091035   4091035   4091023   4091036         1X         
+*DEFINE_COORDINATE_NODES_TITLE
+TX-T3-T4
+   4091045   4091045   4091033   4091046         1X         
+*DEFINE_COORDINATE_NODES_TITLE
+TX-T4-T5
+   4091055   4091055   4091043   4091056         1X         
+*DEFINE_COORDINATE_NODES_TITLE
+TX-T5-T6
+   4091065   4091065   4091053   4091066         1X         
+*DEFINE_COORDINATE_NODES_TITLE
+TX-T6-T7
+   4091075   4091075   4091063   4091076         1X         
+*DEFINE_COORDINATE_NODES_TITLE
+TX-T7-T8
+   4091085   4091085   4091073   4091086         1X         
+*DEFINE_COORDINATE_NODES_TITLE
+TX-T8-T9
+   4091095   4091095   4091083   4091096         1X         
+*DEFINE_COORDINATE_NODES_TITLE
+TX-T9-T10
+   4091105   4091105   4091093   4091106         1X         
+*DEFINE_COORDINATE_NODES_TITLE
+TX-T10-T11
+   4091115   4091115   4091103   4091116         1X         
+*DEFINE_COORDINATE_NODES_TITLE
+TX-T11-T12
+   4091125   4091125   4091113   4091126         1X         
 *DEFINE_COORDINATE_NODES
-   9500044   4115500   4115568   4115569         0X         
-$ANSA_NAME_COMMENT;7000005;CONSTRAINED_EXTRA_NODES_NODE;GH;;NO;NO;NO;
-$ANSA_NAME_COMMENT;7000006;CONSTRAINED_EXTRA_NODES_NODE;Glenohumeral-Joint-Scapu
-$la;;NO;NO;NO;
-$ANSA_NAME_COMMENT;7000008;CONSTRAINED_EXTRA_NODES_NODE;GH_x;;NO;NO;NO;
-$ANSA_NAME_COMMENT;7000009;CONSTRAINED_EXTRA_NODES_NODE;GH_y;;NO;NO;NO;
-$ANSA_NAME_COMMENT;7000010;CONSTRAINED_EXTRA_NODES_NODE;Scapula_z;;NO;NO;NO;
-$ANSA_NAME_COMMENT;7000011;CONSTRAINED_EXTRA_NODES_NODE;Scapula_x;;NO;NO;NO;
-$ANSA_NAME_COMMENT;7000015;CONSTRAINED_EXTRA_NODES_NODE;EL-EM-MP-Humerus;;NO;NO;
-$NO;
-$ANSA_NAME_COMMENT;7000016;CONSTRAINED_EXTRA_NODES_NODE;EM-Ulnar;tobedeleted;NO;
-$NO;NO;
-$ANSA_NAME_COMMENT;7000018;CONSTRAINED_EXTRA_NODES_NODE;Radioulnar_Proximal;;NO;
-$NO;NO;
-$ANSA_NAME_COMMENT;7000019;CONSTRAINED_EXTRA_NODES_NODE;MP-Radioulnar-Radius-dis
-$tal;;NO;NO;NO;
-$ANSA_NAME_COMMENT;7000021;CONSTRAINED_EXTRA_NODES_NODE;Tibia_Plateau_IC;;NO;NO;
-$NO;
-$ANSA_NAME_COMMENT;7000022;CONSTRAINED_EXTRA_NODES_NODE;MM-Tibia;;NO;NO;NO;
-$ANSA_NAME_COMMENT;7000026;CONSTRAINED_EXTRA_NODES_NODE;IM-Talus;;NO;NO;NO;
-$ANSA_NAME_COMMENT;7000033;CONSTRAINED_EXTRA_NODES_NODE;US-Hand;;NO;NO;NO;
-$ANSA_NAME_COMMENT;7000034;CONSTRAINED_EXTRA_NODES_NODE;RS-Hand;;NO;NO;NO;
-$ANSA_NAME_COMMENT;7000036;CONSTRAINED_EXTRA_NODES_NODE;sternum-cs-joint;;NO;NO;
-$NO;
-$ANSA_NAME_COMMENT;7000037;CONSTRAINED_EXTRA_NODES_NODE;Clavicle-medial-CS-Joint
-$;;NO;NO;NO;
-$ANSA_NAME_COMMENT;7000038;CONSTRAINED_EXTRA_NODES_NODE;Scapula-Acronium-AC-Join
-$t;;NO;NO;NO;
-$ANSA_NAME_COMMENT;7000039;CONSTRAINED_EXTRA_NODES_NODE;Clavicle_Lateral_CA-Join
-$t;;NO;NO;NO;
-$ANSA_NAME_COMMENT;9000000;CONSTRAINED_EXTRA_NODES_NODE;LM-Talus;;NO;NO;NO;
-$ANSA_NAME_COMMENT;9000010;CONSTRAINED_EXTRA_NODES_NODE;MM-Talus;;NO;NO;NO;
-$ANSA_NAME_COMMENT;9000020;CONSTRAINED_EXTRA_NODES_NODE;IM_x_Tibialfibula;;NO;NO
-$;NO;
-$ANSA_NAME_COMMENT;9000030;CONSTRAINED_EXTRA_NODES_NODE;EL-Humerus;;NO;NO;NO;
-$ANSA_NAME_COMMENT;9000040;CONSTRAINED_EXTRA_NODES_NODE;EM-Ulnar;;NO;NO;NO;
-$ANSA_NAME_COMMENT;9000043;CONSTRAINED_EXTRA_NODES_NODE;sternum-cs-joint;;NO;NO;
-$NO;
-$ANSA_NAME_COMMENT;9000044;CONSTRAINED_EXTRA_NODES_NODE;Clavicle-medial-CS-Joint
-$;;NO;NO;NO;
-$ANSA_NAME_COMMENT;9000045;CONSTRAINED_EXTRA_NODES_NODE;Scapula-Acronium-AC-Join
-$t;;NO;NO;NO;
-$ANSA_NAME_COMMENT;9000046;CONSTRAINED_EXTRA_NODES_NODE;Clavicle_Lateral_CA-Join
-$t;;NO;NO;NO;
-$ANSA_NAME_COMMENT;9000047;CONSTRAINED_EXTRA_NODES_NODE;US-Hand;;NO;NO;NO;
-$ANSA_NAME_COMMENT;9000048;CONSTRAINED_EXTRA_NODES_NODE;RS-Hand;;NO;NO;NO;
-$ANSA_NAME_COMMENT;9000049;CONSTRAINED_EXTRA_NODES_NODE;GH;;NO;NO;NO;
-$ANSA_NAME_COMMENT;9000050;CONSTRAINED_EXTRA_NODES_NODE;EL-Ulnar;;NO;NO;NO;
-$ANSA_NAME_COMMENT;9000051;CONSTRAINED_EXTRA_NODES_NODE;Glenohumeral-Joint-Scapu
-$la;;NO;NO;NO;
-$ANSA_NAME_COMMENT;9000052;CONSTRAINED_EXTRA_NODES_NODE;Radioulnar_Proximal;;NO;
-$NO;NO;
-$ANSA_NAME_COMMENT;9000053;CONSTRAINED_EXTRA_NODES_NODE;EM-Ulnar;;NO;NO;NO;
-$ANSA_NAME_COMMENT;9000054;CONSTRAINED_EXTRA_NODES_NODE;EL-Ulnar;;NO;NO;NO;
-$ANSA_NAME_COMMENT;9000055;CONSTRAINED_EXTRA_NODES_NODE;MP-Radioulnar-Radius-dis
-$tal;;NO;NO;NO;
-$ANSA_NAME_COMMENT;9000057;CONSTRAINED_EXTRA_NODES_NODE;MM-Tibia;;NO;NO;NO;
-$ANSA_NAME_COMMENT;9000058;CONSTRAINED_EXTRA_NODES_NODE;LM-Talus;;NO;NO;NO;
-$ANSA_NAME_COMMENT;9000059;CONSTRAINED_EXTRA_NODES_NODE;MM-Talus;;NO;NO;NO;
-$ANSA_NAME_COMMENT;9000060;CONSTRAINED_EXTRA_NODES_NODE;GH_x;;NO;NO;NO;
-$ANSA_NAME_COMMENT;9000061;CONSTRAINED_EXTRA_NODES_NODE;GH_y;;NO;NO;NO;
-$ANSA_NAME_COMMENT;9000062;CONSTRAINED_EXTRA_NODES_NODE;Scapula_z;;NO;NO;NO;
-$ANSA_NAME_COMMENT;9000063;CONSTRAINED_EXTRA_NODES_NODE;Scapula_x;;NO;NO;NO;
-$ANSA_NAME_COMMENT;9000065;CONSTRAINED_EXTRA_NODES_NODE;EL-EM-MP-Humerus;;NO;NO;
-$NO;
-$ANSA_NAME_COMMENT;9000066;CONSTRAINED_EXTRA_NODES_NODE;EM-Ulnar;tobedeleted;NO;
-$NO;NO;
-$ANSA_NAME_COMMENT;9000067;CONSTRAINED_EXTRA_NODES_NODE;Tibia_Plateau_IC;;NO;NO;
-$NO;
-$ANSA_NAME_COMMENT;9000068;CONSTRAINED_EXTRA_NODES_NODE;IM-Talus;;NO;NO;NO;
-$ANSA_NAME_COMMENT;9000070;CONSTRAINED_EXTRA_NODES_NODE;IM_x_Tibialfibula;;NO;NO
-$;NO;
-$ANSA_NAME_COMMENT;9000071;CONSTRAINED_EXTRA_NODES_NODE;EL-Humerus;;NO;NO;NO;
-$ANSA_NAME_COMMENT;9000074;CONSTRAINED_EXTRA_NODES_NODE;Sacrum;;NO;NO;NO;
-$ANSA_NAME_COMMENT;9000076;CONSTRAINED_EXTRA_NODES_NODE;Ulnar-distal-forearm-csy
-$s;;NO;NO;NO;
-$ANSA_NAME_COMMENT;9000077;CONSTRAINED_EXTRA_NODES_NODE;UX-Hand-R;;NO;NO;NO;
-$ANSA_NAME_COMMENT;9000078;CONSTRAINED_EXTRA_NODES_NODE;Malleola-medial-R;;NO;NO
-$;NO;
-$ANSA_NAME_COMMENT;9000079;CONSTRAINED_EXTRA_NODES_NODE;UX-Hand-L;;NO;NO;NO;
-$ANSA_NAME_COMMENT;9000081;CONSTRAINED_EXTRA_NODES_NODE;UX-Forearm_Radius_z;;NO;
-$NO;NO;
-$ANSA_NAME_COMMENT;9000082;CONSTRAINED_EXTRA_NODES_NODE;LX-Intermalleola-R;;NO;N
-$O;NO;
-$ANSA_NAME_COMMENT;301219;CONSTRAINED_JOINT_STIFFNESS_GENERALIZED;UX_Radius-Hand
-$-R;;NO;NO;NO;
-$ANSA_NAME_COMMENT;301220;CONSTRAINED_JOINT_STIFFNESS_GENERALIZED;UX_Ulna-Hand-R
-$;;NO;NO;NO;
-$ANSA_NAME_COMMENT;301221;CONSTRAINED_JOINT_STIFFNESS_GENERALIZED;UX_Sternoclavi
-$cular-R;;NO;NO;NO;
-$ANSA_NAME_COMMENT;301222;CONSTRAINED_JOINT_STIFFNESS_GENERALIZED;UX_Shoulder-R;
-$;NO;NO;NO;
-$ANSA_NAME_COMMENT;301223;CONSTRAINED_JOINT_STIFFNESS_GENERALIZED;UX_Scapulaclav
-$icular-R;;NO;NO;NO;
+   4115500   4115500   4115568   4115569         0X         
+*DEFINE_COORDINATE_NODES_TITLE
+AB-T12-L1
+   5091015   5091015   4091123   5091016         1X         
+*DEFINE_COORDINATE_NODES_TITLE
+AB-L1-L2
+   5091025   5091025   5091013   5091026         1X         
+*DEFINE_COORDINATE_NODES_TITLE
+AB-L2-L3
+   5091035   5091035   5091023   5091036         1X         
+*DEFINE_COORDINATE_NODES_TITLE
+AB-L3-L4
+   5091045   5091045   5091033   5091046         1X         
+*DEFINE_COORDINATE_NODES_TITLE
+AB-L4-L5
+   5091055   5091055   5091043   5091056         1X         
+*DEFINE_COORDINATE_NODES_TITLE
+PE-Hip-Jnt-PIPER-L
+   7091110   7091110   6091030   6091002         1X         
+*DEFINE_COORDINATE_NODES_TITLE
+LX-Knee-Jnt-Femur-PIPER-L
+   7091190   7091190   7091192   7091110         1X         
+*DEFINE_COORDINATE_NODES_TITLE
+LX-Malleola-Jnt-L
+   7094110   7094110   7094112   7091410         1X         
+*DEFINE_COORDINATE_NODES_TITLE
+PE-Hip-Jnt-PIPER-R
+   7591110   7591110   6591030   6591002         1X         
+*DEFINE_COORDINATE_NODES_TITLE
+LX-Knee-Jnt-Femur-R
+   7591190   7591190   7591192   7591110         1X         
+*DEFINE_COORDINATE_NODES_TITLE
+LX-Malleola-Jnt-R
+   7594110   7594110   7594112   7591410         1X         
+*DEFINE_COORDINATE_NODES_TITLE
+NE-C1-C2
+   8381129   2091025   2091012   2091026         1X         
+*DEFINE_COORDINATE_NODES_TITLE
+NE-C2-C3
+   8381239   2091035   2091022   2091036         1X         
+*DEFINE_COORDINATE_NODES_TITLE
+NE-C3-C4
+   8381349   2091045   2091032   2091046         1X         
+*DEFINE_COORDINATE_NODES_TITLE
+NE-C4-C5
+   8381459   2091055   2091042   2091056         1X         
+*DEFINE_COORDINATE_NODES_TITLE
+NE-C5-C6
+   8381569   2091065   2091052   2091066         1X         
+*DEFINE_COORDINATE_NODES_TITLE
+NE-C6-C7
+   8381679   2091075   2091062   2091076         1X         
+*DEFINE_COORDINATE_NODES_TITLE
+NE-C7-T1
+   8381789   4091015   2091072   4091016         1X         
 $ANSA_NAME_COMMENT;301224;CONSTRAINED_JOINT_STIFFNESS_GENERALIZED;UX_Scapulaclav
 $icular-L;;NO;NO;NO;
 $ANSA_NAME_COMMENT;301225;CONSTRAINED_JOINT_STIFFNESS_GENERALIZED;UX_Shoulder-L;
 $;NO;NO;NO;
 $ANSA_NAME_COMMENT;301226;CONSTRAINED_JOINT_STIFFNESS_GENERALIZED;UX_Sternoclavi
 $cular-L;;NO;NO;NO;
-$ANSA_NAME_COMMENT;301227;CONSTRAINED_JOINT_STIFFNESS_GENERALIZED;UX_Ulna-Hand;;
-$NO;NO;NO;
-$ANSA_NAME_COMMENT;301228;CONSTRAINED_JOINT_STIFFNESS_GENERALIZED;UX_Radius-Hand
-$;;NO;NO;NO;
-$ANSA_NAME_COMMENT;9000000;CONSTRAINED_JOINT_STIFFNESS_GENERALIZED;LX_Ankle;;NO;
-$NO;NO;
-$ANSA_NAME_COMMENT;9000070;CONSTRAINED_JOINT_STIFFNESS_GENERALIZED;LX_Ankle;;NO;
-$NO;NO;
-$ANSA_PART;GROUP;ID;2147;NAME;Ulna_Group;PID_OFFSET;0;COLOR;185;31;115;0;IS_COLO
-$R_ACTIVE;0;GET_COLOR_FROM_ID;2167;ATTRIBUTES;2;DM/File Type;ANSA;DM/Status;WIP;
-$CONTAINS;ANSAPART;2124;
-$ANSA_PART;GROUP;ID;2148;NAME;Radius_Group;PID_OFFSET;0;COLOR;208;139;0;0;IS_COL
-$OR_ACTIVE;0;GET_COLOR_FROM_ID;2167;ATTRIBUTES;2;DM/File Type;ANSA;DM/Status;WIP
-$;CONTAINS;ANSAPART;2143;
-$ANSA_PART;GROUP;ID;2150;NAME;Foot;PID_OFFSET;0;COLOR;179;190;55;0;IS_COLOR_ACTI
-$VE;1;ATTRIBUTES;2;DM/File Type;ANSA;DM/Status;WIP;CONTAINS;ANSAPART;1841;
-$ANSA_PART;GROUP;ID;2153;MID;500000;NAME;Abdomen;PID_OFFSET;0;COLOR;129;137;41;0
-$;IS_COLOR_ACTIVE;1;ATTRIBUTES;2;DM/File Type;ANSA;DM/Status;WIP;CONTAINS;ANSAGR
-$OUP;2158;
-$ANSA_PART;GROUP;ID;2156;NAME;Pelvic-Bone;PID_OFFSET;0;COLOR;232;173;96;0;IS_COL
-$OR_ACTIVE;1;ATTRIBUTES;2;DM/File Type;ANSA;DM/Status;WIP;CONTAINS;ANSAPART;1860
-$;
-$ANSA_PART;GROUP;ID;2157;NAME;Thoracic-Spine;PID_OFFSET;0;COLOR;181;228;73;0;IS_
-$COLOR_ACTIVE;1;ATTRIBUTES;2;DM/File Type;ANSA;DM/Status;WIP;CONTAINS;ANSAPART;1
-$951-1961,1970;
-$ANSA_PART;GROUP;ID;2158;NAME;Lumbar-Spine;PID_OFFSET;0;COLOR;183;105;50;0;IS_CO
-$LOR_ACTIVE;1;ATTRIBUTES;2;DM/File Type;ANSA;DM/Status;WIP;CONTAINS;ANSAPART;196
-$2-1966;
-$ANSA_PART;GROUP;ID;2159;NAME;Ribcage;PID_OFFSET;0;COLOR;182;147;107;0;IS_COLOR_
-$ACTIVE;1;ATTRIBUTES;2;DM/File Type;ANSA;DM/Status;WIP;CONTAINS;ANSAPART;714-725
-$,2105-2116;
-$ANSA_PART;GROUP;ID;2163;NAME;Hand_Group;PID_OFFSET;0;COLOR;139;57;60;0;IS_COLOR
-$_ACTIVE;1;ATTRIBUTES;2;DM/File Type;ANSA;DM/Status;WIP;CONTAINS;ANSAPART;1862;
+$ANSA_NAME_COMMENT;301228;CONSTRAINED_JOINT_STIFFNESS_GENERALIZED;UX-Radius-Hand
+$-L;;NO;NO;NO;
+$ANSA_NAME_COMMENT;351213;CONSTRAINED_JOINT_STIFFNESS_GENERALIZED;UX_Scapulaclav
+$icular-R;;NO;NO;NO;
+$ANSA_NAME_COMMENT;351223;CONSTRAINED_JOINT_STIFFNESS_GENERALIZED;UX_Shoulder-R;
+$;NO;NO;NO;
+$ANSA_NAME_COMMENT;351533;CONSTRAINED_JOINT_STIFFNESS_GENERALIZED;UX-Radius-Hand
+$-R;;NO;NO;NO;
+$ANSA_NAME_COMMENT;400501;CONSTRAINED_JOINT_STIFFNESS_GENERALIZED;TX-Spine;;NO;N
+$O;NO;
+$ANSA_NAME_COMMENT;400502;CONSTRAINED_JOINT_STIFFNESS_GENERALIZED;TX-Spine;;NO;N
+$O;NO;
+$ANSA_NAME_COMMENT;400503;CONSTRAINED_JOINT_STIFFNESS_GENERALIZED;TX-Spine;;NO;N
+$O;NO;
+$ANSA_NAME_COMMENT;400504;CONSTRAINED_JOINT_STIFFNESS_GENERALIZED;TX-Spine;;NO;N
+$O;NO;
+$ANSA_NAME_COMMENT;400505;CONSTRAINED_JOINT_STIFFNESS_GENERALIZED;TX-Spine;;NO;N
+$O;NO;
+$ANSA_NAME_COMMENT;400506;CONSTRAINED_JOINT_STIFFNESS_GENERALIZED;TX-Spine;;NO;N
+$O;NO;
+$ANSA_NAME_COMMENT;400507;CONSTRAINED_JOINT_STIFFNESS_GENERALIZED;TX-Spine;;NO;N
+$O;NO;
+$ANSA_NAME_COMMENT;400508;CONSTRAINED_JOINT_STIFFNESS_GENERALIZED;TX-Spine;;NO;N
+$O;NO;
+$ANSA_NAME_COMMENT;400509;CONSTRAINED_JOINT_STIFFNESS_GENERALIZED;TX-Spine;;NO;N
+$O;NO;
+$ANSA_NAME_COMMENT;400510;CONSTRAINED_JOINT_STIFFNESS_GENERALIZED;TX-Spine;;NO;N
+$O;NO;
+$ANSA_NAME_COMMENT;400511;CONSTRAINED_JOINT_STIFFNESS_GENERALIZED;TX-Spine;;NO;N
+$O;NO;
+$ANSA_NAME_COMMENT;400512;CONSTRAINED_JOINT_STIFFNESS_GENERALIZED;TX-Spine;;NO;N
+$O;NO;
+$ANSA_NAME_COMMENT;450501;CONSTRAINED_JOINT_STIFFNESS_GENERALIZED;TX-Spine;;NO;N
+$O;NO;
+$ANSA_NAME_COMMENT;450502;CONSTRAINED_JOINT_STIFFNESS_GENERALIZED;TX-Spine;;NO;N
+$O;NO;
+$ANSA_NAME_COMMENT;450503;CONSTRAINED_JOINT_STIFFNESS_GENERALIZED;TX-Spine;;NO;N
+$O;NO;
+$ANSA_NAME_COMMENT;450504;CONSTRAINED_JOINT_STIFFNESS_GENERALIZED;TX-Spine;;NO;N
+$O;NO;
+$ANSA_NAME_COMMENT;450505;CONSTRAINED_JOINT_STIFFNESS_GENERALIZED;TX-Spine;;NO;N
+$O;NO;
+$ANSA_NAME_COMMENT;450506;CONSTRAINED_JOINT_STIFFNESS_GENERALIZED;TX-Spine;;NO;N
+$O;NO;
+$ANSA_NAME_COMMENT;450507;CONSTRAINED_JOINT_STIFFNESS_GENERALIZED;TX-Spine;;NO;N
+$O;NO;
+$ANSA_NAME_COMMENT;450508;CONSTRAINED_JOINT_STIFFNESS_GENERALIZED;TX-Spine;;NO;N
+$O;NO;
+$ANSA_NAME_COMMENT;450509;CONSTRAINED_JOINT_STIFFNESS_GENERALIZED;TX-Spine;;NO;N
+$O;NO;
+$ANSA_NAME_COMMENT;450510;CONSTRAINED_JOINT_STIFFNESS_GENERALIZED;TX-Spine;;NO;N
+$O;NO;
+$ANSA_NAME_COMMENT;450511;CONSTRAINED_JOINT_STIFFNESS_GENERALIZED;TX-Spine;;NO;N
+$O;NO;
+$ANSA_NAME_COMMENT;450512;CONSTRAINED_JOINT_STIFFNESS_GENERALIZED;TX-Spine;;NO;N
+$O;NO;
+$ANSA_NAME_COMMENT;453503;CONSTRAINED_JOINT_STIFFNESS_GENERALIZED;UX_Sternoclavi
+$cular-R;;NO;NO;NO;
+$ANSA_NAME_COMMENT;701433;CONSTRAINED_JOINT_STIFFNESS_GENERALIZED;LX_Ankle-L;;NO
+$;NO;NO;
+$ANSA_NAME_COMMENT;751433;CONSTRAINED_JOINT_STIFFNESS_GENERALIZED;LX_Ankle-R;;NO
+$;NO;NO;
 $ANSA_PART;GROUP;ID;2164;NAME;Joints.key;PID_OFFSET;0;COLOR;129;14;142;0;IS_COLO
-$R_ACTIVE;1;ATTRIBUTES;2;DM/File Type;ANSA;DM/Status;WIP;CONTAINS;ANSAPART;10,18
-$39;
-$ANSA_PART;GROUP;ID;2165;NAME;Shoulder;PID_OFFSET;0;COLOR;173;205;203;0;IS_COLOR
-$_ACTIVE;0;GET_COLOR_FROM_ID;2167;ATTRIBUTES;2;DM/File Type;ANSA;DM/Status;WIP;C
-$ONTAINS;ANSAPART;1876;
-$ANSA_PART;GROUP;ID;2167;MID;300000;NAME;Upper-Extremity;PID_OFFSET;0;COLOR;188;
-$63;133;0;IS_COLOR_ACTIVE;1;ATTRIBUTES;2;DM/File Type;ANSA;DM/Status;WIP;CONTAIN
-$S;ANSAGROUP;2147-2148,2163,2165,2175;
-$ANSA_PART;GROUP;ID;2168;MID;400000;NAME;Thorax;PID_OFFSET;0;COLOR;168;166;154;0
-$;IS_COLOR_ACTIVE;1;ATTRIBUTES;2;DM/File Type;ANSA;DM/Status;WIP;CONTAINS;ANSAGR
-$OUP;2157,2159;
-$ANSA_PART;GROUP;ID;2170;MID;600000;NAME;Pelvis;PID_OFFSET;0;COLOR;244;26;34;0;I
-$S_COLOR_ACTIVE;1;ATTRIBUTES;2;DM/File Type;ANSA;DM/Status;WIP;CONTAINS;ANSAGROU
-$P;2156;
-$ANSA_PART;GROUP;ID;2171;MID;700000;NAME;Lower-Extremity;PID_OFFSET;0;COLOR;189;
-$236;167;0;IS_COLOR_ACTIVE;1;ATTRIBUTES;2;DM/File Type;ANSA;DM/Status;WIP;CONTAI
-$NS;ANSAGROUP;2150,2173;ANSAPART;1863;
-$ANSA_PART;GROUP;ID;2173;MID;701400;NAME;Tibia;PID_OFFSET;0;COLOR;229;231;76;0;I
-$S_COLOR_ACTIVE;1;ATTRIBUTES;2;DM/File Type;ANSA;DM/Status;WIP;CONTAINS;ANSAPART
-$;1844;
-$ANSA_PART;GROUP;ID;2175;MID;300300;NAME;Humerus;PID_OFFSET;0;COLOR;222;153;9;0;
-$IS_COLOR_ACTIVE;1;ATTRIBUTES;2;DM/File Type;ANSA;DM/Status;WIP;CONTAINS;ANSAPAR
-$T;2141;
-$ANSA_PART;PART;ID;10;NAME;Humeroulnar-Joint~
-$;STUDY_VERSION;0;PID_OFFSET;0;COLOR;144;240;48;0;IS_COLOR_ACTIVE;0;GET_COLOR_FR
-$OM_ID;2164;ATTRIBUTES;2;DM/File Type;ANSA;DM/Status;WIP;CONTAINS;CONSTRAINED_EX
-$TRA_NODES_NODE;9000040,9000050,9000053-9000054;
-$ANSA_PART;PART;ID;714;MID;13002209;NAME;T_CB_Right_Rib_9;STUDY_VERSION;0;PID_OF
-$FSET;0;COLOR;130;24;183;0;IS_COLOR_ACTIVE;1;ATTRIBUTES;2;DM/File Type;ANSA;DM/S
-$tatus;WIP;CONTAINS;CONSTRAINED_EXTRA_NODES_NODE;120-122;
-$ANSA_PART;PART;ID;715;MID;13002203;NAME;T_CB_Right_Rib_3;STUDY_VERSION;0;PID_OF
-$FSET;0;COLOR;132;245;162;0;IS_COLOR_ACTIVE;1;ATTRIBUTES;2;DM/File Type;ANSA;DM/
-$Status;WIP;CONTAINS;CONSTRAINED_EXTRA_NODES_NODE;48-50;
-$ANSA_PART;PART;ID;716;MID;13002204;NAME;T_CB_Right_Rib_4;STUDY_VERSION;0;PID_OF
-$FSET;0;COLOR;134;211;142;0;IS_COLOR_ACTIVE;1;ATTRIBUTES;2;DM/File Type;ANSA;DM/
-$Status;WIP;CONTAINS;CONSTRAINED_EXTRA_NODES_NODE;60-62;
-$ANSA_PART;PART;ID;717;MID;13002205;NAME;T_CB_Right_Rib_5;STUDY_VERSION;0;PID_OF
-$FSET;0;COLOR;137;177;121;0;IS_COLOR_ACTIVE;1;ATTRIBUTES;2;DM/File Type;ANSA;DM/
-$Status;WIP;CONTAINS;CONSTRAINED_EXTRA_NODES_NODE;72-74;
-$ANSA_PART;PART;ID;718;MID;13002206;NAME;T_CB_Right_Rib_6;STUDY_VERSION;0;PID_OF
-$FSET;0;COLOR;139;143;100;0;IS_COLOR_ACTIVE;1;ATTRIBUTES;2;DM/File Type;ANSA;DM/
-$Status;WIP;CONTAINS;CONSTRAINED_EXTRA_NODES_NODE;84-86;
-$ANSA_PART;PART;ID;719;MID;13002212;NAME;T_CB_Right_Rib_12;STUDY_VERSION;0;PID_O
-$FFSET;0;COLOR;141;109;80;0;IS_COLOR_ACTIVE;1;ATTRIBUTES;2;DM/File Type;ANSA;DM/
-$Status;WIP;CONTAINS;CONSTRAINED_EXTRA_NODES_NODE;156-158;
-$ANSA_PART;PART;ID;720;MID;13002211;NAME;T_CB_Right_Rib_11;STUDY_VERSION;0;PID_O
-$FFSET;0;COLOR;143;75;59;0;IS_COLOR_ACTIVE;1;ATTRIBUTES;2;DM/File Type;ANSA;DM/S
-$tatus;WIP;CONTAINS;CONSTRAINED_EXTRA_NODES_NODE;144-146;
-$ANSA_PART;PART;ID;721;MID;13002210;NAME;T_CB_Right_Rib_10;STUDY_VERSION;0;PID_O
-$FFSET;0;COLOR;145;41;38;0;IS_COLOR_ACTIVE;1;ATTRIBUTES;2;DM/File Type;ANSA;DM/S
-$tatus;WIP;CONTAINS;CONSTRAINED_EXTRA_NODES_NODE;132-134;
-$ANSA_PART;PART;ID;722;MID;13002208;NAME;T_CB_Right_Rib_8;STUDY_VERSION;0;PID_OF
-$FSET;0;COLOR;148;7;18;0;IS_COLOR_ACTIVE;1;ATTRIBUTES;2;DM/File Type;ANSA;DM/Sta
-$tus;WIP;CONTAINS;CONSTRAINED_EXTRA_NODES_NODE;108-110;
-$ANSA_PART;PART;ID;723;MID;13002207;NAME;T_CB_Right_Rib_7;STUDY_VERSION;0;PID_OF
-$FSET;0;COLOR;150;228;252;0;IS_COLOR_ACTIVE;1;ATTRIBUTES;2;DM/File Type;ANSA;DM/
-$Status;WIP;CONTAINS;CONSTRAINED_EXTRA_NODES_NODE;96-98;
-$ANSA_PART;PART;ID;724;MID;13002202;NAME;T_CB_Right_Rib_2;STUDY_VERSION;0;PID_OF
-$FSET;0;COLOR;152;195;232;0;IS_COLOR_ACTIVE;1;ATTRIBUTES;2;DM/File Type;ANSA;DM/
-$Status;WIP;CONTAINS;CONSTRAINED_EXTRA_NODES_NODE;36-38;
-$ANSA_PART;PART;ID;725;MID;13002201;NAME;T_CB_Right_Rib_1;STUDY_VERSION;0;PID_OF
-$FSET;0;COLOR;154;161;211;0;IS_COLOR_ACTIVE;1;ATTRIBUTES;2;DM/File Type;ANSA;DM/
-$Status;WIP;CONTAINS;CONSTRAINED_EXTRA_NODES_NODE;24-26;
+$R_ACTIVE;1;PART_TYPE;Undefined;ATTRIBUTES;2;DM/File Type;ANSA;DM/Status;WIP;CON
+$TAINS;ANSAPART;1839;
+$ANSA_PART;GROUP;ID;2207;MID;95;NAME;Temp_v0.3;PID_OFFSET;0;COLOR;213;25;186;0;I
+$S_COLOR_ACTIVE;1;PART_TYPE;Undefined;ATTRIBUTES;2;DM/File Type;ANSA;DM/Status;W
+$IP;CONTAINS;ANSAPART;19;
+$ANSA_PART;PART;ID;19;NAME;Humerus-Cortical-1@1;STUDY_VERSION;0;PID_OFFSET;0;COL
+$OR;252;253;179;0;IS_COLOR_ACTIVE;0;GET_COLOR_FROM_ID;2207;PART_TYPE;Undefined;A
+$TTRIBUTES;2;DM/File Type;ANSA;DM/Status;WIP;CONTAINS;CONSTRAINED_JOINT_SPHERICA
+$L;3091220,3637534;
 $ANSA_PART;PART;ID;1839;NAME;Ankle-Joint;STUDY_VERSION;0;PID_OFFSET;0;COLOR;222;
-$2;39;0;IS_COLOR_ACTIVE;0;GET_COLOR_FROM_ID;2164;ATTRIBUTES;2;DM/File Type;ANSA;
-$DM/Status;WIP;CONTAINS;CONSTRAINED_EXTRA_NODES_NODE;9000000,9000010,9000020,900
-$0030,9000058-9000059,9000070-9000071;CONSTRAINED_JOINT_STIFFNESS_GENERALIZED;90
-$00000,9000070;
-$ANSA_PART;PART;ID;1841;NAME;Talus-Calc;STUDY_VERSION;0;PID_OFFSET;0;COLOR;195;9
-$1;112;0;IS_COLOR_ACTIVE;1;ATTRIBUTES;2;DM/File Type;ANSA;DM/Status;WIP;CONTAINS
-$;CONSTRAINED_EXTRA_NODES_NODE;7000026,9000068;
-$ANSA_PART;PART;ID;1844;MID;701431~
-$;NAME;Tibia-Distal-Cortical;STUDY_VERSION;0;PID_OFFSET;0;COLOR;242;58;167;0;IS_
-$COLOR_ACTIVE;1;ATTRIBUTES;2;DM/File Type;ANSA;DM/Status;WIP;CONTAINS;CONSTRAINE
-$D_EXTRA_NODES_NODE;7000022,9000057,9000078,9000082;
-$ANSA_PART;PART;ID;1860;MID;601051;NAME;Sacrum-Cortical;STUDY_VERSION;0;PID_OFFS
-$ET;0;COLOR;247;181;242;0;IS_COLOR_ACTIVE;1;ATTRIBUTES;2;DM/File Type;ANSA;DM/St
-$atus;WIP;CONTAINS;CONSTRAINED_EXTRA_NODES_NODE;9000074;
-$ANSA_PART;PART;ID;1862;MID;301603;NAME;Hand;STUDY_VERSION;0;PID_OFFSET;0;COLOR;
-$212;188;119;0;IS_COLOR_ACTIVE;1;ATTRIBUTES;2;DM/File Type;ANSA;DM/Status;WIP;CO
-$NTAINS;CONSTRAINED_EXTRA_NODES_NODE;9000077,9000079;
-$ANSA_PART;PART;ID;1863;NAME;Unclassified-ElementMass;STUDY_VERSION;0;PID_OFFSET
-$;0;COLOR;180;113;51;0;IS_COLOR_ACTIVE;1;ATTRIBUTES;2;DM/File Type;ANSA;DM/Statu
-$s;WIP;CONTAINS;CONSTRAINED_EXTRA_NODES_NODE;7000021,9000067;
-$ANSA_PART;PART;ID;1876;MID;301203;NAME;Scapula;STUDY_VERSION;0;PID_OFFSET;0;COL
-$OR;153;207;86;40;IS_COLOR_ACTIVE;0;GET_COLOR_FROM_ID;2167;ATTRIBUTES;2;DM/File 
-$Type;ANSA;DM/Status;WIP;CONTAINS;CONSTRAINED_EXTRA_NODES_NODE;7000006,7000010-7
-$000011,9000051,9000062-9000063;
-$ANSA_PART;PART;ID;1951;MID;13002012;NAME;T_CB_T12;STUDY_VERSION;0;PID_OFFSET;0;
-$COLOR;240;71;111;0;IS_COLOR_ACTIVE;1;ATTRIBUTES;2;DM/File Type;ANSA;DM/Status;W
-$IP;CONTAINS;CONSTRAINED_EXTRA_NODES_NODE;139,148-150,155,159;
-$ANSA_PART;PART;ID;1952;MID;13002011;NAME;T_CB_T11;STUDY_VERSION;0;PID_OFFSET;0;
-$COLOR;238;105;132;0;IS_COLOR_ACTIVE;1;ATTRIBUTES;2;DM/File Type;ANSA;DM/Status;
-$WIP;CONTAINS;CONSTRAINED_EXTRA_NODES_NODE;127,136-138,143,147;
-$ANSA_PART;PART;ID;1953;MID;13002010;NAME;T_CB_T10;STUDY_VERSION;0;PID_OFFSET;0;
-$COLOR;235;139;152;0;IS_COLOR_ACTIVE;1;ATTRIBUTES;2;DM/File Type;ANSA;DM/Status;
-$WIP;CONTAINS;CONSTRAINED_EXTRA_NODES_NODE;115,124-126,131,135;
-$ANSA_PART;PART;ID;1954;MID;13002009;NAME;T_CB_T9;STUDY_VERSION;0;PID_OFFSET;0;C
-$OLOR;233;173;173;0;IS_COLOR_ACTIVE;1;ATTRIBUTES;2;DM/File Type;ANSA;DM/Status;W
-$IP;CONTAINS;CONSTRAINED_EXTRA_NODES_NODE;103,112-114,119,123;
-$ANSA_PART;PART;ID;1955;MID;13002008;NAME;T_CB_T8;STUDY_VERSION;0;PID_OFFSET;0;C
-$OLOR;231;207;194;0;IS_COLOR_ACTIVE;1;ATTRIBUTES;2;DM/File Type;ANSA;DM/Status;W
-$IP;CONTAINS;CONSTRAINED_EXTRA_NODES_NODE;91,100-102,107,111;
-$ANSA_PART;PART;ID;1956;MID;13002007;NAME;T_CB_T7;STUDY_VERSION;0;PID_OFFSET;0;C
-$OLOR;229;241;214;0;IS_COLOR_ACTIVE;1;ATTRIBUTES;2;DM/File Type;ANSA;DM/Status;W
-$IP;CONTAINS;CONSTRAINED_EXTRA_NODES_NODE;79,88-90,95,99;
-$ANSA_PART;PART;ID;1957;MID;13002006;NAME;T_CB_T6;STUDY_VERSION;0;PID_OFFSET;0;C
-$OLOR;226;20;235;0;IS_COLOR_ACTIVE;1;ATTRIBUTES;2;DM/File Type;ANSA;DM/Status;WI
-$P;CONTAINS;CONSTRAINED_EXTRA_NODES_NODE;67,76-78,83,87;
-$ANSA_PART;PART;ID;1958;MID;13002005;NAME;T_CB_T5;STUDY_VERSION;0;PID_OFFSET;0;C
-$OLOR;224;54;1;0;IS_COLOR_ACTIVE;1;ATTRIBUTES;2;DM/File Type;ANSA;DM/Status;WIP;
-$CONTAINS;CONSTRAINED_EXTRA_NODES_NODE;55,64-66,71,75;
-$ANSA_PART;PART;ID;1959;MID;13002004;NAME;T_CB_T4;STUDY_VERSION;0;PID_OFFSET;0;C
-$OLOR;222;88;21;0;IS_COLOR_ACTIVE;1;ATTRIBUTES;2;DM/File Type;ANSA;DM/Status;WIP
-$;CONTAINS;CONSTRAINED_EXTRA_NODES_NODE;43,52-54,59,63;
-$ANSA_PART;PART;ID;1960;MID;13002003;NAME;T_CB_T3;STUDY_VERSION;0;PID_OFFSET;0;C
-$OLOR;220;122;42;0;IS_COLOR_ACTIVE;1;ATTRIBUTES;2;DM/File Type;ANSA;DM/Status;WI
-$P;CONTAINS;CONSTRAINED_EXTRA_NODES_NODE;31,40-42,47,51;
-$ANSA_PART;PART;ID;1961;MID;13002002;NAME;T_CB_T2;STUDY_VERSION;0;PID_OFFSET;0;C
-$OLOR;218;156;63;0;IS_COLOR_ACTIVE;1;ATTRIBUTES;2;DM/File Type;ANSA;DM/Status;WI
-$P;CONTAINS;CONSTRAINED_EXTRA_NODES_NODE;19,28-30,35,39;
-$ANSA_PART;PART;ID;1962;MID;13002017;NAME;T_CB_L5;STUDY_VERSION;0;PID_OFFSET;0;C
-$OLOR;215;190;83;0;IS_COLOR_ACTIVE;0;GET_COLOR_FROM_ID;2158;ATTRIBUTES;2;DM/File
-$ Type;ANSA;DM/Status;WIP;CONTAINS;CONSTRAINED_EXTRA_NODES_NODE;175-178;
-$ANSA_PART;PART;ID;1963;MID;13002016;NAME;T_CB_L4;STUDY_VERSION;0;PID_OFFSET;0;C
-$OLOR;213;223;104;0;IS_COLOR_ACTIVE;0;GET_COLOR_FROM_ID;2158;ATTRIBUTES;2;DM/Fil
-$e Type;ANSA;DM/Status;WIP;CONTAINS;CONSTRAINED_EXTRA_NODES_NODE;171-174;
-$ANSA_PART;PART;ID;1964;MID;13002015;NAME;T_CB_L3;STUDY_VERSION;0;PID_OFFSET;0;C
-$OLOR;211;2;125;0;IS_COLOR_ACTIVE;0;GET_COLOR_FROM_ID;2158;ATTRIBUTES;2;DM/File 
-$Type;ANSA;DM/Status;WIP;CONTAINS;CONSTRAINED_EXTRA_NODES_NODE;167-170;
-$ANSA_PART;PART;ID;1965;MID;13002014;NAME;T_CB_L2;STUDY_VERSION;0;PID_OFFSET;0;C
-$OLOR;209;36;145;0;IS_COLOR_ACTIVE;0;GET_COLOR_FROM_ID;2158;ATTRIBUTES;2;DM/File
-$ Type;ANSA;DM/Status;WIP;CONTAINS;CONSTRAINED_EXTRA_NODES_NODE;163-166;
-$ANSA_PART;PART;ID;1966;MID;13002013;NAME;T_CB_L1;STUDY_VERSION;0;PID_OFFSET;0;C
-$OLOR;206;70;166;0;IS_COLOR_ACTIVE;0;GET_COLOR_FROM_ID;2158;ATTRIBUTES;2;DM/File
-$ Type;ANSA;DM/Status;WIP;CONTAINS;CONSTRAINED_EXTRA_NODES_NODE;151,160-162;
-$ANSA_PART;PART;ID;1970;MID;13002001;NAME;T_CB_T1;STUDY_VERSION;0;PID_OFFSET;0;C
-$OLOR;197;206;249;0;IS_COLOR_ACTIVE;1;ATTRIBUTES;2;DM/File Type;ANSA;DM/Status;W
-$IP;CONTAINS;CONSTRAINED_EXTRA_NODES_NODE;16-18,23,27;
-$ANSA_PART;PART;ID;2105;MID;13002101;NAME;T_CB_Left_Rib_1;STUDY_VERSION;0;PID_OF
-$FSET;0;COLOR;253;92;224;0;IS_COLOR_ACTIVE;1;ATTRIBUTES;2;DM/File Type;ANSA;DM/S
-$tatus;WIP;CONTAINS;CONSTRAINED_EXTRA_NODES_NODE;20-22;
-$ANSA_PART;PART;ID;2106;MID;13002102;NAME;T_CB_Left_Rib_2;STUDY_VERSION;0;PID_OF
-$FSET;0;COLOR;251;125;245;0;IS_COLOR_ACTIVE;1;ATTRIBUTES;2;DM/File Type;ANSA;DM/
-$Status;WIP;CONTAINS;CONSTRAINED_EXTRA_NODES_NODE;32-34;
-$ANSA_PART;PART;ID;2107;MID;13002103;NAME;T_CB_Left_Rib_3;STUDY_VERSION;0;PID_OF
-$FSET;0;COLOR;249;159;11;0;IS_COLOR_ACTIVE;1;ATTRIBUTES;2;DM/File Type;ANSA;DM/S
-$tatus;WIP;CONTAINS;CONSTRAINED_EXTRA_NODES_NODE;44-46;
-$ANSA_PART;PART;ID;2108;MID;13002104;NAME;T_CB_Left_Rib_4;STUDY_VERSION;0;PID_OF
-$FSET;0;COLOR;246;193;31;0;IS_COLOR_ACTIVE;1;ATTRIBUTES;2;DM/File Type;ANSA;DM/S
-$tatus;WIP;CONTAINS;CONSTRAINED_EXTRA_NODES_NODE;56-58;
-$ANSA_PART;PART;ID;2109;MID;13002105;NAME;T_CB_Left_Rib_5;STUDY_VERSION;0;PID_OF
-$FSET;0;COLOR;244;227;52;0;IS_COLOR_ACTIVE;1;ATTRIBUTES;2;DM/File Type;ANSA;DM/S
-$tatus;WIP;CONTAINS;CONSTRAINED_EXTRA_NODES_NODE;68-70;
-$ANSA_PART;PART;ID;2110;MID;13002106;NAME;T_CB_Left_Rib_6;STUDY_VERSION;0;PID_OF
-$FSET;0;COLOR;242;6;73;0;IS_COLOR_ACTIVE;1;ATTRIBUTES;2;DM/File Type;ANSA;DM/Sta
-$tus;WIP;CONTAINS;CONSTRAINED_EXTRA_NODES_NODE;80-82;
-$ANSA_PART;PART;ID;2111;MID;13002107;NAME;T_CB_Left_Rib_7;STUDY_VERSION;0;PID_OF
-$FSET;0;COLOR;240;40;93;0;IS_COLOR_ACTIVE;1;ATTRIBUTES;2;DM/File Type;ANSA;DM/St
-$atus;WIP;CONTAINS;CONSTRAINED_EXTRA_NODES_NODE;92-94;
-$ANSA_PART;PART;ID;2112;MID;13002108;NAME;T_CB_Left_Rib_8;STUDY_VERSION;0;PID_OF
-$FSET;0;COLOR;237;74;114;0;IS_COLOR_ACTIVE;1;ATTRIBUTES;2;DM/File Type;ANSA;DM/S
-$tatus;WIP;CONTAINS;CONSTRAINED_EXTRA_NODES_NODE;104-106;
-$ANSA_PART;PART;ID;2113;MID;13002109;NAME;T_CB_Left_Rib_9;STUDY_VERSION;0;PID_OF
-$FSET;0;COLOR;235;108;135;0;IS_COLOR_ACTIVE;1;ATTRIBUTES;2;DM/File Type;ANSA;DM/
-$Status;WIP;CONTAINS;CONSTRAINED_EXTRA_NODES_NODE;116-118;
-$ANSA_PART;PART;ID;2114;MID;13002110;NAME;T_CB_Left_Rib_10;STUDY_VERSION;0;PID_O
-$FFSET;0;COLOR;233;142;155;0;IS_COLOR_ACTIVE;1;ATTRIBUTES;2;DM/File Type;ANSA;DM
-$/Status;WIP;CONTAINS;CONSTRAINED_EXTRA_NODES_NODE;128-130;
-$ANSA_PART;PART;ID;2115;MID;13002111;NAME;T_CB_Left_Rib_11;STUDY_VERSION;0;PID_O
-$FFSET;0;COLOR;231;176;176;0;IS_COLOR_ACTIVE;1;ATTRIBUTES;2;DM/File Type;ANSA;DM
-$/Status;WIP;CONTAINS;CONSTRAINED_EXTRA_NODES_NODE;140-142;
-$ANSA_PART;PART;ID;2116;MID;13002112;NAME;T_CB_Left_Rib_12;STUDY_VERSION;0;PID_O
-$FFSET;0;COLOR;228;210;197;0;IS_COLOR_ACTIVE;1;ATTRIBUTES;2;DM/File Type;ANSA;DM
-$/Status;WIP;CONTAINS;CONSTRAINED_EXTRA_NODES_NODE;152-154;
-$ANSA_PART;PART;ID;2124;MID;300403;NAME;Ulna-Rigid;STUDY_VERSION;0;PID_OFFSET;0;
-$COLOR;204;120;122;0;IS_COLOR_ACTIVE;0;GET_COLOR_FROM_ID;2167;ATTRIBUTES;2;DM/Fi
-$le Type;ANSA;DM/Status;WIP;CONTAINS;CONSTRAINED_EXTRA_NODES_NODE;7000016,900006
-$6,9000076;
-$ANSA_PART;PART;ID;2141;MID;301301;NAME;Humerus-Cortical-1;STUDY_VERSION;0;PID_O
-$FFSET;0;COLOR;252;253;179;0;IS_COLOR_ACTIVE;1;ATTRIBUTES;2;DM/File Type;ANSA;DM
-$/Status;WIP;CONTAINS;CONSTRAINED_EXTRA_NODES_NODE;7000005,7000008-7000009,70000
-$15,9000041,9000049,9000060-9000061,9000065,9000072;
-$ANSA_PART;PART;ID;2143;MID;301503;NAME;Radius-Rigid;STUDY_VERSION;0;PID_OFFSET;
-$0;COLOR;245;73;230;0;IS_COLOR_ACTIVE;0;GET_COLOR_FROM_ID;2167;ATTRIBUTES;2;DM/F
-$ile Type;ANSA;DM/Status;WIP;CONTAINS;CONSTRAINED_EXTRA_NODES_NODE;7000018-70000
-$19,9000042,9000052,9000055,9000073,9000081;
+$2;39;0;IS_COLOR_ACTIVE;0;GET_COLOR_FROM_ID;2164;PART_TYPE;Undefined;ATTRIBUTES;
+$2;DM/File Type;ANSA;DM/Status;WIP;CONTAINS;CONSTRAINED_JOINT_STIFFNESS_GENERALI
+$ZED;701433,751433;
 *END

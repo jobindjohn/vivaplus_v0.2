@@ -2,10 +2,10 @@
 4,,,,,,TX
 ,0,,,,,L
 ,5,,,,,R
-,,4,,,,Intercostal-muscle
+,,4,,,,Intercostal
 ,,,0,,,External
 ,,,2,,,Internal
-,,,4,,,Intermost
+,,,4,,,Innermost
 ,,,,0,,T1-T12
 ,,,,1,,T1-T2
 ,,,,2,,T2-T3
@@ -19,3 +19,5 @@
 ,,,,10,,T10-T11
 ,,,,11,,T11-T11
 ,,,,12,,T12-L1
+,,,,,1,Muscle
+,,,,,9,Null

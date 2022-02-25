@@ -1,7 +1,7 @@
 documentation/site/
 *.bak
 *.sav
+**/.ipynb_checkpoints/
 *.orig
-*.ipynb_checkpoints/
 *.code-workspace
 *lspost*
