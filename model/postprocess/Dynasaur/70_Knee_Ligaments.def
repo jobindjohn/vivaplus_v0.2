@@ -1,0 +1,655 @@
+[{
+		"CRITERIA": [
+            {
+				"name": "LX-Knee-Ligament-MCL-L_max",
+				"type_of_criteria": "injury",
+				"part_of": "LIGAMENTS",
+				"function": {
+					"name": "max",
+					"param": {
+						"data_vector": {
+							"function": {
+								"name": "row_sum",
+								"param": {
+									"matrix": {
+										"type": "DISCRETE",
+										"ID": "LX-Knee-Ligament-MCL-L",
+										"array": ["(all, displacement)"]
+									}
+								}
+							}
+
+						}
+					}
+				}
+             },
+            {
+				"name": "LX-Knee-Ligament-LCL-L_max",
+				"type_of_criteria": "injury",
+				"part_of": "LIGAMENTS",
+				"function": {
+					"name": "max",
+					"param": {
+						"data_vector": {
+							"function": {
+								"name": "row_sum",
+								"param": {
+									"matrix": {
+										"type": "DISCRETE",
+										"ID": "LX-Knee-Ligament-LCL-L",
+										"array": ["(all, displacement)"]
+									}
+								}
+							}
+
+						}
+					}
+				}
+             },
+            {
+				"name": "LX-Knee-Ligament-aACL-L_max",
+				"type_of_criteria": "injury",
+				"part_of": "LIGAMENTS",
+				"function": {
+					"name": "max",
+					"param": {
+						"data_vector": {
+							"function": {
+								"name": "row_sum",
+								"param": {
+									"matrix": {
+										"type": "DISCRETE",
+										"ID": "LX-Knee-Ligament-aACL-L",
+										"array": ["(all, displacement)"]
+									}
+								}
+							}
+
+						}
+					}
+				}
+             },
+            {
+				"name": "LX-Knee-Ligament-pACL-L_max",
+				"type_of_criteria": "injury",
+				"part_of": "LIGAMENTS",
+				"function": {
+					"name": "max",
+					"param": {
+						"data_vector": {
+							"function": {
+								"name": "row_sum",
+								"param": {
+									"matrix": {
+										"type": "DISCRETE",
+										"ID": "LX-Knee-Ligament-pACL-L",
+										"array": ["(all, displacement)"]
+									}
+								}
+							}
+
+						}
+					}
+				}
+             },
+            {
+				"name": "LX-Knee-Ligament-aPCL-L_max",
+				"type_of_criteria": "injury",
+				"part_of": "LIGAMENTS",
+				"function": {
+					"name": "max",
+					"param": {
+						"data_vector": {
+							"function": {
+								"name": "row_sum",
+								"param": {
+									"matrix": {
+										"type": "DISCRETE",
+										"ID": "LX-Knee-Ligament-aPCL-L",
+										"array": ["(all, displacement)"]
+									}
+								}
+							}
+
+						}
+					}
+				}
+             },
+            {
+				"name": "LX-Knee-Ligament-pPCL-L_max",
+				"type_of_criteria": "injury",
+				"part_of": "LIGAMENTS",
+				"function": {
+					"name": "max",
+					"param": {
+						"data_vector": {
+							"function": {
+								"name": "row_sum",
+								"param": {
+									"matrix": {
+										"type": "DISCRETE",
+										"ID": "LX-Knee-Ligament-pPCL-L",
+										"array": ["(all, displacement)"]
+									}
+								}
+							}
+
+						}
+					}
+				}
+             },
+            {
+				"name": "LX-Knee-Ligament-PL-L_max",
+				"type_of_criteria": "injury",
+				"part_of": "LIGAMENTS",
+				"function": {
+					"name": "max",
+					"param": {
+						"data_vector": {
+							"function": {
+								"name": "row_sum",
+								"param": {
+									"matrix": {
+										"type": "DISCRETE",
+										"ID": "LX-Knee-Ligament-PL-L",
+										"array": ["(all, displacement)"]
+									}
+								}
+							}
+
+						}
+					}
+				}
+             },
+            {
+				"name": "LX-Knee-Ligament-MCL-R_max",
+				"type_of_criteria": "injury",
+				"part_of": "LIGAMENTS",
+				"function": {
+					"name": "max",
+					"param": {
+						"data_vector": {
+							"function": {
+								"name": "row_sum",
+								"param": {
+									"matrix": {
+										"type": "DISCRETE",
+										"ID": "LX-Knee-Ligament-MCL-R",
+										"array": ["(all, displacement)"]
+									}
+								}
+							}
+
+						}
+					}
+				}
+             },
+            {
+				"name": "LX-Knee-Ligament-LCL-R_max",
+				"type_of_criteria": "injury",
+				"part_of": "LIGAMENTS",
+				"function": {
+					"name": "max",
+					"param": {
+						"data_vector": {
+							"function": {
+								"name": "row_sum",
+								"param": {
+									"matrix": {
+										"type": "DISCRETE",
+										"ID": "LX-Knee-Ligament-LCL-R",
+										"array": ["(all, displacement)"]
+									}
+								}
+							}
+
+						}
+					}
+				}
+             },
+            {
+				"name": "LX-Knee-Ligament-aACL-R_max",
+				"type_of_criteria": "injury",
+				"part_of": "LIGAMENTS",
+				"function": {
+					"name": "max",
+					"param": {
+						"data_vector": {
+							"function": {
+								"name": "row_sum",
+								"param": {
+									"matrix": {
+										"type": "DISCRETE",
+										"ID": "LX-Knee-Ligament-aACL-R",
+										"array": ["(all, displacement)"]
+									}
+								}
+							}
+
+						}
+					}
+				}
+             },
+            {
+				"name": "LX-Knee-Ligament-pACL-R_max",
+				"type_of_criteria": "injury",
+				"part_of": "LIGAMENTS",
+				"function": {
+					"name": "max",
+					"param": {
+						"data_vector": {
+							"function": {
+								"name": "row_sum",
+								"param": {
+									"matrix": {
+										"type": "DISCRETE",
+										"ID": "LX-Knee-Ligament-pACL-R",
+										"array": ["(all, displacement)"]
+									}
+								}
+							}
+
+						}
+					}
+				}
+             },
+            {
+				"name": "LX-Knee-Ligament-aPCL-R_max",
+				"type_of_criteria": "injury",
+				"part_of": "LIGAMENTS",
+				"function": {
+					"name": "max",
+					"param": {
+						"data_vector": {
+							"function": {
+								"name": "row_sum",
+								"param": {
+									"matrix": {
+										"type": "DISCRETE",
+										"ID": "LX-Knee-Ligament-aPCL-R",
+										"array": ["(all, displacement)"]
+									}
+								}
+							}
+
+						}
+					}
+				}
+             },
+            {
+				"name": "LX-Knee-Ligament-pPCL-R_max",
+				"type_of_criteria": "injury",
+				"part_of": "LIGAMENTS",
+				"function": {
+					"name": "max",
+					"param": {
+						"data_vector": {
+							"function": {
+								"name": "row_sum",
+								"param": {
+									"matrix": {
+										"type": "DISCRETE",
+										"ID": "LX-Knee-Ligament-pPCL-R",
+										"array": ["(all, displacement)"]
+									}
+								}
+							}
+
+						}
+					}
+				}
+             },
+            {
+				"name": "LX-Knee-Ligament-PL-R_max",
+				"type_of_criteria": "injury",
+				"part_of": "LIGAMENTS",
+				"function": {
+					"name": "max",
+					"param": {
+						"data_vector": {
+							"function": {
+								"name": "row_sum",
+								"param": {
+									"matrix": {
+										"type": "DISCRETE",
+										"ID": "LX-Knee-Ligament-PL-R",
+										"array": ["(all, displacement)"]
+									}
+								}
+							}
+
+						}
+					}
+				}
+             }             
+        ]
+	},
+	{
+		"DATA VISUALIZATION": [
+            {
+                "name": "LX-Knee-Ligament-MCL-L_time",
+                "part_of": "LIGAMENTS",
+                "x": {
+                    "label": "time",
+                    "type": "DISCRETE",
+                    "ID": "LX-Knee-Ligament-MCL-L",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "displacement",
+                    "function": {
+                        "name": "row_sum",
+                        "param": {
+                            "matrix": {
+                                "type": "DISCRETE",
+                                "ID": "LX-Knee-Ligament-MCL-L",
+                                "array": ["(all, displacement)"]
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "name": "LX-Knee-Ligament-LCL-L_time",
+                "part_of": "LIGAMENTS",
+                "x": {
+                    "label": "time",
+                    "type": "DISCRETE",
+                    "ID": "LX-Knee-Ligament-LCL-L",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "displacement",
+                    "function": {
+                        "name": "row_sum",
+                        "param": {
+                            "matrix": {
+                                "type": "DISCRETE",
+                                "ID": "LX-Knee-Ligament-LCL-L",
+                                "array": ["(all, displacement)"]
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "name": "LX-Knee-Ligament-aACL-L_time",
+                "part_of": "LIGAMENTS",
+                "x": {
+                    "label": "time",
+                    "type": "DISCRETE",
+                    "ID": "LX-Knee-Ligament-aACL-L",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "displacement",
+                    "function": {
+                        "name": "row_sum",
+                        "param": {
+                            "matrix": {
+                                "type": "DISCRETE",
+                                "ID": "LX-Knee-Ligament-aACL-L",
+                                "array": ["(all, displacement)"]
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "name": "LX-Knee-Ligament-pACL-L_time",
+                "part_of": "LIGAMENTS",
+                "x": {
+                    "label": "time",
+                    "type": "DISCRETE",
+                    "ID": "LX-Knee-Ligament-pACL-L",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "displacement",
+                    "function": {
+                        "name": "row_sum",
+                        "param": {
+                            "matrix": {
+                                "type": "DISCRETE",
+                                "ID": "LX-Knee-Ligament-pACL-L",
+                                "array": ["(all, displacement)"]
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "name": "LX-Knee-Ligament-aPCL-L_time",
+                "part_of": "LIGAMENTS",
+                "x": {
+                    "label": "time",
+                    "type": "DISCRETE",
+                    "ID": "LX-Knee-Ligament-aPCL-L",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "displacement",
+                    "function": {
+                        "name": "row_sum",
+                        "param": {
+                            "matrix": {
+                                "type": "DISCRETE",
+                                "ID": "LX-Knee-Ligament-aPCL-L",
+                                "array": ["(all, displacement)"]
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "name": "LX-Knee-Ligament-pPCL-L_time",
+                "part_of": "LIGAMENTS",
+                "x": {
+                    "label": "time",
+                    "type": "DISCRETE",
+                    "ID": "LX-Knee-Ligament-pPCL-L",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "displacement",
+                    "function": {
+                        "name": "row_sum",
+                        "param": {
+                            "matrix": {
+                                "type": "DISCRETE",
+                                "ID": "LX-Knee-Ligament-pPCL-L",
+                                "array": ["(all, displacement)"]
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "name": "LX-Knee-Ligament-PL-L_time",
+                "part_of": "LIGAMENTS",
+                "x": {
+                    "label": "time",
+                    "type": "DISCRETE",
+                    "ID": "LX-Knee-Ligament-PL-L",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "displacement",
+                    "function": {
+                        "name": "row_sum",
+                        "param": {
+                            "matrix": {
+                                "type": "DISCRETE",
+                                "ID": "LX-Knee-Ligament-PL-L",
+                                "array": ["(all, displacement)"]
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "name": "LX-Knee-Ligament-MCL-R_time",
+                "part_of": "LIGAMENTS",
+                "x": {
+                    "label": "time",
+                    "type": "DISCRETE",
+                    "ID": "LX-Knee-Ligament-MCL-R",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "displacement",
+                    "function": {
+                        "name": "row_sum",
+                        "param": {
+                            "matrix": {
+                                "type": "DISCRETE",
+                                "ID": "LX-Knee-Ligament-MCL-R",
+                                "array": ["(all, displacement)"]
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "name": "LX-Knee-Ligament-LCL-R_time",
+                "part_of": "LIGAMENTS",
+                "x": {
+                    "label": "time",
+                    "type": "DISCRETE",
+                    "ID": "LX-Knee-Ligament-LCL-R",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "displacement",
+                    "function": {
+                        "name": "row_sum",
+                        "param": {
+                            "matrix": {
+                                "type": "DISCRETE",
+                                "ID": "LX-Knee-Ligament-LCL-R",
+                                "array": ["(all, displacement)"]
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "name": "LX-Knee-Ligament-aACL-R_time",
+                "part_of": "LIGAMENTS",
+                "x": {
+                    "label": "time",
+                    "type": "DISCRETE",
+                    "ID": "LX-Knee-Ligament-aACL-R",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "displacement",
+                    "function": {
+                        "name": "row_sum",
+                        "param": {
+                            "matrix": {
+                                "type": "DISCRETE",
+                                "ID": "LX-Knee-Ligament-aACL-R",
+                                "array": ["(all, displacement)"]
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "name": "LX-Knee-Ligament-pACL-R_time",
+                "part_of": "LIGAMENTS",
+                "x": {
+                    "label": "time",
+                    "type": "DISCRETE",
+                    "ID": "LX-Knee-Ligament-pACL-R",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "displacement",
+                    "function": {
+                        "name": "row_sum",
+                        "param": {
+                            "matrix": {
+                                "type": "DISCRETE",
+                                "ID": "LX-Knee-Ligament-pACL-R",
+                                "array": ["(all, displacement)"]
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "name": "LX-Knee-Ligament-aPCL-R_time",
+                "part_of": "LIGAMENTS",
+                "x": {
+                    "label": "time",
+                    "type": "DISCRETE",
+                    "ID": "LX-Knee-Ligament-aPCL-R",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "displacement",
+                    "function": {
+                        "name": "row_sum",
+                        "param": {
+                            "matrix": {
+                                "type": "DISCRETE",
+                                "ID": "LX-Knee-Ligament-aPCL-R",
+                                "array": ["(all, displacement)"]
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "name": "LX-Knee-Ligament-pPCL-R_time",
+                "part_of": "LIGAMENTS",
+                "x": {
+                    "label": "time",
+                    "type": "DISCRETE",
+                    "ID": "LX-Knee-Ligament-pPCL-R",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "displacement",
+                    "function": {
+                        "name": "row_sum",
+                        "param": {
+                            "matrix": {
+                                "type": "DISCRETE",
+                                "ID": "LX-Knee-Ligament-pPCL-R",
+                                "array": ["(all, displacement)"]
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "name": "LX-Knee-Ligament-PL-R_time",
+                "part_of": "LIGAMENTS",
+                "x": {
+                    "label": "time",
+                    "type": "DISCRETE",
+                    "ID": "LX-Knee-Ligament-PL-R",
+                    "array": ["(0, time)"]
+                },
+                "y": {
+                    "label": "displacement",
+                    "function": {
+                        "name": "row_sum",
+                        "param": {
+                            "matrix": {
+                                "type": "DISCRETE",
+                                "ID": "LX-Knee-Ligament-PL-R",
+                                "array": ["(all, displacement)"]
+                            }
+                        }
+                    }
+                }
+            }            
+
+		]
+	}
+
+]
