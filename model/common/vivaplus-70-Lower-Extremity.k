@@ -1,13 +1,13 @@
 $
-$ANSA_VERSION;22.0.0;
+$ANSA_VERSION;22.0.1;
 $
 $
-$ file created by  A N S A  Fri Feb 18 16:05:06 2022
+$ file created by  A N S A  Thu Mar  3 14:53:19 2022
 $
 $ output from :
 $
-$ C:/Users/jobinj/Box/vivaplus-share/VIVA-Plus-Meshing-Shared-Folder/v0_3/vivapl
-$ us-50F_v030_220218.ansa
+$ C:/Users/iraeus/Documents/Projects/VIRTUAL/ViVA+/Final_assembly/0.3.0/vivaplus
+$ -50F_v030_220302.ansa
 $
 $ Settings :
 $
@@ -483,11 +483,11 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 $       B1|       B2|
         0.       90.
 *PART
-LX-Soft-Thigh-Pelvis-connect-Soft-Tissue-L
+LX-Soft-Thigh-Soft-Tissue-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
     705112    705112    705001              900001         0         0          
 *SECTION_SOLID_TITLE
-LX-Soft-Thigh-Pelvis-connect-Soft-Tissue-L
+LX-Soft-Thigh-Soft-Tissue-L
 $    SECID|   ELFORM|
     705112         1
 *PART
@@ -585,11 +585,11 @@ LX-Soft-Foot-Tissue-L
 $    SECID|   ELFORM|
     705192         1
 *PART
-LX-Soft-Foot-L
+LX-Soft-Toes-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
     705193    705193    705001              900001         0         0          
 *SECTION_SOLID_TITLE
-LX-Soft-Foot-L
+LX-Soft-Toes-L
 $    SECID|   ELFORM|
     705193         1
 *PART
@@ -1079,11 +1079,11 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 $       B1|       B2|
         0.      -90.
 *PART
-LX-Soft-Thigh-Pelvis-connect-Soft-Tissue-R
+LX-Soft-Thigh-Soft-Tissue-R
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
     755112    755112    705001              900001         0         0          
 *SECTION_SOLID_TITLE
-LX-Soft-Thigh-Pelvis-connect-Soft-Tissue-R
+LX-Soft-Thigh-Soft-Tissue-R
 $    SECID|   ELFORM|
     755112         1
 *PART
@@ -1181,11 +1181,11 @@ LX-Soft-Foot-Tissue-R
 $    SECID|   ELFORM|
     755192         1
 *PART
-LX-Soft-Foot-R
+LX-Soft-Toes-R
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
     755193    755193    705001              900001         0         0          
 *SECTION_SOLID_TITLE
-LX-Soft-Foot-R
+LX-Soft-Toes-R
 $    SECID|   ELFORM|
     755193         1
 *PART
