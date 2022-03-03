@@ -34,6 +34,7 @@ and this project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.ht
 - Added DAMPING_PART_STIFFNESS with 5% damping to all elastic materials
 - New contact to tie soft tissue to humerus, 350010
 - Names added `*DEFINE_COORDINATE_NODES`
+- Added missing references for material
 
 ### Changed
 
