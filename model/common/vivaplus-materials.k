@@ -1,13 +1,13 @@
 $
-$ANSA_VERSION;22.0.0;
+$ANSA_VERSION;22.0.1;
 $
 $
-$ file created by  A N S A  Fri Feb 18 16:05:04 2022
+$ file created by  A N S A  Thu Mar  3 14:52:56 2022
 $
 $ output from :
 $
-$ C:/Users/jobinj/Box/vivaplus-share/VIVA-Plus-Meshing-Shared-Folder/v0_3/vivapl
-$ us-50F_v030_220218.ansa
+$ C:/Users/iraeus/Documents/Projects/VIRTUAL/ViVA+/Final_assembly/0.3.0/vivaplus
+$ -50F_v030_220302.ansa
 $
 $ Settings :
 $
@@ -159,7 +159,7 @@ HE-Skin_Manschot_et_al_1986
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
     100000     1.E-6     0.001     0.001                0.49          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
-   0.00033                            1.     1.E-6      0.49      0.05      0.05
+    3.3E-4                            1.     1.E-6      0.49      0.05      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
        0.0        0.        0.        0.       0.0      14.0       0.0         0
 $         |   RGBRTH|    A0REF|                             |       X0|       X1|
@@ -201,7 +201,7 @@ $      CMO|     CON1|     CON2|
 $       A1|       A2|       A3|       V1|       V2|       V3|
         0.        0.        0.        0.        0.        0.
 *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE
-HE-Skull-Deformable
+HE-Skull-Deformable_Based_on_Loyd_2014
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     100005     2.E-6       40.       0.3       10.        0.     1.E20        0.
 $        C|        P|     LCSS|     LCSR|       VP|      LCF|
@@ -211,7 +211,7 @@ $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
         0.        0.        0.        0.        0.        0.        0.        0.
 *MAT_OGDEN_RUBBER_TITLE
-HE-Scalp-Naseri Ogden model-Avg response of compressive stiffness from experime
+HE-Scalp-Naseri_2021
 $      MID|       RO|       PR|        N|       NV|        G|     SIGF|      REF|
     103001&TX_DENS     0.49998         0         6                            0.
 $      MU1|      MU2|      MU3|      MU4|      MU5|      MU6|      MU7|      MU8|
@@ -289,7 +289,7 @@ $      CMO|     CON1|     CON2|
 $       A1|       A2|       A3|       V1|       V2|       V3|
         0.        0.        0.        0.        0.        0.
 *MAT_FABRIC_TITLE
-NE_C_SC1-AAOM
+NE_C_SC1-AAOM_Oesth_2016
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
     200510     1.E-6     1.E-6     1.E-6                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
@@ -303,7 +303,7 @@ $                                                           |     BETA|   ISREFG
 $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
     200510    210510         0         0         0         0        0.
 *MAT_FABRIC_TITLE
-NE_C_SC2-Apical
+NE_C_SC2-Apical_Oesth_2016
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
     200520     1.E-6     1.E-6     1.E-6                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
@@ -317,7 +317,7 @@ $                                                           |     BETA|   ISREFG
 $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
     200520    210520         0         0         0         0        0.
 *MAT_FABRIC_TITLE
-NE_C_SC2-SL_Cruciform
+NE_C_SC2-SL_Cruciform_Oesth_2016
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
     200530     1.E-6     1.E-6     1.E-6                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
@@ -331,7 +331,7 @@ $                                                           |     BETA|   ISREFG
 $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
     200530    210530         0         0         0         0        0.
 *MAT_FABRIC_TITLE
-NE_C_SC2-Tectoria
+NE_C_SC2-Tectoria_Oesth_2016
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
     200540     1.E-6     1.E-6     1.E-6                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
@@ -345,7 +345,7 @@ $                                                           |     BETA|   ISREFG
 $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
     200540    210540         0         0         0         0        0.
 *MAT_FABRIC_TITLE
-NE_C_SC2-Alar
+NE_C_SC2-Alar_Oesth_2016
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
     200550     1.E-6     1.E-6     1.E-6                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
@@ -359,7 +359,7 @@ $                                                           |     BETA|   ISREFG
 $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
     200550    210550         0         0         0         0        0.
 *MAT_FABRIC_TITLE
-NE_C_AOCJ-CL
+NE_C_AOCJ-CL_Oesth_2016
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
     200560     1.E-6     1.E-6     1.E-6                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
@@ -373,7 +373,7 @@ $                                                           |     BETA|   ISREFG
 $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
     200560    210560         0         0         0         0        0.
 *MAT_FABRIC_TITLE
-NE_C_SC1-PAOM
+NE_C_SC1-PAOM_Oesth_2016
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
     200570     1.E-6     1.E-6     1.E-6                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
@@ -387,7 +387,7 @@ $                                                           |     BETA|   ISREFG
 $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
     203008    210570         0         0         0         0        0.
 *MAT_FABRIC_TITLE
-NE_C_C1C2-Transverse
+NE_C_C1C2-Transverse_Oesth_2016
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
     200580     1.E-6     1.E-6     1.E-6                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
@@ -405,7 +405,7 @@ NE_L_Stylohyoid_Ligament_Zajac-1989
 $      MID|       RO|        E|     LCID|       F0|   TMAXF0|    TRAMP|    IREAD|
     200610     1.E-9       1.2         0        0.        0.        0.         0
 *MAT_FABRIC_TITLE
-NE_C_C1C2-ALL
+NE_C_C1C2-ALL_Oesth_2016
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
     200710     1.E-6     1.E-6     1.E-6                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
@@ -421,7 +421,7 @@ $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
 $     LCAA|     LCBB|        H|       DT|         |    ECOAT|    SCOAT|    TCOAT|
          0         0        0.        3.                  0.        0.        0.
 *MAT_FABRIC_TITLE
-NE_C_C1C2-AAAM
+NE_C_C1C2-AAAM_Oesth_2016
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
     200720     1.E-6     1.E-6     1.E-6                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
@@ -435,7 +435,7 @@ $                                                           |     BETA|   ISREFG
 $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
     200721    210721         0         0         0         0        0.
 *MAT_FABRIC_TITLE
-NE_C_AAJ-CL
+NE_C_AAJ-CL_Oesth_2016
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
     200730     1.E-6     1.E-6     1.E-6                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
@@ -449,7 +449,7 @@ $                                                           |     BETA|   ISREFG
 $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
     200730    210720         0         0         0         0        0.
 *MAT_FABRIC_TITLE
-NE_C_C1C2-IL_Cruciform
+NE_C_C1C2-IL_Cruciform_Oesth_2016
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
     200740     1.E-6     1.E-6     1.E-6                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
@@ -463,7 +463,7 @@ $                                                           |     BETA|   ISREFG
 $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
     200530    210530         0         0         0         0        0.
 *MAT_FABRIC_TITLE
-NE_C_C1C2-Transverse_Center
+NE_C_C1C2-Transverse_Center_Oesth_2016
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
     200750     1.E-6     1.E-6     1.E-6                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
@@ -477,7 +477,7 @@ $                                                           |     BETA|   ISREFG
 $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
     200530    210750         0         0         0         0        0.
 *MAT_FABRIC_TITLE
-NE_C_C1C2-PAAM
+NE_C_C1C2-PAAM_Oesth_2016
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
     200760     1.E-6     1.E-6     1.E-6                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
@@ -491,7 +491,7 @@ $                                                           |     BETA|   ISREFG
 $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
     203017    210760         0         0         0         0        0.
 *MAT_FABRIC_TITLE
-NE_C_C2C3-ALL
+NE_C_C2C3-ALL_Oesth_2016
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
     201521     1.E-6     1.E-6     1.E-6                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
@@ -507,7 +507,7 @@ $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
 $     LCAA|     LCBB|        H|       DT|         |    ECOAT|    SCOAT|    TCOAT|
          0         0        0.        3.                  0.        0.        0.
 *MAT_FABRIC_TITLE
-NE_C_C2C3-PLL
+NE_C_C2C3-PLL_Oesth_2016
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
     201522     1.E-6     1.E-6     1.E-6                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
@@ -523,11 +523,11 @@ $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
 $     LCAA|     LCBB|        H|       DT|         |    ECOAT|    SCOAT|    TCOAT|
          0         0        0.        3.                  0.        0.        0.
 *MAT_FABRIC_TITLE
-NE_L_C2C3-CL
+NE_L_C2C3-CL_Oesth_2016
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
     201523     1.E-6     1.E-6     1.E-6                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
- 0.0002346                            1.     0.001      0.49      0.05      0.05
+  2.346E-4                            1.     0.001      0.49      0.05      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
        0.0        0.        0.        0.       0.0     -14.0       0.0         0
 $         |   RGBRTH|    A0REF|                             |       X0|       X1|
@@ -539,11 +539,11 @@ $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
 $     LCAA|     LCBB|        H|       DT|         |    ECOAT|    SCOAT|    TCOAT|
          0         0        0.        3.                  0.        0.        0.
 *MAT_FABRIC_TITLE
-NE_C_C2C3-LF
+NE_C_C2C3-LF_Oesth_2016
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
     201524     1.E-6     1.E-6     1.E-6                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
- 0.0004825                            1.     0.001      0.49      0.05      0.05
+  4.825E-4                            1.     0.001      0.49      0.05      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
        0.0        0.        0.        0.       0.0     -14.0       0.0         0
 $         |   RGBRTH|    A0REF|                             |       X0|       X1|
@@ -555,11 +555,11 @@ $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
 $     LCAA|     LCBB|        H|       DT|         |    ECOAT|    SCOAT|    TCOAT|
          0         0        0.        3.                  0.        0.        0.
 *MAT_FABRIC_TITLE
-NE_C_C2C3-ISL
+NE_C_C2C3-ISL_Oesth_2016
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
     201525     1.E-6     1.E-6     1.E-6                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
- 0.0006219                            1.     0.001      0.49      0.05      0.05
+  6.219E-4                            1.     0.001      0.49      0.05      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
        0.0        0.        0.        0.       0.0     -14.0       0.0         0
 $         |   RGBRTH|    A0REF|                             |       X0|       X1|
@@ -571,7 +571,7 @@ $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
 $     LCAA|     LCBB|        H|       DT|         |    ECOAT|    SCOAT|    TCOAT|
          0         0        0.        3.                  0.        0.        0.
 *MAT_FABRIC_TITLE
-NE_C_C3C4-ALL
+NE_C_C3C4-ALL_Oesth_2016
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
     201531     1.E-6     1.E-6     1.E-6                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
@@ -587,7 +587,7 @@ $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
 $     LCAA|     LCBB|        H|       DT|         |    ECOAT|    SCOAT|    TCOAT|
          0         0        0.        3.                  0.        0.        0.
 *MAT_FABRIC_TITLE
-NE_C_C3C4-PLL
+NE_C_C3C4-PLL_Oesth_2016
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
     201532     1.E-6     1.E-6     1.E-6                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
@@ -603,11 +603,11 @@ $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
 $     LCAA|     LCBB|        H|       DT|         |    ECOAT|    SCOAT|    TCOAT|
          0         0        0.        3.                  0.        0.        0.
 *MAT_FABRIC_TITLE
-NE_C_C3C4-CL
+NE_C_C3C4-CL_Oesth_2016
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
     201533     1.E-6     1.E-6     1.E-6                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
- 0.0002228                            1.     0.001      0.49      0.05      0.05
+  2.228E-4                            1.     0.001      0.49      0.05      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
        0.0        0.        0.        0.       0.0     -14.0       0.0         0
 $         |   RGBRTH|    A0REF|                             |       X0|       X1|
@@ -619,11 +619,11 @@ $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
 $     LCAA|     LCBB|        H|       DT|         |    ECOAT|    SCOAT|    TCOAT|
          0         0        0.        3.                  0.        0.        0.
 *MAT_FABRIC_TITLE
-NE_C_C3C4-LF
+NE_C_C3C4-LF_Oesth_2016
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
     201534     1.E-6     1.E-6     1.E-6                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
- 0.0006713                            1.     0.001      0.49      0.05      0.05
+  6.713E-4                            1.     0.001      0.49      0.05      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
        0.0        0.        0.        0.       0.0     -14.0       0.0         0
 $         |   RGBRTH|    A0REF|                             |       X0|       X1|
@@ -635,11 +635,11 @@ $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
 $     LCAA|     LCBB|        H|       DT|         |    ECOAT|    SCOAT|    TCOAT|
          0         0        0.        3.                  0.        0.        0.
 *MAT_FABRIC_TITLE
-NE_C_C3C4-ISL
+NE_C_C3C4-ISL_Oesth_2016
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
     201535     1.E-6     1.E-6     1.E-6                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
- 0.0006984                            1.     0.001      0.49      0.05      0.05
+  6.984E-4                            1.     0.001      0.49      0.05      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
        0.0        0.        0.        0.       0.0     -14.0       0.0         0
 $         |   RGBRTH|    A0REF|                             |       X0|       X1|
@@ -651,7 +651,7 @@ $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
 $     LCAA|     LCBB|        H|       DT|         |    ECOAT|    SCOAT|    TCOAT|
          0         0        0.        3.                  0.        0.        0.
 *MAT_FABRIC_TITLE
-NE_C_C4C5-ALL
+NE_C_C4C5-ALL_Oesth_2016
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
     201541     1.E-6     1.E-6     1.E-6                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
@@ -667,7 +667,7 @@ $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
 $     LCAA|     LCBB|        H|       DT|         |    ECOAT|    SCOAT|    TCOAT|
          0         0        0.        3.                  0.        0.        0.
 *MAT_FABRIC_TITLE
-NE_C_C4C5-PLL
+NE_C_C4C5-PLL_Oesth_2016
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
     201542     1.E-6     1.E-6     1.E-6                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
@@ -683,11 +683,11 @@ $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
 $     LCAA|     LCBB|        H|       DT|         |    ECOAT|    SCOAT|    TCOAT|
          0         0        0.        3.                  0.        0.        0.
 *MAT_FABRIC_TITLE
-NE_C_C4C5-CL
+NE_C_C4C5-CL_Oesth_2016
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
     201543     1.E-6     1.E-6     1.E-6                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
- 0.0002427                            1.     0.001      0.49      0.05      0.05
+  2.427E-4                            1.     0.001      0.49      0.05      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
        0.0        0.        0.        0.       0.0     -14.0       0.0         0
 $         |   RGBRTH|    A0REF|                             |       X0|       X1|
@@ -699,11 +699,11 @@ $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
 $     LCAA|     LCBB|        H|       DT|         |    ECOAT|    SCOAT|    TCOAT|
          0         0        0.        3.                  0.        0.        0.
 *MAT_FABRIC_TITLE
-NE_C_C4C5-LF
+NE_C_C4C5-LF_Oesth_2016
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
     201544     1.E-6     1.E-6     1.E-6                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
- 0.0004434                            1.     0.001      0.49      0.05      0.05
+  4.434E-4                            1.     0.001      0.49      0.05      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
        0.0        0.        0.        0.       0.0     -14.0       0.0         0
 $         |   RGBRTH|    A0REF|                             |       X0|       X1|
@@ -715,11 +715,11 @@ $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
 $     LCAA|     LCBB|        H|       DT|         |    ECOAT|    SCOAT|    TCOAT|
          0         0        0.        3.                  0.        0.        0.
 *MAT_FABRIC_TITLE
-NE_C_C4C5-ISL
+NE_C_C4C5-ISL_Oesth_2016
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
     201545     1.E-6     1.E-6     1.E-6                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
- 0.0004787                            1.     0.001      0.49      0.05      0.05
+  4.787E-4                            1.     0.001      0.49      0.05      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
        0.0        0.        0.        0.       0.0     -14.0       0.0         0
 $         |   RGBRTH|    A0REF|                             |       X0|       X1|
@@ -731,7 +731,7 @@ $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
 $     LCAA|     LCBB|        H|       DT|         |    ECOAT|    SCOAT|    TCOAT|
          0         0        0.        3.                  0.        0.        0.
 *MAT_FABRIC_TITLE
-NE_C_C5C6-ALL
+NE_C_C5C6-ALL_Oesth_2016
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
     201551     1.E-6     1.E-6     1.E-6                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
@@ -747,7 +747,7 @@ $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
 $     LCAA|     LCBB|        H|       DT|         |    ECOAT|    SCOAT|    TCOAT|
          0         0        0.        3.                  0.        0.        0.
 *MAT_FABRIC_TITLE
-NE_C_C5C6-PLL
+NE_C_C5C6-PLL_Oesth_2016
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
     201552     1.E-6     1.E-6     1.E-6                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
@@ -763,11 +763,11 @@ $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
 $     LCAA|     LCBB|        H|       DT|         |    ECOAT|    SCOAT|    TCOAT|
          0         0        0.        3.                  0.        0.        0.
 *MAT_FABRIC_TITLE
-NE_C_C5C6-CL
+NE_C_C5C6-CL_Oesth_2016
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
     201553     1.E-6     1.E-6     1.E-6                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
- 0.0001759                            1.     0.001      0.49      0.05      0.05
+  1.759E-4                            1.     0.001      0.49      0.05      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
        0.0        0.        0.        0.       0.0     -14.0       0.0         0
 $         |   RGBRTH|    A0REF|                             |       X0|       X1|
@@ -779,11 +779,11 @@ $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
 $     LCAA|     LCBB|        H|       DT|         |    ECOAT|    SCOAT|    TCOAT|
          0         0        0.        3.                  0.        0.        0.
 *MAT_FABRIC_TITLE
-NE_C_C5C6-LF
+NE_C_C5C6-LF_Oesth_2016
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
     201554     1.E-6     1.E-6     1.E-6                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
- 0.0004086                            1.     0.001      0.49      0.05      0.05
+  4.086E-4                            1.     0.001      0.49      0.05      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
        0.0        0.        0.        0.       0.0     -14.0       0.0         0
 $         |   RGBRTH|    A0REF|                             |       X0|       X1|
@@ -795,11 +795,11 @@ $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
 $     LCAA|     LCBB|        H|       DT|         |    ECOAT|    SCOAT|    TCOAT|
          0         0        0.        3.                  0.        0.        0.
 *MAT_FABRIC_TITLE
-NE_C_C5C6-ISL
+NE_C_C5C6-ISL_Oesth_2016
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
     201555     1.E-6     1.E-6     1.E-6                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
- 0.0002851                            1.     0.001      0.49      0.05      0.05
+  2.851E-4                            1.     0.001      0.49      0.05      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
        0.0        0.        0.        0.       0.0     -14.0       0.0         0
 $         |   RGBRTH|    A0REF|                             |       X0|       X1|
@@ -811,7 +811,7 @@ $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
 $     LCAA|     LCBB|        H|       DT|         |    ECOAT|    SCOAT|    TCOAT|
          0         0        0.        3.                  0.        0.        0.
 *MAT_FABRIC_TITLE
-NE_C_C6C7-ALL
+NE_C_C6C7-ALL_Oesth_2016
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
     201561     1.E-6     1.E-6     1.E-6                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
@@ -827,7 +827,7 @@ $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
 $     LCAA|     LCBB|        H|       DT|         |    ECOAT|    SCOAT|    TCOAT|
          0         0        0.        3.                  0.        0.        0.
 *MAT_FABRIC_TITLE
-NE_C_C6C7-PLL
+NE_C_C6C7-PLL_Oesth_2016
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
     201562     1.E-6     1.E-6     1.E-6                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
@@ -843,11 +843,11 @@ $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
 $     LCAA|     LCBB|        H|       DT|         |    ECOAT|    SCOAT|    TCOAT|
          0         0        0.        3.                  0.        0.        0.
 *MAT_FABRIC_TITLE
-NE_C_C6C7-CL
+NE_C_C6C7-CL_Oesth_2016
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
     201563     1.E-6     1.E-6     1.E-6                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
- 0.0002459                            1.     0.001      0.49      0.05      0.05
+  2.459E-4                            1.     0.001      0.49      0.05      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
        0.0        0.        0.        0.       0.0     -14.0       0.0         0
 $         |   RGBRTH|    A0REF|                             |       X0|       X1|
@@ -859,11 +859,11 @@ $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
 $     LCAA|     LCBB|        H|       DT|         |    ECOAT|    SCOAT|    TCOAT|
          0         0        0.        3.                  0.        0.        0.
 *MAT_FABRIC_TITLE
-NE_C_C6C7-LF
+NE_C_C6C7-LF_Oesth_2016
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
     201564     1.E-6     1.E-6     1.E-6                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
- 0.0002516                            1.     0.001      0.49      0.05      0.05
+  2.516E-4                            1.     0.001      0.49      0.05      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
        0.0        0.        0.        0.       0.0     -14.0       0.0         0
 $         |   RGBRTH|    A0REF|                             |       X0|       X1|
@@ -875,11 +875,11 @@ $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
 $     LCAA|     LCBB|        H|       DT|         |    ECOAT|    SCOAT|    TCOAT|
          0         0        0.        3.                  0.        0.        0.
 *MAT_FABRIC_TITLE
-NE_C_C6C7-ISL
+NE_C_C6C7-ISL_Oesth_2016
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
     201565     1.E-6     1.E-6     1.E-6                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
- 0.0001627                            1.     0.001      0.49      0.05      0.05
+  1.627E-4                            1.     0.001      0.49      0.05      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
        0.0        0.        0.        0.       0.0     -14.0       0.0         0
 $         |   RGBRTH|    A0REF|                             |       X0|       X1|
@@ -891,7 +891,7 @@ $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
 $     LCAA|     LCBB|        H|       DT|         |    ECOAT|    SCOAT|    TCOAT|
          0         0        0.        3.                  0.        0.        0.
 *MAT_FABRIC_TITLE
-NE_C_C7T1-ALL
+NE_C_C7T1-ALL_Oesth_2016
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
     201571     1.E-6     1.E-6     1.E-6                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
@@ -907,7 +907,7 @@ $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
 $     LCAA|     LCBB|        H|       DT|         |    ECOAT|    SCOAT|    TCOAT|
          0         0        0.        3.                  0.        0.        0.
 *MAT_FABRIC_TITLE
-NE_C_C7T1-PLL
+NE_C_C7T1-PLL_Oesth_2016
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
     201572     1.E-6     1.E-6     1.E-6                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
@@ -923,11 +923,11 @@ $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
 $     LCAA|     LCBB|        H|       DT|         |    ECOAT|    SCOAT|    TCOAT|
          0         0        0.        3.                  0.        0.        0.
 *MAT_FABRIC_TITLE
-NE_C_C7T1-CL
+NE_C_C7T1-CL_Oesth_2016
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
     201573     1.E-6     1.E-6     1.E-6                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
-  0.000154                            1.     0.001      0.49      0.05      0.05
+   1.54E-4                            1.     0.001      0.49      0.05      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
        0.0        0.        0.        0.       0.0     -14.0       0.0         0
 $         |   RGBRTH|    A0REF|                             |       X0|       X1|
@@ -939,11 +939,11 @@ $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
 $     LCAA|     LCBB|        H|       DT|         |    ECOAT|    SCOAT|    TCOAT|
          0         0        0.        3.                  0.        0.        0.
 *MAT_FABRIC_TITLE
-NE_C_C7T1-LF
+NE_C_C7T1-LF_Oesth_2016
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
     201574     1.E-6     1.E-6     1.E-6                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
- 0.0005178                            1.     0.001      0.49      0.05      0.05
+  5.178E-4                            1.     0.001      0.49      0.05      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
        0.0        0.        0.        0.       0.0     -14.0       0.0         0
 $         |   RGBRTH|    A0REF|                             |       X0|       X1|
@@ -955,11 +955,11 @@ $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
 $     LCAA|     LCBB|        H|       DT|         |    ECOAT|    SCOAT|    TCOAT|
          0         0        0.        3.                  0.        0.        0.
 *MAT_FABRIC_TITLE
-NE_C_C7T1-ISL
+NE_C_C7T1-ISL_Oesth_2016
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
     201575     1.E-6     1.E-6     1.E-6                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
- 0.0001627                            1.     0.001      0.49      0.05      0.05
+  1.627E-4                            1.     0.001      0.49      0.05      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
        0.0        0.        0.        0.       0.0     -14.0       0.0         0
 $         |   RGBRTH|    A0REF|                             |       X0|       X1|
@@ -991,13 +991,13 @@ NE-IVD-Anulus_Ground_Panzer-Cronin-2009
 $      MID|       RO|        K|        N|       MU|     LCID|  FITTYPE|     LCSR|
     203022     1.E-6     0.001        2.        0.         0                   0
 $       C1|       C2|       C3|       C4|       C5|       C6|       C7|       C8|
-  0.000115  0.002101 -0.000893        0.        0.        0.        0.        0.
+   1.15E-4  0.002101  -8.93E-4        0.        0.        0.        0.        0.
 $       B1|       B2|       B3|       B4|       B5|       B6|       B7|       B8|
         4.       -1.       -2.        0.        0.        0.        0.        0.
 $        R|        M|
         0.        0.
 *MAT_FABRIC_TITLE
-NE-IVD-Anulus_Superficial_1
+NE-IVD-Anulus_Superficial_1_Oesth_2016
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
     203023     1.E-6  0.006985  0.006985                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
@@ -1011,7 +1011,7 @@ $                                                           |     BETA|   ISREFG
 $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
     203003         0         0         0         0         0        0.
 *MAT_FABRIC_TITLE
-NE-IVD-Anulus_Superficial_2
+NE-IVD-Anulus_Superficial_2_Oesth_2016
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
     203024     1.E-6  0.006985  0.006985                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
@@ -1025,7 +1025,7 @@ $                                                           |     BETA|   ISREFG
 $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
     203003         0         0         0         0         0        0.
 *MAT_FABRIC_TITLE
-NE-IVD-Anulus_Mid_1
+NE-IVD-Anulus_Mid_1_Oesth_2016
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
     203025     1.E-6   0.00539   0.00539                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
@@ -1039,7 +1039,7 @@ $                                                           |     BETA|   ISREFG
 $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
     203005         0         0         0         0         0        0.
 *MAT_FABRIC_TITLE
-NE-IVD-Anulus_Mid_2
+NE-IVD-Anulus_Mid_2_Oesth_2016
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
     203026     1.E-6   0.00539   0.00539                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
@@ -1053,7 +1053,7 @@ $                                                           |     BETA|   ISREFG
 $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
     203005         0         0         0         0         0        0.
 *MAT_FABRIC_TITLE
-NE-IVD-Anulus_Deep_1
+NE-IVD-Anulus_Deep_1_Oesth_2016
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
     203027     1.E-6  0.003795  0.003795                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
@@ -1067,7 +1067,7 @@ $                                                           |     BETA|   ISREFG
 $      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
     203007         0         0         0         0         0        0.
 *MAT_FABRIC_TITLE
-NE-IVD-Anulus_Deep_2
+NE-IVD-Anulus_Deep_2_Oesth_2016
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
     203028     1.E-6  0.003795  0.003795                 0.3          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
@@ -1117,7 +1117,7 @@ $       D0|       N0|       N1|       N2|       N3|       C0|       C1|       C2
 $       C3|       C4|       C5|      AIJ|      SIJ|     MINR|     MAXR|    SHAPE|
         0.        0.        0.        0.        0.        0.        0.        0.
 *MAT_ELASTIC_TITLE
-NE_C_Tracheal_Cartilage-Roberts et al. (1998)
+NE_C_Tracheal_Cartilage-Roberts_1998
 $      MID|       RO|        E|       PR|       DA|       DB|        K|
     214002     1.E-6     0.091       0.4        0.        0.        0.
 *MAT_RIGID_TITLE
@@ -1169,7 +1169,7 @@ $      CMO|     CON1|     CON2|
 $       A1|       A2|       A3|       V1|       V2|       V3|
         0.        0.        0.        0.        0.        0.
 *MAT_PIECEWISE_LINEAR_PLASTICITY_TITLE
-UX-Bone-Cortical
+UX-Bone-Cortical_Vandenbulcke_2012
 $      MID|       RO|        E|       PR|     SIGY|     ETAN|     FAIL|     TDEL|
     301301  1.973E-6    12.516       0.2       0.1        1.     1.E20        0.
 $        C|        P|     LCSS|     LCSR|       VP|      LCF|
@@ -1179,7 +1179,7 @@ $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
         0.        0.        0.        0.        0.        0.        0.        0.
 *MAT_PLASTICITY_COMPRESSION_TENSION_TITLE
-UX-Bone-Trabecular
+UX-Bone-Trabecular_Ding_2000
 $      MID|       RO|        E|       PR|        C|        P|     FAIL|     TDEL|
     301302     1.E-6     0.829       0.3        0.        0.     1.E20        0.
 $    LCIDC|    LCIDT|    LCSRC|    LCSRT|   SRFLAG|   LCFAIL|       EC|     RPCT|
@@ -1217,7 +1217,7 @@ $      CMO|     CON1|     CON2|
 $       A1|       A2|       A3|       V1|       V2|       V3|
         0.        0.        0.        0.        0.        0.
 *MAT_OGDEN_RUBBER_TITLE
-UX-Naseri Ogden model - Avg response of compressive stiffness from experiments
+UX-Naseri_2021
 $      MID|       RO|       PR|        N|       NV|        G|     SIGF|      REF|
     305100&UX_DENS     0.49998         0         6                            0.
 $      MU1|      MU2|      MU3|      MU4|      MU5|      MU6|      MU7|      MU8|
@@ -1235,7 +1235,7 @@ UX-Skin_Manschot_et_al_1986
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
     305101     1.E-6     0.001     0.001                0.49          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
-   0.00033                            1.     1.E-6      0.49      0.05      0.05
+    3.3E-4                            1.     1.E-6      0.49      0.05      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
        0.0        0.        0.        0.       0.0      14.0       0.0         0
 $         |   RGBRTH|    A0REF|                             |       X0|       X1|
@@ -1257,27 +1257,13 @@ $      CMO|     CON1|     CON2|
 $       A1|       A2|       A3|       V1|       V2|       V3|
         0.        0.        0.        0.        0.        0.
 *MAT_OGDEN_RUBBER_TITLE
-UX-Finger-Interphalanges-Ogden-model-muscle-tensile-Mohammadkhah-et-al-2016
+UX-Finger-Interphalanges-Mohammadkhah-et-al-2016
 $      MID|       RO|       PR|        N|       NV|        G|     SIGF|      REF|
     305172&UX_DENS     0.49998         0         6                            0.
 $      MU1|      MU2|      MU3|      MU4|      MU5|      MU6|      MU7|      MU8|
      3.E-6                                                                      
 $   ALPHA1|   ALPHA2|   ALPHA3|   ALPHA4|   ALPHA5|   ALPHA6|   ALPHA7|   ALPHA8|
        16.                                                                      
-*MAT_OGDEN_RUBBER_TITLE
-UX-Soft-Subscapularis-OSCCAR_muscle_model
-$      MID|       RO|       PR|        N|       NV|        G|     SIGF|      REF|
-    305201     1.E-6     0.495         0         6                            0.
-$      MU1|      MU2|      MU3|      MU4|      MU5|      MU6|      MU7|      MU8|
-   1.08E-7                                                                      
-$   ALPHA1|   ALPHA2|   ALPHA3|   ALPHA4|   ALPHA5|   ALPHA6|   ALPHA7|   ALPHA8|
-      13.2                                                                      
-$GI       |GI       |    VFLAG|
-   0.00029       0.2         1
-$GI       |GI       |
-    0.0003      100.
-$GI       |GI       |
-   0.00019  1000000.
 *MAT_NULL_TITLE
 UX-Muscle_subscapularis_nulls
 $      MID|       RO|       PC|       MU|    TEROD|    CEROD|       YM|       PR|
@@ -1339,7 +1325,7 @@ TX-T1-Sup_Facet_Null
 $      MID|       RO|       PC|       MU|    TEROD|    CEROD|       YM|       PR|
     401019     1.E-6        0.        0.        0.        0.      0.01       0.4
 *MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM_TITLE
-TX-IVD-T1_T2
+TX-IVD-T1_T2_Oesth_2017
 $      MID|       RO|       KT|       KR|  UNLDOPT|   OFFSET|    DAMPF|    IFLAG|
     402010     1.E-6        0.        0.       0.0        0.       0.9         0
 $   LCIDTR|   LCIDTS|   LCIDTT|   LCIDRR|   LCIDRS|   LCIDRT|
@@ -1357,7 +1343,7 @@ $  UCFAILR|  UCFAILS|  UCFAILT|  WCFAILR|  WCFAILS|  WCFAILT|
 $      IUR|      IUS|      IUT|      IWR|      IWS|      IWT|
         0.        0.        0.        0.        0.        0.
 *MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM_TITLE
-TX-IVD-T2_T3
+TX-IVD-T2_T3_Oesth_2017
 $      MID|       RO|       KT|       KR|  UNLDOPT|   OFFSET|    DAMPF|    IFLAG|
     402020     1.E-6        0.        0.       0.0        0.       0.9         0
 $   LCIDTR|   LCIDTS|   LCIDTT|   LCIDRR|   LCIDRS|   LCIDRT|
@@ -1375,7 +1361,7 @@ $  UCFAILR|  UCFAILS|  UCFAILT|  WCFAILR|  WCFAILS|  WCFAILT|
 $      IUR|      IUS|      IUT|      IWR|      IWS|      IWT|
         0.        0.        0.        0.        0.        0.
 *MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM_TITLE
-TX-IVD-T3_T4
+TX-IVD-T3_T4_Oesth_2017
 $      MID|       RO|       KT|       KR|  UNLDOPT|   OFFSET|    DAMPF|    IFLAG|
     402030     1.E-6        0.        0.       0.0        0.       0.9         0
 $   LCIDTR|   LCIDTS|   LCIDTT|   LCIDRR|   LCIDRS|   LCIDRT|
@@ -1393,7 +1379,7 @@ $  UCFAILR|  UCFAILS|  UCFAILT|  WCFAILR|  WCFAILS|  WCFAILT|
 $      IUR|      IUS|      IUT|      IWR|      IWS|      IWT|
         0.        0.        0.        0.        0.        0.
 *MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM_TITLE
-TX-IVD-T4_T5
+TX-IVD-T4_T5_Oesth_2017
 $      MID|       RO|       KT|       KR|  UNLDOPT|   OFFSET|    DAMPF|    IFLAG|
     402040     1.E-6        0.        0.       0.0        0.       0.9         0
 $   LCIDTR|   LCIDTS|   LCIDTT|   LCIDRR|   LCIDRS|   LCIDRT|
@@ -1411,7 +1397,7 @@ $  UCFAILR|  UCFAILS|  UCFAILT|  WCFAILR|  WCFAILS|  WCFAILT|
 $      IUR|      IUS|      IUT|      IWR|      IWS|      IWT|
         0.        0.        0.        0.        0.        0.
 *MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM_TITLE
-TX-IVD-T5_T6
+TX-IVD-T5_T6_Oesth_2017
 $      MID|       RO|       KT|       KR|  UNLDOPT|   OFFSET|    DAMPF|    IFLAG|
     402050     1.E-6        0.        0.       0.0        0.       0.9         0
 $   LCIDTR|   LCIDTS|   LCIDTT|   LCIDRR|   LCIDRS|   LCIDRT|
@@ -1429,7 +1415,7 @@ $  UCFAILR|  UCFAILS|  UCFAILT|  WCFAILR|  WCFAILS|  WCFAILT|
 $      IUR|      IUS|      IUT|      IWR|      IWS|      IWT|
         0.        0.        0.        0.        0.        0.
 *MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM_TITLE
-TX-IVD-T6_T7
+TX-IVD-T6_T7_Oesth_2017
 $      MID|       RO|       KT|       KR|  UNLDOPT|   OFFSET|    DAMPF|    IFLAG|
     402060     1.E-6        0.        0.       0.0        0.       0.9         0
 $   LCIDTR|   LCIDTS|   LCIDTT|   LCIDRR|   LCIDRS|   LCIDRT|
@@ -1447,7 +1433,7 @@ $  UCFAILR|  UCFAILS|  UCFAILT|  WCFAILR|  WCFAILS|  WCFAILT|
 $      IUR|      IUS|      IUT|      IWR|      IWS|      IWT|
         0.        0.        0.        0.        0.        0.
 *MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM_TITLE
-TX-IVD-T7_T8
+TX-IVD-T7_T8_Oesth_2017
 $      MID|       RO|       KT|       KR|  UNLDOPT|   OFFSET|    DAMPF|    IFLAG|
     402070     1.E-6        0.        0.       0.0        0.       0.9         0
 $   LCIDTR|   LCIDTS|   LCIDTT|   LCIDRR|   LCIDRS|   LCIDRT|
@@ -1465,7 +1451,7 @@ $  UCFAILR|  UCFAILS|  UCFAILT|  WCFAILR|  WCFAILS|  WCFAILT|
 $      IUR|      IUS|      IUT|      IWR|      IWS|      IWT|
         0.        0.        0.        0.        0.        0.
 *MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM_TITLE
-TX-IVD-T8_T9
+TX-IVD-T8_T9_Oesth_2017
 $      MID|       RO|       KT|       KR|  UNLDOPT|   OFFSET|    DAMPF|    IFLAG|
     402080     1.E-6        0.        0.       0.0        0.       0.9         0
 $   LCIDTR|   LCIDTS|   LCIDTT|   LCIDRR|   LCIDRS|   LCIDRT|
@@ -1483,7 +1469,7 @@ $  UCFAILR|  UCFAILS|  UCFAILT|  WCFAILR|  WCFAILS|  WCFAILT|
 $      IUR|      IUS|      IUT|      IWR|      IWS|      IWT|
         0.        0.        0.        0.        0.        0.
 *MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM_TITLE
-TX-IVD-T9_T10
+TX-IVD-T9_T10_Oesth_2017
 $      MID|       RO|       KT|       KR|  UNLDOPT|   OFFSET|    DAMPF|    IFLAG|
     402090     1.E-6        0.        0.       0.0        0.       0.9         0
 $   LCIDTR|   LCIDTS|   LCIDTT|   LCIDRR|   LCIDRS|   LCIDRT|
@@ -1501,7 +1487,7 @@ $  UCFAILR|  UCFAILS|  UCFAILT|  WCFAILR|  WCFAILS|  WCFAILT|
 $      IUR|      IUS|      IUT|      IWR|      IWS|      IWT|
         0.        0.        0.        0.        0.        0.
 *MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM_TITLE
-TX-IVD-T10_T11
+TX-IVD-T10_T11_Oesth_2017
 $      MID|       RO|       KT|       KR|  UNLDOPT|   OFFSET|    DAMPF|    IFLAG|
     402100     1.E-6        0.        0.       0.0        0.       0.9         0
 $   LCIDTR|   LCIDTS|   LCIDTT|   LCIDRR|   LCIDRS|   LCIDRT|
@@ -1519,7 +1505,7 @@ $  UCFAILR|  UCFAILS|  UCFAILT|  WCFAILR|  WCFAILS|  WCFAILT|
 $      IUR|      IUS|      IUT|      IWR|      IWS|      IWT|
         0.        0.        0.        0.        0.        0.
 *MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM_TITLE
-TX-IVD-T11_T12
+TX-IVD-T11_T12_Oesth_2017
 $      MID|       RO|       KT|       KR|  UNLDOPT|   OFFSET|    DAMPF|    IFLAG|
     402110     1.E-6        0.        0.       0.0        0.       0.9         0
 $   LCIDTR|   LCIDTS|   LCIDTT|   LCIDRR|   LCIDRS|   LCIDRT|
@@ -1537,7 +1523,7 @@ $  UCFAILR|  UCFAILS|  UCFAILT|  WCFAILR|  WCFAILS|  WCFAILT|
 $      IUR|      IUS|      IUT|      IWR|      IWS|      IWT|
         0.        0.        0.        0.        0.        0.
 *MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM_TITLE
-TX-IVD-T12_L1
+TX-IVD-T12_L1_Oesth_2017
 $      MID|       RO|       KT|       KR|  UNLDOPT|   OFFSET|    DAMPF|    IFLAG|
     402120     1.E-6        0.        0.       0.0        0.       0.9         0
 $   LCIDTR|   LCIDTS|   LCIDTT|   LCIDRR|   LCIDRS|   LCIDRT|
@@ -1593,7 +1579,7 @@ $     EPS1|     EPS2|     EPS3|     EPS4|     EPS5|     EPS6|     EPS7|     EPS8
 $      ES1|      ES2|      ES3|      ES4|      ES5|      ES6|      ES7|      ES8|
    0.00485     0.009      0.01        0.        0.        0.        0.        0.
 *MAT_SIMPLIFIED_RUBBER/FOAM_TITLE
-TX-Intercostal-External-T11-T11-Muscle
+TX-Intercostal-T1-T12-Muscle_Iraeus_2019
 $      MID|       RO|       KM|       MU|        G|     SIGF|      REF|    PRTEN|
     404111     1.E-6       0.1       0.1                            0.          
 $      SGL|       SW|       ST|     LCID|  TENSION|    RTYPE|   AVGOPT|   PRBETA|
@@ -1601,25 +1587,25 @@ $      SGL|       SW|       ST|     LCID|  TENSION|    RTYPE|   AVGOPT|   PRBETA
 $   LCUNLD|       HU|    SHAPE|     STOL|    VISCO|   HISOUT|
                   1.        0.                           0.0
 *MAT_NULL_TITLE
-TX-Intercostal-External-T1-T12-Muscle-Null
+TX-Intercostal-T1-T12-Muscle-Null
 $      MID|       RO|       PC|       MU|    TEROD|    CEROD|       YM|       PR|
     404119     1.E-6        0.        0.        0.        0.        1.       0.3
 *MAT_MUSCLE_TITLE
 TX-Muscle-Rhomboideus-Major-Osth2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
-    404501     1.E-9        1.        4.    0.0005     0.375        6.        0.
+    404501     1.E-9        1.        4.     5.E-4     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
 TX-Muscle-Trapezius-Ascendens-Osth2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
-    404601     1.E-9        1.        4.    0.0005     0.375        6.        0.
+    404601     1.E-9        1.        4.     5.E-4     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_MUSCLE_TITLE
 TX-Muscle-Serratus-Anterior-Osth2017
 $      MID|       RO|      SNO|      SRM|      PIS|      SSM|      CER|      DMP|
-    404701     1.E-9        1.        4.    0.0005     0.375        6.        0.
+    404701     1.E-9        1.        4.     5.E-4     0.375        6.        0.
 $      ALM|      SFR|      SVS|      SVR|      SSP|
  -2008020.        1. -2008001. -2008002.        0.
 *MAT_NULL_TITLE
@@ -1627,7 +1613,7 @@ TX-Thoracic_Cavity_nulls
 $      MID|       RO|       PC|       MU|    TEROD|    CEROD|       YM|       PR|
     405009     1.E-6        0.        0.        0.        0.     0.001       0.3
 *MAT_OGDEN_RUBBER_TITLE
-TX-Torso-Naseri Ogden model-Avg response of compressive stiffness from experime
+TX-Torso-Naseri_2021
 $      MID|       RO|       PR|        N|       NV|        G|     SIGF|      REF|
     405100&TX_DENS     0.49998         0         6                            0.
 $      MU1|      MU2|      MU3|      MU4|      MU5|      MU6|      MU7|      MU8|
@@ -1667,7 +1653,7 @@ $      CMO|     CON1|     CON2|
 $       A1|       A2|       A3|       V1|       V2|       V3|
         0.        0.        0.        0.        0.        0.
 *MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM_TITLE
-AB-Lumbar-IVD-L1_L2
+AB-Lumbar-IVD-L1_L2_Oesth_2017
 $      MID|       RO|       KT|       KR|  UNLDOPT|   OFFSET|    DAMPF|    IFLAG|
     502010     1.E-6        0.        0.       0.0        0.       0.9         0
 $   LCIDTR|   LCIDTS|   LCIDTT|   LCIDRR|   LCIDRS|   LCIDRT|
@@ -1685,7 +1671,7 @@ $  UCFAILR|  UCFAILS|  UCFAILT|  WCFAILR|  WCFAILS|  WCFAILT|
 $      IUR|      IUS|      IUT|      IWR|      IWS|      IWT|
         0.        0.        0.        0.        0.        0.
 *MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM_TITLE
-AB-Lumbar-IVD-L2_L3
+AB-Lumbar-IVD-L2_L3_Oesth_2017
 $      MID|       RO|       KT|       KR|  UNLDOPT|   OFFSET|    DAMPF|    IFLAG|
     502020     1.E-6        0.        0.       0.0        0.       0.9         0
 $   LCIDTR|   LCIDTS|   LCIDTT|   LCIDRR|   LCIDRS|   LCIDRT|
@@ -1703,7 +1689,7 @@ $  UCFAILR|  UCFAILS|  UCFAILT|  WCFAILR|  WCFAILS|  WCFAILT|
 $      IUR|      IUS|      IUT|      IWR|      IWS|      IWT|
         0.        0.        0.        0.        0.        0.
 *MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM_TITLE
-AB-Lumbar-IVD-L3_L4
+AB-Lumbar-IVD-L3_L4_Oesth_2017
 $      MID|       RO|       KT|       KR|  UNLDOPT|   OFFSET|    DAMPF|    IFLAG|
     502030     1.E-6        0.        0.       0.0        0.       0.9         0
 $   LCIDTR|   LCIDTS|   LCIDTT|   LCIDRR|   LCIDRS|   LCIDRT|
@@ -1721,7 +1707,7 @@ $  UCFAILR|  UCFAILS|  UCFAILT|  WCFAILR|  WCFAILS|  WCFAILT|
 $      IUR|      IUS|      IUT|      IWR|      IWS|      IWT|
         0.        0.        0.        0.        0.        0.
 *MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM_TITLE
-AB-Lumbar-IVD-L4_L5
+AB-Lumbar-IVD-L4_L5_Oesth_2017
 $      MID|       RO|       KT|       KR|  UNLDOPT|   OFFSET|    DAMPF|    IFLAG|
     502040     1.E-6        0.        0.       0.0        0.       0.9         0
 $   LCIDTR|   LCIDTS|   LCIDTT|   LCIDRR|   LCIDRS|   LCIDRT|
@@ -1739,7 +1725,7 @@ $  UCFAILR|  UCFAILS|  UCFAILT|  WCFAILR|  WCFAILS|  WCFAILT|
 $      IUR|      IUS|      IUT|      IWR|      IWS|      IWT|
         0.        0.        0.        0.        0.        0.
 *MAT_GENERAL_NONLINEAR_6DOF_DISCRETE_BEAM_TITLE
-AB-Lumbar-IVD-L5_S1
+AB-Lumbar-IVD-L5_S1_Oesth_2017
 $      MID|       RO|       KT|       KR|  UNLDOPT|   OFFSET|    DAMPF|    IFLAG|
     502050     1.E-6        0.        0.       0.0        0.       0.9         0
 $   LCIDTR|   LCIDTS|   LCIDTT|   LCIDRR|   LCIDRS|   LCIDRT|
@@ -1757,7 +1743,7 @@ $  UCFAILR|  UCFAILS|  UCFAILT|  WCFAILR|  WCFAILS|  WCFAILT|
 $      IUR|      IUS|      IUT|      IWR|      IWS|      IWT|
         0.        0.        0.        0.        0.        0.
 *MAT_OGDEN_RUBBER_TITLE
-AB-Abdominal-Cavity-Avg response of compressive stiffness from experiments-Nase
+AB-Abdominal-Cavity-Naseri_2021
 $      MID|       RO|       PR|        N|       NV|        G|     SIGF|      REF|
     505001     1.E-6   0.49998         0                                      0.
 $      MU1|      MU2|      MU3|      MU4|      MU5|      MU6|      MU7|      MU8|
@@ -1779,7 +1765,7 @@ AB_Abdominal_Muscle_nulls_ext
 $      MID|       RO|       PC|       MU|    TEROD|    CEROD|       YM|       PR|
     506019     1.E-6        0.        0.        0.        0.        1.       0.3
 *MAT_OGDEN_RUBBER_TITLE
-AB-Abdominal-muscle-Ogden-model-tensile-Mohammadkhah-et-al-2016
+AB-Abdominal-muscle-Mohammadkhah-et-al-2016
 $      MID|       RO|       PR|        N|       NV|        G|     SIGF|      REF|
     506020&UX_DENS     0.49998         0         6                            0.
 $      MU1|      MU2|      MU3|      MU4|      MU5|      MU6|      MU7|      MU8|
@@ -1827,7 +1813,7 @@ PE-Pubic-symphisis-Li-et-al-2006
 $      MID|       RO|       PR|        N|       NV|        G|     SIGF|      REF|
     602010    1.2E-6     0.495         0                 0.5                  0.
 $      C10|      C01|      C11|      C20|      C02|      C30|
-    0.0001   0.00045    0.0006                              
+     1.E-4    4.5E-4     6.E-4                              
 *MAT_OGDEN_RUBBER_TITLE
 PE-SI-Joint-Miller-1987
 $      MID|       RO|       PR|        N|       NV|        G|     SIGF|      REF|
@@ -1837,11 +1823,11 @@ $      MU1|      MU2|      MU3|      MU4|      MU5|      MU6|      MU7|      MU8
 $   ALPHA1|   ALPHA2|   ALPHA3|   ALPHA4|   ALPHA5|   ALPHA6|   ALPHA7|   ALPHA8|
         2.                                                                      
 *MAT_ELASTIC_TITLE
-PE-Hip-Joint-Ligament-Shell-Hewitt
+PE-Hip-Joint-Ligament-Shell-Hewitt_2001
 $      MID|       RO|        E|       PR|       DA|       DB|        K|
     603110     1.E-6    0.1368      0.45        0.        0.        0.
 *MAT_GENERAL_NONLINEAR_1DOF_DISCRETE_BEAM_TITLE
-PE-Hip-Joint-Ligament-Beam-Ito
+PE-Hip-Joint-Ligament-Beam-Ito_2009
 $      MID|       RO|        K|  UNLDOPT|   OFFSET|    DAMPF|
     604001     1.E-6                                        
 $    LCIDT|   LCIDTU|   LCIDTD|   LCIDTE|
@@ -1863,9 +1849,9 @@ PE-Pelvic_Cavity_nulls
 $      MID|       RO|       PC|       MU|    TEROD|    CEROD|       YM|       PR|
     605009     1.E-6        0.        0.        0.        0.     0.001       0.3
 *MAT_ELASTIC_TITLE
-PE_Test_Elastic
+PE_Pelvis_floor_muscle_Myer_1998
 $      MID|       RO|        E|       PR|       DA|       DB|        K|
-    606008     1.E-6      0.15       0.4        0.        0.        0.
+    606008     1.E-6     0.001       0.4        0.        0.        0.
 *MAT_NULL_TITLE
 PE-Soft_Tissues_Internal_nulls
 $      MID|       RO|       PC|       MU|    TEROD|    CEROD|       YM|       PR|
@@ -1873,17 +1859,17 @@ $      MID|       RO|       PC|       MU|    TEROD|    CEROD|       YM|       PR
 *MAT_PLASTICITY_COMPRESSION_TENSION_TITLE
 LX-Femur-Cortical-Bone-Schubert-et-al-2021_scale_1
 $      MID|       RO|        E|       PR|        C|        P|     FAIL|     TDEL|
-    701101    1.8E-616.3840056       0.3        0.        0.     1.E20        0.
+    701101    1.8E-6 16.384007       0.3        0.        0.     1.E20        0.
 $    LCIDC|    LCIDT|    LCSRC|    LCSRT|   SRFLAG|   LCFAIL|       EC|     RPCT|
-    801031    801030                           0.0          16.4792414     0.001
+    801031    801030                           0.0           16.479242     0.001
 $       PC|       PT|    PCUTC|    PCUTT|    PCUTF|
                                                0.0
 $        K|
           
 *MAT_FU_CHANG_FOAM_TITLE
-LX_Femur_Trabecular_FuChang-Enns-Bray_et_al_2018_27gcm
+LX_Femur_Trabecular-Enns-Bray_et_al_2018_27gcm
 $      MID|       RO|        E|     KCON|       TC|     FAIL|     DAMP|     TBID|
-    701102    2.7E-7.973694193        0.        0.       0.0      0.05    701102
+    701102    2.7E-7 0.9736942        0.        0.       0.0      0.05    701102
 $   BVFLAG|    SFLAG|    RFLAG|    TFLAG|     PVID|     SRAF|      REF|       HU|
        0.0       0.0       0.0       1.0         0       0.0        0.      0.01
 $       D0|       N0|       N1|       N2|       N3|       C0|       C1|       C2|
@@ -1891,27 +1877,27 @@ $       D0|       N0|       N1|       N2|       N3|       C0|       C1|       C2
 $       C3|       C4|       C5|      AIJ|      SIJ|     MINR|     MAXR|    SHAPE|
         0.        0.        0.        0.        0.        0.        0.        2.
 *MAT_PLASTICITY_COMPRESSION_TENSION_TITLE
-LX-Bone-Femur-lesser-trochanter-Cortical-L
+LX-Bone-Femur-lesser-trochanter-Cortical_Schubert-et-al-2021
 $      MID|       RO|        E|       PR|        C|        P|     FAIL|     TDEL|
-    701141    1.8E-67.20896248       0.3        0.        0.     1.E20        0.
+    701141    1.8E-6 7.2089624       0.3        0.        0.     1.E20        0.
 $    LCIDC|    LCIDT|    LCSRC|    LCSRT|   SRFLAG|   LCFAIL|       EC|     RPCT|
-    801035    801034                           0.0          7.25086624     0.001
+    801035    801034                           0.0           7.2508664     0.001
 $       PC|       PT|    PCUTC|    PCUTT|    PCUTF|
                                                0.0
 $        K|
           
 *MAT_PLASTICITY_COMPRESSION_TENSION_TITLE
-LX-Bone-Femur-shaft-distal-Cortical
+LX-Bone-Femur-shaft-distal-Cortical_Schubert-et-al-2021
 $      MID|       RO|        E|       PR|        C|        P|     FAIL|     TDEL|
-    701171    1.8E-612.4518443       0.3        0.        0.     1.E20        0.
+    701171    1.8E-6 12.451844       0.3        0.        0.     1.E20        0.
 $    LCIDC|    LCIDT|    LCSRC|    LCSRT|   SRFLAG|   LCFAIL|       EC|     RPCT|
-    801033    801032                           0.0          12.5242235     0.001
+    801033    801032                           0.0           12.524223     0.001
 $       PC|       PT|    PCUTC|    PCUTT|    PCUTF|
                                                0.0
 $        K|
           
 *MAT_PLASTICITY_COMPRESSION_TENSION_TITLE
-LX-Tibia-Cortical-Burtsein-Reilly
+LX-Tibia-Cortical-Burtsein-Reilly_1975
 $      MID|       RO|        E|       PR|        C|        P|     FAIL|     TDEL|
     701401     2.E-6      22.2       0.3        0.        0.     1.E20        0.
 $    LCIDC|    LCIDT|    LCSRC|    LCSRT|   SRFLAG|   LCFAIL|       EC|     RPCT|
@@ -1943,7 +1929,7 @@ $      CMO|     CON1|     CON2|
 $       A1|       A2|       A3|       V1|       V2|       V3|
         0.        0.        0.        0.        0.        0.
 *MAT_PLASTICITY_COMPRESSION_TENSION_TITLE
-LX-Fibula-Cortical-Burstein-Reilly
+LX-Fibula-Cortical-Burstein-Reilly_1975
 $      MID|       RO|        E|       PR|        C|        P|     FAIL|     TDEL|
     701601     2.E-6      22.2       0.3        0.        0.     1.E20        0.
 $    LCIDC|    LCIDT|    LCSRC|    LCSRT|   SRFLAG|   LCFAIL|       EC|     RPCT|
@@ -1997,7 +1983,7 @@ LX-Knee-Ligament-PL-Muller-et-al.2004
 $      MID|      LCD|      LCR|
     702150    702150         0
 *MAT_OGDEN_RUBBER_TITLE
-LX-Knee-Cartilage-Femoral
+LX-Knee-Cartilage-Femoral_Robinson_2016
 $      MID|       RO|       PR|        N|       NV|        G|     SIGF|      REF|
     702210     1.E-6      0.49         0                                      0.
 $      MU1|      MU2|      MU3|      MU4|      MU5|      MU6|      MU7|      MU8|
@@ -2005,7 +1991,7 @@ $      MU1|      MU2|      MU3|      MU4|      MU5|      MU6|      MU7|      MU8
 $   ALPHA1|   ALPHA2|   ALPHA3|   ALPHA4|   ALPHA5|   ALPHA6|   ALPHA7|   ALPHA8|
         2.                                                                      
 *MAT_OGDEN_RUBBER_TITLE
-LX-Knee-Cartilage-Tibial
+LX-Knee-Cartilage-Tibial_Robinson_2016
 $      MID|       RO|       PR|        N|       NV|        G|     SIGF|      REF|
     702220     1.E-6      0.49         0                                      0.
 $      MU1|      MU2|      MU3|      MU4|      MU5|      MU6|      MU7|      MU8|
@@ -2013,7 +1999,7 @@ $      MU1|      MU2|      MU3|      MU4|      MU5|      MU6|      MU7|      MU8
 $   ALPHA1|   ALPHA2|   ALPHA3|   ALPHA4|   ALPHA5|   ALPHA6|   ALPHA7|   ALPHA8|
         2.                                                                      
 *MAT_OGDEN_RUBBER_TITLE
-LX-Meniscus-Pena-et-al
+LX-Meniscus-Pena-et-al_2006
 $      MID|       RO|       PR|        N|       NV|        G|     SIGF|      REF|
     702300     1.E-6      0.49         0                                      0.
 $      MU1|      MU2|      MU3|      MU4|      MU5|      MU6|      MU7|      MU8|
@@ -2021,7 +2007,7 @@ $      MU1|      MU2|      MU3|      MU4|      MU5|      MU6|      MU7|      MU8
 $   ALPHA1|   ALPHA2|   ALPHA3|   ALPHA4|   ALPHA5|   ALPHA6|   ALPHA7|   ALPHA8|
         2.                                                                      
 *MAT_SPRING_MUSCLE_TITLE
-LX-Knee-Muscle-Quadriceps-Femoris-param
+LX-Knee-Muscle-Quadriceps-Femoris-param_Mukherjee_2007
 $      MID|       L0|     VMAX|       SV|     ACTL|     FMAX|  TL_LCID|  TV_LCID|
     702411&LX_QuadL0       1.6        1.        0.       2.5   -702412   -702413
 $      FPE|     LMAX|      KSH|
@@ -2051,7 +2037,7 @@ $      CMO|     CON1|     CON2|
 $       A1|       A2|       A3|       V1|       V2|       V3|
         0.        0.        0.        0.        0.        0.
 *MAT_OGDEN_RUBBER_TITLE
-LX-Naseri Ogden model - Avg response of compressive stiffness from experiments
+LX-Naseri_2021
 $      MID|       RO|       PR|        N|       NV|        G|     SIGF|      REF|
     705001&LX_DENS     0.49998         0         6                            0.
 $      MU1|      MU2|      MU3|      MU4|      MU5|      MU6|      MU7|      MU8|
@@ -2069,7 +2055,7 @@ LX-Skin-Manschot-et_al-1986
 $      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
     705101     1.E-6     0.001     0.001                0.49          
 $      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
-   0.00033                            1.     1.E-6      0.49      0.05      0.05
+    3.3E-4                            1.     1.E-6      0.49      0.05      0.05
 $     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|TSRFAC +/|
        0.0        0.        0.        0.       0.0      14.0       0.0         0
 $         |   RGBRTH|    A0REF|                             |       X0|       X1|
@@ -2087,7 +2073,7 @@ LX-Soft-Ankle-Null
 $      MID|       RO|       PC|       MU|    TEROD|    CEROD|       YM|       PR|
     705189     1.E-6        0.        0.        0.        0.        1.       0.3
 *MAT_ELASTIC_TITLE
-LX_Crural-Interosseous-membrane_fibers-Minns_and_Hunter
+LX_Crural-Interosseous-membrane_fibers-Minns_and_Hunter_1976
 $      MID|       RO|        E|       PR|       DA|       DB|        K|
     706100     1.E-6      1.17       0.3        0.        0.        0.
 *MAT_ELASTIC_TITLE
@@ -2141,14 +2127,14 @@ Facet_Art_Cart-MAT83_MAT_FU_CHANG_FOAM
    1030041         0        1.        1.        0.        0.         0         0
                   0.                  0.
                 0.01          7.25082E-5
-                0.02         0.000150274
-                0.03         0.000233678
-                0.04          0.00032313
-                0.05         0.000419068
-                0.06         0.000521962
-                0.07         0.000632316
-                0.08         0.000750673
-                0.09         0.000877611
+                0.02          1.50274E-4
+                0.03          2.33678E-4
+                0.04           3.2313E-4
+                0.05          4.19068E-4
+                0.06          5.21962E-4
+                0.07          6.32316E-4
+                0.08          7.50673E-4
+                0.09          8.77611E-4
                  0.1            0.001014
                 0.15            0.001858
                  0.2            0.003055
@@ -2168,14 +2154,14 @@ Facet_Art_Cart-MAT83_MAT_FU_CHANG_FOAM
    1030042         0        1.        1.        0.        0.         0         0
                   0.                  0.
                 0.01           7.9759E-5
-                0.02         0.000165301
-                0.03         0.000257046
-                0.04         0.000355443
-                0.05         0.000460974
-                0.06         0.000574158
-                0.07         0.000695548
-                0.08          0.00082574
-                0.09         0.000965372
+                0.02          1.65301E-4
+                0.03          2.57046E-4
+                0.04          3.55443E-4
+                0.05          4.60974E-4
+                0.06          5.74158E-4
+                0.07          6.95548E-4
+                0.08           8.2574E-4
+                0.09          9.65372E-4
                  0.1            0.001115
                 0.15            0.002043
                  0.2            0.003361
@@ -2193,13 +2179,13 @@ Facet_Art_Cart-MAT83_MAT_FU_CHANG_FOAM
 *DEFINE_TABLE_2D_TITLE
 DEFINE_TABLE_2D_200710
     200710                    
-         0.000240141             2007101
+          2.40141E-4             2007101
           0.00960563             2007102
            0.0720423             2007103
 *DEFINE_TABLE_2D_TITLE
 DEFINE_TABLE_2D_201522
     201522                    
-         0.000238223             2015221
+          2.38223E-4             2015221
           0.00952891             2015222
 *DEFINE_TABLE_2D_TITLE
 DEFINE_TABLE_2D_201523
@@ -2214,13 +2200,13 @@ DEFINE_TABLE_2D_201524
 *DEFINE_TABLE_2D_TITLE
 DEFINE_TABLE_2D_201531
     201531                    
-         0.000240141             2015311
+          2.40141E-4             2015311
           0.00960563             2015312
            0.0720423             2015313
 *DEFINE_TABLE_2D_TITLE
 DEFINE_TABLE_2D_201532
     201532                    
-         0.000238223             2015321
+          2.38223E-4             2015321
           0.00952891             2015322
 *DEFINE_TABLE_2D_TITLE
 DEFINE_TABLE_2D_201533
@@ -2235,13 +2221,13 @@ DEFINE_TABLE_2D_201534
 *DEFINE_TABLE_2D_TITLE
 DEFINE_TABLE_2D_201541
     201541                    
-         0.000240141             2015411
+          2.40141E-4             2015411
           0.00960563             2015412
            0.0720423             2015413
 *DEFINE_TABLE_2D_TITLE
 DEFINE_TABLE_2D_201542
     201542                    
-         0.000238223             2015421
+          2.38223E-4             2015421
           0.00952891             2015422
 *DEFINE_TABLE_2D_TITLE
 DEFINE_TABLE_2D_201543
@@ -2256,13 +2242,13 @@ DEFINE_TABLE_2D_201544
 *DEFINE_TABLE_2D_TITLE
 DEFINE_TABLE_2D_C5C6-ALL
     201551                    
-         0.000240141             2015511
+          2.40141E-4             2015511
           0.00960563             2015512
            0.0720423             2015513
 *DEFINE_TABLE_2D_TITLE
 DEFINE_TABLE_2D_C5C6-PLL
     201552                    
-         0.000238223             2015521
+          2.38223E-4             2015521
           0.00952891             2015522
 *DEFINE_TABLE_2D_TITLE
 DEFINE_TABLE_2D_C5C6-CL
@@ -2277,13 +2263,13 @@ DEFINE_TABLE_2D_C5C6-LF
 *DEFINE_TABLE_2D_TITLE
 DEFINE_TABLE_2D_C6C7-ALL
     201561                    
-         0.000240141             2015611
+          2.40141E-4             2015611
           0.00960563             2015612
            0.0720423             2015613
 *DEFINE_TABLE_2D_TITLE
 DEFINE_TABLE_2D_C6C7-PLL
     201562                    
-         0.000238223             2015621
+          2.38223E-4             2015621
           0.00952891             2015622
 *DEFINE_TABLE_2D_TITLE
 DEFINE_TABLE_2D_C6C7_CL
@@ -2298,13 +2284,13 @@ DEFINE_TABLE_2D_C6C7-LF
 *DEFINE_TABLE_2D_TITLE
 DEFINE_TABLE_2D_C7T1-ALL
     201571                    
-         0.000240141             2015711
+          2.40141E-4             2015711
           0.00960563             2015712
            0.0720423             2015713
 *DEFINE_TABLE_2D_TITLE
 DEFINE_TABLE_2D_C7T1-PLL
     201572                    
-         0.000238223             2015721
+          2.38223E-4             2015721
            0.0714669             2015722
 *DEFINE_TABLE_2D_TITLE
 DEFINE_TABLE_2D_C7T1_CL
@@ -2329,416 +2315,416 @@ LX_Femur_Trabecular_FuChang-Enns-Bray_et_al_2018_27gcm
 *DEFINE_CURVE_TITLE
 Trab_scr_0p27_1e-6_ext
     701111         0        1.        1.        0.        0.         0         0
-                 -1.     -0.000100113482
-               -0.85     -0.000100113483
-                -0.7     -0.000100113505
-               -0.55     -0.000100114444
-                -0.5      -0.00010011684
-     -0.476866562929     -0.000100119469
-     -0.453733125858     -0.000100124158
-     -0.430599688787     -0.000100132517
-     -0.407466251716     -0.000100147423
-                -0.4     -0.000100154388
-     -0.384332814645     -0.000100174001
-     -0.361199377574     -0.000100221392
-     -0.338065940503     -0.000100305893
-     -0.314932503432     -0.000100456565
-     -0.291799066361     -0.000100725222
-      -0.26866562929     -0.000101204257
-      -0.24553219222     -0.000102058408
-     -0.222398755149      -0.00010358142
-     -0.199265318078     -0.000106297053
-     -0.176131881007     -0.000111139215
-     -0.152998443936     -0.000119773123
-     -0.129865006865     -0.000135167974
-     -0.106731569794     -0.000162618053
-     -0.083598132723     -0.000211563433
-     -0.060464695652     -0.000298836413
-     -0.037331258581     -0.000454450141
-              -0.014     -0.001001134821
-      -0.00233437071     -0.000910122564
-     -0.000747768711     -0.000728098052
+                 -1.       -1.0011348E-4
+               -0.85       -1.0011348E-4
+                -0.7        -1.001135E-4
+               -0.55       -1.0011444E-4
+                -0.5       -1.0011684E-4
+         -0.47686657       -1.0011947E-4
+         -0.45373312      -1.00124154E-4
+          -0.4305997      -1.00132514E-4
+         -0.40746626       -1.0014742E-4
+                -0.4      -1.00154386E-4
+          -0.3843328         -1.00174E-4
+         -0.36119938       -1.0022139E-4
+         -0.33806595       -1.0030589E-4
+          -0.3149325      -1.00456564E-4
+         -0.29179907       -1.0072522E-4
+         -0.26866564      -1.01204256E-4
+         -0.24553218       -1.0205841E-4
+         -0.22239876       -1.0358142E-4
+         -0.19926532      -1.06297055E-4
+         -0.17613187       -1.1113921E-4
+         -0.15299845      -1.19773125E-4
+           -0.129865       -1.3516797E-4
+         -0.10673157       -1.6261806E-4
+         -0.08359813       -2.1156343E-4
+        -0.060464695        -2.988364E-4
+        -0.037331257       -4.5445014E-4
+              -0.014       -0.0010011349
+       -0.0023343707        -9.101226E-4
+       -7.4776873E-4       -7.2809804E-4
                   0.                  0.
-      0.001067852239      0.001039761525
-      0.003334815299      0.001299701906
-                0.02      0.001429672097
-               0.105      0.001143737677
-      0.683607982572      0.001143737677
-      0.692927583443      0.001299788622
-      0.702247184315      0.001767941457
-      0.711566785186      0.002548196181
-      0.720886386058      0.003640552795
-      0.730205986929      0.005045011298
-        0.7395255878      0.006761571691
-      0.748845188672      0.008790233974
-      0.758164789543      0.011130998147
-      0.767484390415      0.013783864209
-      0.776803991286      0.016748832161
-      0.786123592157      0.020025902002
-      0.795443193029      0.023615073733
-        0.8047627939      0.027516347354
-      0.814082394772      0.031729722865
-      0.823401995643      0.036255200265
-      0.832721596514      0.041092779555
-      0.842041197386      0.046242460734
-      0.851360798257      0.051704243803
-      0.860680399129      0.057478128762
-                0.87      0.063564115611
-                  1.      0.180998860062
+        0.0010678523        0.0010397615
+        0.0033348154        0.0012997019
+                0.02        0.0014296721
+               0.105        0.0011437377
+            0.683608        0.0011437377
+           0.6929276        0.0012997886
+           0.7022472        0.0017679414
+           0.7115668        0.0025481961
+           0.7208864        0.0036405527
+            0.730206         0.005045011
+           0.7395256         0.006761572
+          0.74884516         0.008790234
+          0.75816476         0.011130998
+          0.76748437         0.013783864
+            0.776804         0.016748833
+           0.7861236         0.020025901
+           0.7954432         0.023615073
+           0.8047628         0.027516346
+           0.8140824         0.031729724
+            0.823402           0.0362552
+           0.8327216          0.04109278
+           0.8420412          0.04624246
+           0.8513608         0.051704243
+           0.8606804          0.05747813
+                0.87         0.063564114
+                  1.          0.18099886
 *DEFINE_CURVE_TITLE
 Trab_scr_0p27_0p001_ext
     701112         0        1.        1.        0.        0.         0         0
-                 -1.     -0.000151527887
-               -0.85     -0.000151527888
-                -0.7     -0.000151527921
-               -0.55     -0.000151529343
-                -0.5     -0.000151532969
-      -0.47681857727      -0.00015153696
-      -0.45363715454     -0.000151544084
-     -0.430455731811     -0.000151556802
-     -0.407274309081     -0.000151579506
-                -0.4     -0.000151589801
-     -0.384092886351     -0.000151620038
-     -0.360911463621     -0.000151692396
-     -0.337730040892     -0.000151821569
-     -0.314548618162     -0.000152052171
-     -0.291367195432     -0.000152463844
-     -0.268185772702     -0.000153198766
-     -0.245004349973     -0.000154510756
-     -0.221822927243     -0.000156852931
-     -0.198641504513     -0.000161034205
-     -0.175460081783     -0.000168498653
-     -0.152278659054     -0.000181824253
-     -0.129097236324     -0.000205613237
-     -0.105915813594     -0.000248081547
-     -0.082734390864     -0.000323896363
-     -0.059552968135     -0.000459241664
-     -0.036371545405      -0.00070086133
-              -0.014     -0.001515278869
-     -0.002814227298     -0.001377526245
-     -0.001131793743     -0.001102020996
+                 -1.       -1.5152789E-4
+               -0.85       -1.5152789E-4
+                -0.7       -1.5152791E-4
+               -0.55       -1.5152934E-4
+                -0.5       -1.5153296E-4
+          -0.4768186       -1.5153697E-4
+         -0.45363715       -1.5154408E-4
+         -0.43045574        -1.515568E-4
+          -0.4072743        -1.515795E-4
+                -0.4        -1.515898E-4
+          -0.3840929       -1.5162004E-4
+         -0.36091146        -1.516924E-4
+         -0.33773005       -1.5182157E-4
+          -0.3145486       -1.5205218E-4
+          -0.2913672       -1.5246385E-4
+         -0.26818576       -1.5319877E-4
+         -0.24500436       -1.5451075E-4
+         -0.22182293       -1.5685293E-4
+         -0.19864151        -1.610342E-4
+         -0.17546009       -1.6849865E-4
+         -0.15227866       -1.8182426E-4
+         -0.12909724       -2.0561324E-4
+        -0.105915815       -2.4808155E-4
+         -0.08273439       -3.2389635E-4
+        -0.059552968       -4.5924165E-4
+        -0.036371544       -7.0086133E-4
+              -0.014       -0.0015152788
+       -0.0028142272       -0.0013775262
+       -0.0011317937        -0.001102021
                   0.                  0.
-      0.001616259769      0.001573742752
-      0.004020324711       0.00196717844
-                0.02      0.002163896284
-               0.105      0.001731117027
-      0.683607982572      0.001731117027
-      0.692927583443       0.00196730969
-      0.702247184315      0.002675887678
-      0.711566785186      0.003856850993
-      0.720886386058      0.005510199633
-      0.730205986929      0.007635933599
-        0.7395255878      0.010234052891
-      0.748845188672      0.013304557508
-      0.758164789543      0.016847447451
-      0.767484390415       0.02086272272
-      0.776803991286      0.025350383315
-      0.786123592157      0.030310429235
-      0.795443193029      0.035742860482
-        0.8047627939      0.041647677054
-      0.814082394772      0.048024878952
-      0.823401995643      0.054874466175
-      0.832721596514      0.062196438724
-      0.842041197386        0.0699907966
-      0.851360798257        0.0782575398
-      0.860680399129      0.086996668327
-                0.87      0.096208182179
-                  1.      0.273952860602
+        0.0016162598        0.0015737427
+         0.004020325        0.0019671784
+                0.02        0.0021638963
+               0.105         0.001731117
+            0.683608         0.001731117
+           0.6929276        0.0019673097
+           0.7022472        0.0026758877
+           0.7115668         0.003856851
+           0.7208864           0.0055102
+            0.730206         0.007635934
+           0.7395256         0.010234053
+          0.74884516         0.013304558
+          0.75816476         0.016847447
+          0.76748437         0.020862723
+            0.776804         0.025350383
+           0.7861236          0.03031043
+           0.7954432          0.03574286
+           0.8047628         0.041647676
+           0.8140824         0.048024878
+            0.823402         0.054874465
+           0.8327216         0.062196437
+           0.8420412           0.0699908
+           0.8513608          0.07825754
+           0.8606804          0.08699667
+                0.87         0.096208185
+                  1.          0.27395287
 *DEFINE_CURVE_TITLE
 Trab_scr_0p27_1_ext
     701113         0        1.        1.        0.        0.         0         0
-                 -1.     -0.000229346738
-               -0.85     -0.000229346739
-                -0.7      -0.00022934679
-               -0.55     -0.000229348942
-                -0.5      -0.00022935443
-     -0.476745948037     -0.000229360495
-     -0.453491896073     -0.000229371342
-      -0.43023784411     -0.000229390741
-     -0.406983792146     -0.000229425436
-                -0.4     -0.000229440449
-     -0.383729740183     -0.000229487486
-      -0.36047568822     -0.000229598459
-     -0.337221636256      -0.00022979693
-     -0.313967584293     -0.000230151885
-     -0.290713532329     -0.000230786706
-     -0.267459480366     -0.000231922055
-     -0.244205428402     -0.000233952572
-     -0.220951376439     -0.000237584059
-     -0.197697324476     -0.000244078803
-     -0.174443272512     -0.000255694353
-     -0.151189220549     -0.000276468223
-     -0.127935168585     -0.000313621325
-     -0.104681116622     -0.000380067921
-     -0.081427064659      -0.00049890457
-     -0.058173012695     -0.000711438395
-     -0.034918960732     -0.001091545266
-              -0.014     -0.002293467377
-     -0.003540519634     -0.002084970343
-     -0.001713039151     -0.001667976274
+                 -1.       -2.2934674E-4
+               -0.85       -2.2934674E-4
+                -0.7       -2.2934678E-4
+               -0.55       -2.2934894E-4
+                -0.5       -2.2935442E-4
+         -0.47674593       -2.2936049E-4
+          -0.4534919       -2.2937135E-4
+         -0.43023783       -2.2939075E-4
+          -0.4069838       -2.2942544E-4
+                -0.4       -2.2944045E-4
+         -0.38372973       -2.2948749E-4
+          -0.3604757       -2.2959846E-4
+         -0.33722162       -2.2979693E-4
+          -0.3139676       -2.3015188E-4
+         -0.29071352       -2.3078671E-4
+         -0.26745948       -2.3192205E-4
+         -0.24420543       -2.3395257E-4
+         -0.22095138       -2.3758406E-4
+         -0.19769733       -2.4407881E-4
+         -0.17444327       -2.5569435E-4
+         -0.15118922       -2.7646823E-4
+         -0.12793517       -3.1362133E-4
+         -0.10468112        -3.800679E-4
+         -0.08142707       -4.9890456E-4
+        -0.058173012        -7.114384E-4
+         -0.03491896       -0.0010915452
+              -0.014       -0.0022934673
+       -0.0035405196       -0.0020849702
+       -0.0017130391       -0.0016679763
                   0.                  0.
-      0.002446308153      0.002381956044
-      0.005057885192      0.002977445055
-                0.02       0.00327518956
-               0.105      0.002620151648
-      0.683607982572      0.002620151648
-      0.692927583443       0.00297764371
-      0.702247184315      0.004050119895
-      0.711566785186      0.005837580204
-      0.720886386058      0.008340024636
-      0.730205986929      0.011557453191
-        0.7395255878       0.01548986587
-      0.748845188672      0.020137262672
-      0.758164789543      0.025499643597
-      0.767484390415      0.031577008646
-      0.776803991286      0.038369357819
-      0.786123592157      0.045876691114
-      0.795443193029      0.054099008533
-        0.8047627939      0.063036310076
-      0.814082394772      0.072688595742
-      0.823401995643      0.083055865531
-      0.832721596514      0.094138119444
-      0.842041197386       0.10593535748
-      0.851360798257       0.11844757964
-      0.860680399129      0.131674785923
-                0.87      0.145616976329
-                  1.      0.414644433705
+        0.0024463083         0.002381956
+        0.0050578853         0.002977445
+                0.02        0.0032751895
+               0.105        0.0026201517
+            0.683608        0.0026201517
+           0.6929276        0.0029776436
+           0.7022472          0.00405012
+           0.7115668          0.00583758
+           0.7208864         0.008340024
+            0.730206         0.011557453
+           0.7395256         0.015489866
+          0.74884516         0.020137263
+          0.75816476         0.025499644
+          0.76748437          0.03157701
+            0.776804         0.038369358
+           0.7861236          0.04587669
+           0.7954432          0.05409901
+           0.8047628          0.06303631
+           0.8140824         0.072688594
+            0.823402          0.08305587
+           0.8327216          0.09413812
+           0.8420412          0.10593536
+           0.8513608          0.11844758
+           0.8606804          0.13167478
+                0.87          0.14561698
+                  1.          0.41464442
 *DEFINE_CURVE_TITLE
 Trab_scr_0p27_10_ext
     701114         0        1.        1.        0.        0.         0         0
-                 -1.     -0.000263325288
-               -0.85     -0.000263325289
-                -0.7     -0.000263325347
-               -0.55     -0.000263327818
-                -0.5     -0.000263334119
-     -0.476714235463     -0.000263341095
-     -0.453428470926     -0.000263353582
-     -0.430142706389     -0.000263375931
-     -0.406856941852     -0.000263415932
-                -0.4     -0.000263432882
-     -0.383571177315      -0.00026348753
-     -0.360285412778      -0.00026361568
-     -0.336999648241     -0.000263845054
-     -0.313713883704     -0.000264255602
-     -0.290428119167     -0.000264990432
-      -0.26714235463     -0.000266305682
-     -0.243856590093     -0.000268659813
-     -0.220570825556     -0.000272873405
-     -0.197285061019     -0.000280415196
-     -0.173999296482     -0.000293914037
-     -0.150713531945     -0.000318075233
-     -0.127427767408     -0.000361320683
-     -0.104142002871     -0.000438724503
-     -0.080856238334     -0.000577267434
-     -0.057570473797     -0.000825241547
-      -0.03428470926     -0.001269083472
-              -0.014     -0.002633252875
-      -0.00385764537      -0.00239386625
-     -0.001966832105        -0.001915093
+                 -1.        -2.633253E-4
+               -0.85        -2.633253E-4
+                -0.7       -2.6332535E-4
+               -0.55       -2.6332782E-4
+                -0.5        -2.633341E-4
+         -0.47671422        -2.633411E-4
+         -0.45342848       -2.6335358E-4
+          -0.4301427       -2.6337593E-4
+         -0.40685695       -2.6341595E-4
+                -0.4       -2.6343288E-4
+         -0.38357118       -2.6348754E-4
+          -0.3602854        -2.636157E-4
+         -0.33699965       -2.6384505E-4
+         -0.31371388        -2.642556E-4
+         -0.29042813       -2.6499043E-4
+         -0.26714236        -2.663057E-4
+          -0.2438566       -2.6865982E-4
+         -0.22057083        -2.728734E-4
+         -0.19728506        -2.804152E-4
+          -0.1739993       -2.9391402E-4
+         -0.15071353       -3.1807524E-4
+         -0.12742777       -3.6132068E-4
+           -0.104142        -4.387245E-4
+         -0.08085624       -5.7726743E-4
+        -0.057570472       -8.2524156E-4
+         -0.03428471       -0.0012690835
+              -0.014       -0.0026332529
+       -0.0038576454       -0.0023938662
+       -0.0019668322        -0.001915093
                   0.                  0.
-      0.002808737565      0.002734851458
-      0.005510921957      0.003418564323
-                0.02      0.003760420755
-               0.105      0.003008336604
-      0.683607982572      0.003008336604
-      0.692927583443      0.003418792409
-      0.702247184315      0.004650159825
-      0.711566785186      0.006702438852
-      0.720886386058      0.009575629489
-      0.730205986929      0.013269731736
-        0.7395255878      0.017784745595
-      0.748845188672      0.023120671064
-      0.758164789543      0.029277508143
-      0.767484390415      0.036255256833
-      0.776803991286      0.044053917134
-      0.786123592157      0.052673489045
-      0.795443193029      0.062113972567
-        0.8047627939        0.0723753677
-      0.814082394772      0.083457674443
-      0.823401995643      0.095360892796
-      0.832721596514      0.108085022761
-      0.842041197386      0.121630064335
-      0.851360798257      0.135996017521
-      0.860680399129      0.151182882317
-                0.87      0.167190658724
-                  1.      0.476075508192
+        0.0028087376        0.0027348516
+         0.005510922        0.0034185643
+                0.02        0.0037604207
+               0.105        0.0030083365
+            0.683608        0.0030083365
+           0.6929276        0.0034187925
+           0.7022472        0.0046501597
+           0.7115668         0.006702439
+           0.7208864          0.00957563
+            0.730206         0.013269732
+           0.7395256         0.017784746
+          0.74884516         0.023120672
+          0.75816476         0.029277507
+          0.76748437         0.036255255
+            0.776804         0.044053916
+           0.7861236          0.05267349
+           0.7954432         0.062113974
+           0.8047628         0.072375365
+           0.8140824          0.08345767
+            0.823402          0.09536089
+           0.8327216          0.10808502
+           0.8420412         0.121630065
+           0.8513608          0.13599601
+           0.8606804          0.15118288
+                0.87          0.16719066
+                  1.           0.4760755
 *DEFINE_CURVE_TITLE
 Trab_scr_0p27_100_ext
     701115         0        1.        1.        0.        0.         0         0
-                 -1.     -0.000302337883
-               -0.85     -0.000302337884
-                -0.7     -0.000302337951
-               -0.55     -0.000302340788
-                -0.5     -0.000302348023
-     -0.476677824557     -0.000302356049
-     -0.453355649114     -0.000302370428
-     -0.430033473671     -0.000302396187
-     -0.406711298227     -0.000302442336
-                -0.4     -0.000302461418
-     -0.383389122784     -0.000302525011
-     -0.360066947341     -0.000302673124
-     -0.336744771898     -0.000302938468
-     -0.313422596455     -0.000303413833
-     -0.290100421012     -0.000304265451
-     -0.266778245568     -0.000305791125
-     -0.243456070125     -0.000308524373
-     -0.220133894682     -0.000313420993
-     -0.196811719239     -0.000322193298
-     -0.173489543796       -0.0003379089
-     -0.150167368353     -0.000366063432
-     -0.126845192909     -0.000416502334
-     -0.103523017466     -0.000506863727
-     -0.080200842023     -0.000668746347
-      -0.05687866658     -0.000958759388
-     -0.033556491137     -0.001478318336
-              -0.014     -0.003023378825
-     -0.004221754432     -0.002748526204
-     -0.002258225404     -0.002198820963
+                 -1.        -3.023379E-4
+               -0.85        -3.023379E-4
+                -0.7       -3.0233795E-4
+               -0.55       -3.0234078E-4
+                -0.5       -3.0234802E-4
+         -0.47667783       -3.0235606E-4
+         -0.45335564       -3.0237043E-4
+         -0.43003348        -3.023962E-4
+          -0.4067113       -3.0244235E-4
+                -0.4        -3.024614E-4
+         -0.38338912         -3.02525E-4
+         -0.36006695        -3.026731E-4
+          -0.3367448       -3.0293848E-4
+          -0.3134226       -3.0341384E-4
+         -0.29010043       -3.0426544E-4
+         -0.26677823       -3.0579112E-4
+         -0.24345607       -3.0852438E-4
+          -0.2201339       -3.1342098E-4
+         -0.19681172        -3.221933E-4
+         -0.17348954        -3.379089E-4
+         -0.15016738       -3.6606344E-4
+          -0.1268452       -4.1650233E-4
+        -0.103523016       -5.0686375E-4
+         -0.08020084       -6.6874636E-4
+        -0.056878667        -9.587594E-4
+         -0.03355649       -0.0014783184
+              -0.014       -0.0030233788
+       -0.0042217546       -0.0027485262
+       -0.0022582253        -0.002198821
                   0.                  0.
-      0.003224862208      0.003140029606
-       0.00603107776      0.003925037007
-                0.02      0.004317540708
-               0.105      0.003454032567
-      0.683607982572      0.003454032567
-      0.692927583443      0.003925298886
-      0.702247184315      0.005339097844
-      0.711566785186       0.00769542944
-      0.720886386058      0.010994293676
-      0.730205986929      0.015235690549
-        0.7395255878      0.020419620062
-      0.748845188672      0.026546082213
-      0.758164789543      0.033615077003
-      0.767484390415      0.041626604431
-      0.776803991286      0.050580664498
-      0.786123592157      0.060477257204
-      0.795443193029      0.071316382548
-        0.8047627939      0.083098040531
-      0.814082394772      0.095822231153
-      0.823401995643      0.109488954413
-      0.832721596514      0.124098210312
-      0.842041197386       0.13964999885
-      0.851360798257      0.156144320026
-      0.860680399129      0.173581173841
-                0.87      0.191960560294
-                  1.      0.546607818836
+        0.0032248623        0.0031400295
+         0.006031078         0.003925037
+                0.02        0.0043175407
+               0.105        0.0034540326
+            0.683608        0.0034540326
+           0.6929276         0.003925299
+           0.7022472        0.0053390977
+           0.7115668        0.0076954295
+           0.7208864         0.010994294
+            0.730206          0.01523569
+           0.7395256          0.02041962
+          0.74884516         0.026546082
+          0.75816476          0.03361508
+          0.76748437         0.041626606
+            0.776804         0.050580665
+           0.7861236         0.060477257
+           0.7954432         0.071316384
+           0.8047628          0.08309804
+           0.8140824          0.09582223
+            0.823402          0.10948896
+           0.8327216          0.12409821
+           0.8420412             0.13965
+           0.8513608          0.15614432
+           0.8606804          0.17358117
+                0.87          0.19196056
+                  1.           0.5466078
 *DEFINE_CURVE_TITLE
 Trab_scr_0p27_1000_ext
     701116         0        1.        1.        0.        0.         0         0
-                 -1.     -0.000347130335
-               -0.85     -0.000347130337
-                -0.7     -0.000347130413
-               -0.55      -0.00034713367
-                -0.5     -0.000347141977
-     -0.476636019243     -0.000347151214
-     -0.453272038486      -0.00034716778
-     -0.429908057729     -0.000347197488
-     -0.406544076972     -0.000347250766
-                -0.4     -0.000347272172
-     -0.383180096215     -0.000347346313
-     -0.359816115458     -0.000347517665
-     -0.336452134701     -0.000347824963
-     -0.313088153944     -0.000348376064
-     -0.289724173187     -0.000349364395
-      -0.26636019243     -0.000351136843
-     -0.242996211673     -0.000354315508
-     -0.219632230916     -0.000360016047
-     -0.196268250159     -0.000370239253
-     -0.172904269402       -0.0003885733
-     -0.149540288645     -0.000421453128
-     -0.126176307889        -0.000480419
-     -0.102812327132     -0.000586166943
-     -0.079448346375     -0.000775812697
-     -0.056084365618      -0.00111591872
-     -0.032720384861     -0.001725856481
-              -0.014     -0.003471303347
-      -0.00463980757     -0.003155730315
-     -0.002592789676     -0.002524584252
+                 -1.       -3.4713032E-4
+               -0.85       -3.4713035E-4
+                -0.7        -3.471304E-4
+               -0.55       -3.4713367E-4
+                -0.5         -3.47142E-4
+         -0.47663602       -3.4715122E-4
+         -0.45327204       -3.4716778E-4
+         -0.42990807        -3.471975E-4
+          -0.4065441       -3.4725075E-4
+                -0.4       -3.4727217E-4
+         -0.38318008        -3.473463E-4
+          -0.3598161       -3.4751766E-4
+         -0.33645213       -3.4782497E-4
+         -0.31308815       -3.4837605E-4
+         -0.28972417        -3.493644E-4
+          -0.2663602       -3.5113684E-4
+         -0.24299622        -3.543155E-4
+         -0.21963224       -3.6001604E-4
+         -0.19626825       -3.7023926E-4
+         -0.17290427        -3.885733E-4
+         -0.14954029       -4.2145312E-4
+         -0.12617631         -4.80419E-4
+         -0.10281233        -5.861669E-4
+         -0.07944835        -7.758127E-4
+        -0.056084365       -0.0011159187
+        -0.032720383       -0.0017258564
+              -0.014       -0.0034713033
+       -0.0046398076       -0.0031557302
+       -0.0025927897       -0.0025245843
                   0.                  0.
-      0.003702637222      0.003605236364
-      0.006628296528      0.004506545455
+        0.0037026373        0.0036052363
+        0.0066282963        0.0045065456
                 0.02           0.0049572
                0.105          0.00396576
-      0.683607982572          0.00396576
-      0.692927583443      0.004506846131
-      0.702247184315      0.006130104525
-      0.711566785186      0.008835535181
-      0.720886386058      0.012623138099
-      0.730205986929       0.01749291328
-        0.7395255878      0.023444860724
-      0.748845188672       0.03047898043
-      0.758164789543      0.038595272398
-      0.767484390415      0.047793736628
-      0.776803991286      0.058074373122
-      0.786123592157      0.069437181877
-      0.795443193029      0.081882162895
-        0.8047627939      0.095409316175
-      0.814082394772      0.110018641718
-      0.823401995643      0.125710139523
-      0.832721596514      0.142483809591
-      0.842041197386      0.160339651921
-      0.851360798257      0.179277666514
-      0.860680399129      0.199297853369
-                0.87      0.220400212486
-                  1.      0.627589746735
+            0.683608          0.00396576
+           0.6929276         0.004506846
+           0.7022472        0.0061301044
+           0.7115668        0.0088355355
+           0.7208864         0.012623138
+            0.730206         0.017492913
+           0.7395256         0.023444861
+          0.74884516          0.03047898
+          0.75816476         0.038595274
+          0.76748437         0.047793735
+            0.776804         0.058074374
+           0.7861236          0.06943718
+           0.7954432         0.081882164
+           0.8047628          0.09540932
+           0.8140824          0.11001864
+            0.823402          0.12571014
+           0.8327216          0.14248382
+           0.8420412          0.16033965
+           0.8513608          0.17927767
+           0.8606804          0.19929786
+                0.87          0.22040021
+                  1.          0.62758976
 *DEFINE_CURVE_TITLE
 Trab_scr_0p27_10000_ext
     701117         0        1.        1.        0.        0.         0         0
-                 -1.     -0.000398558951
-               -0.85     -0.000398558953
-                -0.7     -0.000398559041
-               -0.55     -0.000398562781
-                -0.5     -0.000398572318
-     -0.476588020321     -0.000398582953
-     -0.453176040641     -0.000398602047
-     -0.429764060962     -0.000398636331
-     -0.406352081282      -0.00039869789
-                -0.4     -0.000398721802
-     -0.382940101603     -0.000398808419
-     -0.359528121924     -0.000399006879
-     -0.336116142244     -0.000399363218
-     -0.312704162565     -0.000400003036
-     -0.289292182885     -0.000401151847
-     -0.265880203206      -0.00040321457
-     -0.242468223527     -0.000406918249
-     -0.219056243847     -0.000413568309
-     -0.195644264168     -0.000425508684
-     -0.172232284488     -0.000446947969
-     -0.148820304809     -0.000485442819
-     -0.125408325129     -0.000554561425
-      -0.10199634545     -0.000678665863
-     -0.078584365771     -0.000901498938
-     -0.055172386091     -0.001301602107
-     -0.031760406412     -0.002019998811
-              -0.014     -0.003985589509
-     -0.005119796794      -0.00362326319
-     -0.002976920856     -0.002898610552
+                 -1.       -3.9855894E-4
+               -0.85       -3.9855894E-4
+                -0.7       -3.9855903E-4
+               -0.55       -3.9856278E-4
+                -0.5       -3.9857233E-4
+           -0.476588       -3.9858295E-4
+         -0.45317605       -3.9860205E-4
+         -0.42976406       -3.9863633E-4
+         -0.40635207       -3.9869788E-4
+                -0.4        -3.987218E-4
+          -0.3829401       -3.9880842E-4
+         -0.35952812       -3.9900688E-4
+         -0.33611614       -3.9936323E-4
+         -0.31270418       -4.0000305E-4
+          -0.2892922       -4.0115186E-4
+          -0.2658802       -4.0321457E-4
+         -0.24246822       -4.0691826E-4
+         -0.21905625        -4.135683E-4
+         -0.19564426       -4.2550868E-4
+         -0.17223229       -4.4694796E-4
+         -0.14882031        -4.854428E-4
+         -0.12540832       -5.5456144E-4
+         -0.10199635        -6.786659E-4
+        -0.078584366       -9.0149895E-4
+        -0.055172388       -0.0013016021
+        -0.031760406       -0.0020199989
+              -0.014       -0.0039855894
+        -0.005119797       -0.0036232632
+        -0.002976921       -0.0028986107
                   0.                  0.
-      0.004251196336      0.004139365187
-       0.00731399542      0.005174206484
-                0.02      0.005691627132
-               0.105      0.004553301706
-      0.683607982572      0.004553301706
-      0.692927583443      0.005174551707
-      0.702247184315       0.00703830171
-      0.711566785186      0.010144551716
-      0.720886386058      0.014493301724
-      0.730205986929      0.020084551733
-        0.7395255878      0.026918301745
-      0.748845188672       0.03499455176
-      0.758164789543      0.044313301776
-      0.767484390415      0.054874551795
-      0.776803991286      0.066678301816
-      0.786123592157      0.079724551839
-      0.795443193029      0.094013301864
-        0.8047627939      0.109544551891
-      0.814082394772      0.126318301921
-      0.823401995643      0.144334551953
-      0.832721596514      0.163593301987
-      0.842041197386      0.184094552023
-      0.851360798257      0.205838302061
-      0.860680399129      0.228824552102
-                0.87      0.253053302145
-                  1.      0.720569440529
+        0.0042511965         0.004139365
+        0.0073139956        0.0051742066
+                0.02         0.005691627
+               0.105        0.0045533017
+            0.683608        0.0045533017
+           0.6929276        0.0051745516
+           0.7022472         0.007038302
+           0.7115668         0.010144551
+           0.7208864        0.0144933015
+            0.730206         0.020084552
+           0.7395256         0.026918301
+          0.74884516          0.03499455
+          0.75816476           0.0443133
+          0.76748437          0.05487455
+            0.776804           0.0666783
+           0.7861236          0.07972455
+           0.7954432           0.0940133
+           0.8047628          0.10954455
+           0.8140824           0.1263183
+            0.823402          0.14433455
+           0.8327216           0.1635933
+           0.8420412          0.18409455
+           0.8513608          0.20583831
+           0.8606804          0.22882456
+                0.87           0.2530533
+                  1.          0.72056943
 *DEFINE_CURVE_TITLE
 Manschot el at 1986 (across)
     100000         0        1.        1.        0.        0.         0         0
@@ -2758,15 +2744,15 @@ Manschot el at 1986 (across)
            0.0595664          7.56222E-5
            0.0628569          8.48259E-5
            0.0657617          9.40087E-5
-           0.0683487         0.000103174
-           0.0847367         0.000194189
-           0.0942015         0.000284367
-            0.101543         0.000373797
-            0.108034         0.000462478
-            0.114128         0.000550409
-             0.12002         0.000637589
-            0.125801         0.000724022
-            0.131523         0.000809714
+           0.0683487          1.03174E-4
+           0.0847367          1.94189E-4
+           0.0942015          2.84367E-4
+            0.101543          3.73797E-4
+            0.108034          4.62478E-4
+            0.114128          5.50409E-4
+             0.12002          6.37589E-4
+            0.125801          7.24022E-4
+            0.131523          8.09714E-4
             0.378379          0.00377237
             0.733868          0.00636576
 *DEFINE_CURVE_TITLE
@@ -2774,9 +2760,9 @@ NE_C_SC1-AAOM
     200510         0        1.        1.        0.        0.         0         0
                   0.                  0.
            0.0562957          6.79164E-5
-            0.115594         0.000180872
-            0.177895         0.000372033
-            0.243198         0.000698856
+            0.115594          1.80872E-4
+            0.177895          3.72033E-4
+            0.243198          6.98856E-4
             0.311503          0.00126107
             0.382811          0.00223206
             0.457121           0.0039136
@@ -2827,8 +2813,8 @@ NE_C_SC1-AAOM
 DEFINE_CURVE_200520
     200520         0        1.        1.        0.        0.         0         0
                   0.                  0.
-           0.0360247          0.00016082
-           0.0733025         0.000894768
+           0.0360247           1.6082E-4
+           0.0733025          8.94768E-4
             0.111833          0.00286267
             0.151617          0.00479537
             0.192654          0.00661182
@@ -2885,7 +2871,7 @@ DEFINE_CURVE_200530
            0.0375459          1.15539E-6
            0.0568286          8.53677E-6
             0.076451          6.22288E-5
-           0.0964132         0.000452913
+           0.0964132          4.52913E-4
             0.116715          0.00294844
             0.137357          0.00664677
             0.158338           0.0102263
@@ -2936,7 +2922,7 @@ DEFINE_CURVE_200540
     200540         0        1.        1.        0.        0.         0         0
                   0.                  0.
            0.0117643           1.8558E-5
-           0.0236654         0.000176213
+           0.0236654          1.76213E-4
            0.0357033          0.00151732
             0.047878          0.00607663
            0.0601895           0.0106712
@@ -2989,7 +2975,7 @@ DEFINE_CURVE_200540
 DEFINE_CURVE_200550
     200550         0        1.        1.        0.        0.         0         0
                   0.                  0.
-           0.0677237         0.000486391
+           0.0677237          4.86391E-4
             0.139747          0.00330642
             0.216071          0.00729225
             0.296694            0.010864
@@ -3045,7 +3031,7 @@ DEFINE_CURVE_200560
                   0.                  0.
            0.0700948          9.40351E-6
             0.144786          5.70439E-5
-            0.224074         0.000301793
+            0.224074          3.01793E-4
             0.307957          0.00128636
             0.396438          0.00239748
             0.489515          0.00340151
@@ -3098,9 +3084,9 @@ DEFINE_CURVE_200721
     200721         0        1.        1.        0.        0.         0         0
                   0.                  0.
            0.0481661          8.58176E-5
-           0.0985467         0.000230078
-            0.151142         0.000476134
-            0.205952         0.000899409
+           0.0985467          2.30078E-4
+            0.151142          4.76134E-4
+            0.205952          8.99409E-4
             0.262976          0.00163131
             0.322215          0.00290103
             0.383668          0.00510881
@@ -3159,8 +3145,8 @@ DEFINE_CURVE_200730
             0.694215          3.26225E-6
             0.838843          1.47787E-5
             0.991736          6.71543E-5
-             1.15289         0.000305994
-             1.32231         0.000882294
+             1.15289          3.05994E-4
+             1.32231          8.82294E-4
                  1.5          0.00141939
              1.68595          0.00190978
              1.88017          0.00225167
@@ -3208,15 +3194,15 @@ NE_C_C5C6-ISL
            0.0392012          7.75367E-6
            0.0798817          3.09617E-5
             0.122041          6.86391E-5
-             0.16568         0.000119667
-            0.210799         0.000182978
-            0.257396         0.000257592
-            0.305473         0.000342617
-             0.35503         0.000437248
-            0.406065         0.000540756
-             0.45858         0.000652485
-            0.512574         0.000771838
-            0.568047         0.000898279
+             0.16568          1.19667E-4
+            0.210799          1.82978E-4
+            0.257396          2.57592E-4
+            0.305473          3.42617E-4
+             0.35503          4.37248E-4
+            0.406065          5.40756E-4
+             0.45858          6.52485E-4
+            0.512574          7.71838E-4
+            0.568047          8.98279E-4
                0.625          0.00103132
             0.683432          0.00117051
             0.743343          0.00131546
@@ -3263,11 +3249,11 @@ NE_C-Anulus_Superficial
                   0.                  0.
            0.0050125          2.04498E-5
              0.01005          5.36462E-5
-           0.0151125           0.0001076
-              0.0202         0.000195359
-           0.0253125          0.00033817
-             0.03045         0.000570636
-           0.0356125         0.000949113
+           0.0151125            1.076E-4
+              0.0202          1.95359E-4
+           0.0253125           3.3817E-4
+             0.03045          5.70636E-4
+           0.0356125          9.49113E-4
               0.0408          0.00144684
            0.0460125          0.00194089
              0.05125          0.00243023
@@ -3297,12 +3283,12 @@ NE_C-Anulus_Mid
            0.0050125          1.52883E-5
              0.01005           3.7094E-5
            0.0151125            6.823E-5
-              0.0202         0.000112723
-           0.0253125         0.000176337
-             0.03045         0.000267324
-           0.0356125           0.0003975
-              0.0408          0.00058378
-           0.0460125          0.00085038
+              0.0202          1.12723E-4
+           0.0253125          1.76337E-4
+             0.03045          2.67324E-4
+           0.0356125            3.975E-4
+              0.0408           5.8378E-4
+           0.0460125           8.5038E-4
              0.05125          0.00121268
            0.0565125          0.00158714
               0.0618          0.00195806
@@ -3332,15 +3318,15 @@ NE_C-Anulus_Deep
            0.0151125          4.11945E-5
               0.0202          6.24366E-5
            0.0253125          8.91095E-5
-             0.03045         0.000122617
-           0.0356125         0.000164724
-              0.0408         0.000217655
-           0.0460125         0.000284205
-             0.05125         0.000367895
-           0.0565125         0.000473156
-              0.0618         0.000605561
-           0.0671125          0.00077213
-             0.07245         0.000981694
+             0.03045          1.22617E-4
+           0.0356125          1.64724E-4
+              0.0408          2.17655E-4
+           0.0460125          2.84205E-4
+             0.05125          3.67895E-4
+           0.0565125          4.73156E-4
+              0.0618          6.05561E-4
+           0.0671125           7.7213E-4
+             0.07245          9.81694E-4
            0.0778125          0.00123475
               0.0832          0.00149086
            0.0886125          0.00174461
@@ -3363,9 +3349,9 @@ NE_C_SC1-PAOM
            0.0347724          9.80606E-6
            0.0707137          2.94909E-5
             0.107824          6.94038E-5
-            0.146103         0.000150746
-             0.18555         0.000316985
-            0.226167         0.000657303
+            0.146103          1.50746E-4
+             0.18555          3.16985E-4
+            0.226167          6.57303E-4
             0.267952          0.00133767
             0.310907          0.00213712
              0.35503          0.00289476
@@ -3420,50 +3406,50 @@ NE_C_SC1-PAOM
             0.223041          1.42703E-5
             0.285211          3.60587E-5
             0.349944          9.04923E-5
-            0.417241         0.000226709
-            0.487101         0.000452174
-            0.559526         0.000663583
-            0.634514         0.000763992
-            0.712065         0.000817505
-            0.792181         0.000852885
-             0.87486         0.000875599
-            0.960103         0.000889262
-             1.04791         0.000896346
-             1.13828         0.000898587
-             1.23121         0.000897228
-             1.32671         0.000893179
-             1.42477         0.000887116
-              1.5254         0.000879547
-             1.62859         0.000870857
-             1.73434         0.000861342
-             1.84265         0.000851231
-             1.95353         0.000840703
-             2.06698         0.000822954
-             2.18298         0.000804966
-             2.30155         0.000787747
-             2.42269          0.00077125
-             2.54639         0.000755429
-             2.67265         0.000740245
-             2.80147         0.000725659
-             2.93286         0.000711636
-             3.06682         0.000698146
-             3.20333         0.000685157
-             3.34241         0.000672643
-             3.48406         0.000660577
-             3.62826         0.000648937
-             3.77504           0.0006377
-             3.92437         0.000626846
-             4.07627         0.000616355
-             4.23073         0.000606209
-             4.38776         0.000596392
-             4.54735         0.000586887
-              4.7095         0.000577681
-             4.87422          0.00056876
-              5.0415         0.000560109
-             5.21134         0.000551718
-             5.38375         0.000543575
-             5.55872         0.000535668
-             5.73626         0.000527988
+            0.417241          2.26709E-4
+            0.487101          4.52174E-4
+            0.559526          6.63583E-4
+            0.634514          7.63992E-4
+            0.712065          8.17505E-4
+            0.792181          8.52885E-4
+             0.87486          8.75599E-4
+            0.960103          8.89262E-4
+             1.04791          8.96346E-4
+             1.13828          8.98587E-4
+             1.23121          8.97228E-4
+             1.32671          8.93179E-4
+             1.42477          8.87116E-4
+              1.5254          8.79547E-4
+             1.62859          8.70857E-4
+             1.73434          8.61342E-4
+             1.84265          8.51231E-4
+             1.95353          8.40703E-4
+             2.06698          8.22954E-4
+             2.18298          8.04966E-4
+             2.30155          7.87747E-4
+             2.42269           7.7125E-4
+             2.54639          7.55429E-4
+             2.67265          7.40245E-4
+             2.80147          7.25659E-4
+             2.93286          7.11636E-4
+             3.06682          6.98146E-4
+             3.20333          6.85157E-4
+             3.34241          6.72643E-4
+             3.48406          6.60577E-4
+             3.62826          6.48937E-4
+             3.77504            6.377E-4
+             3.92437          6.26846E-4
+             4.07627          6.16355E-4
+             4.23073          6.06209E-4
+             4.38776          5.96392E-4
+             4.54735          5.86887E-4
+              4.7095          5.77681E-4
+             4.87422           5.6876E-4
+              5.0415          5.60109E-4
+             5.21134          5.51718E-4
+             5.38375          5.43575E-4
+             5.55872          5.35668E-4
+             5.73626          5.27988E-4
 *DEFINE_CURVE_TITLE
 DEFINE_CURVE_SC1-AAOM
     210510         0        1.        1.        0.        0.         0          
@@ -3472,11 +3458,11 @@ DEFINE_CURVE_SC1-AAOM
             0.115594          1.80872E-5
             0.177895          3.72033E-5
             0.243198          6.98856E-5
-            0.311503         0.000126107
-            0.382811         0.000223206
-            0.457121          0.00039136
-            0.534434         0.000670391
-            0.614749         0.000963902
+            0.311503          1.26107E-4
+            0.382811          2.23206E-4
+            0.457121           3.9136E-4
+            0.534434          6.70391E-4
+            0.614749          9.63902E-4
             0.698067          0.00123663
             0.784387          0.00149072
              0.87371            0.001728
@@ -3524,54 +3510,54 @@ DEFINE_CURVE_SC2-Apical
                   0.                  0.
            0.0360247           1.6082E-5
            0.0733025          8.94768E-5
-            0.111833         0.000286267
-            0.151617         0.000479537
-            0.192654         0.000661182
-            0.234944         0.000750491
-            0.278487         0.000785848
-            0.323283         0.000803893
-            0.369332         0.000811509
-            0.416634         0.000810525
-            0.465189         0.000789874
-            0.514997          0.00077025
-            0.566058         0.000751577
-            0.618373         0.000733788
-             0.67194         0.000716822
-             0.72676         0.000700623
-            0.782833          0.00068514
-             0.84016         0.000670326
-            0.898739         0.000656139
-            0.958572          0.00064254
-             1.01966         0.000629494
-               1.082         0.000616966
-             1.14559         0.000604928
-             1.21043         0.000593351
-             1.27653         0.000582208
-             1.34388         0.000571476
-             1.41248         0.000561132
-             1.48234         0.000551157
-             1.55345          0.00054153
-             1.62581         0.000532233
-             1.69943          0.00052325
-              1.7743         0.000514565
-             1.85042         0.000506164
-             1.92779         0.000498033
-             2.00642         0.000490159
-              2.0863          0.00048253
-             2.16744         0.000475135
-             2.24982         0.000467963
-             2.33346         0.000461005
-             2.41836          0.00045425
-              2.5045          0.00044769
-              2.5919         0.000441318
-             2.68055         0.000435124
-             2.77046         0.000429101
-             2.86162         0.000423243
-             2.95403         0.000417543
-             3.04769         0.000411994
-             3.14261         0.000406591
-             3.23878         0.000401328
-              3.3362         0.000396199
+            0.111833          2.86267E-4
+            0.151617          4.79537E-4
+            0.192654          6.61182E-4
+            0.234944          7.50491E-4
+            0.278487          7.85848E-4
+            0.323283          8.03893E-4
+            0.369332          8.11509E-4
+            0.416634          8.10525E-4
+            0.465189          7.89874E-4
+            0.514997           7.7025E-4
+            0.566058          7.51577E-4
+            0.618373          7.33788E-4
+             0.67194          7.16822E-4
+             0.72676          7.00623E-4
+            0.782833           6.8514E-4
+             0.84016          6.70326E-4
+            0.898739          6.56139E-4
+            0.958572           6.4254E-4
+             1.01966          6.29494E-4
+               1.082          6.16966E-4
+             1.14559          6.04928E-4
+             1.21043          5.93351E-4
+             1.27653          5.82208E-4
+             1.34388          5.71476E-4
+             1.41248          5.61132E-4
+             1.48234          5.51157E-4
+             1.55345           5.4153E-4
+             1.62581          5.32233E-4
+             1.69943           5.2325E-4
+              1.7743          5.14565E-4
+             1.85042          5.06164E-4
+             1.92779          4.98033E-4
+             2.00642          4.90159E-4
+              2.0863           4.8253E-4
+             2.16744          4.75135E-4
+             2.24982          4.67963E-4
+             2.33346          4.61005E-4
+             2.41836           4.5425E-4
+              2.5045           4.4769E-4
+              2.5919          4.41318E-4
+             2.68055          4.35124E-4
+             2.77046          4.29101E-4
+             2.86162          4.23243E-4
+             2.95403          4.17543E-4
+             3.04769          4.11994E-4
+             3.14261          4.06591E-4
+             3.23878          4.01328E-4
+              3.3362          3.96199E-4
 *DEFINE_CURVE_TITLE
 DEFINE_CURVE_C1C2-IL_Cruciform
     210530         0        1.        1.        0.        0.         0          
@@ -3581,8 +3567,8 @@ DEFINE_CURVE_C1C2-IL_Cruciform
            0.0568286          8.53677E-7
             0.076451          6.22288E-6
            0.0964132          4.52913E-5
-            0.116715         0.000294844
-            0.137357         0.000664677
+            0.116715          2.94844E-4
+            0.137357          6.64677E-4
             0.158338          0.00102263
              0.17966          0.00136926
             0.201321           0.0017051
@@ -3632,8 +3618,8 @@ DEFINE_CURVE_SC2-Tectoria
                   0.                  0.
            0.0117643           1.8558E-6
            0.0236654          1.76213E-5
-           0.0357033         0.000151732
-            0.047878         0.000607663
+           0.0357033          1.51732E-4
+            0.047878          6.07663E-4
            0.0601895          0.00106712
            0.0726377          0.00151654
            0.0852228          0.00195624
@@ -3685,8 +3671,8 @@ DEFINE_CURVE_SC2-Alar
     210550         0        1.        1.        0.        0.         0          
                   0.                  0.
            0.0677237          4.86391E-5
-            0.139747         0.000330642
-            0.216071         0.000729225
+            0.139747          3.30642E-4
+            0.216071          7.29225E-4
             0.296694           0.0010864
             0.381618          0.00120667
             0.470841          0.00124815
@@ -3697,43 +3683,43 @@ DEFINE_CURVE_SC2-Alar
             0.981457          0.00110027
              1.09648          0.00105989
               1.2158          0.00102237
-             1.33942         0.000987418
-             1.46735         0.000954776
-             1.59957         0.000924223
-             1.73609         0.000895565
-             1.87691          0.00086863
-             2.02204         0.000843269
-             2.17146         0.000819346
-             2.32518         0.000796744
-              2.4832         0.000775355
-             2.64553         0.000755084
-             2.81215         0.000735846
-             2.98307         0.000717564
-             3.15829         0.000700169
-             3.33781         0.000683597
-             3.52163         0.000667791
-             3.70976           0.0006527
-             3.90218         0.000638275
-              4.0989         0.000624475
-             4.29992         0.000611258
-             4.50524          0.00059859
-             4.71486         0.000586436
-             4.92878         0.000574765
-               5.147          0.00056355
-             5.36952         0.000552765
-             5.59635         0.000542384
-             5.82747         0.000532386
-             6.06289          0.00052275
-             6.30261         0.000513457
-             6.54663         0.000504488
-             6.79495         0.000495828
-             7.04757         0.000487459
-             7.30449         0.000479369
-             7.56571         0.000471542
-             7.83123         0.000463967
-             8.10105         0.000456632
-             8.37517         0.000449525
-             8.65359         0.000442635
+             1.33942          9.87418E-4
+             1.46735          9.54776E-4
+             1.59957          9.24223E-4
+             1.73609          8.95565E-4
+             1.87691           8.6863E-4
+             2.02204          8.43269E-4
+             2.17146          8.19346E-4
+             2.32518          7.96744E-4
+              2.4832          7.75355E-4
+             2.64553          7.55084E-4
+             2.81215          7.35846E-4
+             2.98307          7.17564E-4
+             3.15829          7.00169E-4
+             3.33781          6.83597E-4
+             3.52163          6.67791E-4
+             3.70976            6.527E-4
+             3.90218          6.38275E-4
+              4.0989          6.24475E-4
+             4.29992          6.11258E-4
+             4.50524           5.9859E-4
+             4.71486          5.86436E-4
+             4.92878          5.74765E-4
+               5.147           5.6355E-4
+             5.36952          5.52765E-4
+             5.59635          5.42384E-4
+             5.82747          5.32386E-4
+             6.06289           5.2275E-4
+             6.30261          5.13457E-4
+             6.54663          5.04488E-4
+             6.79495          4.95828E-4
+             7.04757          4.87459E-4
+             7.30449          4.79369E-4
+             7.56571          4.71542E-4
+             7.83123          4.63967E-4
+             8.10105          4.56632E-4
+             8.37517          4.49525E-4
+             8.65359          4.42635E-4
 *DEFINE_CURVE_TITLE
 DEFINE_CURVE_AOCJ-CL
     210560         0        1.        1.        0.        0.         0          
@@ -3741,53 +3727,53 @@ DEFINE_CURVE_AOCJ-CL
            0.0700948          9.40351E-7
             0.144786          5.70439E-6
             0.224074          3.01793E-5
-            0.307957         0.000128636
-            0.396438         0.000239748
-            0.489515         0.000340151
-            0.587188         0.000431321
-            0.689457         0.000514477
-            0.796323         0.000555637
-            0.907785         0.000570191
-             1.02384         0.000574771
-              1.1445         0.000571517
-             1.26975         0.000550922
-              1.3996         0.000531759
-             1.53404         0.000513885
-             1.67308         0.000497173
-             1.81672         0.000481514
-             1.96495         0.000466811
-             2.11778          0.00045298
-             2.27521         0.000439945
-             2.43723         0.000427638
-             2.60385         0.000416002
-             2.77506         0.000404982
-             2.95088         0.000394531
-             3.13128         0.000384606
-             3.31629         0.000375167
-             3.50589         0.000366181
-             3.70009         0.000357616
-             3.89888         0.000349442
-             4.10227         0.000341633
-             4.31026         0.000334166
-             4.52284         0.000327018
-             4.74002         0.000320169
-             4.96179         0.000313601
-             5.18816         0.000307298
-             5.41913         0.000301243
-              5.6547         0.000295422
-             5.89486         0.000289821
-             6.13962         0.000284429
-             6.38897         0.000279234
-             6.64292         0.000274226
-             6.90147         0.000269393
-             7.16461         0.000264729
-             7.43235         0.000260222
-             7.70468         0.000255867
-             7.98161         0.000251656
-             8.26314          0.00024758
-             8.54927         0.000243635
-             8.83999         0.000239813
-             9.13531         0.000236109
+            0.307957          1.28636E-4
+            0.396438          2.39748E-4
+            0.489515          3.40151E-4
+            0.587188          4.31321E-4
+            0.689457          5.14477E-4
+            0.796323          5.55637E-4
+            0.907785          5.70191E-4
+             1.02384          5.74771E-4
+              1.1445          5.71517E-4
+             1.26975          5.50922E-4
+              1.3996          5.31759E-4
+             1.53404          5.13885E-4
+             1.67308          4.97173E-4
+             1.81672          4.81514E-4
+             1.96495          4.66811E-4
+             2.11778           4.5298E-4
+             2.27521          4.39945E-4
+             2.43723          4.27638E-4
+             2.60385          4.16002E-4
+             2.77506          4.04982E-4
+             2.95088          3.94531E-4
+             3.13128          3.84606E-4
+             3.31629          3.75167E-4
+             3.50589          3.66181E-4
+             3.70009          3.57616E-4
+             3.89888          3.49442E-4
+             4.10227          3.41633E-4
+             4.31026          3.34166E-4
+             4.52284          3.27018E-4
+             4.74002          3.20169E-4
+             4.96179          3.13601E-4
+             5.18816          3.07298E-4
+             5.41913          3.01243E-4
+              5.6547          2.95422E-4
+             5.89486          2.89821E-4
+             6.13962          2.84429E-4
+             6.38897          2.79234E-4
+             6.64292          2.74226E-4
+             6.90147          2.69393E-4
+             7.16461          2.64729E-4
+             7.43235          2.60222E-4
+             7.70468          2.55867E-4
+             7.98161          2.51656E-4
+             8.26314           2.4758E-4
+             8.54927          2.43635E-4
+             8.83999          2.39813E-4
+             9.13531          2.36109E-4
 *DEFINE_CURVE_TITLE
 DEFINE_CURVE_SC1-PAOM
     210570         0        1.        1.        0.        0.         0          
@@ -3798,59 +3784,59 @@ DEFINE_CURVE_SC1-PAOM
             0.146103          1.50746E-5
              0.18555          3.16985E-5
             0.226167          6.57303E-5
-            0.267952         0.000133767
-            0.310907         0.000213712
-             0.35503         0.000289476
-            0.400321          0.00036138
-            0.446782          0.00041705
-            0.494412         0.000433008
-             0.54321          0.00043944
-            0.593177         0.000440784
-            0.644313         0.000439185
-            0.696618           0.0004358
-            0.750091         0.000431299
-            0.804734         0.000426097
-            0.860545         0.000420459
-            0.917525         0.000414192
-            0.975674         0.000405949
-             1.03499         0.000398028
-             1.09548          0.00039041
-             1.15713         0.000383079
-             1.21996         0.000376017
-             1.28395         0.000369212
-             1.34911         0.000362648
-             1.41544         0.000356313
-             1.48294         0.000350196
-             1.55161         0.000344286
-             1.62145         0.000338572
-             1.69245         0.000333044
-             1.76463         0.000327694
-             1.83797         0.000322513
-             1.91248         0.000317493
-             1.98817         0.000312627
-             2.06502         0.000307908
-             2.14303          0.00030333
-             2.22222         0.000298886
-             2.30258         0.000294569
-              2.3841         0.000290376
-              2.4668         0.000286301
-             2.55066         0.000282338
-             2.63569         0.000278484
-             2.72189         0.000274733
-             2.80926         0.000271082
-              2.8978         0.000267527
-             2.98751         0.000264064
-             3.07838         0.000260689
-             3.17043           0.0002574
+            0.267952          1.33767E-4
+            0.310907          2.13712E-4
+             0.35503          2.89476E-4
+            0.400321           3.6138E-4
+            0.446782           4.1705E-4
+            0.494412          4.33008E-4
+             0.54321           4.3944E-4
+            0.593177          4.40784E-4
+            0.644313          4.39185E-4
+            0.696618            4.358E-4
+            0.750091          4.31299E-4
+            0.804734          4.26097E-4
+            0.860545          4.20459E-4
+            0.917525          4.14192E-4
+            0.975674          4.05949E-4
+             1.03499          3.98028E-4
+             1.09548           3.9041E-4
+             1.15713          3.83079E-4
+             1.21996          3.76017E-4
+             1.28395          3.69212E-4
+             1.34911          3.62648E-4
+             1.41544          3.56313E-4
+             1.48294          3.50196E-4
+             1.55161          3.44286E-4
+             1.62145          3.38572E-4
+             1.69245          3.33044E-4
+             1.76463          3.27694E-4
+             1.83797          3.22513E-4
+             1.91248          3.17493E-4
+             1.98817          3.12627E-4
+             2.06502          3.07908E-4
+             2.14303           3.0333E-4
+             2.22222          2.98886E-4
+             2.30258          2.94569E-4
+              2.3841          2.90376E-4
+              2.4668          2.86301E-4
+             2.55066          2.82338E-4
+             2.63569          2.78484E-4
+             2.72189          2.74733E-4
+             2.80926          2.71082E-4
+              2.8978          2.67527E-4
+             2.98751          2.64064E-4
+             3.07838          2.60689E-4
+             3.17043            2.574E-4
 *DEFINE_CURVE_TITLE
 DEFINE_CURVE_C1C2-ALL-200710
     210710         0        1.        1.        0.        0.         0         0
                   0.                  0.
            0.0248925           2.3194E-5
-           0.0503897          0.00010172
-           0.0764915         0.000239297
-            0.103198         0.000436363
-            0.130509         0.000692209
+           0.0503897           1.0172E-4
+           0.0764915          2.39297E-4
+            0.103198          4.36363E-4
+            0.130509          6.92209E-4
             0.158425          0.00100303
             0.186946          0.00133429
             0.216071          0.00165193
@@ -3886,46 +3872,46 @@ DEFINE_CURVE_AAK-CL
             0.991736          6.71543E-6
              1.15289          3.05994E-5
              1.32231          8.82294E-5
-                 1.5         0.000141939
-             1.68595         0.000190978
-             1.88017         0.000225167
-             2.08264          0.00023247
-             2.29339         0.000233105
-              2.5124         0.000230688
-             2.73967         0.000226763
-             2.97521         0.000222085
-             3.21901         0.000217054
-             3.47107         0.000211854
-              3.7314         0.000205233
-                  4.         0.000199014
-             4.27686         0.000193161
-             4.56198         0.000187642
-             4.85537         0.000182429
-             5.15702         0.000177499
-             5.46694         0.000172828
-             5.78512         0.000168396
-             6.11157         0.000164187
-             6.44628         0.000160182
-             6.78926         0.000156368
-              7.1405         0.000152732
-                 7.5          0.00014926
-             7.86777         0.000145944
-              8.2438         0.000142771
-              8.6281         0.000139733
-             9.02066         0.000136822
-             9.42149          0.00013403
-             9.83058         0.000131349
-             10.2479         0.000128774
-             10.6736         0.000126297
-             11.1074         0.000123914
-             11.5496          0.00012162
-                 12.         0.000119408
-             12.4587         0.000117276
-             12.9256         0.000115219
-             13.4008         0.000113232
-             13.8843         0.000111313
-              14.376         0.000109458
-              14.876         0.000107663
+                 1.5          1.41939E-4
+             1.68595          1.90978E-4
+             1.88017          2.25167E-4
+             2.08264           2.3247E-4
+             2.29339          2.33105E-4
+              2.5124          2.30688E-4
+             2.73967          2.26763E-4
+             2.97521          2.22085E-4
+             3.21901          2.17054E-4
+             3.47107          2.11854E-4
+              3.7314          2.05233E-4
+                  4.          1.99014E-4
+             4.27686          1.93161E-4
+             4.56198          1.87642E-4
+             4.85537          1.82429E-4
+             5.15702          1.77499E-4
+             5.46694          1.72828E-4
+             5.78512          1.68396E-4
+             6.11157          1.64187E-4
+             6.44628          1.60182E-4
+             6.78926          1.56368E-4
+              7.1405          1.52732E-4
+                 7.5           1.4926E-4
+             7.86777          1.45944E-4
+              8.2438          1.42771E-4
+              8.6281          1.39733E-4
+             9.02066          1.36822E-4
+             9.42149           1.3403E-4
+             9.83058          1.31349E-4
+             10.2479          1.28774E-4
+             10.6736          1.26297E-4
+             11.1074          1.23914E-4
+             11.5496           1.2162E-4
+                 12.          1.19408E-4
+             12.4587          1.17276E-4
+             12.9256          1.15219E-4
+             13.4008          1.13232E-4
+             13.8843          1.11313E-4
+              14.376          1.09458E-4
+              14.876          1.07663E-4
 *DEFINE_CURVE_TITLE
 DEFINE_CURVE_C1C2-AAAM
     210721         0        1.        1.        0.        0.         0         0
@@ -3934,10 +3920,10 @@ DEFINE_CURVE_C1C2-AAAM
            0.0985467          2.30078E-5
             0.151142          4.76134E-5
             0.205952          8.99409E-5
-            0.262976         0.000163131
-            0.322215         0.000290103
-            0.383668         0.000510881
-            0.447336         0.000878684
+            0.262976          1.63131E-4
+            0.322215          2.90103E-4
+            0.383668          5.10881E-4
+            0.447336          8.78684E-4
             0.513218          0.00126816
             0.581315          0.00163272
             0.651626          0.00197466
@@ -3988,7 +3974,7 @@ DEFINE_CURVE_C1C2-Transverse_Center
            0.0375459          1.15539E-6
            0.0568286          8.53677E-6
             0.076451          6.22288E-5
-           0.0964132         0.000452913
+           0.0964132          4.52913E-4
             0.116715          0.00294844
             0.137357          0.00664677
             0.158338           0.0102263
@@ -4093,8 +4079,8 @@ DEFINE_CURVE_C2C3-PLL
     211522         0        1.        1.        0.        0.         0          
                   0.                  0.
            0.0248925          7.38159E-5
-           0.0503897         0.000323731
-           0.0764915         0.000759887
+           0.0503897          3.23731E-4
+           0.0764915          7.59887E-4
             0.103198          0.00126468
             0.130509          0.00171469
             0.158425          0.00205021
@@ -4123,25 +4109,25 @@ DEFINE_CURVE_C2C3-CL
             0.237245          1.91412E-5
             0.373087          4.26412E-5
             0.520408          7.39331E-5
-            0.679209         0.000110755
-             0.84949         0.000142712
-             1.03125         0.000168609
-             1.22449         0.000187462
-             1.42921         0.000200386
-             1.64541         0.000208266
-             1.87309         0.000211812
-             2.11224         0.000211602
-             2.36288          0.00020811
-               2.625         0.000201431
-              2.8986         0.000193153
-             3.18367         0.000185529
-             3.48023         0.000178483
-             3.78827         0.000171953
-             4.10778         0.000165885
-             4.43878         0.000160229
-             4.78125         0.000154947
-              5.1352         0.000150002
-             5.50064         0.000145363
+            0.679209          1.10755E-4
+             0.84949          1.42712E-4
+             1.03125          1.68609E-4
+             1.22449          1.87462E-4
+             1.42921          2.00386E-4
+             1.64541          2.08266E-4
+             1.87309          2.11812E-4
+             2.11224          2.11602E-4
+             2.36288           2.0811E-4
+               2.625          2.01431E-4
+              2.8986          1.93153E-4
+             3.18367          1.85529E-4
+             3.48023          1.78483E-4
+             3.78827          1.71953E-4
+             4.10778          1.65885E-4
+             4.43878          1.60229E-4
+             4.78125          1.54947E-4
+              5.1352          1.50002E-4
+             5.50064          1.45363E-4
 *DEFINE_CURVE_TITLE
 DEFINE_CURVE_C2C3-LF
     211524         0        1.        1.        0.        0.         0          
@@ -4157,20 +4143,20 @@ DEFINE_CURVE_C2C3-LF
             0.759216          4.72288E-5
             0.864839          6.74234E-5
             0.974716          9.28271E-5
-             1.08885         0.000124054
-             1.20723         0.000161897
-             1.32987         0.000199143
-             1.45676         0.000230957
-              1.5879         0.000251912
-              1.7233         0.000262051
-             1.86295         0.000262331
-             2.00685         0.000255275
-             2.15501          0.00024805
-             2.30742         0.000241223
-             2.46408         0.000234762
-               2.625         0.000228638
-             2.79017         0.000222825
-             2.95959           0.0002173
+             1.08885          1.24054E-4
+             1.20723          1.61897E-4
+             1.32987          1.99143E-4
+             1.45676          2.30957E-4
+              1.5879          2.51912E-4
+              1.7233          2.62051E-4
+             1.86295          2.62331E-4
+             2.00685          2.55275E-4
+             2.15501           2.4805E-4
+             2.30742          2.41223E-4
+             2.46408          2.34762E-4
+               2.625          2.28638E-4
+             2.79017          2.22825E-4
+             2.95959            2.173E-4
 *DEFINE_CURVE_TITLE
 DEFINE_CURVE_2404102
     211525         0        1.        1.        0.        0.         0          
@@ -4182,42 +4168,42 @@ DEFINE_CURVE_2404102
              0.15543          4.79445E-5
             0.189036          6.79521E-5
             0.223482          9.09602E-5
-            0.258769         0.000116787
-            0.294896         0.000145264
-            0.331863         0.000176234
-             0.36967         0.000207799
-            0.408318         0.000238103
-            0.447805         0.000263724
-            0.488133         0.000284695
-            0.529301          0.00030075
-            0.571309         0.000312465
-            0.614157         0.000320374
-            0.657845         0.000324967
-            0.702373           0.0003267
-            0.747742         0.000325995
-            0.793951         0.000323243
-               0.841         0.000318808
-            0.888889         0.000313028
-            0.937618         0.000313916
-            0.987188          0.00030864
-              1.0376         0.000303538
-             1.08885         0.000298603
-             1.14094         0.000293825
-             1.19387         0.000289198
-             1.24764         0.000284714
-             1.30225         0.000280367
-              1.3577         0.000276151
-             1.41399          0.00027206
-             1.66762         0.000255648
+            0.258769          1.16787E-4
+            0.294896          1.45264E-4
+            0.331863          1.76234E-4
+             0.36967          2.07799E-4
+            0.408318          2.38103E-4
+            0.447805          2.63724E-4
+            0.488133          2.84695E-4
+            0.529301           3.0075E-4
+            0.571309          3.12465E-4
+            0.614157          3.20374E-4
+            0.657845          3.24967E-4
+            0.702373            3.267E-4
+            0.747742          3.25995E-4
+            0.793951          3.23243E-4
+               0.841          3.18808E-4
+            0.888889          3.13028E-4
+            0.937618          3.13916E-4
+            0.987188           3.0864E-4
+              1.0376          3.03538E-4
+             1.08885          2.98603E-4
+             1.14094          2.93825E-4
+             1.19387          2.89198E-4
+             1.24764          2.84714E-4
+             1.30225          2.80367E-4
+              1.3577          2.76151E-4
+             1.41399           2.7206E-4
+             1.66762          2.55648E-4
 *DEFINE_CURVE_TITLE
 DEFINE_CURVE_C3C4-ALL
     211531         0        1.        1.        0.        0.         0          
                   0.                  0.
            0.0248925           2.3194E-5
-           0.0503897          0.00010172
-           0.0764915         0.000239297
-            0.103198         0.000436363
-            0.130509         0.000692209
+           0.0503897           1.0172E-4
+           0.0764915          2.39297E-4
+            0.103198          4.36363E-4
+            0.130509          6.92209E-4
             0.158425          0.00100303
             0.186946          0.00133429
             0.216071          0.00165193
@@ -4244,8 +4230,8 @@ DEFINE_CURVE_C3C4-PLL
     211532         0        1.        1.        0.        0.         0          
                   0.                  0.
            0.0248925          7.38159E-5
-           0.0503897         0.000323731
-           0.0764915         0.000759887
+           0.0503897          3.23731E-4
+           0.0764915          7.59887E-4
             0.103198          0.00126468
             0.130509          0.00171469
             0.158425          0.00205021
@@ -4274,25 +4260,25 @@ DEFINE_CURVE_C3C4-CL
              0.25523          1.91916E-5
             0.402512          4.25608E-5
             0.562904          7.35116E-5
-            0.736408         0.000109762
-            0.923023         0.000141031
-             1.12275          0.00016621
-             1.33559         0.000184389
-             1.56153         0.000196716
-             1.80059         0.000204094
-             2.05276         0.000207242
-             2.31805         0.000206742
-             2.59644         0.000203067
-             2.88794         0.000196318
-             3.19256         0.000188047
-             3.51028         0.000180444
-             3.84112         0.000173432
-             4.18507         0.000166944
-             4.54213         0.000160925
-              4.9123         0.000155324
-             5.29558           0.0001501
-             5.69198         0.000145216
-             6.10148          0.00014064
+            0.736408          1.09762E-4
+            0.923023          1.41031E-4
+             1.12275           1.6621E-4
+             1.33559          1.84389E-4
+             1.56153          1.96716E-4
+             1.80059          2.04094E-4
+             2.05276          2.07242E-4
+             2.31805          2.06742E-4
+             2.59644          2.03067E-4
+             2.88794          1.96318E-4
+             3.19256          1.88047E-4
+             3.51028          1.80444E-4
+             3.84112          1.73432E-4
+             4.18507          1.66944E-4
+             4.54213          1.60925E-4
+              4.9123          1.55324E-4
+             5.29558            1.501E-4
+             5.69198          1.45216E-4
+             6.10148           1.4064E-4
 *DEFINE_CURVE_TITLE
 DEFINE_CURVE_C3C4-LF
     211534         0        1.        1.        0.        0.         0          
@@ -4307,21 +4293,21 @@ DEFINE_CURVE_C3C4-LF
             0.445313          3.50014E-5
             0.510864          5.27122E-5
             0.578613          7.58435E-5
-             0.64856         0.000105185
-            0.720703         0.000141529
-            0.795044         0.000185884
-            0.871582         0.000230019
-            0.950317         0.000268267
-             1.03125         0.000294158
-             1.11438         0.000307526
-             1.19971         0.000309307
-             1.28723         0.000302331
-             1.37695         0.000295016
-             1.46887         0.000288047
-             1.56299           0.0002814
-              1.6593         0.000275053
-             1.75781         0.000268985
-             1.85852          0.00026318
+             0.64856          1.05185E-4
+            0.720703          1.41529E-4
+            0.795044          1.85884E-4
+            0.871582          2.30019E-4
+            0.950317          2.68267E-4
+             1.03125          2.94158E-4
+             1.11438          3.07526E-4
+             1.19971          3.09307E-4
+             1.28723          3.02331E-4
+             1.37695          2.95016E-4
+             1.46887          2.88047E-4
+             1.56299            2.814E-4
+              1.6593          2.75053E-4
+             1.75781          2.68985E-4
+             1.85852           2.6318E-4
 *DEFINE_CURVE_TITLE
 DEFINE_CURVE_C3C4-ISL
     211535         0        1.        1.        0.        0.         0          
@@ -4332,43 +4318,43 @@ DEFINE_CURVE_C3C4-ISL
             0.128284           3.6315E-5
             0.162642          5.58715E-5
             0.197914          7.91135E-5
-            0.234101         0.000105807
-            0.271202         0.000135735
-            0.309218         0.000168697
-            0.348148         0.000204506
-            0.387993         0.000240959
-            0.428753         0.000275906
-            0.470427          0.00030539
-            0.513015         0.000329464
-            0.556519         0.000347829
-            0.600937         0.000361165
-            0.646269         0.000370096
-            0.692516         0.000375198
-            0.739678         0.000377001
-            0.787754         0.000375998
-            0.836744         0.000372642
-             0.88665         0.000367357
-             0.93747         0.000360533
-            0.989204         0.000361398
-             1.04185         0.000355174
-             1.09542         0.000349161
-             1.14989         0.000343348
-             1.20529         0.000337725
-             1.26159         0.000332284
-             1.31882         0.000327015
-             1.37695         0.000321911
-               1.436         0.000316964
-             1.49597         0.000312166
-             1.76639         0.000292951
+            0.234101          1.05807E-4
+            0.271202          1.35735E-4
+            0.309218          1.68697E-4
+            0.348148          2.04506E-4
+            0.387993          2.40959E-4
+            0.428753          2.75906E-4
+            0.470427           3.0539E-4
+            0.513015          3.29464E-4
+            0.556519          3.47829E-4
+            0.600937          3.61165E-4
+            0.646269          3.70096E-4
+            0.692516          3.75198E-4
+            0.739678          3.77001E-4
+            0.787754          3.75998E-4
+            0.836744          3.72642E-4
+             0.88665          3.67357E-4
+             0.93747          3.60533E-4
+            0.989204          3.61398E-4
+             1.04185          3.55174E-4
+             1.09542          3.49161E-4
+             1.14989          3.43348E-4
+             1.20529          3.37725E-4
+             1.26159          3.32284E-4
+             1.31882          3.27015E-4
+             1.37695          3.21911E-4
+               1.436          3.16964E-4
+             1.49597          3.12166E-4
+             1.76639          2.92951E-4
 *DEFINE_CURVE_TITLE
 DEFINE_CURVE_C4C5-ALL
     211541         0        1.        1.        0.        0.         0          
                   0.                  0.
            0.0248925           2.3194E-5
-           0.0503897          0.00010172
-           0.0764915         0.000239297
-            0.103198         0.000436363
-            0.130509         0.000692209
+           0.0503897           1.0172E-4
+           0.0764915          2.39297E-4
+            0.103198          4.36363E-4
+            0.130509          6.92209E-4
             0.158425          0.00100303
             0.186946          0.00133429
             0.216071          0.00165193
@@ -4395,8 +4381,8 @@ DEFINE_CURVE_C4C5-PLL
     211542         0        1.        1.        0.        0.         0          
                   0.                  0.
            0.0248925          7.38159E-5
-           0.0503897         0.000323731
-           0.0764915         0.000759887
+           0.0503897          3.23731E-4
+           0.0764915          7.59887E-4
             0.103198          0.00126468
             0.130509          0.00171469
             0.158425          0.00205021
@@ -4425,25 +4411,25 @@ DEFINE_CURVE_C4C5-CL
             0.216846          1.84949E-5
             0.339876          4.14231E-5
             0.472645          7.21506E-5
-            0.615153         0.000108513
-              0.7674         0.000140307
-            0.929385         0.000166273
-             1.10111         0.000185364
-             1.28257         0.000198621
-             1.47377         0.000206879
-             1.67471         0.000210813
-             1.88539         0.000210978
-              2.1058         0.000207833
-             2.33596         0.000201462
-             2.57585         0.000193446
-             2.82548         0.000186044
-             3.08486         0.000179187
-             3.35396         0.000172818
-             3.63281         0.000166886
-              3.9214         0.000161348
-             4.21972         0.000156166
-             4.52779         0.000151306
-             4.84559         0.000146739
+            0.615153          1.08513E-4
+              0.7674          1.40307E-4
+            0.929385          1.66273E-4
+             1.10111          1.85364E-4
+             1.28257          1.98621E-4
+             1.47377          2.06879E-4
+             1.67471          2.10813E-4
+             1.88539          2.10978E-4
+              2.1058          2.07833E-4
+             2.33596          2.01462E-4
+             2.57585          1.93446E-4
+             2.82548          1.86044E-4
+             3.08486          1.79187E-4
+             3.35396          1.72818E-4
+             3.63281          1.66886E-4
+              3.9214          1.61348E-4
+             4.21972          1.56166E-4
+             4.52779          1.51306E-4
+             4.84559          1.46739E-4
 *DEFINE_CURVE_TITLE
 DEFINE_CURVE_C4C5-LF
     211544         0        1.        1.        0.        0.         0          
@@ -4459,20 +4445,20 @@ DEFINE_CURVE_C4C5-LF
             0.959762          4.86735E-5
               1.0974          6.91545E-5
              1.24124          9.47929E-5
-             1.39128         0.000126168
-             1.54752         0.000164038
-             1.70996         0.000201075
-              1.8786         0.000232442
-             2.05344         0.000252765
-             2.23448         0.000262194
-             2.42172         0.000261779
-             2.61517         0.000254102
-             2.81481         0.000246332
-             3.02065         0.000239022
-             3.23269         0.000232134
-             3.45093         0.000225631
-             3.67537         0.000219483
-             3.90601         0.000213662
+             1.39128          1.26168E-4
+             1.54752          1.64038E-4
+             1.70996          2.01075E-4
+              1.8786          2.32442E-4
+             2.05344          2.52765E-4
+             2.23448          2.62194E-4
+             2.42172          2.61779E-4
+             2.61517          2.54102E-4
+             2.81481          2.46332E-4
+             3.02065          2.39022E-4
+             3.23269          2.32134E-4
+             3.45093          2.25631E-4
+             3.67537          2.19483E-4
+             3.90601          2.13662E-4
 *DEFINE_CURVE_TITLE
 DEFINE_CURVE_C4C5-ISL
     211545         0        1.        1.        0.        0.         0          
@@ -4483,43 +4469,43 @@ DEFINE_CURVE_C4C5-ISL
             0.210066          3.71003E-5
             0.268325          5.63535E-5
              0.32888          7.88441E-5
-            0.391731         0.000104265
-            0.456879         0.000132346
-            0.524324         0.000162849
-            0.594065         0.000195562
-            0.666104         0.000228372
-            0.740438         0.000259291
-             0.81707         0.000284705
-            0.895998         0.000304815
-            0.977222         0.000319481
-             1.06074         0.000329446
-             1.14656         0.000335376
-             1.23468         0.000337867
-             1.32509         0.000337457
-              1.4178         0.000334629
-              1.5128         0.000329822
-              1.6101         0.000323432
-              1.7097         0.000315821
-             1.81159         0.000315043
-             1.91578         0.000308174
-             2.02227         0.000301599
-             2.13106         0.000295298
-             2.24214         0.000289255
-             2.35552         0.000283455
-             2.47119         0.000277882
-             2.58916         0.000272524
-             2.70943         0.000267369
-             2.83199         0.000262406
-             3.38964         0.000242868
+            0.391731          1.04265E-4
+            0.456879          1.32346E-4
+            0.524324          1.62849E-4
+            0.594065          1.95562E-4
+            0.666104          2.28372E-4
+            0.740438          2.59291E-4
+             0.81707          2.84705E-4
+            0.895998          3.04815E-4
+            0.977222          3.19481E-4
+             1.06074          3.29446E-4
+             1.14656          3.35376E-4
+             1.23468          3.37867E-4
+             1.32509          3.37457E-4
+              1.4178          3.34629E-4
+              1.5128          3.29822E-4
+              1.6101          3.23432E-4
+              1.7097          3.15821E-4
+             1.81159          3.15043E-4
+             1.91578          3.08174E-4
+             2.02227          3.01599E-4
+             2.13106          2.95298E-4
+             2.24214          2.89255E-4
+             2.35552          2.83455E-4
+             2.47119          2.77882E-4
+             2.58916          2.72524E-4
+             2.70943          2.67369E-4
+             2.83199          2.62406E-4
+             3.38964          2.42868E-4
 *DEFINE_CURVE_TITLE
 DEFINE_CURVE_C5C6-ALL
     211551         0        1.        1.        0.        0.         0          
                   0.                  0.
            0.0248925           2.3194E-5
-           0.0503897          0.00010172
-           0.0764915         0.000239297
-            0.103198         0.000436363
-            0.130509         0.000692209
+           0.0503897           1.0172E-4
+           0.0764915          2.39297E-4
+            0.103198          4.36363E-4
+            0.130509          6.92209E-4
             0.158425          0.00100303
             0.186946          0.00133429
             0.216071          0.00165193
@@ -4546,8 +4532,8 @@ DEFINE_CURVE_C5C6-PLL
     211552         0        1.        1.        0.        0.         0          
                   0.                  0.
            0.0248925          7.38159E-5
-           0.0503897         0.000323731
-           0.0764915         0.000759887
+           0.0503897          3.23731E-4
+           0.0764915          7.59887E-4
             0.103198          0.00126468
             0.130509          0.00171469
             0.158425          0.00205021
@@ -4577,24 +4563,24 @@ DEFINE_CURVE_C5C6-CL
             0.463176          3.67418E-5
             0.651011          6.30001E-5
             0.855566          9.34871E-5
-             1.07684         0.000119483
-             1.31484         0.000140165
-             1.56956         0.000154867
-               1.841         0.000164631
-             2.12916         0.000170262
-             2.43404         0.000172396
-             2.75565         0.000171539
-             3.09397         0.000168098
-             3.44902         0.000162167
-             3.82079         0.000155033
-             4.20927         0.000148501
-             4.61448         0.000142497
-             5.03641          0.00013696
-             5.47507         0.000131836
-             5.93044         0.000127083
-             6.40253          0.00012266
-             6.89135         0.000118535
-             7.39689         0.000114678
+             1.07684          1.19483E-4
+             1.31484          1.40165E-4
+             1.56956          1.54867E-4
+               1.841          1.64631E-4
+             2.12916          1.70262E-4
+             2.43404          1.72396E-4
+             2.75565          1.71539E-4
+             3.09397          1.68098E-4
+             3.44902          1.62167E-4
+             3.82079          1.55033E-4
+             4.20927          1.48501E-4
+             4.61448          1.42497E-4
+             5.03641           1.3696E-4
+             5.47507          1.31836E-4
+             5.93044          1.27083E-4
+             6.40253           1.2266E-4
+             6.89135          1.18535E-4
+             7.39689          1.14678E-4
 *DEFINE_CURVE_TITLE
 DEFINE_CURVE_C5C6-LF
     211554         0        1.        1.        0.        0.         0          
@@ -4610,20 +4596,20 @@ DEFINE_CURVE_C5C6-LF
             0.917161          4.39108E-5
              1.04791          6.24457E-5
              1.18443          8.56697E-5
-             1.32671         0.000114115
-             1.47476         0.000148474
-             1.62859         0.000182118
-             1.78817         0.000210658
-             1.95353         0.000229209
-             2.12466         0.000237888
-             2.30155          0.00023763
-             2.48422         0.000230771
-             2.67265         0.000223813
-             2.86685         0.000217263
-             3.06682         0.000211084
-             3.27255         0.000205248
-             3.48406         0.000199726
-             3.70133         0.000194493
+             1.32671          1.14115E-4
+             1.47476          1.48474E-4
+             1.62859          1.82118E-4
+             1.78817          2.10658E-4
+             1.95353          2.29209E-4
+             2.12466          2.37888E-4
+             2.30155           2.3763E-4
+             2.48422          2.30771E-4
+             2.67265          2.23813E-4
+             2.86685          2.17263E-4
+             3.06682          2.11084E-4
+             3.27255          2.05248E-4
+             3.48406          1.99726E-4
+             3.70133          1.94493E-4
 *DEFINE_CURVE_TITLE
 DEFINE_CURVE_2404105
     211555         0        1.        1.        0.        0.         0          
@@ -4636,41 +4622,41 @@ DEFINE_CURVE_2404105
             0.406065          5.40756E-5
             0.485392          7.11243E-5
             0.568047          8.98279E-5
-            0.654031         0.000110017
-            0.743343         0.000131546
-            0.835984         0.000152995
-            0.931953         0.000173052
-             1.03125          0.00018934
-             1.13388         0.000202039
-             1.23983         0.000211096
-             1.34911         0.000217037
-             1.46172         0.000220327
-             1.57766         0.000221378
-             1.69693         0.000220556
-             1.81953         0.000218188
-             1.94545         0.000214569
-              2.0747          0.00020996
-             2.20729         0.000204601
-              2.3432         0.000203699
-             2.48243         0.000198887
-               2.625         0.000194297
-             2.77089         0.000189915
-             2.92012         0.000185726
-             3.07267         0.000181717
-             3.22855         0.000177878
-             3.38776         0.000174198
-              3.5503         0.000170667
-             3.71616         0.000167276
-             4.47337         0.000154016
+            0.654031          1.10017E-4
+            0.743343          1.31546E-4
+            0.835984          1.52995E-4
+            0.931953          1.73052E-4
+             1.03125           1.8934E-4
+             1.13388          2.02039E-4
+             1.23983          2.11096E-4
+             1.34911          2.17037E-4
+             1.46172          2.20327E-4
+             1.57766          2.21378E-4
+             1.69693          2.20556E-4
+             1.81953          2.18188E-4
+             1.94545          2.14569E-4
+              2.0747           2.0996E-4
+             2.20729          2.04601E-4
+              2.3432          2.03699E-4
+             2.48243          1.98887E-4
+               2.625          1.94297E-4
+             2.77089          1.89915E-4
+             2.92012          1.85726E-4
+             3.07267          1.81717E-4
+             3.22855          1.77878E-4
+             3.38776          1.74198E-4
+              3.5503          1.70667E-4
+             3.71616          1.67276E-4
+             4.47337          1.54016E-4
 *DEFINE_CURVE_TITLE
 DEFINE_CURVE_C6C7-ALL
     211561         0        1.        1.        0.        0.         0          
                   0.                  0.
            0.0248925           2.3194E-5
-           0.0503897          0.00010172
-           0.0764915         0.000239297
-            0.103198         0.000436363
-            0.130509         0.000692209
+           0.0503897           1.0172E-4
+           0.0764915          2.39297E-4
+            0.103198          4.36363E-4
+            0.130509          6.92209E-4
             0.158425          0.00100303
             0.186946          0.00133429
             0.216071          0.00165193
@@ -4697,8 +4683,8 @@ DEFINE_CURVE_C6C7-PLL
     211562         0        1.        1.        0.        0.         0          
                   0.                  0.
            0.0248925          7.38159E-5
-           0.0503897         0.000323731
-           0.0764915         0.000759887
+           0.0503897          3.23731E-4
+           0.0764915          7.59887E-4
             0.103198          0.00126468
             0.130509          0.00171469
             0.158425          0.00205021
@@ -4727,25 +4713,25 @@ DEFINE_CURVE_C6C7-CL
              0.21378          1.85346E-5
               0.3349          4.15463E-5
             0.465509          7.24168E-5
-            0.605604         0.000108981
-            0.755186         0.000140988
-            0.914256          0.00016716
-             1.08281         0.000186432
-             1.26086         0.000199842
-             1.44839         0.000208222
-             1.64541         0.000212248
-             1.85191         0.000212475
-             2.06791         0.000209361
-             2.29339         0.000202991
-             2.52836         0.000194957
-             2.77281         0.000187535
-             3.02675         0.000180657
-             3.29018         0.000174266
-              3.5631         0.000168312
-             3.84551         0.000162751
-              4.1374         0.000157546
-             4.43878         0.000152663
-             4.74964         0.000148074
+            0.605604          1.08981E-4
+            0.755186          1.40988E-4
+            0.914256           1.6716E-4
+             1.08281          1.86432E-4
+             1.26086          1.99842E-4
+             1.44839          2.08222E-4
+             1.64541          2.12248E-4
+             1.85191          2.12475E-4
+             2.06791          2.09361E-4
+             2.29339          2.02991E-4
+             2.52836          1.94957E-4
+             2.77281          1.87535E-4
+             3.02675          1.80657E-4
+             3.29018          1.74266E-4
+              3.5631          1.68312E-4
+             3.84551          1.62751E-4
+              4.1374          1.57546E-4
+             4.43878          1.52663E-4
+             4.74964          1.48074E-4
 *DEFINE_CURVE_TITLE
 DEFINE_CURVE_C6C7-LF
     211564         0        1.        1.        0.        0.         0          
@@ -4762,19 +4748,19 @@ DEFINE_CURVE_C6C7-LF
              1.94134          4.87672E-5
              2.21595          6.61696E-5
               2.5052          8.72581E-5
-             2.80909         0.000112492
-              3.1276         0.000136822
-             3.46075         0.000157037
-             3.80853          0.00016964
-             4.17095         0.000174893
-               4.548         0.000173624
-             4.93968          0.00016764
-             5.34599         0.000161709
-             5.76694         0.000156184
-             6.20252         0.000151023
-             6.65274         0.000146193
-             7.11759         0.000141662
-             7.59707         0.000137404
+             2.80909          1.12492E-4
+              3.1276          1.36822E-4
+             3.46075          1.57037E-4
+             3.80853           1.6964E-4
+             4.17095          1.74893E-4
+               4.548          1.73624E-4
+             4.93968           1.6764E-4
+             5.34599          1.61709E-4
+             5.76694          1.56184E-4
+             6.20252          1.51023E-4
+             6.65274          1.46193E-4
+             7.11759          1.41662E-4
+             7.59707          1.37404E-4
 *DEFINE_CURVE_TITLE
 DEFINE_CURVE_C6C7-ISL
     211565         0        1.        1.        0.        0.         0          
@@ -4786,42 +4772,42 @@ DEFINE_CURVE_C6C7-ISL
             0.409681          4.59427E-5
              0.50622          6.34799E-5
             0.607626          8.29904E-5
-            0.713899         0.000104236
-            0.825041         0.000127015
-            0.941049         0.000151159
-             1.06193         0.000175045
-             1.18767         0.000197196
-             1.31828          0.00021495
-             1.45376         0.000228566
-              1.5941         0.000238033
-             1.73932         0.000243983
-              1.8894          0.00024697
-             2.04435         0.000247477
-             2.20416          0.00024593
-             2.36885         0.000242705
-              2.5384         0.000238136
-             2.71282          0.00023252
-              2.8921         0.000226121
-             3.07626         0.000224688
-             3.26528         0.000218975
-             3.45917         0.000213546
-             3.65792          0.00020838
-             3.86155         0.000203457
-             4.07004         0.000198762
-              4.2834         0.000194279
-             4.50162         0.000189993
-             4.72472         0.000185893
-             4.95268         0.000181965
-             5.99676         0.000166704
+            0.713899          1.04236E-4
+            0.825041          1.27015E-4
+            0.941049          1.51159E-4
+             1.06193          1.75045E-4
+             1.18767          1.97196E-4
+             1.31828           2.1495E-4
+             1.45376          2.28566E-4
+              1.5941          2.38033E-4
+             1.73932          2.43983E-4
+              1.8894           2.4697E-4
+             2.04435          2.47477E-4
+             2.20416           2.4593E-4
+             2.36885          2.42705E-4
+              2.5384          2.38136E-4
+             2.71282           2.3252E-4
+              2.8921          2.26121E-4
+             3.07626          2.24688E-4
+             3.26528          2.18975E-4
+             3.45917          2.13546E-4
+             3.65792           2.0838E-4
+             3.86155          2.03457E-4
+             4.07004          1.98762E-4
+              4.2834          1.94279E-4
+             4.50162          1.89993E-4
+             4.72472          1.85893E-4
+             4.95268          1.81965E-4
+             5.99676          1.66704E-4
 *DEFINE_CURVE_TITLE
 DEFINE_CURVE_C7T1-ALL
     211571         0        1.        1.        0.        0.         0          
                   0.                  0.
            0.0248925           2.3194E-5
-           0.0503897          0.00010172
-           0.0764915         0.000239297
-            0.103198         0.000436363
-            0.130509         0.000692209
+           0.0503897           1.0172E-4
+           0.0764915          2.39297E-4
+            0.103198          4.36363E-4
+            0.130509          6.92209E-4
             0.158425          0.00100303
             0.186946          0.00133429
             0.216071          0.00165193
@@ -4848,8 +4834,8 @@ DEFINE_CURVE_C7T1-PLL
     211572         0        1.        1.        0.        0.         0          
                   0.                  0.
            0.0248925          7.38159E-5
-           0.0503897         0.000323731
-           0.0764915         0.000759887
+           0.0503897          3.23731E-4
+           0.0764915          7.59887E-4
             0.103198          0.00126468
             0.130509          0.00171469
             0.158425          0.00205021
@@ -4879,24 +4865,24 @@ DEFINE_CURVE_C7T1-CL
                 0.48          3.28693E-5
             0.675556          5.62534E-5
             0.888889          8.33429E-5
-                1.12         0.000106373
-             1.36889          0.00012464
-             1.63556         0.000137573
-                1.92         0.000146115
-             2.22222         0.000150993
-             2.54222         0.000152776
-                2.88         0.000151919
-             3.23556         0.000148786
-             3.60889         0.000143461
-                  4.         0.000137085
-             4.40889         0.000131252
-             4.83556         0.000125895
-                5.28         0.000120957
-             5.74222         0.000116393
-             6.22222         0.000112161
-                6.72         0.000108225
-             7.23556         0.000104556
-             7.76889         0.000101128
+                1.12          1.06373E-4
+             1.36889           1.2464E-4
+             1.63556          1.37573E-4
+                1.92          1.46115E-4
+             2.22222          1.50993E-4
+             2.54222          1.52776E-4
+                2.88          1.51919E-4
+             3.23556          1.48786E-4
+             3.60889          1.43461E-4
+                  4.          1.37085E-4
+             4.40889          1.31252E-4
+             4.83556          1.25895E-4
+                5.28          1.20957E-4
+             5.74222          1.16393E-4
+             6.22222          1.12161E-4
+                6.72          1.08225E-4
+             7.23556          1.04556E-4
+             7.76889          1.01128E-4
 *DEFINE_CURVE_TITLE
 DEFINE_CURVE_C7T1-LF
     211574         0        1.        1.        0.        0.         0          
@@ -4911,21 +4897,21 @@ DEFINE_CURVE_C7T1-LF
             0.937618          4.06163E-5
              1.08885          6.01681E-5
              1.24764          8.52659E-5
-             1.41399         0.000116603
-              1.5879         0.000154863
-             1.76938         0.000200947
-             1.95841         0.000245865
-             2.15501         0.000283737
-             2.35917         0.000308059
-             2.57089         0.000319082
-             2.79017          0.00031814
-             3.01701         0.000308415
-             3.25142         0.000298624
-             3.49338         0.000289436
-             3.74291         0.000280796
-                  4.         0.000272657
-             4.26465         0.000264976
-             4.53686         0.000257717
+             1.41399          1.16603E-4
+              1.5879          1.54863E-4
+             1.76938          2.00947E-4
+             1.95841          2.45865E-4
+             2.15501          2.83737E-4
+             2.35917          3.08059E-4
+             2.57089          3.19082E-4
+             2.79017           3.1814E-4
+             3.01701          3.08415E-4
+             3.25142          2.98624E-4
+             3.49338          2.89436E-4
+             3.74291          2.80796E-4
+                  4.          2.72657E-4
+             4.26465          2.64976E-4
+             4.53686          2.57717E-4
 *DEFINE_CURVE_TITLE
 DEFINE_CURVE_C7T1-ISL
     211575         0        1.        1.        0.        0.         0          
@@ -4938,32 +4924,32 @@ DEFINE_CURVE_C7T1-ISL
             0.415225          5.81087E-5
              0.49654          7.63834E-5
             0.581315          9.64171E-5
-             0.66955         0.000118028
-            0.761246         0.000141058
-            0.856401         0.000163986
-            0.955017         0.000185409
-             1.05709         0.000202783
-             1.16263         0.000216307
-             1.27163         0.000225929
-             1.38408         0.000232215
-                 1.5         0.000235666
-             1.61938         0.000236724
-             1.74221         0.000235783
-             1.86851         0.000233194
-             1.99827         0.000229271
-             2.13149         0.000224297
-             2.26817         0.000218525
-              2.4083         0.000217518
-              2.5519         0.000212339
-             2.69896         0.000207401
-             2.84948         0.000202688
-             3.00346         0.000198183
-              3.1609         0.000193875
-              3.3218          0.00018975
-             3.48616         0.000185797
-             3.65398         0.000182005
-             3.82526         0.000178365
-             4.60746          0.00016414
+             0.66955          1.18028E-4
+            0.761246          1.41058E-4
+            0.856401          1.63986E-4
+            0.955017          1.85409E-4
+             1.05709          2.02783E-4
+             1.16263          2.16307E-4
+             1.27163          2.25929E-4
+             1.38408          2.32215E-4
+                 1.5          2.35666E-4
+             1.61938          2.36724E-4
+             1.74221          2.35783E-4
+             1.86851          2.33194E-4
+             1.99827          2.29271E-4
+             2.13149          2.24297E-4
+             2.26817          2.18525E-4
+              2.4083          2.17518E-4
+              2.5519          2.12339E-4
+             2.69896          2.07401E-4
+             2.84948          2.02688E-4
+             3.00346          1.98183E-4
+              3.1609          1.93875E-4
+              3.3218           1.8975E-4
+             3.48616          1.85797E-4
+             3.65398          1.82005E-4
+             3.82526          1.78365E-4
+             4.60746           1.6414E-4
 *DEFINE_CURVE_TITLE
 NE_C_C2C3-ISL
     213029         0        1.        1.        0.        0.         0         0
@@ -4971,14 +4957,14 @@ NE_C_C2C3-ISL
            0.0195104          8.65621E-6
            0.0393942           3.5179E-5
            0.0596513          7.92986E-5
-           0.0802819         0.000140452
-            0.101286         0.000218009
-            0.122663         0.000311322
-            0.144414         0.000419754
-            0.166538         0.000542686
-            0.189036         0.000679521
-            0.211907         0.000829689
-            0.235151         0.000992645
+           0.0802819          1.40452E-4
+            0.101286          2.18009E-4
+            0.122663          3.11322E-4
+            0.144414          4.19754E-4
+            0.166538          5.42686E-4
+            0.189036          6.79521E-4
+            0.211907          8.29689E-4
+            0.235151          9.92645E-4
             0.258769          0.00116787
              0.28276          0.00135487
             0.307125          0.00155317
@@ -5027,13 +5013,13 @@ NE_C_C3C4-ISL
            0.0203645          1.01344E-5
            0.0411355           4.1154E-5
             0.062313          9.26964E-5
-            0.083897         0.000164062
-            0.105887         0.000254476
-            0.128284          0.00036315
-            0.151088         0.000489311
-            0.174298         0.000632212
-            0.197914         0.000791135
-            0.221937         0.000965395
+            0.083897          1.64062E-4
+            0.105887          2.54476E-4
+            0.128284           3.6315E-4
+            0.151088          4.89311E-4
+            0.174298          6.32212E-4
+            0.197914          7.91135E-4
+            0.221937          9.65395E-4
             0.246366          0.00115434
             0.271202          0.00135735
             0.296444          0.00157384
@@ -5083,13 +5069,13 @@ NE_C_C4C5-ISL
            0.0324592          1.08811E-5
            0.0659392          4.37062E-5
              0.10044          9.74272E-5
-            0.135961         0.000170736
-            0.172504         0.000262336
-            0.210066         0.000371003
-             0.24865         0.000495597
-            0.288254         0.000635066
-             0.32888         0.000788441
-            0.370525         0.000954832
+            0.135961          1.70736E-4
+            0.172504          2.62336E-4
+            0.210066          3.71003E-4
+             0.24865          4.95597E-4
+            0.288254          6.35066E-4
+             0.32888          7.88441E-4
+            0.370525          9.54832E-4
             0.413192          0.00113342
             0.456879          0.00132346
             0.501587          0.00152426
@@ -5139,14 +5125,14 @@ NE_C_C6C7-ISL
            0.0475933           9.5182E-6
            0.0973499          3.77382E-5
              0.14927          8.31133E-5
-            0.203353         0.000144019
-              0.2596         0.000218968
-             0.31801         0.000306631
-            0.378583         0.000405831
-             0.44132         0.000515527
-             0.50622         0.000634799
-            0.573283         0.000762832
-            0.642509           0.0008989
+            0.203353          1.44019E-4
+              0.2596          2.18968E-4
+             0.31801          3.06631E-4
+            0.378583          4.05831E-4
+             0.44132          5.15527E-4
+             0.50622          6.34799E-4
+            0.573283          7.62832E-4
+            0.642509            8.989E-4
             0.713899          0.00104236
             0.787453          0.00119263
             0.863169          0.00134919
@@ -5195,15 +5181,15 @@ NE_C_C7T1-ISL
            0.0399846          8.36788E-6
            0.0815071          3.33918E-5
             0.124567          7.39802E-5
-            0.169166         0.000128903
-            0.215302         0.000196993
-            0.262976          0.00027718
-            0.312188         0.000368494
-            0.362937         0.000470059
-            0.415225         0.000581087
-             0.46905         0.000700866
-            0.524414         0.000828754
-            0.581315         0.000964171
+            0.169166          1.28903E-4
+            0.215302          1.96993E-4
+            0.262976           2.7718E-4
+            0.312188          3.68494E-4
+            0.362937          4.70059E-4
+            0.415225          5.81087E-4
+             0.46905          7.00866E-4
+            0.524414          8.28754E-4
+            0.581315          9.64171E-4
             0.639754          0.00110659
             0.699731          0.00125554
             0.761246          0.00141058
@@ -5249,53 +5235,53 @@ Trapezoid ligament-Harris et al (2000)
     306001         0        1.     0.001        0.        0.         0         0
                  -2.                  0.
                   0.                  0.
-         0.582750723         4.841798553
-          1.11045082         11.86114091
-         1.573659468          21.7686816
-         2.051461072         33.02452474
-         2.542060933          41.6833223
-         3.067214454         51.66173361
-         3.555163131         61.66411046
-         4.070937801         73.78439363
-          4.56286162         86.33907428
-         5.054785439         103.8376888
-         5.546709257         123.7077521
-         6.038633076         144.1358034
-         6.530556895         164.5638547
-         7.022480714         195.3146834
-         7.552736258         229.1446895
-         7.961608004         262.0186385
-         8.364091128          294.292754
-         8.766574253         328.9538181
-         9.169057377         362.2509116
-         9.571540501         396.4004867
-         9.996383799         432.0361748
-         10.39886692         463.6581419
-         10.82371022         497.8008247
-         11.27091369         529.5418299
+          0.58275074            4.841799
+           1.1104509           11.861141
+           1.5736594           21.768682
+            2.051461           33.024525
+           2.5420609           41.683323
+           3.0672145            51.66173
+           3.5551631           61.664112
+           4.0709376            73.78439
+           4.5628614            86.33907
+           5.0547853           103.83769
+            5.546709           123.70775
+            6.038633            144.1358
+           6.5305567           164.56386
+           7.0224805           195.31468
+           7.5527363           229.14468
+            7.961608           262.01865
+            8.364091           294.29276
+            8.766574           328.95383
+            9.169058           362.25092
+            9.571541           396.40048
+            9.996384           432.03616
+           10.398867           463.65814
+            10.82371            497.8008
+           11.270914            529.5418
 *DEFINE_CURVE_TITLE
 Conoid Ligamnet Harris (2000)
     306002         0        1.     0.001        0.        0.         0         0
                  -2.                  0.
                   0.                  0.
-          0.31442864         3.365297898
-         0.806352459         13.88906277
-         1.298276278         27.76075546
-         1.790200096         42.88792107
-         2.282123915         58.71257164
-         2.774047734         77.60615603
-         3.265971553         98.87118929
-         3.757895371         124.0421383
-         4.227459016         151.1214011
-         4.652302314         183.5176591
-         5.032425265         217.4726308
-         5.345467695         248.1371632
-         5.636149952         282.6259342
-         5.926832208         318.7953117
-         6.195154291         352.5871241
-         6.463476374         387.9134033
-         6.731798457          423.495427
-         6.977760366         452.6810436
+          0.31442863           3.3652978
+          0.80635244           13.889063
+           1.2982763           27.760756
+           1.7902001            42.88792
+           2.2821238            58.71257
+           2.7740479           77.606155
+           3.2659717            98.87119
+           3.7578955           124.04214
+            4.227459            151.1214
+           4.6523023           183.51765
+           5.0324254           217.47263
+           5.3454676           248.13716
+             5.63615           282.62595
+            5.926832           318.79532
+            6.195154           352.58713
+            6.463476            387.9134
+           6.7317986           423.49542
+           6.9777603           452.68103
 *DEFINE_CURVE_TITLE
 IM test curve for fitting
     354111         0        1.     0.001        0.        0.         0          
@@ -5552,7 +5538,7 @@ L2-L3
            -0.026012           -4.798135
            -0.017446           -2.445979
             -0.00888           -0.962456
-           -0.000314           -0.026786
+            -3.14E-4           -0.026786
                   0.                  0.
             0.008566            0.827545
             0.017132            2.233188
@@ -5754,173 +5740,173 @@ L5-S1
 Pelvis_Kemper_et_al_2008_mean_of_all
     601001         0        1.        1.-0.0057484        0.         0         0
            0.0057484          0.05942722
-         0.005996982         0.061128138
-         0.006245456         0.062605921
+         0.005996982          0.06112814
+         0.006245456          0.06260592
          0.006493869          0.06397523
-          0.00674222         0.065417136
-         0.006990509         0.066969749
-         0.007238737         0.068263237
-         0.007486903         0.069417239
-         0.007735008         0.070618772
+          0.00674222          0.06541713
+         0.006990509          0.06696975
+         0.007238737          0.06826324
+         0.007486903          0.06941724
+         0.007735008          0.07061877
           0.00798305          0.07172898
-         0.008231032         0.072733697
-         0.008478952         0.073716879
-          0.00872681         0.074614908
-         0.008974607         0.075489356
-         0.009222343         0.076335734
-         0.009470018         0.077234861
-         0.009717631         0.078094981
+         0.008231032           0.0727337
+         0.008478952          0.07371688
+          0.00872681         0.074614905
+         0.008974607          0.07548936
+         0.009222343         0.076335736
+         0.009470018         0.077234864
+         0.009717631          0.07809498
          0.009965182          0.07897282
-         0.010212673         0.079754769
-         0.010460102         0.080532251
-          0.01070747         0.081238272
-         0.010954777         0.081862787
+         0.010212673          0.07975477
+         0.010460102          0.08053225
+          0.01070747          0.08123827
+         0.010954777         0.081862785
          0.011202022          0.08254302
-         0.011449207         0.083191353
-          0.01169633         0.083805044
-         0.011943393         0.084405584
-         0.012190394         0.084967093
-         0.012437335         0.085533041
-         0.012684214         0.086110681
-         0.012931033         0.086708148
-          0.01317779         0.087261524
-         0.013424487         0.087766187
-         0.013671123         0.088280113
-         0.013917698         0.088760301
-         0.014164212         0.089219442
-         0.014410666         0.089690511
-         0.014657059         0.090147429
+         0.011449207          0.08319135
+          0.01169633          0.08380505
+         0.011943393         0.084405586
+         0.012190394          0.08496709
+         0.012437335          0.08553304
+         0.012684214          0.08611068
+         0.012931033          0.08670815
+          0.01317779          0.08726152
+         0.013424487         0.087766185
+         0.013671123          0.08828011
+         0.013917698           0.0887603
+         0.014164212          0.08921944
+         0.014410666         0.089690514
+         0.014657059          0.09014743
          0.014903391          0.09057703
-         0.015149662         0.090998819
-         0.015395873         0.091451407
-         0.015642023         0.091862373
-         0.015888113         0.092232255
-         0.016134142         0.092633909
-          0.01638011         0.093078366
-         0.016626019         0.093484721
-         0.016871866         0.093777352
-         0.017117653         0.094152322
-          0.01736338         0.094634806
-         0.017609047         0.095085354
-         0.017854653         0.095617207
-         0.018100199         0.096107325
-         0.018345684         0.096546667
-         0.018591109         0.096862521
-         0.018836474         0.097224161
-         0.019081779         0.097673947
-         0.019327024         0.098106201
-         0.019572209         0.098560117
-         0.019817333          0.09891546
-         0.020062397         0.099276516
-         0.020307402          0.09964827
-         0.020552346         0.099988627
-         0.020797231         0.100260844
-         0.021042055         0.100552251
-         0.021286819         0.100830812
-         0.021531524         0.101094062
-         0.021776169          0.10126592
-         0.022020754         0.101490898
-         0.022265279          0.10173417
-         0.022509744         0.102042025
-          0.02275415         0.102253653
-         0.022998495         0.102521995
-         0.023242782          0.10279886
-         0.023487008         0.103081549
-         0.023731175         0.103444857
-         0.023975282         0.103610307
+         0.015149662          0.09099882
+         0.015395873          0.09145141
+         0.015642023          0.09186237
+         0.015888114          0.09223226
+         0.016134143          0.09263391
+          0.01638011          0.09307837
+         0.016626019          0.09348472
+         0.016871866          0.09377735
+         0.017117653         0.094152324
+          0.01736338          0.09463481
+         0.017609047          0.09508535
+         0.017854653         0.095617205
+         0.018100198          0.09610733
+         0.018345684         0.096546665
+          0.01859111          0.09686252
+         0.018836474          0.09722416
+         0.019081779         0.097673945
+         0.019327024           0.0981062
+          0.01957221          0.09856012
+         0.019817334          0.09891546
+         0.020062396          0.09927651
+         0.020307401          0.09964827
+         0.020552346         0.099988624
+          0.02079723          0.10026085
+         0.021042055          0.10055225
+          0.02128682          0.10083081
+         0.021531524          0.10109406
+          0.02177617          0.10126592
+         0.022020753           0.1014909
+          0.02226528          0.10173417
+         0.022509744          0.10204203
+          0.02275415          0.10225365
+         0.022998495          0.10252199
+         0.023242783          0.10279886
+         0.023487007          0.10308155
+         0.023731176          0.10344486
+         0.023975283          0.10361031
           0.02421933          0.10362789
-         0.024463318         0.103729217
-         0.024707247         0.103935984
-         0.024951116         0.104229703
-         0.025194925         0.104417077
-         0.025438676         0.104761406
-         0.025682367         0.105128141
-         0.025925998         0.105469101
-          0.02616957         0.105798559
-         0.026413083         0.106126975
-         0.026656536         0.106398452
-         0.026899931          0.10672587
-         0.027143266         0.107105739
-         0.027386542         0.107249646
-         0.027629758         0.107436652
+         0.024463318          0.10372922
+         0.024707247          0.10393599
+         0.024951115           0.1042297
+         0.025194924          0.10441708
+         0.025438676          0.10476141
+         0.025682367          0.10512814
+         0.025925998           0.1054691
+          0.02616957          0.10579856
+         0.026413083          0.10612697
+         0.026656536          0.10639845
+          0.02689993          0.10672587
+         0.027143266          0.10710574
+         0.027386542          0.10724965
+         0.027629757          0.10743665
          0.027872916          0.10752739
-         0.028116014         0.107579056
+         0.028116014          0.10757905
          0.028359054          0.10777548
-         0.028602034         0.108238456
-         0.028844955         0.108473084
-         0.029087818         0.108696356
-         0.029330621         0.108999585
-         0.029573365          0.10920385
-         0.029816051         0.109487947
-         0.030058677         0.109805382
-         0.030301245         0.110189446
-         0.030543754         0.110432692
-         0.030786204         0.110705845
-         0.031028595         0.110951733
-         0.031270928         0.111176235
-         0.031513202         0.111616965
-         0.031755417         0.112067716
-         0.031997574         0.112399797
-         0.032239672         0.112537952
-         0.032481711         0.112767372
-         0.032723692          0.11305828
-         0.032965614         0.113379678
-         0.033207478         0.113416827
-         0.033449283         0.113739494
-          0.03369103         0.114273348
-         0.033932718         0.114374022
-         0.034174348         0.114483335
-         0.034415919         0.114607565
-         0.034657433         0.114741819
-         0.034898888         0.114980442
-         0.035140284         0.115170852
-         0.035381622         0.115350858
-         0.035622903         0.115549734
-         0.035864125         0.115855369
-         0.036105288         0.116127945
-         0.036346394         0.116309387
-         0.036587441         0.116437011
-         0.036828431         0.116621574
-         0.037069362         0.116750175
-         0.037310236         0.116963253
-         0.037551051         0.117209938
-         0.037791808         0.117518546
-         0.038032508         0.117917984
-         0.038273149         0.118423907
-         0.038513733         0.118734115
-         0.038754258         0.118957323
-         0.038994726         0.119310822
-         0.039235136         0.119677918
-         0.039475488         0.120047237
-         0.039715783         0.120385715
-          0.03995602         0.120506749
-         0.040196199         0.120651248
-          0.04043632         0.120773688
-         0.040676384          0.12084969
-          0.04091639         0.121048618
-         0.041156339         0.121237647
+         0.028602034          0.10823846
+         0.028844954         0.108473085
+         0.029087817          0.10869636
+          0.02933062          0.10899959
+         0.029573364          0.10920385
+          0.02981605          0.10948794
+         0.030058676          0.10980538
+         0.030301245         0.110189445
+         0.030543754          0.11043269
+         0.030786203         0.110705845
+         0.031028595          0.11095174
+          0.03127093          0.11117624
+         0.031513203          0.11161696
+         0.031755418         0.112067714
+         0.031997573         0.112399794
+          0.03223967          0.11253795
+          0.03248171          0.11276737
+          0.03272369          0.11305828
+         0.032965615          0.11337968
+         0.033207476          0.11341683
+         0.033449285          0.11373949
+          0.03369103          0.11427335
+          0.03393272          0.11437402
+          0.03417435         0.114483334
+          0.03441592         0.114607565
+         0.034657434          0.11474182
+          0.03489889         0.114980444
+         0.035140283          0.11517085
+         0.035381623          0.11535086
+         0.035622902         0.115549736
+         0.035864126         0.115855366
+         0.036105286         0.116127945
+         0.036346395          0.11630939
+          0.03658744          0.11643701
+         0.036828432         0.116621576
+          0.03706936          0.11675017
+         0.037310235          0.11696325
+          0.03755105          0.11720994
+         0.037791807         0.117518544
+          0.03803251         0.117917985
+          0.03827315          0.11842391
+          0.03851373         0.118734114
+          0.03875426         0.118957326
+         0.038994726          0.11931082
+         0.039235137         0.119677916
+          0.03947549         0.120047234
+          0.03971578         0.120385714
+          0.03995602          0.12050675
+           0.0401962         0.120651245
+          0.04043632          0.12077369
+         0.040676385          0.12084969
+          0.04091639         0.121048614
+          0.04115634          0.12123765
           0.04139623          0.12148422
-         0.041636063         0.121901232
-         0.041875839         0.122178438
-         0.042115558         0.122514119
-         0.042355219         0.122916026
-         0.042594822         0.123318097
-         0.042834368         0.123683568
-         0.043073857         0.124000343
-         0.043313289         0.124262603
-         0.043552663         0.124524964
-          0.04379198         0.124650807
-         0.044031239           0.1247153
-         0.044270442         0.124790677
-         0.044509587         0.124967886
+         0.041636065          0.12190123
+          0.04187584         0.122178435
+         0.042115558          0.12251412
+          0.04235522          0.12291603
+          0.04259482           0.1233181
+         0.042834368         0.123683564
+         0.043073855          0.12400034
+         0.043313287           0.1242626
+         0.043552663         0.124524966
+          0.04379198         0.124650806
+          0.04403124           0.1247153
+          0.04427044         0.124790676
+         0.044509586          0.12496789
          0.044748675          0.12515257
-         0.044987706         0.125316517
-          0.04522668         0.125392021
+         0.044987705          0.12531652
+          0.04522668          0.12539202
          0.045465596          0.12573631
-         0.045704456         0.126090918
-         0.045943258          0.12637807
-         0.046182004         0.126578839
-         0.046420693         0.126864387
+         0.045704454          0.12609091
+         0.045943256          0.12637807
+         0.046182003          0.12657884
+         0.046420693          0.12686439
 *DEFINE_CURVE_TITLE
 Pelvis_Kemper_et_al_2008_Anterior_ilium_Tension
     601011         0        1.        1.        0.        0.         0         0
@@ -5946,21 +5932,21 @@ Tibia Cortical Burstein Reilly Tension
            0.0227683          0.15884568
 *DEFINE_CURVE_TITLE
 LX-Knee-Ligament-MCL_high-Kunitomi-et-al.2017
-    702110         0        1.   0.00025&MCL_l_off        0.         0         0
+    702110         0        1.    2.5E-4&MCL_l_off        0.         0         0
                 -10.                  0.
                   0.                  0.
-             2.31884          99.5866013
-           3.2463801         168.2610016
-           4.4927502         261.9140015
-           6.2318802         449.4570007
-           7.2463799         555.7219849
-             8.31884         668.2390137
-             10.1159         893.3809814
-          12.2028999        1174.8599854
+             2.31884             99.5866
+             3.24638             168.261
+             4.49275             261.914
+             6.23188             449.457
+             7.24638             555.722
+             8.31884             668.239
+             10.1159             893.381
+             12.2029             1174.86
                  15.               1500.
 *DEFINE_CURVE_TITLE
 LX-Knee-Ligament-LCL_high-Kunitomi-et-al.2017
-    702120         0        1.   0.00025&LCL_l_off        0.         0         0
+    702120         0        1.    2.5E-4&LCL_l_off        0.         0         0
                 -10.                  0.
                   0.                  0.
             0.667669             29.1898
@@ -6164,19 +6150,19 @@ LX-Knee-Ligament-p_PCL_high-Kunitomi-et-al.2017
     702142         0        1.     0.001&PCL_l_off        0.         0         0
                 -10.                  0.
                   0.                  0.
-            0.469897          24.6835003
-            0.751836           36.075901
-             1.12775           47.468399
-           1.5271699          68.3544006
-             1.87959           93.038002
-           2.3494899          115.822998
-             2.71366         142.4049988
-           3.1483099         170.8860016
-             3.67695         201.2660065
-           3.9706299         222.1519928
-           4.2290702         237.3419952
-           4.5462599         258.2279968
-           4.8164501         269.6199951
+            0.469897             24.6835
+            0.751836             36.0759
+             1.12775             47.4684
+             1.52717             68.3544
+             1.87959              93.038
+             2.34949             115.823
+             2.71366             142.405
+             3.14831             170.886
+             3.67695             201.266
+             3.97063             222.152
+             4.22907             237.342
+             4.54626             258.228
+             4.81645              269.62
                  10.                550.
                  15.                775.
 *DEFINE_CURVE_TITLE
@@ -6430,256 +6416,256 @@ LX-Knee-Muscle-QF-TV_quadratic
 Mirzaali_Tension_yld0p05_sf1
     801030         0        1.        1.        0.        0.         0         0
                   0.          0.06425944
-          8.07492E-5         0.066003631
-         0.000181365         0.067800653
-         0.000284674         0.069315042
-         0.000404312         0.070790014
-         0.000552608         0.072302103
-         0.000703271         0.073591776
-         0.000870878         0.074798826
-         0.001047007         0.075863606
-         0.001246166         0.076866527
-         0.001446497         0.077717925
-         0.001662537         0.078484339
-         0.001786582         0.078868974
-         0.001910014         0.079216617
-         0.002042299         0.079555883
-         0.002183773         0.079887035
-         0.002329707         0.080198565
-         0.002473883         0.080477824
+          8.07492E-5          0.06600363
+          1.81365E-4         0.067800656
+          2.84674E-4          0.06931504
+          4.04312E-4         0.070790015
+          5.52608E-4           0.0723021
+          7.03271E-4         0.073591776
+          8.70878E-4          0.07479882
+         0.001047007          0.07586361
+         0.001246166          0.07686653
+         0.001446497          0.07771792
+         0.001662537          0.07848434
+         0.001786582          0.07886897
+         0.001910014         0.079216614
+         0.002042299         0.079555884
+         0.002183773          0.07988703
+         0.002329707          0.08019856
+         0.002473883          0.08047783
          0.002621084         0.080736324
-         0.002776811         0.080984342
-         0.002935959         0.081213788
-         0.003140872         0.081483638
-         0.003363286         0.081753263
-         0.003591298         0.082003666
+         0.002776811          0.08098434
+         0.002935959          0.08121379
+         0.003140872          0.08148364
+         0.003363286          0.08175326
+         0.003591298          0.08200367
          0.003849143          0.08225957
-           0.0040838         0.082465319
-         0.004306928         0.082639783
-         0.004532253         0.082801981
-         0.005715886         0.083584048
-         0.006059431         0.083787855
-         0.006896979         0.084245564
+           0.0040838          0.08246532
+         0.004306928          0.08263978
+         0.004532253          0.08280198
+         0.005715886          0.08358405
+         0.006059431          0.08378786
+         0.006896979          0.08424556
          0.007502266          0.08459624
-         0.008153638         0.084958153
-         0.009216597         0.085595689
-         0.010124742         0.086099746
-         0.011074278         0.086686935
-         0.011487414         0.086931313
-         0.012041531         0.087241464
-         0.012647444         0.087601317
-         0.013515129         0.088094742
+         0.008153638          0.08495815
+         0.009216597          0.08559569
+         0.010124742         0.086099744
+         0.011074278          0.08668693
+         0.011487414          0.08693131
+         0.012041531          0.08724146
+         0.012647444          0.08760132
+         0.013515129          0.08809474
          0.014415355          0.08868987
-         0.014819946         0.088915357
-         0.015867409         0.089527157
-         0.016270303         0.089745219
-         0.016481792          0.08984904
-         0.017242774         0.090167473
-         0.017870337         0.090465394
+         0.014819946         0.088915356
+         0.015867408          0.08952716
+         0.016270302         0.089745216
+         0.016481793          0.08984904
+         0.017242774          0.09016747
+         0.017870337           0.0904654
 *DEFINE_CURVE_TITLE
 Mirzaali_Compression_yld0p05_sf1
     801031         0        1.        1.        0.        0.         0         0
-                  0.         0.113650542
-         0.000110309         0.116785901
-         0.000224185         0.119513991
-         0.000297744         0.121040064
-         0.000374122         0.122381665
-         0.000484512         0.124072008
-         0.000670232          0.12644075
-         0.000774915         0.127524899
-         0.000883685         0.128507656
-          0.00096806         0.129137608
-         0.001164153         0.130461916
+                  0.         0.113650545
+          1.10309E-4           0.1167859
+          2.24185E-4          0.11951399
+          2.97744E-4          0.12104006
+          3.74122E-4         0.122381665
+          4.84512E-4          0.12407201
+          6.70232E-4          0.12644075
+          7.74915E-4           0.1275249
+          8.83685E-4          0.12850766
+           9.6806E-4           0.1291376
+         0.001164153          0.13046192
          0.001295051          0.13122088
-         0.001431631         0.131904943
-         0.001594586         0.132587678
-         0.001760455         0.133193587
-         0.001944265         0.133761965
-         0.002208727         0.134456524
-         0.002486616         0.135105968
-         0.002779218         0.135731244
-          0.00296676         0.136075036
+         0.001431631          0.13190494
+         0.001594586          0.13258767
+         0.001760455          0.13319358
+         0.001944265          0.13376197
+         0.002208727          0.13445653
+         0.002486616          0.13510597
+         0.002779218          0.13573125
+          0.00296676          0.13607503
          0.003230412          0.13647972
-         0.003409302         0.136718869
-         0.003687101         0.137045779
-         0.004161547         0.137498452
-         0.004286742         0.137650399
-         0.004402537         0.137772667
-         0.004698017         0.138027285
-         0.004801634         0.138157404
-          0.00491489         0.138276934
-         0.005035438         0.138382273
-         0.005180463         0.138482566
-         0.005312387         0.138555684
-         0.005505412         0.138643974
-         0.005997013         0.138945992
-          0.00619374         0.139058567
-         0.006439483         0.139180294
-         0.006692158         0.139291175
-         0.006817377         0.139333849
+         0.003409302          0.13671887
+         0.003687101          0.13704579
+         0.004161547          0.13749845
+         0.004286742           0.1376504
+         0.004402537          0.13777266
+         0.004698017          0.13802728
+         0.004801634           0.1381574
+          0.00491489          0.13827693
+         0.005035438          0.13838227
+         0.005180463          0.13848257
+         0.005312387          0.13855569
+         0.005505412          0.13864398
+         0.005997013            0.138946
+          0.00619374          0.13905856
+         0.006439483          0.13918029
+         0.006692158          0.13929118
+         0.006817377          0.13933384
 *DEFINE_CURVE_TITLE
 Mirzaali_Tension_yld0p05_sf0p76
     801032         0        1.        1.        0.        0.         0         0
-                  0.         0.048837175
+                  0.         0.048837174
           8.07492E-5          0.05016276
-         0.000181365         0.051528496
-         0.000284674         0.052679432
-         0.000404312         0.053800411
-         0.000552608         0.054949598
-         0.000703271          0.05592975
-         0.000870878         0.056847108
+          1.81365E-4         0.051528495
+          2.84674E-4          0.05267943
+          4.04312E-4          0.05380041
+          5.52608E-4         0.054949597
+          7.03271E-4          0.05592975
+          8.70878E-4         0.056847107
          0.001047007          0.05765634
-         0.001246166         0.058418561
-         0.001446497         0.059065623
-         0.001662537         0.059648098
+         0.001246166          0.05841856
+         0.001446497          0.05906562
+         0.001662537         0.059648097
          0.001786582          0.05994042
-         0.001910014         0.060204629
-         0.002042299         0.060462471
-         0.002183773         0.060714147
-         0.002329707         0.060950909
+         0.001910014          0.06020463
+         0.002042299          0.06046247
+         0.002183773         0.060714148
+         0.002329707          0.06095091
          0.002473883         0.061163146
-         0.002621084         0.061359606
+         0.002621084         0.061359607
          0.002776811           0.0615481
-         0.002935959         0.061722479
-         0.003140872         0.061927565
+         0.002935959          0.06172248
+         0.003140872         0.061927564
          0.003363286          0.06213248
-         0.003591298         0.062322786
-         0.003849143         0.062517273
-           0.0040838         0.062673642
-         0.004532253         0.062929506
-         0.005715886         0.063523876
+         0.003591298         0.062322784
+         0.003849143          0.06251727
+           0.0040838          0.06267364
+         0.004532253           0.0629295
+         0.005715886          0.06352387
          0.006059431          0.06367877
-         0.006896979         0.064026629
-         0.007502266         0.064293142
-         0.008153638         0.064568196
-         0.009216597         0.065052724
-         0.010124742         0.065435807
-         0.011074278         0.065882071
-         0.011487414         0.066067798
-         0.012041531         0.066303512
-         0.012647444         0.066577001
-         0.013515129         0.066952004
-         0.014415355         0.067404301
-         0.014819946         0.067575671
-         0.015867409          0.06804064
-         0.016481792          0.06828527
-         0.017242774         0.068527279
+         0.006896979          0.06402663
+         0.007502266          0.06429314
+         0.008153638           0.0645682
+         0.009216597         0.065052725
+         0.010124742         0.065435804
+         0.011074278          0.06588207
+         0.011487414           0.0660678
+         0.012041531         0.066303514
+         0.012647444            0.066577
+         0.013515129         0.066952005
+         0.014415355           0.0674043
+         0.014819946          0.06757567
+         0.015867408          0.06804064
+         0.016481793          0.06828527
+         0.017242774          0.06852728
 *DEFINE_CURVE_TITLE
 Mirzaali_Compression_yld0p05_sf0p76
     801033         0        1.        1.        0.        0.         0         0
-                  0.         0.086374412
-         0.000110309         0.088757285
-         0.000224185         0.090830633
-         0.000297744         0.091990448
-         0.000374122         0.093010066
-         0.000484512         0.094294726
-         0.000670232          0.09609497
-         0.000774915         0.096918923
-         0.000883685         0.097665819
-          0.00096806         0.098144582
-         0.001164153         0.099151057
-         0.001295051         0.099727868
-         0.001431631         0.100247757
-         0.001594586         0.100766635
-         0.001760455         0.101227126
-         0.001944265         0.101659094
-         0.002208727         0.102186959
-         0.002486616         0.102680536
-         0.002779218         0.103155745
-          0.00296676         0.103417027
-         0.003230412         0.103724587
-         0.003409302         0.103906341
-         0.003687101         0.104154792
-         0.004161547         0.104498823
-         0.004286742         0.104614303
-         0.004402537         0.104707227
-         0.004698017         0.104900736
-         0.004801634         0.104999627
+                  0.          0.08637441
+          1.10309E-4         0.088757284
+          2.24185E-4          0.09083063
+          2.97744E-4          0.09199045
+          3.74122E-4          0.09301007
+          4.84512E-4          0.09429473
+          6.70232E-4          0.09609497
+          7.74915E-4         0.096918926
+          8.83685E-4          0.09766582
+           9.6806E-4          0.09814458
+         0.001164153          0.09915106
+         0.001295051          0.09972787
+         0.001431631         0.100247756
+         0.001594586          0.10076664
+         0.001760455          0.10122713
+         0.001944265           0.1016591
+         0.002208727         0.102186956
+         0.002486616         0.102680534
+         0.002779218          0.10315575
+          0.00296676         0.103417024
+         0.003230412         0.103724584
+         0.003409302          0.10390634
+         0.003687101         0.104154795
+         0.004161547         0.104498826
+         0.004286742           0.1046143
+         0.004402537         0.104707226
+         0.004698017          0.10490073
+         0.004801634         0.104999624
           0.00491489          0.10509047
-         0.005035438         0.105170527
+         0.005035438         0.105170526
          0.005180463          0.10524675
-         0.005312387         0.105302319
+         0.005312387          0.10530232
          0.005505412          0.10536942
-          0.00619374         0.105684511
-         0.006439483         0.105777023
-         0.006692158         0.105861293
+          0.00619374          0.10568451
+         0.006439483         0.105777025
+         0.006692158          0.10586129
          0.007013273          0.10593182
 *DEFINE_CURVE_TITLE
 Mirzaali_Tension_yld0p05_sf0p44
     801034         0        1.        1.        0.        0.         0         0
                   0.         0.028274154
           8.07492E-5         0.029041598
-         0.000181365         0.029832287
-         0.000284674         0.030498618
-         0.000404312         0.031147606
-         0.000552608         0.031812925
-         0.000703271         0.032380381
-         0.000870878         0.032911483
+          1.81365E-4         0.029832287
+          2.84674E-4         0.030498618
+          4.04312E-4         0.031147607
+          5.52608E-4         0.031812925
+          7.03271E-4          0.03238038
+          8.70878E-4         0.032911483
          0.001047007         0.033379987
-         0.001246166         0.033821272
-         0.001446497         0.034195887
-         0.001662537         0.034533109
-         0.001910014         0.034855312
-         0.002183773         0.035150296
-         0.002473883         0.035410242
-         0.002776811         0.035633111
-         0.003140872         0.035852801
-         0.003363286         0.035971436
-         0.003591298         0.036081613
-         0.003849143         0.036194211
+         0.001246166         0.033821274
+         0.001446497          0.03419589
+         0.001662537          0.03453311
+         0.001910014         0.034855314
+         0.002183773         0.035150297
+         0.002473883          0.03541024
+         0.002776811          0.03563311
+         0.003140872           0.0358528
+         0.003363286         0.035971437
+         0.003591298         0.036081612
+         0.003849143         0.036194213
            0.0040838          0.03628474
-         0.004532253         0.036432872
-         0.005715886         0.036776981
-         0.008153638         0.037381587
-         0.009216597         0.037662103
-         0.010124742         0.037883888
-         0.011487414         0.038249778
-         0.013515129         0.038761686
-         0.014415355         0.039023543
-         0.015867409         0.039391949
-         0.016481792         0.039533577
-         0.017242774         0.039673688
+         0.004532253         0.036432873
+         0.005715886         0.036776982
+         0.008153638         0.037381586
+         0.009216597         0.037662104
+         0.010124742          0.03788389
+         0.011487414          0.03824978
+         0.013515129         0.038761687
+         0.014415355         0.039023545
+         0.015867408          0.03939195
+         0.016481793         0.039533578
+         0.017242774          0.03967369
 *DEFINE_CURVE_TITLE
 Mirzaali_Compression_yld0p05_sf0p44
     801035         0        1.        1.        0.        0.         0         0
-                  0.         0.050006238
-         0.000110309         0.051385796
-         0.000224185         0.052586156
-         0.000297744         0.053257628
-         0.000374122         0.053847933
-         0.000484512         0.054591684
-         0.000670232          0.05563393
-         0.000774915         0.056110956
-         0.000883685         0.056543369
-          0.00096806         0.056820547
-         0.001164153         0.057403243
+                  0.         0.050006237
+          1.10309E-4         0.051385798
+          2.24185E-4         0.052586157
+          2.97744E-4          0.05325763
+          3.74122E-4          0.05384793
+          4.84512E-4         0.054591686
+          6.70232E-4          0.05563393
+          7.74915E-4         0.056110956
+          8.83685E-4          0.05654337
+           9.6806E-4         0.056820545
+         0.001164153         0.057403244
          0.001295051         0.057737187
          0.001431631         0.058038175
-         0.001594586         0.058338578
-         0.001760455         0.058605178
+         0.001594586          0.05833858
+         0.001760455          0.05860518
          0.001944265         0.058855265
-         0.002208727         0.059160871
-         0.002486616         0.059446626
-         0.002779218         0.059721747
-          0.00296676         0.059873016
-         0.003230412         0.060051077
-         0.003409302         0.060156302
-         0.003687101         0.060300143
-         0.004161547         0.060499319
+         0.002208727          0.05916087
+         0.002486616         0.059446625
+         0.002779218         0.059721746
+          0.00296676         0.059873015
+         0.003230412         0.060051076
+         0.003409302           0.0601563
+         0.003687101          0.06030014
+         0.004161547         0.060499318
          0.004402537         0.060619973
-         0.004698017         0.060732005
-          0.00491489         0.060841851
-         0.005180463         0.060932329
-         0.005505412         0.061003348
-          0.00619374         0.061185769
-         0.006692158         0.061288117
-         0.007013273         0.061328949
+         0.004698017         0.060732003
+          0.00491489          0.06084185
+         0.005180463          0.06093233
+         0.005505412          0.06100335
+          0.00619374          0.06118577
+         0.006692158          0.06128812
+         0.007013273         0.061328948
 *DEFINE_CURVE_TITLE
 DEFINE_CURVE_C1C2-ALL-200710
    2007101         0        1.        1.        0.        0.         0         0
                   0.                  0.
            0.0165278          9.71121E-5
-           0.0333244         0.000429197
+           0.0333244          4.29197E-4
            0.0503897           0.0010172
            0.0677237          0.00186818
            0.0853265          0.00298395
@@ -6721,8 +6707,8 @@ DEFINE_CURVE_C1C2-ALL-200710
 DEFINE_CURVE_C1C2-ALL-200710
    2007102         0        1.        1.        0.        0.         0         0
                   0.                  0.
-           0.0165278         0.000164941
-           0.0333244         0.000667087
+           0.0165278          1.64941E-4
+           0.0333244          6.67087E-4
            0.0503897          0.00150105
            0.0677237          0.00265712
            0.0853265           0.0041246
@@ -6764,8 +6750,8 @@ DEFINE_CURVE_C1C2-ALL-200710
 DEFINE_CURVE_C1C2-ALL-200710
    2007103         0        1.        1.        0.        0.         0         0
                   0.                  0.
-           0.0165278              0.0003
-           0.0333244              0.0008
+           0.0165278               3.E-4
+           0.0333244               8.E-4
            0.0503897               0.002
            0.0677237          0.00353223
            0.0853265          0.00710271
@@ -6807,7 +6793,7 @@ DEFINE_CURVE_C1C2-ALL-200710
 DEFINE_CURVE_C2C3-PLL
    2015221         0        1.        1.        0.        0.         0          
                   0.                  0.
-           0.0165278         0.000309063
+           0.0165278          3.09063E-4
            0.0333244          0.00136594
            0.0503897          0.00323731
            0.0677237          0.00586444
@@ -6846,7 +6832,7 @@ DEFINE_CURVE_C2C3-PLL
 DEFINE_CURVE_C2C3-PLL
    2015222         0        1.        1.        0.        0.         0          
                   0.                  0.
-           0.0165278         0.000791063
+           0.0165278          7.91063E-4
            0.0333244          0.00346722
            0.0503897          0.00807872
            0.0677237           0.0127959
@@ -6887,11 +6873,11 @@ DEFINE_CURVE_C2C3-CL
                   0.                  0.
            0.0739796          1.96921E-5
             0.153061          8.38906E-5
-            0.237245         0.000191412
-            0.326531         0.000338853
-            0.420918         0.000522616
-            0.520408         0.000739331
-               0.625         0.000988674
+            0.237245          1.91412E-4
+            0.326531          3.38853E-4
+            0.420918          5.22616E-4
+            0.520408          7.39331E-4
+               0.625          9.88674E-4
             0.734694          0.00122102
              0.84949          0.00142712
             0.969388          0.00160823
@@ -6924,9 +6910,9 @@ DEFINE_CURVE_C2C3-CL
 DEFINE_CURVE_C2C3-CL
    2015232         0        1.        1.        0.        0.         0          
                   0.                  0.
-           0.0739796         0.000106944
-            0.153061         0.000424495
-            0.237245         0.000917625
+           0.0739796          1.06944E-4
+            0.153061          4.24495E-4
+            0.237245          9.17625E-4
             0.326531          0.00138159
             0.420918          0.00179672
             0.520408          0.00216142
@@ -6971,14 +6957,14 @@ DEFINE_CURVE_C2C3-LF
             0.294896          2.81542E-5
             0.350662          4.85967E-5
             0.408318          7.77095E-5
-            0.467864         0.000117239
-            0.529301         0.000168967
-            0.592628           0.0002347
-            0.657845         0.000316262
-            0.724953         0.000415483
-            0.793951         0.000534196
-            0.864839         0.000674234
-            0.937618         0.000837424
+            0.467864          1.17239E-4
+            0.529301          1.68967E-4
+            0.592628            2.347E-4
+            0.657845          3.16262E-4
+            0.724953          4.15483E-4
+            0.793951          5.34196E-4
+            0.864839          6.74234E-4
+            0.937618          8.37424E-4
              1.01229          0.00102559
              1.08885          0.00124054
               1.1673          0.00148408
@@ -7009,12 +6995,12 @@ DEFINE_CURVE_C2C3-LF
            0.0907372          1.44026E-5
             0.138941           4.2388E-5
             0.189036          9.02731E-5
-            0.241021         0.000161116
-            0.294896         0.000257253
-            0.350662          0.00038049
-            0.408318         0.000532235
-            0.467864         0.000713584
-            0.529301         0.000925393
+            0.241021          1.61116E-4
+            0.294896          2.57253E-4
+            0.350662           3.8049E-4
+            0.408318          5.32235E-4
+            0.467864          7.13584E-4
+            0.529301          9.25393E-4
             0.592628          0.00116833
             0.657845          0.00144289
             0.724953          0.00174948
@@ -7051,12 +7037,12 @@ DEFINE_CURVE_C2C3-LF
            0.0907372          1.26555E-5
             0.138941          3.82874E-5
             0.189036           8.3151E-5
-            0.241021         0.000150674
-            0.294896         0.000243581
-            0.350662         0.000364065
-            0.408318         0.000513904
-            0.467864         0.000694548
-            0.529301         0.000907183
+            0.241021          1.50674E-4
+            0.294896          2.43581E-4
+            0.350662          3.64065E-4
+            0.408318          5.13904E-4
+            0.467864          6.94548E-4
+            0.529301          9.07183E-4
             0.592628          0.00115278
             0.657845          0.00143214
             0.724953          0.00174592
@@ -7090,7 +7076,7 @@ DEFINE_CURVE_C3C4-ALL
    2015311         0        1.        1.        0.        0.         0          
                   0.                  0.
            0.0165278          9.71121E-5
-           0.0333244         0.000429197
+           0.0333244          4.29197E-4
            0.0503897           0.0010172
            0.0677237          0.00186818
            0.0853265          0.00298395
@@ -7132,8 +7118,8 @@ DEFINE_CURVE_C3C4-ALL
 DEFINE_CURVE_C3C4-ALL
    2015312         0        1.        1.        0.        0.         0          
                   0.                  0.
-           0.0165278         0.000164941
-           0.0333244         0.000667087
+           0.0165278          1.64941E-4
+           0.0333244          6.67087E-4
            0.0503897          0.00150105
            0.0677237          0.00265712
            0.0853265           0.0041246
@@ -7175,8 +7161,8 @@ DEFINE_CURVE_C3C4-ALL
 DEFINE_CURVE_C3C4-ALL
    2015313         0        1.        1.        0.        0.         0         0
                   0.                  0.
-           0.0165278              0.0003
-           0.0333244              0.0008
+           0.0165278               3.E-4
+           0.0333244               8.E-4
            0.0503897               0.002
            0.0677237          0.00353223
            0.0853265          0.00710271
@@ -7218,7 +7204,7 @@ DEFINE_CURVE_C3C4-ALL
 DEFINE_CURVE_C3C4-PLL
    2015321         0        1.        1.        0.        0.         0          
                   0.                  0.
-           0.0165278         0.000309063
+           0.0165278          3.09063E-4
            0.0333244          0.00136594
            0.0503897          0.00323731
            0.0677237          0.00586444
@@ -7257,7 +7243,7 @@ DEFINE_CURVE_C3C4-PLL
 DEFINE_CURVE_C3C4-PLL
    2015322         0        1.        1.        0.        0.         0          
                   0.                  0.
-           0.0165278         0.000791063
+           0.0165278          7.91063E-4
            0.0333244          0.00346722
            0.0503897          0.00807872
            0.0677237           0.0127959
@@ -7298,11 +7284,11 @@ DEFINE_CURVE_C3C4-CL
                   0.                  0.
            0.0792495          1.98923E-5
             0.164326          8.44067E-5
-             0.25523         0.000191916
-            0.351961         0.000338695
-            0.454519         0.000520929
-            0.562904         0.000735116
-            0.677117         0.000980837
+             0.25523          1.91916E-4
+            0.351961          3.38695E-4
+            0.454519          5.20929E-4
+            0.562904          7.35116E-4
+            0.677117          9.80837E-4
             0.797156          0.00120888
             0.923023          0.00141031
              1.05472           0.0015866
@@ -7335,9 +7321,9 @@ DEFINE_CURVE_C3C4-CL
 DEFINE_CURVE_C3C4-CL
    2015332         0        1.        1.        0.        0.         0          
                   0.                  0.
-           0.0792495         0.000108031
-            0.164326         0.000427107
-             0.25523         0.000920045
+           0.0792495          1.08031E-4
+            0.164326          4.27107E-4
+             0.25523          9.20045E-4
             0.351961          0.00138095
             0.454519          0.00179092
             0.562904           0.0021491
@@ -7382,14 +7368,14 @@ DEFINE_CURVE_C3C4-LF
             0.205078          2.98937E-5
             0.242676          5.20099E-5
              0.28125          8.37912E-5
-            0.320801         0.000127309
-            0.361328         0.000184709
-            0.402832         0.000258194
-            0.445313         0.000350014
-             0.48877         0.000462451
-            0.533203         0.000597815
-            0.578613         0.000758435
-               0.625         0.000946653
+            0.320801          1.27309E-4
+            0.361328          1.84709E-4
+            0.402832          2.58194E-4
+            0.445313          3.50014E-4
+             0.48877          4.62451E-4
+            0.533203          5.97815E-4
+            0.578613          7.58435E-4
+               0.625          9.46653E-4
             0.672363          0.00116482
             0.720703          0.00141529
              0.77002          0.00170043
@@ -7420,11 +7406,11 @@ DEFINE_CURVE_C3C4-LF
            0.0644531          1.47341E-5
            0.0981445          4.38097E-5
             0.132813          9.41981E-5
-            0.168457         0.000169636
-            0.205078         0.000273147
-            0.242676         0.000407214
-             0.28125         0.000573888
-            0.320801         0.000774878
+            0.168457          1.69636E-4
+            0.205078          2.73147E-4
+            0.242676          4.07214E-4
+             0.28125          5.73888E-4
+            0.320801          7.74878E-4
             0.361328          0.00101161
             0.402832          0.00128528
             0.445313          0.00159688
@@ -7462,12 +7448,12 @@ DEFINE_CURVE_C3C4-LF
            0.0644531          1.29468E-5
            0.0981445          3.95716E-5
             0.132813          8.67663E-5
-            0.168457         0.000158641
-            0.205078         0.000258631
-            0.242676         0.000389635
-             0.28125         0.000554123
-            0.320801         0.000754207
-            0.361328         0.000991703
+            0.168457          1.58641E-4
+            0.205078          2.58631E-4
+            0.242676          3.89635E-4
+             0.28125          5.54123E-4
+            0.320801          7.54207E-4
+            0.361328          9.91703E-4
             0.402832          0.00126818
             0.445313          0.00158498
              0.48877          0.00194329
@@ -7501,7 +7487,7 @@ DEFINE_CURVE_C4C5-ALL
    2015411         0        1.        1.        0.        0.         0          
                   0.                  0.
            0.0165278          9.71121E-5
-           0.0333244         0.000429197
+           0.0333244          4.29197E-4
            0.0503897           0.0010172
            0.0677237          0.00186818
            0.0853265          0.00298395
@@ -7543,8 +7529,8 @@ DEFINE_CURVE_C4C5-ALL
 DEFINE_CURVE_C4C5-ALL
    2015412         0        1.        1.        0.        0.         0          
                   0.                  0.
-           0.0165278         0.000164941
-           0.0333244         0.000667087
+           0.0165278          1.64941E-4
+           0.0333244          6.67087E-4
            0.0503897          0.00150105
            0.0677237          0.00265712
            0.0853265           0.0041246
@@ -7586,8 +7572,8 @@ DEFINE_CURVE_C4C5-ALL
 DEFINE_CURVE_C4C5-ALL
    2015413         0        1.        1.        0.        0.         0         0
                   0.                  0.
-           0.0165278              0.0003
-           0.0333244              0.0008
+           0.0165278               3.E-4
+           0.0333244               8.E-4
            0.0503897               0.002
            0.0677237          0.00353223
            0.0853265          0.00710271
@@ -7629,7 +7615,7 @@ DEFINE_CURVE_C4C5-ALL
 DEFINE_CURVE_C4C5-PLL
    2015421         0        1.        1.        0.        0.         0          
                   0.                  0.
-           0.0165278         0.000309063
+           0.0165278          3.09063E-4
            0.0333244          0.00136594
            0.0503897          0.00323731
            0.0677237          0.00586444
@@ -7668,7 +7654,7 @@ DEFINE_CURVE_C4C5-PLL
 DEFINE_CURVE_C4C5-PLL
    2015422         0        1.        1.        0.        0.         0          
                   0.                  0.
-           0.0165278         0.000791063
+           0.0165278          7.91063E-4
            0.0333244          0.00346722
            0.0503897          0.00807872
            0.0677237           0.0127959
@@ -7709,11 +7695,11 @@ DEFINE_CURVE_C4C5-CL
                   0.                  0.
            0.0679536          1.88615E-5
             0.140235          8.07257E-5
-            0.216846         0.000184949
-            0.297784         0.000328617
-            0.383051         0.000508501
-            0.472645         0.000721506
-            0.566569         0.000967446
+            0.216846          1.84949E-4
+            0.297784          3.28617E-4
+            0.383051          5.08501E-4
+            0.472645          7.21506E-4
+            0.566569          9.67446E-4
              0.66482          0.00119774
               0.7674          0.00140307
             0.874307           0.0015844
@@ -7746,9 +7732,9 @@ DEFINE_CURVE_C4C5-CL
 DEFINE_CURVE_C4C5-CL
    2015432         0        1.        1.        0.        0.         0          
                   0.                  0.
-           0.0679536         0.000102433
-            0.140235          0.00040848
-            0.216846         0.000886646
+           0.0679536          1.02433E-4
+            0.140235           4.0848E-4
+            0.216846          8.86646E-4
             0.297784          0.00133986
             0.383051          0.00174819
             0.472645          0.00210931
@@ -7793,14 +7779,14 @@ DEFINE_CURVE_C4C5-LF
             0.364561          2.99556E-5
             0.434965          5.14357E-5
             0.508125          8.18488E-5
-            0.584041         0.000122923
-            0.662712         0.000176406
-            0.744139         0.000244057
-            0.828322          0.00032764
-             0.91526         0.000428915
-             1.00495         0.000549635
-              1.0974         0.000691545
-             1.19261         0.000856378
+            0.584041          1.22923E-4
+            0.662712          1.76406E-4
+            0.744139          2.44057E-4
+            0.828322           3.2764E-4
+             0.91526          4.28915E-4
+             1.00495          5.49635E-4
+              1.0974          6.91545E-4
+             1.19261          8.56378E-4
              1.29057          0.00104586
              1.39128          0.00126168
              1.49475          0.00150555
@@ -7831,12 +7817,12 @@ DEFINE_CURVE_C4C5-LF
             0.110498          1.57207E-5
              0.16988          4.59358E-5
             0.232018          9.71841E-5
-            0.296912         0.000172395
-            0.364561         0.000273712
-            0.434965         0.000402718
-            0.508125         0.000560585
-            0.584041          0.00074818
-            0.662712         0.000966135
+            0.296912          1.72395E-4
+            0.364561          2.73712E-4
+            0.434965          4.02718E-4
+            0.508125          5.60585E-4
+            0.584041           7.4818E-4
+            0.662712          9.66135E-4
             0.744139           0.0012149
             0.828322           0.0014948
              0.91526          0.00180604
@@ -7873,12 +7859,12 @@ DEFINE_CURVE_C4C5-LF
             0.110498          1.38137E-5
              0.16988           4.1492E-5
             0.232018          8.95167E-5
-            0.296912         0.000161222
-            0.364561         0.000259166
-            0.434965         0.000385333
-            0.508125         0.000541278
-            0.584041         0.000728221
-            0.662712         0.000947123
+            0.296912          1.61222E-4
+            0.364561          2.59166E-4
+            0.434965          3.85333E-4
+            0.508125          5.41278E-4
+            0.584041          7.28221E-4
+            0.662712          9.47123E-4
             0.744139          0.00119874
             0.828322          0.00148367
              0.91526          0.00180237
@@ -7912,7 +7898,7 @@ DEFINE_CURVE_C5C6-ALL
    2015511         0        1.        1.        0.        0.         0          
                   0.                  0.
            0.0165278          9.71121E-5
-           0.0333244         0.000429197
+           0.0333244          4.29197E-4
            0.0503897           0.0010172
            0.0677237          0.00186818
            0.0853265          0.00298395
@@ -7954,8 +7940,8 @@ DEFINE_CURVE_C5C6-ALL
 DEFINE_CURVE_C5C6-ALL
    2015512         0        1.        1.        0.        0.         0          
                   0.                  0.
-           0.0165278         0.000164941
-           0.0333244         0.000667087
+           0.0165278          1.64941E-4
+           0.0333244          6.67087E-4
            0.0503897          0.00150105
            0.0677237          0.00265712
            0.0853265           0.0041246
@@ -7997,8 +7983,8 @@ DEFINE_CURVE_C5C6-ALL
 DEFINE_CURVE_C5C6-ALL
    2015513         0        1.        1.        0.        0.         0         0
                   0.                  0.
-           0.0165278              0.0003
-           0.0333244              0.0008
+           0.0165278               3.E-4
+           0.0333244               8.E-4
            0.0503897               0.002
            0.0677237          0.00353223
            0.0853265          0.00710271
@@ -8040,7 +8026,7 @@ DEFINE_CURVE_C5C6-ALL
 DEFINE_CURVE_C5C6-PLL
    2015521         0        1.        1.        0.        0.         0          
                   0.                  0.
-           0.0165278         0.000309063
+           0.0165278          3.09063E-4
            0.0333244          0.00136594
            0.0503897          0.00323731
            0.0677237          0.00586444
@@ -8079,7 +8065,7 @@ DEFINE_CURVE_C5C6-PLL
 DEFINE_CURVE_C5C6-PLL
    2015522         0        1.        1.        0.        0.         0          
                   0.                  0.
-           0.0165278         0.000791063
+           0.0165278          7.91063E-4
            0.0333244          0.00346722
            0.0503897          0.00807872
            0.0677237           0.0127959
@@ -8120,11 +8106,11 @@ DEFINE_CURVE_C5C6-CL
                   0.                  0.
            0.0899227          1.75791E-5
             0.187277          7.40081E-5
-            0.292063         0.000167128
-            0.404281         0.000293187
-             0.52393         0.000448552
-            0.651011         0.000630001
-            0.785523         0.000837036
+            0.292063          1.67128E-4
+            0.404281          2.93187E-4
+             0.52393          4.48552E-4
+            0.651011          6.30001E-4
+            0.785523          8.37036E-4
             0.927467          0.00102771
              1.07684          0.00119483
              1.23365          0.00133995
@@ -8158,8 +8144,8 @@ DEFINE_CURVE_C5C6-CL
    2015532         0        1.        1.        0.        0.         0          
                   0.                  0.
            0.0899227          9.54687E-5
-            0.187277         0.000374489
-            0.292063          0.00080121
+            0.187277          3.74489E-4
+            0.292063           8.0121E-4
             0.404281           0.0011954
              0.52393          0.00154209
             0.651011          0.00184179
@@ -8204,15 +8190,15 @@ DEFINE_CURVE_C5C6-LF
             0.349944          2.68551E-5
             0.417241          4.61602E-5
             0.487101          7.35252E-5
-            0.559526         0.000110521
-            0.634514         0.000158742
-            0.712065         0.000219791
-            0.792181         0.000295281
-             0.87486         0.000386819
-            0.960103         0.000496011
-             1.04791         0.000624457
-             1.13828         0.000773744
-             1.23121         0.000945451
+            0.559526          1.10521E-4
+            0.634514          1.58742E-4
+            0.712065          2.19791E-4
+            0.792181          2.95281E-4
+             0.87486          3.86819E-4
+            0.960103          4.96011E-4
+             1.04791          6.24457E-4
+             1.13828          7.73744E-4
+             1.23121          9.45451E-4
              1.32671          0.00114115
              1.42477          0.00136238
               1.5254          0.00159971
@@ -8242,12 +8228,12 @@ DEFINE_CURVE_C5C6-LF
             0.106393          1.40212E-5
             0.163435          4.10297E-5
             0.223041          8.69204E-5
-            0.285211         0.000154378
-            0.349944         0.000245383
-            0.417241         0.000361414
-            0.487101         0.000503576
-            0.559526         0.000672698
-            0.634514         0.000869394
+            0.285211          1.54378E-4
+            0.349944          2.45383E-4
+            0.417241          3.61414E-4
+            0.487101          5.03576E-4
+            0.559526          6.72698E-4
+            0.634514          8.69394E-4
             0.712065          0.00109411
             0.792181          0.00134717
              0.87486          0.00162878
@@ -8284,12 +8270,12 @@ DEFINE_CURVE_C5C6-LF
             0.106393          1.23203E-5
             0.163435          3.70605E-5
             0.223041          8.00628E-5
-            0.285211         0.000144372
-            0.349944         0.000232342
-            0.417241         0.000345812
-            0.487101         0.000486233
-            0.559526         0.000654753
-            0.634514         0.000852286
+            0.285211          1.44372E-4
+            0.349944          2.32342E-4
+            0.417241          3.45812E-4
+            0.487101          4.86233E-4
+            0.559526          6.54753E-4
+            0.634514          8.52286E-4
             0.712065          0.00107955
             0.792181          0.00133713
              0.87486          0.00162547
@@ -8323,7 +8309,7 @@ DEFINE_CURVE_C6C7-ALL
    2015611         0        1.        1.        0.        0.         0         0
                   0.                  0.
            0.0165278          9.71121E-5
-           0.0333244         0.000429197
+           0.0333244          4.29197E-4
            0.0503897           0.0010172
            0.0677237          0.00186818
            0.0853265          0.00298395
@@ -8365,8 +8351,8 @@ DEFINE_CURVE_C6C7-ALL
 DEFINE_CURVE_C6C7-ALL
    2015612         0        1.        1.        0.        0.         0          
                   0.                  0.
-           0.0165278         0.000164941
-           0.0333244         0.000667087
+           0.0165278          1.64941E-4
+           0.0333244          6.67087E-4
            0.0503897          0.00150105
            0.0677237          0.00265712
            0.0853265           0.0041246
@@ -8408,8 +8394,8 @@ DEFINE_CURVE_C6C7-ALL
 DEFINE_CURVE_C6C7-ALL
    2015613         0        1.        1.        0.        0.         0         0
                   0.                  0.
-           0.0165278              0.0003
-           0.0333244              0.0008
+           0.0165278               3.E-4
+           0.0333244               8.E-4
            0.0503897               0.002
            0.0677237          0.00353223
            0.0853265          0.00710271
@@ -8451,7 +8437,7 @@ DEFINE_CURVE_C6C7-ALL
 DEFINE_CURVE_C6C7-PLL
    2015621         0        1.        1.        0.        0.         0          
                   0.                  0.
-           0.0165278         0.000309063
+           0.0165278          3.09063E-4
            0.0333244          0.00136594
            0.0503897          0.00323731
            0.0677237          0.00586444
@@ -8490,7 +8476,7 @@ DEFINE_CURVE_C6C7-PLL
 DEFINE_CURVE_C6C7-PLL
    2015622         0        1.        1.        0.        0.         0          
                   0.                  0.
-           0.0165278         0.000791063
+           0.0165278          7.91063E-4
            0.0333244          0.00346722
            0.0503897          0.00807872
            0.0677237           0.0127959
@@ -8531,11 +8517,11 @@ DEFINE_CURVE_C6C7-CL
                   0.                  0.
            0.0670433          1.88766E-5
             0.138303          8.08478E-5
-             0.21378         0.000185346
-            0.293473         0.000329509
-            0.377382         0.000510141
-            0.465509         0.000724168
-            0.557851         0.000971424
+             0.21378          1.85346E-4
+            0.293473          3.29509E-4
+            0.377382          5.10141E-4
+            0.465509          7.24168E-4
+            0.557851          9.71424E-4
             0.654411          0.00120313
             0.755186          0.00140988
             0.860179          0.00159261
@@ -8568,9 +8554,9 @@ DEFINE_CURVE_C6C7-CL
 DEFINE_CURVE_C6C7-CL
    2015632         0        1.        1.        0.        0.         0          
                   0.                  0.
-           0.0670433         0.000102515
-            0.138303         0.000409098
-             0.21378         0.000888548
+           0.0670433          1.02515E-4
+            0.138303          4.09098E-4
+             0.21378          8.88548E-4
             0.293473          0.00134349
             0.377382          0.00175383
             0.465509          0.00211709
@@ -8616,15 +8602,15 @@ DEFINE_CURVE_C6C7-LF
             0.723855          3.91933E-5
             0.853278          6.15872E-5
             0.989204          9.14306E-5
-             1.13163         0.000129823
-             1.28057         0.000177853
-               1.436         0.000236598
-             1.59794         0.000307119
-             1.76639         0.000390466
-             1.94134         0.000487672
-             2.12279         0.000599758
-             2.31074          0.00072773
-              2.5052         0.000872581
+             1.13163          1.29823E-4
+             1.28057          1.77853E-4
+               1.436          2.36598E-4
+             1.59794          3.07119E-4
+             1.76639          3.90466E-4
+             1.94134          4.87672E-4
+             2.12279          5.99758E-4
+             2.31074           7.2773E-4
+              2.5052          8.72581E-4
              2.70617          0.00103529
              2.91363          0.00120852
               3.1276          0.00136822
@@ -8653,13 +8639,13 @@ DEFINE_CURVE_C6C7-LF
             0.174298          1.30407E-5
             0.271202          3.73233E-5
              0.37461           7.7511E-5
-            0.484521         0.000135217
-            0.600937         0.000211459
-            0.723855         0.000306865
-            0.853278         0.000421813
-            0.989204         0.000556501
-             1.13163         0.000711012
-             1.28057         0.000885343
+            0.484521          1.35217E-4
+            0.600937          2.11459E-4
+            0.723855          3.06865E-4
+            0.853278          4.21813E-4
+            0.989204          5.56501E-4
+             1.13163          7.11012E-4
+             1.28057          8.85343E-4
                1.436          0.00107944
              1.59794          0.00129319
              1.76639          0.00152647
@@ -8695,13 +8681,13 @@ DEFINE_CURVE_C6C7-LF
             0.174298          1.14589E-5
             0.271202          3.37127E-5
              0.37461          7.13957E-5
-            0.484521         0.000126454
-            0.600937          0.00020022
-            0.723855         0.000293618
-            0.853278         0.000407285
-            0.989204         0.000541656
-             1.13163         0.000697021
-             1.28057         0.000873565
+            0.484521          1.26454E-4
+            0.600937           2.0022E-4
+            0.723855          2.93618E-4
+            0.853278          4.07285E-4
+            0.989204          5.41656E-4
+             1.13163          6.97021E-4
+             1.28057          8.73565E-4
                1.436          0.00107139
              1.59794          0.00129056
              1.76639          0.00152431
@@ -8734,7 +8720,7 @@ DEFINE_CURVE_C7T1-ALL
    2015711         0        1.        1.        0.        0.         0          
                   0.                  0.
            0.0165278          9.71121E-5
-           0.0333244         0.000429197
+           0.0333244          4.29197E-4
            0.0503897           0.0010172
            0.0677237          0.00186818
            0.0853265          0.00298395
@@ -8776,8 +8762,8 @@ DEFINE_CURVE_C7T1-ALL
 DEFINE_CURVE_C7T1-ALL
    2015712         0        1.        1.        0.        0.         0          
                   0.                  0.
-           0.0165278         0.000164941
-           0.0333244         0.000667087
+           0.0165278          1.64941E-4
+           0.0333244          6.67087E-4
            0.0503897          0.00150105
            0.0677237          0.00265712
            0.0853265           0.0041246
@@ -8819,8 +8805,8 @@ DEFINE_CURVE_C7T1-ALL
 DEFINE_CURVE_C7T1-ALL
    2015713         0        1.        1.        0.        0.         0         0
                   0.                  0.
-           0.0165278              0.0003
-           0.0333244              0.0008
+           0.0165278               3.E-4
+           0.0333244               8.E-4
            0.0503897               0.002
            0.0677237          0.00353223
            0.0853265          0.00710271
@@ -8862,7 +8848,7 @@ DEFINE_CURVE_C7T1-ALL
 DEFINE_CURVE_C7T1-PLL
    2015721         0        1.        1.        0.        0.         0          
                   0.                  0.
-           0.0165278         0.000309063
+           0.0165278          3.09063E-4
            0.0333244          0.00136594
            0.0503897          0.00323731
            0.0677237          0.00586444
@@ -8901,7 +8887,7 @@ DEFINE_CURVE_C7T1-PLL
 DEFINE_CURVE_C7T1-PLL
    2015722         0        1.        1.        0.        0.         0          
                   0.                  0.
-           0.0165278         0.000791063
+           0.0165278          7.91063E-4
            0.0333244          0.00346722
            0.0503897          0.00807872
            0.0677237           0.0127959
@@ -8942,12 +8928,12 @@ DEFINE_CURVE_C7T1-CL
                   0.                  0.
            0.0928395           1.5824E-5
              0.19358          6.64794E-5
-            0.302222         0.000149855
-            0.418765         0.000262472
-             0.54321         0.000401007
-            0.675556         0.000562534
-            0.815802         0.000746584
-            0.963951         0.000915762
+            0.302222          1.49855E-4
+            0.418765          2.62472E-4
+             0.54321          4.01007E-4
+            0.675556          5.62534E-4
+            0.815802          7.46584E-4
+            0.963951          9.15762E-4
                 1.12          0.00106373
              1.28395          0.00119198
               1.4558          0.00129492
@@ -8980,8 +8966,8 @@ DEFINE_CURVE_C7T1-CL
    2015732         0        1.        1.        0.        0.         0          
                   0.                  0.
            0.0928395          8.59369E-5
-             0.19358         0.000336392
-            0.302222         0.000718404
+             0.19358          3.36392E-4
+            0.302222          7.18404E-4
             0.418765          0.00107017
              0.54321          0.00137864
             0.675556          0.00164456
@@ -9025,14 +9011,14 @@ DEFINE_CURVE_C7T1-LF
             0.331863          1.98391E-5
             0.408318          3.76903E-5
             0.488133           6.4525E-5
-            0.571309         0.000102397
-            0.657845         0.000153392
-            0.747742         0.000219614
-               0.841         0.000303169
-            0.937618         0.000406163
-              1.0376         0.000530691
-             1.14094         0.000678834
-             1.24764         0.000852659
+            0.571309          1.02397E-4
+            0.657845          1.53392E-4
+            0.747742          2.19614E-4
+               0.841          3.03169E-4
+            0.937618          4.06163E-4
+              1.0376          5.30691E-4
+             1.14094          6.78834E-4
+             1.24764          8.52659E-4
               1.3577          0.00105422
              1.47112          0.00128554
               1.5879          0.00154863
@@ -9063,12 +9049,12 @@ DEFINE_CURVE_C7T1-LF
            0.0596513          3.12814E-6
             0.122663          2.00752E-5
             0.189036          5.84121E-5
-            0.258769         0.000123105
-            0.331863          0.00021761
-            0.408318         0.000344387
-            0.488133         0.000505201
-            0.571309         0.000701318
-            0.657845         0.000933635
+            0.258769          1.23105E-4
+            0.331863           2.1761E-4
+            0.408318          3.44387E-4
+            0.488133          5.05201E-4
+            0.571309          7.01318E-4
+            0.657845          9.33635E-4
             0.747742          0.00120278
                0.841          0.00150916
             0.937618          0.00185305
@@ -9105,12 +9091,12 @@ DEFINE_CURVE_C7T1-LF
            0.0596513          2.62214E-6
             0.122663            1.764E-5
             0.189036          5.27613E-5
-            0.258769         0.000113392
-            0.331863         0.000203506
-            0.408318         0.000326084
-            0.488133         0.000483393
-            0.571309         0.000677164
-            0.657845         0.000908729
+            0.258769          1.13392E-4
+            0.331863          2.03506E-4
+            0.408318          3.26084E-4
+            0.488133          4.83393E-4
+            0.571309          6.77164E-4
+            0.657845          9.08729E-4
             0.747742          0.00117911
                0.841          0.00148908
             0.937618          0.00183925
@@ -9599,8 +9585,6 @@ $ANSA_COLOR;305163;MAT20 MAT_RIGID;.835294127464294;0.95686274766922;.9333333373
 $06976;1.;
 $ANSA_COLOR;305172;MAT77 MAT_OGDEN_RUBBER;.811764717102051;.984313726425171;.811
 $764717102051;1.;
-$ANSA_COLOR;305201;MAT77 MAT_OGDEN_RUBBER;.847058832645416;.823529422283173;.835
-$294127464294;1.;
 $ANSA_COLOR;305202;MAT9 MAT_NULL;.647058844566345;0.91372549533844;.223529413342
 $476;1.;
 $ANSA_COLOR;306001;MAT203 MAT_SPRING_NONLINEAR_ELASTIC;.807843148708344;.5725490
