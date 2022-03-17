@@ -7,7 +7,16 @@ and this project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.ht
 
 # beta  versions
 
-## 0.3.0 - 2021
+## 0.3.0rc3 - 2022-03-03
+
+This version is released on a new `git` repository. VIVA+ versions `0.2` can be accessed on the archived repo.
+
+Bulk of the development for this version was done in ANSA and outside the repo, and hence the commits do not necessarily reflect the contributions.
+The major contributions to this versions are:
+
+- New upper extremity mesh definitions, and other mesh updates - Jobin
+- Derivative models (seated male, standing male, standing female), abdominal muscles - Johan
+- Updates to head and property tuning - Corina
 
 ### Added
 
@@ -34,6 +43,7 @@ and this project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.ht
 - Added DAMPING_PART_STIFFNESS with 5% damping to all elastic materials
 - New contact to tie soft tissue to humerus, 350010
 - Names added `*DEFINE_COORDINATE_NODES`
+- Added missing references for material
 
 ### Changed
 

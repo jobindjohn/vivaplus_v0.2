@@ -1,13 +1,13 @@
 $
-$ANSA_VERSION;22.0.0;
+$ANSA_VERSION;22.0.1;
 $
 $
-$ file created by  A N S A  Fri Feb 18 16:05:06 2022
+$ file created by  A N S A  Thu Mar  3 14:53:19 2022
 $
 $ output from :
 $
-$ C:/Users/jobinj/Box/vivaplus-share/VIVA-Plus-Meshing-Shared-Folder/v0_3/vivapl
-$ us-50F_v030_220218.ansa
+$ C:/Users/iraeus/Documents/Projects/VIRTUAL/ViVA+/Final_assembly/0.3.0/vivaplus
+$ -50F_v030_220302.ansa
 $
 $ Settings :
 $
@@ -205,19 +205,19 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 $       B1|       B2|
         0.       90.
 *PART
-PE_C_F_Soft_Tissues-L
+PE_Soft_Tissues-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
     606002    606002    405100              900001         0         0          
 *SECTION_SOLID_TITLE
-PE_C_F_Soft_Tissues-L
+PE_Soft_Tissues-L
 $    SECID|   ELFORM|
     606002         1
 *PART
-PE_C_N_Soft_Tissues_Internal_nulls
+PE_Soft_Tissues_Internal_nulls
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
     606003    606003    606009                             0         0          
 *SECTION_SHELL_TITLE
-PE_C_N_Soft_Tissues_Internal_nulls
+PE_Soft_Tissues_Internal_nulls
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
     606003         2   0.83333        1.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
@@ -403,19 +403,19 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 $       B1|       B2|
         0.      -90.
 *PART
-PE_C_F_Soft_Tissues-R
+PE_Soft_Tissues-R
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
     656002    656002    405100              900001         0         0          
 *SECTION_SOLID_TITLE
-PE_C_F_Soft_Tissues-R
+PE_Soft_Tissues-R
 $    SECID|   ELFORM|
     656002         1
 *PART
-PE_C_N_Soft_Tissues_Internal_nulls-R
+PE_Soft_Tissues_Internal_nulls-R
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
     656003    656003    606009                             0         0          
 *SECTION_SHELL_TITLE
-PE_C_N_Soft_Tissues_Internal_nulls-R
+PE_Soft_Tissues_Internal_nulls-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
     656003         2   0.83333        1.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
