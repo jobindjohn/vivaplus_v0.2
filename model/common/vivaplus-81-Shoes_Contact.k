@@ -18,7 +18,7 @@ VIVAplus_Leg_skin
 $#     sid    solver
    7000006         
 $#  option        e1        e2        e3        e4        e5        e6        e7                                  
-      PART    705191    755191    705192    755192
+      PART    705191    755191    705141    755141
 *SET_SHELL_GENERAL_TITLE
 $# title
 Shoes_contact
