@@ -18,6 +18,22 @@
 			}
 		},
 		{
+			"name": "HE-Head-CoG-Seatbelt-Accelerometer_dx-Local",
+			"part_of": "HEAD",
+			"x": {
+				"label": "time",
+				"type": "NODE",
+				"ID": "HE-Head-CoG-Seatbelt-Accelerometer-Local",
+				"array": ["(0, time)"]
+			},
+			"y": {
+				"label": "displacement",
+				"type": "NODE",
+				"ID": "HE-Head-CoG-Seatbelt-Accelerometer-Local",
+				"array": ["(0, x_displacement)"]
+			}
+		},        
+		{
 			"name": "NE-C1_COG_dx",
 			"part_of": "NECK",
 			"x": {
@@ -3189,6 +3205,22 @@
 			}
 		},
 		{
+			"name": "HE-Head-CoG-Seatbelt-Accelerometer_dy-Local",
+			"part_of": "HEAD",
+			"x": {
+				"label": "time",
+				"type": "NODE",
+				"ID": "HE-Head-CoG-Seatbelt-Accelerometer-Local",
+				"array": ["(0, time)"]
+			},
+			"y": {
+				"label": "displacement",
+				"type": "NODE",
+				"ID": "HE-Head-CoG-Seatbelt-Accelerometer-Local",
+				"array": ["(0, y_displacement)"]
+			}
+		},        
+		{
 			"name": "NE-C1_COG_dy",
 			"part_of": "NECK",
 			"x": {
@@ -6359,6 +6391,22 @@
 			}
 		},
 		{
+			"name": "HE-Head-CoG-Seatbelt-Accelerometer_dz-Local",
+			"part_of": "HEAD",
+			"x": {
+				"label": "time",
+				"type": "NODE",
+				"ID": "HE-Head-CoG-Seatbelt-Accelerometer-Local",
+				"array": ["(0, time)"]
+			},
+			"y": {
+				"label": "displacement",
+				"type": "NODE",
+				"ID": "HE-Head-CoG-Seatbelt-Accelerometer-Local",
+				"array": ["(0, z_displacement)"]
+			}
+		},        
+		{
 			"name": "NE-C1_COG_dz",
 			"part_of": "NECK",
 			"x": {
@@ -9527,6 +9575,22 @@
 				"array": ["(0, x_acceleration)"]
 			}
 		},
+        {
+			"name": "HE-Head-CoG-Seatbelt-Accelerometer_ax-Local",
+			"part_of": "HEAD",
+			"x": {
+				"label": "time",
+				"type": "NODE",
+				"ID": "HE-Head-CoG-Seatbelt-Accelerometer-Local",
+				"array": ["(0, time)"]
+			},
+			"y": {
+				"label": "displacement",
+				"type": "NODE",
+				"ID": "HE-Head-CoG-Seatbelt-Accelerometer-Local",
+				"array": ["(0, x_acceleration)"]
+			}
+		},        
 		{
 			"name": "NE-C1_COG_ax",
 			"part_of": "NECK",
@@ -12680,7 +12744,7 @@
 			}
 		},
         
-{
+        {
 			"name": "HE-Head-CoG-Seatbelt-Accelerometer_ay",
 			"part_of": "HEAD",
 			"x": {
@@ -12696,6 +12760,22 @@
 				"array": ["(0, y_acceleration)"]
 			}
 		},
+        {
+			"name": "HE-Head-CoG-Seatbelt-Accelerometer_ay-Local",
+			"part_of": "HEAD",
+			"x": {
+				"label": "time",
+				"type": "NODE",
+				"ID": "HE-Head-CoG-Seatbelt-Accelerometer-Local",
+				"array": ["(0, time)"]
+			},
+			"y": {
+				"label": "displacement",
+				"type": "NODE",
+				"ID": "HE-Head-CoG-Seatbelt-Accelerometer-Local",
+				"array": ["(0, y_acceleration)"]
+			}
+		},        
 		{
 			"name": "NE-C1_COG_ay",
 			"part_of": "NECK",
@@ -15849,7 +15929,7 @@
 			}
 		},
 
-{
+        {
 			"name": "HE-Head-CoG-Seatbelt-Accelerometer_az",
 			"part_of": "HEAD",
 			"x": {
@@ -15865,6 +15945,22 @@
 				"array": ["(0, z_acceleration)"]
 			}
 		},
+        {
+			"name": "HE-Head-CoG-Seatbelt-Accelerometer_az-Local",
+			"part_of": "HEAD",
+			"x": {
+				"label": "time",
+				"type": "NODE",
+				"ID": "HE-Head-CoG-Seatbelt-Accelerometer-Local",
+				"array": ["(0, time)"]
+			},
+			"y": {
+				"label": "displacement",
+				"type": "NODE",
+				"ID": "HE-Head-CoG-Seatbelt-Accelerometer-Local",
+				"array": ["(0, z_acceleration)"]
+			}
+		},        
 		{
 			"name": "NE-C1_COG_az",
 			"part_of": "NECK",
@@ -19019,7 +19115,7 @@
 		},
 
 
-{
+       {
 			"name": "HE-Head-CoG-Seatbelt-Accelerometer_vx",
 			"part_of": "HEAD",
 			"x": {
@@ -19035,6 +19131,22 @@
 				"array": ["(0, x_velocity)"]
 			}
 		},
+        {
+			"name": "HE-Head-CoG-Seatbelt-Accelerometer_vx-Local",
+			"part_of": "HEAD",
+			"x": {
+				"label": "time",
+				"type": "NODE",
+				"ID": "HE-Head-CoG-Seatbelt-Accelerometer-Local",
+				"array": ["(0, time)"]
+			},
+			"y": {
+				"label": "displacement",
+				"type": "NODE",
+				"ID": "HE-Head-CoG-Seatbelt-Accelerometer-Local",
+				"array": ["(0, x_velocity)"]
+			}
+		},        
 		{
 			"name": "NE-C1_COG_vx",
 			"part_of": "NECK",
@@ -22188,7 +22300,7 @@
 			}
 		},
 
-{
+        {
 			"name": "HE-Head-CoG-Seatbelt-Accelerometer_vy",
 			"part_of": "HEAD",
 			"x": {
@@ -22204,6 +22316,22 @@
 				"array": ["(0, y_velocity)"]
 			}
 		},
+        {
+			"name": "HE-Head-CoG-Seatbelt-Accelerometer_vy-Local",
+			"part_of": "HEAD",
+			"x": {
+				"label": "time",
+				"type": "NODE",
+				"ID": "HE-Head-CoG-Seatbelt-Accelerometer-Local",
+				"array": ["(0, time)"]
+			},
+			"y": {
+				"label": "displacement",
+				"type": "NODE",
+				"ID": "HE-Head-CoG-Seatbelt-Accelerometer-Local",
+				"array": ["(0, y_velocity)"]
+			}
+		},        
 		{
 			"name": "NE-C1_COG_vy",
 			"part_of": "NECK",
@@ -25357,7 +25485,7 @@
 			}
 		},
 
-{
+        {
 			"name": "HE-Head-CoG-Seatbelt-Accelerometer_vz",
 			"part_of": "HEAD",
 			"x": {
@@ -25373,6 +25501,22 @@
 				"array": ["(0, z_velocity)"]
 			}
 		},
+        {
+			"name": "HE-Head-CoG-Seatbelt-Accelerometer_vz-Local",
+			"part_of": "HEAD",
+			"x": {
+				"label": "time",
+				"type": "NODE",
+				"ID": "HE-Head-CoG-Seatbelt-Accelerometer-Local",
+				"array": ["(0, time)"]
+			},
+			"y": {
+				"label": "displacement",
+				"type": "NODE",
+				"ID": "HE-Head-CoG-Seatbelt-Accelerometer-Local",
+				"array": ["(0, z_velocity)"]
+			}
+		},        
 		{
 			"name": "NE-C1_COG_vz",
 			"part_of": "NECK",

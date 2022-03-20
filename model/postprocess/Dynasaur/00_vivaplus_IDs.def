@@ -15,6 +15,11 @@
    			"name": "HE-Head-CoG-Seatbelt-Accelerometer",
    			"id": [1090000]
    		},
+        {
+   			"type": "NODE",
+   			"name": "HE-Head-CoG-Seatbelt-Accelerometer-Local",
+   			"id": [1090010]
+   		},
    		{
    			"type": "NODE",
    			"name": "NE-C1_COG",
