@@ -196,14 +196,7 @@ $#       A        E1        E2        E3        E4
 $#     SID       DA1       DA2       DA3       DA4    SOLVER
          4        0.        0.        0.        0.          
 $#    PID1      PID2      PID3      PID4      PID5      PID6
-      PART         3         4         5         8         9        10
-*SET_NODE_LIST_GENERATE_TITLE
-$#                                                                         TITLE
-All Shoe Nodes
-$#     SID       DA1       DA2       DA3       DA4    SOLVER
-         5        0.        0.        0.        0.          
-$#   B1BEG     B1END
-         1      5298  
+      PART         3         4         5         8         9        10 
 $-------------------------------------------------------------------------------
 $ Contacts
 $-------------------------------------------------------------------------------
