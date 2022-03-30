@@ -18,18 +18,18 @@
 			}
 		},
 		{
-			"name": "HE-Head-CoG-Seatbelt-Accelerometer_dx-Local",
+			"name": "HE-Head-CoG-Accelerometer_dx-Global",
 			"part_of": "HEAD",
 			"x": {
 				"label": "time",
 				"type": "NODE",
-				"ID": "HE-Head-CoG-Seatbelt-Accelerometer-Local",
+				"ID": "HE-Head-CoG-Accelerometer-Global",
 				"array": ["(0, time)"]
 			},
 			"y": {
 				"label": "displacement",
 				"type": "NODE",
-				"ID": "HE-Head-CoG-Seatbelt-Accelerometer-Local",
+				"ID": "HE-Head-CoG-Accelerometer-Global",
 				"array": ["(0, x_displacement)"]
 			}
 		},        
@@ -3205,18 +3205,18 @@
 			}
 		},
 		{
-			"name": "HE-Head-CoG-Seatbelt-Accelerometer_dy-Local",
+			"name": "HE-Head-CoG-Accelerometer_dy-Global",
 			"part_of": "HEAD",
 			"x": {
 				"label": "time",
 				"type": "NODE",
-				"ID": "HE-Head-CoG-Seatbelt-Accelerometer-Local",
+				"ID": "HE-Head-CoG-Accelerometer-Global",
 				"array": ["(0, time)"]
 			},
 			"y": {
 				"label": "displacement",
 				"type": "NODE",
-				"ID": "HE-Head-CoG-Seatbelt-Accelerometer-Local",
+				"ID": "HE-Head-CoG-Accelerometer-Global",
 				"array": ["(0, y_displacement)"]
 			}
 		},        
@@ -6391,18 +6391,18 @@
 			}
 		},
 		{
-			"name": "HE-Head-CoG-Seatbelt-Accelerometer_dz-Local",
+			"name": "HE-Head-CoG-Accelerometer_dz-Global",
 			"part_of": "HEAD",
 			"x": {
 				"label": "time",
 				"type": "NODE",
-				"ID": "HE-Head-CoG-Seatbelt-Accelerometer-Local",
+				"ID": "HE-Head-CoG-Accelerometer-Global",
 				"array": ["(0, time)"]
 			},
 			"y": {
 				"label": "displacement",
 				"type": "NODE",
-				"ID": "HE-Head-CoG-Seatbelt-Accelerometer-Local",
+				"ID": "HE-Head-CoG-Accelerometer-Global",
 				"array": ["(0, z_displacement)"]
 			}
 		},        
@@ -9576,18 +9576,18 @@
 			}
 		},
         {
-			"name": "HE-Head-CoG-Seatbelt-Accelerometer_ax-Local",
+			"name": "HE-Head-CoG-Accelerometer_ax-Global",
 			"part_of": "HEAD",
 			"x": {
 				"label": "time",
 				"type": "NODE",
-				"ID": "HE-Head-CoG-Seatbelt-Accelerometer-Local",
+				"ID": "HE-Head-CoG-Accelerometer-Global",
 				"array": ["(0, time)"]
 			},
 			"y": {
 				"label": "displacement",
 				"type": "NODE",
-				"ID": "HE-Head-CoG-Seatbelt-Accelerometer-Local",
+				"ID": "HE-Head-CoG-Accelerometer-Global",
 				"array": ["(0, x_acceleration)"]
 			}
 		},        
@@ -12761,18 +12761,18 @@
 			}
 		},
         {
-			"name": "HE-Head-CoG-Seatbelt-Accelerometer_ay-Local",
+			"name": "HE-Head-CoG-Accelerometer_ay-Global",
 			"part_of": "HEAD",
 			"x": {
 				"label": "time",
 				"type": "NODE",
-				"ID": "HE-Head-CoG-Seatbelt-Accelerometer-Local",
+				"ID": "HE-Head-CoG-Accelerometer-Global",
 				"array": ["(0, time)"]
 			},
 			"y": {
 				"label": "displacement",
 				"type": "NODE",
-				"ID": "HE-Head-CoG-Seatbelt-Accelerometer-Local",
+				"ID": "HE-Head-CoG-Accelerometer-Global",
 				"array": ["(0, y_acceleration)"]
 			}
 		},        
@@ -15946,18 +15946,18 @@
 			}
 		},
         {
-			"name": "HE-Head-CoG-Seatbelt-Accelerometer_az-Local",
+			"name": "HE-Head-CoG-Accelerometer_az-Global",
 			"part_of": "HEAD",
 			"x": {
 				"label": "time",
 				"type": "NODE",
-				"ID": "HE-Head-CoG-Seatbelt-Accelerometer-Local",
+				"ID": "HE-Head-CoG-Accelerometer-Global",
 				"array": ["(0, time)"]
 			},
 			"y": {
 				"label": "displacement",
 				"type": "NODE",
-				"ID": "HE-Head-CoG-Seatbelt-Accelerometer-Local",
+				"ID": "HE-Head-CoG-Accelerometer-Global",
 				"array": ["(0, z_acceleration)"]
 			}
 		},        
@@ -19132,18 +19132,18 @@
 			}
 		},
         {
-			"name": "HE-Head-CoG-Seatbelt-Accelerometer_vx-Local",
+			"name": "HE-Head-CoG-Accelerometer_vx-Global",
 			"part_of": "HEAD",
 			"x": {
 				"label": "time",
 				"type": "NODE",
-				"ID": "HE-Head-CoG-Seatbelt-Accelerometer-Local",
+				"ID": "HE-Head-CoG-Accelerometer-Global",
 				"array": ["(0, time)"]
 			},
 			"y": {
 				"label": "displacement",
 				"type": "NODE",
-				"ID": "HE-Head-CoG-Seatbelt-Accelerometer-Local",
+				"ID": "HE-Head-CoG-Accelerometer-Global",
 				"array": ["(0, x_velocity)"]
 			}
 		},        
@@ -22317,18 +22317,18 @@
 			}
 		},
         {
-			"name": "HE-Head-CoG-Seatbelt-Accelerometer_vy-Local",
+			"name": "HE-Head-CoG-Accelerometer_vy-Global",
 			"part_of": "HEAD",
 			"x": {
 				"label": "time",
 				"type": "NODE",
-				"ID": "HE-Head-CoG-Seatbelt-Accelerometer-Local",
+				"ID": "HE-Head-CoG-Accelerometer-Global",
 				"array": ["(0, time)"]
 			},
 			"y": {
 				"label": "displacement",
 				"type": "NODE",
-				"ID": "HE-Head-CoG-Seatbelt-Accelerometer-Local",
+				"ID": "HE-Head-CoG-Accelerometer-Global",
 				"array": ["(0, y_velocity)"]
 			}
 		},        
@@ -25502,18 +25502,18 @@
 			}
 		},
         {
-			"name": "HE-Head-CoG-Seatbelt-Accelerometer_vz-Local",
+			"name": "HE-Head-CoG-Accelerometer_vz-Global",
 			"part_of": "HEAD",
 			"x": {
 				"label": "time",
 				"type": "NODE",
-				"ID": "HE-Head-CoG-Seatbelt-Accelerometer-Local",
+				"ID": "HE-Head-CoG-Accelerometer-Global",
 				"array": ["(0, time)"]
 			},
 			"y": {
 				"label": "displacement",
 				"type": "NODE",
-				"ID": "HE-Head-CoG-Seatbelt-Accelerometer-Local",
+				"ID": "HE-Head-CoG-Accelerometer-Global",
 				"array": ["(0, z_velocity)"]
 			}
 		},        
