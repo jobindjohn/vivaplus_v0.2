@@ -72,7 +72,7 @@ theme:
       - tabs
     icon: #'images/VIRTUAL.png'
         #logo: fontawesome/brands/git-alt
-        logo: fontawesome/solid/walking
+        logo: material/walk
         repo: fontawesome/brands/git-alt
         # Find more at https://material.io/resources/icons/
     font:
