@@ -177,19 +177,6 @@ For the VIRTUAL version of the VIVA+ models, joints of the upper extremities wil
 - Humerus and radius are connected with a spherical joint (center of rotation on tip of Radius). 
 - The radius and ulna are connected with a spherical joint on the distal end (center of rotation on ulnar styloid)
  
-<!-- 
-??? note "Future Development" 
-        
-    ### Gender Differences
-
-    Paper: Gender differences in the ratio between humerus width and length are established prior to puberty [@Clark2006]
-
-    Paper: Dimensions and estimated mechanical characteristics of the humerus after long-term tennis loading [@Haapasalo1993]
-
-    ### Changes due to aging
-
-    Paper: High-Resolution Tomography-Based Quantification of **Cortical Porosity and Cortical Thickness at the Surgical Neck** of the Humerus During Aging [@Helfen2017]
-     -->
 
 ## References
 
