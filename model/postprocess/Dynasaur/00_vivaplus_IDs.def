@@ -17,7 +17,7 @@
    		},
         {
    			"type": "NODE",
-   			"name": "HE-Head-CoG-Seatbelt-Accelerometer-Local",
+   			"name": "HE-Head-CoG-Accelerometer-Global",
    			"id": [1090010]
    		},
    		{

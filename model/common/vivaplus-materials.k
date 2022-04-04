@@ -1819,7 +1819,7 @@ PE-SI-Joint-Miller-1987
 $      MID|       RO|       PR|        N|       NV|        G|     SIGF|      REF|
     602020    1.2E-6     0.495         0                                      0.
 $      MU1|      MU2|      MU3|      MU4|      MU5|      MU6|      MU7|      MU8|
-     3.224                                                                      
+  3.224E-3                                                                      
 $   ALPHA1|   ALPHA2|   ALPHA3|   ALPHA4|   ALPHA5|   ALPHA6|   ALPHA7|   ALPHA8|
         2.                                                                      
 *MAT_ELASTIC_TITLE
@@ -1899,7 +1899,7 @@ $        K|
 *MAT_PLASTICITY_COMPRESSION_TENSION_TITLE
 LX-Tibia-Cortical-Burtsein-Reilly_1975
 $      MID|       RO|        E|       PR|        C|        P|     FAIL|     TDEL|
-    701401     2.E-6      22.2       0.3        0.        0.     1.E20        0.
+    701401     2.E-6      23.8       0.3        0.        0.     1.E20        0.
 $    LCIDC|    LCIDT|    LCSRC|    LCSRT|   SRFLAG|   LCFAIL|       EC|     RPCT|
     701401    701401                           0.0                            0.
 $       PC|       PT|    PCUTC|    PCUTT|    PCUTF|
@@ -1931,7 +1931,7 @@ $       A1|       A2|       A3|       V1|       V2|       V3|
 *MAT_PLASTICITY_COMPRESSION_TENSION_TITLE
 LX-Fibula-Cortical-Burstein-Reilly_1975
 $      MID|       RO|        E|       PR|        C|        P|     FAIL|     TDEL|
-    701601     2.E-6      22.2       0.3        0.        0.     1.E20        0.
+    701601     2.E-6        15       0.3        0.        0.     1.E20        0.
 $    LCIDC|    LCIDT|    LCSRC|    LCSRT|   SRFLAG|   LCFAIL|       EC|     RPCT|
     701401    701401                           0.0                            0.
 $       PC|       PT|    PCUTC|    PCUTT|    PCUTF|
@@ -5928,8 +5928,8 @@ Femur Trabecular Ding_2000
 *DEFINE_CURVE_TITLE
 Tibia Cortical Burstein Reilly Tension
     701401         0        1.        1.        0.        0.         0         0
-                  0.          0.12800238
-           0.0227683          0.15884568
+                  0.          0.12969836
+           0.0249916          0.16155004
 *DEFINE_CURVE_TITLE
 LX-Knee-Ligament-MCL_high-Kunitomi-et-al.2017
     702110         0        1.    2.5E-4&MCL_l_off        0.         0         0
