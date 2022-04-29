@@ -2,7 +2,7 @@
 
 Human body finite element (FE) models for Injury Assessments
 
-Beta version `0.3.0rc4` released on 2022-03-03
+Beta version `0.3.1` released on 2022-04-29
 
 *The VIVA+ models are under active development, with frequent beta releases. See updates in [CHANGELOG](CHANGELOG.md)*
 

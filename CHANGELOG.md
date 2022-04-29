@@ -6,14 +6,29 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 # beta  versions
+
+## 0.3.1 - 2022-04-29
+### Added
+
+- New PIDs (403603, 453603)at the junction between the costal cartilage and ribs plus at the junction of the posterior rigid ribs and the ribs (PIDs 403604, 453604) - to improve post processing of ribs
+
+### Modified
+
+- Updated contact 400001 to include also soft tissue around ribcage
+  - Remaining part (abdominal muscle) of old contact 400010 was assigned to a new tied contact
+  - Removed old contact 400010 and associated sets
+  - Move nodes in soft tissue to work with new contact definitions
+
 ## 0.3.0rc4 - 2022-03-03
-### Added:
+### Added
+
 - Pedestrian Postures
 - New global head accelerometer
 - Missing left elbow landmark
 - Recommended control cards in model director
 
 ### Modified
+
 - Database extent binary card
 
 
