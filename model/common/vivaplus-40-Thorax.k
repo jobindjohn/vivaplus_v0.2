@@ -1,13 +1,13 @@
 $
-$ANSA_VERSION;22.0.0;
+$ANSA_VERSION;22.0.1;
 $
 $
-$ file created by  A N S A  Fri Feb 18 16:05:05 2022
+$ file created by  A N S A  Fri Apr 29 11:31:46 2022
 $
 $ output from :
 $
-$ C:/Users/jobinj/Box/vivaplus-share/VIVA-Plus-Meshing-Shared-Folder/v0_3/vivapl
-$ us-50F_v030_220218.ansa
+$ C:/Users/iraeus/Documents/Projects/VIRTUAL/ViVA+/RELEASES/vivaplus-v0-3-0rc5/5
+$ 0F-seated/vivaplus-50F.key
 $
 $ Settings :
 $
@@ -804,6 +804,30 @@ $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID
 TX-Ribcage-Cartilage-Solid-L
 $    SECID|   ELFORM|
     403602         1
+*PART_CONTACT
+TX-Ribcage-Costochondral_Junction-Exterior-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
+    403603    403603    403004              900003         0         0          
+$       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
+                                               0.5                    
+*SECTION_SHELL_TITLE
+TX-Ribcage-Costochondral_Junction-Exterior-L
+$    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
+    403603        16      0.83        5.        1.         0         0
+$       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
+       0.7       0.7       0.7       0.7        0.                  0.          
+*PART_CONTACT
+TX-Ribcage-Rigid_Deformable_Transition-Exterior-L
+$      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
+    403604    403604    403004              900003         0         0          
+$       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
+                                               0.5                    
+*SECTION_SHELL_TITLE
+TX-Ribcage-Rigid_Deformable_Transition-Exterior-L
+$    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
+    403604        16      0.83        5.        1.         0         0
+$       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
+       0.7       0.7       0.7       0.7        0.                  0.          
 *PART
 TX-Intercostal-External-T1-T12-Muscle-L
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
@@ -821,7 +845,7 @@ TX-Intercostal-External-T1-T12-Null-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
     404009         2        1.        1.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
-        1.        1.        1.        1.                            0.          
+       0.5       0.5       0.5       0.5                            0.          
 *PART
 TX-Intercostal-T1-T12-Null_edge-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
@@ -1558,6 +1582,30 @@ $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID
 TX-Ribcage-Cartilage-Solid-R
 $    SECID|   ELFORM|
     453602         1
+*PART_CONTACT
+TX-Ribcage-Costochondral_Junction-Exterior-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
+    453603    453603    403004              900003         0         0          
+$       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
+                                               0.5                    
+*SECTION_SHELL_TITLE
+TX-Ribcage-Costochondral_Junction-Exterior-R
+$    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
+    453603        16      0.83        5.        1.         0         0
+$       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
+       0.7       0.7       0.7       0.7        0.                  0.          
+*PART_CONTACT
+TX-Ribcage-Rigid_Deformable_Transition-Exterior-R
+$      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
+    453604    453604    403004              900003         0         0          
+$       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
+                                               0.5                    
+*SECTION_SHELL_TITLE
+TX-Ribcage-Rigid_Deformable_Transition-Exterior-R
+$    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
+    453604        16      0.83        5.        1.         0         0
+$       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
+       0.7       0.7       0.7       0.7        0.                  0.          
 *PART
 TX-Intercostal-External-T1-T12-Muscle-R
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
@@ -1575,7 +1623,7 @@ TX-Intercostal-External-T1-T12-Null-R
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
     454009         2        1.        1.        1.         0         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
-        1.        1.        1.        1.                            0.          
+       0.5       0.5       0.5       0.5                            0.          
 *PART
 TX-Intercostal-T1-T12-Null_edge-R
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
@@ -2056,6 +2104,10 @@ $ANSA_COLOR;403601;SECTION_SHELL;.658823549747467;.047058824449778;.945098042488
 $098;1.;
 $ANSA_COLOR;403602;SECTION_SOLID;.572549045085907;.376470595598221;.752941191196
 $442;1.;
+$ANSA_COLOR;403603;SECTION_SHELL;.964705884456635;.160784319043159;.380392163991
+$928;1.;
+$ANSA_COLOR;403604;SECTION_SHELL;.850980401039124;.254901975393295;.498039215803
+$146;1.;
 $ANSA_COLOR;404001;SECTION_SOLID;.933333337306976;.862745106220245;.509803950786
 $591;1.;
 $ANSA_COLOR;404009;SECTION_SHELL;.517647087574005;.639215707778931;.380392163991
@@ -2202,6 +2254,10 @@ $ANSA_COLOR;453601;SECTION_SHELL;.901960790157318;.447058826684952;.635294139385
 $223;1.;
 $ANSA_COLOR;453602;SECTION_SOLID;.831372559070587;.945098042488098;.658823549747
 $467;1.;
+$ANSA_COLOR;453603;SECTION_SHELL;.776470601558685;.533333361148834;.054901961237
+$192;1.;
+$ANSA_COLOR;453604;SECTION_SHELL;.603921592235565;.066666670143604;.501960813999
+$176;1.;
 $ANSA_COLOR;454001;SECTION_SOLID;.933333337306976;.862745106220245;.509803950786
 $591;1.;
 $ANSA_COLOR;454009;SECTION_SHELL;.733333349227905;.235294118523598;0.24705882370
