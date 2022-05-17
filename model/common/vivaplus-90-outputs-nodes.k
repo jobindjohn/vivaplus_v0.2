@@ -33,10 +33,10 @@ $ANSA_ID;1090010;
    1090010HE-Head-CoG-Accelerometer-Global                                      
 $ANSA_ID;1102596;
 *DATABASE_HISTORY_NODE_ID
-   1102596HE_OC_L                                                               
+   1102596HE-OC_L                                                               
 $ANSA_ID;1104482;
 *DATABASE_HISTORY_NODE_ID
-   1104482HE_OC_R                                                               
+   1104482HE-OC_R                                                               
 $ANSA_ID;2091010;
 *DATABASE_HISTORY_NODE_ID
    2091010NE-C1_COG                                                             
@@ -456,7 +456,7 @@ $ANSA_ID;4093502;
    4093502TX-Sternum_PX                                                         
 $ANSA_ID;4093503;
 *DATABASE_HISTORY_NODE_ID
-   4093503TX_Sternum_Mid                                                        
+   4093503TX-Sternum_Mid                                                        
 $ANSA_ID;5091012;
 *DATABASE_HISTORY_NODE_ID
    5091012AB-L1_bottom                                                          
