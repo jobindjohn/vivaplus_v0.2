@@ -2,12 +2,11 @@ $
 $ANSA_VERSION;22.0.0;
 $
 $
-$ file created by  A N S A  Mon Feb  7 12:26:16 2022
+$ file created by  A N S A  Sat May 14 14:35:12 2022
 $
 $ output from :
 $
-$ C:/Users/jobinj/Box/vivaplus-share/VIVA-Plus-Meshing-Shared-Folder/v0_3/vivapl
-$ us-50F_v030_211214.ansa
+$ C:/Users/jobinj/Untitled
 $
 $ Settings :
 $
@@ -13997,6 +13996,53 @@ $9227905;.874509811401367;1.;
    2127877       123        1.
    2127865       123        1.
 *CONSTRAINED_INTERPOLATION
+   4093503   4093503    123456                   0          
+   4143693       123        1.
+   4143682       123        1.
+   4146201       123        1.
+   4146202       123        1.
+   4143694       123        1.
+   4143689       123        1.
+   4143684       123        1.
+   4146262       123        1.
+   4143685       123        1.
+   4187644       123        1.
+   4187633       123        1.
+   4187645       123        1.
+   4187640       123        1.
+   4187635       123        1.
+   4187636       123        1.
+   4145565       123        1.
+   4145564       123        1.
+   4149189       123        1.
+   4149184       123        1.
+   4149190       123        1.
+   4149185       123        1.
+   4145682       123        1.
+   4151533       123        1.
+   4151534       123        1.
+   4145928       123        1.
+   4145925       123        1.
+   4149234       123        1.
+   4149224       123        1.
+   4149235       123        1.
+   4149225       123        1.
+   4145684       123        1.
+   4151558       123        1.
+   4151559       123        1.
+   4192877       123        1.
+   4192882       123        1.
+   4192878       123        1.
+   4192883       123        1.
+   4195168       123        1.
+   4195169       123        1.
+   4192917       123        1.
+   4192927       123        1.
+   4192918       123        1.
+   4192928       123        1.
+   4195193       123        1.
+   4195194       123        1.
+*CONSTRAINED_INTERPOLATION
    6591001   6591001    123456                   0          
    6130958       123        1.
    6130911       123        1.
@@ -19153,6 +19199,7 @@ $;NO;NO;NO;
 $ANSA_NAME_COMMENT;9500250;CONSTRAINED_EXTRA_NODES_NODE;TX-T8-T9;;NO;NO;NO;
 $ANSA_NAME_COMMENT;9500251;CONSTRAINED_EXTRA_NODES_NODE;AB-L1-top;;NO;NO;NO;
 $ANSA_NAME_COMMENT;9500252;CONSTRAINED_EXTRA_NODES_NODE;AB-T12-L1-MP;;NO;NO;NO;
+$ANSA_NAME_COMMENT;4093503;CONSTRAINED_INTERPOLATION;TX_Sternum_Mid;;NO;NO;NO;
 $ANSA_PART;GROUP;ID;2149;NAME;Upper-extremity-joints;PID_OFFSET;0;COLOR;207;158;
 $248;0;IS_COLOR_ACTIVE;0;GET_COLOR_FROM_ID;2167;PART_TYPE;Undefined;ATTRIBUTES;2
 $;DM/File Type;ANSA;DM/Status;WIP;CONTAINS;ANSAPART;2233;
@@ -19266,4 +19313,7 @@ $ANSA_PART;PART;ID;2233;NAME;Upper_Ex_Rigids;STUDY_VERSION;0;PID_OFFSET;0;COLOR;
 $162;133;213;0;IS_COLOR_ACTIVE;0;GET_COLOR_FROM_ID;2167;PART_TYPE;Undefined;ATTR
 $IBUTES;2;DM/File Type;ANSA;DM/Status;WIP;CONTAINS;CONSTRAINED_EXTRA_NODES_NODE;
 $3091435,3091535,3591435;
+$ANSA_PART;PART;ID;2242;NAME;New_Part_2242;STUDY_VERSION;0;PID_OFFSET;0;COLOR;14
+$8;83;0;0;IS_COLOR_ACTIVE;1;PART_TYPE;Undefined;ATTRIBUTES;2;DM/File Type;ANSA;D
+$M/Status;WIP;CONTAINS;CONSTRAINED_INTERPOLATION;4093503;
 *END
