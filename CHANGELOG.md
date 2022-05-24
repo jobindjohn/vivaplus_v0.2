@@ -7,6 +7,13 @@ and this project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.ht
 
 # beta  versions
 
+
+## 0.3.2 - 2022-05-16
+### Added
+
+- New output definitions for Mid-sternum and occipital condyles
+
+
 ## 0.3.1 - 2022-04-29
 ### Added
 

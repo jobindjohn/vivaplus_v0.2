@@ -20,6 +20,14 @@
    			"name": "HE-Head-CoG-Accelerometer-Global",
    			"id": [1090010]
    		},
+		{  	"type": "NODE",
+   		   	"name": "HE-OC_L",
+   			"id": [1102596]
+		},
+		{  	"type": "NODE",
+			"name": "HE-OC_R",
+		 	"id": [1104482]
+  		},
    		{
    			"type": "NODE",
    			"name": "NE-C1_COG",
@@ -630,6 +638,11 @@
    			"name": "TX-Sternum_PX",
    			"id": [4093502]
    		},
+		{
+			"type": "NODE",
+			"name": "TX-Sternum_Mid",
+			"id": [4093503]
+		},
    		{
    			"type": "NODE",
    			"name": "AB-L1_bottom",
