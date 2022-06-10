@@ -45,10 +45,10 @@ $ANSA_ID;404001;
 NE_Vetrtebrae-cortical-bones
      20000                                        
 PART          201011    201021    201031    201041    201051    201061    201071
-*SET_SOLID_GENERAL_TITLE
-UX_cortical_bones_solids
-     30001                                        
-PART          301321    301421    301521    351321    351421    351521
+$*SET_SOLID_GENERAL_TITLE
+$UX_cortical_bones_solids
+$     30001                                        
+$PART          301321    301421    301521    351321    351421    351521
 *SET_SHELL_GENERAL_TITLE
 TX_Cortical_Bones
      40000                                        
