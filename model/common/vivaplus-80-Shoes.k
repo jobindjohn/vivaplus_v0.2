@@ -48,6 +48,9 @@ $
 $*INCLUDE
 $vivaplus-82-Shoes-50F_standing_nodes.k
 $
+*CONTROL_HOURGLASS
+$#     ihq        qh
+         3  0.100000
 *PART
 $#                                                                       HEADING
 Sole_outer_left
@@ -196,6 +199,13 @@ $#     SID       DA1       DA2       DA3       DA4    SOLVER
          4        0.        0.        0.        0.          
 $#    PID1      PID2      PID3      PID4      PID5      PID6
       PART         3         4         5         8         9        10 
+*SET_PART_LIST
+$#     SID       DA1       DA2       DA3       DA4    SOLVER
+         5        0.        0.        0.        0.          
+$#    PID1      PID2
+         4         5         9        10  
+*DAMPING_PART_STIFFNESS_SET
+         5       0.5         
 $-------------------------------------------------------------------------------
 $ Contacts
 $-------------------------------------------------------------------------------
