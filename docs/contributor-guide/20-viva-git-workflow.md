@@ -61,7 +61,9 @@ A brief overview of the git Workflow is provided here, but detailed help can be 
 
 _(Skip this step if you alrady have the VIVA+ repo on your computer)_
 
-`git clone git@virtual.openvt.eu:fem/viva/plus.git`
+```
+git clone https://openvt.eu/fem/viva/vivaplus.git
+``` 
 
 ## Step 2: Start an **Issue**
 

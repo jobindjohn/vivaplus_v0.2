@@ -2,38 +2,35 @@
 
 ![viva-plus-logo](images/vivaplus-docs-homepage-logo.png)
 
-![](model/images/Vivaplus0.2.2.PNG#center)
+![](model/images/vivaplus_v0.3.2.jpg#center){: style="height:500px;width:500px"}
 
-## **Getting started**
+<!-- # **Getting started** -->
 
 Welcome to the online documentation of the VIVA+ Human Body Models! 
 
 Here you will find information on getting started with the VIVA+ models, documentation of model implementations, and guides to make contributions to the models.
 
-### **Models** 
+# **Models** 
 
-#### Vehicle Occupant
+### Vehicle Occupant (Seated)
 
 - Average female (**50F**)
 - Average male (**50M**)
 
-#### Vulnerable Road Users (VRU)
+### Vulnerable Road Users 
 
 - Average female standing (**50F-VRU**)
 - Average male standing (**50M-VRU**)
 
-## **Quick Start**
+## Download the Models
 
-Download or Clone repository from the VIVA+ repository at [OpenVT](https://virtual.openvt.eu/fem/viva/vivaplus)
+Download from [OpenVT](https://openvt.eu/fem/viva/vivaplus)
 
+or 
+
+Clone the VIVA+ repository using git
 ```
-git clone https://virtual.openvt.eu/fem/viva/vivaplus.git
-```
-
-or
-
-```
-git clone git@virtual.openvt.eu:fem/viva/plus.git
+git clone https://openvt.eu/fem/viva/vivaplus.git
 ```
 
 ## **Documentation**
@@ -46,7 +43,7 @@ This documentation provides technical reference, tutorials, how-to guides for th
 !!! warning "Work in Progress: The VIVA+ documentation is under construction"
     
     We are in the process of writing the documentation. If you would like to 
-    see specific details of the model added to the documentation, let us know by starting an [issue](https://virtual.openvt.eu/fem/viva/vivaplus/-/issues/new?issue%5Bassignee_id%5D=&issue%5Bmilestone_id%5D=) on the repo
+    see specific details of the model added to the documentation, let us know by starting an [issue](https://openvt.eu/fem/viva/vivaplus/-/issues/new?issue%5Bassignee_id%5D=&issue%5Bmilestone_id%5D=) on the repo
 
 ## **You are welcome to Contribute!**
 
@@ -60,11 +57,11 @@ How can you contribute?
 - Translate the model to **other Finite Element (FE) solvers**
 - Translate the documentation into **other languages**
 
-Find out more on how to be part of the VIVA+ community in CONTRIBUTING.md
+<!-- Find out more on how to be part of the VIVA+ community in CONTRIBUTING.md -->
 
 ## **License**
 
-VIVA+ Human Body Models are Open Source with LGPL v3 license, which means the models are freely available to use and users are free to modify and distribute the models under the same license. <a href="https://www.gnu.org/licenses/lgpl-3.0-standalone.html">
+VIVA+ Human Body Models are Open Source with LGPL v3 license, which means the models are freely available to use and users are free to modify and distribute the models without any change in the license. <a href="https://www.gnu.org/licenses/lgpl-3.0-standalone.html">
   <img src="images/lgplv3.png" width="50" />
 </a>
 

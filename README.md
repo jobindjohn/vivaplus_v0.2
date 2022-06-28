@@ -8,7 +8,7 @@ Beta version `0.3.2` released on 2022-05-16
 
 ## Quick start
 
-Download the files (download [link above](https://virtual.openvt.eu/fem/viva/vivaplus/-/archive/master/vivaplus-master.zip))
+Download the files (download [link above](https://openvt.eu/fem/viva/vivaplus/-/archive/master/vivaplus-master.zip))
 
 or
 
