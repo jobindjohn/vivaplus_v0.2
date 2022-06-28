@@ -1,6 +1,6 @@
 # Contributing to the Validation Catalog
 
-All the validations for VIVA+ are documented in Jupyter notebooks. A separate repository is maintained to host all the validation load cases: [Validation Catalog](https://virtual.openvt.eu/fem/viva/vivaplus-validation)
+All the validations for VIVA+ are documented in Jupyter notebooks. A separate repository is maintained to host all the validation load cases: [Validation Catalog](https://openvt.eu/fem/viva/vivaplus-validation)
 
 !!! example "Golden Path: Making a validation notebook"
 
@@ -20,9 +20,9 @@ All the validations for VIVA+ are documented in Jupyter notebooks. A separate re
         - [10. Validation notebook review](#10-validation-notebook-review)
     
 
-## Getting started
+## **Getting started**
 
-It is good practice to let the VIVA+ community know that you are working on the validation by creating an issue on the validation catalog repository.
+It's nice to let the VIVA+ community know that you are working on the validation by creating an issue on the validation catalog repository.
 
 ### 1. Start an issue for the new validation load case
 
@@ -38,16 +38,16 @@ Open an issue on the repo with a description of the validation case. Give a brie
 
 ![](img/validation-catalog-start-branch.png)
 
-## Setting up your validation directory
+## **Setting up your validation directory**
 
 The following steps assume that you have Git installed on your system.
 
-### 3. Get the VIVA+ Validation Repo and Validation Branch
+### 3. Get a copy of the VIVA+ Validation Repo and Validation Branch
 
 If you don't have a copy of the validation repo on your computer, use `git clone` to start a local repo.
 
 ```
-git clone --recurse-submodules git@virtual.openvt.eu:fem/viva/vivaplus-validation.git
+git clone https://openvt.eu/fem/viva/vivaplus-validation.git
 ```
 After you clone the repo, checkout the branch you created in step 2 before you proceed with the rest of the steps. Replace `branch-name` with the name of the branch you created in Step 2.
 
@@ -57,24 +57,11 @@ git checkout -b branch-name
 ```
 ### 4. Start a new folder for the load case
 
-Copy the template folder `0000-validation-template` and rename the folder as `NNNN-Author-YYYY-Load-case-keywords`. We use this template for a logical standardization to make it easy to find data (simulation files and postprocessing notebooks) and reproduce the results.
+Copy `Kroell_1971-Front-hub-impact` as a template for the subdirectories and Jupyter notebook. 
+Rename the folder and Jupyter notebook as `Author_YYYY-Load-case-keywords`. 
+`Author-YYYY` specifies the validation experiment to reflect the publication of the experimental study. 
 
-- `NNNN` is serial number used to organize the repo and follows the numbering scheme given below (corresponds to VIVA+ Identifier Scheme for body regions). Check the last used digit in the range your notebook falls and increment by 1.
--  `Author-YYYY` specifies the validation experiment to reflect the publication of the experimental study. 
-
-| `NNNN` | Description            |
-|-------:|:-----------------------|
-|   0000 | Whole body simulations |
-|   1000 | Head                   |
-|   2000 | Neck                   |
-|   3000 | Upper Extremity        |
-|   4000 | Thorax                 |
-|   5000 | Abdomen                |
-|   6000 | Pelvis                 |
-|   7000 | Lower Extremity        |
-
-
-## Postprocessing your simulations
+## **Postprocessing your simulations**
 
 VIVA+ validations are recorded as Jupyter notebooks. Rename the serial number and notebook from the template you just copied to the same as your folder name. Postprocessing for the validation catalog is done using Python-based [Dynasaur](../user-guide/50-postprocess-dynasaur.md) library.
 
@@ -82,22 +69,23 @@ VIVA+ validations are recorded as Jupyter notebooks. Rename the serial number an
 
     The following steps require Anaconda/Miniconda to setup working environments. The easiest way to get started with Python is using Anaconda. You can find Anaconda installers for your Operating System at the [Anaconda webpage](https://www.anaconda.com/products/individual). 
 
-### 5. Set up your environment
+### 5. Activate conda environment 
 
+If you already have the necessary environment, activate it by `conda activate viva` (If you had a different name for your environment, replace `viva` with the name of your environment)
 
-You can set up the conda environment needed for VIVA+ notebooks using the `requirements.txt` file in the `vivaplus-validation` repo that you just cloned.
+If you have not previously setup an environment, follow the steps below to setup a new environment.
 
-On Windows, the easiest way is to open your Anaconda prompt and move to the `vivaplus-validation` directory. Follow the instructions below from the `vivaplus-validation` directory. 
+??? note "Setting up a NEW conda environment for VIVA+"
 
-- If you previously setup an environment, activate it by `conda activate viva` (replace `viva` with the name of your environment)
+    You can set up the conda environment needed for VIVA+ notebooks using the `requirements.txt` file in the `vivaplus-validation` repo that you just cloned.
 
+    On Windows, the easiest way is to open your Anaconda command prompt and move to the `vivaplus-validation` directory. Follow the instructions below from the `vivaplus-validation` directory location in the command prompt. 
 
-!!! note "Setting up a conda environment for VIVA+"
 
     1. Create a new conda environment with the name `viva` with Python 3.8 installed
 
     ```
-    conda create --name viva python=3.8
+    conda create --name viva python=3.7
     ```
 
     1. After you create the conda environment, activate the environment
@@ -117,15 +105,15 @@ On Windows, the easiest way is to open your Anaconda prompt and move to the `viv
 
     By having a separate working environment on your system for running the validation notebooks, you can ensure that you are postprocessing using the same versions of libraries as the rest of the VIVA+ contributors. This minimizes the risk of runtime errors and makes it easy to integrate your validation notebook with the main validation catalog.
 
-??? tip "Tips for Windows Users"
+??? tip "Note to Windows Users"
 
     - Conda environments can be accessed from other Windows CLI (Powershell/Windows Terminal). To do so, do a one time initialization using `conda init powershell` 
-    - All these work smoothly on Windows Subsystem for Linux (WSL) too. You will need to have a separate Anaconda installation for WSL. 
+    - All these work on Windows Subsystem for Linux (WSL) too. You will need to have a separate Anaconda installation for WSL. 
         
 
 ### 6. Starting Jupyter
 
-We use JupyterLab as IDE(Integrated Development Environment) for Jupyter notebooks. Start JupyterLab by using this command within your conda environment 
+We recommend JupyterLab as IDE (Integrated Development Environment) for Jupyter notebooks. Start JupyterLab by using this command within your conda environment 
 
 ```
 jupyter lab 
@@ -137,12 +125,23 @@ jupyter lab
 
 ### 7. Using Dynasaur to postprocess
 
-The notebook in the template folder has the basic steps to get started with postprocessing (importing binouts and extracting simulation outputs)
+Adjust the links to the binouts and make the necessary figures to describe the response of the models in the loadcase. Add descriptions of the experiments and comments as necessary about the simulations.
 
 <!-- TODO: Add note on snippets -->
-## Preparing to publish on the VIVA+ Validation Catalog
+## **Preparing to publish on the VIVA+ Validation Catalog**
 
 ### 8. Jupyter Cell Metadata
+
+We use `Cell Tags` to indicate whether a text/markdown or code cell needs to be visible on the Catalog. Cell Tags are cell-level metadata.
+
+On JupyterLab, the cell tags can be edited under the menu on the top right with the gears icon. If you started working with the Kroell/template notebook, the tags used in the validation will be able as below
+
+![](img/cell-tags.png)
+
+- ``remove-cell`: Cell is not shown on the webpage
+- `hide-input`: Hides the input, but shows the output. For example, hide the code input in code cell for producing a figure, but show the figure output
+- `hide-output`: Hide the output of the cell
+- `hide-cell`: Hide both the input and the output of the cell
 
 ### 9. Submit Merge Request
 
