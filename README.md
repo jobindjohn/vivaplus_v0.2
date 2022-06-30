@@ -12,7 +12,7 @@ Download the files (download [link above](https://openvt.eu/fem/viva/vivaplus/-/
 
 or
 
-Clone the repository:
+Clone the repository using git:
 
 ```
 git clone https://openvt.eu/fem/viva/vivaplus.git
@@ -32,21 +32,23 @@ vivaplus
 |   ├─── positioned_models
 |   ├─── postproces
 │   └─── preprocess
-├─── docs
-└─── utils
+└─── docs
 ```
 
 ## Documentation and User Community
 
 The documentation is available at <https://vivaplus.readthedocs.io/>
 
-Join the **users' community** [![project chat](https://img.shields.io/badge/zulip-join_chat-brightgreen.svg)](https://vivaplus.zulipchat.com)
+Questions? Join the conversation at **users' community** [![project chat](https://img.shields.io/badge/zulip-join_chat-brightgreen.svg)](https://vivaplus.zulipchat.com)
 
 ## License
 
 The models are licensed under [GNU Lesser General Public License, v3](https://www.gnu.org/licenses/lgpl-3.0-standalone.html)
 
 ![LGPLv3)](docs/images/lgplv3.png)
+
+&copy; 2019-2022, VIVA+ Developers (See `CONTRIBUTING.md` for details)
+&copy; 2019, ViVA Developers (See `CONTRIBUTING.md` for details)
 
 ## Acknowledgement
 
