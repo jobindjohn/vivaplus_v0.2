@@ -49,7 +49,7 @@ John, J., Klug, C., Kranjec, M., Svenning, E., & Iraeus, J., Frontiers in in Bio
 
 ```
 @Article{John2022,
-  author  = {Jobin John, Corina Klug, Matej Kranjec, Erik Svenning, and Johan Iraeus},
+  author  = {Jobin John and Corina Klug and Matej Kranjec and Erik Svenning and Johan Iraeus},
   journal = {Frontiers in in Bioengineering and Biotechnology},
   title   = {Hello, World! VIVA+: A Human Body Model lineup to evaluate Sex-Differences in Crash Protection},
   year    = {2022},

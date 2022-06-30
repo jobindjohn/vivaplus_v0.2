@@ -99,9 +99,8 @@ Rigidified parts of bones that are used for joint definitions are separated into
 
 ## Include file structure
 
-### General Structure
 
-![Include File Structure](images/include-file-structure.png)
+![Include File Structure](images/include-file-structure.jpg)
 
 <!-- ### Include File Tree
 
