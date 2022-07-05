@@ -143,14 +143,12 @@ On JupyterLab, the cell tags can be edited under the menu on the top right with 
 - `hide-output`: Hide the output of the cell
 - `hide-cell`: Hide both the input and the output of the cell
 
-### 9. Submit Merge Request
+### 9. Ready to Merge
 
-Checklist
-
-- [ ] Update the README within the validation folder with a brief description of the load case and the information needed by a new user to find the simulation files, outputs, and results.
-- [ ] Review
-
+When you are ready with your load case, inform the maintainers ready by clicking the `Mark as Ready` on the top left when you open your Merge request.
 
 <!-- TODO: (Jobin) Update checklist -->
 
 ### 10. Validation notebook review
+
+The VIVA+ maintainers will review your contribution and merge your load case to the validation catalog. 
