@@ -4,19 +4,19 @@ All the validations for VIVA+ are documented in Jupyter notebooks. A separate re
 
 !!! example "Golden Path: Making a validation notebook"
 
-    - [Getting started](#getting-started)
+    - [**Getting started**](#getting-started)
         - [1. Start an issue for the new validation load case](#1-start-an-issue-for-the-new-validation-load-case)
         - [2. Create a branch](#2-create-a-branch)
-    - [Setting up your validation directory](#setting-up-your-validation-directory)
-        - [3. Get the VIVA+ Validation Repo](#3-get-the-viva-validation-repo)
+    - [**Setting up your validation directory**](#setting-up-your-validation-directory)
+        - [3. Get a copy of the VIVA+ Validation Repo and Validation Branch](#3-get-a-copy-of-the-viva-validation-repo-and-validation-branch)
         - [4. Start a new folder for the load case](#4-start-a-new-folder-for-the-load-case)
-    - [Postprocessing your simulations](#postprocessing-your-simulations)
-        - [5. Set up your environment](#5-set-up-your-environment)
+    - [**Postprocessing your simulations**](#postprocessing-your-simulations)
+        - [5. Activate conda environment](#5-activate-conda-environment)
         - [6. Starting Jupyter](#6-starting-jupyter)
         - [7. Using Dynasaur to postprocess](#7-using-dynasaur-to-postprocess)
-    - [Preparing to publish on the VIVA+ Validation Catalog](#preparing-to-publish-on-the-viva-validation-catalog)
+    - [**Preparing to publish on the VIVA+ Validation Catalog**](#preparing-to-publish-on-the-viva-validation-catalog)
         - [8. Jupyter Cell Metadata](#8-jupyter-cell-metadata)
-        - [9. Submit Merge Request](#9-submit-merge-request)
+        - [9. Ready to Merge](#9-ready-to-merge)
         - [10. Validation notebook review](#10-validation-notebook-review)
     
 

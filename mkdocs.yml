@@ -50,7 +50,7 @@ nav:
         #- 'Merging your contributions': 'contributor-guide/50-merge-guidelines.md'
         #- 'Making model releases': 'contributor-guide/60-model-release.md'
         - 'Documentation Guidelines': 'contributor-guide/70-documentation-guidelines.md'
-        - 'Validation Catalog': 'contributor-guide/80-validation-catalog.md'
+        - 'Validation Catalog': 'contributor-guide/validation-catalog.md'
         #- 'Toolkit': 'contributor-guide/95-toolkit.md'
 
 # Configuration
