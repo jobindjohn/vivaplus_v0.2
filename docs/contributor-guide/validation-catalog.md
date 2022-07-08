@@ -4,19 +4,19 @@ All the validations for VIVA+ are documented in Jupyter notebooks. A separate re
 
 !!! example "Golden Path: Making a validation notebook"
 
-    - [Getting started](#getting-started)
+    - [**Getting started**](#getting-started)
         - [1. Start an issue for the new validation load case](#1-start-an-issue-for-the-new-validation-load-case)
         - [2. Create a branch](#2-create-a-branch)
-    - [Setting up your validation directory](#setting-up-your-validation-directory)
-        - [3. Get the VIVA+ Validation Repo](#3-get-the-viva-validation-repo)
+    - [**Setting up your validation directory**](#setting-up-your-validation-directory)
+        - [3. Get a copy of the VIVA+ Validation Repo and Validation Branch](#3-get-a-copy-of-the-viva-validation-repo-and-validation-branch)
         - [4. Start a new folder for the load case](#4-start-a-new-folder-for-the-load-case)
-    - [Postprocessing your simulations](#postprocessing-your-simulations)
-        - [5. Set up your environment](#5-set-up-your-environment)
+    - [**Postprocessing your simulations**](#postprocessing-your-simulations)
+        - [5. Activate conda environment](#5-activate-conda-environment)
         - [6. Starting Jupyter](#6-starting-jupyter)
         - [7. Using Dynasaur to postprocess](#7-using-dynasaur-to-postprocess)
-    - [Preparing to publish on the VIVA+ Validation Catalog](#preparing-to-publish-on-the-viva-validation-catalog)
+    - [**Preparing to publish on the VIVA+ Validation Catalog**](#preparing-to-publish-on-the-viva-validation-catalog)
         - [8. Jupyter Cell Metadata](#8-jupyter-cell-metadata)
-        - [9. Submit Merge Request](#9-submit-merge-request)
+        - [9. Ready to Merge](#9-ready-to-merge)
         - [10. Validation notebook review](#10-validation-notebook-review)
     
 
@@ -55,11 +55,48 @@ After you clone the repo, checkout the branch you created in step 2 before you p
 cd vivaplus-validation # Move inside the repository
 git checkout -b branch-name
 ```
+
+!!! note "If you already have a clone..."
+
+    If you have already have done this step previously, all you need to do is `fetch` the updates on the repository since the last time you worked on the validation catalog.
+
+      - Use `git fetch --all` to get all the updates.
+      - After that checkout your new branch using `git checkout -b branch-name`
+
+
+#### When you have a copy...
+
+The repository has three subdirectories: **catalog**, **vivaplus**, **submodels**.
+
+```sh
+vivaplus-validation
+├── catalog
+|   └── loadcase
+|       ├── _env
+|       ├── data
+|       ├── dyna
+|       └── results
+├── vivaplus
+└── submodels
+```
+
+##### What are in these subdirectories?
+
+- **catalog**: This is where the data for loadcases lives. The simulation input files are placed in `dyna`, associated simulation envirnoment in `_env`, experimental data and postprocessed data in `data`, and output figures in `results`. The postprocessing Jupyter notebooks are placed at the root of this directory with the same name as the loadcase folder.
+- **vivaplus**: The latest stable version of the VIVA+ model is available here. If you are using the full VIVA+ model for your loadcase, it is recommended that you use these models as includes in the simulation run files within `your-loadcase/dyna` directory
+- **submodels**: If you use submodels for your validation loadcase, there are placed here. If you make a new submodel, don't forget to update this directory with your the submodels that you created. It is important to leave a note of the version of VIVA+ you used to make your submodel in the *TITLE of the simulation and postprocessing notebooks 
+
 ### 4. Start a new folder for the load case
 
 Copy `Kroell_1971-Front-hub-impact` as a template for the subdirectories and Jupyter notebook. 
 Rename the folder and Jupyter notebook as `Author_YYYY-Load-case-keywords`. 
 `Author-YYYY` specifies the validation experiment to reflect the publication of the experimental study. 
+
+#### Setting up a new simulations
+
+Setup your simulations within the `dyna` subdirectory. Using LS-Dyna `*INCLUDE`, access the models in `vivaplus` or `submodels` directories in the root of the repository.
+
+
 
 ## **Postprocessing your simulations**
 
@@ -101,11 +138,11 @@ If you have not previously setup an environment, follow the steps below to setup
     ```
 
 
-??? info "Why we use environments"
+    !!! info "Why we use environments"
 
-    By having a separate working environment on your system for running the validation notebooks, you can ensure that you are postprocessing using the same versions of libraries as the rest of the VIVA+ contributors. This minimizes the risk of runtime errors and makes it easy to integrate your validation notebook with the main validation catalog.
+        By having a separate working environment on your system for running the validation notebooks, you can ensure that you are postprocessing using the same versions of libraries as the rest of the VIVA+ contributors. This minimizes the risk of runtime errors and makes it easy to integrate your validation notebook with the main validation catalog.
 
-??? tip "Note to Windows Users"
+??? tip "A tip for Windows Users"
 
     - Conda environments can be accessed from other Windows CLI (Powershell/Windows Terminal). To do so, do a one time initialization using `conda init powershell` 
     - All these work on Windows Subsystem for Linux (WSL) too. You will need to have a separate Anaconda installation for WSL. 
@@ -113,7 +150,7 @@ If you have not previously setup an environment, follow the steps below to setup
 
 ### 6. Starting Jupyter
 
-We recommend JupyterLab as IDE (Integrated Development Environment) for Jupyter notebooks. Start JupyterLab by using this command within your conda environment 
+We recommend JupyterLab as IDE (Integrated Development Environment) for setting up the validation catalog Jupyter notebooks. Start JupyterLab by using this command within your conda environment 
 
 ```
 jupyter lab 
@@ -123,7 +160,7 @@ jupyter lab
 
     Other IDEs like VSCode also provides support for Jupyter notebook. But they may not have some features we require for the Validation Catalog, like editing cell tags.
 
-### 7. Using Dynasaur to postprocess
+### 7. Postprocessing with Dynasaur
 
 Adjust the links to the binouts and make the necessary figures to describe the response of the models in the loadcase. Add descriptions of the experiments and comments as necessary about the simulations.
 
@@ -143,14 +180,12 @@ On JupyterLab, the cell tags can be edited under the menu on the top right with 
 - `hide-output`: Hide the output of the cell
 - `hide-cell`: Hide both the input and the output of the cell
 
-### 9. Submit Merge Request
+### 9. Ready to Merge
 
-Checklist
-
-- [ ] Update the README within the validation folder with a brief description of the load case and the information needed by a new user to find the simulation files, outputs, and results.
-- [ ] Review
-
+When you are ready with your load case, inform the maintainers ready by clicking the `Mark as Ready` on the top left when you open your Merge request.
 
 <!-- TODO: (Jobin) Update checklist -->
 
 ### 10. Validation notebook review
+
+The VIVA+ maintainers will review your contribution and merge your load case to the validation catalog. 

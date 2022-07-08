@@ -50,7 +50,7 @@ nav:
         #- 'Merging your contributions': 'contributor-guide/50-merge-guidelines.md'
         #- 'Making model releases': 'contributor-guide/60-model-release.md'
         - 'Documentation Guidelines': 'contributor-guide/70-documentation-guidelines.md'
-        - 'Validation Catalog': 'contributor-guide/80-validation-catalog.md'
+        - 'Validation Catalog': 'contributor-guide/validation-catalog.md'
         #- 'Toolkit': 'contributor-guide/95-toolkit.md'
 
 # Configuration
@@ -75,9 +75,9 @@ theme:
         logo: material/walk
         repo: fontawesome/brands/git-alt
         # Find more at https://material.io/resources/icons/
-    font:
-        text: Heeba
-        code: Roboto Mono
+    # font:
+    #     text: Heeba
+    #     code: Roboto Mono
     favicon: 'images/favicon.ico'
 
 # Extensions
