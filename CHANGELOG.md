@@ -12,7 +12,7 @@ and this project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.ht
 ### Added
 
 - New output definitions for Mid-sternum and occipital condyles
-
+- Positioned Cyclist models added on 2022-07-08
 
 ## 0.3.1 - 2022-04-29
 ### Added

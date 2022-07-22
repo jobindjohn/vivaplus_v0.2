@@ -28,18 +28,29 @@ $9614;.023529412224889;1.;
 *KEYWORD
 $ANSA_ID;206;
 *DATABASE_HISTORY_SHELL_SET
-     20000     40000     60000
+$$NE_Vetrtebrae-cortical-bones
+$     20000     
+$TX_Cortical_Bones
+     40000
+$PE_Pelvis-cortical-bone
+     60000
 $ANSA_ID;207;
 *DATABASE_HISTORY_SOLID_SET
-     30001     70000
+$$UX_Cortical_Bone_solids
+$     30001     
+$LX_Cortical_Bones
+     70000
 $ANSA_ID;208;
 *DATABASE_HISTORY_DISCRETE_SET
+$LX_Knee-Ligaments
      70001
 $ANSA_ID;205000;
 *DATABASE_HISTORY_BEAM_SET
+$NE-force_output
     205000
 $ANSA_ID;404001;
 *DATABASE_HISTORY_BEAM_SET
+$TX-Spine_force_output
     404001
 *SET_SHELL_GENERAL_TITLE
 NE_Vetrtebrae-cortical-bones

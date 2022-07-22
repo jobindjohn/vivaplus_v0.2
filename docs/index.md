@@ -50,7 +50,7 @@ This documentation provides technical reference, tutorials, how-to guides for th
 How can you contribute?
 
 -  **Report issues/errors** in the model
-- Join the **users' community**: learn, find help and give help! [![project chat](https://img.shields.io/badge/zulip-join_chat-brightgreen.svg)](https://vivaplus.zulipchat.com)
+- Join the **users' community**: learn, find help and join the conversation! [![project chat](https://img.shields.io/badge/zulip-join_chat-brightgreen.svg)](https://vivaplus.zulipchat.com)
 - Run **model validation** cases
 - Would you like to try a different **material model** for a component?
 - Propose **new features** for the model!
@@ -68,6 +68,24 @@ VIVA+ Human Body Models are Open Source with LGPL v3 license, which means the mo
 **Documentation and Validation Catalog**
 
 The documentation and validation catalogues are licensed under a **Creative Commons Attribution 4.0** International License [![](https://i.creativecommons.org/l/by/4.0/80x15.png)](http://creativecommons.org/licenses/by/4.0/)
+
+## How to cite
+
+If you use the models or simulations, cite as
+
+John, J., Klug, C., Kranjec, M., Svenning, E., & Iraeus, J., Frontiers in Bioengineering and Biotechnology (2022). Hello, World! VIVA+: A Human Body Model lineup to evaluate Sex-Differences in Crash Protection.
+
+```
+@Article{John2022,
+  AUTHOR = {John, Jobin and Klug, Corina and Kranjec, Matej and Svenning, Erik and Iraeus, Johan},   
+  TITLE = {Hello, world! VIVA+: A human body model lineup to evaluate sex-differences in crash protection},      
+  JOURNAL = {Frontiers in Bioengineering and Biotechnology},      
+  VOLUME = {10},           
+  YEAR = {2022},        
+  URL = {https://www.frontiersin.org/articles/10.3389/fbioe.2022.918904},       
+  DOI = {10.3389/fbioe.2022.918904}, 
+}
+```
 
 ## Acknowledgements
 

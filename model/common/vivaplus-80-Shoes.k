@@ -48,6 +48,9 @@ $
 $*INCLUDE
 $vivaplus-82-Shoes-50F_standing_nodes.k
 $
+*CONTROL_HOURGLASS
+$#     ihq        qh
+         3  0.100000
 *PART
 $#                                                                       HEADING
 Sole_outer_left
@@ -84,7 +87,7 @@ $#     PID     SECID       MID     EOSID      HGID      GRAV    ADPOPT      TMID
          4         4         4         0         0         0         0         0
 *SECTION_SHELL
 $#   SECID    ELFORM      SHRF       NIP     PROPT   QR/IRID     ICOMP
-         4         2  0.833333        0.        0.        0.         0
+         4         2  0.833333        3.        0.        0.         0
 $#      T1        T2        T3        T4      NLOC     MAREA
         1.        1.        1.        1.        0.        0.
 *PART
@@ -94,7 +97,7 @@ $#     PID     SECID       MID     EOSID      HGID      GRAV    ADPOPT      TMID
          5         5         5         0         0         0         0         0
 *SECTION_SHELL
 $#   SECID    ELFORM      SHRF       NIP     PROPT   QR/IRID     ICOMP
-         5         2  0.833333        0.        0.        0.         0
+         5         2  0.833333        3.        0.        0.         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|
 $#      T1        T2        T3        T4      NLOC     MAREA
         1.        1.        1.        1.        0.        0.
@@ -136,7 +139,7 @@ $#     PID     SECID       MID     EOSID      HGID      GRAV    ADPOPT      TMID
          9         9         4         0         0         0         0         0
 *SECTION_SHELL
 $#   SECID    ELFORM      SHRF       NIP     PROPT   QR/IRID     ICOMP
-         9         2  0.833333        0.        0.        0.         0
+         9         2  0.833333        3.        0.        0.         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|
 $#      T1        T2        T3        T4      NLOC     MAREA
         1.        1.        1.        1.        0.        0.
@@ -147,7 +150,7 @@ $#     PID     SECID       MID     EOSID      HGID      GRAV    ADPOPT      TMID
         10        10         5         0         0         0         0         0
 *SECTION_SHELL
 $#   SECID    ELFORM      SHRF       NIP     PROPT   QR/IRID     ICOMP
-        10         2  0.833333        0.        0.        0.         0
+        10         2  0.833333        3.        0.        0.         0
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|
 $#      T1        T2        T3        T4      NLOC     MAREA
         1.        1.        1.        1.        0.        0.
@@ -170,12 +173,12 @@ $#     MID        RO         E        PR        DA        DB
 $#                                                                         TITLE
 Fabric_outer
 $#     MID        RO         E        PR        DA        DB
-         4    2.3E-6   0.01176      0.35        0.        0.
+         4    2.3E-6   0.01176      0.30        0.        0.
 *MAT_ELASTIC_TITLE
 $#                                                                         TITLE
 Fabric_inner
 $#     MID        RO         E        PR        DA        DB
-         5    2.3E-6   0.01176      0.35        0.        0.
+         5    2.3E-6   0.01176      0.30        0.        0.
 *SET_PART_LIST
 $#     SID       DA1       DA2       DA3       DA4    SOLVER
          1        0.        0.        0.        0.          
@@ -196,6 +199,13 @@ $#     SID       DA1       DA2       DA3       DA4    SOLVER
          4        0.        0.        0.        0.          
 $#    PID1      PID2      PID3      PID4      PID5      PID6
       PART         3         4         5         8         9        10 
+*SET_PART_LIST
+$#     SID       DA1       DA2       DA3       DA4    SOLVER
+         5        0.        0.        0.        0.          
+$#    PID1      PID2
+         4         5         9        10  
+*DAMPING_PART_STIFFNESS_SET
+         5       0.5         
 $-------------------------------------------------------------------------------
 $ Contacts
 $-------------------------------------------------------------------------------

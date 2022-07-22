@@ -1018,6 +1018,326 @@
    			"name": "AB-L4-L5-MP",
    			"id": [5091055]
    		},
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-MCL-L_11",
+            "id": [7124554]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-MCL-L_12",
+            "id": [7191397]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-MCL-L_21",
+            "id": [7103375]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-MCL-L_22",
+            "id": [7203367]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-MCL-L_31",
+            "id": [7188056]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-MCL-L_32",
+            "id": [7172393]
+        },
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-MCL-L_41",
+            "id": [7188055]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-MCL-L_42",
+            "id": [7172392]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-LCL-L_11",
+            "id": [7111907]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-LCL-L_12",
+            "id": [7209056]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-LCL-L_21",
+            "id": [7111903]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-LCL-L_22",
+            "id": [7209057]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-LCL-L_31",
+            "id": [7111899]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-LCL-L_32",
+            "id": [7176172]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-LCL-L_41",
+            "id": [7111999]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-LCL-L_42",
+            "id": [7196236]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-aACL-L_1",
+            "id": [7115089]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-aACL-L_2",
+            "id": [7196202]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-pACL-L_1",
+            "id": [7115089]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-pACL-L_2",
+            "id": [7196202]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-aPCL-L_1",
+            "id": [7170572]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-aPCL-L_2",
+            "id": [7131568]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-pPCL-L_1",
+            "id": [7170572]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-pPCL-L_2",
+            "id": [7131568]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-PL-L_11",
+            "id": [7119216]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-PL-L_12",
+            "id": [7185148]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-PL-L_21",
+            "id": [7115378]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-PL-L_22",
+            "id": [7185154]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-PL-L_31",
+            "id": [7116360]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-PL-L_32",
+            "id": [7249103]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-PL-L_41",
+            "id": [7116362]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-PL-L_42",
+            "id": [7249107]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-MCL-R_11",
+            "id": [7624554]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-MCL-R_12",
+            "id": [7691397]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-MCL-R_21",
+            "id": [7603375]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-MCL-R_22",
+            "id": [7703367]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-MCL-R_31",
+            "id": [7688056]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-MCL-R_32",
+            "id": [7672393]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-MCL-R_41",
+            "id": [7688055]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-MCL-R_42",
+            "id": [7672392]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-LCL-R_11",
+            "id": [7611907]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-LCL-R_12",
+            "id": [7709056]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-LCL-R_21",
+            "id": [7611903]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-LCL-R_22",
+            "id": [7709057]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-LCL-R_31",
+            "id": [7611899]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-LCL-R_32",
+            "id": [7676172]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-LCL-R_41",
+            "id": [7611999]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-LCL-R_42",
+            "id": [7696236]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-aACL-R_1",
+            "id": [7615089]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-aACL-R_2",
+            "id": [7696202]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-pACL-R_1",
+            "id": [7615089]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-pACL-R_2",
+            "id": [7696202]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-aPCL-R_1",
+            "id": [7670572]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-aPCL-R_2",
+            "id": [7631568]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-pPCL-R_1",
+            "id": [7670572]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-pPCL-R_2",
+            "id": [7631568]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-PL-R_11",
+            "id": [7619216]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-PL-R_12",
+            "id": [7685148]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-PL-R_21",
+            "id": [7615378]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-PL-R_22",
+            "id": [7685154]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-PL-R_31",
+            "id": [7616360]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-PL-R_32",
+            "id": [7749103]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-PL-R_41",
+            "id": [7616362]
+        }, 
+        {
+            "type": "NODE",
+            "name": "LX-Knee-Ligament-PL-R_42",
+            "id": [7749107]
+        },
 
    		{
    			"type": "OBJECT",
@@ -1576,9 +1896,49 @@
         },
         {
             "type": "DISCRETE",
+             "name": "LX-Knee-Ligament-MCL-L_1",
+             "id": [7274033]
+        },
+        {
+            "type": "DISCRETE",
+             "name": "LX-Knee-Ligament-MCL-L_2",
+             "id": [7274034]
+        },
+        {
+            "type": "DISCRETE",
+             "name": "LX-Knee-Ligament-MCL-L_3",
+             "id": [7274035]
+        },
+        {
+            "type": "DISCRETE",
+             "name": "LX-Knee-Ligament-MCL-L_4",
+             "id": [7274036]
+        },        
+        {
+            "type": "DISCRETE",
              "name": "LX-Knee-Ligament-LCL-L",
              "id": [7274037, 7274038, 7274039, 7274040]
         },
+        {
+            "type": "DISCRETE",
+             "name": "LX-Knee-Ligament-LCL-L_1",
+             "id": [7274037]
+        },
+        {
+            "type": "DISCRETE",
+             "name": "LX-Knee-Ligament-LCL-L_2",
+             "id": [7274038]
+        },
+        {
+            "type": "DISCRETE",
+             "name": "LX-Knee-Ligament-LCL-L_3",
+             "id": [7274039]
+        },
+        {
+            "type": "DISCRETE",
+             "name": "LX-Knee-Ligament-LCL-L_4",
+             "id": [7274040]
+        },        
         {
             "type": "DISCRETE",
              "name": "LX-Knee-Ligament-aACL-L",
@@ -1606,14 +1966,74 @@
         }, 
         {
             "type": "DISCRETE",
+             "name": "LX-Knee-Ligament-PL-L_1",
+             "id": [7274045]
+        },
+        {
+            "type": "DISCRETE",
+             "name": "LX-Knee-Ligament-PL-L_2",
+             "id": [7274046]
+        },
+        {
+            "type": "DISCRETE",
+             "name": "LX-Knee-Ligament-PL-L_3",
+             "id": [7274047]
+        },
+        {
+            "type": "DISCRETE",
+             "name": "LX-Knee-Ligament-PL-L_4",
+             "id": [7274048]
+        },        
+        {
+            "type": "DISCRETE",
              "name": "LX-Knee-Ligament-MCL-R",
              "id": [7287594, 7287595, 7287596, 7287597]
+        }, 
+        {
+            "type": "DISCRETE",
+             "name": "LX-Knee-Ligament-MCL-R_1",
+             "id": [7287594]
         },  
+        {
+            "type": "DISCRETE",
+             "name": "LX-Knee-Ligament-MCL-R_2",
+             "id": [7287595]
+        },  
+        {
+            "type": "DISCRETE",
+             "name": "LX-Knee-Ligament-MCL-R_3",
+             "id": [7287596]
+        },  
+        {
+            "type": "DISCRETE",
+             "name": "LX-Knee-Ligament-MCL-R_4",
+             "id": [7287597]
+        },          
         {
             "type": "DISCRETE",
              "name": "LX-Knee-Ligament-LCL-R",
              "id": [7287598, 7287599, 7287600, 7287601]
         },
+        {
+            "type": "DISCRETE",
+             "name": "LX-Knee-Ligament-LCL-R_1",
+             "id": [7287598]
+        },
+        {
+            "type": "DISCRETE",
+             "name": "LX-Knee-Ligament-LCL-R_2",
+             "id": [7287599]
+        },
+        {
+            "type": "DISCRETE",
+             "name": "LX-Knee-Ligament-LCL-R_3",
+             "id": [7287600]
+        },
+        {
+            "type": "DISCRETE",
+             "name": "LX-Knee-Ligament-LCL-R_4",
+             "id": [7287601]
+        },        
         {
             "type": "DISCRETE",
              "name": "LX-Knee-Ligament-aACL-R",
@@ -1638,6 +2058,26 @@
             "type": "DISCRETE",
              "name": "LX-Knee-Ligament-PL-R",
              "id": [7287606, 7287607, 7287608, 7287609]
+        }, 
+        {
+            "type": "DISCRETE",
+             "name": "LX-Knee-Ligament-PL-R_1",
+             "id": [7287606]
+        }, 
+        {
+            "type": "DISCRETE",
+             "name": "LX-Knee-Ligament-PL-R_2",
+             "id": [7287607]
+        }, 
+        {
+            "type": "DISCRETE",
+             "name": "LX-Knee-Ligament-PL-R_3",
+             "id": [7287608]
+        }, 
+        {
+            "type": "DISCRETE",
+             "name": "LX-Knee-Ligament-PL-R_4",
+             "id": [7287609]
         }        
    	]
    }
