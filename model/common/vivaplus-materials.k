@@ -1848,10 +1848,20 @@ $GI       |GI       |    VFLAG|
 PE-Pelvic_Cavity_nulls
 $      MID|       RO|       PC|       MU|    TEROD|    CEROD|       YM|       PR|
     605009     1.E-6        0.        0.        0.        0.     0.001       0.3
-*MAT_ELASTIC_TITLE
+*MAT_FABRIC_TITLE
 PE_Pelvis_floor_muscle_Myer_1998
-$      MID|       RO|        E|       PR|       DA|       DB|        K|
-    606008     1.E-6     0.001       0.4        0.        0.        0.
+$      MID|       RO|       EA|       EB|         |     PRBA|     PRCA|
+    606008     1.E-6     0.001     0.001                0.49          
+$      GAB|                   |      CSE|       EL|      PRL|   LRATIO|     DAMP|
+        0.                            1.     1.E-6      0.49      0.05      0.05
+$     AOPT|      FLC|      FAC|      ELA|     LNRC|     FORM|    FVOPT|   TSRFAC|
+       0.0                            0.       0.0      14.0                    
+$         |   RGBRTH|    A0REF|                             |       X0|       X1|
+                  0.                                                            
+$                                                           |     BETA|   ISREFG|
+                                                                                
+$      LCA|      LCB|     LCAB|     LCUA|     LCUB|    LCUAB|       RL|
+    606008    606008                                                  
 *MAT_NULL_TITLE
 PE-Soft_Tissues_Internal_nulls
 $      MID|       RO|       PC|       MU|    TEROD|    CEROD|       YM|       PR|
@@ -9391,6 +9401,14 @@ DEFINE_CURVE_3501503
             0.331613             21.0064
             0.349066              24.268
 $ANSA_ID;1;
+*DEFINE_CURVE_TITLE
+Muscle_Myer_1998
+    606008         0        1.     0.001        0.        0.        -2         0
+                  0.                  0.
+             0.04919               9.615
+             0.09522               50.93
+              0.1487                114.
+              0.1965               196.5
 *DAMPING_PART_STIFFNESS_SET
     903004      0.05
 *SET_PART_TITLE
