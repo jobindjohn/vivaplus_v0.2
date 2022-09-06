@@ -431,7 +431,7 @@ $       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
 *SECTION_SHELL_TITLE
 PE_Soft_Tissues_Pelvis_floor-L
 $    SECID|   ELFORM|     SHRF|      NIP|    PROPT|  QR/IRID|    ICOMP|
-    666004         9   0.83333        1.        1.         0         1
+    656004         9   0.83333        1.        1.         0         1
 $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET|
        7.2       7.2       7.2       7.2        0.                  0.          
 $       B1|       B2|
