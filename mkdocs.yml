@@ -17,6 +17,7 @@ nav:
         # - Getting started: index.md
         #- VIVA+ Models overview: getting-started/10-model-overview.md
         #- FAQ: getting-started/FAQ
+    - about.md
     - Model Documentation:
         - VIVA+ Models: 'model/intro.md'
         - Validation: 'model/validation.md'
