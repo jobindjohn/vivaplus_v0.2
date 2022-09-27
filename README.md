@@ -41,21 +41,6 @@ The documentation is available at <https://vivaplus.readthedocs.io/>
 
 Questions? Join the conversation at **users' community** [![project chat](https://img.shields.io/badge/zulip-join_chat-brightgreen.svg)](https://vivaplus.zulipchat.com)
 
-## How to Cite
-
-If you use the models, please cite as:
-
-John, J., Klug, C., Kranjec, M., Svenning, E., & Iraeus, J., Frontiers in in Bioengineering and Biotechnology (2022). Hello, World! VIVA+: A Human Body Model lineup to evaluate Sex-Differences in Crash Protection.
-
-```
-@Article{John2022,
-  author  = {Jobin John and Corina Klug and Matej Kranjec and Erik Svenning and Johan Iraeus},
-  journal = {Frontiers in in Bioengineering and Biotechnology},
-  title   = {Hello, World! VIVA+: A Human Body Model lineup to evaluate Sex-Differences in Crash Protection},
-  year    = {2022},
-}
-```
-
 ## How to cite
 
 If you use the models or simulations, cite as
