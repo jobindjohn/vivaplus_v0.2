@@ -99,7 +99,7 @@ $       B1|       B2|
 *PART
 HE-Oral_Cavity
 $      PID|    SECID|      MID|    EOSID|     HGID|     GRAV|   ADPOPT|     TMID|
-    103003    103003    103003              900001         0         0          
+    103003    103003    103001              900001         0         0          
 *SECTION_SOLID_TITLE
 HE-Oral_Cavity
 $    SECID|   ELFORM|
