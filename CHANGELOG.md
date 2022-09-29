@@ -7,14 +7,21 @@ and this project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.ht
 
 # beta  versions
 
+## 0.3.2a - 2022-08-11
+
+### Modified
+
+- Temporary changes in pelvic floor and oral cavity for robustness
 
 ## 0.3.2 - 2022-05-16
+
 ### Added
 
 - New output definitions for Mid-sternum and occipital condyles
 - Positioned Cyclist models added on 2022-07-08
 
 ## 0.3.1 - 2022-04-29
+
 ### Added
 
 - New PIDs (403603, 453603)at the junction between the costal cartilage and ribs plus at the junction of the posterior rigid ribs and the ribs (PIDs 403604, 453604) - to improve post processing of ribs
@@ -27,6 +34,7 @@ and this project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.ht
   - Move nodes in soft tissue to work with new contact definitions
 
 ## 0.3.0rc4 - 2022-03-03
+
 ### Added
 
 - Pedestrian Postures
