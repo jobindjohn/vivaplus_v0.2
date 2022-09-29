@@ -111,8 +111,7 @@ Tension parameters described in the same publication:
 
 ### Carpals, Metacarpals, and Phalanges
 
-!!! warning "These updates will be released in v0.3.0"
-    
+   
 
 The geometry for the bones in the VIVA 50F wrist and hand is from the [PIPER Reference Model](https://gitlab.inria.fr/piper/misc_models/-/tree/master/registration_reference_model/22_REF_LTE635_Assembly). It corresponds to anthropometry of female with height 1610mm, mass 57kg, and age 56 years.
 
