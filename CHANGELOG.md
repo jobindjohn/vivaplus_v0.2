@@ -7,6 +7,14 @@ and this project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.ht
 
 # beta  versions
 
+## 0.3.3 - 2022-09-08
+
+### Modified
+
+- Updates to Pelvic Floor for stability
+  - material changed from `MAT_ELASTIC` to `MAT_FABRIC`
+  - `ELFORM` changed from 16 to 9 on `SECID` 606004 and symmetry
+
 ## 0.3.2a - 2022-08-11
 
 ### Modified
