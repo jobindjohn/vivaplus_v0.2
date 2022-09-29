@@ -225,7 +225,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART_CONTACT
 PE_Soft_Tissues_Pelvis_floor-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    606004    606004    606008                             0         0          
+    606004    606004    100000                             0         0          
 $       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
                                                 1.                    
 *SECTION_SHELL_TITLE
@@ -425,7 +425,7 @@ $       T1|       T2|       T3|       T4|     NLOC|    MAREA|     IDOF|   EDGSET
 *PART_CONTACT
 PE_Soft_Tissues_Pelvis_floor-L
 $      PID|    SECID|      MID|         |     HGID|     GRAV|   ADPOPT|     TMID|
-    656004    656004    606008                             0         0          
+    656004    656004    100000                             0         0          
 $       FS|       FD|       DC|       VC|     OPTT|      SFT|      SSF|
                                                 1.                    
 *SECTION_SHELL_TITLE
