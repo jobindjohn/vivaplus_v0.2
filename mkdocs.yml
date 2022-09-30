@@ -44,10 +44,11 @@ nav:
     - Contributor Handbook:
         - 'How to Contribute': 'contributor-handbook/00-contribute-to-VIVA.md'
         - 'Contributing to a Repo': 'contributor-handbook/contributing-to-repo.md'
+        - Contribution License Agreement (CLA) FAQ : contributor-handbook/cla.md
         - Release Guidelines: contributor-handbook/release-guidelines.md
         # - 'Git Basics': 'contributor-handbook/22-git-basics.md'
         #- 'More Git Functions': contributor-handbook/25-more-git-functions.md
-        - 'Git Resources': contributor-handbook/29-git-resources.md
+        # - 'Git Resources': contributor-handbook/29-git-resources.md
         #- 'Merging your contributions': 'contributor-handbook/50-merge-guidelines.md'
         #- 'Making model releases': 'contributor-handbook/60-model-release.md'
         - 'Documentation Guidelines': 'contributor-handbook/70-documentation-guidelines.md'
