@@ -1,6 +1,6 @@
-# **VIVA+ Git Workflow**
+# Contributing to the Git Repositories
 
-This section gives an overview of the workflow we follow for collaborative development of VIVA+ Models.
+The VIVA+ models and associated resources (validation catalog, robustness tests, etc) are maintained on git repositories. You will find step-by-step instructions on how to bring in your contribution into the VIVA+ repositories on this page. 
 
 <!--- 
 If you are new to git Workflow, you can find a brief introduction in the [Git Basics](../22-git-basics).
