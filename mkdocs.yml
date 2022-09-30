@@ -44,6 +44,7 @@ nav:
     - Contributor Handbook:
         - 'How to Contribute': 'contributor-handbook/00-contribute-to-VIVA.md'
         - 'Contributing to a Repo': 'contributor-handbook/contributing-to-repo.md'
+        - Release Guidelines: contributor-handbook/release-guidelines.md
         # - 'Git Basics': 'contributor-handbook/22-git-basics.md'
         #- 'More Git Functions': contributor-handbook/25-more-git-functions.md
         - 'Git Resources': contributor-handbook/29-git-resources.md
