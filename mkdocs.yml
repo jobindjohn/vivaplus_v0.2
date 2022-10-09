@@ -17,9 +17,12 @@ nav:
         # - Getting started: index.md
         #- VIVA+ Models overview: getting-started/10-model-overview.md
         #- FAQ: getting-started/FAQ
-    - about.md
+    - About
+        - About: about.md
+        - Free and Open: open-source.md
+        - Community: community.md
     - Model Documentation:
-        - VIVA+ Models: 'model/intro.md'
+        - Model Design: 'model/intro.md'
         - Validation: 'model/validation.md'
         - Injury assessment: 'model/injury-assessment.md'
         - Publications: 'model/publications.md'

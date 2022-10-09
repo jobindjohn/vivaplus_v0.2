@@ -1,11 +1,9 @@
 ---
 bibliography: [../../viva-refs.bib]
 ---
-# **VIVA+ Models**
+# Model Design
 
-The VIVA+ model line-up consists of average female and male models of vehicle occupants and standing road users.
 
-The baseline model is the average female (50F). All the other models are derivatives of this model. The derivatives have the same elements, but with different nodal coordinates.
 
 ## Model workflow
  
