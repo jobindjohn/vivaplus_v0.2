@@ -1,4 +1,4 @@
-# VIVA+ community
+# Contributors
 
 ## VIVA+ Maintainer Team
 
@@ -26,6 +26,7 @@ In addition to the core maintainers,
 
 
 ## Contributors
+
 ### Model Development 
 
  | Contributor   | Contribution                             |

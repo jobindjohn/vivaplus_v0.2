@@ -17,9 +17,14 @@ The derivatives have the same elements, but with different nodal coordinates.
 
 VIVA+ Maintainer Team. Release workflow
 
-All our models tests and validations are openly to encourage reproducibility and replicability.
+All our models tests and validations are openly available. This will enable anyone to test VIVA+ on their computing platforms to test reproducibility of the models and its validation. We also believe this will allow encourage replicability evaluations among the different available HBMs, increasing our collective confidence in model predictions and use of simulations in the future.
 
 
+  - What do we do before the release?
+    - Quality checks
+    - Robustness Checks
+    - Validation Catalog
+  
 ### Is it really free? Can I modify the models as I need?
 
 As you need in your research and applications. Free to use as you need
@@ -35,16 +40,12 @@ As you need in your research and applications. Free to use as you need
 
 The VIVA+ models will have stable releases two times a year (planned for March and October)
 
-  - What do we do before the release?
-    - Quality checks
-    - Robustness Checks
-    - Validation Catalog
-
-
-### Quality checks and Validation
 
 
 ## Projects
+
+See Datalad
+
 
 | Project | Funded by |
 |---------|-----------|

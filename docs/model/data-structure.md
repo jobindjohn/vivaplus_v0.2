@@ -1,13 +1,9 @@
 # Model Data Structure
 
-The goal is to structure all the model data in such a way that it enables
-collaborative development of the model, which is one of the motivations of having
-an open model.
-To facilitate this, we try to have identifiers of model data to be persistent (does not change over time) and
-unique (no mismatches or clashes).
+The goal is to structure  model data  such that it enables collaborative development of the model, which is one of the motivations of having an open model.
+To facilitate this, we try to have identifiers of model data to be persistent (does not change over time) and unique (no mismatches or clashes).
 
-A brief overview of identifier numbering scheme for the model parts and include
-file structuring of the model data is given below.
+A brief overview of identifier numbering scheme for the model parts and include file structuring of the model data is given below.
 
 ## Identifiers
 
@@ -20,14 +16,10 @@ The primary identifier for any model data (part, section, material definition,
 **A generalized identifier reference is given in each section corresponding
 to the body regions/components.** An overview of the numbering scheme is given below.
 
-<!-- !!! Tip "Identifiers: Just look 'em up!"
-    > "Never memorize something that you can look up"
-
-    > [Albert Einstein](https://quoteinvestigator.com/2012/04/02/know-where-to-find/) -->
-
 ### Body regions
 
 The whole body is segmented into seven regions to define the body region identifiers.
+
 
 | **Identifier** | **Body Region**   |
 |---------------:|-------------------|

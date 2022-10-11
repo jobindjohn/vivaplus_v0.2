@@ -1,9 +1,6 @@
 # **Contributing to VIVA+**
 
-!!! warning "This section of the documentation is under development"
-    
-    Contents in this section will be updated to provide more details
-        
+       
 
 ## Bug/crash reports
 
@@ -13,6 +10,12 @@
 
 ## Model Documentation
 
+
+!!! warning "This section of the documentation is under development"
+    
+    Contents in this section will be updated to provide more details
+
+    
 <!--- Do you think something can be explained better in the documentation?
 You are welcome to edit the VIVA+ documentation!
 

@@ -1,3 +1,9 @@
+---
+hide:
+  - navigation
+  - toc
+---
+
 <center>**Open Finite Element Models of Human Body for Injury Assessments**</center>
 
 ![viva-plus-logo](images/vivaplus-docs-homepage-logo.png)

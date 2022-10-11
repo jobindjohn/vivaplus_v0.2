@@ -1,4 +1,4 @@
-# Free and Open Source Models
+# Open Science
 
 ## Open Source
 
@@ -9,3 +9,7 @@ https://opensource.org/about
 
 
 Open Source creates symbiotic relationships where the best ideas win.
+
+See Julia
+
+## Reproducibility and Replicability

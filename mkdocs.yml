@@ -17,12 +17,12 @@ nav:
         # - Getting started: index.md
         #- VIVA+ Models overview: getting-started/10-model-overview.md
         #- FAQ: getting-started/FAQ
-    - About
-        - About: about.md
-        - Free and Open: open-source.md
-        - Community: community.md
+    - About:
+        - about/index.md
+        - about/open-source.md
+        - about/contributors.md
     - Model Documentation:
-        - Model Design: 'model/intro.md'
+        - 'model/index.md'
         - Validation: 'model/validation.md'
         - Injury assessment: 'model/injury-assessment.md'
         - Publications: 'model/publications.md'
@@ -46,7 +46,7 @@ nav:
         - Positioning with PIPER: user-guide/70-positioning-with-PIPER.md
     #    - LS-Dyna Quick Reference: user-guide/80-lsdyna-ref.md
     - Contributor Handbook:
-        - 'How to Contribute': 'contributor-guide/00-contribute-to-VIVA.md'
+        - 'contributor-guide/index.md'
         - 'VIVA+ Git Workflow': 'contributor-guide/20-viva-git-workflow.md'
         # - 'Git Basics': 'contributor-guide/22-git-basics.md'
         #- 'More Git Functions': contributor-guide/25-more-git-functions.md
@@ -74,6 +74,12 @@ theme:
         #     name: Switch to light mode
     features:
       - tabs
+      - navigation.tabs
+      - navigation.indexes
+      - navigation.top
+      - navigation.tabs.sticky
+      - toc.follow
+      
     icon: #'images/VIRTUAL.png'
         #logo: fontawesome/brands/git-alt
         logo: material/walk
