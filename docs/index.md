@@ -4,47 +4,50 @@ hide:
   - toc
 ---
 
-<center>**Open Finite Element Models of Human Body for Injury Assessments**</center>
+![](images/vivaplus-docs-homepage-logo.png#center){: style="height:300px;width:950px"}
 
-![viva-plus-logo](images/vivaplus-docs-homepage-logo.png)
-
-![](model/images/vivaplus_v0.3.2.jpg#center){: style="height:500px;width:500px"}
+<h1><center>Open Source Finite Element Human Body Models </center></h1>
 
 <!-- # **Getting started** -->
 
-Welcome to the online documentation of the VIVA+ Human Body Models! 
+<section class="card-container">
 
-Here you will find information on getting started with the VIVA+ models, documentation of model implementations, and guides to make contributions to the models.
+	<div class="card">
+		<i class="fas fa-paint-brush"></i>
+		<h2><center><b>Selectively Detailed</b></center></h2>
+		<p><center> speed and robustness optimized  </center></p>
+	</div>
 
-# **Models** 
+	<div class="card">
+		<i class="fas fa-paint-brush"></i>
+		<h2><center><b>One base model</b></center></h2>
+		<p><center> many derived models  </center></p>
+	</div>
 
-### Vehicle Occupant (Seated)
+	<div class="card">
+		<i class="fas fa-paint-brush"></i>
+		<h2><center><b>Open Science</b></center></h2>
+		<p><center> Transparent and Collaborative </center></p>
+	</div>
 
-- Average female (**50F**)
-- Average male (**50M**)
+</section>
 
-### Vulnerable Road Users 
+<!-- https://gist.github.com/brwenfamily/d865f84e44fc2473205b3e2b0d7f921e -->
 
-- Average female standing (**50F-VRU**)
-- Average male standing (**50M-VRU**)
+![](model/images/vivaplus_v0.3.2.jpg#center){: style="height:350px;width:350px"}
 
-## Download the Models
+## **Quick Start** 
 
-Download from [OpenVT](https://openvt.eu/fem/viva/vivaplus)
+The models are available for download from [OpenVT](https://openvt.eu/fem/viva/vivaplus). The base model is the average female seated (50F) in `model/50F-seated` folder. `vivaplus-50F.key` is the main file.
 
-or 
-
-Clone the VIVA+ repository using git
-```
-git clone https://openvt.eu/fem/viva/vivaplus.git
-```
+You will also find other derivative models in this folder - seated male and standing versions. 
 
 ## **Documentation**
 
 This documentation provides technical reference, tutorials, how-to guides for the VIVA+ models. 
 
 - Model Documentation Section provides body region-wise information on finite element implementations. 
-- User Guide and Contributor Handbook sections provides as resources for new users and future contributors
+- User Guide and Contributor Handbook sections provides resources for users and contributors
 
 !!! warning "Work in Progress: The VIVA+ documentation is under construction"
     
