@@ -20,7 +20,7 @@ nav:
     - About:
         - about/index.md
         - about/open-source.md
-        - about/contributors.md
+        # - about/contributors.md
     - Model Documentation:
         - 'model/index.md'
         - Validation: 'model/validation.md'

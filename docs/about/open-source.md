@@ -2,7 +2,7 @@
 
 ## Open Source
 
-We believe Open Source creates symbiotic relationships where the best ideas win. Open source harnesses the power of distributed peer review and transparency of process. The promise of open source is higher quality, better reliability, and greater flexibility[^OS]. 
+Open source harnesses the power of distributed peer review and transparency of process. The promise of open source is higher quality, better reliability, and greater flexibility[^OS]. We believe Open Source creates symbiotic relationships where we can explore and implement new ideas in a collaborative way.
 
 [^OS]: https://opensource.org/about
 
@@ -14,7 +14,6 @@ The VIVA+ ecosystem is available under free and open-source licenses. Not only a
 - distribute copies of your modified versions to others[^TM]. By doing this, you can give the whole community a chance to benefit from your changes. You are also welcome to contribute back to the VIVA+ (Check with the Core Maintainer team to see if your contributions fit into the VIVA+ roadmap.)
 
 > Not only 'Gratis' but also 'Libre'!
-
 
 [^free]: The four essential freedoms as envisioned in "Free Software Definition"
 [^TM]: The VIVA+ trademark is held by OVTO. Redistributing modified version may be done under a different name.
