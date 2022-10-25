@@ -4,7 +4,7 @@ The VIVA+ models are a line-up of open source finite element models of vehicle o
 
 The baseline model is the average female (50F). All the other models are derivatives of this model. 
 
-## FAQs
+<!-- ## FAQs
 
 ### Why are there no internal organs?
 
@@ -62,4 +62,4 @@ See Datalad
 - BETA CAE
 - VAIVA
 - Open Radioss
-
+ -->
