@@ -10,7 +10,7 @@ hide:
 
 <!-- # **Getting started** -->
 
-<section class="card-container">
+<!-- <section class="card-container">
 
 	<div class="card">
 		<i class="fas fa-paint-brush"></i>
@@ -30,7 +30,7 @@ hide:
 		<p><center> Transparent and Collaborative </center></p>
 	</div>
 
-</section>
+</section> -->
 
 <!-- https://gist.github.com/brwenfamily/d865f84e44fc2473205b3e2b0d7f921e -->
 
