@@ -42,31 +42,14 @@ The models are available for download from [OpenVT](https://openvt.eu/fem/viva/v
 
 You will also find other derivative models in this folder - seated male and standing versions. 
 
-## **Documentation**
 
-This documentation provides technical reference, tutorials, how-to guides for the VIVA+ models. 
+Questions? Join the **users' community** on Zulip [![project chat](https://img.shields.io/badge/zulip-join_chat-brightgreen.svg)](https://vivaplus.zulipchat.com)
 
-- Model Documentation Section provides body region-wise information on finite element implementations. 
-- User Guide and Contributor Handbook sections provides resources for users and contributors
 
 !!! warning "Work in Progress: The VIVA+ documentation is under construction"
     
     We are in the process of writing the documentation. If you would like to 
     see specific details of the model added to the documentation, let us know by starting an [issue](https://openvt.eu/fem/viva/vivaplus/-/issues/new?issue%5Bassignee_id%5D=&issue%5Bmilestone_id%5D=) on the repo
-
-## **You are welcome to Contribute!**
-
-How can you contribute?
-
--  **Report issues/errors** in the model
-- Join the **users' community**: learn, find help and join the conversation! [![project chat](https://img.shields.io/badge/zulip-join_chat-brightgreen.svg)](https://vivaplus.zulipchat.com)
-- Run **model validation** cases
-- Would you like to try a different **material model** for a component?
-- Propose **new features** for the model!
-- Translate the model to **other Finite Element (FE) solvers**
-- Translate the documentation into **other languages**
-
-<!-- Find out more on how to be part of the VIVA+ community in CONTRIBUTING.md -->
 
 ## **License**
 
@@ -78,11 +61,10 @@ VIVA+ Human Body Models are Open Source with LGPL v3 license, which means the mo
 
 The documentation and validation catalogues are licensed under a **Creative Commons Attribution 4.0** International License [![](https://i.creativecommons.org/l/by/4.0/80x15.png)](http://creativecommons.org/licenses/by/4.0/)
 
+
 ## How to cite
 
-If you use the models or simulations, cite as
-
-John, J., Klug, C., Kranjec, M., Svenning, E., & Iraeus, J., Frontiers in Bioengineering and Biotechnology (2022). Hello, World! VIVA+: A Human Body Model lineup to evaluate Sex-Differences in Crash Protection.
+If you use the models or simulations, consider citing the [**"Hello, World!" article**](https://www.frontiersin.org/articles/10.3389/fbioe.2022.918904/full) where we introduce the VIVA+ models. 
 
 ```
 @Article{John2022,

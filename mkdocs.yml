@@ -9,7 +9,7 @@ repo_name: openvt/vivaplus
 repo_url: https://openvt.eu/fem/viva/vivaplus
 
 # Copyright
-copyright: Copyright &copy; 2019-2020 viva+ team
+copyright: Copyright &copy; 2019-2022 VIVA+ Team
 
 # Page tree
 nav:
@@ -98,7 +98,8 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.details
   - pymdownx.magiclink
-  - pymdownx.tabbed
+  - pymdownx.tabbed:
+      alternate_style: true 
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.emoji:

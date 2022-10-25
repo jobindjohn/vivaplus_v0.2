@@ -1,19 +1,18 @@
 # **Contributing to VIVA+**
 
-       
+How can you contribute?
 
-## Bug/crash reports
+-  **Report issues/errors** in the model
+- Explore **model validation** cases
+- Would you like to try a different **material model**?
+- Propose **new features** for the model!
+- Translate the model to **other Finite Element (FE) solvers**
+- Translate the documentation into **other languages**
 
-## Model Validation
+<!-- Find out more on how to be part of the VIVA+ community in CONTRIBUTING.md -->
 
-## Model Enhancements
+Join the **users' community**: learn, find help and join the conversation! [![project chat](https://img.shields.io/badge/zulip-join_chat-brightgreen.svg)](https://vivaplus.zulipchat.com)
 
-## Model Documentation
-
-
-!!! warning "This section of the documentation is under development"
-    
-    Contents in this section will be updated to provide more details
 
     
 <!--- Do you think something can be explained better in the documentation?
