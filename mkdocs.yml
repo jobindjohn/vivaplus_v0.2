@@ -17,8 +17,12 @@ nav:
         # - Getting started: index.md
         #- VIVA+ Models overview: getting-started/10-model-overview.md
         #- FAQ: getting-started/FAQ
+    - About:
+        - about/index.md
+        - about/open-source.md
+        # - about/contributors.md
     - Model Documentation:
-        - VIVA+ Models: 'model/intro.md'
+        - 'model/index.md'
         - Validation: 'model/validation.md'
         - Injury assessment: 'model/injury-assessment.md'
         - Publications: 'model/publications.md'
@@ -42,18 +46,16 @@ nav:
         - Positioning with PIPER: user-guide/70-positioning-with-PIPER.md
     #    - LS-Dyna Quick Reference: user-guide/80-lsdyna-ref.md
     - Contributor Handbook:
-        - 'How to Contribute': 'contributor-handbook/00-contribute-to-VIVA.md'
-        - 'Contributing to a Repo': 'contributor-handbook/contributing-to-repo.md'
-        - Contribution License Agreement (CLA) FAQ : contributor-handbook/cla.md
-        - Release Guidelines: contributor-handbook/release-guidelines.md
-        # - 'Git Basics': 'contributor-handbook/22-git-basics.md'
-        #- 'More Git Functions': contributor-handbook/25-more-git-functions.md
-        # - 'Git Resources': contributor-handbook/29-git-resources.md
-        #- 'Merging your contributions': 'contributor-handbook/50-merge-guidelines.md'
-        #- 'Making model releases': 'contributor-handbook/60-model-release.md'
-        - 'Documentation Guidelines': 'contributor-handbook/70-documentation-guidelines.md'
-        - 'Validation Catalog': 'contributor-handbook/validation-catalog.md'
-        #- 'Toolkit': 'contributor-handbook/95-toolkit.md'
+        - 'contributor-guide/index.md'
+        - 'VIVA+ Git Workflow': 'contributor-guide/20-viva-git-workflow.md'
+        # - 'Git Basics': 'contributor-guide/22-git-basics.md'
+        #- 'More Git Functions': contributor-guide/25-more-git-functions.md
+        - 'Git Resources': contributor-guide/29-git-resources.md
+        #- 'Merging your contributions': 'contributor-guide/50-merge-guidelines.md'
+        #- 'Making model releases': 'contributor-guide/60-model-release.md'
+        - 'Documentation Guidelines': 'contributor-guide/70-documentation-guidelines.md'
+        - 'Validation Catalog': 'contributor-guide/validation-catalog.md'
+        #- 'Toolkit': 'contributor-guide/95-toolkit.md'
 
 # Configuration
 theme:
@@ -72,6 +74,12 @@ theme:
         #     name: Switch to light mode
     features:
       - tabs
+      - navigation.tabs
+      - navigation.indexes
+      - navigation.top
+      - navigation.tabs.sticky
+      - toc.follow
+      
     icon: #'images/VIRTUAL.png'
         #logo: fontawesome/brands/git-alt
         logo: material/walk
