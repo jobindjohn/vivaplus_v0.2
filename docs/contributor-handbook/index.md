@@ -1,6 +1,6 @@
 # **Contributing to VIVA+**
 
-How can you contribute?
+Interesting in contributing? Here are some ways to become a VIVA+ contributor.
 
 -  **Report issues/errors** in the model
 - Explore **model validation** cases

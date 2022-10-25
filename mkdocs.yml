@@ -47,7 +47,6 @@ nav:
     #    - LS-Dyna Quick Reference: user-guide/80-lsdyna-ref.md
     - Contributor Handbook:
         - 'contributor-handbook/index.md'
-        #- 'VIVA+ Git Workflow': 'contributor-handbook/20-viva-git-workflow.md'
         # - 'Git Basics': 'contributor-handbook/22-git-basics.md'
         #- 'More Git Functions': contributor-handbook/25-more-git-functions.md
         #- 'Git Resources': contributor-handbook/29-git-resources.md
@@ -56,6 +55,8 @@ nav:
         - 'Documentation Guidelines': 'contributor-handbook/70-documentation-guidelines.md'
         - 'Validation Catalog': 'contributor-handbook/validation-catalog.md'
         #- 'Toolkit': 'contributor-handbook/95-toolkit.md'
+        #- 'contributor-handbook/contributing-to-repo.md'
+
 
 # Configuration
 theme:
